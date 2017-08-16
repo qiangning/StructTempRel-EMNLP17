@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0286</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Urgent: Iraq's Talabani decides to postpones Iran visit</TITLE>
+
+
+<TEXT>
+
+Iraqi President Jalal Talabani <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> that he <EVENT class="OCCURRENCE" eid="e2">decided</EVENT> to <EVENT class="I_ACTION" eid="e3">postpone</EVENT> his planned <EVENT class="OCCURRENCE" eid="e4">visit</EVENT> to Iran due to airport close under curfew in Baghdad.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

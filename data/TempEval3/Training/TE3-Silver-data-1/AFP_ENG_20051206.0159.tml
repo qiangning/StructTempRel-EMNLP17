@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0159</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-12-06" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 6 , 2005</TIMEX3></DCT>
+
+<TITLE>Dame Kelly hangs up spikes</TITLE>
+
+
+<TEXT>
+
+Double Olympic champion Kelly Holmes has <EVENT class="REPORTING" eid="e1">announced</EVENT> her retirement from athletics and will not <TIMEX3 type="DATE" value="PRESENT_REF" tid="t1">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e2">bow</EVENT> out at <TIMEX3 type="DATE" value="2006" tid="t2">next year</TIMEX3>'s Commonwealth Games in Melbourne as <EVENT class="I_STATE" eid="e3">planned</EVENT>.
+
+The 35-year-old former army sergeant <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-12-06" tid="t3">Tuesday</TIMEX3> she had been badly <EVENT class="OCCURRENCE" eid="e5">affected</EVENT> by the <EVENT class="OCCURRENCE" eid="e6">death</EVENT> of a man she <EVENT class="OCCURRENCE" eid="e7">met</EVENT> while <EVENT class="OCCURRENCE" eid="e8">visiting</EVENT> her physiotherapist in Ireland.
+
+And she <EVENT class="OCCURRENCE" eid="e9">admitted</EVENT> she <EVENT class="OCCURRENCE" eid="e10">lacked</EVENT> the motivation to <EVENT class="ASPECTUAL" eid="e11">continue</EVENT> in the sport after <EVENT class="OCCURRENCE" eid="e12">winning</EVENT> gold in the 800 metres and 1,500m in Athens <TIMEX3 type="DATE" value="2004" tid="t4">last year</TIMEX3>.
+
+Holmes' double gold in Athens was the highlight of a <EVENT class="OCCURRENCE" eid="e13">career</EVENT> <EVENT class="OCCURRENCE" eid="e14">peppered</EVENT> with injury and disappointment.
+
+She had <EVENT class="OCCURRENCE" eid="e15">battled</EVENT> an Achilles tendon injury to <EVENT class="OCCURRENCE" eid="e17">make</EVENT> the team for Melbourne.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

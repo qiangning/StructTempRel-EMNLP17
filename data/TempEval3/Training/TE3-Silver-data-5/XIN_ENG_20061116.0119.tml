@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0119</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st LD: White mice to test food for 2008 Beijing Olympics</TITLE>
+
+
+<TEXT>
+
+White mice will be <EVENT class="OCCURRENCE" eid="e1">used</EVENT> to <EVENT class="OCCURRENCE" eid="e2">test</EVENT> the safety of food <EVENT class="I_STATE" eid="e3">prepared</EVENT> for 2008 Olympic Games athletes, <EVENT class="REPORTING" eid="e4">say</EVENT> Beijing officials.
+
+Milk, alcohol, salad, rice, oil, salt and seasonings will be <EVENT class="OCCURRENCE" eid="e5">tested</EVENT> by white mice <TIMEX3 type="DURATION" value="PT24H" tid="t2">24 hours</TIMEX3> before being <EVENT class="OCCURRENCE" eid="e6">used</EVENT> in cooking or <EVENT class="OCCURRENCE" eid="e7">served</EVENT> to athletes, <EVENT class="REPORTING" eid="e8">said</EVENT> Zhao Xinsheng with the Beijing Municipal Health Inspection Bureau.
+
+He <EVENT class="REPORTING" eid="e9">told</EVENT> a <EVENT class="OCCURRENCE" eid="e10">meeting</EVENT> that mice would <EVENT class="OCCURRENCE" eid="e11">develop</EVENT> adverse reactions to poisoning within <TIMEX3 type="DURATION" value="PT17H" tid="t3">17 hours</TIMEX3>, quicker than test methods like bacterial cultures.
+
+Most food for athletes would be Western style, <EVENT class="OCCURRENCE" eid="e12">complemented</EVENT> by Chinese dishes, <EVENT class="REPORTING" eid="e13">said</EVENT> Zhen Xiaozhen, from the Beijing Organizing Committee of the Olympic Games medical team, at the <EVENT class="OCCURRENCE" eid="e14">meeting</EVENT> on Olympics hygiene safety.
+
+Zhao <EVENT class="REPORTING" eid="e15">said</EVENT> all the food would be securely <EVENT class="OCCURRENCE" eid="e16">stored</EVENT>, and all food <EVENT class="OCCURRENCE" eid="e17">arriving</EVENT> at the Olympic restaurants would be <EVENT class="I_ACTION" eid="e18">recorded</EVENT> by control headquarters.
+
+Moreover, food deliveries would be <EVENT class="OCCURRENCE" eid="e19">vetted</EVENT> by public security personnel and quarantine departments and <EVENT class="OCCURRENCE" eid="e20">transported</EVENT> by special vehicles and staff.
+
+The vehicles would be <EVENT class="OCCURRENCE" eid="e21">equipped</EVENT> with global positioning systems and food packages would be <EVENT class="OCCURRENCE" eid="e22">secured</EVENT> during transport, <EVENT class="REPORTING" eid="e23">said</EVENT> an official with the Beijing Municipal Public Security Bureau.
+
+Food storage areas would be <EVENT class="OCCURRENCE" eid="e24">fitted</EVENT> with alarms, video cameras and fire controls, and kitchens <EVENT class="I_ACTION" eid="e25">guarded</EVENT> around the clock.
+
+<EVENT class="ASPECTUAL" eid="e26">Starting</EVENT> <TIMEX3 type="DATE" value="2006-11" tid="t4">this month</TIMEX3>, health inspectors would <EVENT class="OCCURRENCE" eid="e27">receive</EVENT> <EVENT class="OCCURRENCE" eid="e28">training</EVENT> in Western food management and inspection techniques, <EVENT class="REPORTING" eid="e29">said</EVENT> Liang Jin with the inspection bureau.
+
+To <EVENT class="OCCURRENCE" eid="e30">ensure</EVENT> food safety, experts also <EVENT class="I_ACTION" eid="e31">suggested</EVENT> <EVENT class="OCCURRENCE" eid="e32">eliminating</EVENT> some foods from the menu for Olympic athletes to <EVENT class="I_ACTION" eid="e33">avoid</EVENT> doping problems.
+
+Yang Shumin of the China Doping Control Center <EVENT class="REPORTING" eid="e34">said</EVENT> that Olympic restaurants should not <EVENT class="OCCURRENCE" eid="e35">serve</EVENT> food such as animal livers because they might <EVENT class="OCCURRENCE" eid="e36">contain</EVENT> traces of drugs or additives <EVENT class="OCCURRENCE" eid="e37">consumed</EVENT> by the animal.
+
+Nowadays lots of fowl and livestock are <EVENT class="OCCURRENCE" eid="e38">fed</EVENT> with additives that contain blacklisted hormones, he <EVENT class="REPORTING" eid="e39">said</EVENT>, <EVENT class="OCCURRENCE" eid="e40">noting</EVENT> that athletes who accidentally <EVENT class="OCCURRENCE" eid="e41">ate</EVENT> this kind of food might <EVENT class="OCCURRENCE" eid="e42">test</EVENT> positive in anti-doping urine tests.
+
+The organizing committee should <EVENT class="OCCURRENCE" eid="e44">set</EVENT> strict standards for food suppliers regarding feed for fowls and livestock, <EVENT class="OCCURRENCE" eid="e45">banning</EVENT> them from <EVENT class="OCCURRENCE" eid="e46">using</EVENT> any additives which could <EVENT class="OCCURRENCE" eid="e47">cause</EVENT> doping problems, Yang <EVENT class="REPORTING" eid="e48">told</EVENT> a <EVENT class="OCCURRENCE" eid="e49">meeting</EVENT> on Olympic food safety in <TIMEX3 type="DATE" value="2006-07" tid="t5">July</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei48" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei39" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei48" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei44" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei38" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei39" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei39" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei39" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei34" relatedToEventInstance="ei39" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei45" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei46" relatedToEventInstance="ei48" relType="INCLUDES" />
+<TLINK lid="l44" eventInstanceID="ei47" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l57" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l59" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l60" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l61" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l62" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l63" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l64" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+
+
+
+
+</TimeML>

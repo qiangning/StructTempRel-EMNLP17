@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0168</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Israeli anti-rocket defense system decided soon</TITLE>
+
+
+<TEXT>
+
+Israeli Deputy Defense Minister Ephraim Sneh <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="TIME" value="2006-11-14TAF" tid="t1">Tuesday afternoon</TIMEX3> that Israel would <EVENT class="OCCURRENCE" eid="e2">decide</EVENT> within <TIMEX3 type="DURATION" value="PXW" tid="t2">weeks</TIMEX3> what anti-rocket defense system to <EVENT class="OCCURRENCE" eid="e3">erect</EVENT> in areas <EVENT class="OCCURRENCE" eid="e4">bordering</EVENT> the Gaza Strip, Israel's local newspaper Jerusalem Post <EVENT class="REPORTING" eid="e5">reported</EVENT> on its website.
+
+Sneh <EVENT class="REPORTING" eid="e6">said</EVENT> that the Israeli government was <EVENT class="OCCURRENCE" eid="e7">examining</EVENT> four different systems <EVENT class="OCCURRENCE" eid="e8">produced</EVENT> both in Israel and abroad, but their efficiency was as yet unproven.
+
+Sneh <EVENT class="OCCURRENCE" eid="e9">made</EVENT> the announcement hours after an Israeli civilian was critically <EVENT class="OCCURRENCE" eid="e10">wounded</EVENT> in a Qassam rocket <EVENT class="OCCURRENCE" eid="e11">hit</EVENT> on a factory in Sderot, a city in south Israel.
+
+Since <TIMEX3 type="DATE" value="2006-11-20" tid="t3">Monday</TIMEX3>, more than 25 Qassam rockets have <EVENT class="OCCURRENCE" eid="e12">landed</EVENT> in the Negev, seven in Sderot and one which <EVENT class="OCCURRENCE" eid="e13">scored</EVENT> a direct <EVENT class="OCCURRENCE" eid="e14">hit</EVENT> on a home, that <EVENT class="OCCURRENCE" eid="e15">caused</EVENT> extensive damage, in a nearby kibbutz.
+
+Meanwhile, Israel Defense Forces Chief of General Staff Lt.-Gen. Dan Halutz also <EVENT class="REPORTING" eid="e16">said</EVENT> <TIMEX3 type="DATE" value="2006-11-20" tid="t4">Monday</TIMEX3> that Israel was not "<EVENT class="OCCURRENCE" eid="e17">coming</EVENT> to terms" with Qassam rocket fire, however, he was not currently in favor of <EVENT class="ASPECTUAL" eid="e18">launching</EVENT> a massive ground <EVENT class="OCCURRENCE" eid="e19">operation</EVENT> into Gaza to <EVENT class="ASPECTUAL" eid="e20">stop</EVENT> the daily rocket <EVENT class="OCCURRENCE" eid="e21">attacks</EVENT> on towns in the western Negev.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

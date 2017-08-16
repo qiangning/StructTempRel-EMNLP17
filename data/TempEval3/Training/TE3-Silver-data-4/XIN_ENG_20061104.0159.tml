@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0159</DOCID>
+
+<DCT>HANGZHOU, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>4th Chinese private enterprise summit opens in east China</TITLE>
+
+
+<TEXT>
+
+The fourth Chinese Private Enterprise Summit, the largest of its kind in China, <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> <TIMEX3 type="DATE" value="2006-11-04" tid="t1">Saturday</TIMEX3> in east China's Zhejiang Province.
+
+More than 3,000 private entrepreneurs both at home and abroad <EVENT class="OCCURRENCE" eid="e2">attended</EVENT> the two-day <EVENT class="OCCURRENCE" eid="e3">summit</EVENT> held in Hangzhou, the provincial capital.
+
+With the theme of "Innovation, Credibility and Harmony", the summit had a series of forums on innovation, real estate development and Chinese private entrepreneurs.
+
+"Weakness in innovation and enterprise management <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e6">hinder</EVENT> the <EVENT class="OCCURRENCE" eid="e7">development</EVENT> of private enterprises in China," <EVENT class="REPORTING" eid="e8">said</EVENT> Jiang Zhenghua,vice-chairman of the National People's Congress Standing Committee, China's top legislature, at the opening <EVENT class="OCCURRENCE" eid="e9">ceremony</EVENT>.
+
+Chinese private enterprises should <EVENT class="OCCURRENCE" eid="e10">make</EVENT> <EVENT class="OCCURRENCE" eid="e11">use</EVENT> of the opportunities in globalization and <EVENT class="OCCURRENCE" eid="e12">nurture</EVENT> their own brands on the basis of good management, he <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e14">summit</EVENT> was <EVENT class="OCCURRENCE" eid="e15">sponsored</EVENT> by the Private Economic Studies Center under the Chinese Academy of Social Sciences, Zhejiang Provincial Administration for Industry and Commerce, and Zhejiang Private (Non-Governmental) Enterprises' Association.
+
+A key sector in the province's economy, private enterprises <EVENT class="OCCURRENCE" eid="e16">hold</EVENT> 90 percent of jobs and 70 percent of the gross domestic product in Zhejiang.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

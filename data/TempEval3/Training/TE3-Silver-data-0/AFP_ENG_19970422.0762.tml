@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970422.0762</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-23" temporalFunction="false" functionInDocument="CREATION_TIME">April 23 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Nikkei up, dollar at 126.45-47 yen in Tokyo morning</TITLE>
+
+
+<TEXT>
+
+Share prices were higher on the Tokyo Stock Exchange <TIMEX3 type="DATE" value="1997-04-16TMO" tid="t1">Wednesday morning</TIMEX3>, but with profit-taking <EVENT class="OCCURRENCE" eid="e2">capping</EVENT> the upside, brokers <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+The Nikkei stock average <EVENT class="OCCURRENCE" eid="e4">rose</EVENT> 160.02 points, or 0.9 percent, to <EVENT class="ASPECTUAL" eid="e5">end</EVENT> the <EVENT class="OCCURRENCE" eid="e6">session</EVENT> at 18,704.47, down from a session high of 18,782.08.
+
+Investors <EVENT class="OCCURRENCE" eid="e7">turned</EVENT> sellers among banks toward the end of the session and <EVENT class="OCCURRENCE" eid="e9">took</EVENT> profits on recent gains, brokers <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+"It is understandable to <EVENT class="PERCEPTION" eid="e12">see</EVENT> such modest <EVENT class="OCCURRENCE" eid="e13">profit-taking</EVENT> among banks <EVENT class="OCCURRENCE" eid="e14">following</EVENT> their recent sustained <EVENT class="OCCURRENCE" eid="e15">gains</EVENT>," <EVENT class="REPORTING" eid="e16">said</EVENT> a broker at New Japan Securities Co. Ltd.
+
+The dollar was <EVENT class="OCCURRENCE" eid="e17">quoted</EVENT> at 126.45-47 yen in <TIMEX3 type="TIME" value="1997-04-23TMO" tid="t2">late morning</TIMEX3> trading, up from 126.32 yen in New York late <TIMEX3 type="DATE" value="1997-04-22" tid="t3">Tuesday</TIMEX3> and from 126.02-05 yen here <TIMEX3 type="DATE" value="1997-04-23" tid="t4">late Tuesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000018" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1000017" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1000018" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei1000018" relType="AFTER" />
+
+
+
+
+</TimeML>

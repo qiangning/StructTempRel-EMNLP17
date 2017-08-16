@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970414.0251</DOCID>
+
+<DCT>MARSEILLE, France, <TIMEX3 tid="t0" type="TIME" value="1997-04-14" temporalFunction="false" functionInDocument="CREATION_TIME">April 14 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Tapie granted day-release jail</TITLE>
+
+
+<TEXT>
+
+Jailed politician Bernard Tapie <EVENT class="OCCURRENCE" eid="e2">left</EVENT> prison <TIMEX3 type="DATE" value="1997-04-14" tid="t1">Monday</TIMEX3> after a judge <EVENT class="OCCURRENCE" eid="e3">granted</EVENT> his <EVENT class="OCCURRENCE" eid="e4">request</EVENT> for day-release custody, <TIMEX3 type="DURATION" value="P10W" tid="t2">10 weeks</TIMEX3> after he was <EVENT class="OCCURRENCE" eid="e5">jailed</EVENT> over a football match-rigging <EVENT class="OCCURRENCE" eid="e6">scandal</EVENT>.
+
+Tapie, who was <EVENT class="OCCURRENCE" eid="e7">jailed</EVENT> for <TIMEX3 type="DURATION" value="P8M" tid="t3">eight months</TIMEX3> in <TIMEX3 type="DATE" value="1997-02" tid="t4">February</TIMEX3>, is <EVENT class="I_STATE" eid="e8">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e9">resume</EVENT> <EVENT class="OCCURRENCE" eid="e10">working</EVENT> during the day after <EVENT class="OCCURRENCE" eid="e11">granted</EVENT> the part-time regime under regulations which <EVENT class="I_ACTION" eid="e12">allows</EVENT> such leniency for first-time offenders <EVENT class="OCCURRENCE" eid="e13">jailed</EVENT> for under <TIMEX3 type="DATE" value="P1Y" tid="t5">a year</TIMEX3>.
+
+On <TIMEX3 type="DATE" value="1997-04-14" tid="t6">Monday</TIMEX3> he was <EVENT class="OCCURRENCE" eid="e14">released</EVENT> from the Luynes prison near Aix-en-Provence to be <EVENT class="OCCURRENCE" eid="e15">transferred</EVENT> by prison van to the day-release prison at Baumettes in Marseilles, an AFP correspondent <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+Tapie is <EVENT class="I_STATE" eid="e17">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e18">work</EVENT> for an old Marseilles business colleague, Michel Bigoin, as a representative for his shipbuilding and defence group SECNA. No contract has yet been <EVENT class="OCCURRENCE" eid="e19">signed</EVENT>, but Bigoin <EVENT class="REPORTING" eid="e20">said</EVENT> Tapie will "be <EVENT class="I_ACTION" eid="e21">trying</EVENT> to <EVENT class="ASPECTUAL" eid="e22">renew</EVENT> links with potential clients."
+
+Under the terms of his custody, he will have to <EVENT class="OCCURRENCE" eid="e23">return</EVENT> to the Baumettes prison by <TIMEX3 type="TIME" value="1997-04-14" tid="t7">7:00 p.m. every evening</TIMEX3>.
+
+The day-release regime will be <EVENT class="ASPECTUAL" eid="e24">suspended</EVENT> from <TIMEX3 type="DATE" value="1997-04-14" tid="t8">May 12-30</TIMEX3> during a <EVENT class="OCCURRENCE" eid="e25">trial</EVENT> involving Tapie's role in illegal funding of his former footbal club Olympique de Marseille (OM).
+
+Tapie, a former French MP and Euro-deputy, has <EVENT class="I_ACTION" eid="e26">faced</EVENT> a string of legal <EVENT class="OCCURRENCE" eid="e27">actions</EVENT> in <TIMEX3 type="DURATION" value="PXY" tid="t9">recent years</TIMEX3> which have <EVENT class="OCCURRENCE" eid="e28">reduced</EVENT> him from a succesful businessman-turned-politician to a prison inmate.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei23" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

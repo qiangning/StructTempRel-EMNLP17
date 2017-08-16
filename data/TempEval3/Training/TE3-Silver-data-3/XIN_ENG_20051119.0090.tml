@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051119.0090</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st Ld: US president arrives in Beijing</TITLE>
+
+
+<TEXT>
+
+US President George W. Bush <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> here <TIMEX3 type="TIME" value="2005-11-12TEV" tid="t1">Saturday evening</TIMEX3> for a three-day <EVENT class="OCCURRENCE" eid="e2">visit</EVENT> to China at the invitation of Chinese President Hu Jintao.
+
+Bush's presidential plane Air Force One <EVENT class="OCCURRENCE" eid="e3">landed</EVENT> at Beijing's Capital Airport.
+
+This is Bush's third China <EVENT class="OCCURRENCE" eid="e4">trip</EVENT> as US president since <TIMEX3 type="DATE" value="2001" tid="t3">2001</TIMEX3> and also his first China <EVENT class="OCCURRENCE" eid="e5">visit</EVENT> in his second term of office.
+
+Chinese President Hu Jintao and Premier Wen Jiabao are to <EVENT class="OCCURRENCE" eid="e6">meet</EVENT> with President Bush, and they will <EVENT class="OCCURRENCE" eid="e7">discuss</EVENT> a wide range of issues.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

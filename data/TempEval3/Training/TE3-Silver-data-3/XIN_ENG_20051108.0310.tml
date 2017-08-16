@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0310</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Ferguson to splash out at Premiership in January</TITLE>
+
+
+<TEXT>
+
+Manchester United boss Alex Ferguson has <EVENT class="REPORTING" eid="e1">claimed</EVENT> that he will be <EVENT class="OCCURRENCE" eid="e2">beefing</EVENT> up his squad in <TIMEX3 type="DATE" value="2006-01" tid="t1">January</TIMEX3> as Premiership is <EVENT class="OCCURRENCE" eid="e3">becoming</EVENT> a "numbers game".
+
+Ferguson <EVENT class="I_STATE" eid="e4">wants</EVENT> United to <EVENT class="OCCURRENCE" eid="e5">build</EVENT> on the 1-0 <EVENT class="OCCURRENCE" eid="e6">win</EVENT> against Chelsea at Old Trafford which <EVENT class="OCCURRENCE" eid="e7">revived</EVENT> their title ambitions.
+
+He <EVENT class="REPORTING" eid="e8">said</EVENT>: "What I will be <EVENT class="PERCEPTION" eid="e9">looking</EVENT> to <EVENT class="OCCURRENCE" eid="e10">do</EVENT> is <EVENT class="OCCURRENCE" eid="e11">increase</EVENT> the squad in <TIMEX3 type="DATE" value="2005-01" tid="t2">January</TIMEX3>. It's actually numbers we're <EVENT class="OCCURRENCE" eid="e12">lacking</EVENT>.
+
+"But you have to <EVENT class="OCCURRENCE" eid="e13">dismiss</EVENT> the possibility of getting players from clubs who <EVENT class="I_STATE" eid="e14">think</EVENT> they can <EVENT class="OCCURRENCE" eid="e15">win</EVENT> the Champions League."
+
+Ferguson <EVENT class="OCCURRENCE" eid="e16">added</EVENT>: "That <EVENT class="OCCURRENCE" eid="e17">narrows</EVENT> down your options but we're <EVENT class="OCCURRENCE" eid="e18">playing</EVENT> the numbers <EVENT class="OCCURRENCE" eid="e19">game</EVENT> right <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3>.
+
+"I'm happy with the quality we have but we're <EVENT class="OCCURRENCE" eid="e21">relying</EVENT> too much on our younger players at a time when we're <EVENT class="OCCURRENCE" eid="e22">missing</EVENT> the experience of Roy Keane, Gary Neville and Gabriel Heinze."
+
+United have been <EVENT class="OCCURRENCE" eid="e24">linked</EVENT> with Real Madrid's Thomas Gravesen and Bayern Munich's Michael Ballack, but both clubs are still <EVENT class="OCCURRENCE" eid="e25">contesting</EVENT> the Champions League.
+
+In a previous January transfer window Ferguson <EVENT class="OCCURRENCE" eid="e26">signed</EVENT> Louis Saha from Fulham, because he <EVENT class="I_STATE" eid="e27">needed</EVENT> to <EVENT class="I_ACTION" eid="e28">avoid</EVENT> players who were still <EVENT class="OCCURRENCE" eid="e29">involved</EVENT> in the Champions League.
+
+It could be that he will <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e30">look</EVENT> to <EVENT class="OCCURRENCE" eid="e31">complete</EVENT> a similar <EVENT class="OCCURRENCE" eid="e32">deal</EVENT> for a player already <EVENT class="OCCURRENCE" eid="e33">operating</EVENT> in the Premiership, but not <EVENT class="OCCURRENCE" eid="e34">involved</EVENT> in Europe.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei26" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0144</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Philippine President leaves for APEC meeting in Hanoi</TITLE>
+
+
+<TEXT>
+
+Philippine President Gloria Macapagal-Arroyo <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> she would <EVENT class="OCCURRENCE" eid="e2">push</EVENT> for closer economic and security cooperation in the region as she <EVENT class="OCCURRENCE" eid="e4">left</EVENT> here for the 14th Asia-Pacific Economic Cooperation (APEC) Leaders' Meeting in Hanoi.
+
+Philippines-U.S. strategic alliance against terrorism and poverty would be the focus of her bilateral <EVENT class="OCCURRENCE" eid="e6">talk</EVENT> on <TIMEX3 type="DATE" value="2006-11-18" tid="t2">Saturday</TIMEX3> with President George W. Bush on the sidelines of APEC, Arroyo <EVENT class="REPORTING" eid="e7">told</EVENT> reporters before she <EVENT class="OCCURRENCE" eid="e8">boarded</EVENT> the flight.
+
+As chairperson of the Association of Southeast Asian Nations ( ASEAN) <TIMEX3 type="DATE" value="2006" tid="t3">this year</TIMEX3>, Arroyo also <EVENT class="I_ACTION" eid="e10">vowed</EVENT> to "aggressively <EVENT class="OCCURRENCE" eid="e11">push</EVENT> for closer economic and security cooperation in the larger Asia- Pacific basin."
+
+The President <EVENT class="REPORTING" eid="e13">said</EVENT> she will <EVENT class="OCCURRENCE" eid="e14">make</EVENT> a "strong pitch" for the immediate <EVENT class="OCCURRENCE" eid="e15">resumption</EVENT> of the stalled World Trade Organization <EVENT class="OCCURRENCE" eid="e17">talks</EVENT> and for further <EVENT class="OCCURRENCE" eid="e18">discussions</EVENT> on the possibility of <EVENT class="OCCURRENCE" eid="e19">establishing</EVENT> a free trade <EVENT class="OCCURRENCE" eid="e20">agreement</EVENT> among the APEC member economies.
+
+"I am to <EVENT class="OCCURRENCE" eid="e21">make</EVENT> the Philippines a key player in the emerging economic and security synergies of the region, <EVENT class="I_STATE" eid="e23">considering</EVENT> our strategic location in the Pacific Rim and the millions of overseas Filipinos whose presence are <EVENT class="OCCURRENCE" eid="e24">felt</EVENT> in building and bridging nations across the Pacific," Arroyo <EVENT class="REPORTING" eid="e25">said</EVENT>.
+
+President Arroyo <EVENT class="OCCURRENCE" eid="e26">left</EVENT> at around 5:30 p.m. Manila time for Hanoi and was <EVENT class="I_STATE" eid="e27">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e28">meet</EVENT> the Filipino community shortly after her <EVENT class="OCCURRENCE" eid="e29">arrival</EVENT>. More than 900 Filipinos are <EVENT class="OCCURRENCE" eid="e30">working</EVENT> in Vietnam.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei13" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="INCLUDES" />
+
+
+
+
+</TimeML>

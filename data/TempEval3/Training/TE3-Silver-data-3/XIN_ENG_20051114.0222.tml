@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051114.0222</DOCID>
+
+<DCT>HANGZHOU, <TIMEX3 tid="t0" type="TIME" value="2005-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>E. China city to hold 5th Forum on China Internet Media</TITLE>
+
+
+<TEXT>
+
+The fifth Forum on China Internet Media is to <EVENT class="ASPECTUAL" eid="e1">open</EVENT> <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3> in Hangzhou, capital city of east China's Zhejiang province, <EVENT class="OCCURRENCE" eid="e2">involving</EVENT> more than 200 officials and experts nationwide.
+
+With the theme of 'Internet Media and Harmonious Society', the forum will <EVENT class="OCCURRENCE" eid="e3">include</EVENT> <EVENT class="OCCURRENCE" eid="e4">discussions</EVENT> on the <EVENT class="OCCURRENCE" eid="e5">development</EVENT> of China's Internet media, next-generation Internet technology and the application of Rich Media.
+
+Officials and experts from the State Council Information Office, Ministry of Information Industry and the All-China Journalists Association, will <EVENT class="OCCURRENCE" eid="e7">attend</EVENT> the three-day forum together with the presidents of state-owned and commercial Internet media.
+
+"The Internet media are <EVENT class="OCCURRENCE" eid="e8">bracing</EVENT> for the second <EVENT class="OCCURRENCE" eid="e9">surge</EVENT> of development. China-based Websites can only <EVENT class="OCCURRENCE" eid="e11">outdo</EVENT> their global competitors by <EVENT class="OCCURRENCE" eid="e12">providing</EVENT> high quality services," <EVENT class="REPORTING" eid="e13">said</EVENT> Zhou Xisheng, president of the state-owned Xinhua Online.
+
+<EVENT class="OCCURRENCE" eid="e14">Established</EVENT> in <TIMEX3 type="DATE" value="2001" tid="t3">2001</TIMEX3>, the annual forum is among the most authoritative and influential <EVENT class="OCCURRENCE" eid="e15">activities</EVENT> in China's Internet media industry.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

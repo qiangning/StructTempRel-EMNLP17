@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0356</DOCID>
+
+<DCT>YANGON, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Myanmar stresses eye care services in rural areas</TITLE>
+
+
+<TEXT>
+
+The Myanmar health authorities have <EVENT class="OCCURRENCE" eid="e1">stressed</EVENT> the need for eye care services in the country especially in the rural areas where the majority of the blind exist, a state- run newspaper <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-04" tid="t1">Friday</TIMEX3>.
+
+It was <EVENT class="REPORTING" eid="e4">emphasized</EVENT> at a <EVENT class="OCCURRENCE" eid="e5">conference</EVENT> of eye ophthalmologists which is underway, the New Light of Myanmar <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+In Myanmar, there are some major eye diseases in prevalence such as cataract, trachoma and vitamin-C deficiency which can <EVENT class="OCCURRENCE" eid="e7">cause</EVENT> loss of sight.
+
+Meanwhile, Myanmar has since <TIMEX3 type="DATE" value="1999" tid="t2">1999</TIMEX3> <EVENT class="OCCURRENCE" eid="e9">launched</EVENT> a <EVENT class="OCCURRENCE" eid="e10">campaign</EVENT> <EVENT class="OCCURRENCE" eid="e11">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e12">bringing</EVENT> down the rate of avoidable blindness to less than 0.5 percent of its population as part of its <EVENT class="OCCURRENCE" eid="e13">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e14">eliminate</EVENT> such avoidable blindness by 2020 set by the World Health Organization.
+
+Under a memorandum of understanding <EVENT class="OCCURRENCE" eid="e15">signed</EVENT> in <TIMEX3 type="DATE" value="2003" tid="t4">2003</TIMEX3>, a "Vision Myanmar Program" has also been <EVENT class="OCCURRENCE" eid="e16">established</EVENT> by the Myanamr health ministry and the Royal Adelaide Hospital of Australia to <EVENT class="OCCURRENCE" eid="e17">provide</EVENT> opportunities for Myanmar eye surgeons to <EVENT class="OCCURRENCE" eid="e18">receive</EVENT> post-graduate <EVENT class="OCCURRENCE" eid="e19">training</EVENT> at the Australian hospital.
+
+The program provides for Australian specialists to <EVENT class="OCCURRENCE" eid="e21">visit</EVENT> Myanmar annually to <EVENT class="OCCURRENCE" eid="e22">conduct</EVENT> training at two eye hospitals in Yangon and Mandalay where about 7,000 to 1,200 surgical operations on eye patients are respectively <EVENT class="OCCURRENCE" eid="e23">carried</EVENT> out <TIMEX3 type="SET" value="P1Y" tid="t5">each year</TIMEX3>.
+
+In <EVENT class="OCCURRENCE" eid="e24">fighting</EVENT> blindness, Myanmar has also since <TIMEX3 type="DATE" value="1964" tid="t6">1964</TIMEX3> <EVENT class="OCCURRENCE" eid="e25">launched</EVENT> trachoma control and blindness program to <EVENT class="OCCURRENCE" eid="e26">tackle</EVENT> the problem of blindness and the incidence of trachoma is being <EVENT class="OCCURRENCE" eid="e27">brought</EVENT> down from 43 percent to less than 4 percent.
+
+Official statistics <EVENT class="OCCURRENCE" eid="e28">show</EVENT> that a total of 46,530 eye patients were <EVENT class="OCCURRENCE" eid="e29">cured</EVENT> under Mynamar's blindness control program which was <EVENT class="OCCURRENCE" eid="e30">implemented</EVENT> from <TIMEX3 type="DATE" value="1989" tid="t7">1989</TIMEX3> to 1999. Of them 34,440 were <EVENT class="OCCURRENCE" eid="e31">cured</EVENT> of cataract and 12,090 cured of glaucoma.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei30" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970414.0495</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="1997-04-14" temporalFunction="false" functionInDocument="CREATION_TIME">April 14 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>US wants China put on the spot over rights</TITLE>
+
+
+<TEXT>
+
+The United States <EVENT class="I_STATE" eid="e1">wants</EVENT> China <EVENT class="OCCURRENCE" eid="e2">put</EVENT> on the spot over its suspect human rights record at the UN Human Rights Commission's annual <EVENT class="OCCURRENCE" eid="e3">meeting</EVENT> here, US rights envoy John Shattuck <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-14" tid="t1">Monday</TIMEX3>.
+
+Shattuck was in Geneva to <EVENT class="OCCURRENCE" eid="e6">lobby</EVENT> against a Chinese motion to <EVENT class="I_ACTION" eid="e7">block</EVENT> a resolution <EVENT class="OCCURRENCE" eid="e9">criticising</EVENT> its human rights record, which would in effect <EVENT class="I_ACTION" eid="e10">block</EVENT> the 53-state Commission's annual <EVENT class="OCCURRENCE" eid="e11">meeting</EVENT> from <EVENT class="OCCURRENCE" eid="e12">discussing</EVENT> it.
+
+"No country, no matter how large, no matter how strongly it <EVENT class="STATE" eid="e13">feels</EVENT> about the subject, should be able to <EVENT class="I_ACTION" eid="e14">block</EVENT> consideration by the commission of its rights record," <EVENT class="REPORTING" eid="e16">said</EVENT> Shattuck, US Assistant Secretary of State for Human Rights.
+
+China, as in <TIMEX3 type="DURATION" value="1995" tid="t2">previous years</TIMEX3>, has <EVENT class="OCCURRENCE" eid="e17">lodged</EVENT> a non-action motion to <EVENT class="I_ACTION" eid="e18">block</EVENT> criticism at the forum on <TIMEX3 type="DATE" value="1997-04-15" tid="t3">Tuesday</TIMEX3>.
+
+"For this reason, we are <EVENT class="OCCURRENCE" eid="e19">concerned</EVENT> by the <EVENT class="OCCURRENCE" eid="e20">efforts</EVENT> of the government of China to <EVENT class="OCCURRENCE" eid="e21">foreclose</EVENT> <EVENT class="OCCURRENCE" eid="e22">discussion</EVENT> through a non-action motion on the resolution," the US official <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0298</DOCID>
+
+<DCT>MONTEVIDEO, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Uruguay seeks home victory against Australia in World Cup playoff</TITLE>
+
+
+<TEXT>
+
+The Uruguayan national football team will <EVENT class="OCCURRENCE" eid="e1">meet</EVENT> Australia in Montevideo on <TIMEX3 type="DATE" value="2005-11-12" tid="t1">Saturday</TIMEX3>, <EVENT class="I_STATE" eid="e2">hoping</EVENT> to <EVENT class="OCCURRENCE" eid="e3">win</EVENT> the first of two World Cup play-off games and <EVENT class="OCCURRENCE" eid="e4">set</EVENT> themselves up for Sydney's <EVENT class="OCCURRENCE" eid="e5">return</EVENT> match.
+
+The winner of the two-leg playoff will <EVENT class="OCCURRENCE" eid="e7">go</EVENT> through to the 2006 Germany World Cup.
+
+The <EVENT class="OCCURRENCE" eid="e8">match</EVENT> <EVENT class="OCCURRENCE" eid="e9">takes</EVENT> place in the historic Centenario Stadium, which will be <EVENT class="OCCURRENCE" eid="e10">filled</EVENT> with 60,000 Uruguay fans.
+
+The play-offs are being <EVENT class="OCCURRENCE" eid="e11">held</EVENT> in a tense atmosphere thanks to statements made by both teams, and also because both countries have <EVENT class="OCCURRENCE" eid="e12">met</EVENT> before at this stage.
+
+Uruguay <EVENT class="OCCURRENCE" eid="e13">won</EVENT> the ticket to the 2002 World Cup <EVENT class="OCCURRENCE" eid="e14">held</EVENT> in Seoul and Tokyo, <EVENT class="OCCURRENCE" eid="e15">losing</EVENT> its first game 1-0 but <EVENT class="OCCURRENCE" eid="e16">winning</EVENT> the re-match 3-0. <TIMEX3 type="DATE" value="2005-11-11" tid="t4">That year</TIMEX3>, a group of violent Uruguayan fans <EVENT class="OCCURRENCE" eid="e17">spat</EVENT> on and <EVENT class="OCCURRENCE" eid="e18">insulted</EVENT> the Austrian team at Montevideo airport, <EVENT class="I_ACTION" eid="e19">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e20">intimate</EVENT> them on the way to the match.
+
+<TIMEX3 type="DATE" value="2005" tid="t5">This year</TIMEX3>, Australia has <EVENT class="I_ACTION" eid="e22">asked</EVENT> for security guarantees and has <EVENT class="ASPECTUAL" eid="e23">begun</EVENT> its <EVENT class="OCCURRENCE" eid="e24">training</EVENT> in Buenos Aires, the Argentine capital, so that they can <EVENT class="OCCURRENCE" eid="e25">arrive</EVENT> a day before the <EVENT class="OCCURRENCE" eid="e26">game</EVENT>.
+
+Uruguay has <EVENT class="OCCURRENCE" eid="e27">played</EVENT> in 10 World Cups and <EVENT class="OCCURRENCE" eid="e28">won</EVENT> two, while Australia has only taken part in the World Cup once, in Germany in <TIMEX3 type="DATE" value="1974" tid="t6">1974</TIMEX3>.
+
+Australia <EVENT class="OCCURRENCE" eid="e29">made</EVENT> the play-offs for the last three World Cups, but was <EVENT class="I_ACTION" eid="e30">beaten</EVENT> each time, by Argentina in <TIMEX3 type="DATE" value="1994" tid="t8">1994</TIMEX3>, by Iran in <TIMEX3 type="DATE" value="1998" tid="t9">1998</TIMEX3> and last time by Uruguay.
+
+Uruguay will <EVENT class="OCCURRENCE" eid="e31">take</EVENT> on an offensive strategy with three forwards: Marcelo Zalayeta of Italy's Juventus, Richard Morales of Spanish league team Malaga and either Forlan or Silva as the third.
+
+Australia is <EVENT class="I_STATE" eid="e32">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e33">exploit</EVENT> a conservative strategy with only one forward Mark Viduka of English league team Middlesborough.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000030" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei31" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei30" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei28" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei32" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1000030" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToEventInstance="ei1000030" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+
+
+
+
+</TimeML>

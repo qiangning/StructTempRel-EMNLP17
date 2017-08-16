@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051212.0049</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2005</TIMEX3></DCT>
+
+<TITLE>side</TITLE>
+
+
+<TEXT>
+
+FIFA president Sepp Blatter has <EVENT class="REPORTING" eid="e1">called</EVENT> for every club to <EVENT class="OCCURRENCE" eid="e2">employ</EVENT> at least six players eligible for the national team in the country they <EVENT class="OCCURRENCE" eid="e3">ply</EVENT> their trade to <EVENT class="OCCURRENCE" eid="e4">curb</EVENT> the <EVENT class="OCCURRENCE" eid="e5">invasion</EVENT> of foreigners.
+
+Blatter, in Tokyo for the World Club Championships, <EVENT class="REPORTING" eid="e6">said</EVENT> a taskforce was <EVENT class="PERCEPTION" eid="e7">looking</EVENT> at "the national identity of clubs" with many <TIMEX3 type="DATE" value="PRESENT_REF" tid="t1">now</TIMEX3> a cosmopolitan mix of several nationalities, <EVENT class="OCCURRENCE" eid="e8">shutting</EVENT> out local players.
+
+"National identity is very important but the regulations of the club competitions are not <EVENT class="OCCURRENCE" eid="e10">made</EVENT> so far by FIFA but by the national associations and it is up to them and their leagues to <EVENT class="OCCURRENCE" eid="e11">limit</EVENT> the entry of foreign players," he <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+Blatter <EVENT class="REPORTING" eid="e14">acknowledged</EVENT> that rules in the European Union <EVENT class="OCCURRENCE" eid="e15">allowed</EVENT> for the free <EVENT class="OCCURRENCE" eid="e16">circulation</EVENT> of workers among the EU's 25-member nations but <EVENT class="REPORTING" eid="e17">said</EVENT> there was a sensible solution.
+
+"What the solution is is that there should be a minimum, and this is FIFA's idea, we should have at least six players eligible for the national team of a the country in which they <EVENT class="OCCURRENCE" eid="e20">play</EVENT>," he <EVENT class="REPORTING" eid="e21">told</EVENT> reporters.
+
+"This is the system FIFA <EVENT class="I_STATE" eid="e22">thinks</EVENT> is right.
+
+"In many clubs there are now only a maximum or one or two players, like Bayern Munich or even Liverpool. This situation is not good for football."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+
+
+
+
+</TimeML>

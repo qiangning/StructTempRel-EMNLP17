@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>nyt_20130322_strange_computer</DOCID>
+
+<DCT><TIMEX3 functionInDocument="CREATION_TIME" temporalFunction="false" tid="t0" type="DATE" value="2013-03-22">2013-03-22</TIMEX3></DCT>
+
+<TITLE>A Strange Computer Promises Great Speed</TITLE>
+
+<TEXT>
+
+Our <TIMEX3 type="DATE" value="PRESENT_REF" tid="t1">digital</TIMEX3> age is all about bits, those precise ones and zeros that are the stuff of modern computer code.
+
+But a powerful new type of computer that is about to be commercially <EVENT class="OCCURRENCE" eid="e1">deployed</EVENT> by a major American military contractor is <EVENT class="OCCURRENCE" eid="e2">taking</EVENT> computing into the strange, subatomic realm of quantum mechanics. In that infinitesimal neighborhood, common sense logic no longer seems to apply. A one can be a one, or it can be a one and a zero and everything in between  all at the same time.
+
+It sounds preposterous, particularly to those familiar with the yes/no world of conventional computing. But academic researchers and scientists at companies like Microsoft, I.B.M. and Hewlett-Packard have been <EVENT class="OCCURRENCE" eid="e3">working</EVENT> to <EVENT class="OCCURRENCE" eid="e4">develop</EVENT> quantum computers.
+
+<TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">Now</TIMEX3>, Lockheed Martin  which <EVENT class="OCCURRENCE" eid="e5">bought</EVENT> an early version of such a computer from the Canadian company D-Wave Systems <TIMEX3 tid="t3" type="DATE" value="2011">two years ago</TIMEX3>  is <EVENT class="I_STATE" eid="e6">confident</EVENT> enough in the technology to <EVENT class="OCCURRENCE" eid="e7">upgrade</EVENT> it to commercial scale, <EVENT class="ASPECTUAL" eid="e8">becoming</EVENT> the first company to <EVENT class="OCCURRENCE" eid="e9">use</EVENT> quantum computing as part of its business.
+
+Skeptics <EVENT class="REPORTING" eid="e10">say</EVENT> that D-Wave has yet to <EVENT class="OCCURRENCE" eid="e11">prove</EVENT> to outside scientists that it has <EVENT class="OCCURRENCE" eid="e12">solved</EVENT> the myriad challenges involved in quantum computation.
+
+But if it <EVENT class="OCCURRENCE" eid="e13">performs</EVENT> as Lockheed and D-Wave <EVENT class="I_STATE" eid="e14">expect</EVENT>, the design could be <EVENT class="OCCURRENCE" eid="e15">used</EVENT> to <EVENT class="OCCURRENCE" eid="e16">supercharge</EVENT> even the most powerful systems, <EVENT class="OCCURRENCE" eid="e17">solving</EVENT> some science and business problems millions of times faster than can be <EVENT class="OCCURRENCE" eid="e18">done</EVENT> <TIMEX3 tid="t4" type="DATE" value="PRESENT_REF">today</TIMEX3>.
+
+Ray Johnson, Lockheeds chief technical officer, <EVENT class="REPORTING" eid="e19">said</EVENT> his company would <EVENT class="OCCURRENCE" eid="e20">use</EVENT> the quantum computer to <EVENT class="OCCURRENCE" eid="e21">create</EVENT> and <EVENT class="OCCURRENCE" eid="e22">test</EVENT> complex radar, space and aircraft systems. It could be possible, for example, to <EVENT class="PERCEPTION" eid="e23">tell</EVENT> instantly how the millions of lines of software running a network of satellites would <EVENT class="OCCURRENCE" eid="e24">react</EVENT> to a solar <EVENT class="OCCURRENCE" eid="e25">burst</EVENT> or a <EVENT class="OCCURRENCE" eid="e26">pulse</EVENT> from a nuclear explosion  something that can <TIMEX3 tid="t5" type="DATE" value="PRESENT_REF">now</TIMEX3> take <TIMEX3 tid="t6" type="DURATION" value="PXW">weeks</TIMEX3>, if ever, to <EVENT class="I_ACTION" eid="e27">determine</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS" pos="VERB" tense="FUTURE"/>
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2" eventID="e2" polarity="POS" pos="VERB" tense="PRESENT"/>
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei3" eventID="e3" polarity="POS" pos="VERB" tense="PAST"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS" pos="VERB" tense="PAST"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS" pos="ADJECTIVE" tense="PRESENT"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS" pos="VERB" tense="PRESPART"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei9" eventID="e9" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS" pos="VERB" tense="PRESENT"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS" pos="VERB" tense="PRESENT"/>
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei12" eventID="e12" polarity="POS" pos="VERB" tense="PRESENT"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS" pos="VERB" tense="PRESENT"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS" pos="VERB" tense="PRESENT"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" modality="could" polarity="POS" pos="VERB" tense="FUTURE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei17" eventID="e17" polarity="POS" pos="VERB" tense="PRESPART"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" modality="can" polarity="POS" pos="OTHER" tense="FUTURE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS" pos="VERB" tense="PAST"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" modality="would" polarity="POS" pos="VERB" tense="FUTURE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" modality="could" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" modality="could" polarity="POS" pos="VERB" tense="FUTURE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" modality="could" polarity="POS" pos="NOUN" tense="FUTURE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" modality="could" polarity="POS" pos="NOUN" tense="FUTURE"/>
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS" pos="VERB" tense="INFINITIVE"/>
+
+
+<TLINK eventInstanceID="ei2" lid="l1" relType="INCLUDES" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei1" lid="l2" relType="AFTER" relatedToEventInstance="ei2"/>
+<TLINK eventInstanceID="ei3" lid="l8" relType="INCLUDES" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei3" lid="l10" relType="SIMULTANEOUS" relatedToEventInstance="ei4"/>
+<TLINK eventInstanceID="ei5" lid="l11" relType="IS_INCLUDED" relatedToTime="t3"/>
+<TLINK eventInstanceID="ei6" lid="l12" relType="INCLUDES" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei5" lid="l14" relType="BEFORE" relatedToEventInstance="ei6"/>
+<TLINK eventInstanceID="ei6" lid="l15" relType="SIMULTANEOUS" relatedToEventInstance="ei7"/>
+<TLINK eventInstanceID="ei6" lid="l16" relType="INCLUDES" relatedToEventInstance="ei8"/>
+<TLINK eventInstanceID="ei6" lid="l17" relType="INCLUDES" relatedToEventInstance="ei9"/>
+<TLINK eventInstanceID="ei18" lid="l24" relType="IS_INCLUDED" relatedToTime="t4"/>
+<TLINK eventInstanceID="ei13" lid="l25" relType="AFTER" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei10" lid="l26" relType="BEFORE" relatedToEventInstance="ei13"/>
+<TLINK eventInstanceID="ei13" lid="l28" relType="BEFORE" relatedToEventInstance="ei15"/>
+<TLINK eventInstanceID="ei13" lid="l29" relType="BEFORE" relatedToEventInstance="ei16"/>
+<TLINK eventInstanceID="ei13" lid="l30" relType="BEFORE" relatedToEventInstance="ei17"/>
+<TLINK eventInstanceID="ei13" lid="l31" relType="AFTER" relatedToEventInstance="ei18"/>
+<TLINK eventInstanceID="ei13" lid="l33" relType="AFTER" relatedToEventInstance="ei19"/>
+<TLINK eventInstanceID="ei19" lid="l35" relType="BEFORE" relatedToEventInstance="ei21"/>
+<TLINK eventInstanceID="ei19" lid="l36" relType="BEFORE" relatedToEventInstance="ei22"/>
+<TLINK eventInstanceID="ei23" lid="l38" relType="AFTER" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei19" lid="l39" relType="BEFORE" relatedToEventInstance="ei23"/>
+<TLINK eventInstanceID="ei24" lid="l41" relType="AFTER" relatedToEventInstance="ei25"/>
+<TLINK eventInstanceID="ei6"  lid="l100" relType="INCLUDES" relatedToTime="t2"/>
+<TLINK eventInstanceID="ei23" lid="l101" relType="SIMULTANEOUS" relatedToTime="t6"/>
+<TLINK eventInstanceID="ei19" lid="l102" relType="BEFORE" relatedToEventInstance="ei20"/>
+</TimeML>

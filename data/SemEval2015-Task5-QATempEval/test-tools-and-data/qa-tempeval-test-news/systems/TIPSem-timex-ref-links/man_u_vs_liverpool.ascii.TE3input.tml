@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>Manchester United to face Liverpool in International Champions Cup final</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2014-08-04T21:30" temporalFunction="false" functionInDocument="CREATION_TIME">Aug 4, 2014 21:30:00</TIMEX3></DCT>
+
+<TEXT>
+
+The two north-west rivals will <EVENT class="OCCURRENCE" eid="e1">go</EVENT> head-to-<EVENT class="OCCURRENCE" eid="e2">head</EVENT> in Miami after both did enough to <EVENT class="OCCURRENCE" eid="e3">top</EVENT> their respective groups in the prestigious pre-season tournament in the US
+
+Manchester United and Liverpool will <EVENT class="OCCURRENCE" eid="e4">play</EVENT> each other in the International Champions Cup final on <TIMEX3 type="DATE" value="2014-08-05" tid="t1">Tuesday</TIMEX3> after <EVENT class="OCCURRENCE" eid="e5">coming</EVENT> out on top in the group stage of the competition.
+
+Liverpool's qualification for the match in Miami was <EVENT class="REPORTING" eid="e6">confirmed</EVENT> after Manchester City's <EVENT class="OCCURRENCE" eid="e7">defeat</EVENT> on penalties to Olympiakos while the Red Devils' 3-1 <EVENT class="OCCURRENCE" eid="e8">win</EVENT> over Real Madrid <EVENT class="OCCURRENCE" eid="e9">proved</EVENT> enough for them to also <EVENT class="OCCURRENCE" eid="e10">go</EVENT> through.
+
+The match will <EVENT class="I_ACTION" eid="e11">mark</EVENT> a first chance for Louis van Gaal to <EVENT class="OCCURRENCE" eid="e12">secure</EVENT> a victory over his new team's oldest rivals while also <EVENT class="OCCURRENCE" eid="e13">picking</EVENT> up some silverware following an impressive first month in charge.
+
+Van Gaal has <EVENT class="OCCURRENCE" eid="e14">led</EVENT> the Old Trafford outfit to <EVENT class="OCCURRENCE" eid="e15">wins</EVENT> over Madrid and Roma while victory on penalties over Inter <EVENT class="OCCURRENCE" eid="e16">proved</EVENT> to be the defining result of their group campaign.
+
+Brendan Rodgers' side, meanwhile, were <EVENT class="STATE" eid="e17">victorious</EVENT> against Olympiakos in their opening match before <EVENT class="I_ACTION" eid="e18">beating</EVENT> Manchester City on penalties. The Reds <EVENT class="ASPECTUAL" eid="e19">complete</EVENT> their <EVENT class="OCCURRENCE" eid="e20">opening</EVENT> fixtures against AC Milan early on <TIMEX3 type="DATE" value="2014-08-10" tid="t2">Sunday</TIMEX3>.
+
+The final will <EVENT class="OCCURRENCE" eid="e21">kick</EVENT>-off at 02:00 CET on <TIMEX3 type="DATE" value="2014-08-05" tid="t3">Tuesday August 5</TIMEX3> and you can <EVENT class="OCCURRENCE" eid="e22">follow</EVENT> LIVE minute-by-minute
+
+Copyright Goal.com
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t0" relatedToTime="t3" />
+<TLINK lid="l2" relType="SIMULTANEOUS" timeID="t3" relatedToTime="t1" />
+<TLINK lid="l3" relType="BEFORE" timeID="t3" relatedToTime="t2" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t1" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei4" />
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei5" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l17" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l18" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei8" />
+<TLINK lid="l19" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei9" />
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei10" />
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei11" />
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei12" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei13" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei14" />
+<TLINK lid="l27" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l28" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei16" />
+<TLINK lid="l29" relType="INCLUDES" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l30" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei17" />
+<TLINK lid="l31" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei18" />
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t2" />
+<TLINK lid="l33" relType="INCLUDES" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l34" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei19" />
+<TLINK lid="l35" relType="AFTER" eventInstanceID="ei19" relatedToEventInstance="ei20" />
+<TLINK lid="l36" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t3" />
+<TLINK lid="l37" relType="INCLUDES" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l38" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei21" />
+<TLINK lid="l39" relType="AFTER" eventInstanceID="ei21" relatedToEventInstance="ei22" />
+
+</TimeML>
+

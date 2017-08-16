@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0205</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>cut-off (2)</TITLE>
+
+
+<TEXT>
+
+The city's normal water consumption for residential use is <EVENT class="I_STATE" eid="e2">estimated</EVENT> at 700,000 tons a day, <EVENT class="OCCURRENCE" eid="e3">noted</EVENT> Liu Yuzhu, a senior executive manager of the Harbin Water Supply and Drainage Group. Co. Ltd., <EVENT class="REPORTING" eid="e4">saying</EVENT> that a sizeable proportion of the water supply was <EVENT class="OCCURRENCE" eid="e5">consumed</EVENT> by such commercial service sectors, such as car <EVENT class="OCCURRENCE" eid="e6">washing</EVENT> and <EVENT class="OCCURRENCE" eid="e7">bathing</EVENT>, which have been temporarily <EVENT class="OCCURRENCE" eid="e8">closed</EVENT> on the order of the government. Water for domestic use <EVENT class="OCCURRENCE" eid="e9">use</EVENT> has been <EVENT class="OCCURRENCE" eid="e10">placed</EVENT> as priority by the government.
+
+Before the <EVENT class="OCCURRENCE" eid="e11">execution</EVENT> of water stoppage at <TIMEX3 type="DATE" value="2005-11-23" tid="t1">wee hours Wednesday</TIMEX3>, <EVENT class="REPORTING" eid="e12">said</EVENT> Liu, 90 percent of local residents <EVENT class="OCCURRENCE" eid="e13">stored</EVENT> up water enough for three-day use. The total amount of water <EVENT class="OCCURRENCE" eid="e14">stored</EVENT> by local residents is <EVENT class="I_STATE" eid="e15">estimated</EVENT> at 300,000 tons, <EVENT class="REPORTING" eid="e16">according</EVENT> to the company's research.
+
+Luan Xizhong, manager of Walmart Northeast China Region, <EVENT class="REPORTING" eid="e18">said</EVENT> that frenzy shoppers nearly <EVENT class="OCCURRENCE" eid="e19">emptied</EVENT> Walmart's chainstore <EVENT class="OCCURRENCE" eid="e20">located</EVENT> in Zhongshan Avenue in downtown Harbin <TIMEX3 type="DATE" value="2005-11-21" tid="t3">two days ago</TIMEX3>. But <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> it has been <EVENT class="OCCURRENCE" eid="e21">refilled</EVENT> with sufficient food and beverage stuff.
+
+"Our order of 30,000 boxes of bottled mineral water <EVENT class="OCCURRENCE" eid="e22">arrived</EVENT> <TIMEX3 type="DATE" value="2005-11-23" tid="t5">today</TIMEX3> , and there is no need for buying spree," Luan <EVENT class="REPORTING" eid="e23">told</EVENT> Xinhua.
+
+But there are some stores <EVENT class="OCCURRENCE" eid="e24">speculating</EVENT> on the public fears of water shortage.
+
+A student with the Harbin Industrial University <EVENT class="REPORTING" eid="e25">told</EVENT> Xinhua that some stores are <EVENT class="OCCURRENCE" eid="e26">raising</EVENT> prices of mineral water. "The price of a dozen bottles of a brand mineral water <EVENT class="OCCURRENCE" eid="e27">rose</EVENT> from 12 yuan (1.5 US dollars) to over 20 yuan (2.5 US dollars) in <TIMEX3 type="DURATION" value="P2D" tid="t7">two days</TIMEX3>," <EVENT class="REPORTING" eid="e28">said</EVENT> Zhao Yingqiang, a Harbin resident.
+
+In response to the public complaint, Wang Lianjia, an official of provincial pricing authorities, <EVENT class="REPORTING" eid="e30">said</EVENT> that price <EVENT class="OCCURRENCE" eid="e31">rises</EVENT> were separated cases. As long as the government <EVENT class="OCCURRENCE" eid="e33">ensures</EVENT> sufficient market supply of drinking water, the price would <EVENT class="OCCURRENCE" eid="e34">ebb</EVENT> and <EVENT class="OCCURRENCE" eid="e35">return</EVENT> to the normal level in a couple of days.
+
+As part of its <EVENT class="OCCURRENCE" eid="e36">bid</EVENT> to <EVENT class="OCCURRENCE" eid="e37">stabilize</EVENT> the market price of drinking water, the municipal government has <EVENT class="OCCURRENCE" eid="e38">allocated</EVENT> 5 million yuan (625,000 US dollars) to <EVENT class="OCCURRENCE" eid="e39">set</EVENT> up five water stations in the city to <EVENT class="OCCURRENCE" eid="e40">provide</EVENT> barreled water at standard market price.
+
+Li Gang, a Harbin resident, seen standing in a line outside a public toilet, <EVENT class="REPORTING" eid="e41">told</EVENT> Xinhua his family members would <EVENT class="OCCURRENCE" eid="e42">use</EVENT> the public toilet in the next few days so as to <EVENT class="OCCURRENCE" eid="e43">save</EVENT> water for toilet flushing.
+
+"It is not a big problem for just a few days and it is of little troubles in daily life," he <EVENT class="REPORTING" eid="e45">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei41" relatedToEventInstance="ei45" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei34" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei41" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei28" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei33" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="INCLUDES" />
+<TLINK lid="l39" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei38" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l50" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l52" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l54" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l55" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l57" eventInstanceID="ei11" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l58" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+
+
+
+
+</TimeML>

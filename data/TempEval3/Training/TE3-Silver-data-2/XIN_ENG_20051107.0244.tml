@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051107.0244</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2005-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Russian communists commemorate anniversary of 1917 Revolution</TITLE>
+
+
+<TEXT>
+
+Over 10,000 members and supporters of the Russian Communist Party <TIMEX3 type="DATE" value="2005-11-07" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">held</EVENT> <EVENT class="OCCURRENCE" eid="e2">rally</EVENT> in downtown Moscow to <EVENT class="OCCURRENCE" eid="e3">commemorate</EVENT> the 88th <EVENT class="OCCURRENCE" eid="e4">anniversary</EVENT> of the 1917 <EVENT class="OCCURRENCE" eid="e5">Revolution</EVENT>.
+
+Earlier in the day, the Communists <EVENT class="OCCURRENCE" eid="e6">brandishing</EVENT> red flags of the party and slogans scroll <EVENT class="OCCURRENCE" eid="e8">marched</EVENT> across the central streets in the capital of Russia.
+
+The slogans that were <EVENT class="OCCURRENCE" eid="e9">carried</EVENT> by the communist-demonstrators <EVENT class="OCCURRENCE" eid="e10">read</EVENT> "A National Status to the Great <TIMEX3 type="DATE" value="2005-11-07" tid="t3">October Holiday</TIMEX3>!", "Lenin! <TIMEX3 type="DATE" value="2005-10" tid="t4">October</TIMEX3>! Socialism!" "<TIMEX3 type="DATE" value="2006-11-07" tid="t5">November 7</TIMEX3> was, is and will be the Holiday of People!", "State Television for the People and not for Bureaucracy!".
+
+<EVENT class="REPORTING" eid="e11">According</EVENT> to the Russian media, the <EVENT class="OCCURRENCE" eid="e12">rallies</EVENT> and <EVENT class="OCCURRENCE" eid="e13">demonstrations</EVENT> <EVENT class="OCCURRENCE" eid="e14">organized</EVENT> by the Russian communists and the left parties were also <EVENT class="OCCURRENCE" eid="e15">held</EVENT> on <TIMEX3 type="DATE" value="2005-11-07" tid="t6">Monday</TIMEX3> in other regions and cities, such as St. Petersburg, Krasnojarsk, Ulyanovsk, Kurgan, Kirov and Tula.
+
+Today -- a former holiday marking "the October Revolution" -- has <EVENT class="STATE" eid="e17">become</EVENT> an official working day for the first time in <TIMEX3 type="DURATION" value="2005-11-07" tid="t9">decades</TIMEX3>, <EVENT class="REPORTING" eid="e18">according</EVENT> to a presidential decree.
+
+Russian President Vladimir Putin <EVENT class="OCCURRENCE" eid="e19">signed</EVENT> a law on <TIMEX3 type="DATE" value="2005-07-21" tid="t10">July 21</TIMEX3> <EVENT class="ASPECTUAL" eid="e20">canceling</EVENT> the <TIMEX3 type="DATE" value="2005-11-07T07:00" tid="t11">Nov. 7 holiday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e21">replacing</EVENT> it with the Day of People's Unity, a <TIMEX3 type="DATE" value="2005-11-04" tid="t12">Nov. 4</TIMEX3> <EVENT class="OCCURRENCE" eid="e22">celebration</EVENT> of the end of Polish <EVENT class="OCCURRENCE" eid="e23">intervention</EVENT> in <TIMEX3 type="DATE" value="1612" tid="t13">1612</TIMEX3>.
+
+Before <TIMEX3 type="DATE" value="1991" tid="t14">1991</TIMEX3>, <TIMEX3 type="DATE" value="2004-11-07" tid="t15">Nov. 7</TIMEX3> was a major holiday in Soviet Union. From <TIMEX3 type="DATE" value="1991" tid="t16">1991</TIMEX3> to 1996 the Russian authorities no longer <EVENT class="OCCURRENCE" eid="e24">celebrated</EVENT> the day, but which still <EVENT class="STATE" eid="e25">remain</EVENT> a holiday. In <TIMEX3 type="DATE" value="1996" tid="t18">1996</TIMEX3>, <TIMEX3 type="DATE" value="2004-11-07" tid="t19">Nov. 7</TIMEX3> was <EVENT class="OCCURRENCE" eid="e26">renamed</EVENT> the Day of Reconciliation and Accord in <EVENT class="OCCURRENCE" eid="e27">accordance</EVENT> with a presidential decree.
+
+On <TIMEX3 type="DATE" value="2005-10-31TMO" tid="t20">Monday morning</TIMEX3>, over 3,000 people, including 500 veterans, 500 soldiers and cadets, also <EVENT class="OCCURRENCE" eid="e28">marched</EVENT> on Red Square to <EVENT class="I_ACTION" eid="e29">mark</EVENT> the anniversary of a <EVENT class="OCCURRENCE" eid="e31">parade</EVENT> of thousands of 8,000 Soviet troops <EVENT class="OCCURRENCE" eid="e32">heading</EVENT> off to the front in <TIMEX3 type="DATE" value="1941" tid="t21">1941</TIMEX3>, when the German invaders were just a few dozen kilometers from Moscow.
+
+About 3,400 local policemen were <EVENT class="OCCURRENCE" eid="e33">engaged</EVENT> in <EVENT class="OCCURRENCE" eid="e34">safeguarding</EVENT> security and social order. No <EVENT class="OCCURRENCE" eid="e35">riot</EVENT> or unrest have been <EVENT class="REPORTING" eid="e36">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-07" tid="t22">the day</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000020" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000026" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei32" relatedToTime="t21" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei28" relatedToEventInstance="ei33" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToTime="t20" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei26" relatedToEventInstance="ei1000026" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToTime="t18" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1000026" relatedToTime="t19" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei36" relatedToTime="t22" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei1000020" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei19" relatedToEventInstance="ei1000020" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei24" relatedToTime="t16" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei23" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei18" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l49" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l51" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l55" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+
+
+
+
+</TimeML>

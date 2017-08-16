@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970420.0050</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-20" temporalFunction="false" functionInDocument="CREATION_TIME">April 20 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENTGujral stakes claim to form new Indian government</TITLE>
+
+
+<TEXT>
+
+United Front coalition leader Inder Kumar Gujral on <TIMEX3 type="DATE" value="1997-04-20" tid="t1">Sunday</TIMEX3> staked claim to <EVENT class="OCCURRENCE" eid="e3">form</EVENT> India's new government, a leader of the alliance <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

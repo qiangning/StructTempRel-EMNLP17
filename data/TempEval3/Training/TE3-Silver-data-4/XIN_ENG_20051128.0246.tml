@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0246</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Xinhua international news advisory -- Nov. 28</TITLE>
+
+
+<TEXT>
+
+The following major international news stories from the North America region are <EVENT class="I_STATE" eid="e1">scheduled</EVENT> to be <EVENT class="OCCURRENCE" eid="e2">covered</EVENT> or <EVENT class="OCCURRENCE" eid="e3">pursued</EVENT> by Xinhua News Agency on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3>.
+
+-- US President George W. Bush is <EVENT class="I_STATE" eid="e4">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e5">deliver</EVENT> remarks on Border Security and Immigration Reform on <TIMEX3 type="TIME" value="2005-11-21TAF" tid="t2">Monday afternoon</TIMEX3>.
+
+-- Canada's Parliament is to <EVENT class="OCCURRENCE" eid="e7">vote</EVENT> <TIMEX3 type="TIME" value="2005-12-05TEV" tid="t3">Monday evening</TIMEX3> on a motion of non-confidence against Liberal government.
+
+-- The United Nations Security Council is to <EVENT class="OCCURRENCE" eid="e8">discuss</EVENT> the situation in Burundi on <TIMEX3 type="DATE" value="2005-12-05" tid="t4">Monday</TIMEX3> and is <EVENT class="I_STATE" eid="e9">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e10">extend</EVENT> the mandate of the UN <EVENT class="OCCURRENCE" eid="e12">peacekeeping</EVENT> mission in the country.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

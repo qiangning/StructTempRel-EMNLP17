@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0046</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Scores of Italian oil workers kidnapped on vessel  in Nigeria</TITLE>
+
+
+<TEXT>
+
+Gunmen have <EVENT class="OCCURRENCE" eid="e1">kidnapped</EVENT> several people from an Italian oil vessel off the Nigerian coast, according to industry and security officials on <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3>.
+
+The exact number and the nationalities of the hostages were not immediately known. One security source asked for anonymity <EVENT class="REPORTING" eid="e5">said</EVENT> the <EVENT class="OCCURRENCE" eid="e6">incident</EVENT> <EVENT class="OCCURRENCE" eid="e7">occurred</EVENT> overnight on a vessel belonging to a subsidiary of Italian oil giant Eni.
+
+Other sources <EVENT class="REPORTING" eid="e9">said</EVENT> about 25 foreign workers and 60 Nigerian employees were <EVENT class="OCCURRENCE" eid="e10">taken</EVENT> overnight on the vessel, which has not been <EVENT class="REPORTING" eid="e11">confirmed</EVENT> officially.
+
+The vessel was about 50 kms off the coast of Nigeria's Rivers State at the time, officials <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e14">kidnappings</EVENT> were the latest in a series of <EVENT class="OCCURRENCE" eid="e15">attack</EVENT> on oil installations in the volatile Niger Delta, where most of the country's oil is <EVENT class="OCCURRENCE" eid="e16">produced</EVENT>.
+
+Since <TIMEX3 type="DATE" value="2006-11-22" tid="t2">the beginning of the year</TIMEX3>, militant groups have constantly <EVENT class="OCCURRENCE" eid="e17">attacked</EVENT> oil facilities and taken oil workers as hostages.
+
+Nigeria, Africa's largest oil producer and the sixth largest oil exporter in the world, has a daily crude oil output of 2.6 million barrels.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

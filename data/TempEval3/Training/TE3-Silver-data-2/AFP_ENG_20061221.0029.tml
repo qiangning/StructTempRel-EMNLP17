@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061221.0029</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-12-21" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 21 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - UPDATES toll ///</TITLE>
+
+
+<TEXT>
+
+A suicide bomber <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> 13 Iraqis <EVENT class="OCCURRENCE" eid="e2">queuing</EVENT> at a police <EVENT class="OCCURRENCE" eid="e3">recruitment</EVENT> centre in central Baghdad on <TIMEX3 type="DATE" value="2006-12-21" tid="t1">Thursday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e4">wounded</EVENT> 12 more, security and medicals sources <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+The bomber, <EVENT class="I_STATE" eid="e6">believed</EVENT> to have been <EVENT class="OCCURRENCE" eid="e7">wearing</EVENT> an explosive vest, <EVENT class="OCCURRENCE" eid="e8">struck</EVENT> at sunrise outside a police academy in a street in the heart of the Iraqi capital that has been <EVENT class="I_ACTION" eid="e9">barred</EVENT> to traffic, he <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+Before the traffic ban had been <EVENT class="OCCURRENCE" eid="e11">put</EVENT> into place, the police academy near Palestine Street in the Rusafa District, had <EVENT class="OCCURRENCE" eid="e12">come</EVENT> under <EVENT class="OCCURRENCE" eid="e13">attacks</EVENT> three times by car bomb, mortar and a suicide bomber.
+
+Ten police recruits were <EVENT class="OCCURRENCE" eid="e14">killed</EVENT> instantly and another three <EVENT class="OCCURRENCE" eid="e15">died</EVENT> of their injuries after being <EVENT class="OCCURRENCE" eid="e16">taken</EVENT> to the al-Kindi hospital, a medical source <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+In <TIMEX3 type="DATE" value="2005-10" tid="t2">October last year</TIMEX3>, a bomber in a suicide vest <EVENT class="OCCURRENCE" eid="e18">killed</EVENT> 17 people when he <EVENT class="OCCURRENCE" eid="e19">blew</EVENT> himself up on a bus dropping police cadets off at the academy.
+
+Since then security has been <EVENT class="OCCURRENCE" eid="e21">improved</EVENT> in the area, which is near the main interior ministry headquarters, but the city of Baghdad remains in the grip of mounting insurgent and sectarian <EVENT class="OCCURRENCE" eid="e25">violence</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+
+
+
+
+</TimeML>

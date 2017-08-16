@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0112</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>African leaders</TITLE>
+
+
+<TEXT>
+
+Chinese President Hu Jintao <EVENT class="OCCURRENCE" eid="e1">held</EVENT> here <TIMEX3 type="DATE" value="2006-11-04" tid="t1">Saturday</TIMEX3> a welcoming banquet at the Great Hall of the People for the leaders and representatives of 48 African countries, who are here for the Beijing Summit of the Forum on China-Africa Cooperation.
+
+The Summit, <EVENT class="OCCURRENCE" eid="e2">themed</EVENT> on "friendship, peace, cooperation and development", is <EVENT class="OCCURRENCE" eid="e5">regarded</EVENT> as the largest diplomatic event ever <EVENT class="OCCURRENCE" eid="e6">held</EVENT> between China and Africa.
+
+At the opening <EVENT class="OCCURRENCE" eid="e7">ceremony</EVENT> on <TIMEX3 type="DATE" value="2006-10-28TMO" tid="t2">Saturday morning</TIMEX3>, Hu <EVENT class="REPORTING" eid="e8">announced</EVENT> a package of measures covering assistance, investment, trade and social <EVENT class="OCCURRENCE" eid="e9">development</EVENT> for Africa in an <EVENT class="OCCURRENCE" eid="e10">effort</EVENT> to <EVENT class="OCCURRENCE" eid="e11">forge</EVENT> a new type of strategic partnership and <EVENT class="OCCURRENCE" eid="e12">strengthen</EVENT> cooperation in more areas and at a higher level.
+
+Two documents -- a declaration and an action plan for 2007-2009 -- are <EVENT class="I_STATE" eid="e14">expected</EVENT> to be <EVENT class="OCCURRENCE" eid="e15">adopted</EVENT> at the <EVENT class="OCCURRENCE" eid="e16">summit</EVENT>, due to <EVENT class="OCCURRENCE" eid="e17">conclude</EVENT> on <TIMEX3 type="DATE" value="2006-10-29" tid="t4">Sunday.</TIMEX3>
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

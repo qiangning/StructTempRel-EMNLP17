@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0198</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="2006-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Israel blocks Tutu's UN mission to Beit Hanun: UN official</TITLE>
+
+
+<TEXT>
+
+Israel has <EVENT class="OCCURRENCE" eid="e1">blocked</EVENT> a UN human rights fact-finding mission <EVENT class="OCCURRENCE" eid="e2">led</EVENT> by South African Nobel laureate Desmond Tutu into the <EVENT class="OCCURRENCE" eid="e3">killing</EVENT> of 19 Palestinians in their homes in the Gaza Strip, a United Nations official in Geneva <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-12-11" tid="t1">Monday</TIMEX3>.
+
+Israeli authorities will not <EVENT class="OCCURRENCE" eid="e5">grant</EVENT> Tutu and his team the necessary travel authorisation, the official <EVENT class="OCCURRENCE" eid="e6">added</EVENT>.
+
+The UN Human Rights Council <EVENT class="OCCURRENCE" eid="e7">voted</EVENT> on <TIMEX3 type="DATE" value="2006-11-15" tid="t2">November 15</TIMEX3> to <EVENT class="OCCURRENCE" eid="e8">set</EVENT> up the fact-finding mission into the deaths during an Israeli artillery bombardment in Beit Hanun.   The mission was <EVENT class="I_ACTION" eid="e10">intended</EVENT> to <EVENT class="OCCURRENCE" eid="e11">assess</EVENT> the situation of victims, <EVENT class="OCCURRENCE" eid="e12">address</EVENT> the needs of survivors, and <EVENT class="OCCURRENCE" eid="e13">make</EVENT> recommendations on ways "to <EVENT class="OCCURRENCE" eid="e14">protect</EVENT> Palestinian civilians against further Israeli <EVENT class="OCCURRENCE" eid="e15">attacks</EVENT>".
+
+Tutu, the former Anglican Archbishop of Cape Town, <EVENT class="OCCURRENCE" eid="e16">chaired</EVENT> the South African Truth and Reconciliation Commission after the end of the apartheid regime.
+
+The <EVENT class="OCCURRENCE" eid="e17">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e18">dispatch</EVENT> the mission <EVENT class="OCCURRENCE" eid="e20">revealed</EVENT> divisions within the Human Rights Council, which has been <EVENT class="OCCURRENCE" eid="e21">criticised</EVENT> by the outgoing Secretary General Kofi Annan for excessive focus on the Israeli/Palestinian conflict.
+
+Thirty-two countries in the 47-member Council, mainly from Asia, Africa and the Middle East, <EVENT class="OCCURRENCE" eid="e23">voted</EVENT> for the resolution <EVENT class="OCCURRENCE" eid="e24">setting</EVENT> up the mission.
+
+Eight countries, including Canada and European nations such as Britain and Germany, <EVENT class="I_STATE" eid="e25">opposed</EVENT> the <EVENT class="OCCURRENCE" eid="e26">move</EVENT>. Six countries, including France, Switzerland and Japan, <EVENT class="OCCURRENCE" eid="e27">abstained</EVENT>.
+
+Nineteen Palestinians were <EVENT class="OCCURRENCE" eid="e28">killed</EVENT> on <TIMEX3 type="DATE" value="2006-11-18" tid="t3">November 18</TIMEX3> in the shelling of private homes in the northern Gaza town of Beit Hanun, which the Israeli military <EVENT class="I_ACTION" eid="e30">blamed</EVENT> on a technical malfunction.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei28" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

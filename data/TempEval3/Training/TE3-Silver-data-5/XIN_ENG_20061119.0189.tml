@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0189</DOCID>
+
+<DCT>LOS ANGELES, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Thick fog delays 88 flights to LA</TITLE>
+
+
+<TEXT>
+
+Eighty-eight flights to Los Angeles were <EVENT class="OCCURRENCE" eid="e1">postponed</EVENT> because of thick fog in the area <TIMEX3 type="TIME" value="2006-11-18TNI" tid="t1">Saturday night</TIMEX3>, <EVENT class="REPORTING" eid="e2">said</EVENT> the Federal Aviation Administration (FAA).
+
+Thick fog along the coast <EVENT class="OCCURRENCE" eid="e3">caused</EVENT> delays of up to an hour and a half at Los Angeles International Airport (LAX) for planes from around the country, FAA spokesman Ian Gregor <EVENT class="REPORTING" eid="e5">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-19" tid="t2">Sunday</TIMEX3>.
+
+Visibility at the airport was <EVENT class="OCCURRENCE" eid="e6">reduced</EVENT> to 0.25 mile to 1.25 miles, and the fog was not <EVENT class="I_STATE" eid="e7">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e8">lift</EVENT> until <TIMEX3 type="TIME" value="2006-11-19TMO" tid="t3">this morning</TIMEX3>, <EVENT class="REPORTING" eid="e9">according</EVENT> to the National Weather Service.
+
+There is only one operational runway at LAX that is <EVENT class="OCCURRENCE" eid="e10">equipped</EVENT> with an instrument landing system that can guide <EVENT class="OCCURRENCE" eid="e12">arriving</EVENT> airplanes in thick fog, <EVENT class="REPORTING" eid="e13">said</EVENT> Gregor.
+
+"Normally, around this time, we'd <EVENT class="STATE" eid="e14">have</EVENT> an arrival rate of 58 to 60 planes an hour. Right now the arrival rate is 32 to 42," Gregor <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+By 9:30 p.m., conditions had <EVENT class="OCCURRENCE" eid="e16">improved</EVENT> and the landing rate had <EVENT class="OCCURRENCE" eid="e17">increased</EVENT> to about 52 an hour, he <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+The heavy fog was <EVENT class="OCCURRENCE" eid="e19">triggered</EVENT> by a combination of warm temperatures <TIMEX3 type="DATE" value="2006-11-25" tid="t5">Saturday</TIMEX3> and the cooler moist air <EVENT class="OCCURRENCE" eid="e20">coming</EVENT> from the ocean, <EVENT class="REPORTING" eid="e21">said</EVENT> Jamie Meier, a meteorologist with the National Weather Service.
+
+Visibility was <EVENT class="I_STATE" eid="e22">expected</EVENT> to <EVENT class="STATE" eid="e23">remain</EVENT> less than 2 miles overnight.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+
+
+
+
+</TimeML>

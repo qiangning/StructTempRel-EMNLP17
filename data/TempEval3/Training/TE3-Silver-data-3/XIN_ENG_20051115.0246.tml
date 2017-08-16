@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051115.0246</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China to launch special inspection over rural tax reform</TITLE>
+
+
+<TEXT>
+
+China will <EVENT class="OCCURRENCE" eid="e1">kickoff</EVENT> a special <EVENT class="OCCURRENCE" eid="e2">inspection</EVENT> of rural tax and fee system <EVENT class="OCCURRENCE" eid="e3">reform</EVENT> in some provinces, the Ministry of Finance <EVENT class="REPORTING" eid="e4">announced</EVENT> on <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3>.
+
+The State Council will <EVENT class="OCCURRENCE" eid="e5">send</EVENT> 6 inspection teams to 12 provinces from <TIMEX3 type="DATE" value="2005-11-21" tid="t2">November 21</TIMEX3> to <TIMEX3 type="DATE" value="2005-12-05" tid="t3">December 5</TIMEX3> to <EVENT class="OCCURRENCE" eid="e6">check</EVENT> out the reform progress concerning rural tax and fee collection, <EVENT class="REPORTING" eid="e7">according</EVENT> to the ministry.
+
+To <EVENT class="OCCURRENCE" eid="e8">alleviate</EVENT> the burden on Chinese farmers, the government has been <EVENT class="OCCURRENCE" eid="e9">reforming</EVENT> its rural tax and fee systems for years in an <EVENT class="OCCURRENCE" eid="e10">effort</EVENT> to <EVENT class="OCCURRENCE" eid="e11">eliminate</EVENT> growing administrative and arbitrary fees.
+
+Since <TIMEX3 type="DATE" value="2005" tid="t4">the beginning of this year</TIMEX3>, the government has <EVENT class="ASPECTUAL" eid="e14">stopped</EVENT> <EVENT class="OCCURRENCE" eid="e15">collecting</EVENT> the agricultural tax in all provinces except three, where agricultural tax ratios have been <EVENT class="OCCURRENCE" eid="e16">lowered</EVENT> to 2 percent. <TIMEX3 type="DATE" value="2006" tid="t5">Next year</TIMEX3>, the whole country is <EVENT class="I_STATE" eid="e17">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e18">annul</EVENT> the agricultural tax.
+
+As local governments <EVENT class="OCCURRENCE" eid="e19">collect</EVENT> less taxes and fees from farmers, they are <EVENT class="I_ACTION" eid="e20">facing</EVENT> fund shortages in <EVENT class="OCCURRENCE" eid="e21">supporting</EVENT> education and infrastructure construction. To <EVENT class="OCCURRENCE" eid="e23">solve</EVENT> this problem, the central government has <EVENT class="OCCURRENCE" eid="e24">allocated</EVENT> huge sums of money to <EVENT class="OCCURRENCE" eid="e25">alleviate</EVENT> the fund shortages of local governments.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000006" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei1000006" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1000006" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" timeID="t0" relatedToTime="t4" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

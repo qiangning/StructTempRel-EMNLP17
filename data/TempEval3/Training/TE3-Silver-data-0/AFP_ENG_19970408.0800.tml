@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970408.0800</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="1997-04-09" temporalFunction="false" functionInDocument="CREATION_TIME">April 9 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>China, Vietnam start talks on sea dispute in Beijing (repetition, correcting date)</TITLE>
+
+
+<TEXT>
+
+Expert-level delegations from China and Vietnam <EVENT class="ASPECTUAL" eid="e1">started</EVENT> <EVENT class="OCCURRENCE" eid="e2">discussions</EVENT> <TIMEX3 type="DATE" value="1997-04-09" tid="t1">early Wednesday</TIMEX3> on a territorial <EVENT class="OCCURRENCE" eid="e3">dispute</EVENT> in the oil-rich South China Sea.
+
+Held at the Foreign Ministry in Beijing, the <EVENT class="OCCURRENCE" eid="e4">talks</EVENT> are <EVENT class="I_STATE" eid="e5">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e6">solving</EVENT> a potentially troublesome <EVENT class="OCCURRENCE" eid="e7">dispute</EVENT> over waters contested between Beijing and Hanoi.
+
+They were <EVENT class="OCCURRENCE" eid="e9">arranged</EVENT> at Vietnam's <EVENT class="OCCURRENCE" eid="e10">request</EVENT> after the China National Offshore Oil Corp. <EVENT class="OCCURRENCE" eid="e11">deployed</EVENT> an exploratory oil rig in the disputed area on <TIMEX3 type="DATE" value="1997-03-07" tid="t2">March 7</TIMEX3>.
+
+The Kantan III rig was finally <EVENT class="OCCURRENCE" eid="e13">withdrawn</EVENT> on <TIMEX3 type="DATE" value="1997-04-01" tid="t3">April 1</TIMEX3>.
+
+The disputed zone <EVENT class="OCCURRENCE" eid="e14">lies</EVENT> south of the Gulf of Tonkin, almost equidistant from the central-Vietnamese coast and the Chinese island of Hainan. The area is <EVENT class="I_STATE" eid="e15">believed</EVENT> to be <EVENT class="STATE" eid="e16">rich</EVENT> in natural gas.
+
+It is not <EVENT class="OCCURRENCE" eid="e17">covered</EVENT> by regular bilateral <EVENT class="OCCURRENCE" eid="e18">talks</EVENT> on contested areas in the South China Sea.
+
+China and Vietnam have twice <EVENT class="OCCURRENCE" eid="e19">run</EVENT> into territorial <EVENT class="OCCURRENCE" eid="e20">disputes</EVENT> in the South China Sea, first in <TIMEX3 type="DATE" value="1974" tid="t4">1974</TIMEX3> over the Paracel islands and again in <TIMEX3 type="DATE" value="1988" tid="t5">1988</TIMEX3> over the Spratly Islands.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000020" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei1000020" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToEventInstance="ei1000020" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

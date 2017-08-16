@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051125.0186</DOCID>
+
+<DCT>MELBOURNE, Australia, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Factbox of women's all-around world champion Chellsie Memmel</TITLE>
+
+
+<TEXT>
+
+Following is the factbox of American Chellsie Memmel, who <EVENT class="OCCURRENCE" eid="e1">won</EVENT> women's all-around at the 38th gyamnastics world championships here on <TIMEX3 type="DATE" value="2005-11-25" tid="t1">Friday</TIMEX3>:
+
+Chellsie Memmel, the United States
+
+Place of birth: West Allis, WI, the United States
+
+Date of birth: Junuary 23, 1988
+
+Height: 154 cm
+
+Weight: 50 kg
+
+Club: M&amp;M Gymnastics in the United States
+
+Coach: Andrew Memmel, her father, and Laurie Glazer
+
+Idol: her parents
+
+A steady performer, she <EVENT class="I_ACTION" eid="e2">helped</EVENT> the American team <EVENT class="OCCURRENCE" eid="e3">win</EVENT> its first world team title in <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3> and was a co-champion on uneven bars <TIMEX3 type="DATE" value="2005-11-25" tid="t4">that year</TIMEX3>.
+
+She <EVENT class="OCCURRENCE" eid="e4">missed</EVENT> the 2004 National Championships and Olympic trials due to a broken foot. She still <EVENT class="OCCURRENCE" eid="e6">made</EVENT> the Olympic travelling squad as an alternate but did not <EVENT class="OCCURRENCE" eid="e7">compete</EVENT> at the event.
+
+She was <EVENT class="OCCURRENCE" eid="e8">named</EVENT> the 2003 TOPS Co-Athlete of the Year with Carly Patterson.
+
+She is the oldest of three daughters to Andrew, a collegiate all-American gymnast at Wisconsin, and Jeanelle, an all-American at Centenary. Her parents <EVENT class="STATE" eid="e9">own</EVENT> the M&amp;M Gymnastics club, where her younger sister Mara is also a competitive gymnast. Another sister, Skyler is also a gymnast.
+
+Her ambitions is to <EVENT class="OCCURRENCE" eid="e10">coach</EVENT> <EVENT class="OCCURRENCE" eid="e11">gymnastics</EVENT> in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t7">the future</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei1000003" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1000003" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

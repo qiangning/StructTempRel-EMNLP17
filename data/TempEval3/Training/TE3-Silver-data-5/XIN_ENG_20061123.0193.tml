@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0193</DOCID>
+
+<DCT>NANNING, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Pirate CD maker and smuggler sentenced to life in south China</TITLE>
+
+
+<TEXT>
+
+A pirate CD maker and smuggler was <EVENT class="OCCURRENCE" eid="e1">sentenced</EVENT> to jail for life by an intermediate people's court in south China's Guangxi Zhuang Autonomous Region on <TIMEX3 type="DATE" value="2006-11-23" tid="t1">Thursday</TIMEX3>.
+
+The court also <EVENT class="OCCURRENCE" eid="e2">ordered</EVENT> that 4 million yuan (500,000 U.S. dollars) of Lin Yuehua's personal property be <EVENT class="OCCURRENCE" eid="e3">confiscated</EVENT>.
+
+Lin was the boss of a CD piracy and smuggling operation, the largest one which has been so far <EVENT class="OCCURRENCE" eid="e6">uncovered</EVENT> in China. His eleven accomplices were also <EVENT class="OCCURRENCE" eid="e7">given</EVENT> jail sentences <EVENT class="OCCURRENCE" eid="e8">ranging</EVENT> from two to <TIMEX3 type="DURATION" value="P15Y" tid="t2">fifteen years</TIMEX3>.
+
+The twelve were <EVENT class="OCCURRENCE" eid="e9">convicted</EVENT> of intellectual property rights violation and smuggling.
+
+The court <EVENT class="REPORTING" eid="e11">said</EVENT> Lin and his men <EVENT class="OCCURRENCE" eid="e12">bought</EVENT> five advanced CD production lines worth more than ten million U.S. dollars and <EVENT class="OCCURRENCE" eid="e13">established</EVENT> a company abroad in <TIMEX3 type="DATE" value="2002" tid="t3">2002</TIMEX3>, mass <EVENT class="OCCURRENCE" eid="e14">producing</EVENT> pirate DVDs and VCDs.
+
+The gang then <EVENT class="OCCURRENCE" eid="e15">smuggled</EVENT> the pirated audio and video products into the Chinese mainland.
+
+From <TIMEX3 type="DATE" value="2002-12" tid="t4">Dec. 2002</TIMEX3> to <TIMEX3 type="DATE" value="2005-05" tid="t6">May 2005</TIMEX3>, Lin's company <EVENT class="OCCURRENCE" eid="e16">smuggled</EVENT> into China over 30 million discs worth 188 million yuan (about 23.5 million U.S. dollars), the court <EVENT class="REPORTING" eid="e17">said</EVENT> in its verdict.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000016" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1000016" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei1000016" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

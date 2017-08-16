@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0120</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. warship arrives for joint search-and-rescue exercise</TITLE>
+
+
+<TEXT>
+
+ZHANJIANG, Guangdong, <TIMEX3 type="DATE" value="2007-11-15" tid="t1">Nov. 15</TIMEX3> (Xinhua) --The USS Juneau (LPD 10) <EVENT class="OCCURRENCE" eid="e2">arrived</EVENT> on <TIMEX3 type="DATE" value="2006-11-15" tid="t2">Wednesday</TIMEX3> at Zhanjiang, a port city of South China's Guangdong Province, to <EVENT class="OCCURRENCE" eid="e3">get</EVENT> ready for a joint search-and-rescue exercise with the Chinese navy.
+
+This is the third time the U.S. warship has <EVENT class="OCCURRENCE" eid="e4">visited</EVENT> Zhanjiang since this south China port <EVENT class="OCCURRENCE" eid="e5">opened</EVENT> to foreign warships in <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3>.
+
+The USS Juneau, the U.S. navy's only forward-deployed amphibious transport dock, is <EVENT class="OCCURRENCE" eid="e7">captained</EVENT> by Commander of the U.S. Pacific Fleet Gary Roughead. Roughead will <EVENT class="OCCURRENCE" eid="e8">oversee</EVENT> the joint search-and-rescue <EVENT class="OCCURRENCE" eid="e9">operation</EVENT> between the two navies.
+
+There are about 650 crew members on the USS Juneau. They were warmly <EVENT class="OCCURRENCE" eid="e10">greeted</EVENT> by more than 400 Chinese navy officers and sailors.
+
+Later <TIMEX3 type="DATE" value="2006-11-22" tid="t4">Wednesday</TIMEX3>, Roughead will <EVENT class="OCCURRENCE" eid="e11">meet</EVENT> with Gu Wengen, commander of the South China Sea fleet of the Navy of the People's Liberation Army.
+
+The exercise will be <EVENT class="OCCURRENCE" eid="e12">held</EVENT> in the South China Sea on <TIMEX3 type="DATE" value="2006-11-19" tid="t5">Sunday</TIMEX3>, <EVENT class="REPORTING" eid="e13">according</EVENT> to the Chinese Defense Ministry. The exercise will <EVENT class="I_STATE" eid="e14">involve</EVENT> China's guided missile destroyer "Zhanjiang", fuel tanker "Dongting Lake," the USS Juneau (LPD 10) and the USS missile destroyer Fitzgerald.
+
+"These exercises will <EVENT class="I_ACTION" eid="e15">help</EVENT> <EVENT class="OCCURRENCE" eid="e16">improve</EVENT> understanding and <EVENT class="OCCURRENCE" eid="e18">build</EVENT> mutual trust between the two militaries, particularly the two navies," <EVENT class="REPORTING" eid="e19">said</EVENT> a statement <EVENT class="OCCURRENCE" eid="e20">issued</EVENT> by the Chinese Defense Ministry.
+
+The event is the second phase of the first-ever joint Sino-American search-and-rescue exercises, <EVENT class="I_ACTION" eid="e21">agreed</EVENT> on by Chinese and U.S. military leaders.
+
+The first phase in <TIMEX3 type="DATE" value="2006-09" tid="t6">September</TIMEX3> <EVENT class="OCCURRENCE" eid="e22">consisted</EVENT> of communications and <EVENT class="OCCURRENCE" eid="e23">passing</EVENT> exercises <EVENT class="OCCURRENCE" eid="e24">held</EVENT> in the waters off Hawaii.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei22" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

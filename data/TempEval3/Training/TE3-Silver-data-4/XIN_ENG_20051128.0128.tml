@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0128</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Asia-Pacific regional seminar on water management held in Singapore</TITLE>
+
+
+<TEXT>
+
+An Asia-Pacific regional seminar on sustainable water management, <EVENT class="OCCURRENCE" eid="e1">organized</EVENT> by the Germany- Singapore Environmental Technology Agency (GSETA), <EVENT class="OCCURRENCE" eid="e2">opened</EVENT> here on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3>.
+
+With the <EVENT class="OCCURRENCE" eid="e3">participation</EVENT> of some 70 experts and government officials from Germany, Singapore and 15 other economies in the region, the three-day <EVENT class="OCCURRENCE" eid="e4">meeting</EVENT> <EVENT class="OCCURRENCE" eid="e5">focuses</EVENT> on the latest developments, technological advances, best practices and upcoming challenges <EVENT class="OCCURRENCE" eid="e6">faced</EVENT> in sustainable water and waste water management.
+
+"The need to <EVENT class="I_ACTION" eid="e8">implement</EVENT> sound environmental and water policies is a key priority for all countries, especially since the world population <EVENT class="ASPECTUAL" eid="e9">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e10">grow</EVENT> rapidly and natural resources <EVENT class="OCCURRENCE" eid="e11">become</EVENT> more limited," Singapore Minister for the Environment and Water Resources Yaacob Ibrahim <EVENT class="REPORTING" eid="e12">said</EVENT> at the opening <EVENT class="OCCURRENCE" eid="e13">ceremony</EVENT>.
+
+He <EVENT class="OCCURRENCE" eid="e14">added</EVENT> that long-term integrated water management and planning, technology, as well as <EVENT class="OCCURRENCE" eid="e16">getting</EVENT> the public <EVENT class="OCCURRENCE" eid="e17">engaged</EVENT> in water conservation, are important factors in <EVENT class="OCCURRENCE" eid="e18">ensuring</EVENT> sustainable <EVENT class="OCCURRENCE" eid="e19">use</EVENT> of water around the world.
+
+<EVENT class="OCCURRENCE" eid="e20">Established</EVENT> in <TIMEX3 type="DATE" value="1991" tid="t3">1991</TIMEX3> by the governments of Germany and Singapore, the GSETA has <EVENT class="OCCURRENCE" eid="e21">organized</EVENT> 16 regional activities relating to various environmental issues with the aim of <EVENT class="OCCURRENCE" eid="e22">transferring</EVENT> environmental know-how and expertise into the Asia-Pacific region.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

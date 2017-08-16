@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0128</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st LD: Iran urges Saddam's death sentence to be carried out</TITLE>
+
+
+<TEXT>
+
+Iran here <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> <EVENT class="REPORTING" eid="e1">described</EVENT> former Iraqi leader Saddam Hussein as a criminal who <EVENT class="OCCURRENCE" eid="e2">deserved</EVENT> to <EVENT class="OCCURRENCE" eid="e3">die</EVENT>, <EVENT class="I_ACTION" eid="e4">urging</EVENT> for the death sentence on him to be <EVENT class="OCCURRENCE" eid="e5">carried</EVENT> out.
+
+"We <EVENT class="I_STATE" eid="e6">want</EVENT> the correct, fair and legal <EVENT class="OCCURRENCE" eid="e7">verdict</EVENT> against this criminal (Saddam)... could be <EVENT class="OCCURRENCE" eid="e8">enforced</EVENT>," Iran's government spokesman Gholam Hossein Elham <EVENT class="REPORTING" eid="e9">told</EVENT> a news <EVENT class="OCCURRENCE" eid="e10">conference</EVENT>.
+
+"There's no doubt that he (Saddam) is a criminal dictator, we <EVENT class="I_STATE" eid="e11">hope</EVENT> no pressures will be <EVENT class="OCCURRENCE" eid="e12">made</EVENT> to pullback this <EVENT class="OCCURRENCE" eid="e13">verdict</EVENT>," <EVENT class="REPORTING" eid="e14">said</EVENT> Elham.
+
+The spokesman also <EVENT class="OCCURRENCE" eid="e15">refuted</EVENT> suggestions that the <EVENT class="OCCURRENCE" eid="e16">execution</EVENT> of Saddam may <EVENT class="OCCURRENCE" eid="e17">exacerbate</EVENT> the violent <EVENT class="OCCURRENCE" eid="e18">conflict</EVENT> between Iraq's Shiite and Sunni communities.
+
+Iran <EVENT class="I_STATE" eid="e19">wanted</EVENT> the former Iraqi leader would <EVENT class="OCCURRENCE" eid="e20">get</EVENT> further <EVENT class="OCCURRENCE" eid="e21">trials</EVENT> for other alleged crimes against humanity, including his <EVENT class="OCCURRENCE" eid="e22">waging</EVENT> <EVENT class="OCCURRENCE" eid="e23">war</EVENT> against Iran in <TIMEX3 type="DATE" value="1980" tid="t2">1980-1988</TIMEX3>, Elham <EVENT class="OCCURRENCE" eid="e24">added</EVENT>.
+
+He <EVENT class="OCCURRENCE" eid="e25">stressed</EVENT> that "I <EVENT class="I_STATE" eid="e26">think</EVENT> it's quite clear such kind of suggestion is mischief-making, Saddam has both Shiite and Sunni blood on his hands, his very existence is anti-human."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

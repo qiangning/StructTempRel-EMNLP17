@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0411</DOCID>
+
+<DCT>DIYARBAKIR, Turkey, <TIMEX3 tid="t0" type="TIME" value="2006-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - UPDATES toll ///</TITLE>
+
+
+<TEXT>
+
+Four people, among them a woman and her two children, were <EVENT class="OCCURRENCE" eid="e1">crushed</EVENT> to death after an <EVENT class="OCCURRENCE" eid="e2">explosion</EVENT> <EVENT class="OCCURRENCE" eid="e3">caused</EVENT> by a defective heating system <EVENT class="OCCURRENCE" eid="e4">razed</EVENT> a five-storey building housing families of the Turkish military here <TIMEX3 type="DATE" value="2006-12-11" tid="t1">early Monday</TIMEX3>, officials <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+Eight people were <EVENT class="OCCURRENCE" eid="e6">pulled</EVENT> <EVENT class="OCCURRENCE" eid="e7">injured</EVENT> from the wreckage of the building in the center of Diyarbakir, the largest city in Turkey's predominantly Kurdish southeast.
+
+Four others <EVENT class="STATE" eid="e8">remained</EVENT> <EVENT class="STATE" eid="e9">trapped</EVENT> under the rubble, land forces commander General Ilker Basbug, who <EVENT class="OCCURRENCE" eid="e10">flew</EVENT> in from Ankara to <EVENT class="OCCURRENCE" eid="e11">inspect</EVENT> the rescue efforts, <EVENT class="REPORTING" eid="e14">told</EVENT> reporters.
+
+Two of them were <EVENT class="REPORTING" eid="e15">said</EVENT> to have <EVENT class="OCCURRENCE" eid="e16">responded</EVENT> to rescuers.
+
+Police <EVENT class="OCCURRENCE" eid="e17">detained</EVENT> the man who <EVENT class="OCCURRENCE" eid="e18">repaired</EVENT> the heating system on <TIMEX3 type="TIME" value="2006-12-17TEV" tid="t2">Sunday evening</TIMEX3> for <EVENT class="OCCURRENCE" eid="e19">questioning</EVENT>, the Anatolia news agency <EVENT class="REPORTING" eid="e20">reported</EVENT>.
+
+At least two children were among the <EVENT class="OCCURRENCE" eid="e21">rescued</EVENT>, Anatolia <EVENT class="REPORTING" eid="e22">said</EVENT>. Security officials <EVENT class="REPORTING" eid="e23">said</EVENT> none of the injuries were life threatening.
+
+The army <EVENT class="OCCURRENCE" eid="e25">set</EVENT> up a security perimeter as dozens of rescuers from civil defense and military teams frantically <EVENT class="OCCURRENCE" eid="e26">digged</EVENT> the debris for more survivors and ambulances <EVENT class="STATE" eid="e27">stood</EVENT> by.
+
+Diyarbakir is home to a major military garrison comprising thousands of troops.
+
+The destroyed building in the city center was part of a complex of two five-storey billets <EVENT class="OCCURRENCE" eid="e29">comprising</EVENT> of about a dozen apartments.
+
+Turkey maintains a strong military presence in the southeast, where it has been <EVENT class="OCCURRENCE" eid="e31">fighting</EVENT> a Kurdish <EVENT class="OCCURRENCE" eid="e32">insurgency</EVENT> for self-rule for <TIMEX3 type="DURATION" value="P22Y" tid="t3">the past 22 years</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei31" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei32" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

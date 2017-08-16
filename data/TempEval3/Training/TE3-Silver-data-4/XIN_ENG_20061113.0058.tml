@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0058</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Srichaphan confirms participation in Doha Asian Games</TITLE>
+
+
+<TEXT>
+
+Thailand's medal hopes at the 15th Doha Asian Games have been <EVENT class="OCCURRENCE" eid="e2">boosted</EVENT> as their tennis number one Paradorn Srichaphan has <EVENT class="REPORTING" eid="e3">confirmed</EVENT> his intention to <EVENT class="OCCURRENCE" eid="e4">compete</EVENT> in the <TIMEX3 type="DATE" value="2006-11-13" tid="t1">December 1-15</TIMEX3> Asian sports jamboree, as the Doha Asian Games official website <EVENT class="OCCURRENCE" eid="e5">revealed</EVENT> on <TIMEX3 type="DATE" value="2006-11-12" tid="t2">Sunday</TIMEX3>.
+
+With an exhausting schedule and wrist problems, there had been doubts whether Srichaphan would be able to <EVENT class="OCCURRENCE" eid="e7">defend</EVENT> the men's singles title he <EVENT class="OCCURRENCE" eid="e8">won</EVENT> <TIMEX3 type="DATE" value="2002" tid="t3">four years ago</TIMEX3> in Busan, South Korea.
+
+But <EVENT class="OCCURRENCE" eid="e9">following</EVENT> an excellent <EVENT class="OCCURRENCE" eid="e10">run</EVENT> of form in <TIMEX3 type="DURATION" value="PXM" tid="t4">recent months</TIMEX3> at ATP <EVENT class="OCCURRENCE" eid="e11">tour</EVENT>, the 27-year-old China Open semifinalist will <EVENT class="OCCURRENCE" eid="e12">take</EVENT> to the courts at the <EVENT class="OCCURRENCE" eid="e13">tennis</EVENT> in Doha.
+
+Although <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3> not officially <EVENT class="OCCURRENCE" eid="e14">recognized</EVENT> as Asia's top player, <EVENT class="REPORTING" eid="e15">according</EVENT> the ATP rankings, which places South Korea's Lee Hyung Taik at number 49, four places above Srichaphan, the Thai is still likely to <EVENT class="ASPECTUAL" eid="e16">start</EVENT> as favourite.
+
+He <EVENT class="OCCURRENCE" eid="e17">won</EVENT> both two previous <EVENT class="OCCURRENCE" eid="e18">meetings</EVENT> against Lee, whom he <EVENT class="OCCURRENCE" eid="e19">defeated</EVENT> to <EVENT class="OCCURRENCE" eid="e20">win</EVENT> the title of the men's singles at Busan Games in <TIMEX3 type="DATE" value="2002" tid="t6">2002</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

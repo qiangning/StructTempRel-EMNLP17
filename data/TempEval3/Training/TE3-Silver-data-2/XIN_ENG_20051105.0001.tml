@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051105.0001</DOCID>
+
+<DCT>HAVANA, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Castro meets senior Chinese military official</TITLE>
+
+
+<TEXT>
+
+Cuban leader Fidel Castro <EVENT class="OCCURRENCE" eid="e1">met</EVENT> with Liang Guanglie, chief of general staff of the Chinese People's Liberation Army (PLA), here <TIMEX3 type="DATE" value="2005-11-04" tid="t1">Friday</TIMEX3> on bilateral ties and relations between the two armed forces.
+
+Castro <EVENT class="REPORTING" eid="e2">said</EVENT> the Cuban armed forces <EVENT class="OCCURRENCE" eid="e3">attaches</EVENT> great importance to <EVENT class="OCCURRENCE" eid="e4">developing</EVENT> relations with the Chinese side, and <EVENT class="I_STATE" eid="e5">hoped</EVENT> that the two sides will <EVENT class="OCCURRENCE" eid="e6">enhance</EVENT> exchanges and <EVENT class="OCCURRENCE" eid="e7">cooperation</EVENT> in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t2">the future</TIMEX3>.
+
+Liang, who is also member of China's Central Military Commission, <EVENT class="REPORTING" eid="e8">said</EVENT> he was <EVENT class="I_STATE" eid="e9">pleased</EVENT> to <EVENT class="PERCEPTION" eid="e10">see</EVENT> the achievements Cuba has <EVENT class="OCCURRENCE" eid="e11">made</EVENT> under the leadership of Castro.
+
+Liang <EVENT class="REPORTING" eid="e12">said</EVENT> he had <EVENT class="OCCURRENCE" eid="e13">reached</EVENT> broad consensus with Cuba's top military leaders and the PLA is confident of <EVENT class="OCCURRENCE" eid="e15">forging</EVENT> friendly and cooperative ties with Cuba's Revolutionary Armed Forces.
+
+Liang <EVENT class="OCCURRENCE" eid="e16">arrived</EVENT> here <TIMEX3 type="DATE" value="2005-11-04" tid="t3">Friday</TIMEX3> for a three-day <EVENT class="OCCURRENCE" eid="e17">visit</EVENT>. He also <EVENT class="OCCURRENCE" eid="e18">met</EVENT> with Raul Castro Ruz, vice-president of the Council of State and minister of Cuba's Revolutionary Armed Forces, on <TIMEX3 type="DATE" value="2005-11-04" tid="t5">Friday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

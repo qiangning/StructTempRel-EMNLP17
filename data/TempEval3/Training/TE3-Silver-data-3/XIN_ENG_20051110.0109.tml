@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0109</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Jakarta stocks end lower</TITLE>
+
+
+<TEXT>
+
+Share prices on the Jakarta Stock Exchange <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> lower <TIMEX3 type="DATE" value="2005-11-17" tid="t1">Thursday</TIMEX3> with the composite index down 9.12 points to <EVENT class="OCCURRENCE" eid="e2">close</EVENT> at 1,043.69 points.
+
+Turnovers <EVENT class="PERCEPTION" eid="e3">totaled</EVENT> 801.37 million shares worth 1.01 trillion rupiah (101.11 million US dollars).
+
+Decliners <EVENT class="I_ACTION" eid="e4">beat</EVENT> advancers 70 to 31 while 64 other issues <EVENT class="OCCURRENCE" eid="e5">left</EVENT> unchanged.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

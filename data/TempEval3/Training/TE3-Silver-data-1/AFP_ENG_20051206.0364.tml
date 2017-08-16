@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0364</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="2005-12-06" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 6 , 2005</TIMEX3></DCT>
+
+<TITLE>Italy rejects proposed EU budget</TITLE>
+
+
+<TEXT>
+
+The Italian government on <TIMEX3 type="DATE" value="2005-12-06" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">rejected</EVENT> the budget for the enlarged European Union <EVENT class="OCCURRENCE" eid="e2">presented</EVENT> by the bloc's British presidency.
+
+"The Italian government has a negative opinion on the entire proposal," Foreign Minister Gianfranco Fini <EVENT class="REPORTING" eid="e4">told</EVENT> the Italian Senate.
+
+Prime Minister Silvio Berlusconi, <EVENT class="REPORTING" eid="e5">informed</EVENT> late <TIMEX3 type="DATE" value="2005-12-12" tid="t2">Monday</TIMEX3> by his British counterpart Tony Blair of the broad <EVENT class="REPORTING" eid="e6">outlines</EVENT> of the <EVENT class="OCCURRENCE" eid="e7">proposal</EVENT>, had "<EVENT class="I_STATE" eid="e8">reserved</EVENT> his judgement."
+
+But Italian diplomats <EVENT class="REPORTING" eid="e10">said</EVENT> the initial <EVENT class="OCCURRENCE" eid="e11">response</EVENT> had been negative.
+
+Proposed spending <EVENT class="OCCURRENCE" eid="e13">reductions</EVENT> would "<EVENT class="OCCURRENCE" eid="e14">derail</EVENT> the process of <EVENT class="OCCURRENCE" eid="e15">integrating</EVENT> the 10 new member states and <EVENT class="OCCURRENCE" eid="e16">raise</EVENT> the Italian contribution."
+
+In the <EVENT class="OCCURRENCE" eid="e18">run-up</EVENT> to a <TIMEX3 type="DATE" value="2005-12-06" tid="t3">December 15-16</TIMEX3> <EVENT class="OCCURRENCE" eid="e19">summit</EVENT> in Brussels, the British EU presidency is <EVENT class="OCCURRENCE" eid="e21">proposing</EVENT> seven to eight percent less in funding for the mainly ex-communist states that <EVENT class="OCCURRENCE" eid="e22">joined</EVENT> the bloc in <TIMEX3 type="DATE" value="2004-05" tid="t4">May 2004</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

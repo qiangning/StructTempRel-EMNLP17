@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970417.0009</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Manila shares close 1.1 percent lower</TITLE>
+
+
+<TEXT>
+
+Philippine share prices <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> 1.1 percent <TIMEX3 type="DATE" value="1997-04-17" tid="t1">Thursday</TIMEX3> on fears of further US interest rate hikes, analysts <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+The Philippine Stock Exchange composite index <EVENT class="OCCURRENCE" eid="e4">fell</EVENT> 33.1 points to <EVENT class="OCCURRENCE" eid="e5">close</EVENT> at 2,927.87 points.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

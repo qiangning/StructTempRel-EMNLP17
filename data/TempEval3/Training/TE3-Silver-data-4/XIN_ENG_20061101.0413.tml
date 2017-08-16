@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0413</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>elections: poll</TITLE>
+
+
+<TEXT>
+
+<TIMEX3 type="DATE" value="2006-11-01" tid="t1">One week before next Tuesday</TIMEX3>'s midterm Congressional <EVENT class="OCCURRENCE" eid="e1">elections</EVENT>, Iraq and terrorism <EVENT class="OCCURRENCE" eid="e2">top</EVENT> the list of issues that American voters consider "extremely important," a new poll <EVENT class="OCCURRENCE" eid="e4">released</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t2">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e5">showed</EVENT>.
+
+The CNN poll, <EVENT class="OCCURRENCE" eid="e6">conducted</EVENT> from <TIMEX3 type="DATE" value="2006-10-27" tid="t3">Friday</TIMEX3> through <TIMEX3 type="DATE" value="2006-10-29" tid="t4">Sunday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e7">found</EVENT> that 49 percent of those surveyed <EVENT class="REPORTING" eid="e8">said</EVENT> they <EVENT class="I_STATE" eid="e9">consider</EVENT> Iraq "extremely important" in <EVENT class="OCCURRENCE" eid="e10">deciding</EVENT> how to <EVENT class="OCCURRENCE" eid="e11">vote</EVENT>.
+
+Terrorism <EVENT class="OCCURRENCE" eid="e12">followed</EVENT> closely, at 46 percent, and the third-biggest issue was ethics in government, with 37 percent of respondents <EVENT class="REPORTING" eid="e13">saying</EVENT> they <EVENT class="I_STATE" eid="e14">consider</EVENT> it extremely important.
+
+The importance of economy <EVENT class="OCCURRENCE" eid="e15">dropped</EVENT> in the poll, which <EVENT class="OCCURRENCE" eid="e16">found</EVENT> only 33 percent of those canvassed <EVENT class="REPORTING" eid="e17">said</EVENT> it was important in their <EVENT class="OCCURRENCE" eid="e18">decision</EVENT> how to <EVENT class="OCCURRENCE" eid="e19">vote</EVENT>.
+
+The poll of 837 registered voters had a margin of sampling error at plus or minus three percentage points.
+
+Another poll <EVENT class="OCCURRENCE" eid="e20">released</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t5">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e21">suggested</EVENT> that Democrats <EVENT class="ASPECTUAL" eid="e22">continued</EVENT> to <EVENT class="STATE" eid="e23">have</EVENT> a significant advantage <EVENT class="OCCURRENCE" eid="e24">heading</EVENT> into the midterms.
+
+The NBC News/Wall Street Journal poll <EVENT class="OCCURRENCE" eid="e25">found</EVENT> that Democrats <EVENT class="OCCURRENCE" eid="e26">held</EVENT> a 15-point lead over Republicans in voters' preference for control of Congress - 52 percent against 37 percent. President George W. Bush's approval rating <EVENT class="STATE" eid="e27">remained</EVENT> below 40 percent.
+
+The poll, which was <EVENT class="OCCURRENCE" eid="e28">taken</EVENT> of 1,010 registered voters from <TIMEX3 type="DATE" value="2006-10-27" tid="t6">Friday</TIMEX3> through <TIMEX3 type="DATE" value="2006-10-30" tid="t7">Monday</TIMEX3> and had a margin of error of plus or minus 3.1 percentage points, also <EVENT class="OCCURRENCE" eid="e30">found</EVENT> more than 60 percent of those respondents <EVENT class="OCCURRENCE" eid="e31">felt</EVENT> less confident that the <EVENT class="OCCURRENCE" eid="e32">war</EVENT> in Iraq would <EVENT class="OCCURRENCE" eid="e33">come</EVENT> to a successful conclusion.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000006" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000028" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei1000006" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei30" relatedToEventInstance="ei1000028" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei1000028" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei1000006" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l49" eventInstanceID="ei28" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

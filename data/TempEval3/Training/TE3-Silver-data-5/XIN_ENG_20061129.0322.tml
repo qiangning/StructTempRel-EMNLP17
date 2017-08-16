@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0322</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Urgent: Sadr bloc suspends role in government, parliament</TITLE>
+
+
+<TEXT>
+
+The political bloc loyal to Iraqi Shiite cleric Muqtada al-Sadr <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> <EVENT class="REPORTING" eid="e1">announced</EVENT> suspension of their role in the parliament and government to <EVENT class="OCCURRENCE" eid="e3">protest</EVENT> Iraqi prime minister's <EVENT class="OCCURRENCE" eid="e4">meeting</EVENT> with U.S. President George W. Bush.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

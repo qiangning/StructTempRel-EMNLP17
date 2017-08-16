@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0169</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indian premier to visit Japan</TITLE>
+
+
+<TEXT>
+
+Indian Prime Minister Manmohan Singh will <EVENT class="OCCURRENCE" eid="e1">visit</EVENT> Japan from <TIMEX3 type="DATE" value="2006-12-13" tid="t1">Dec. 13</TIMEX3> and <EVENT class="OCCURRENCE" eid="e2">hold</EVENT> <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> with Japanese Prime Minister Shinzo Abe, Kyodo News <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="2006-11-21" tid="t2">Tuesday</TIMEX3>.
+
+Singh and Abe are to <EVENT class="REPORTING" eid="e5">talk</EVENT> about a bilateral free trade agreement and are <EVENT class="I_STATE" eid="e6">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e7">discuss</EVENT> a strategic dialogue framework to <EVENT class="OCCURRENCE" eid="e8">strengthen</EVENT> ties on security, energy and economic issues, Japanese Foreign Ministry spokesman <EVENT class="REPORTING" eid="e9">said</EVENT> on a press <EVENT class="OCCURRENCE" eid="e10">conference</EVENT>.
+
+Singh is also <EVENT class="I_ACTION" eid="e11">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e12">meet</EVENT> with Emperor Akihito and Empress Michiko.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

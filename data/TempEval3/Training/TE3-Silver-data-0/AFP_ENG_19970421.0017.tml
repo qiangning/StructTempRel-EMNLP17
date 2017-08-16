@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0017</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>BULLETIN Gujral sworn in as Indian PM</TITLE>
+
+
+<TEXT>
+
+Inder Kumar Gujral was <EVENT class="REPORTING" eid="e1">sworn</EVENT> in as India's 12th prime minister here <TIMEX3 type="DATE" value="1997-04-21" tid="t1">Monday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

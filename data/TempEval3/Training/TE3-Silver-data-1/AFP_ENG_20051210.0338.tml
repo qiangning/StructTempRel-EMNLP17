@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051210.0338</DOCID>
+
+<DCT>RENNES, France, <TIMEX3 tid="t0" type="TIME" value="2005-12-10" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 10 , 2005</TIMEX3></DCT>
+
+<TITLE>French police, youth clash over party ban</TITLE>
+
+
+<TEXT>
+
+Police <EVENT class="OCCURRENCE" eid="e1">clashed</EVENT> with youths in this northwestern French city on <TIMEX3 type="DATE" value="2005-12-10" tid="t1">Saturday</TIMEX3> after authorities <EVENT class="OCCURRENCE" eid="e2">banned</EVENT> a <EVENT class="OCCURRENCE" eid="e3">rave</EVENT> party due to be <EVENT class="OCCURRENCE" eid="e4">held</EVENT> on the sidelines of a rock music festival.
+
+Youths <EVENT class="OCCURRENCE" eid="e6">set</EVENT> fire to rubbish bins, <EVENT class="OCCURRENCE" eid="e7">smashed</EVENT> car windows and <EVENT class="OCCURRENCE" eid="e8">hurled</EVENT> bottles at police after authorities <EVENT class="OCCURRENCE" eid="e9">banned</EVENT> the party due to a lack of security, witnesses <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+No one was <EVENT class="OCCURRENCE" eid="e12">injured</EVENT> in the mid-afternoon <EVENT class="OCCURRENCE" eid="e13">melee</EVENT> which police <EVENT class="REPORTING" eid="e14">said</EVENT> <EVENT class="OCCURRENCE" eid="e15">involved</EVENT> some 500 youths and 200 officers. Ten people were <EVENT class="OCCURRENCE" eid="e16">held</EVENT> for <EVENT class="OCCURRENCE" eid="e17">questioning</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IAFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

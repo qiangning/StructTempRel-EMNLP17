@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061204.0340</DOCID>
+
+<DCT>SANTIAGO, <TIMEX3 tid="t0" type="TIME" value="2006-12-04" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 4 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Pinochet released on bail, while on death bed</TITLE>
+
+
+<TEXT>
+
+A Santiago court <TIMEX3 type="DATE" value="2006-12-04" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">released</EVENT> Pinochet on bail from house <EVENT class="OCCURRENCE" eid="e2">arrest</EVENT>, although the ailing former leader is gravely <EVENT class="STATE" eid="e4">ill</EVENT> in hospital after <EVENT class="OCCURRENCE" eid="e5">suffering</EVENT> a massive heart <EVENT class="OCCURRENCE" eid="e6">attack</EVENT> over <TIMEX3 type="DURATION" value="2006-W49-WE" tid="t2">the weekend</TIMEX3>.
+
+The release order follows charges against Pinochet, 91, in connection with two murders by the "Caravan of Death," a band of soldiers who <EVENT class="OCCURRENCE" eid="e9">conducted</EVENT> extrajudicial <EVENT class="OCCURRENCE" eid="e10">killings</EVENT> in the <TIMEX3 type="DURATION" value="PXM" tid="t3">months</TIMEX3> after the <TIMEX3 type="DATE" value="1973" tid="t4">1973</TIMEX3> <EVENT class="OCCURRENCE" eid="e11">coup</EVENT> that <EVENT class="OCCURRENCE" eid="e12">brought</EVENT> him to power.
+
+In <TIMEX3 type="DATE" value="2002" tid="t5">2002</TIMEX3>, the Supreme Court <EVENT class="OCCURRENCE" eid="e13">dropped</EVENT> an earlier <EVENT class="I_ACTION" eid="e14">attempt</EVENT> to <EVENT class="I_ACTION" eid="e15">try</EVENT> Pinochet on the "Caravan of Death" case, <EVENT class="OCCURRENCE" eid="e16">arguing</EVENT> that mild dementia <EVENT class="OCCURRENCE" eid="e17">hindered</EVENT> his ability to <EVENT class="OCCURRENCE" eid="e18">defend</EVENT> himself.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

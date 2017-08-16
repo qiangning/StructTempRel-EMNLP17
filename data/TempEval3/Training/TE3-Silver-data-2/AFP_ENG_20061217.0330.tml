@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061217.0330</DOCID>
+
+<DCT>GAZA CITY, <TIMEX3 tid="t0" type="TIME" value="2006-12-17" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 17 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Fatah colonel 'kidnapped and killed in Gaza Strip'</TITLE>
+
+
+<TEXT>
+
+A colonel in the Palestinian national security service belonging to president Mahmud Abbas's Fatah party was <EVENT class="OCCURRENCE" eid="e2">kidnapped</EVENT> and <EVENT class="OCCURRENCE" eid="e3">killed</EVENT> <TIMEX3 type="DATE" value="2006-12-17" tid="t1">Sunday</TIMEX3> in the Gaza Strip by Hamas militants, a Fatah spokesman <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

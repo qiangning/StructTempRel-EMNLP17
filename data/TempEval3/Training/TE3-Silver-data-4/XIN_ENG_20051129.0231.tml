@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0231</DOCID>
+
+<DCT>JOHANNESBURG, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Johannesburg stock ends negative</TITLE>
+
+
+<TEXT>
+
+The Johannesburg Security Exchange <EVENT class="ASPECTUAL" eid="e1">finished</EVENT> in negative territory for <TIMEX3 type="DATE" value="2005-11-29" tid="t1">the second successive day</TIMEX3> on <TIMEX3 type="DATE" value="2005-11-29" tid="t2">Tuesday</TIMEX3>, <EVENT class="STATE" eid="e2">weighed</EVENT> down by a relatively strong rand and soft world markets.
+
+Traders <EVENT class="REPORTING" eid="e3">said</EVENT> fresh long-term highs by both gold and platinum were <EVENT class="I_STATE" eid="e4">countered</EVENT> by the rand while the market also <EVENT class="PERCEPTION" eid="e5">witnessed</EVENT> some profit-taking.
+
+The JSE also <EVENT class="OCCURRENCE" eid="e7">showed</EVENT> no reaction to gross domestic product data <EVENT class="OCCURRENCE" eid="e8">released</EVENT> on <TIMEX3 type="DATE" value="2005-11-22TMO" tid="t3">Tuesday morning</TIMEX3> which, although good, was <EVENT class="I_STATE" eid="e9">much</EVENT> in line with expectations.
+
+The all share and industrial indices <EVENT class="ASPECTUAL" eid="e10">ended</EVENT> down 0.97 percent and 0.95 percent respectively. The resources index was off 1.37 percent and the gold mining index was 1.90 percent weaker, with the platinum mining index 2.18 percent lower.
+
+The financial and banking indices were down 0.33 percent and 0. 54 percent respectively.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

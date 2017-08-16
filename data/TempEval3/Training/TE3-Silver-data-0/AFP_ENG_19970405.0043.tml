@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970405.0043</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="1997-04-05" temporalFunction="false" functionInDocument="CREATION_TIME">April 5 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Hanoi sets up commission for new trans-Vietnamese highway</TITLE>
+
+
+<TEXT>
+
+Hanoi has <EVENT class="OCCURRENCE" eid="e1">set</EVENT> up a commission to <EVENT class="OCCURRENCE" eid="e2">oversee</EVENT> the construction of Vietnam's second main road artery <EVENT class="OCCURRENCE" eid="e4">linking</EVENT> the north to the south of the country, a report <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="1997-04-05" tid="t1">Saturday</TIMEX3>.
+
+The first of the Southeast Asian country's major infrastructure projects will be <EVENT class="ASPECTUAL" eid="e6">completed</EVENT> through a mass moblisation of Vietnamese workers.
+
+The 12-member road commission is <EVENT class="OCCURRENCE" eid="e7">headed</EVENT> by Prime Minsiter Vo Van Kiet and which includes several ministers.
+
+"This is a major project which will <EVENT class="OCCURRENCE" eid="e8">use</EVENT> the labour of milllions of people," Kiet was <TIMEX3 type="DATE" value="1997-04-12" tid="t2">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e9">quoted</EVENT> as <EVENT class="REPORTING" eid="e10">saying</EVENT> by the daily Vietnam News.
+
+The "Truong Son" highway will be <EVENT class="OCCURRENCE" eid="e11">built</EVENT> parallel to the existing main road which <EVENT class="OCCURRENCE" eid="e12">runs</EVENT> along the country's coast and is <EVENT class="OCCURRENCE" eid="e13">exposed</EVENT> to floods and typhoons.
+
+The new 1,800-kilometer (1,125-mile) road will <EVENT class="OCCURRENCE" eid="e14">follow</EVENT> some of the route of the famous Ho Chi Minh trail which was the major supply route of the communist forces <EVENT class="OCCURRENCE" eid="e15">fighting</EVENT> the Americans during the Vietnam <EVENT class="OCCURRENCE" eid="e16">war</EVENT>.
+
+It will <EVENT class="OCCURRENCE" eid="e17">link</EVENT> the capital Hanoi with the southern hub of Ho Chi Minh City and will initially <EVENT class="STATE" eid="e18">have</EVENT> two lanes which will later be <EVENT class="OCCURRENCE" eid="e19">expanded</EVENT> to four and then to six in some places after <TIMEX3 type="DATE" value="2002" tid="t3">2002</TIMEX3>.
+
+The feasability <EVENT class="OCCURRENCE" eid="e20">study</EVENT> for the project is <EVENT class="I_STATE" eid="e21">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e22">begin</EVENT> in <TIMEX3 type="DATE" value="1996-06" tid="t4">June</TIMEX3> and work should <EVENT class="ASPECTUAL" eid="e23">start</EVENT> <TIMEX3 type="DATE" value="1998" tid="t5">next year</TIMEX3>. The total cost of the project will could <EVENT class="OCCURRENCE" eid="e24">come</EVENT> to as much as 5.5 billion dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+
+
+
+
+</TimeML>

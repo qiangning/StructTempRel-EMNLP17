@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970410.0204</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="1997-04-10" temporalFunction="false" functionInDocument="CREATION_TIME">April 10 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>NASA delays launch of space station for one year</TITLE>
+
+
+<TEXT>
+
+NASA has <EVENT class="OCCURRENCE" eid="e1">decided</EVENT> to <EVENT class="I_ACTION" eid="e2">delay</EVENT> the launch of a future international space station for <TIMEX3 type="DURATION" value="P1Y" tid="t1">one year</TIMEX3> and <EVENT class="I_STATE" eid="e3">needs</EVENT> an extra 200 million dollars to <EVENT class="OCCURRENCE" eid="e4">replace</EVENT> a key Russian component that has <EVENT class="OCCURRENCE" eid="e5">fallen</EVENT> behind.
+
+The new target date for the first launch is "no later than <TIMEX3 type="DATE" value="1998-10" tid="t2">October 1998</TIMEX3>," NASA Space Flight Director Wilbur Trafton <EVENT class="REPORTING" eid="e6">told</EVENT> the space subcommittee of the House of Representatives on <TIMEX3 type="DATE" value="1997-04-09" tid="t3">Wednesday</TIMEX3>.
+
+The additional 200 million dollars to <EVENT class="OCCURRENCE" eid="e7">build</EVENT> a backup for the missing Russian service module, he <EVENT class="REPORTING" eid="e8">said</EVENT>, will <EVENT class="OCCURRENCE" eid="e9">come</EVENT> from the US shuttle program, but a <EVENT class="OCCURRENCE" eid="e10">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e11">build</EVENT> the substitute component will not be <EVENT class="OCCURRENCE" eid="e12">made</EVENT> until mid-May.
+
+The National Aeronautics and Space Administration (NASA) had <EVENT class="I_STATE" eid="e13">planned</EVENT> to <EVENT class="ASPECTUAL" eid="e14">launch</EVENT> the first module of the 43 billion dollar space station Alpha in <TIMEX3 type="DATE" value="1997-11" tid="t5">November of this year</TIMEX3>.
+
+But the first sign the project would have to be <EVENT class="I_ACTION" eid="e15">delayed</EVENT> <EVENT class="OCCURRENCE" eid="e16">came</EVENT> in <TIMEX3 type="DATE" value="1997-02" tid="t7">February</TIMEX3> when the Russian space agency <EVENT class="REPORTING" eid="e17">announced</EVENT> it was <EVENT class="OCCURRENCE" eid="e18">postponing</EVENT> the launch of its part of the station for <TIMEX3 type="DURATION" value="1997-04-10" tid="t8">six or seven months</TIMEX3>.
+
+The Russian "cargo" module was going to <EVENT class="OCCURRENCE" eid="e20">transport</EVENT> construction equipment to <EVENT class="OCCURRENCE" eid="e21">build</EVENT> the international station, a project between Russia, the United States, Japan and several European countries.
+
+Committee members were <EVENT class="OCCURRENCE" eid="e22">angered</EVENT> by Trafton's <EVENT class="OCCURRENCE" eid="e23">announcement</EVENT>. Republican representative Dana Rohrabacher <EVENT class="REPORTING" eid="e24">called</EVENT> Russian officials "dunderheads" and "nincompoops" for <EVENT class="OCCURRENCE" eid="e25">causing</EVENT> the year-long <EVENT class="OCCURRENCE" eid="e26">delay</EVENT>.
+
+The lawmakers were also displeased at Trafton's <EVENT class="I_STATE" eid="e28">plan</EVENT> to <EVENT class="OCCURRENCE" eid="e29">transfer</EVENT> money from the shuttle program for Alpha's component, but the NASA official <EVENT class="REPORTING" eid="e30">explained</EVENT> that it was <EVENT class="STATE" eid="e31">necessary</EVENT> to <EVENT class="I_ACTION" eid="e32">avoid</EVENT> further <EVENT class="OCCURRENCE" eid="e33">delays</EVENT>.
+
+"To <EVENT class="OCCURRENCE" eid="e34">keep</EVENT> from <EVENT class="OCCURRENCE" eid="e35">shutting</EVENT> down the program <TIMEX3 type="DATE" value="1997-04-10" tid="t9">today</TIMEX3> we <EVENT class="I_STATE" eid="e36">need</EVENT> some additional funds <TIMEX3 type="DATE" value="1997-04-10" tid="t11">today</TIMEX3>," Trafton <EVENT class="REPORTING" eid="e37">said</EVENT>. "For the lack of 200 million <TIMEX3 type="DATE" value="1997-04-10" tid="t13">today</TIMEX3>, we could <EVENT class="ASPECTUAL" eid="e39">end</EVENT> up <EVENT class="OCCURRENCE" eid="e40">costing</EVENT> ourselves several hundred million down the road."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000036" eventID="e36" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000006" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1000006" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei39" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1000006" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei1000036" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei36" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei34" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei39" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei6" relatedToEventInstance="ei1000006" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei37" relatedToEventInstance="ei1000036" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei30" relatedToEventInstance="ei37" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

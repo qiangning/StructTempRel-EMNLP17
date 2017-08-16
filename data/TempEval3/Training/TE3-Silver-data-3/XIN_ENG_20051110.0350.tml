@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0350</DOCID>
+
+<DCT>LUANDA, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Angolan women's handball beats Congo-Brazzaville</TITLE>
+
+
+<TEXT>
+
+The Angolan women's national handball team, called "Angola 30 years", <TIMEX3 type="DATE" value="2005-11-10" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e2">defeated</EVENT> Congo-Brazzaville 28-25 in their opener of the international tournament in Cabinda, Angolan North province, <EVENT class="OCCURRENCE" eid="e3">commemorating</EVENT> the 30th <EVENT class="OCCURRENCE" eid="e4">anniversary</EVENT> of the national independence.
+
+The Angolan women <EVENT class="OCCURRENCE" eid="e5">dominated</EVENT> the match by <EVENT class="OCCURRENCE" eid="e7">running</EVENT> ahead with a 7-0 scroing <EVENT class="OCCURRENCE" eid="e8">spree</EVENT> in <TIMEX3 type="DURATION" value="PT10M" tid="t2">the first 10 minutes</TIMEX3>, <EVENT class="ASPECTUAL" eid="e9">ending</EVENT> the first half 18-11 thanks to their superiority and maturity.
+
+In <TIMEX3 type="DATE" value="2005-11-10" tid="t3">the second half</TIMEX3>, Angola's Romanian coach <EVENT class="OCCURRENCE" eid="e10">made</EVENT> tactic <EVENT class="OCCURRENCE" eid="e11">changes</EVENT> to <EVENT class="OCCURRENCE" eid="e12">test</EVENT> the defensive skills of the hosts, who <EVENT class="OCCURRENCE" eid="e13">managed</EVENT> to <EVENT class="OCCURRENCE" eid="e14">hold</EVENT> on their advantages for eventual victory.
+
+The tournament <EVENT class="OCCURRENCE" eid="e15">features</EVENT> Angola (A and B), Congo Brazaville and Ivory Coast.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

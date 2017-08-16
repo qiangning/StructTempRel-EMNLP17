@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0246</DOCID>
+
+<DCT>KUALA LUMPUR, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Malaysia holds grand fashion festival</TITLE>
+
+
+<TEXT>
+
+Malaysia on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3> <EVENT class="ASPECTUAL" eid="e1">started</EVENT> to <EVENT class="OCCURRENCE" eid="e2">hold</EVENT> a grand fashion festival in Asia, which it <EVENT class="OCCURRENCE" eid="e4">called</EVENT> the largest fashion marathon in the region.
+
+The four-day event entitled "Kuala Lumpur-Asia Fashion Week 2005" was <EVENT class="OCCURRENCE" eid="e6">opened</EVENT> at Avenue K, a shopping plaza in downtown city, <EVENT class="OCCURRENCE" eid="e7">bringing</EVENT> together more than 90 fashion designers from 17 countries and regions, including Australia, Japan, India, Cambodia, Malaysia, Singapore, Pakistan, Thailand, Myanmar, the Republic of Korea.
+
+The fashion <TIMEX3 type="DATE" value="2005-11-24" tid="t4">week</TIMEX3> will <EVENT class="OCCURRENCE" eid="e8">unroll</EVENT> at several places in the city, where people can watch 12 group day shows, including model <EVENT class="OCCURRENCE" eid="e11">parades</EVENT>, and four gala nights entitled "Asia Magic," "KL Six," "Tribute to Fashion," and a final award presentation <EVENT class="OCCURRENCE" eid="e13">ceremony</EVENT>.
+
+The fashion week will <EVENT class="OCCURRENCE" eid="e14">feature</EVENT> a unique trade opportunity for local and international designers, buyers and people in the fashion trade, <EVENT class="REPORTING" eid="e15">according</EVENT> to the event organizer Kuala Lumpur-Asia Fashion Week Co.
+
+It also will <EVENT class="OCCURRENCE" eid="e16">provide</EVENT> a platform for fashion professionals and the public to <EVENT class="OCCURRENCE" eid="e17">network</EVENT> and <EVENT class="OCCURRENCE" eid="e18">find</EVENT> good bargains, including fashion goods from bags to folk clothes and handicrafts, the organizer <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

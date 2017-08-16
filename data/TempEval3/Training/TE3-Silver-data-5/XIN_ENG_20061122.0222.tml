@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0222</DOCID>
+
+<DCT>NANJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>River</TITLE>
+
+
+<TEXT>
+
+Provinces and municipalities along the Yangtze River should <EVENT class="OCCURRENCE" eid="e1">cooperate</EVENT> to <EVENT class="OCCURRENCE" eid="e2">modernize</EVENT> the world's third longest river, <EVENT class="REPORTING" eid="e3">said</EVENT> Chinese Vice Premier Huang Ju.
+
+The improved shipping capacity of the river, which <EVENT class="OCCURRENCE" eid="e5">links</EVENT> west, central and east China, would <EVENT class="OCCURRENCE" eid="e6">contribute</EVENT> greatly to social and economic development, <EVENT class="REPORTING" eid="e8">said</EVENT> Huang in a written instruction on the waterway construction.
+
+The Yangtze River <EVENT class="OCCURRENCE" eid="e10">runs</EVENT> through the Shanghai and Chongqing municipalities, as well as Sichuan, Yunnan, Hubei, Hunan, Jiangxi, Anhui and Jiangsu provinces.
+
+The government will <EVENT class="OCCURRENCE" eid="e11">invest</EVENT> 15 billion yuan (1.875 billion U.S. dollars) in the <TIMEX3 tid="t1" type="DATE" value="2006">2006-2010</TIMEX3> period to <EVENT class="OCCURRENCE" eid="e12">build</EVENT> the Yangtze waterway, the Communications Ministry <EVENT class="REPORTING" eid="e13">announced</EVENT> on <TIMEX3 type="DATE" value="2006-11-21" tid="t2">Tuesday</TIMEX3>.
+
+The money will be mainly <EVENT class="OCCURRENCE" eid="e14">used</EVENT> for waterway management, port construction, shipbuilding standardization and shipping security projects.
+
+The turnover of containers at ports along the Yangtze River was <EVENT class="I_ACTION" eid="e17">estimated</EVENT> to <EVENT class="OCCURRENCE" eid="e18">grow</EVENT> by 30 percent, <EVENT class="REPORTING" eid="e19">according</EVENT> to the ministry.
+
+China's fast economic <EVENT class="OCCURRENCE" eid="e20">growth</EVENT>, shortages of energy and resources and <EVENT class="OCCURRENCE" eid="e21">increasing</EVENT> environmental pressure have <EVENT class="OCCURRENCE" eid="e22">made</EVENT> water <EVENT class="OCCURRENCE" eid="e23">transport</EVENT> a favored choice because of the low cost, low energy consumption, low pollution and high handling capacity.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+
+
+
+
+</TimeML>

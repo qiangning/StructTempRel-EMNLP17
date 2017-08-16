@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051127.0159</DOCID>
+
+<DCT>BARCELONA, SPAIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>EU, Mediterranean leaders to re-launch Barcelona Process</TITLE>
+
+
+<TEXT>
+
+Leaders from the European Union (EU) and Mediterranean states are <EVENT class="OCCURRENCE" eid="e1">gathering</EVENT> in Spanish city Barcelona on <TIMEX3 type="DATE" value="2005-12-04" tid="t1">Sunday</TIMEX3> for a two-day <EVENT class="OCCURRENCE" eid="e2">summit</EVENT> which would <EVENT class="I_ACTION" eid="e3">try</EVENT> to re- <EVENT class="ASPECTUAL" eid="e4">launch</EVENT> the Barcelona Process.
+
+In spite of ambitious declarations <EVENT class="OCCURRENCE" eid="e5">signed</EVENT> in Barcelona in <TIMEX3 type="DATE" value="1995" tid="t3">1995</TIMEX3>, there is little tangible progress of the so-called Barcelona Process in its <TIMEX3 type="DURATION" value="P10Y" tid="t4">first 10 years</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e6">According</EVENT> to EU officials, the summit will <EVENT class="I_ACTION" eid="e7">seek</EVENT> to <EVENT class="I_ACTION" eid="e8">overcome</EVENT> divisions between the two shores of the Mediterranean and <EVENT class="I_ACTION" eid="e9">agree</EVENT> a "Declaration on a shared vision" and a five-year work program.
+
+The EU leaders also <EVENT class="I_ACTION" eid="e10">try</EVENT> to <EVENT class="OCCURRENCE" eid="e11">focus</EVENT> two controversial issues: terrorism and immigration. The code of conduct on combating terrorism is likely to be the topic most hotly <EVENT class="OCCURRENCE" eid="e12">debated</EVENT>. Meanwhile, the EU also <EVENT class="I_ACTION" eid="e13">try</EVENT> to <EVENT class="I_ACTION" eid="e14">seek</EVENT> <EVENT class="I_ACTION" eid="e15">promises</EVENT> from its Arabic neighbors to <EVENT class="I_ACTION" eid="e16">prevent</EVENT> illegal <EVENT class="OCCURRENCE" eid="e17">immigration</EVENT>.
+
+The EU is <EVENT class="OCCURRENCE" eid="e18">determined</EVENT> to <EVENT class="OCCURRENCE" eid="e19">secure</EVENT> a solemn <EVENT class="OCCURRENCE" eid="e20">commitment</EVENT> from its partners on a document <EVENT class="OCCURRENCE" eid="e21">taking</EVENT> up the United Nations' definition of terrorism and <EVENT class="OCCURRENCE" eid="e22">closing</EVENT> all legal loopholes available to terrorists.
+
+This remains a sensitive issue for certain Arab governments, especially in the context of the Israeli-Palestinian <EVENT class="OCCURRENCE" eid="e24">conflict</EVENT>.
+
+The EU is also <EVENT class="I_STATE" eid="e25">keen</EVENT> to <EVENT class="OCCURRENCE" eid="e26">place</EVENT> the issue of migration at the heart of the EuroMed partnership in future at the risk of facing <EVENT class="I_ACTION" eid="e27">resistance</EVENT> from certain partners. Failing concrete results, the EU <EVENT class="I_STATE" eid="e29">hopes</EVENT> the <EVENT class="OCCURRENCE" eid="e30">summit</EVENT> will <EVENT class="OCCURRENCE" eid="e31">define</EVENT> a "shared vision" to <EVENT class="OCCURRENCE" eid="e32">give</EVENT> "fresh impetus" to the issue.
+
+However, with nearly all Arabic leaders, including Egyptian President Hosni Mubarak, Syrian President Bashar al-Assad, Moroccan King Mohamed VI and Jordan's King Abdullah II, absent from the <EVENT class="OCCURRENCE" eid="e33">meeting</EVENT>, major announcements are unlikely.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei29" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

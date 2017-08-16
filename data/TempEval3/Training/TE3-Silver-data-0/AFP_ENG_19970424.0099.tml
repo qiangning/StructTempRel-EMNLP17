@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970424.0099</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="1997-04-24" temporalFunction="false" functionInDocument="CREATION_TIME">April 24 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Thai ratings agency joins with US firm</TITLE>
+
+
+<TEXT>
+
+Thai Ratings and Information Services (TRIS) <EVENT class="REPORTING" eid="e1">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-24" tid="t1">Thursday</TIMEX3> it was <EVENT class="OCCURRENCE" eid="e2">forming</EVENT> a three-year partnership with Fitch Investors Service of the United States.
+
+TRIS president Vuthipong Priebjrivat <EVENT class="REPORTING" eid="e3">said</EVENT> his agency, which previously had a training arrangement with Standards and Poor's, would <EVENT class="OCCURRENCE" eid="e5">sign</EVENT> the <EVENT class="OCCURRENCE" eid="e6">agreement</EVENT> to <EVENT class="OCCURRENCE" eid="e7">exchange</EVENT> staff and information with Fitch on <TIMEX3 type="DATE" value="1997-05-06" tid="t3">May 6</TIMEX3>.
+
+He <EVENT class="REPORTING" eid="e8">said</EVENT> Fitch had been <EVENT class="I_ACTION" eid="e9">chosen</EVENT> for the partnership due to its <EVENT class="OCCURRENCE" eid="e10">specialization</EVENT> in rating <EVENT class="OCCURRENCE" eid="e11">structured</EVENT> finance issues covering securitization, insurance businesses, bonds, mutual funds and pension funds.
+
+"This agreement will <EVENT class="I_ACTION" eid="e12">help</EVENT> TRIS <EVENT class="OCCURRENCE" eid="e13">upgrade</EVENT> to international standards," he <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+Vuthipong <EVENT class="OCCURRENCE" eid="e15">added</EVENT> that this <EVENT class="OCCURRENCE" eid="e16">specialization</EVENT> was in line with the Thai government's <EVENT class="OCCURRENCE" eid="e17">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e18">boost</EVENT> the domestic bond market.
+
+While the two companies would <EVENT class="OCCURRENCE" eid="e19">work</EVENT> closely together in Thailand, they would be rating companies separately, <EVENT class="OCCURRENCE" eid="e20">giving</EVENT> clients two ratings for the price of one, Vuthipong <EVENT class="REPORTING" eid="e21">said</EVENT>, <EVENT class="OCCURRENCE" eid="e22">adding</EVENT> that the grades would necessarily be the same.
+
+The TRIS president <EVENT class="REPORTING" eid="e23">said</EVENT> the two companies would also <EVENT class="OCCURRENCE" eid="e24">promote</EVENT> each other's ratings and analytical qualifications and <EVENT class="OCCURRENCE" eid="e25">adopt</EVENT> a joint rating process for both domestic and international issues.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

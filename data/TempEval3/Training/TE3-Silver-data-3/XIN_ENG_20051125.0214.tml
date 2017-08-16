@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051125.0214</DOCID>
+
+<DCT>OTTAWA, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Wild ducks found with avian flu viruses in Canada</TITLE>
+
+
+<TEXT>
+
+Thirty-six wild ducks in Canada have <EVENT class="OCCURRENCE" eid="e1">tested</EVENT> positive for H5 and H7 strains of avian influenza viruses after two farms in the country's west part were <EVENT class="OCCURRENCE" eid="e2">found</EVENT> <EVENT class="OCCURRENCE" eid="e3">infected</EVENT> with H5 earlier <TIMEX3 type="DATE" value="2005-W47" tid="t1">this week</TIMEX3>.
+
+The ducks, taken from an area along the border between Nova Scotia and New Brunswick in the Atlantic coast, are among 710 birds <EVENT class="OCCURRENCE" eid="e5">tested</EVENT> as part of a national wild bird surveillance program, Canadian Press <EVENT class="REPORTING" eid="e6">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-25" tid="t2">Friday</TIMEX3>.
+
+Additional testing needs to be done to <EVENT class="OCCURRENCE" eid="e9">identify</EVENT> which strains of H5 viruses were <EVENT class="OCCURRENCE" eid="e10">found</EVENT>.
+
+Health officials <EVENT class="REPORTING" eid="e11">say</EVENT> it is unlikely the viruses are the same as the virulent H5N1 <EVENT class="OCCURRENCE" eid="e12">strain</EVENT> <EVENT class="OCCURRENCE" eid="e13">causing</EVENT> widespread <EVENT class="OCCURRENCE" eid="e14">outbreaks</EVENT> among birds in southeast Asia which has <EVENT class="OCCURRENCE" eid="e15">caused</EVENT> 68 human deaths.
+
+Cases of H5 and H7 viruses have been <EVENT class="OCCURRENCE" eid="e16">found</EVENT> in Canada's British Columbia, Manitoba and Quebec provinces <TIMEX3 type="DATE" value="PAST_REF" tid="t3">recently</TIMEX3>. <TIMEX3 type="DATE" value="2005-W47" tid="t4">Earlier this week</TIMEX3>, a low pathogenic North American strain of H5 viruses was <EVENT class="OCCURRENCE" eid="e17">found</EVENT> on two poultry farms in British Columbia, <EVENT class="I_ACTION" eid="e18">leading</EVENT> to the <EVENT class="OCCURRENCE" eid="e19">culling</EVENT> of more than 110,000 birds.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

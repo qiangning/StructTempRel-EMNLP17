@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0018</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nepali people benefit from solar electrification</TITLE>
+
+
+<TEXT>
+
+Some 300 homes <EVENT class="OCCURRENCE" eid="e1">involving</EVENT> 2,000 people of Katunje-2 <EVENT class="OCCURRENCE" eid="e2">village</EVENT> in Nepali Dhading district have <EVENT class="OCCURRENCE" eid="e3">benefited</EVENT> from Solar Electrification Project (SEP).
+
+With the total cost of 16 million Nepali rupees ( 228,571 US dollars ), the project was <EVENT class="OCCURRENCE" eid="e4">executed</EVENT> by Central Electronics Limited (CEL), a public <EVENT class="OCCURRENCE" eid="e5">undertaking</EVENT> of the Indian government in partnership with Nepali Alternative Energy Promotion Center, a semi-governmental organization, a press statement of Embassy of India <EVENT class="OCCURRENCE" eid="e7">reaching</EVENT> here <EVENT class="REPORTING" eid="e8">said</EVENT> <TIMEX3 type="DATE" value="2005-11-29" tid="t1">Tuesday</TIMEX3>.
+
+The project <EVENT class="OCCURRENCE" eid="e9">involves</EVENT> the provision of a solar panel, a maintenance free battery and a home lighting system of 75 watts, as well as planning, implementation and <EVENT class="OCCURRENCE" eid="e12">maintenance</EVENT>.
+
+So far, India has <EVENT class="OCCURRENCE" eid="e13">executed</EVENT> 10 solar electrification projects worth 160.7 million ruppes (2.29 million dollars) in various districts in Nepal.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

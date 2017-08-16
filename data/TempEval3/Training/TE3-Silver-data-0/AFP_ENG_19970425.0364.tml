@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970425.0364</DOCID>
+
+<DCT>BRUSSELS, <TIMEX3 tid="t0" type="TIME" value="1997-04-25" temporalFunction="false" functionInDocument="CREATION_TIME">April 25 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Belgian paratrooper arrested for alleged sadism in Somalia</TITLE>
+
+
+<TEXT>
+
+Belgian gendarmes have <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> a third paratrooper <EVENT class="I_ACTION" eid="e2">accused</EVENT> of sadism against Somali people during a multinational <EVENT class="OCCURRENCE" eid="e3">operation</EVENT> in the war-torn country in <TIMEX3 type="DATE" value="1993" tid="t1">1993</TIMEX3>, judicial officials <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+The officer, <EVENT class="OCCURRENCE" eid="e6">named</EVENT> as First Sergeant-Major Rudy, was <EVENT class="OCCURRENCE" eid="e7">arrested</EVENT> <TIMEX3 type="DATE" value="1997-04-24" tid="t2">Thursday</TIMEX3> after allegedly being <EVENT class="OCCURRENCE" eid="e8">recognised</EVENT> in a photograph <EVENT class="OCCURRENCE" eid="e9">published</EVENT> in the press <TIMEX3 type="DATE" value="1997-W16" tid="t3">last week</TIMEX3>, which <EVENT class="OCCURRENCE" eid="e10">showed</EVENT> a Belgian soldier <EVENT class="OCCURRENCE" eid="e11">urinating</EVENT> on a <EVENT class="OCCURRENCE" eid="e12">wounded</EVENT> Somali.
+
+He had <EVENT class="OCCURRENCE" eid="e13">commanded</EVENT> a mortar team at Tielen in Somalia.
+
+The officer was <EVENT class="OCCURRENCE" eid="e14">brought</EVENT> back from mission in the Congolese capital Brazzaville and is due to <EVENT class="OCCURRENCE" eid="e15">appear</EVENT> before the Brussels Court Martial, which has already <EVENT class="STATE" eid="e16">charged</EVENT> two other soldiers with sadism.
+
+One of them, <EVENT class="I_ACTION" eid="e17">accused</EVENT> of badly treating children, has been <EVENT class="OCCURRENCE" eid="e18">locked</EVENT> up.
+
+Among other allegations made by former paratroopers was a claim that a young Somali <EVENT class="OCCURRENCE" eid="e19">caught</EVENT> stealing food died when he was <EVENT class="OCCURRENCE" eid="e21">put</EVENT> in a crate for <TIMEX3 type="DURATION" value="P2D" tid="t4">two</TIMEX3> days.
+
+Belgian Defence Minister Jean-Pol Poncelet has <EVENT class="I_ACTION" eid="e22">promised</EVENT> to cashier those responsible and <EVENT class="OCCURRENCE" eid="e23">dissolve</EVENT> their whole military unit should the alleged brutality <EVENT class="OCCURRENCE" eid="e24">prove</EVENT> to <EVENT class="OCCURRENCE" eid="e25">consist</EVENT> of more than isolated <EVENT class="OCCURRENCE" eid="e26">incidents</EVENT>.
+
+The soldiers were part of a failed UN-sponsored mission <EVENT class="OCCURRENCE" eid="e27">called</EVENT> Operation Restore Hope, which had <EVENT class="I_ACTION" eid="e28">sought</EVENT> to <EVENT class="OCCURRENCE" eid="e29">bring</EVENT> peace and <EVENT class="OCCURRENCE" eid="e30">protect</EVENT> food <EVENT class="OCCURRENCE" eid="e31">deliveries</EVENT> in Somalia, <EVENT class="OCCURRENCE" eid="e32">wracked</EVENT> by clan fighting and starvation.
+
+Foreign troops eventually <EVENT class="OCCURRENCE" eid="e33">pulled</EVENT> out without an end to the <EVENT class="OCCURRENCE" eid="e34">conflict</EVENT> and after bloody <EVENT class="OCCURRENCE" eid="e35">battles</EVENT> with Somali movements.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei21" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0018</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>conference</TITLE>
+
+
+<TEXT>
+
+Chinese Premier Wen Jiabao is <EVENT class="OCCURRENCE" eid="e1">hosting</EVENT> a <EVENT class="OCCURRENCE" eid="e2">ceremony</EVENT> at the Great Hall of the People <TIMEX3 type="TIME" value="2006-11-11TAF" tid="t1">Saturday afternoon</TIMEX3> to <EVENT class="OCCURRENCE" eid="e3">welcome</EVENT> the African guests <EVENT class="OCCURRENCE" eid="e4">attending</EVENT> the high-level dialogue and second <EVENT class="OCCURRENCE" eid="e5">conference</EVENT> of Chinese and African entrepreneurs.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

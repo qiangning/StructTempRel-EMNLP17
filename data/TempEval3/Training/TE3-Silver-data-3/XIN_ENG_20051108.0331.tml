@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0331</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Six-party talks begins in Beijing</TITLE>
+
+
+<TEXT>
+
+The fifth round of the six-party <EVENT class="OCCURRENCE" eid="e1">talks</EVENT> on the Korean Peninsula nuclear issue <EVENT class="ASPECTUAL" eid="e2">began</EVENT> at <TIMEX3 type="DATE" value="2005-11-09" tid="t1">10:00 a.m.</TIMEX3> <TIMEX3 type="DATE" value="2005-11-16" tid="t2">Wednesday</TIMEX3> at Beijing's Diaoyutai State Guesthouse.
+
+The <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> <EVENT class="I_STATE" eid="e4">involves</EVENT> China, the Democratic People's Republic of Korea, the United States, Republic of Korea, Russia and Japan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0224</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Small plane crashes in northern Nigeria, two killed</TITLE>
+
+
+<TEXT>
+
+A privately-owned small plane on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">crashed</EVENT> in the northern Nigerian city of Kaduna shortly after <EVENT class="OCCURRENCE" eid="e2">take-off</EVENT>, <EVENT class="OCCURRENCE" eid="e3">killing</EVENT> two people on board, officials <EVENT class="REPORTING" eid="e4">told</EVENT> Xinhua.
+
+"The <EVENT class="OCCURRENCE" eid="e5">incident</EVENT> <EVENT class="OCCURRENCE" eid="e6">happened</EVENT> at about 10:30 (0930 GMT) in <TIMEX3 type="TIME" value="2005-11-28TMO" tid="t2">the morning</TIMEX3> in Kaduna airport soon after the aircraft <EVENT class="OCCURRENCE" eid="e7">took</EVENT> off. Two people on board, the pilot and a lady, were <EVENT class="OCCURRENCE" eid="e8">killed</EVENT>," <EVENT class="REPORTING" eid="e9">said</EVENT> Sam Adurogboye, spokesman for the Nigerian Civil Aviation Authority.
+
+The crash cause of the Abuja-bound plane is still not clear, Adurogboye <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+He <EVENT class="REPORTING" eid="e13">said</EVENT> the plane had been in operation for <TIMEX3 type="DURATION" value="P8Y" tid="t3">more than eight years</TIMEX3> and had just <EVENT class="OCCURRENCE" eid="e14">returned</EVENT> to Nigeria on <TIMEX3 type="DATE" value="2005-11-26" tid="t4">Saturday</TIMEX3> after regular <EVENT class="OCCURRENCE" eid="e15">maintenance</EVENT> in Britain.
+
+The pilot <EVENT class="OCCURRENCE" eid="e16">held</EVENT> a US license and the plane was <EVENT class="OCCURRENCE" eid="e17">registered</EVENT> in that country but <EVENT class="OCCURRENCE" eid="e18">operated</EVENT> in Nigeria, he <EVENT class="OCCURRENCE" eid="e19">added</EVENT>.
+
+A Boeing-737 plane <EVENT class="OCCURRENCE" eid="e20">crashed</EVENT> on the outskirts of Lagos, Nigeria's largest city on <TIMEX3 type="DATE" value="2005-10-22" tid="t5">October 22</TIMEX3> three minutes after take-off, <EVENT class="OCCURRENCE" eid="e21">killing</EVENT> all 117 on board.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

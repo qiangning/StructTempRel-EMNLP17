@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061204.0292</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-04" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 4 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Struggling Hull sack Parkinson</TITLE>
+
+
+<TEXT>
+
+English Championship strugglers Hull on <TIMEX3 type="DATE" value="2006-12-04" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">sacked</EVENT> manager Phil Parkinson.
+
+Hull chairman Adam Pearson <EVENT class="OCCURRENCE" eid="e2">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e3">dismiss</EVENT> Parkinson, who was only <EVENT class="OCCURRENCE" eid="e4">appointed</EVENT> in <TIMEX3 type="DATE" value="2006-06" tid="t2">June</TIMEX3>, after Saturday's 4-2 home <EVENT class="OCCURRENCE" eid="e5">defeat</EVENT> against Southampton <EVENT class="OCCURRENCE" eid="e6">left</EVENT> his team in 23rd place in English football's second tier.
+
+Parkinson's side had <EVENT class="OCCURRENCE" eid="e7">won</EVENT> just four of 21 league <EVENT class="OCCURRENCE" eid="e8">matches</EVENT> this season and fans <EVENT class="REPORTING" eid="e9">called</EVENT> for him to <EVENT class="OCCURRENCE" eid="e10">quit</EVENT> after <TIMEX3 type="DATE" value="2006-12-09" tid="t4">Saturday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e11">loss</EVENT>.
+
+Hull coaches Colin Murphy and Phil Brown will <EVENT class="OCCURRENCE" eid="e12">take</EVENT> charge of the first team on a temporary basis.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

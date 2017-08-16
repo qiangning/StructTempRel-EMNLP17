@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0406</DOCID>
+
+<DCT>WELLINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Wide-scale search for NZ missing glider</TITLE>
+
+
+<TEXT>
+
+Seven more helicopters have <EVENT class="OCCURRENCE" eid="e1">joined</EVENT> the <EVENT class="OCCURRENCE" eid="e2">search</EVENT> <TIMEX3 type="DATE" value="2006-11-16" tid="t1">Thursday</TIMEX3> for a powered glider with two people aboard that <EVENT class="OCCURRENCE" eid="e3">went</EVENT> <EVENT class="OCCURRENCE" eid="e4">missing</EVENT> during a competition in South New Zealand late <TIMEX3 type="TIME" value="2006-11-22TAF" tid="t2">Wednesday afternoon</TIMEX3>.
+
+They <EVENT class="OCCURRENCE" eid="e5">joined</EVENT> four fixed-wing aircraft and a helicopter which <EVENT class="ASPECTUAL" eid="e6">resumed</EVENT> <EVENT class="OCCURRENCE" eid="e7">searching</EVENT> at first light for the glider, four hours after <EVENT class="OCCURRENCE" eid="e8">taking</EVENT> off from Omarama, about 119 km northwest of Oamaru.
+
+Rescue Co-ordination Center New Zealand (RCCNZ) <EVENT class="REPORTING" eid="e9">said</EVENT> four fixed- wing aircraft are <EVENT class="OCCURRENCE" eid="e10">scouring</EVENT> the search area as widely and quickly as possible while the helicopters <EVENT class="OCCURRENCE" eid="e12">search</EVENT> at a lower and more detailed level.
+
+Several glider pilots and trained observers are among the air search personnel.
+
+Visibility <EVENT class="STATE" eid="e13">remains</EVENT> good in the search area but worsening weather conditions are <EVENT class="I_STATE" eid="e16">forecast</EVENT> for later in <TIMEX3 type="DATE" value="2006-11-16" tid="t3">the day</TIMEX3>.
+
+Police <EVENT class="ASPECTUAL" eid="e17">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e18">search</EVENT> the numerous airstrips in the area and are <EVENT class="OCCURRENCE" eid="e19">asking</EVENT> locals to <EVENT class="OCCURRENCE" eid="e20">check</EVENT> their properties for any sign of the missing glider or the two people on board.
+
+Ground-based search and rescue teams were ready to <EVENT class="OCCURRENCE" eid="e21">move</EVENT> if <EVENT class="OCCURRENCE" eid="e22">required</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+
+
+
+
+</TimeML>

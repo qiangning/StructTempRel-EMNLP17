@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051125.0271</DOCID>
+
+<DCT>LANZHOU, <TIMEX3 tid="t0" type="TIME" value="2005-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>years</TITLE>
+
+
+<TEXT>
+
+China <EVENT class="OCCURRENCE" eid="e1">experienced</EVENT> little <EVENT class="OCCURRENCE" eid="e2">change</EVENT> in its average precipitation over <TIMEX3 type="DURATION" value="2005-11-26T03:00" tid="t1">the past three decades</TIMEX3>, <EVENT class="REPORTING" eid="e3">according</EVENT> to an analytical report <EVENT class="OCCURRENCE" eid="e4">released</EVENT> recently by Chinese scientists.
+
+Experts with the Research Institute of Cold and Arid Regions Environment and Engineering under the Chinese Academy of Sciences (CAS) <EVENT class="I_ACTION" eid="e5">analyzed</EVENT> observatory data from 385 meteorological stations nationwide.
+
+<EVENT class="REPORTING" eid="e6">According</EVENT> to the report, the nation's average precipitation <EVENT class="OCCURRENCE" eid="e8">reached</EVENT> its minimum in <TIMEX3 type="DATE" value="197" tid="t3">the 1970s</TIMEX3> and has since remained basically unchanged.
+
+However, the development trend of precipitation <EVENT class="OCCURRENCE" eid="e10">varied</EVENT> in different regions.
+
+Precipitation in northwest China's Xinjiang Uygur Autonomous Region and Qilian Mountain, northeast China, the southeastern part of the Qinghai-Tibet plateau and east China <EVENT class="OCCURRENCE" eid="e11">tended</EVENT> to <EVENT class="OCCURRENCE" eid="e12">increase</EVENT> noticeably.
+
+Meanwhile, precipitation in the central part of northwest China, the southwestern part of the Qinghai-Tibet plateau and most stretches of central and north China <EVENT class="OCCURRENCE" eid="e13">tended</EVENT> to <EVENT class="OCCURRENCE" eid="e14">decrease</EVENT> obviously.
+
+Zuo Hongchao, who <EVENT class="OCCURRENCE" eid="e15">took</EVENT> part in the precipitation investigation, <EVENT class="REPORTING" eid="e17">said</EVENT> the <EVENT class="OCCURRENCE" eid="e18">research</EVENT> was of great importance, as <EVENT class="OCCURRENCE" eid="e19">changes</EVENT> in precipitation would <EVENT class="OCCURRENCE" eid="e20">impact</EVENT> water resources, agricultural production and the ecological system in China.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

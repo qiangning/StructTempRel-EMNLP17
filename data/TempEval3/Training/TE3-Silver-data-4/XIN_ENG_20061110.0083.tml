@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0083</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>meeting</TITLE>
+
+
+<TEXT>
+
+Chinese State Councilor Tang Jiaxuan <EVENT class="OCCURRENCE" eid="e1">left</EVENT> here on <TIMEX3 type="DATE" value="2006-11-10" tid="t1">Friday</TIMEX3> for Vietnam to <EVENT class="OCCURRENCE" eid="e2">attend</EVENT> the first <EVENT class="OCCURRENCE" eid="e3">meeting</EVENT> under a China-Vietnam steering committee on cooperation.
+
+The <EVENT class="OCCURRENCE" eid="e5">meeting</EVENT> will be <EVENT class="OCCURRENCE" eid="e6">held</EVENT> in Vietnam's capital city of Hanoi on <TIMEX3 type="DATE" value="2006-11-11" tid="t2">Nov. 11</TIMEX3>.
+
+Tang and Vietnamese Deputy Prime Minister and Foreign Minister Pham Gia Khiem will <EVENT class="OCCURRENCE" eid="e7">co-chair</EVENT> the <EVENT class="OCCURRENCE" eid="e8">meeting</EVENT>.
+
+Chinese President Hu Jintao <EVENT class="OCCURRENCE" eid="e9">held</EVENT> <EVENT class="OCCURRENCE" eid="e10">talks</EVENT> with Vietnamese Communist Party leader Nong Duc Manh in Beijing on <TIMEX3 type="DATE" value="2006-08-22" tid="t3">Aug. 22</TIMEX3>. They <EVENT class="I_ACTION" eid="e11">agreed</EVENT> to further <EVENT class="OCCURRENCE" eid="e12">boost</EVENT> trade, properly <EVENT class="I_ACTION" eid="e13">handle</EVENT> border issues and <EVENT class="I_ACTION" eid="e14">enhance</EVENT> security <EVENT class="OCCURRENCE" eid="e15">cooperation</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e16">meeting</EVENT> is to <EVENT class="OCCURRENCE" eid="e17">carry</EVENT> out the consensus <EVENT class="OCCURRENCE" eid="e18">reached</EVENT> by the leaders of the two countries, <EVENT class="REPORTING" eid="e19">according</EVENT> to Chinese Foreign Ministry.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

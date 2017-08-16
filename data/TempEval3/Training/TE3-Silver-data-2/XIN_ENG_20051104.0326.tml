@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051104.0326</DOCID>
+
+<DCT>COLOMBO, <TIMEX3 tid="t0" type="TIME" value="2005-11-05" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 5 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>ADB to help Sri Lanka reconstruct highway network</TITLE>
+
+
+<TEXT>
+
+The Sri Lankan government has <EVENT class="OCCURRENCE" eid="e1">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e2">reconstruct</EVENT> highway network in the country with the financial <EVENT class="OCCURRENCE" eid="e3">assistance</EVENT> of the Asian Development Bank (ADB), Daily News <EVENT class="REPORTING" eid="e4">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-05" tid="t1">Saturday</TIMEX3>.
+
+With an estimated cost of 208 million US dollars, the project, which <EVENT class="OCCURRENCE" eid="e5">aims</EVENT> at <EVENT class="OCCURRENCE" eid="e6">rehabilitating</EVENT> a number of grade A and B roads in western, central and eastern provinces, will <EVENT class="OCCURRENCE" eid="e7">receive</EVENT> the <EVENT class="OCCURRENCE" eid="e8">assistance</EVENT> from the ADB, Highways Ministry Secretary S. Amarasekere was <EVENT class="OCCURRENCE" eid="e9">quoted</EVENT> as <EVENT class="REPORTING" eid="e10">saying</EVENT>.
+
+"The ADB will <EVENT class="OCCURRENCE" eid="e11">provide</EVENT> 150 million dollars of the estimated cost of the project including the expenses regarding land <EVENT class="OCCURRENCE" eid="e12">acquisition</EVENT>. This is the first time that a donor has <EVENT class="I_ACTION" eid="e13">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e14">provide</EVENT> funds for land <EVENT class="OCCURRENCE" eid="e15">acquisition</EVENT>," he <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+Among the highways to be <EVENT class="STATE" eid="e17">reconstructed</EVENT> under the project are the Puttalam-Anuradhapura, Udakanda-Mahiyanganaya, Nuwara Eliya- Badulla and the Hatton-Nuwara Eliya highways.
+
+The Sri Lankan government and the ADB <EVENT class="OCCURRENCE" eid="e18">finalized</EVENT> <EVENT class="OCCURRENCE" eid="e19">negotiations</EVENT> on the implementation of the project on <TIMEX3 type="DATE" value="2005-11-02" tid="t2">Wednesday</TIMEX3>, Amarasekere <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+"We are <EVENT class="STATE" eid="e21">hopeful</EVENT> that the reconstruction could be <EVENT class="ASPECTUAL" eid="e22">commenced</EVENT> <TIMEX3 type="DATE" value="2006" tid="t3">early next year</TIMEX3>," he <EVENT class="OCCURRENCE" eid="e23">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+
+
+
+
+</TimeML>

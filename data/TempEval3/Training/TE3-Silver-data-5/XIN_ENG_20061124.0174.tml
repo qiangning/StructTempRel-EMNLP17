@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0174</DOCID>
+
+<DCT>HELSINKI, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Russia, EU make breakthrough on terms of Siberian overflights</TITLE>
+
+
+<TEXT>
+
+Russia and the European Union on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">made</EVENT> a breakthrough in <EVENT class="I_ACTION" eid="e2">resolving</EVENT> a 20-year <EVENT class="OCCURRENCE" eid="e3">dispute</EVENT> over the fees Moscow <EVENT class="OCCURRENCE" eid="e4">charges</EVENT> foreign airlines for permission to <EVENT class="OCCURRENCE" eid="e5">fly</EVENT> over Siberia.
+
+European carriers <EVENT class="OCCURRENCE" eid="e6">pay</EVENT> more than 330 million euros (about 400 million U.S. dollars) annually in Siberian over-flight charges.
+
+At the ongoing EU-Russia <EVENT class="OCCURRENCE" eid="e7">summit</EVENT> in Helsinki, Russia <EVENT class="I_ACTION" eid="e8">agreed</EVENT> to totally <EVENT class="OCCURRENCE" eid="e9">phase</EVENT> out the charges by <TIMEX3 type="DATE" value="2013" tid="t3">the end of 2013</TIMEX3>, <TIMEX3 type="DATE" value="2006-11-24" tid="t4">a year earlier than previous agreed</TIMEX3>.
+
+"(The deal) <EVENT class="ASPECTUAL" eid="e12">opens</EVENT> a wide range of opportunities for <EVENT class="OCCURRENCE" eid="e13">strengthening</EVENT> EU-Russia relations, in particular in the transport field," <EVENT class="REPORTING" eid="e14">said</EVENT> EU Transport Commissioner Jacques Barrot.
+
+"The agreement will significantly <EVENT class="OCCURRENCE" eid="e15">improve</EVENT> the competitive situation of our European airlines and <EVENT class="OCCURRENCE" eid="e16">ease</EVENT> their operations between Europe and the growing markets in Asia," he <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+An agreement on the matter is to be <EVENT class="OCCURRENCE" eid="e19">signed</EVENT> on the sidelines of the EU-Russia <EVENT class="OCCURRENCE" eid="e20">summit</EVENT> on <TIMEX3 type="DATE" value="2006-11-24" tid="t5">Friday</TIMEX3>.
+
+The EU has long <EVENT class="OCCURRENCE" eid="e21">lobbied</EVENT> Russia to <EVENT class="OCCURRENCE" eid="e22">put</EVENT> an end to the charges <EVENT class="OCCURRENCE" eid="e23">imposed</EVENT> on European airlines on all flights to Asia, which must <EVENT class="OCCURRENCE" eid="e24">fly</EVENT> over Siberia.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000009" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei1000009" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1000009" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

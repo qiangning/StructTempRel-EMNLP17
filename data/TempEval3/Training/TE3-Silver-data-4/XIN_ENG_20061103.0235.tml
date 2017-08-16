@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0235</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Sino-Japanese joint TV documentary to mark Sun Yat-sen anniversary</TITLE>
+
+
+<TEXT>
+
+China Central Television is to <EVENT class="OCCURRENCE" eid="e1">broadcast</EVENT> a Sino-Japanese jointly produced documentary on <TIMEX3 type="DURATION" value="PXY" tid="t1">the years</TIMEX3> of Chinese revolutionary Sun Yat-sen in Japan to <EVENT class="I_ACTION" eid="e3">mark</EVENT> 140 years since his <EVENT class="OCCURRENCE" eid="e4">birth</EVENT>.
+
+The fourth <EVENT class="OCCURRENCE" eid="e5">channel</EVENT> of CCTV (China Central Television) will <EVENT class="OCCURRENCE" eid="e6">broadcast</EVENT> the 50-minute documentary, entitled "Kyushu -- <EVENT class="OCCURRENCE" eid="e9">Following</EVENT> Sun Yat-sen's <EVENT class="OCCURRENCE" eid="e10">Path</EVENT>" on <TIMEX3 type="TIME" value="2006-11-04TAF" tid="t2">Saturday afternoon and night</TIMEX3>, a CCTV spokesperson <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+The documentary, <EVENT class="OCCURRENCE" eid="e13">shot</EVENT> by CCTV, the Soong Ching Ling Foundation, and tourism agency of Kyushu, Japan, over <TIMEX3 type="DURATION" value="P1Y" tid="t3">a year</TIMEX3>, will <EVENT class="OCCURRENCE" eid="e14">trace</EVENT> Sun's activities in Japan where he <EVENT class="OCCURRENCE" eid="e15">stayed</EVENT> for a total of <TIMEX3 type="DURATION" value="P9Y" tid="t4">nine years</TIMEX3> between <TIMEX3 type="DATE" value="1895" tid="t5">1895</TIMEX3> and <TIMEX3 type="DATE" value="1924" tid="t6">1924</TIMEX3>.
+
+Sun was active in the cities of Tokyo, Nagasaki, Kobe and Yokohama, where his experiences are <EVENT class="I_STATE" eid="e16">thought</EVENT> to have <EVENT class="OCCURRENCE" eid="e17">shaped</EVENT> his ideas of revolution.
+
+He <EVENT class="OCCURRENCE" eid="e18">led</EVENT> the historic <EVENT class="OCCURRENCE" eid="e19">revolution</EVENT> of 1911 that <EVENT class="OCCURRENCE" eid="e20">overthrew</EVENT> the Qing Dynasty (1644-1911), <EVENT class="ASPECTUAL" eid="e21">ending</EVENT> China's autocratic monarchical system that had been in place for <TIMEX3 type="DURATION" value="2006-11-03" tid="t9">more than 2,000 years</TIMEX3>.
+
+Sun <EVENT class="OCCURRENCE" eid="e22">died</EVENT> in Beijing on <TIMEX3 type="DATE" value="1925-03-12" tid="t10">March 12, 1925</TIMEX3>. His body was temporarily <EVENT class="OCCURRENCE" eid="e23">kept</EVENT> in the then Central Park, which was <EVENT class="OCCURRENCE" eid="e24">renamed</EVENT> Zhongshan (Sun Yat-sen) Park in <TIMEX3 type="DATE" value="1928" tid="t11">1928</TIMEX3>.
+
+Sun is a national hero in both Taiwan and the Chinese mainland. Roads and parks named "Zhongshan" are <EVENT class="PERCEPTION" eid="e26">seen</EVENT> all over China. His trademark tunic suit, which bears his name, was once part of a national dress code for the country's leaders and people.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000015" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei1000015" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei1000015" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

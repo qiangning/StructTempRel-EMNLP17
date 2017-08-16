@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0235</DOCID>
+
+<DCT>JOHANNESBURG, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>S. African rand steady</TITLE>
+
+
+<TEXT>
+
+The South African rand was steady in late <EVENT class="OCCURRENCE" eid="e1">trade</EVENT> on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3> despite a weaker euro, <EVENT class="OCCURRENCE" eid="e2">supported</EVENT> by two-way trade and a stronger gold price which was at a 18-year high.
+
+At 15:40 (1340 GMT), the rand was <EVENT class="OCCURRENCE" eid="e3">bid</EVENT> at 6.5160 per dollar from <TIMEX3 type="DATE" value="2005-11-25" tid="t4">Friday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e4">close</EVENT> of 6.4940 and <TIMEX3 type="DATE" value="2005-11-24" tid="t5">Thursday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e5">close</EVENT> of 6.5011.
+
+It was <EVENT class="OCCURRENCE" eid="e6">bid</EVENT> at 7.6386 to the euro from <TIMEX3 type="DATE" value="2005-11-25" tid="t6">Friday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e7">close</EVENT> of 7.6163 and <TIMEX3 type="DATE" value="2005-11-24" tid="t7">Thursday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e8">close</EVENT> of 7.6875 and at 11.1090 against sterling from a previous 11.1052 and <TIMEX3 type="DATE" value="2023" tid="t8">Thursday's 11.2023</TIMEX3>.
+
+Traders <EVENT class="REPORTING" eid="e9">said</EVENT> that gold, which <EVENT class="I_STATE" eid="e10">seems</EVENT> once again to be <EVENT class="OCCURRENCE" eid="e11">eyeing</EVENT> the key 500 US dollars per ounce level, would <EVENT class="OCCURRENCE" eid="e12">lend</EVENT> support to the local currency.
+
+At 15:40 (1340 GMT), gold was <EVENT class="OCCURRENCE" eid="e13">quoted</EVENT> at 495.60 dollars a troy ounce, having earlier <EVENT class="OCCURRENCE" eid="e14">traded</EVENT> at an 18-year high of 499.14 dollars per ounce.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000008" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei1000008" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1000008" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

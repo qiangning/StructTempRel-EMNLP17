@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0291</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>US mortgage rates decline this week</TITLE>
+
+
+<TEXT>
+
+Mortgage rates in the United States <EVENT class="OCCURRENCE" eid="e1">declined</EVENT> <TIMEX3 type="DATE" value="2005-W47" tid="t1">this week</TIMEX3> after having <EVENT class="OCCURRENCE" eid="e2">increased</EVENT> for <TIMEX3 type="DURATION" value="2005-11-23" tid="t2">10 consecutive weeks</TIMEX3>, mortgage giant Freddie Mac <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-23" tid="t3">Wednesday</TIMEX3> in its weekly nationwide <EVENT class="OCCURRENCE" eid="e4">survey</EVENT>.
+
+During <TIMEX3 type="DURATION" value="2005-11-23" tid="t4">the week</TIMEX3> <EVENT class="ASPECTUAL" eid="e5">ending</EVENT> <TIMEX3 type="DATE" value="2006-11-23" tid="t5">Nov. 23</TIMEX3>, rates on 30-year, fixed-rate mortgages <EVENT class="OCCURRENCE" eid="e6">averaged</EVENT> 6.28 percent, the survey <EVENT class="OCCURRENCE" eid="e7">showed</EVENT>. That was down sharply from <TIMEX3 type="DATE" value="2005-W46" tid="t6">last week</TIMEX3>'s rate of 6.37 percent, the highest level in <TIMEX3 type="DURATION" value="P2Y" tid="t7">more than two years</TIMEX3>.
+
+The survey also <EVENT class="OCCURRENCE" eid="e9">showed</EVENT> that rates on 15-year, fixed-rate mortgages, a popular choice for <EVENT class="OCCURRENCE" eid="e10">refinancing</EVENT> a home mortgage, <EVENT class="OCCURRENCE" eid="e11">fell</EVENT> to 5.81 percent <TIMEX3 type="DATE" value="2005-W47" tid="t9">this week</TIMEX3> from 5.90 percent.
+
+Meanwhile, rates on one-year adjustable rate mortgages(ARMs) <EVENT class="OCCURRENCE" eid="e12">dropped</EVENT> to 5.14 percent from 5.20 percent <TIMEX3 type="DATE" value="2005-W46" tid="t11">last week</TIMEX3>. Rates on <TIMEX3 type="DATE" value="P5Y" tid="t12">five- year</TIMEX3> hybrid adjustable rate mortgages <EVENT class="OCCURRENCE" eid="e13">went</EVENT> down to 5.75 percent from 5.86.
+
+<TIMEX3 type="DATE" value="2004" tid="t14">A year ago</TIMEX3>, 30-year mortgages <EVENT class="OCCURRENCE" eid="e14">averaged</EVENT> 5.72 percent, 15-year mortgages were at 5.15 percent and one-year ARMs <EVENT class="OCCURRENCE" eid="e15">averaged</EVENT> 4.27 percent. Freddie Mac <EVENT class="ASPECTUAL" eid="e16">began</EVENT> <EVENT class="OCCURRENCE" eid="e17">tracking</EVENT> five-year ARMs <TIMEX3 type="DATE" value="2005" tid="t19">this year</TIMEX3>.
+
+Analysts <EVENT class="REPORTING" eid="e18">say</EVENT> that mortgage rates <EVENT class="OCCURRENCE" eid="e19">declined</EVENT> <TIMEX3 type="DATE" value="2005-W47" tid="t20">this week</TIMEX3> because investors had <EVENT class="STATE" eid="e20">been</EVENT> less worried about inflation than before.
+
+"Lower oil prices -- at least compared to the last several months -- have <EVENT class="I_ACTION" eid="e22">helped</EVENT> to <EVENT class="OCCURRENCE" eid="e23">alleviate</EVENT> some of the inflation fears that the market has been <EVENT class="OCCURRENCE" eid="e25">experiencing</EVENT> lately," Freddie Mac's chief economist Frank Nothaft <EVENT class="REPORTING" eid="e26">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="OTHER" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t19" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToTime="t14" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToTime="t20" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1000005" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToEventInstance="ei1000005" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei13" relatedToTime="t12" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

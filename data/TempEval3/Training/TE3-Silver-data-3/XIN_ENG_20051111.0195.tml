@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0195</DOCID>
+
+<DCT>GUANGZHOU, South China, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Super Dan out of men's singles at China Open badminton</TITLE>
+
+
+<TEXT>
+
+Current world No. 1 Lin Dan of China was <EVENT class="OCCURRENCE" eid="e1">ousted</EVENT> from the men's singles competition at the China Open badminton here on <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3>.
+
+Lin Dan <EVENT class="OCCURRENCE" eid="e3">lost</EVENT> to his teammate Chen Hong, another china top player, in straight sets 15-5, 15-8.
+
+Both of them were not <EVENT class="OCCURRENCE" eid="e4">amazed</EVENT> to <EVENT class="PERCEPTION" eid="e5">see</EVENT> the result, "Today Lin Dan is out of order," Chen <EVENT class="REPORTING" eid="e7">said</EVENT>, "That's why I <EVENT class="OCCURRENCE" eid="e8">won</EVENT> the game."
+
+"We <EVENT class="I_STATE" eid="e9">know</EVENT> each other very much, and his style is not secret to me, which is another reason I <EVENT class="OCCURRENCE" eid="e10">beat</EVENT> him,"Chen <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+Although <EVENT class="OCCURRENCE" eid="e12">losing</EVENT> the match <EVENT class="OCCURRENCE" eid="e14">surprised</EVENT> the spectators, Lin <EVENT class="I_STATE" eid="e15">seemed</EVENT> still <EVENT class="OCCURRENCE" eid="e16">relaxed</EVENT> after the match.
+
+"Actually <EVENT class="OCCURRENCE" eid="e18">winning</EVENT> or <EVENT class="OCCURRENCE" eid="e19">losing</EVENT> is not very important for me, <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> I <EVENT class="OCCURRENCE" eid="e20">focus</EVENT> on <EVENT class="OCCURRENCE" eid="e21">adapting</EVENT> to new 21-point rule <EVENT class="OCCURRENCE" eid="e22">settled</EVENT> by International Badminton which will <EVENT class="OCCURRENCE" eid="e23">change</EVENT> the traditional 15-point set."
+
+Chen Hong next will <EVENT class="OCCURRENCE" eid="e24">clash</EVENT> with sixth-seeded Peter Gade of Denmark in the semifinals, and China's 19-year-old young player Chen Jin will <EVENT class="I_ACTION" eid="e26">face</EVENT> his teammate, <EVENT class="OCCURRENCE" eid="e27">third-seeded</EVENT> Bao Chunlai.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+
+
+
+
+</TimeML>

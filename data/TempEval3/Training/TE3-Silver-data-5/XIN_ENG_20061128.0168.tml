@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0168</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Beijing's water supply suffers worsening pollution: report</TITLE>
+
+
+<TEXT>
+
+Water from the Guanting reservoir, Beijing's fourth largest source of drinking water source, is not fit for human consumption or even irrigation, <EVENT class="REPORTING" eid="e1">according</EVENT> to a report from the city's environment watchdog.
+
+At level five on the water pollution index water is only suitable for irrigation. At below level five, water from the Guanting reservoir is not fit for growing agricultural produce.
+
+With 21 reservoirs, the city of 16 million <EVENT class="I_STATE" eid="e4">faces</EVENT> grave water supply problems as the Zhaitang, Taoyukou, Niantan and Daning reservoirs have all <EVENT class="OCCURRENCE" eid="e5">dried</EVENT> up, <EVENT class="REPORTING" eid="e6">said</EVENT> the Beijing Municipal Environmental Protection Bureau in its first monthly report on water quality.
+
+Miyun, Huairou and Yanqinggucheng reservoirs, the capital's other major drinking water sources, are still <EVENT class="OCCURRENCE" eid="e8">providing</EVENT> clean, potable water, <EVENT class="REPORTING" eid="e9">said</EVENT> the report which is <EVENT class="OCCURRENCE" eid="e10">posted</EVENT> on the bureau's Web site.
+
+Water quality levels between one and three are <EVENT class="I_STATE" eid="e11">considered</EVENT> potable.
+
+The report also <EVENT class="REPORTING" eid="e13">said</EVENT> nearly half of Beijing's sightseeing lakes and ponds are so polluted their water also can't even be <EVENT class="OCCURRENCE" eid="e14">used</EVENT> to <EVENT class="OCCURRENCE" eid="e15">irrigate</EVENT> the park landscape that surrounds them.
+
+The report <EVENT class="REPORTING" eid="e16">said</EVENT> water quality in seven of Beijing lakes, such as the Winter Palace Lake and Taoranting Lake, is below level five. Only four lakes could be <EVENT class="OCCURRENCE" eid="e17">used</EVENT> to <EVENT class="OCCURRENCE" eid="e18">supply</EVENT> drinking water, while water from the other lakes is only fit for industrial use.
+
+The watchdog has earlier <EVENT class="I_ACTION" eid="e20">blamed</EVENT> too much untreated waste water, industrial effluent and agricultural pollution for the deteriorating water qualities in the lakes.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

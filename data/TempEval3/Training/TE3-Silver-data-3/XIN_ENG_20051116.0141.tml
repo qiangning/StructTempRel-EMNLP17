@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0141</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Germany's incoming FM rules out change in Iraq policy</TITLE>
+
+
+<TEXT>
+
+Germany will not <EVENT class="OCCURRENCE" eid="e1">change</EVENT> its Iraq policy under future Chancellor Angela Merkel, <EVENT class="OCCURRENCE" eid="e2">designated</EVENT> Foreign Minister Frank-Walter Steinmeier <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3>.
+
+"I <EVENT class="I_STATE" eid="e4">believe</EVENT> there won't be any fundamental <EVENT class="OCCURRENCE" eid="e5">changes</EVENT>," Steinmeier <EVENT class="REPORTING" eid="e6">said</EVENT> in an <EVENT class="OCCURRENCE" eid="e7">interview</EVENT> with German public television broadcaster ARD.
+
+The grand coalition government of the Social Democratic Party (SPD) and the Christian Democratic Union and the Christian Social Union (CDU/CSU) had <EVENT class="I_ACTION" eid="e8">agreed</EVENT> there would be no major <EVENT class="OCCURRENCE" eid="e9">changes</EVENT> on the Iraq policy, the future foreign minister <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+Outgoing Chancellor Gerhard Schroeder has <EVENT class="OCCURRENCE" eid="e11">refused</EVENT> to <EVENT class="OCCURRENCE" eid="e12">send</EVENT> any troops to <EVENT class="OCCURRENCE" eid="e13">join</EVENT> the US force to Iraq before and after the Iraq <EVENT class="OCCURRENCE" eid="e14">war</EVENT> <EVENT class="OCCURRENCE" eid="e15">broke</EVENT> out in <TIMEX3 type="DATE" value="2003" tid="t2">early 2003</TIMEX3>.
+
+Merkel, who is to be <EVENT class="OCCURRENCE" eid="e16">elected</EVENT> chancellor by parliament on <TIMEX3 type="DATE" value="2004-11-22" tid="t3">Nov. 22</TIMEX3>, has <EVENT class="I_ACTION" eid="e17">indicated</EVENT> she would <EVENT class="OCCURRENCE" eid="e18">repair</EVENT> special partnership with the United States, which had been <EVENT class="OCCURRENCE" eid="e19">impaired</EVENT> in <TIMEX3 type="DATE" value="PAST_REF" tid="t4">recent years</TIMEX3> over Iraq and other issues.
+
+Steinmeier <EVENT class="REPORTING" eid="e20">told</EVENT> ARD that he would <EVENT class="OCCURRENCE" eid="e21">make</EVENT> some <EVENT class="OCCURRENCE" eid="e22">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e23">improve</EVENT> relations with the United States.
+
+"To <EVENT class="OCCURRENCE" eid="e24">do</EVENT> nothing would surely not be good advice," <EVENT class="REPORTING" eid="e25">said</EVENT> Steinmeier.
+
+However, Steinmeier <EVENT class="OCCURRENCE" eid="e26">ruled</EVENT> out any major <EVENT class="OCCURRENCE" eid="e27">changes</EVENT> in transatlantic ties.
+
+"People are intelligent enough and <EVENT class="I_STATE" eid="e28">know</EVENT> enough on the other side of the Atlantic to <EVENT class="PERCEPTION" eid="e29">see</EVENT> that we are <EVENT class="OCCURRENCE" eid="e30">pulling</EVENT> our weight in global engagement and responsibilities," he <EVENT class="REPORTING" eid="e31">said</EVENT>.
+
+The future foreign minister <EVENT class="REPORTING" eid="e32">noted</EVENT> that the transatlantic partnership and European integration are the two pillars of German foreign policy under the new government.
+
+Steinmeier, Schroeder's close partner in the SPD, will be <EVENT class="REPORTING" eid="e33">sworn</EVENT> in on <TIMEX3 type="DATE" value="2005-11-22" tid="t5">Nov. 22</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei33" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei33" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

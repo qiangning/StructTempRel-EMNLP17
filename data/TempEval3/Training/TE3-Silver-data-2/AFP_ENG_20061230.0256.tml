@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061230.0256</DOCID>
+
+<DCT>AUGUSTA, Georgia, <TIMEX3 tid="t0" type="TIME" value="2006-12-30" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 30 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>=(PICTURE)=</TITLE>
+
+
+<TEXT>
+
+Mourners <TIMEX3 type="DATE" value="2006-12-30" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">paid</EVENT> a last tribute to "Godfather of Soul" James Brown, whose body <EVENT class="OCCURRENCE" eid="e2">lay</EVENT> in state at a public funeral <EVENT class="OCCURRENCE" eid="e3">ceremony</EVENT> in his hometown deep in the US South.
+
+Fans of the towering music icon <EVENT class="OCCURRENCE" eid="e4">filed</EVENT> silently past the open, white-lined casket set among huge wreaths at the center of the James Brown Arena in Augusta, Georgia.
+
+The Reverend Al Sharpton, a civil rights advocate, former presidential contender and close friend of Brown, was <EVENT class="I_ACTION" eid="e6">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e7">participate</EVENT> later in the day in what was <EVENT class="OCCURRENCE" eid="e8">dubbed</EVENT> a "Homecoming Celebration."
+
+The event was was the final tribute for Brown, who was <EVENT class="I_ACTION" eid="e9">honored</EVENT> on <TIMEX3 type="DATE" value="2006-12-28" tid="t2">Thursday</TIMEX3> at the famed Apollo Theater in New York's Harlem neighborhood, and at a private ceremony relatives <EVENT class="OCCURRENCE" eid="e11">held</EVENT> in Augusta on <TIMEX3 type="DATE" value="2006-12-29" tid="t3">Friday</TIMEX3>.
+
+Brown, who shaped American rhythm-and-blues, funk and disco genres for <TIMEX3 type="DATE" value="2006-12-30" tid="t4">a half-century</TIMEX3> and was a charter inductee into the Rock and Roll Hall of Fame, <EVENT class="OCCURRENCE" eid="e13">died</EVENT> of complications from pneumonia in the state capital Atlanta on <TIMEX3 type="DATE" value="2006-12-30" tid="t5">Christmas Day</TIMEX3>. He was 73.
+
+Born in the small South Carolina town of Barnwell in <TIMEX3 type="DATE" value="1933" tid="t6">1933</TIMEX3>, Brown <EVENT class="OCCURRENCE" eid="e16">moved</EVENT> at the age of four to Augusta, where he <EVENT class="OCCURRENCE" eid="e17">grew</EVENT> up in a brothel <EVENT class="OCCURRENCE" eid="e18">run</EVENT> by his aunt.
+
+For <TIMEX3 type="DURATION" value="2006-12-29" tid="t7">the past days</TIMEX3>, mournful and adoring fans have <EVENT class="OCCURRENCE" eid="e19">flocked</EVENT> to a statue of Brown leaving flowers, records and messages at its feet.
+
+The bronze statue, <EVENT class="OCCURRENCE" eid="e21">depicting</EVENT> Brown microphone-in-hand and <EVENT class="OCCURRENCE" eid="e22">shrouded</EVENT> in an American flag, <EVENT class="I_STATE" eid="e23">stands</EVENT> in a square <EVENT class="OCCURRENCE" eid="e24">named</EVENT> after the famous singer.
+
+Augusta <TIMEX3 type="DATE" value="PAST_REF" tid="t8">recently</TIMEX3> <EVENT class="OCCURRENCE" eid="e25">adopted</EVENT> "We Feel Good" as its city <EVENT class="OCCURRENCE" eid="e26">motto</EVENT> -- a play on Brown's 1965 <EVENT class="OCCURRENCE" eid="e27">hit</EVENT> "I <EVENT class="OCCURRENCE" eid="e28">Got</EVENT> You (I Feel Good)."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000013" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToEventInstance="ei1000013" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei1000013" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

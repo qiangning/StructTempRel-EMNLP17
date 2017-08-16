@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051211.0341</DOCID>
+
+<DCT>ATHENS, <TIMEX3 tid="t0" type="TIME" value="2005-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2005</TIMEX3></DCT>
+
+<TITLE>charges</TITLE>
+
+
+<TEXT>
+
+Coastguard officials at the main Greek port of Piraeus have <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> the Bulgarian second engineer of a British-flagged tanker <EVENT class="OCCURRENCE" eid="e2">sought</EVENT> on manslaughter charges, the Greek merchant marine ministry <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-12-11" tid="t1">Sunday</TIMEX3>.
+
+Vladimir Bankov, 39, will be <EVENT class="OCCURRENCE" eid="e4">taken</EVENT> to a prosecutor in the northern city of Salonika under a local warrant <EVENT class="OCCURRENCE" eid="e5">issued</EVENT> in <TIMEX3 type="DATE" value="2000" tid="t2">2000</TIMEX3>, a ministry source <EVENT class="REPORTING" eid="e6">told</EVENT> AFP.
+
+Bankov, a second engineer on board the British-flagged Zim Shenzhen, is <EVENT class="I_ACTION" eid="e8">accused</EVENT> of premeditated manslaughter, the source <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The ministry did not <EVENT class="OCCURRENCE" eid="e10">provide</EVENT> any further details on the crime case.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+
+
+
+
+</TimeML>

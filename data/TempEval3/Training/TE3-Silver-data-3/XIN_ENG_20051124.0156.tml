@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0156</DOCID>
+
+<DCT>MELBOURNE, Australia, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Japanese Tomita wins men's all-around</TITLE>
+
+
+<TEXT>
+
+Japanese veteran Hiroyuki Tomita <EVENT class="OCCURRENCE" eid="e1">won</EVENT> the men's all-around title after a lop-sided competition at the Gymnastics World Championships here on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+The 2003 world championships bronze medallist <EVENT class="OCCURRENCE" eid="e2">posted</EVENT> a highest 56.698 points after all the six rotations.
+
+His compatriot Hisashi Mizutori <EVENT class="ASPECTUAL" eid="e4">ended</EVENT> up a far second in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">55.349</TIMEX3> to <EVENT class="OCCURRENCE" eid="e5">complete</EVENT> a Japanese one-two on the scoreboard.
+
+The bronze medal <EVENT class="OCCURRENCE" eid="e6">went</EVENT> to Denis Selariu of Belarus in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">55.112</TIMEX3>. And Spaniard Rafael Martinez, third in qualification, just <EVENT class="OCCURRENCE" eid="e7">missed</EVENT> his first-ever podium finish in a world championships by 0.264 behind.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

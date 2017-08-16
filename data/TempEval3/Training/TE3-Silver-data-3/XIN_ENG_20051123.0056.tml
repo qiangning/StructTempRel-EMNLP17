@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0056</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>northeastern river</TITLE>
+
+
+<TEXT>
+
+China's State Environmental Protection Administration (SEPA) <EVENT class="REPORTING" eid="e1">said</EVENT> here on <TIMEX3 type="DATE" value="2005-11-23" tid="t1">Wednesday</TIMEX3> that the Songhua River in northeast China <EVENT class="OCCURRENCE" eid="e2">suffered</EVENT> a major water pollution <EVENT class="OCCURRENCE" eid="e3">incident</EVENT> <EVENT class="OCCURRENCE" eid="e4">owing</EVENT> to the <EVENT class="OCCURRENCE" eid="e5">explosion</EVENT> of a petrochemical plant at the upper reaches.
+
+"After the <EVENT class="OCCURRENCE" eid="e6">explosion</EVENT> at the Jilin Petrochemical Company under China National Petroleum Corporation, our observation <EVENT class="OCCURRENCE" eid="e8">showed</EVENT> pollutants containing benzene had <EVENT class="OCCURRENCE" eid="e9">flown</EVENT> into the Songhua River and <EVENT class="OCCURRENCE" eid="e10">caused</EVENT> water pollution," <EVENT class="REPORTING" eid="e11">said</EVENT> an official with SEPA.
+
+Benzene is a substance harmful to human health.
+
+The official <EVENT class="REPORTING" eid="e12">said</EVENT> upon <EVENT class="OCCURRENCE" eid="e13">receiving</EVENT> the report, the administration immediately <EVENT class="OCCURRENCE" eid="e15">sent</EVENT> experts to Heilongjiang Province to <EVENT class="I_ACTION" eid="e16">assist</EVENT> local pollution-control <EVENT class="OCCURRENCE" eid="e17">efforts</EVENT>. Quality of the river water is under close observation for <TIMEX3 tid="t2" type="SET" value="P1D">24 hours every day</TIMEX3>.
+
+The Jilin and Heilongjiang provincial governments have <EVENT class="OCCURRENCE" eid="e18">activated</EVENT> their contingency programs for environmental incidents, and have <EVENT class="OCCURRENCE" eid="e19">taken</EVENT> measures to <EVENT class="OCCURRENCE" eid="e20">ensure</EVENT> the safety of potable water, <EVENT class="REPORTING" eid="e21">said</EVENT> the official.
+
+He <EVENT class="REPORTING" eid="e22">said</EVENT> Jilin had quickly <EVENT class="OCCURRENCE" eid="e23">blocked</EVENT> entry of the pollutants into the river and <EVENT class="OCCURRENCE" eid="e24">discharged</EVENT> water from a reservoir to <EVENT class="OCCURRENCE" eid="e25">dilute</EVENT> pollutants in the river. It also <EVENT class="OCCURRENCE" eid="e26">organized</EVENT> environmental, water conservancy and chemical experts to <EVENT class="OCCURRENCE" eid="e27">discuss</EVENT> pollution control plans, and <EVENT class="OCCURRENCE" eid="e28">beefed</EVENT> up monitoring work.
+
+The finance department of the Heilongjiang provincial government has <EVENT class="OCCURRENCE" eid="e29">allocated</EVENT> 10 million yuan (approximately 1.23 million US dollars) specially for <EVENT class="I_ACTION" eid="e30">handling</EVENT> the pollution incident, <EVENT class="REPORTING" eid="e31">said</EVENT> the official.
+
+<EVENT class="REPORTING" eid="e32">According</EVENT> to the official, observation data <EVENT class="OCCURRENCE" eid="e33">shows</EVENT> the degree of river water pollution has been <EVENT class="OCCURRENCE" eid="e34">declining</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei12" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

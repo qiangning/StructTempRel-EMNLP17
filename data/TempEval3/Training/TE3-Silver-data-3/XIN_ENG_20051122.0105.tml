@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0105</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Germany's Merkel elected first woman chancellor</TITLE>
+
+
+<TEXT>
+
+Angela Merkel, the leader of the Christian Democrats, was <EVENT class="OCCURRENCE" eid="e1">elected</EVENT> <TIMEX3 type="DATE" value="2005-11-22" tid="t1">Tuesday</TIMEX3> by the German parliament as new chancellor, the first woman chancellor in Germany.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

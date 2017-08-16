@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>108212.female.27.Student.Taurus.xml</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2004-06-20" temporalFunction="false" functionInDocument="CREATION_TIME">20,June,2004</TIMEX3></DCT>
+<TEXT>
+UPS <EVENT class="OCCURRENCE" eid="e1">came</EVENT> <TIMEX3 type="DATE" value="2004-06-19" tid="t1">yesterday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e2">left</EVENT> a slip stating that they <EVENT class="I_ACTION" eid="e3">attempted</EVENT> to <EVENT class="REPORTING" eid="e4">deliver</EVENT> a package which <EVENT class="OCCURRENCE" eid="e5">required</EVENT> a signature. It <EVENT class="REPORTING" eid="e6">said</EVENT> DKNY. I <EVENT class="OCCURRENCE" eid="e7">figured</EVENT> it <EVENT class="STATE" eid="e8">was</EVENT> my watch. I <EVENT class="OCCURRENCE" eid="e9">left</EVENT> <EVENT class="OCCURRENCE" eid="e10">work</EVENT> early, too! We probably just missed them by <TIMEX3 type="DURATION" value="PT1M" tid="t2">a few minutes</TIMEX3>. Brian was <EVENT class="REPORTING" eid="e11">saying</EVENT> that if he would have <EVENT class="OCCURRENCE" eid="e12">come</EVENT> home straight from work, instead of <EVENT class="OCCURRENCE" eid="e13">taking</EVENT> me to <EVENT class="OCCURRENCE" eid="e14">lunch</EVENT>, he could have been home to <EVENT class="OCCURRENCE" eid="e15">accept</EVENT> the package. Darn it. The slip <EVENT class="OCCURRENCE" eid="e16">did</EVENT> state that a second <EVENT class="I_ACTION" eid="e17">attempt</EVENT> would be <EVENT class="OCCURRENCE" eid="e18">made</EVENT> <TIMEX3 type="DATE" value="2004-06-21" tid="t3">the following day</TIMEX3>, <TIMEX3 type="DATE" value="2004-06-25" tid="t4">Friday</TIMEX3> (<TIMEX3 type="DATE" value="2004-06-20" tid="t5">today</TIMEX3>). I <EVENT class="OCCURRENCE" eid="e19">stayed</EVENT> home from work even though I could not <EVENT class="OCCURRENCE" eid="e20">afford</EVENT> it, to <EVENT class="OCCURRENCE" eid="e21">ensure</EVENT> that I would be home to <EVENT class="OCCURRENCE" eid="e22">accept</EVENT> my package. They <EVENT class="OCCURRENCE" eid="e23">came</EVENT> a little earlier than stated, but I was <EVENT class="OCCURRENCE" eid="e24">thrilled</EVENT> to finally have it. I <EVENT class="PERCEPTION" eid="e25">saw</EVENT> it in the catalog <TIMEX3 type="DATE" value="2004-W23" tid="t6">two weeks ago</TIMEX3> and just had to have it. Actually a lot of people at work are going on shopping sprees because after our call center <EVENT class="OCCURRENCE" eid="e26">closes</EVENT> on May 17th and everyone is <EVENT class="OCCURRENCE" eid="e27">laid</EVENT> off, we won't be able to <EVENT class="OCCURRENCE" eid="e28">avail</EVENT> of our 30% merchandise discount any longer.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25"  eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26"  eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27"  eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28"  eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei1000018"  eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000019"  eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l2" relType="SIMULTANEOUS" timeID="t0" relatedToTime="t5" />
+<TLINK lid="l3" relType="BEFORE" timeID="t0" relatedToTime="t3" />
+<TLINK lid="l4" relType="BEFORE" timeID="t3" relatedToTime="t4" />
+<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei6" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei7" relatedToEventInstance="ei8" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei9" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei11" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei11" relatedToEventInstance="ei12" />
+<TLINK lid="l28" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei13" />
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToEventInstance="ei14" />
+<TLINK lid="l30" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToEventInstance="ei15" />
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToTime="t3" />
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei1000018" relatedToTime="t4" />
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei1000019" relatedToTime="t5" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l35" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei16" />
+<TLINK lid="l36" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei17" />
+<TLINK lid="l37" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei18" />
+<TLINK lid="l38" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei1000018" />
+<TLINK lid="l39" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei1000019" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei19" />
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei20" />
+<TLINK lid="l43" relType="AFTER" eventInstanceID="ei19" relatedToEventInstance="ei21" />
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei22" />
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei23" />
+<TLINK lid="l47" relType="AFTER" eventInstanceID="ei23" relatedToEventInstance="ei24" />
+<TLINK lid="l48" relType="IS_INCLUDED" eventInstanceID="ei25" relatedToTime="t6" />
+<TLINK lid="l49" relType="INCLUDES" eventInstanceID="ei25" relatedToTime="t0" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei23" relatedToEventInstance="ei25" />
+<TLINK lid="l51" relType="INCLUDES" eventInstanceID="ei26" relatedToTime="t0" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei25" relatedToEventInstance="ei26" />
+<TLINK lid="l53" relType="AFTER" eventInstanceID="ei26" relatedToEventInstance="ei27" />
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei28" />
+
+</TimeML>
+

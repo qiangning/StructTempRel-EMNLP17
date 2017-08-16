@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051210.0373</DOCID>
+
+<DCT>MADRID, <TIMEX3 tid="t0" type="TIME" value="2005-12-10" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 10 , 2005</TIMEX3></DCT>
+
+<TITLE>Spanish league result</TITLE>
+
+
+<TEXT>
+
+Spanish league <EVENT class="STATE" eid="e1">results</EVENT> on <TIMEX3 type="DATE" value="2005-12-17" tid="t1">Saturday</TIMEX3>:
+
+Valencia 1 (Vicente 74) Athletic Bilbao 1 (Etxeberria 57)
+
+Real Sociedad v Villarreal - late kickoff
+
+Sunday
+
+Atletico Madrid v Alaves, Deportivo La Coruna v Cadiz, Getafe v Racing Santander, Osasuna v Mallorca, Real Betis v Espanyol, Real Zaragoza v Celta Vigo, Malaga v Real Madrid, Barcelona v Sevilla
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

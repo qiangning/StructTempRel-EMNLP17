@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970416.0254</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="1997-04-16" temporalFunction="false" functionInDocument="CREATION_TIME">April 16 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Lebanese jet-setter buys Tapie yacht: report</TITLE>
+
+
+<TEXT>
+
+A Lebanese multi-millionairess has anonymously <EVENT class="OCCURRENCE" eid="e1">purchased</EVENT> a yacht formerly owned by disgraced politician Bernard Tapie, a French newspaper <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-16" tid="t1">Wednesday</TIMEX3>.
+
+Mouna al Ayoub, ex-wife of a close friend of Saudi Arabia's King Fahd, has <EVENT class="OCCURRENCE" eid="e4">bought</EVENT> the four-master "Phocea" for 36.5 million francs (6.3 million francs), <EVENT class="REPORTING" eid="e5">according</EVENT> to the daily Le Figaro.
+
+The administrators <EVENT class="OCCURRENCE" eid="e6">selling</EVENT> off the bankrupt former soccer boss's assets <EVENT class="REPORTING" eid="e7">announced</EVENT> a <TIMEX3 type="DATE" value="1997-04-16" tid="t2">few days ago</TIMEX3> that the 74-metre (250 foot) yacht was being <EVENT class="OCCURRENCE" eid="e8">sold</EVENT> to Tranquil Ltd, a company based in the British Virgin Islands.
+
+Le Figaro <EVENT class="REPORTING" eid="e9">said</EVENT> the company was a front for the Lebanese jet-setter, who it <EVENT class="REPORTING" eid="e10">said</EVENT> had homes in Paris and Majorca, and <EVENT class="OCCURRENCE" eid="e12">lived</EVENT> for <TIMEX3 type="DURATION" value="P18Y" tid="t3">18 years</TIMEX3> with her husband in a Riyadh palace.
+
+Despite its price tag, the "Phocea" is in one sense a consolation prize compared to a 105-metre vessel, the "Lady Mouna," which she <EVENT class="OCCURRENCE" eid="e13">used</EVENT> to <EVENT class="OCCURRENCE" eid="e14">sail</EVENT> in, but which belongs to her ex-husband.
+
+Tapie is currently <EVENT class="STATE" eid="e15">serving</EVENT> an eight-month jail term over a football match-rigging scandal.
+
+Ironically, on <TIMEX3 type="DATE" value="1997-04-15" tid="t6">Tuesday</TIMEX3> he was <EVENT class="OCCURRENCE" eid="e16">allowed</EVENT> out of jail under day-release terms to <EVENT class="OCCURRENCE" eid="e17">work</EVENT> for a shipbuilding firm <EVENT class="I_ACTION" eid="e18">run</EVENT> by a former colleague -- which previously did maintenance work on his own former yacht.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

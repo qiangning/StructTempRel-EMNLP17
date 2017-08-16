@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970430.0571</DOCID>
+
+<DCT>LUBUMBASHI, Zaire, <TIMEX3 tid="t0" type="TIME" value="1997-04-30" temporalFunction="false" functionInDocument="CREATION_TIME">April 30 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Rebels agree Friday's meeting with Mobutu</TITLE>
+
+
+<TEXT>
+
+Rebel leader Laurent Kabila has <EVENT class="I_ACTION" eid="e1">agreed</EVENT> to historic face-to-face <EVENT class="OCCURRENCE" eid="e2">talks</EVENT> with Zaire's embattled President Mobutu Sese Seko aboard a South African naval vessel <TIMEX3 type="DATE" value="1997-04-25" tid="t1">Friday</TIMEX3>, rebel officials <EVENT class="REPORTING" eid="e3">told</EVENT> AFP.
+
+Sources close to the negotiators <EVENT class="OCCURRENCE" eid="e4">made</EVENT> the comments <TIMEX3 type="DATE" value="1997-04-30" tid="t2">Wednesday</TIMEX3> in this rebel-held city, Zaire's second largest, after US envoy Bill Richardson <EVENT class="REPORTING" eid="e5">announced</EVENT> in the capital Kinshasa that Mobutu would <EVENT class="OCCURRENCE" eid="e6">attend</EVENT> the <EVENT class="OCCURRENCE" eid="e7">talks</EVENT>.
+
+"I am <EVENT class="I_STATE" eid="e8">pleased</EVENT> to <EVENT class="OCCURRENCE" eid="e9">announce</EVENT> that President Mobutu and Mr. Kabila have <EVENT class="I_ACTION" eid="e10">agreed</EVENT> to face-to-face <EVENT class="OCCURRENCE" eid="e11">talks</EVENT>," Richardson <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+"This is a historic <EVENT class="OCCURRENCE" eid="e13">occasion</EVENT> that hopefully will <EVENT class="OCCURRENCE" eid="e14">lead</EVENT> to a peaceful <EVENT class="OCCURRENCE" eid="e15">transition</EVENT> in Zaire.
+
+"There are no pre-conditions," he <EVENT class="OCCURRENCE" eid="e16">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

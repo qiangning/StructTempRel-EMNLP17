@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051101.0326</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>CPPCC vice-chairman meets Austrian defence minister</TITLE>
+
+
+<TEXT>
+
+Wang Zhongyu, vice-chairman of the National Committee of the Chinese People's Political Consultative Conference (CPPCC), <EVENT class="OCCURRENCE" eid="e1">met</EVENT> here <TIMEX3 type="DATE" value="2005-11-02" tid="t1">Wednesday</TIMEX3> with Austrian Defence Minister Gunther Platter.
+
+Platter and his party <EVENT class="OCCURRENCE" eid="e2">arrived</EVENT> in Beijing <TIMEX3 type="DATE" value="2005-10-31" tid="t2">Monday</TIMEX3> for an official <EVENT class="OCCURRENCE" eid="e3">visit</EVENT> to China at the invitation of his Chinese counterpart Cao Gangchuan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

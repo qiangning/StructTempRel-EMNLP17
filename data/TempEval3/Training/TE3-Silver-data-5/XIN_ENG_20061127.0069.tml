@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0069</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Hill arrives in Beijing for Korean Peninsular nuclear talks</TITLE>
+
+
+<TEXT>
+
+The U.S. Assistant Secretary of State Christopher Hill <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> here <TIMEX3 type="TIME" value="2006-11-20TAF" tid="t1">Monday afternoon</TIMEX3> to <EVENT class="ASPECTUAL" eid="e2">continue</EVENT> <EVENT class="OCCURRENCE" eid="e3">efforts</EVENT> on <EVENT class="ASPECTUAL" eid="e4">resuming</EVENT> the six-party <EVENT class="OCCURRENCE" eid="e5">talks</EVENT> on the Korean Peninsular nuclear issue.
+
+Just <TIMEX3 type="DATE" value="2006-W47" tid="t2">a week ago</TIMEX3>, Hill <EVENT class="OCCURRENCE" eid="e6">came</EVENT> to the Chinese capital and <EVENT class="OCCURRENCE" eid="e7">met</EVENT> with vice foreign minister Wu Dawei. The two <EVENT class="I_ACTION" eid="e8">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e9">make</EVENT> joint <EVENT class="OCCURRENCE" eid="e10">efforts</EVENT> for the <EVENT class="OCCURRENCE" eid="e11">restart</EVENT> of the <EVENT class="OCCURRENCE" eid="e12">talks</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

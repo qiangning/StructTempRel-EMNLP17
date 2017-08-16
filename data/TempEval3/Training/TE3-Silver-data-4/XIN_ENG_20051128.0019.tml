@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0019</DOCID>
+
+<DCT>HARBIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Death toll rises to 68 in NE China coal mine blast</TITLE>
+
+
+<TEXT>
+
+As of 2:00 p.m. <TIMEX3 type="DATE" value="2005-11-28" tid="t2">Monday</TIMEX3>, the death toll <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> to 68 in <TIMEX3 type="DATE" value="2005-11-27" tid="t3">Sunday</TIMEX3>'s coal mine <EVENT class="OCCURRENCE" eid="e2">blast</EVENT> in northeastern Heilongjiang Province, <EVENT class="REPORTING" eid="e3">said</EVENT> sources with the National Bureau of Production Safety Supervision and Administration.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

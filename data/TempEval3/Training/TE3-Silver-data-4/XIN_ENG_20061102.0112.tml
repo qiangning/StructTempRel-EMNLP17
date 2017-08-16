@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061102.0112</DOCID>
+
+<DCT>JINAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>East China province reinstates bird flu monitoring</TITLE>
+
+
+<TEXT>
+
+Shandong Province, east China, has <EVENT class="OCCURRENCE" eid="e1">reinstated</EVENT> round-the-clock bird flu monitoring to <EVENT class="I_ACTION" eid="e2">prevent</EVENT> possible <EVENT class="OCCURRENCE" eid="e3">outbreaks</EVENT> as more and more migratory birds <EVENT class="OCCURRENCE" eid="e4">fly</EVENT> over the province on their way further south.
+
+Li Zhanpeng, head of the provincial wildlife protection center, <EVENT class="REPORTING" eid="e5">said</EVENT> that all 153 monitoring stations in the province were <EVENT class="OCCURRENCE" eid="e6">ordered</EVENT> to <EVENT class="REPORTING" eid="e7">report</EVENT> on a <TIMEX3 type="SET" value="P1D" tid="t1">daily</TIMEX3> basis.
+
+Local people were also <EVENT class="OCCURRENCE" eid="e8">called</EVENT> on to <EVENT class="REPORTING" eid="e9">report</EVENT> <EVENT class="OCCURRENCE" eid="e10">deaths</EVENT> of wild birds to the provincial wildlife protection center. Its telephone hot line number is 0531-88557707, Li <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+Wild birds <EVENT class="OCCURRENCE" eid="e12">migrate</EVENT> through eight routes around the world, three of which traverse China. Migratory birds <EVENT class="OCCURRENCE" eid="e14">flying</EVENT> from East Asia to Australia <EVENT class="OCCURRENCE" eid="e15">pass</EVENT> Shandong Province.
+
+China has <EVENT class="REPORTING" eid="e16">reported</EVENT> nine <EVENT class="OCCURRENCE" eid="e17">outbreaks</EVENT> of bird flu in poultry <TIMEX3 type="DATE" value="2006" tid="t2">this year</TIMEX3>, in northwestern Xinjiang Uygur Autonomous Region, north China's Shanxi Province and Inner Mongolia, east China's Anhui Province, southwestern Guizhou and Sichuan provinces and the central province of Hunan.
+
+Since <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3> China has <EVENT class="REPORTING" eid="e18">reported</EVENT> 21 human infections of bird flu which have <EVENT class="OCCURRENCE" eid="e20">caused</EVENT> 14 <EVENT class="OCCURRENCE" eid="e21">deaths</EVENT>. Globally, the World Health Organization (WHO) has <EVENT class="I_ACTION" eid="e22">recorded</EVENT> 256 human infections including 151 deaths as of <TIMEX3 type="DATE" value="2006-10-16" tid="t4">Oct. 16</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

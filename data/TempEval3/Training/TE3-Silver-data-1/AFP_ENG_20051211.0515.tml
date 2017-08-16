@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051211.0515</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2005</TIMEX3></DCT>
+
+<TITLE>beef</TITLE>
+
+
+<TEXT>
+
+US Agriculture Secretary Mike Johanns on <TIMEX3 type="DATE" value="2005-12-11" tid="t1">Sunday</TIMEX3> <EVENT class="REPORTING" eid="e1">voiced</EVENT> satisfaction after Japan <EVENT class="OCCURRENCE" eid="e2">gave</EVENT> the final go-ahead to <EVENT class="ASPECTUAL" eid="e3">resume</EVENT> imports of some US beef after a <TIMEX3 type="DURATION" value="P2Y" tid="t2">two-year</TIMEX3> ban.
+
+"I'm very <EVENT class="I_STATE" eid="e5">pleased</EVENT> to <EVENT class="OCCURRENCE" eid="e6">announce</EVENT> that the Japanese market is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> <EVENT class="STATE" eid="e7">open</EVENT> to US beef products," Johanns <EVENT class="REPORTING" eid="e8">said</EVENT> in a statement. "<EVENT class="ASPECTUAL" eid="e9">Resuming</EVENT> beef trade with Japan is great news for American producers and Japanese consumers, as well as an important step toward normalized trade based on scientifically sound, internationally recognized standards."
+
+Japan <EVENT class="I_ACTION" eid="e10">barred</EVENT> imports of US beef in <TIMEX3 type="DATE" value="2003-12" tid="t4">December 2003</TIMEX3> after cases of mad cow disease, formally known as bovine spongiform encephalopathy (BSE), were <EVENT class="OCCURRENCE" eid="e12">discovered</EVENT> in cattle in the country.
+
+It was a devastating blow to the US farming industry as Japan was the number one overseas market for its beef, <EVENT class="OCCURRENCE" eid="e14">buying</EVENT> 1.7 billion dollars worth in <TIMEX3 type="DATE" value="2002" tid="t5">2002</TIMEX3>. Japan had <EVENT class="OCCURRENCE" eid="e15">imposed</EVENT> a similar ban on Canadian beef in <TIMEX3 type="DATE" value="2003-05" tid="t6">May 2003</TIMEX3>.
+
+The row with Washington <EVENT class="OCCURRENCE" eid="e16">turned</EVENT> bitter in <TIMEX3 type="DATE" value="2004-10" tid="t7">October 2004</TIMEX3> when Japan <EVENT class="I_ACTION" eid="e17">promised</EVENT> to <EVENT class="OCCURRENCE" eid="e18">exempt</EVENT> US cows <EVENT class="OCCURRENCE" eid="e19">aged</EVENT> 20 months or younger from <EVENT class="OCCURRENCE" eid="e20">screening</EVENT> if high-risk parts were <EVENT class="OCCURRENCE" eid="e21">removed</EVENT>. Washington <EVENT class="OCCURRENCE" eid="e22">interpreted</EVENT> the <EVENT class="I_STATE" eid="e23">agreement</EVENT> as a breakthrough but Tokyo <EVENT class="REPORTING" eid="e24">said</EVENT> it <EVENT class="I_STATE" eid="e25">needed</EVENT> more time to <EVENT class="I_ACTION" eid="e26">verify</EVENT> how to <EVENT class="OCCURRENCE" eid="e27">test</EVENT> the age of the cattle.
+
+Japan <TIMEX3 type="DATE" value="PRESENT_REF" tid="t9">now</TIMEX3> was to <EVENT class="OCCURRENCE" eid="e28">send</EVENT> inspectors to North America to <EVENT class="OCCURRENCE" eid="e29">ensure</EVENT> compliance with the Japanese safety guidelines.
+
+Johanns <EVENT class="REPORTING" eid="e30">said</EVENT> that "<EVENT class="OCCURRENCE" eid="e31">reopening</EVENT> the Japanese market to US beef has been a top priority for me since <EVENT class="OCCURRENCE" eid="e32">becoming</EVENT> Secretary... Japan's action <TIMEX3 type="DATE" value="2005-12-12" tid="t10">today</TIMEX3> <EVENT class="OCCURRENCE" eid="e34">sets</EVENT> an excellent example for other countries in Asia whose markets remain closed.
+
+"Now is the time for Taiwan, South Korea, Hong Kong, Singapore and others to <EVENT class="ASPECTUAL" eid="e37">open</EVENT> their markets to US beef. I <EVENT class="I_ACTION" eid="e38">urge</EVENT> all countries to <EVENT class="OCCURRENCE" eid="e39">take</EVENT> a science-based approach and <EVENT class="OCCURRENCE" eid="e40">adopt</EVENT> OIE standards for <EVENT class="OCCURRENCE" eid="e41">allowing</EVENT> beef trade from 30-month animals," Johanns <EVENT class="OCCURRENCE" eid="e42">added</EVENT>.
+
+US farm-state senators had even <EVENT class="OCCURRENCE" eid="e43">pressed</EVENT> for <EVENT class="OCCURRENCE" eid="e44">sanctions</EVENT> worth 3.1 billion dollars unless Tokyo <EVENT class="OCCURRENCE" eid="e45">opened</EVENT> up again by the year-end.
+
+It is still unclear, however, if the lifting of the ban will <EVENT class="OCCURRENCE" eid="e47">appease</EVENT> disgruntled US farmers and politicians, with Japan <EVENT class="I_STATE" eid="e49">expected</EVENT> only to <EVENT class="OCCURRENCE" eid="e50">import</EVENT> a fraction of the beef it once <EVENT class="OCCURRENCE" eid="e51">took</EVENT> in.
+
+The United States in 2001 <EVENT class="OCCURRENCE" eid="e52">banned</EVENT> Japanese beef imports -- mostly the niche market of luxury Kobe beef -- after Japan <EVENT class="STATE" eid="e53">became</EVENT> the only Asian country to <EVENT class="REPORTING" eid="e54">report</EVENT> mad-cow disease in a herd.
+
+Japan <EVENT class="OCCURRENCE" eid="e56">exported</EVENT> 800,000 dollars worth of beef to the United States in <TIMEX3 type="DATE" value="2000" tid="t13">2000</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei56" eventID="e56" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei54" eventID="e54" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei53" eventID="e53" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52" eventID="e52" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei52" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei47" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei37" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei56" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei22" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei47" relatedToEventInstance="ei50" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei47" relatedToEventInstance="ei51" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei47" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei52" relatedToEventInstance="ei53" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei52" relatedToEventInstance="ei56" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei56" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei54" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei34" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei52" relatedToEventInstance="ei54" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei38" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l54" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei39" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l57" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l58" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l59" eventInstanceID="ei43" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l60" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l61" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l62" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l63" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l64" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l65" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l66" eventInstanceID="ei34" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l67" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l68" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l69" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l70" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

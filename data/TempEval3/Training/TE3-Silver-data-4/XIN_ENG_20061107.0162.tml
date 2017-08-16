@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0162</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Gold price lower in Hong Kong -- Nov. 7</TITLE>
+
+
+<TEXT>
+
+The gold price in Hong Kong <EVENT class="OCCURRENCE" eid="e1">went</EVENT> down 7 HK dollars to 5,764 HK dollars per tael on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3>, <EVENT class="REPORTING" eid="e2">according</EVENT> to Bank of China (Hong Kong).
+
+The price is equivalent to 622.02 U.S. dollars a troy ounce, down 1.20 U.S. dollars at <TIMEX3 type="DATE" value="2006-11-14" tid="t2">Tuesday</TIMEX3>'s exchange rate of one U.S. dollar against 7.7785 HK dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051113.0236</DOCID>
+
+<DCT>MEXICO CITY, <TIMEX3 tid="t0" type="TIME" value="2005-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Grenade attack injures 2 police officers in Mexico</TITLE>
+
+
+<TEXT>
+
+A grenade <EVENT class="OCCURRENCE" eid="e1">lobbed</EVENT> from a <EVENT class="OCCURRENCE" eid="e2">moving</EVENT> car at a police post <EVENT class="OCCURRENCE" eid="e3">injured</EVENT> two police officers in the Pacific resort city of Acapulco, Mexico, on <TIMEX3 type="DATE" value="2005-11-13" tid="t1">Sunday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e4">attack</EVENT> <EVENT class="OCCURRENCE" eid="e5">took</EVENT> place at a police barricade outside Tres Vidas, where <EVENT class="OCCURRENCE" eid="e6">conflict</EVENT> between a private hotel and farming interest has <EVENT class="OCCURRENCE" eid="e7">sparked</EVENT> a series of conflict.
+
+Farmers who originally <EVENT class="OCCURRENCE" eid="e8">lived</EVENT> in the area <EVENT class="REPORTING" eid="e9">claimed</EVENT> that they never <EVENT class="I_ACTION" eid="e10">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e11">sell</EVENT> their territory. Groups of peasants <EVENT class="OCCURRENCE" eid="e12">stormed</EVENT> the area in and around Tres Vidas in <TIMEX3 type="DATE" value="PXD" tid="t2">recent days</TIMEX3>, <EVENT class="OCCURRENCE" eid="e13">seizing</EVENT> land they <EVENT class="REPORTING" eid="e14">claim</EVENT> was <EVENT class="OCCURRENCE" eid="e15">stolen</EVENT> from them.
+
+The Tres Vidas police post is <EVENT class="OCCURRENCE" eid="e16">located</EVENT> in the city's Diamante beach section, a district popular with well-heeled tourists.
+
+Acapulco was <EVENT class="OCCURRENCE" eid="e17">hit</EVENT> by a string of violence <TIMEX3 type="DATE" value="2005" tid="t3">this year</TIMEX3> and grenade as well as shooting <EVENT class="OCCURRENCE" eid="e19">attacks</EVENT> have <EVENT class="OCCURRENCE" eid="e20">killed</EVENT> at least eight officials and <EVENT class="OCCURRENCE" eid="e21">injured</EVENT> six others.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051119.0113</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="2005-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Three more bird flu suspected cases reported in eastern Thailand</TITLE>
+
+
+<TEXT>
+
+Three more suspected bird flu patients have been <EVENT class="REPORTING" eid="e1">reported</EVENT> in Thailand's eastern Chacherngsao Province, all are children <EVENT class="OCCURRENCE" eid="e2">aged</EVENT> between three to 11 years old, <EVENT class="REPORTING" eid="e3">reported</EVENT> the Thai News Agency Saturday.
+
+The three patients, two girls aged 11 and three and one four- year-old boy, whose families raise chickens, were <EVENT class="OCCURRENCE" eid="e6">admitted</EVENT> to a hospital in the province's municipal area earlier <TIMEX3 type="DATE" value="2005-W46" tid="t3">this week</TIMEX3>.
+
+They all <EVENT class="OCCURRENCE" eid="e7">showed</EVENT> bird flu-like symptoms after chickens in their families <EVENT class="OCCURRENCE" eid="e8">died</EVENT> suspiciously.
+
+Provincial public health officials have <EVENT class="REPORTING" eid="e9">reported</EVENT> the three new avian flu <EVENT class="I_STATE" eid="e10">suspected</EVENT> cases to the Ministry of Public Health.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

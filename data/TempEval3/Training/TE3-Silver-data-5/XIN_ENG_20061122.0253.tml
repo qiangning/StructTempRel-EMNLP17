@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0253</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>One hostage killed in rescue operation in south Nigeria</TITLE>
+
+
+<TEXT>
+
+One foreign oil worker was <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> and another <EVENT class="OCCURRENCE" eid="e2">injured</EVENT> on <TIMEX3 type="DATE" value="2006-11-22" tid="t1">Wednesday</TIMEX3> in a hostage rescue mission <EVENT class="OCCURRENCE" eid="e3">launched</EVENT> by the Nigerian military.
+
+They <EVENT class="STATE" eid="e4">were</EVENT> among the seven oil workers taken hostage by gunmen from an oil <EVENT class="OCCURRENCE" eid="e5">installation</EVENT> in south Nigeria on <TIMEX3 type="DATE" value="2006-11-22" tid="t2">early Wednesday</TIMEX3>. The other five were <EVENT class="OCCURRENCE" eid="e6">freed</EVENT> in the <EVENT class="OCCURRENCE" eid="e7">operation</EVENT>.
+
+No details of the dead and the wounded were available <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3>.
+
+Occupying oil facilities or <EVENT class="OCCURRENCE" eid="e9">taking</EVENT> oil workers hostage is common in southern Nigeria as local people are angry for not <EVENT class="OCCURRENCE" eid="e10">benefiting</EVENT> from oil exploration and instead <EVENT class="OCCURRENCE" eid="e11">suffer</EVENT> from pollution <EVENT class="OCCURRENCE" eid="e12">discharged</EVENT> from the industry.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

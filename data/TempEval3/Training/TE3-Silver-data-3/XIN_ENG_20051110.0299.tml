@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0299</DOCID>
+
+<DCT>BELGRADE, Serbia-Montenegro, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Serbia registers 6.1 percent GDP growth in first half 2005</TITLE>
+
+
+<TEXT>
+
+Serbia <EVENT class="OCCURRENCE" eid="e1">registered</EVENT> a 6.1-percent <EVENT class="OCCURRENCE" eid="e2">growth</EVENT> of the Gross Domestic Product (GDP) in <TIMEX3 type="DATE" value="2005" tid="t1">the first half of 2005</TIMEX3> against the same period <TIMEX3 type="DATE" value="2004" tid="t2">last year</TIMEX3>, a government official <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-10" tid="t3">Thursday</TIMEX3>.
+
+The GDP <EVENT class="OCCURRENCE" eid="e4">growth</EVENT> was primarily a result of a major <EVENT class="OCCURRENCE" eid="e5">growth</EVENT> of retail trade and wholesale, mobile telephony and the financial sector, <EVENT class="REPORTING" eid="e6">said</EVENT> Andra Milojic, assistant director of the Serbian Statistics Bureau.
+
+In <TIMEX3 type="DATE" value="2004" tid="t4">2004</TIMEX3>, Serbia's GDP <EVENT class="OCCURRENCE" eid="e7">rose</EVENT> 9.3 percent in fixed prices ( starting <TIMEX3 type="DATE" value="2002" tid="t5">year 2002</TIMEX3>) to 1300 billion dinars (26.5 billion US dollars).
+
+In fixed prices, GDP <EVENT class="OCCURRENCE" eid="e8">represents</EVENT> a sum of gross added values at the sectoral level within the classification of activities calculated in fixed prices, plus taxes and minus product subsidies in fixed prices.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1000003" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1000003" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei1000003" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei1000007" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1000007" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

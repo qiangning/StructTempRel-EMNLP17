@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970415.0304</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="1997-04-15" temporalFunction="false" functionInDocument="CREATION_TIME">April 15 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENT Russia, NATO "getting closer" after Moscow talks</TITLE>
+
+
+<TEXT>
+
+NATO and Russia "<EVENT class="OCCURRENCE" eid="e1">getting</EVENT> closer" to an accord on future relations, the Russian foreign ministry <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="1997-04-15" tid="t1">Tuesday</TIMEX3> after <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> between NATO Secretary General Javier Solana and Foreign Minister Yevgeny Primakov.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

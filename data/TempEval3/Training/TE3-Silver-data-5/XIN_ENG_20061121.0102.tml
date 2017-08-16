@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0102</DOCID>
+
+<DCT>LUSAKA, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Zambia remains ban on importation of turkeys</TITLE>
+
+
+<TEXT>
+
+Turkeys lovers in Zambia will <EVENT class="OCCURRENCE" eid="e1">miss</EVENT> out on their favorite meat <TIMEX3 type="DATE" value="2006-11-21" tid="t1">this festive season</TIMEX3> because Zambia's ban <EVENT class="OCCURRENCE" eid="e2">stays</EVENT>, The Post <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-21" tid="t2">Tuesday</TIMEX3>.
+
+The Department of Veterinary and Livestock Development <EVENT class="OCCURRENCE" eid="e4">decided</EVENT> in <TIMEX3 type="DATE" value="2006-03" tid="t3">March this year</TIMEX3> to <EVENT class="OCCURRENCE" eid="e5">ban</EVENT> the importation and movement of live birds and poultry products following reports of avian influenza in Nigeria and the possibility of the disease spreading to other African countries.
+
+Poultry Association of Zambia executive director Mathew Ngosa <EVENT class="REPORTING" eid="e9">said</EVENT> the ban on the importation of poultry products still <EVENT class="I_STATE" eid="e11">stands</EVENT>.
+
+Ngosa was <EVENT class="OCCURRENCE" eid="e12">quoted</EVENT> as <EVENT class="REPORTING" eid="e13">saying</EVENT> that Zambia is not able to <EVENT class="OCCURRENCE" eid="e15">contain</EVENT> the potential outbreak of bird flue and so it <EVENT class="I_STATE" eid="e16">needs</EVENT> to be protective.
+
+"We are not likely to have new stocks for <TIMEX3 type="DATE" value="2006-11-21" tid="t4">the festive season</TIMEX3> until management <EVENT class="I_ACTION" eid="e20">resolves</EVENT> some important issues with the Ministry of Agriculture and Cooperatives," a supermarket attendant <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+The Shoprite attendant <EVENT class="REPORTING" eid="e22">said</EVENT> usually it <EVENT class="OCCURRENCE" eid="e23">imports</EVENT> several tons of turkey and other birds from South Africa and Brazil for special occasions such as <TIMEX3 type="DATE" value="2006-11-21" tid="t5">Christmas</TIMEX3> and <TIMEX3 type="DATE" value="2006-11-21" tid="t6">the festive season</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000023" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei1000023" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1000023" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

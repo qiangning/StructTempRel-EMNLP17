@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0420</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>APEC CEO summit kicks off in Hanoi</TITLE>
+
+
+<TEXT>
+
+Over 1,100 representatives from leading multi-national corporations of the Asia-Pacific region <EVENT class="OCCURRENCE" eid="e2">gathered</EVENT> in Hanoi <TIMEX3 type="DATE" value="2006-11-17" tid="t1">Friday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">kicking</EVENT> off the two-day Asia-Pacific Economic Cooperation (APEC) forum's CEO Summit.
+
+The <EVENT class="OCCURRENCE" eid="e4">summit</EVENT> is <EVENT class="I_STATE" eid="e5">considered</EVENT> the biggest event of the business community of the region in <TIMEX3 type="DATE" value="2006" tid="t3">2006</TIMEX3>.
+
+The event, annually <EVENT class="OCCURRENCE" eid="e6">organized</EVENT> along with the APEC Economic Leaders' <EVENT class="OCCURRENCE" eid="e7">Meeting</EVENT> since <TIMEX3 type="DATE" value="1996" tid="t4">1996</TIMEX3>, has <EVENT class="PERCEPTION" eid="e8">become</EVENT> an important forum for leaders, businessmen, policy makers and researchers to share experiences and <EVENT class="OCCURRENCE" eid="e9">propose</EVENT> suggestions and solutions for <EVENT class="OCCURRENCE" eid="e10">strengthening</EVENT> economic cooperation within the region and between the APEC member economies with the rest of the world.
+
+<TIMEX3 type="DATE" value="2006" tid="t5">This year</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e11">summit</EVENT> is <EVENT class="OCCURRENCE" eid="e12">held</EVENT> under the theme of "Towards One Community: <EVENT class="OCCURRENCE" eid="e13">Creating</EVENT> New Opportunities for Shared Development."
+
+Presidents and prime ministers of the APEC economies have been <EVENT class="I_ACTION" eid="e14">invited</EVENT> to <EVENT class="OCCURRENCE" eid="e15">attend</EVENT> the event of business executives. Vietnamese President Nguyen Minh Triet, Chinese President Hu Jintao, Indonesian President Susilo Bambang Yudhoyono and Singapore Prime Minister Lee Hsien Loong are among the guests <EVENT class="I_ACTION" eid="e16">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e17">speak</EVENT> on <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">the first day</TIMEX3> of the event.
+
+<EVENT class="OCCURRENCE" eid="e18">Founded</EVENT> in <TIMEX3 type="DATE" value="1989" tid="t7">1989</TIMEX3>, APEC is a major regional forum <EVENT class="OCCURRENCE" eid="e19">acting</EVENT> as the primary regional vehicle for <EVENT class="OCCURRENCE" eid="e20">promoting</EVENT> open trade and practical economic and technical <EVENT class="OCCURRENCE" eid="e21">cooperation</EVENT> in the Asia-Pacific region.
+
+It <EVENT class="OCCURRENCE" eid="e22">represents</EVENT> the most economically dynamic region in the world, with its 21 member economies <EVENT class="OCCURRENCE" eid="e23">accounting</EVENT> for more than one third of the world's population, approximately 60 percent of world GDP, about 47 percent of world trade.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

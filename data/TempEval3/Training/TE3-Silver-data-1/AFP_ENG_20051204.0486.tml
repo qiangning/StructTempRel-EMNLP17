@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051204.0486</DOCID>
+
+<DCT>CLEVELAND, Ohio, <TIMEX3 tid="t0" type="TIME" value="2005-12-04" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 4 , 2005</TIMEX3></DCT>
+
+<TITLE>Indians reportedly sign veteran hurler Byrd</TITLE>
+
+
+<TEXT>
+
+The Cleveland Indians, in <EVENT class="OCCURRENCE" eid="e1">search</EVENT> of a <EVENT class="OCCURRENCE" eid="e2">replacement</EVENT> for Kevin Millwood, have <EVENT class="I_ACTION" eid="e3">agreed</EVENT> to terms with veteran righthanded pitcher Paul Byrd on a two-year <EVENT class="OCCURRENCE" eid="e4">deal</EVENT>, ESPN <EVENT class="REPORTING" eid="e5">reported</EVENT> on its website on <TIMEX3 type="DATE" value="2005-12-04" tid="t2">Sunday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e6">deal</EVENT> is worth 14.25 million dollars, ESPN <EVENT class="REPORTING" eid="e7">reported</EVENT>, and Byrd, who <EVENT class="OCCURRENCE" eid="e8">turned</EVENT> 35 on <TIMEX3 type="DATE" value="2005-12-03" tid="t3">Saturday</TIMEX3>, can <EVENT class="OCCURRENCE" eid="e9">receive</EVENT> up to 22 million dollars if the Indians <EVENT class="OCCURRENCE" eid="e10">exercise</EVENT> their club option for <TIMEX3 type="DATE" value="2008" tid="t4">the 2008 season</TIMEX3>.
+
+Originally a fourth-round pick of Cleveland in <TIMEX3 type="DATE" value="1991" tid="t5">1991</TIMEX3>, Byrd is <EVENT class="OCCURRENCE" eid="e11">coming</EVENT> off a productive season for the Los Angeles Angels of Anaheim, during which he <EVENT class="OCCURRENCE" eid="e12">went</EVENT> 12-11 with a 3.74 ERA in 31 starts for the American League West champions.
+
+Byrd, who has <EVENT class="OCCURRENCE" eid="e13">made</EVENT> a career out of <EVENT class="OCCURRENCE" eid="e14">changing</EVENT> speeds and arm angles, <EVENT class="OCCURRENCE" eid="e15">struck</EVENT> out 102 in 204 1/3 innings but <EVENT class="OCCURRENCE" eid="e17">walked</EVENT> just 28.
+
+He effectively is <EVENT class="OCCURRENCE" eid="e18">stepping</EVENT> into the hole in the Indians' <EVENT class="OCCURRENCE" eid="e19">rotation</EVENT> <EVENT class="OCCURRENCE" eid="e20">vacated</EVENT> by Millwood, who <EVENT class="OCCURRENCE" eid="e21">went</EVENT> 9-11 with a league-best 2.86 ERA <TIMEX3 type="DATE" value="2005-12-04" tid="t6">last season</TIMEX3> but is <EVENT class="I_STATE" eid="e22">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e23">leave</EVENT> via free agency.
+
+In parts of 10 major league seasons with five different teams, Byrd has a career record of 72-64 with a <TIMEX3 type="DATE" value="2005-12-04T23:00" tid="t7">4.23 ERA</TIMEX3>. A former All-Star, Byrd's best season <EVENT class="OCCURRENCE" eid="e24">came</EVENT> with Kansas City in <TIMEX3 type="DATE" value="2002" tid="t8">2002</TIMEX3>, when he <EVENT class="OCCURRENCE" eid="e25">went</EVENT> 17-11 with a <TIMEX3 type="DATE" value="2005-12-04" tid="t9">3.90 ERA</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

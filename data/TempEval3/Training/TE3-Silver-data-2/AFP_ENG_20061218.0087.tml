@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061218.0087</DOCID>
+
+<DCT>THE HAGUE, <TIMEX3 tid="t0" type="TIME" value="2006-12-18" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 18 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Dutch temp agency company Vedior to take over Norwegian Corridor</TITLE>
+
+
+<TEXT>
+
+The Dutch temporary employment company Vedior <EVENT class="REPORTING" eid="e1">announced</EVENT> <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3> that it will <EVENT class="OCCURRENCE" eid="e2">take</EVENT> over Norwegian recruitment specialist Corridor for an undisclosed sum.
+
+Corridor <EVENT class="OCCURRENCE" eid="e3">specializes</EVENT> in the recruitment and supply of temporary and permanent staff within accounting and finance, sales and marketing, IT and administrative sectors and <EVENT class="REPORTING" eid="e5">reported</EVENT> 2005 sales of 6.8 million euros (8.9 million dollars).
+
+Vedior <EVENT class="REPORTING" eid="e6">said</EVENT> it will <EVENT class="OCCURRENCE" eid="e7">take</EVENT> a majority stake in the company while Corridors existing management will <EVENT class="OCCURRENCE" eid="e8">keep</EVENT> a minority interest and will <EVENT class="ASPECTUAL" eid="e9">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e10">develop</EVENT> the company.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

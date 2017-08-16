@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0356</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>French force fires Taliban units with laser-guided bomb</TITLE>
+
+
+<TEXT>
+
+A French Mirage 2000-D warplane <EVENT class="OCCURRENCE" eid="e1">used</EVENT> a laser-guided bomb against Taliban units in the south of Afghanistan on <TIMEX3 type="DATE" value="2006-10-30" tid="t1">Oct. 30</TIMEX3>, the defense ministry in Paris <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-09" tid="t2">Thursday</TIMEX3>.
+
+The Mirage's <EVENT class="OCCURRENCE" eid="e3">action</EVENT> was part of the Serpentaire air support mission, and the target on the ground was <EVENT class="OCCURRENCE" eid="e5">designated</EVENT> by U.S. and British troops <EVENT class="OCCURRENCE" eid="e6">engaged</EVENT> with Taliban fighters, the ministry <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+In <TIMEX3 type="DURATION" value="P4M" tid="t3">the past four months</TIMEX3>, French aircraft have <EVENT class="OCCURRENCE" eid="e8">opened</EVENT> <EVENT class="OCCURRENCE" eid="e9">fire</EVENT> eight times in Afghanistan, it <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+They are part of France's <EVENT class="OCCURRENCE" eid="e11">contribution</EVENT> to Operation "Enduring Freedom" and support for the NATO-led International Security Assistance Force (ISAF) in Afghanistan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1000002" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

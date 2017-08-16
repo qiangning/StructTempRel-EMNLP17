@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970414.0051</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="1997-04-14" temporalFunction="false" functionInDocument="CREATION_TIME">April 14 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Top Singapore insurer sets up asset management arm</TITLE>
+
+
+<TEXT>
+
+Singapore's top insurer Great Eastern Life Assurance (GE Life) has <EVENT class="OCCURRENCE" eid="e1">set</EVENT> up an asset management arm to <EVENT class="I_ACTION" eid="e2">handle</EVENT> two billion Singapore dollars (1.4 billion US) in funds, the Straits Times <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-14" tid="t1">Monday</TIMEX3>.
+
+GE Life chief executive Tan Beng Lee <EVENT class="REPORTING" eid="e4">told</EVENT> the newspaper that the new firm, Straits Lion Asset Management, will initially <EVENT class="I_ACTION" eid="e5">handle</EVENT> GE Life's own funds but would <EVENT class="OCCURRENCE" eid="e6">expand</EVENT> its activities later after <EVENT class="OCCURRENCE" eid="e7">establishing</EVENT> a track record.
+
+"Subsequently, we would <EVENT class="I_STATE" eid="e8">consider</EVENT> the management of third-party funds," Tan <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The new company is to be 90-percent <EVENT class="STATE" eid="e10">owned</EVENT> by GE Life and the rest by Straits Trading Co., a sister company under the Oversea-Chinese Banking Corp. group. Both are listed on the mainboard of the Stock Exchange of Singapore.
+
+The <EVENT class="OCCURRENCE" eid="e12">move</EVENT> is part of GE Life's <EVENT class="OCCURRENCE" eid="e13">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e14">find</EVENT> better returns from its growing assets amid pressure on the Singapore insurance industry from declining investment income and low interest rates, the newspaper <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+GE Life's funds are currently being <EVENT class="OCCURRENCE" eid="e17">managed</EVENT> in-house.
+
+"Straits Lion will <EVENT class="OCCURRENCE" eid="e18">provide</EVENT> a more active and focused platform in <EVENT class="OCCURRENCE" eid="e19">managing</EVENT> our funds," Tan was <EVENT class="OCCURRENCE" eid="e20">quoted</EVENT> as <EVENT class="REPORTING" eid="e21">saying</EVENT>.
+
+GE Life, with about 500,000 policyholders in a nation of three million, <EVENT class="STATE" eid="e22">had</EVENT> an asset base of 9.5 billion dollars in <TIMEX3 type="DATE" value="1996" tid="t3">1996</TIMEX3>, up from only four billion dollars in <TIMEX3 type="DATE" value="1992" tid="t4">1992</TIMEX3>.
+
+The report <EVENT class="REPORTING" eid="e23">said</EVENT> that under insurance laws, life insurers can <EVENT class="OCCURRENCE" eid="e24">invest</EVENT> no more than 35 percent of their assets in equities, 20 percent in property, 20 percent in foreign funds, and the rest in cash and near cash.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000022" eventID="e22" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1000022" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToEventInstance="ei1000022" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051104.0020</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Philippines searches for reportedly crashed plane</TITLE>
+
+
+<TEXT>
+
+Philippine police and navy <EVENT class="ASPECTUAL" eid="e1">started</EVENT> the <EVENT class="OCCURRENCE" eid="e2">search</EVENT> on <TIMEX3 type="DATE" value="2005-11-04" tid="t1">Friday</TIMEX3> for a reportedly <EVENT class="OCCURRENCE" eid="e3">crashed</EVENT> light plane in Ballesteros, Mindanao, south of the country.
+
+Ballesteros police chief Joel Cumlad <EVENT class="REPORTING" eid="e4">said</EVENT> a composite team from the police, fire department and navy has been <EVENT class="OCCURRENCE" eid="e5">searching</EVENT> the sea and shore for the plane, but authorities have yet to <EVENT class="OCCURRENCE" eid="e7">recover</EVENT> any aircraft debris that would <EVENT class="REPORTING" eid="e8">confirm</EVENT> the <EVENT class="OCCURRENCE" eid="e9">crash</EVENT>.
+
+Search and rescue operations are ongoing in the area with vessels and airplanes <EVENT class="OCCURRENCE" eid="e10">dispatched</EVENT> early <TIMEX3 type="DATE" value="2005-10-28TMO" tid="t2">Friday morning</TIMEX3> for the operations, officials <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+Local residents of Santa Cruz village in Ballesteros <EVENT class="REPORTING" eid="e12">said</EVENT> that the plane, <EVENT class="I_STATE" eid="e13">believed</EVENT> to be a two-seater Cessna, was <EVENT class="OCCURRENCE" eid="e14">cruising</EVENT> at a low altitude over the village when it suddenly <EVENT class="OCCURRENCE" eid="e15">hit</EVENT> treetops and then <EVENT class="OCCURRENCE" eid="e16">plunged</EVENT> into <TIMEX3 type="DATE" value="2005-11-04T7:30" tid="t3">the sea at 7:30</TIMEX3> <EVENT class="OCCURRENCE" eid="e17">p.m.</EVENT> on <TIMEX3 type="TIME" value="2005-11-03TNI" tid="t4">Thursday night</TIMEX3>, <EVENT class="REPORTING" eid="e18">according</EVENT> to the police.
+
+However, Air Transportation Office (ATO) on <TIMEX3 type="DATE" value="2005-11-04" tid="t5">Friday</TIMEX3> <EVENT class="REPORTING" eid="e19">said</EVENT> no plane was <EVENT class="OCCURRENCE" eid="e20">flying</EVENT> at the time when the aircraft reportedly <EVENT class="OCCURRENCE" eid="e21">crashed</EVENT> at the supposed spot.
+
+ATO chief Nilo Jatico <EVENT class="REPORTING" eid="e22">said</EVENT> that the agency's records <EVENT class="OCCURRENCE" eid="e23">showed</EVENT> that all aircraft had been <EVENT class="OCCURRENCE" eid="e24">accounted</EVENT> for as of <TIMEX3 type="DATE" value="2005-10-28TMO" tid="t6">Friday morning</TIMEX3>.
+
+"We have <EVENT class="OCCURRENCE" eid="e25">checked</EVENT> on our general aviation aircraft in Mindanao and no plane was <EVENT class="OCCURRENCE" eid="e26">flying</EVENT> at that particular time, including those that are privately owned," he <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+Local police earlier <EVENT class="REPORTING" eid="e29">said</EVENT> they could not <EVENT class="ASPECTUAL" eid="e30">launch</EVENT> a thorough <EVENT class="OCCURRENCE" eid="e31">search</EVENT> at the coast due to strong waves.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei22" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

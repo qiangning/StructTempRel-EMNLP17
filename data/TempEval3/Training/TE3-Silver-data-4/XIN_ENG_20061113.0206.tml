@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0206</DOCID>
+
+<DCT>ISLAMABAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Photo exhibition on Sun Yat-sen's life held in Pakistan</TITLE>
+
+
+<TEXT>
+
+A photo exhibition to <EVENT class="I_ACTION" eid="e1">mark</EVENT> the 140th <EVENT class="OCCURRENCE" eid="e2">anniversary</EVENT> of the <EVENT class="OCCURRENCE" eid="e3">birth</EVENT> of Sun Yat-sen, one of the forefathers of modern China, <EVENT class="OCCURRENCE" eid="e4">opened</EVENT> here <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e5">exhibition</EVENT> was <EVENT class="OCCURRENCE" eid="e6">organized</EVENT> by the Chinese Embassy to Pakistan and Pakistan National Council of the Arts.
+
+Some 200 people including representatives of the overseas Chinese, Chinese students in Pakistan and Pakistani friends were present at the <EVENT class="OCCURRENCE" eid="e7">occasion</EVENT> in Pakistan National Art Gallery.
+
+Speaking on the <EVENT class="OCCURRENCE" eid="e9">occasion</EVENT>, Cultural Counsellor of the Chinese Embassy Shan Baoxiang <EVENT class="REPORTING" eid="e10">recalled</EVENT> the glorious life of Sun and his great <EVENT class="OCCURRENCE" eid="e11">achievements</EVENT> made in the past for realizing independence, democracy and prosperity of China.
+
+Shan Baoxiang <EVENT class="REPORTING" eid="e12">said</EVENT> that Dr. Sun Yat-sen is <EVENT class="OCCURRENCE" eid="e13">respected</EVENT> by the Chinese people as the forerunner of the Chinese Revolution. His life had also been a story of struggles and self-sacrifices.
+
+Shan <EVENT class="REPORTING" eid="e14">said</EVENT> that Dr. Sun Yat-sen <EVENT class="OCCURRENCE" eid="e15">brought</EVENT> democracy to China, which still heavily influences the Chinese government <TIMEX3 type="DATE" value="2006-11-13" tid="t2">today</TIMEX3>, from which the Chinese people are still <EVENT class="OCCURRENCE" eid="e16">benefiting</EVENT>.
+
+He <EVENT class="OCCURRENCE" eid="e17">added</EVENT> that without Sun's efforts and ideological contributions, we will not have been able to <EVENT class="I_STATE" eid="e19">stand</EVENT> here with you and <EVENT class="REPORTING" eid="e20">talking</EVENT> about our deep-rooted friendships.
+
+On <EVENT class="OCCURRENCE" eid="e21">displayed</EVENT> at the <EVENT class="OCCURRENCE" eid="e22">exhibition</EVENT> are 84 sheets of photos <EVENT class="OCCURRENCE" eid="e23">introducing</EVENT> Sun's glory life.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

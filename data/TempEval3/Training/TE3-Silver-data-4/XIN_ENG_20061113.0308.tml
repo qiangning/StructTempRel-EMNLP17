@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0308</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Sea pirates raid police station in south Nigeria</TITLE>
+
+
+<TEXT>
+
+A group of sea pirates have <EVENT class="OCCURRENCE" eid="e1">raided</EVENT> a police station in southern Nigeria and <EVENT class="OCCURRENCE" eid="e2">carted</EVENT> away arms and salaries of local government workers, the official News Agency of Nigeria <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3>.
+
+An eyewitness was <EVENT class="OCCURRENCE" eid="e4">quoted</EVENT> as <EVENT class="REPORTING" eid="e5">saying</EVENT> that about a dozen of pirates <EVENT class="OCCURRENCE" eid="e6">stormed</EVENT> Bori Divisional Police Station in southern state of Rivers on <TIMEX3 type="TIME" value="2006-11-12TMO" tid="t2">early Sunday morning</TIMEX3> and <EVENT class="OCCURRENCE" eid="e7">shot</EVENT> sporadically to <EVENT class="OCCURRENCE" eid="e8">scare</EVENT> away policemen on duty before <EVENT class="OCCURRENCE" eid="e9">looting</EVENT>.
+
+The pirates also <EVENT class="OCCURRENCE" eid="e10">took</EVENT> away funds belonging to the local government and <EVENT class="OCCURRENCE" eid="e12">burnt</EVENT> their bus before <EVENT class="OCCURRENCE" eid="e13">escaping</EVENT> in a boat, the witness <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+<EVENT class="REPORTING" eid="e15">Confirming</EVENT> the event, police public relation officer Ireju Barasua <EVENT class="REPORTING" eid="e16">said</EVENT> that a special police team had been <EVENT class="OCCURRENCE" eid="e17">deployed</EVENT> to the station and investigations had been <EVENT class="ASPECTUAL" eid="e18">started</EVENT>.
+
+She <EVENT class="I_ACTION" eid="e19">appealed</EVENT> to the public to be <EVENT class="I_STATE" eid="e20">vigilant</EVENT> and <EVENT class="I_ACTION" eid="e21">assist</EVENT> the police with useful information on the movement of strange persons and criminal activities in the area.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

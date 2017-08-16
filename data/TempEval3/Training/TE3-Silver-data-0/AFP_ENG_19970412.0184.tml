@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970412.0184</DOCID>
+
+<DCT>KARACHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-12" temporalFunction="false" functionInDocument="CREATION_TIME">April 12 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Pakistan's new government vows to double exports in three years</TITLE>
+
+
+<TEXT>
+
+The new Pakistani government <EVENT class="I_STATE" eid="e1">hopes</EVENT> to <EVENT class="OCCURRENCE" eid="e2">double</EVENT> the country's exports in <TIMEX3 type="DURATION" value="P3Y" tid="t1">the next three years</TIMEX3>, Finance Minister Sartaj Aziz <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-06" tid="t2">Sunday</TIMEX3>.
+
+The aim will be <EVENT class="OCCURRENCE" eid="e4">achieved</EVENT> by <EVENT class="OCCURRENCE" eid="e5">increasing</EVENT> production, improving product quality and <EVENT class="OCCURRENCE" eid="e8">ensuring</EVENT> timely shipments, Aziz <EVENT class="REPORTING" eid="e9">told</EVENT> reporters.
+
+Exporters and manufacturers are being <EVENT class="OCCURRENCE" eid="e10">encouraged</EVENT> to <EVENT class="OCCURRENCE" eid="e11">adhere</EVENT> strictly to international quality standards, he <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+Pakistani Prime Minister Nawaz Sharif, who <EVENT class="OCCURRENCE" eid="e13">took</EVENT> power in <TIMEX3 type="DATE" value="1997-02" tid="t3">February</TIMEX3> after the national <EVENT class="OCCURRENCE" eid="e14">elections</EVENT>, has <EVENT class="OCCURRENCE" eid="e15">made</EVENT> the economy his top priority and <EVENT class="REPORTING" eid="e16">announced</EVENT> incentives including tax cuts for industry.
+
+The country <EVENT class="I_STATE" eid="e17">faces</EVENT> a trade deficit of around 3 billion dollars and a budget deficit of 4 billion dollars during <TIMEX3 type="DURATION" value="1996" tid="t4">the fiscal 1996-97</TIMEX3> <EVENT class="OCCURRENCE" eid="e18">ending</EVENT> <TIMEX3 type="DATE" value="1997-06-30" tid="t5">June 30</TIMEX3> next, the finance minister <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+Over <TIMEX3 type="DURATION" value="P9M" tid="t6">the past nine months</TIMEX3>, of <TIMEX3 type="DATE" value="1997" tid="t7">the current fiscal year</TIMEX3>, the exports <EVENT class="STATE" eid="e20">stood</EVENT> at 6.129 billion dollars, up from 5.928 billion dollars in <TIMEX3 type="DATE" value="1997-04-12" tid="t8">the corresponding period last year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000020" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000018" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1000020" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToEventInstance="ei1000018" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1000018" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei1000020" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

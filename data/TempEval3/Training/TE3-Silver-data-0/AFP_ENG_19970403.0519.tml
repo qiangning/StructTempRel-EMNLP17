@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970403.0519</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="1997-04-03" temporalFunction="false" functionInDocument="CREATION_TIME">April 3 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>British opposition Labour holds its leads in latest poll</TITLE>
+
+
+<TEXT>
+
+Britain's opposition Labour party has <EVENT class="OCCURRENCE" eid="e1">maintained</EVENT> a 24 percent lead over the Conservatives, <EVENT class="REPORTING" eid="e2">according</EVENT> to the latest newspaper opinion <EVENT class="OCCURRENCE" eid="e3">released</EVENT> on <TIMEX3 type="DATE" value="1997-04-03" tid="t1">Thursday</TIMEX3>.
+
+The Independent/Harris poll, to be <EVENT class="OCCURRENCE" eid="e4">published</EVENT> in the paper <TIMEX3 type="DATE" value="1997-03-28" tid="t2">Friday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e5">put</EVENT> Labour on 52 percent and the Conservatives on 28 percent, a drop of two percent for both parties, but still the same margin as <TIMEX3 type="DATE" value="1997-W13" tid="t3">last week</TIMEX3>.
+
+Support for the centrist Liberal Democrats was up three percent, from 11 percent to 14 percent, and anti-European Sir James Goldsmith's Referendum party <EVENT class="OCCURRENCE" eid="e7">scored</EVENT> 3.2 percent.
+
+Harris <EVENT class="OCCURRENCE" eid="e8">interviewed</EVENT> 1,091 adults face-to-face in their homes between <TIMEX3 type="DATE" value="1997-03-27" tid="t4">March 27</TIMEX3> and <TIMEX3 type="DATE" value="1931" tid="t5">31</TIMEX3>.
+
+A <EVENT class="OCCURRENCE" eid="e9">survey</EVENT> for The Times on <TIMEX3 type="DATE" value="1997-04-03" tid="t6">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e10">suggested</EVENT> Labour <EVENT class="STATE" eid="e11">had</EVENT> an unprecedented 27-point lead, five points up, at 55 percent, and the Tories <EVENT class="OCCURRENCE" eid="e12">down</EVENT> one percent.
+
+The new polls dash Tory <EVENT class="I_STATE" eid="e13">hopes</EVENT> that Labour's lead was <EVENT class="ASPECTUAL" eid="e14">beginning</EVENT> to <EVENT class="OCCURRENCE" eid="e15">narrow</EVENT> and are in stark contrast to an ICM poll in the The Guardian on <TIMEX3 type="DATE" value="1997-04-09" tid="t7">Wednesday</TIMEX3> that <EVENT class="OCCURRENCE" eid="e16">showed</EVENT> the Tories <EVENT class="OCCURRENCE" eid="e17">cutting</EVENT> the gap from 18 points to 14.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000008" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei1000008" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1000008" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1000005" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei1000005" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

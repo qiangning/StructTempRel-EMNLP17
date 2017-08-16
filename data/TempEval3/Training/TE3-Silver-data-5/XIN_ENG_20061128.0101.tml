@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0101</DOCID>
+
+<DCT>SEOUL, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Seoul stock market closes down</TITLE>
+
+
+<TEXT>
+
+The benchmark Korea Composite Stock Price Index (KOSPI) <EVENT class="OCCURRENCE" eid="e1">lost</EVENT> 13.66 points to 1,411.47 on <TIMEX3 type="DATE" value="2006-11-28" tid="t1">Tuesday</TIMEX3>.
+
+The volume of the KOSPI was moderate at 246 million shares worth 2.85 trillion won (3.07 billion U.S. dollars).
+
+The KOSDAQ index <EVENT class="OCCURRENCE" eid="e3">dropped</EVENT> 2.85 points to 612.93 with a volume of 655.32 million shares worth 2.184 trillion won (2.346 billion U.S. dollars).
+
+The local currency <EVENT class="ASPECTUAL" eid="e5">finished</EVENT> at 930.80 won against one U.S. dollar, down 0.2 won from <TIMEX3 type="DATE" value="2006-11-27" tid="t2">Monday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e7">close</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+
+
+
+
+</TimeML>

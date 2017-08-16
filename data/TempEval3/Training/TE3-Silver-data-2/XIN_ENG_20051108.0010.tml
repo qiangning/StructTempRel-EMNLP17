@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0010</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2005-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>global energy demand to soar by more than 50 percent by 2030: IEA</TITLE>
+
+
+<TEXT>
+
+The global energy demand will <EVENT class="OCCURRENCE" eid="e1">soar</EVENT> by more than 50 percent by <TIMEX3 type="DATE" value="2030" tid="t1">2030</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">amounting</EVENT> to 16.3 billion tons of oil, the International Energy Agency (IEA) <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-11-07" tid="t2">Monday</TIMEX3> in its 2005 World Energy Outlook.
+
+By <TIMEX3 type="DATE" value="2030" tid="t4">2030</TIMEX3>, the global demand for oil and coal will <EVENT class="OCCURRENCE" eid="e5">increase</EVENT> by 1.4 percent <TIMEX3 type="DATE" value="P1Y" tid="t5">every year</TIMEX3>, while the annual demand for natural gas will <EVENT class="OCCURRENCE" eid="e7">grow</EVENT> by 2.1 percent. If the energy output does not largely <EVENT class="OCCURRENCE" eid="e8">increase</EVENT> by that time, the price of energy will <EVENT class="OCCURRENCE" eid="e9">rise</EVENT> sharply, <EVENT class="OCCURRENCE" eid="e10">estimated</EVENT> the IEA.
+
+There are adequate oil and natural gas reserves to <EVENT class="OCCURRENCE" eid="e11">meet</EVENT> such demand in the world, especially in north Africa and the Middle East. However, some new investments of 17 trillion euros (20 trillion US dollars) will be urgently <EVENT class="I_STATE" eid="e13">needed</EVENT> to <EVENT class="OCCURRENCE" eid="e14">transfer</EVENT> the energy supply to the consumer market, the IEA <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+Under the IEA's reference scenario, along with the increasing output of oil, the international oil price will <EVENT class="OCCURRENCE" eid="e17">decrease</EVENT> to 35 dollars a barrel by <TIMEX3 type="DATE" value="2010" tid="t7">2010</TIMEX3>. Nevertheless, the price will <EVENT class="OCCURRENCE" eid="e18">rise</EVENT> back to 39 dollars a barrel by <TIMEX3 type="DATE" value="2030" tid="t8">2030</TIMEX3>, 10 dollars higher than the price the IEA had <EVENT class="OCCURRENCE" eid="e19">estimated</EVENT> in <TIMEX3 type="DATE" value="2004" tid="t9">2004</TIMEX3>.
+
+The Outlook also <EVENT class="OCCURRENCE" eid="e20">added</EVENT> that the global refining industry would <EVENT class="OCCURRENCE" eid="e21">face</EVENT> new challenges in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t10">the future</TIMEX3>, due to the <EVENT class="OCCURRENCE" eid="e22">drop</EVENT> of surplus production capacity and weakness of production flexibility <EVENT class="OCCURRENCE" eid="e23">resulting</EVENT> from the lack of investment.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0117</DOCID>
+
+<DCT>MEXICO CITY, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mexican soccer championship quarterfinal fixtures</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Following</EVENT> ar ethe fixtures from the Mexican championship Quarterfinal first leg soccer <EVENT class="OCCURRENCE" eid="e2">matches</EVENT> on <TIMEX3 type="DATE" value="2005-12-06" tid="t1">Tuesday</TIMEX3>:
+
+Quarterfinal Apertura, first leg
+
+<TIMEX3 type="DATE" value="2005-11-30" tid="t2">Wednesday, November 30</TIMEX3> (GMT)
+
+Pachuca v Necaxa
+
+UAG   v Monterrey
+
+Quarterfinal Apertura, first leg
+
+<TIMEX3 type="DATE" value="2005-12-01" tid="t3">Thursday, December 1</TIMEX3> (GMT)
+
+Tigres  v America
+
+Toluca  v Cruz Azul
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

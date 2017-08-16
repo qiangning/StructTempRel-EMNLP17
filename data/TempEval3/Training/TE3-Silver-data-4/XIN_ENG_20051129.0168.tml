@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0168</DOCID>
+
+<DCT>KAMPALA, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>African Union delegation visits Uganda</TITLE>
+
+
+<TEXT>
+
+An African Union (AU) delegation is currently <EVENT class="OCCURRENCE" eid="e1">paying</EVENT> a five-day <EVENT class="OCCURRENCE" eid="e2">visit</EVENT> to Uganda to <EVENT class="OCCURRENCE" eid="e3">discuss</EVENT> with their Ugandan counterparts on security in the region.
+
+<EVENT class="REPORTING" eid="e4">According</EVENT> to a press release from the Ugandan Foreign Ministry, The AU delegation, consisting of 25 military officers <EVENT class="OCCURRENCE" eid="e7">arrived</EVENT> in Uganda on <TIMEX3 type="DATE" value="2005-11-26" tid="t3">Saturday</TIMEX3> on a reconnaissance mission in the countries of the Great Lakes region.
+
+"The purpose of the mission is to <EVENT class="OCCURRENCE" eid="e8">gather</EVENT> experiences from the region and information on the common security threats," the release <EVENT class="REPORTING" eid="e9">said</EVENT>, <EVENT class="OCCURRENCE" eid="e10">adding</EVENT> that "the AU mission is <EVENT class="I_STATE" eid="e11">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e12">pave</EVENT> the way for eventual <EVENT class="OCCURRENCE" eid="e13">deployment</EVENT> of an AU force to forcefully <EVENT class="OCCURRENCE" eid="e14">disarm</EVENT> armed groups in eastern DRC (Democratic Republic of the Congo)."
+
+"During their five-day <EVENT class="OCCURRENCE" eid="e15">stay</EVENT> in Uganda, the AU mission are <EVENT class="I_STATE" eid="e16">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e17">hold</EVENT> <EVENT class="OCCURRENCE" eid="e18">discussions</EVENT> with their Ugandan counterparts on security threats <EVENT class="STATE" eid="e19">posed</EVENT> by the negative forces in eastern DRC, the role that the AU can <EVENT class="OCCURRENCE" eid="e20">play</EVENT> in <EVENT class="I_ACTION" eid="e21">addressing</EVENT> the region's security concerns and the possible <EVENT class="OCCURRENCE" eid="e22">support</EVENT> that Uganda can <EVENT class="OCCURRENCE" eid="e23">render</EVENT> to the AU intervention," it <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+The AU mission has already <EVENT class="STATE" eid="e26">been</EVENT> in DRC and Rwanda and will be <EVENT class="OCCURRENCE" eid="e27">proceeding</EVENT> to Burundi after <EVENT class="OCCURRENCE" eid="e28">visiting</EVENT> Uganda.
+
+The <EVENT class="OCCURRENCE" eid="e29">decision</EVENT> for the AU <EVENT class="OCCURRENCE" eid="e30">intervention</EVENT> was <EVENT class="OCCURRENCE" eid="e31">made</EVENT> at the <EVENT class="OCCURRENCE" eid="e32">summit</EVENT> of the AU peace and security council <EVENT class="OCCURRENCE" eid="e33">held</EVENT> on <TIMEX3 type="DATE" value="2005-01-09" tid="t5">January 9</TIMEX3> in Libreville, Gabon.
+
+The AU reconnaissance mission to the Great Lakes region comprises officers from South Africa, Ethiopia, Nigeria, Guinea, Angola, Algeria and the African Union Commission.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei33" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="AFTER" />
+
+
+
+
+</TimeML>

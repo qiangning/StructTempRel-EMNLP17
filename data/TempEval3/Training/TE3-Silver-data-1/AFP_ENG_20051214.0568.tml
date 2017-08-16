@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051214.0568</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="2005-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2005</TIMEX3></DCT>
+
+<TITLE>Swiss parliament probes CIA flights</TITLE>
+
+
+<TEXT>
+
+The Swiss parliament <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> an inquiry into flights over the tiny landlocked nation by CIA-chartered aircraft <EVENT class="I_STATE" eid="e2">thought</EVENT> to be <EVENT class="OCCURRENCE" eid="e3">carrying</EVENT> suspected terrorists, a parliamentary commission <EVENT class="REPORTING" eid="e4">said</EVENT> in a statement <TIMEX3 type="DATE" value="2005-12-14" tid="t1">Wednesday</TIMEX3>.
+
+Over <TIMEX3 type="DURATION" value="PXW" tid="t2">the next few weeks</TIMEX3>, the commission is to <EVENT class="OCCURRENCE" eid="e5">probe</EVENT> how much the government <EVENT class="I_STATE" eid="e6">knew</EVENT> about the flights, what steps it <EVENT class="OCCURRENCE" eid="e7">took</EVENT> and the level of Swiss intelligence involvement.
+
+"The opening of this inquiry was <EVENT class="OCCURRENCE" eid="e10">decided</EVENT> by the delegation of adminstrative commissions during its <EVENT class="OCCURRENCE" eid="e11">meeting</EVENT> on <TIMEX3 type="DATE" value="2005-12-13" tid="t3">Tuesday</TIMEX3>," the delegation <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+With a host of European countries concerned over possible implication in Washington's "<EVENT class="OCCURRENCE" eid="e15">war</EVENT> on terror", questions have been <EVENT class="OCCURRENCE" eid="e17">raised</EVENT> about 32 flights by US-registered aircraft in Swiss airspace between <TIMEX3 type="DATE" value="2003" tid="t5">early 2003</TIMEX3> and <TIMEX3 type="DATE" value="2005-12" tid="t6">December this year</TIMEX3>.
+
+On <TIMEX3 type="DATE" value="2005-11-27" tid="t7">November 27</TIMEX3>, the Swiss government <EVENT class="OCCURRENCE" eid="e18">demanded</EVENT> explanations from Washington about 27 overflights of its territory by US planes in <TIMEX3 type="DATE" value="2003" tid="t8">2003</TIMEX3> and <TIMEX3 type="DATE" value="2004" tid="t9">2004</TIMEX3>.
+
+The Swiss foreign ministry <EVENT class="REPORTING" eid="e20">said</EVENT> it had <EVENT class="OCCURRENCE" eid="e21">demanded</EVENT> <EVENT class="OCCURRENCE" eid="e22">explanations</EVENT> from US authorities several times about <EVENT class="I_STATE" eid="e23">suspected</EVENT> CIA flights, most recently on <TIMEX3 type="DATE" value="2005-11-15" tid="t10">November 15</TIMEX3> through the Swiss embassy in Washington.
+
+The US embassy in Bern <EVENT class="REPORTING" eid="e24">said</EVENT> on <TIMEX3 type="DATE" value="2005-12-14" tid="t11">Wednesday</TIMEX3> that the US State Department had still not <EVENT class="OCCURRENCE" eid="e25">responded</EVENT>.
+
+The European Parliament on <TIMEX3 type="DATE" value="2005-12-14" tid="t12">Wednesday</TIMEX3> <EVENT class="I_ACTION" eid="e26">agreed</EVENT> to <EVENT class="ASPECTUAL" eid="e27">launch</EVENT> an <EVENT class="OCCURRENCE" eid="e28">investigation</EVENT> into allegations of CIA prisons after a <EVENT class="OCCURRENCE" eid="e29">probe</EVENT> by the Council of Europe rights and democracy group <EVENT class="I_ACTION" eid="e30">concluded</EVENT> that preliminary evidence <EVENT class="OCCURRENCE" eid="e31">suggested</EVENT> the United States illegally abducted and <EVENT class="OCCURRENCE" eid="e33">detained</EVENT> individuals.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000019" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000018" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei26" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei1000018" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei1000019" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei1000019" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1000018" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l36" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei23" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

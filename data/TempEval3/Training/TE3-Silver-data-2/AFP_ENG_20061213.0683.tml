@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061213.0683</DOCID>
+
+<DCT>SAN FRANCISCO, <TIMEX3 tid="t0" type="TIME" value="2006-12-13" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 13 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Microsoft, HP target business market with 300-mln-dollar alliance</TITLE>
+
+
+<TEXT>
+
+Microsoft and Hewlett-Packard <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-12-20" tid="t1">Wednesday</TIMEX3> they would jointly <EVENT class="OCCURRENCE" eid="e2">invest</EVENT> 300 million dollars in a three-year partnership to <EVENT class="OCCURRENCE" eid="e3">become</EVENT> the go-to source for business computer systems.
+
+Microsoft software expertise would be <EVENT class="STATE" eid="e4">combined</EVENT> with HP hardware savvy to <EVENT class="OCCURRENCE" eid="e5">tailor</EVENT> networks to <EVENT class="OCCURRENCE" eid="e6">meet</EVENT> individual company needs from e-mail and voice mail to video conferencing and infrastructure, executives <EVENT class="REPORTING" eid="e7">said</EVENT> at a news <EVENT class="OCCURRENCE" eid="e8">briefing</EVENT>.
+
+"It's a perfect time to <EVENT class="OCCURRENCE" eid="e9">go</EVENT> to <EVENT class="OCCURRENCE" eid="e10">market</EVENT> as one single stack of the best combination of hardware and software available <TIMEX3 type="DATE" value="2006-12-13" tid="t3">today</TIMEX3>," <EVENT class="REPORTING" eid="e12">said</EVENT> HP senior vice president John McCain. "It is a great opportunity."
+
+Microsoft chief operating officer Kevin Turner <EVENT class="REPORTING" eid="e13">said</EVENT> the partnership was <EVENT class="I_STATE" eid="e14">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e15">winning</EVENT> a major share of the business network market, which is <EVENT class="I_ACTION" eid="e16">predicted</EVENT> to <EVENT class="OCCURRENCE" eid="e17">exceed</EVENT> 50 billion dollars in <TIMEX3 type="DATE" value="2007" tid="t5">2007</TIMEX3>.
+
+"We are very excited about this partnership and where we can <EVENT class="OCCURRENCE" eid="e19">take</EVENT> it," Turner <EVENT class="REPORTING" eid="e20">said</EVENT>. "It is about driving hardware sales and services for HP and selling more Microsoft technology."
+
+The partnership was an <EVENT class="OCCURRENCE" eid="e22">extension</EVENT> of a decades-old relationship between Redmond, Washington-based Microsoft and California-based HP, <EVENT class="REPORTING" eid="e23">according</EVENT> to the executives.
+
+"This <EVENT class="OCCURRENCE" eid="e24">builds</EVENT> on <TIMEX3 type="DURATION" value="P20Y" tid="t6">20 years</TIMEX3> of successful <EVENT class="OCCURRENCE" eid="e25">partnering</EVENT> by the companies," <EVENT class="REPORTING" eid="e26">said</EVENT> HP executive vice president Ann Livermore. "Our sales forces are ready. We could <EVENT class="ASPECTUAL" eid="e27">begin</EVENT> <TIMEX3 type="DATE" value="2006-12-14" tid="t7">tomorrow</TIMEX3>."
+
+The alliance <EVENT class="REPORTING" eid="e28">announced</EVENT> on <TIMEX3 type="DATE" value="2006-12-13" tid="t8">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e29">made</EVENT> HP the first "global partner" in a Microsoft People-Ready Business program that was <EVENT class="REPORTING" eid="e30">described</EVENT> as being <EVENT class="OCCURRENCE" eid="e31">focused</EVENT> on giving people technology tools needed to <EVENT class="OCCURRENCE" eid="e33">excel</EVENT> at their jobs.
+
+"We ought to be <EVENT class="I_STATE" eid="e34">able</EVENT> to <EVENT class="OCCURRENCE" eid="e35">cover</EVENT> almost the whole world between the resources we have and what Microsoft has," Livermore <EVENT class="REPORTING" eid="e36">said</EVENT>.
+
+"In some cases the solution might be a simple server and some software, and in others more complex software. The power is we can <EVENT class="OCCURRENCE" eid="e37">come</EVENT> at this from many different standpoints."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei28" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei37" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei29" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei29" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei25" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei13" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei27" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

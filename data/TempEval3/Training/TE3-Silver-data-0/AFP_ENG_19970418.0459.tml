@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970418.0459</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="1997-04-18" temporalFunction="false" functionInDocument="CREATION_TIME">April 18 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Prison sentences demanded over "Wall deaths"</TITLE>
+
+
+<TEXT>
+
+The <EVENT class="OCCURRENCE" eid="e1">prosecution</EVENT> in the <EVENT class="OCCURRENCE" eid="e2">trial</EVENT> of former East German military officials <EVENT class="OCCURRENCE" eid="e3">held</EVENT> responsible for the <EVENT class="OCCURRENCE" eid="e4">deaths</EVENT> of people <EVENT class="OCCURRENCE" eid="e5">killed</EVENT> <EVENT class="I_ACTION" eid="e6">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e7">flee</EVENT> to the West <EVENT class="OCCURRENCE" eid="e8">called</EVENT> <TIMEX3 type="DATE" value="1997-04-18" tid="t1">Friday</TIMEX3> for the court to <EVENT class="OCCURRENCE" eid="e9">impose</EVENT> prison sentences.
+
+A <EVENT class="OCCURRENCE" eid="e10">sentence</EVENT> of <TIMEX3 type="DURATION" value="P4Y" tid="t2">four years</TIMEX3> was <EVENT class="OCCURRENCE" eid="e11">demanded</EVENT> for the former deputy defence minister Joachim Goldbach, with lesser sentences for three other generals.
+
+The four are <EVENT class="I_ACTION" eid="e12">accused</EVENT> of complicity in murder and <EVENT class="I_ACTION" eid="e13">attempted</EVENT> murder over defence ministry "shoot-to-kill" orders given to guards on the Berlin Wall and the <EVENT class="OCCURRENCE" eid="e14">installation</EVENT> of automatic firing apparatus along the inter-German border.
+
+Such installations were not for the military defence of the East German state but <EVENT class="OCCURRENCE" eid="e15">directed</EVENT> entirely against the population, the prosecutor <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+Five former border guard officers meanwhile <EVENT class="OCCURRENCE" eid="e17">went</EVENT> on trial in Berlin <TIMEX3 type="DATE" value="1997-04-25" tid="t3">Friday</TIMEX3> <EVENT class="I_ACTION" eid="e18">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e19">installing</EVENT> particularly deadly fragmentation mines along the frontier with West Germany. Nine people were <EVENT class="OCCURRENCE" eid="e20">killed</EVENT> and numerous others <EVENT class="OCCURRENCE" eid="e21">wounded</EVENT> by these mines, the court <EVENT class="PERCEPTION" eid="e22">heard</EVENT>.
+
+<TIMEX3 type="DURATION" value="P7Y" tid="t4">More than seven years</TIMEX3> after the fall of the Berlin Wall, the number of people <EVENT class="OCCURRENCE" eid="e24">killed</EVENT> in all <EVENT class="I_ACTION" eid="e25">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e26">escape</EVENT> from East Germany is not <EVENT class="STATE" eid="e27">known</EVENT> exactly, but <EVENT class="REPORTING" eid="e28">according</EVENT> to a specialist body there were more than 860 who <EVENT class="OCCURRENCE" eid="e29">died</EVENT> in this way.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei28" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

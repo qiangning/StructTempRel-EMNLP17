@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0338</DOCID>
+
+<DCT>OTTAWA, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Philippines airliner makes emergecy landing in Vancouver</TITLE>
+
+
+<TEXT>
+
+A Manila-bound jet <EVENT class="OCCURRENCE" eid="e1">carrying</EVENT> more than 280 passengers <EVENT class="OCCURRENCE" eid="e2">made</EVENT> an emergency landing at Vancouver International Airport shortly after <TIMEX3 type="DATE" value="2006-11-29" tid="t1">take-off Wednesday morning</TIMEX3>.
+
+Airport officials <EVENT class="REPORTING" eid="e4">told</EVENT> media the Philippines airliner had just <EVENT class="OCCURRENCE" eid="e5">left</EVENT> the airport when a problem <EVENT class="OCCURRENCE" eid="e6">developed</EVENT> with one of its wing flaps.
+
+The pilot <EVENT class="OCCURRENCE" eid="e7">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e8">turn</EVENT> back and <EVENT class="OCCURRENCE" eid="e9">dumped</EVENT> fuel into the ocean on the way to Vancouver.
+
+Fire and ambulance crews were <EVENT class="OCCURRENCE" eid="e10">dispatched</EVENT> as a precaution but the aircraft <EVENT class="OCCURRENCE" eid="e11">landed</EVENT> without incident.
+
+It is unclear when the flight will <EVENT class="ASPECTUAL" eid="e12">resume</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

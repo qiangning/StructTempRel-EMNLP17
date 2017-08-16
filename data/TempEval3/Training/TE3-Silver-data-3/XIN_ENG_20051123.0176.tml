@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0176</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3>  (Xinhua)</DCT>
+
+<TITLE>this year</TITLE>
+
+
+<TEXT>
+
+China's foreign trade of electronic and machinery products is <EVENT class="I_STATE" eid="e1">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e2">hit</EVENT> 780 billion US dollars <TIMEX3 type="DATE" value="2005" tid="t1">this year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">growing</EVENT> 25 percent year on <TIMEX3 type="DATE" value="P1Y" tid="t2">year</TIMEX3>, the International Business Daily <EVENT class="REPORTING" eid="e4">quoted</EVENT> an official with the Ministry of Commerce as <EVENT class="REPORTING" eid="e5">saying</EVENT>.
+
+Li Minglin, director of the Machinery and Electronic Product Import and Export Department under the ministry, also <EVENT class="I_ACTION" eid="e6">predicted</EVENT> China's process trade <TIMEX3 type="DATE" value="2005" tid="t3">this year</TIMEX3> to <EVENT class="OCCURRENCE" eid="e7">hit</EVENT> 690 billion US dollars, up 25 percent.
+
+As a main driving force of China's foreign trade, the trade of electronic and machinery products will <EVENT class="ASPECTUAL" eid="e8">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e9">grow</EVENT> stably, thanks to a domestic investment <EVENT class="OCCURRENCE" eid="e10">rise</EVENT> and further <EVENT class="OCCURRENCE" eid="e11">opening</EVENT> of the Chinese market, he <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+Although China's export of electronic and machinery products is <EVENT class="OCCURRENCE" eid="e14">growing</EVENT> robustly, unstable factors such as fluctuations in the international trade structure, raw material supply shortages and a Renminbi exchange rate change will have a negative impact, he <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+China's innovation capacity in this area is still weak, <EVENT class="OCCURRENCE" eid="e18">lacking</EVENT> independent property rights and core technologies, he <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+In <TIMEX3 type="DURATION" value="P5Y" tid="t4">the next five years</TIMEX3>, China will <EVENT class="OCCURRENCE" eid="e20">optimize</EVENT> its industrial structure and <EVENT class="OCCURRENCE" eid="e21">encourage</EVENT> the export of machinery and electronic products with high technology and independent intellectual property rights, he <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

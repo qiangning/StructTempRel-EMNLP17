@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0289</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Asiad soccer draws</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Following</EVENT> are the men's and women's soccer <EVENT class="OCCURRENCE" eid="e2">draws</EVENT> at the Asian Games:
+
+Men's <EVENT class="OCCURRENCE" eid="e3">draw</EVENT>:
+
+First round (qualification)
+
+Group A: Jordan, Tajikistan, Kyrgyzstan and Macao of China
+
+Group B: Singapore, Syria, Indonesia and Iraq
+
+Second round:
+
+Group A: Qatar, UAE, Uzbekistan and Winner A
+
+Group B: South Korea, Bahrain, Vietnam and Bangladesh
+
+Group C: Thailand, Kuwait, Yemen and Palestine
+
+Group D: Iran, India, Hong Kong of China and Maldives
+
+Group E: China, Oman, Malaysia and Winner B
+
+Group F: Japan, DPR Korea and Pakistan
+
+(Note: 22 <EVENT class="I_STATE" eid="e4">qualify</EVENT> directly into <TIMEX3 type="DATE" value="2006-11-23T02:00" tid="t1">Round 2</TIMEX3>. The eight remaining teams, who did not <EVENT class="OCCURRENCE" eid="e5">participate</EVENT> in the last Asian Games, are <EVENT class="OCCURRENCE" eid="e6">divided</EVENT> into two groups of four, and <EVENT class="OCCURRENCE" eid="e7">play</EVENT> in Round 1. The winner of each group <EVENT class="OCCURRENCE" eid="e8">joins</EVENT> the 22 in Round 2.)
+
+Women's <EVENT class="OCCURRENCE" eid="e9">draw</EVENT>:
+
+Group A: China, Japan, Maldives and Jordan
+
+Group B: DPR Korea, South Korea, Thailand, Chinese Taipei and Vietnam
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

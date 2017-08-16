@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970409.0392</DOCID>
+
+<DCT>PORT-AU-PRINCE, <TIMEX3 tid="t0" type="TIME" value="1997-04-09" temporalFunction="false" functionInDocument="CREATION_TIME">April 9 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Haitian parliament boosts police firepower</TITLE>
+
+
+<TEXT>
+
+The Haitian Chamber of Deputies has <EVENT class="I_STATE" eid="e1">authorized</EVENT> some units of the national police to <EVENT class="OCCURRENCE" eid="e2">carry</EVENT> light weapons in addition to their sidearms, parliamentary sources <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-09" tid="t1">Wednesday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e4">move</EVENT> is a reaction to <EVENT class="OCCURRENCE" eid="e5">rising</EVENT> violence, especially in Haiti's urban areas. Eight policemen have been <EVENT class="OCCURRENCE" eid="e7">gunned</EVENT> down in <TIMEX3 type="DURATION" value="PXW" tid="t2">recent weeks</TIMEX3>.
+
+The parliamentary list of authorized weapons includes submachine guns and assault rifles. Until <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3>, police have <EVENT class="OCCURRENCE" eid="e9">carried</EVENT> only Smith and Wesson .38-caliber handguns.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

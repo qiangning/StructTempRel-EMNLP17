@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061220.0278</DOCID>
+
+<DCT>DUBAI, <TIMEX3 tid="t0" type="TIME" value="2006-12-20" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 20 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS quotes on talking to Islamists ///</TITLE>
+
+
+<TEXT>
+
+Al-Qaeda's second in <EVENT class="OCCURRENCE" eid="e1">command</EVENT> Ayman al-Zawahiri <EVENT class="OCCURRENCE" eid="e2">vowed</EVENT> in a videotape <EVENT class="OCCURRENCE" eid="e3">aired</EVENT> <TIMEX3 type="DATE" value="2006-12-20" tid="t1">Wednesday</TIMEX3> that the terror group will not <EVENT class="ASPECTUAL" eid="e4">stop</EVENT> <EVENT class="OCCURRENCE" eid="e5">attacks</EVENT> on US soil as long as the United States <EVENT class="OCCURRENCE" eid="e6">strikes</EVENT> Muslims on their land.
+
+"If we are <EVENT class="OCCURRENCE" eid="e7">hit</EVENT> in our countries, we will not <EVENT class="ASPECTUAL" eid="e8">stop</EVENT> <EVENT class="OCCURRENCE" eid="e9">striking</EVENT> you in your country," Zawahiri <EVENT class="REPORTING" eid="e10">said</EVENT> in the video <EVENT class="OCCURRENCE" eid="e11">broadcast</EVENT> on pan-Arab television station Al-Jazeera.
+
+He <EVENT class="REPORTING" eid="e12">said</EVENT> US President George W. Bush was <EVENT class="OCCURRENCE" eid="e13">deceiving</EVENT> Americans by <EVENT class="REPORTING" eid="e14">telling</EVENT> them he was <EVENT class="OCCURRENCE" eid="e15">going</EVENT> after terrorists in Afghanistan and Iraq in order to <EVENT class="OCCURRENCE" eid="e16">keep</EVENT> them away from the United States.
+
+He also <EVENT class="REPORTING" eid="e17">said</EVENT> the United States will ultimately <EVENT class="REPORTING" eid="e18">talk</EVENT> with "the real forces" in the Islamic world in order to <EVENT class="OCCURRENCE" eid="e19">extricate</EVENT> itself from Iraq and Afghanistan, in a reference to Islamist extremists.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

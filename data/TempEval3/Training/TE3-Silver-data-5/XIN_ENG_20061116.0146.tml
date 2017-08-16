@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0146</DOCID>
+
+<DCT>JAKARTA , <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesian shares close lower</TITLE>
+
+
+<TEXT>
+
+Share prices on the Jakarta Stock Exchange <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> lower <TIMEX3 type="DATE" value="2006-11-16" tid="t1">Thursday</TIMEX3> with the composite index down 1.29 points to <EVENT class="OCCURRENCE" eid="e2">close</EVENT> at 1,668.8 points.
+
+Turnovers <EVENT class="PERCEPTION" eid="e3">totaled</EVENT> 1.9 billion shares worth 2.3 trillion rupiah (246.6 million U.S. dollars).
+
+Gainers <EVENT class="OCCURRENCE" eid="e4">beat</EVENT> losers 69 to 61, with 80 other issues left unchanged.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

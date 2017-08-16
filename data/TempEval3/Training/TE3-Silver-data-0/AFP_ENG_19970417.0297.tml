@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970417.0297</DOCID>
+
+<DCT>CAIRO, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Ancient pharaonic sarcophagus seized in Egypt</TITLE>
+
+
+<TEXT>
+
+Egyptian authorities have <EVENT class="OCCURRENCE" eid="e1">foiled</EVENT> an <EVENT class="I_ACTION" eid="e2">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e3">smuggle</EVENT> a priceless limestone pharaonic sarcophagus containing a wooden statue out of the country, a government daily <EVENT class="REPORTING" eid="e5">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-17" tid="t1">Thursday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e6">discovery</EVENT> was <EVENT class="OCCURRENCE" eid="e7">made</EVENT> in the town of Ihnassiya in Beni Sueif province, 125 kilometers (65 miles) south of the capital, Al-Akhbar newspaper <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+Ihnassiya is the site of the ancient city of Henen-nesut, later known as Herakleopolis, which <EVENT class="OCCURRENCE" eid="e9">rose</EVENT> to importance in the 9th-10th Dynasty when its rulers <EVENT class="OCCURRENCE" eid="e10">controlled</EVENT> large parts of Egypt.
+
+<EVENT class="REPORTING" eid="e11">According</EVENT> to Al-Akhbar, the authorities <EVENT class="OCCURRENCE" eid="e12">acted</EVENT> on a tip-off about tomb thieves in the area and <EVENT class="OCCURRENCE" eid="e13">carried</EVENT> out a <EVENT class="OCCURRENCE" eid="e14">raid</EVENT>. They <EVENT class="OCCURRENCE" eid="e15">arrested</EVENT> an unspecified number of people <EVENT class="I_ACTION" eid="e16">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e17">remove</EVENT> the coffin by <TIMEX3 type="DATE" value="1997-04-17TNI" tid="t2">night</TIMEX3>.
+
+The uncovered coffin <EVENT class="OCCURRENCE" eid="e18">contained</EVENT> a wooden sculpture with colorful pharaonic decorations, the newspaper <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

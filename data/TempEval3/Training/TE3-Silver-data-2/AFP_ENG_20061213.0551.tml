@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061213.0551</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-12-13" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 13 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>US mulling Darfur no-fly zone at urging of Blair</TITLE>
+
+
+<TEXT>
+
+The United States and Britain are <EVENT class="I_STATE" eid="e1">considering</EVENT> the <EVENT class="OCCURRENCE" eid="e2">imposition</EVENT> of a no-fly zone over Sudan's war-torn Darfur region if the Khartoum government does not <EVENT class="OCCURRENCE" eid="e3">allow</EVENT> a UN-led peacekeeping force into the area, the State Department <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="2006-12-13" tid="t1">Wednesday</TIMEX3>.
+
+Blair <EVENT class="OCCURRENCE" eid="e6">raised</EVENT> the no-fly zone option during a <EVENT class="OCCURRENCE" eid="e7">meeting</EVENT> here <TIMEX3 type="DURATION" value="2006-W49" tid="t2">last week</TIMEX3> with US President George W. Bush amid <EVENT class="OCCURRENCE" eid="e8">growing</EVENT> frustration with Sudan's <EVENT class="OCCURRENCE" eid="e9">refusal</EVENT> to <EVENT class="I_STATE" eid="e10">comply</EVENT> with agreements on the peacekeepers, department spokesman Sean McCormack <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+
+
+
+
+</TimeML>

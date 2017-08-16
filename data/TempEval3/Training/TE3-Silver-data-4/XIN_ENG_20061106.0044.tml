@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0044</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Shenzhen stock index up -- Nov. 6</TITLE>
+
+
+<TEXT>
+
+The Component Stock Index on the Shenzhen Stock Exchange <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> at 4,785.37 points on <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3>, up 94.94 points from the previous close.
+
+A Share Index: 5,024.66 points, up 99.68 points;
+
+B Share Index: 2,817.62 points, up 61.12 points;
+
+Total Turnover: 14,619,420,000 yuan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

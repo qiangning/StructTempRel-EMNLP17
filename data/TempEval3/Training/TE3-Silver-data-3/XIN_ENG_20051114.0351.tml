@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051114.0351</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>M6.9 quake hits Japan, tsunami warning issued</TITLE>
+
+
+<TEXT>
+
+An earthquake with a preliminary magnitude of 6.9 <EVENT class="OCCURRENCE" eid="e1">jolted</EVENT> extensive areas on the Pacific side of north and east Japan <TIMEX3 type="DATE" value="2005-11-08TMO" tid="t1">Tuesday morning</TIMEX3>, with the Japan Meteorological Agency <EVENT class="OCCURRENCE" eid="e2">issuing</EVENT> a tsunami <EVENT class="OCCURRENCE" eid="e3">warning</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e4">warning</EVENT> for a <EVENT class="OCCURRENCE" eid="e5">tsunami</EVENT> up to 50 centimeters high was <EVENT class="OCCURRENCE" eid="e6">issued</EVENT> for the Pacific side of the Hokkaido and Tohoku areas in northern and northeastern Japan.
+
+The <TIMEX3 type="DATE" value="2005-11-15" tid="t2">6:39 a.m.</TIMEX3> (2139 GMT) quake <EVENT class="OCCURRENCE" eid="e7">measured</EVENT> 3 on the Japanese seismic intensity scale of 7 in those areas.
+
+There were no immediate reports of injuries or damage from the quake.
+
+The focus was at a shallow depth under the seabed in the Pacific some 310 kilometers east of the Oshika Peninsula in Miyagi Prefecture.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

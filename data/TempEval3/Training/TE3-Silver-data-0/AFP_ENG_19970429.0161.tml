@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970429.0161</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-29" temporalFunction="false" functionInDocument="CREATION_TIME">April 29 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>India to deploy troops in Bihar after leader's indictment: daily</TITLE>
+
+
+<TEXT>
+
+India will <EVENT class="OCCURRENCE" eid="e1">send</EVENT> paramilitary troops to Bihar state because of fears of a <EVENT class="OCCURRENCE" eid="e2">backlash</EVENT> to the possible <EVENT class="OCCURRENCE" eid="e3">prosecution</EVENT> of its chief minister, The Statesman newspaper <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-29" tid="t1">Tuesday</TIMEX3>.
+
+The <TIMEX3 type="DATE" value="P1D" tid="t2">daily</TIMEX3> quoting home ministry sources <EVENT class="REPORTING" eid="e5">said</EVENT> the troops would be <EVENT class="OCCURRENCE" eid="e6">deployed</EVENT> in the eastern state because of worries that political turmoil could <EVENT class="OCCURRENCE" eid="e7">lead</EVENT> to <EVENT class="OCCURRENCE" eid="e8">violence</EVENT> in Bihar.
+
+An Indian government spokesman, however, <EVENT class="OCCURRENCE" eid="e9">denied</EVENT> that federal forces were being <EVENT class="OCCURRENCE" eid="e10">sent</EVENT> to Bihar.
+
+The state government has been <EVENT class="OCCURRENCE" eid="e11">pressing</EVENT> the Indian government for police assistance "to <EVENT class="OCCURRENCE" eid="e12">deal</EVENT> with leftwing extremists operating in certain parts of Bihar," the spokesman <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The official <EVENT class="REPORTING" eid="e14">said</EVENT> New Delhi had <EVENT class="OCCURRENCE" eid="e15">sent</EVENT> police <EVENT class="OCCURRENCE" eid="e16">reinforcements</EVENT> more than <TIMEX3 type="DATE" value="1997-W17" tid="t3">a week ago</TIMEX3> to Bihar. "It has <EVENT class="OCCURRENCE" eid="e17">got</EVENT> nothing to do with the current situation," he <EVENT class="REPORTING" eid="e18">claimed</EVENT>.
+
+The Central Bureau of Investigation (CBI) Sunday <EVENT class="REPORTING" eid="e19">said</EVENT> it would <EVENT class="OCCURRENCE" eid="e20">prosecute</EVENT> state Chief Minister Laloo Prasad Yadav in a multi-million- dollar financial scandal.
+
+Yadav, who is also the president of the largest party in India's ruling coalition, has <EVENT class="OCCURRENCE" eid="e22">refused</EVENT> to <EVENT class="OCCURRENCE" eid="e23">quit</EVENT> his post and has <EVENT class="I_ACTION" eid="e24">warned</EVENT> his supporters would "<EVENT class="OCCURRENCE" eid="e25">take</EVENT> the issue to the streets."
+
+India's main opposition Bharatiya Janata Party (Indian People's Party) and other rivals of Yadav have <EVENT class="REPORTING" eid="e26">called</EVENT> a general <EVENT class="OCCURRENCE" eid="e27">shutdown</EVENT> on <TIMEX3 type="DATE" value="1996-05-03" tid="t5">May 3</TIMEX3> in Bihar to <EVENT class="OCCURRENCE" eid="e28">demand</EVENT> his ouster.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei27" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061126.0255</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Raptors cruise past Indiana</TITLE>
+
+
+<TEXT>
+
+Chris Bosh <EVENT class="OCCURRENCE" eid="e1">scored</EVENT> 17 points and <EVENT class="OCCURRENCE" eid="e2">grabbed</EVENT> 11 rebounds on <TIMEX3 type="DATE" value="2006-11-26" tid="t1">Sunday</TIMEX3> as Toronto <EVENT class="OCCURRENCE" eid="e3">cruised</EVENT> past Indiana 92- 83 at Air Canada Center in Toronto.
+
+Italian Andrea Bargnani <EVENT class="OCCURRENCE" eid="e4">contributed</EVENT> 14 points while Jorge Garbajosa and Jose Calderon <EVENT class="OCCURRENCE" eid="e5">added</EVENT> 13 each for the Raptors, who have <EVENT class="OCCURRENCE" eid="e6">won</EVENT> two of three since <EVENT class="OCCURRENCE" eid="e7">dropping</EVENT> six straight games.
+
+Danny Granger and Stephen Jackson both <EVENT class="OCCURRENCE" eid="e8">scored</EVENT> 18 points and Jermaine O'Neal <EVENT class="OCCURRENCE" eid="e9">poured</EVENT> in 15 points with 11 rebounds for the Pacers, who have <EVENT class="OCCURRENCE" eid="e10">lost</EVENT> two of their last three.
+
+Jamaal Tinsley also <EVENT class="OCCURRENCE" eid="e11">netted</EVENT> 15 points on 6-of-11 <EVENT class="OCCURRENCE" eid="e12">shooting</EVENT> with four <EVENT class="OCCURRENCE" eid="e13">assists</EVENT> in <EVENT class="OCCURRENCE" eid="e14">defeat</EVENT>, while Al Harrington <EVENT class="OCCURRENCE" eid="e15">chipped</EVENT> in 11 points with 14 rebounds.
+
+Toronto, who <EVENT class="OCCURRENCE" eid="e16">shot</EVENT> 43.5 percent (37-of-85) from the floor, <EVENT class="OCCURRENCE" eid="e17">went</EVENT> on a 19-9 run in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">the first quarter</TIMEX3> and <EVENT class="ASPECTUAL" eid="e18">ended</EVENT> the frame with seven consecutive points.
+
+Indiana <EVENT class="OCCURRENCE" eid="e19">shot</EVENT> a dismal 37.2 percent from the field.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+
+
+
+
+</TimeML>

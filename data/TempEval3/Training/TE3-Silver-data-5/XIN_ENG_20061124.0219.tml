@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0219</DOCID>
+
+<DCT>CHENGDU, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Yangtze River no risk to panda habitats: Experts</TITLE>
+
+
+<TEXT>
+
+China's large-scale hydropower projects on the Yangtze River's upper reaches <EVENT class="OCCURRENCE" eid="e1">pose</EVENT> no risk to nearby giant panda habitats, experts <EVENT class="REPORTING" eid="e2">said</EVENT> here <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3>.
+
+The climate <EVENT class="OCCURRENCE" eid="e3">changes</EVENT> in the area due to the hydropower projects would in fact <EVENT class="I_ACTION" eid="e4">assist</EVENT> the giant panda's survival, <EVENT class="REPORTING" eid="e5">said</EVENT> Yu Jianqiu, vice director of Chengdu Giant Panda Breeding Research Center.
+
+During <TIMEX3 type="DURATION" value="P20Y" tid="t2">the past 20 years</TIMEX3>, China has <EVENT class="ASPECTUAL" eid="e6">started</EVENT> or <EVENT class="ASPECTUAL" eid="e7">completed</EVENT> more than ten large hydropower stations on the upper Yangtze each with a capacity of at least three million kilowatts.
+
+When small and medium-sized hydropower stations are <EVENT class="OCCURRENCE" eid="e8">added</EVENT> in, the total capacity in the area is about five times greater than the Three Gorges hydropower station, <EVENT class="REPORTING" eid="e9">said</EVENT> China's Ministry of Water Resources.
+
+On <TIMEX3 type="DATE" value="2006-11-26" tid="t3">Sunday</TIMEX3>, the six-million-kilowatt Xiangjiaba hydropower station will <EVENT class="ASPECTUAL" eid="e10">start</EVENT> <EVENT class="OCCURRENCE" eid="e11">operation</EVENT>. At least 1.4 billion yuan (about 175 million U.S. dollars) of project funds have been <EVENT class="OCCURRENCE" eid="e12">earmarked</EVENT> for environmental protection.
+
+Yu <EVENT class="REPORTING" eid="e13">said</EVENT> more than 100 wild giant pandas <EVENT class="OCCURRENCE" eid="e14">lived</EVENT> in the stations' drainage area and this had <EVENT class="OCCURRENCE" eid="e15">sparked</EVENT> widespread concern that their natural environment might be <EVENT class="OCCURRENCE" eid="e16">affected</EVENT>.
+
+But the expert <EVENT class="REPORTING" eid="e17">said</EVENT> most of the concerns were "unnecessary" because all the projects were <EVENT class="OCCURRENCE" eid="e18">built</EVENT> or <EVENT class="I_STATE" eid="e19">planned</EVENT> on the Yangtze mainstream, far from the giant panda habitats.
+
+The Mamize Natural Reserve, the closest habitat, is about 50 kilometers from the Xiluodu station currently under <EVENT class="OCCURRENCE" eid="e20">construction</EVENT>, Yu <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+The Yangtze tributaries Xining River and Xisujiao River are the main water sources for Mamize, <EVENT class="REPORTING" eid="e22">said</EVENT> Gyina Guqe, chief of the natural reserve.
+
+"When <EVENT class="ASPECTUAL" eid="e23">completed</EVENT>, the hydropower station will slightly <EVENT class="OCCURRENCE" eid="e24">raise</EVENT> the water levels of the two tributaries and the humidity of the natural reserve will also <EVENT class="OCCURRENCE" eid="e25">rise</EVENT>," <EVENT class="REPORTING" eid="e26">said</EVENT> Gyina, <EVENT class="OCCURRENCE" eid="e27">adding</EVENT> that this will <EVENT class="I_ACTION" eid="e28">help</EVENT> the <EVENT class="OCCURRENCE" eid="e29">growth</EVENT> of the subtropical wildlife in the area, especially the 12,000 hectares of bamboos that giant pandas <EVENT class="OCCURRENCE" eid="e30">feast</EVENT> on.
+
+The Xiluodu hydropower station will <EVENT class="OCCURRENCE" eid="e31">replace</EVENT> local thermal power plants, which means 41 million tons less coal <EVENT class="OCCURRENCE" eid="e33">burnt</EVENT> <TIMEX3 type="SET" value="P1Y" tid="t5">each year</TIMEX3>, <EVENT class="REPORTING" eid="e34">said</EVENT> the official.
+
+About 150 million tons of carbon dioxide and 850,000 tons of sulfur dioxide emissions will be <EVENT class="OCCURRENCE" eid="e35">eliminated</EVENT> thanks to the new hydropower project, <EVENT class="REPORTING" eid="e36">said</EVENT> Gyina.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei33" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei31" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei26" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="INCLUDES" />
+
+
+
+
+</TimeML>

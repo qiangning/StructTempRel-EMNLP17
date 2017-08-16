@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0330</DOCID>
+
+<DCT>BRUSSELS, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>EU clears acquisition of Intermagnetics by Philips</TITLE>
+
+
+<TEXT>
+
+The European Commission has <EVENT class="OCCURRENCE" eid="e1">cleared</EVENT> the proposed <EVENT class="OCCURRENCE" eid="e2">acquisition</EVENT> of U.S.-based Intermagnetics by Philips, <EVENT class="REPORTING" eid="e3">said</EVENT> the commission on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3>.
+
+The commission <EVENT class="I_ACTION" eid="e4">concluded</EVENT> that the <EVENT class="OCCURRENCE" eid="e5">transaction</EVENT> would not significantly <EVENT class="OCCURRENCE" eid="e6">impede</EVENT> effective competition in the European Economic Area (EEA) - the 25 European Union (EU) member states plus Iceland, Liechtenstein and Norway - or any substantial part of it.
+
+Philips markets a wide range of electrical and electronic products, such as lighting products, domestic appliances, consumer electronics, semiconductors and medical systems, including magnetic resonance imaging (MRI) systems.
+
+Intermagnetics manufactures magnets and radio-frequency <EVENT class="OCCURRENCE" eid="e8">used</EVENT> in MRI, as well as patient monitors, computer-aided detection systems and so-called functional MRI.
+
+In particular, Intermagnetics currently <EVENT class="OCCURRENCE" eid="e9">supplies</EVENT> radio- frequency <EVENT class="OCCURRENCE" eid="e10">coils</EVENT> to Philips and several other MRI system manufacturers. Thus, the commission <EVENT class="I_ACTION" eid="e11">analyzed</EVENT> whether the proposed <EVENT class="OCCURRENCE" eid="e12">transaction</EVENT> would <EVENT class="I_STATE" eid="e13">enable</EVENT> the new entity to <EVENT class="OCCURRENCE" eid="e14">disrupt</EVENT> the supply of coils and to <EVENT class="OCCURRENCE" eid="e15">hinder</EVENT> its competitors to <EVENT class="OCCURRENCE" eid="e16">compete</EVENT> effectively on the market for MRI systems.
+
+The market <EVENT class="OCCURRENCE" eid="e17">investigation</EVENT> has <EVENT class="REPORTING" eid="e18">shown</EVENT> that these risks are minimal, mainly due to economic incentives and the presence of several other suppliers of coils for MRI systems, <EVENT class="REPORTING" eid="e19">said</EVENT> the commission.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+
+
+
+
+</TimeML>

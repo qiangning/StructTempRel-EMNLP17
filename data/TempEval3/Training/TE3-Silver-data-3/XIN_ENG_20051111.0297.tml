@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0297</DOCID>
+
+<DCT>HAVANA, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Trinidad, Bahrain play World Cup play-off on Saturday</TITLE>
+
+
+<TEXT>
+
+Trinidad and Tobago will <EVENT class="OCCURRENCE" eid="e1">play</EVENT> the first leg of the two-match <EVENT class="OCCURRENCE" eid="e2">play-offs</EVENT> against Bahrain for a place in the 2006 German World Cup, in Port of Spain, capital of the Caribbean island nation, local media <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-11" tid="t2">Friday</TIMEX3>.
+
+Trinidad <EVENT class="I_STATE" eid="e4">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e5">achieve</EVENT> its first ever World Cup apperance, with the <EVENT class="I_ACTION" eid="e6">help</EVENT> of stars from the British football league Dwight Yorke, formerly of Manchester United, and Russell Latapy.
+
+The team has <EVENT class="OCCURRENCE" eid="e7">won</EVENT> three of the <TIMEX3 type="DATE" value="2005-11-11" tid="t3">last</TIMEX3> four <EVENT class="OCCURRENCE" eid="e8">matches</EVENT>, <EVENT class="OCCURRENCE" eid="e9">boosted</EVENT> by new coach Leo Beenhakker of the Netherlands, who was <EVENT class="OCCURRENCE" eid="e10">hired</EVENT> after the Caribbeans <EVENT class="OCCURRENCE" eid="e11">suffered</EVENT> a painful 5-1 <EVENT class="OCCURRENCE" eid="e12">defeat</EVENT> at the hands of Guatemala.
+
+"This is our biggest ever effort to <EVENT class="I_STATE" eid="e14">qualify</EVENT> for the World Cup yet and we are going to <EVENT class="OCCURRENCE" eid="e15">grab</EVENT> it with both hands," <EVENT class="REPORTING" eid="e16">said</EVENT> Trinidad's sports minister.
+
+Bahrain, <EVENT class="OCCURRENCE" eid="e17">managed</EVENT> by Luka Peruzovic, was in the third place in the Asian region finals. Among its star players are Hussain Ali and Mohammed Hubail, from the Qatari league, <EVENT class="OCCURRENCE" eid="e19">rated</EVENT> the strongest in its region.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

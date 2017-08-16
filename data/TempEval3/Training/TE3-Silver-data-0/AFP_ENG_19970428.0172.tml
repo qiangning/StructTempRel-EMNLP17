@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970428.0172</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="1997-04-28" temporalFunction="false" functionInDocument="CREATION_TIME">April 28 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Evening rubber prices</TITLE>
+
+
+<TEXT>
+
+<TIMEX3 type="DATE" value="1997-04-28" tid="t1">Monday</TIMEX3>'s evening rubber prices in Singapore cents per kilo <EVENT class="OCCURRENCE" eid="e1">provided</EVENT> by the Singapore Commodity Exchange:
+
+Buyers    Sellers
+
+Int 2 RSS May         156.50    157.50 Nominal (N)
+
+Int 3 RSS <TIMEX3 type="DATE" value="1997-04-28" tid="t3">May         156.50    157.50 N</TIMEX3>
+
+<TIMEX3 type="DATE" value="1997-04-28T04:00" tid="t4">Int 4 RSS May         151.25</TIMEX3>    152.25 N
+
+Int 5 RSS           147.50    148.50 N
+
+No. 1 Air Dried Sheet     176.50    178.50 N
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

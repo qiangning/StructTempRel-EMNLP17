@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0399</DOCID>
+
+<DCT>QUITO, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chavez accused of "interference" in Ecuador's elections</TITLE>
+
+
+<TEXT>
+
+Ecuador's President Alfredo Palacio on <TIMEX3 type="DATE" value="2006-11-08" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">denounced</EVENT> Venezuelan President Hugo Chavez's "interference" in Ecuador's presidential elections.
+
+"This is unacceptable. There cannot be such outside interference," <EVENT class="REPORTING" eid="e6">said</EVENT> Palacio, <EVENT class="OCCURRENCE" eid="e7">referring</EVENT> to Chavez's remarks that banana tycoon Alvaro Noboa <EVENT class="OCCURRENCE" eid="e8">used</EVENT> his vast wealth to <EVENT class="OCCURRENCE" eid="e9">exert</EVENT> influence in the elections.
+
+Noboa <EVENT class="ASPECTUAL" eid="e11">finished</EVENT> first "in a somewhat strange fashion" in the first round, Chavez <EVENT class="REPORTING" eid="e12">told</EVENT> foreign correspondents in Caracas on <TIMEX3 type="DATE" value="2006-11-08" tid="t2">Wednesday</TIMEX3>. "He <EVENT class="OCCURRENCE" eid="e13">showed</EVENT> up in the first place and <EVENT class="ASPECTUAL" eid="e14">started</EVENT> <EVENT class="OCCURRENCE" eid="e15">spreading</EVENT> money around all over the place."
+
+Ecuadorean Foreign Minister Francisco Carrion <EVENT class="REPORTING" eid="e16">said</EVENT> he had <EVENT class="OCCURRENCE" eid="e17">summoned</EVENT> Venezuelan Ambassador to Ecuador, Oscar Navas, on <TIMEX3 type="DATE" value="2006-11-01TMO" tid="t3">Wednesday morning</TIMEX3> to <EVENT class="OCCURRENCE" eid="e18">lodge</EVENT> a complaint about Chavez's comments.
+
+After the <EVENT class="OCCURRENCE" eid="e19">meeting</EVENT>, Navas <EVENT class="REPORTING" eid="e20">told</EVENT> reporters that "there is no interference" as Chavez "<EVENT class="REPORTING" eid="e22">said</EVENT> nothing against the Ecuadorean government."
+
+<EVENT class="REPORTING" eid="e23">According</EVENT> to Ecuadorian law, a candidate needs 50 percent, or at least 40 percent and a 10-percentage-point lead over the rest of the field, to <EVENT class="I_ACTION" eid="e25">avoid</EVENT> a <EVENT class="OCCURRENCE" eid="e26">runoff</EVENT>.
+
+As the <TIMEX3 type="DATE" value="2006-10-15" tid="t4">Oct. 15</TIMEX3> Ecuadorian elections <EVENT class="OCCURRENCE" eid="e28">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e29">produce</EVENT> an outright winner, Noboa and Rafael Correa, a leftist candidate <EVENT class="I_STATE" eid="e30">favored</EVENT> by Chavez, will <EVENT class="I_ACTION" eid="e31">face</EVENT> each other in a <EVENT class="OCCURRENCE" eid="e32">runoff</EVENT> on <TIMEX3 type="DATE" value="2006-11-26" tid="t5">Nov. 26</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei31" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei32" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0091</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's exhibition industry grows about 20 percent yearly: official</TITLE>
+
+
+<TEXT>
+
+The total turnover of China's exhibition industry has been <EVENT class="OCCURRENCE" eid="e1">growing</EVENT> at an annual rate of about 20 percent for years, <EVENT class="REPORTING" eid="e2">said</EVENT> Vice Minister of Commerce Jiang Zengwei here on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3>.
+
+Jiang <EVENT class="OCCURRENCE" eid="e3">made</EVENT> the remark at the second <EVENT class="OCCURRENCE" eid="e4">seminar</EVENT> on China's exhibition economy. China has <EVENT class="STATE" eid="e5">become</EVENT> an important country in Asia in size of exhibition industry, and will gradually <EVENT class="OCCURRENCE" eid="e6">become</EVENT> a regional "exhibition center" in Asia, <EVENT class="REPORTING" eid="e7">said</EVENT> he.
+
+China <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">now</TIMEX3> <EVENT class="STATE" eid="e8">has</EVENT> over 160 large-sized exhibition halls with exhibition area of 2.8 million square meters, <EVENT class="REPORTING" eid="e9">according</EVENT> to Jiang.
+
+<TIMEX3 type="SET" value="P1Y" tid="t3">Every year</TIMEX3>, China <EVENT class="OCCURRENCE" eid="e10">holds</EVENT> about 3,000 exhibitions of different types at home, and 800 exhibitions overseas, <EVENT class="OCCURRENCE" eid="e11">attracting</EVENT> participation of 5 million enterprises and 20 million visitors, he <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+Some nation-level <EVENT class="OCCURRENCE" eid="e14">exhibitions</EVENT>, such as the China Export Commodities Fair in Guangzhou, High-technology Trade Fair in Shenzhen and Investment and Trade Fair in Xiamen, have <EVENT class="STATE" eid="e15">become</EVENT> well-known and influential <EVENT class="OCCURRENCE" eid="e16">exhibitions</EVENT> in the world, he <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+Although China has <EVENT class="OCCURRENCE" eid="e18">made</EVENT> remarkable progress in <EVENT class="OCCURRENCE" eid="e19">developing</EVENT> its exhibition economy, some problems still <EVENT class="OCCURRENCE" eid="e20">exist</EVENT> in this area, such as nonstandard market order and overheated exhibition hall construction, he <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+China's exhibition industry output is about 10 billion yuan (1.2 billion US dollars), <EVENT class="OCCURRENCE" eid="e23">accounting</EVENT> for 0.07 percent of the gross national product. In developed countries, this ratio is around 0.2 percent, he <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051125.0034</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Beijing starts construction on Olympic media village</TITLE>
+
+
+<TEXT>
+
+Beijing Olympic organizers <TIMEX3 type="DATE" value="2005-11-25" tid="t1">Friday</TIMEX3> <EVENT class="ASPECTUAL" eid="e1">started</EVENT> <EVENT class="OCCURRENCE" eid="e2">construction</EVENT> on the media village for the 2008 Games.
+
+The media village, <EVENT class="OCCURRENCE" eid="e3">situated</EVENT> to the northeast of the Olympic Green and the Olympic Forest Park in the north of the city, will be within <TIMEX3 type="DURATION" value="PT10M" tid="t3">ten minutes</TIMEX3> <EVENT class="OCCURRENCE" eid="e4">drive</EVENT> from the Main Press Center and major Olympic competition venues, <EVENT class="REPORTING" eid="e5">according</EVENT> to the Beijing Organizing Committee for the 2008 Olympic Games (BOCOG).
+
+The media village will <EVENT class="OCCURRENCE" eid="e6">provide</EVENT> up to 6,000 rooms to accredited media during the Games.
+
+The whole project is <EVENT class="OCCURRENCE" eid="e7">due</EVENT> for <EVENT class="OCCURRENCE" eid="e8">completion</EVENT> at <TIMEX3 type="DATE" value="2008" tid="t5">the beginning of 2008</TIMEX3>.
+
+In line with the themes of "Green Olympics", "Hi-tech Olympics" and "People's Olympics", new technologies and green concepts are <EVENT class="OCCURRENCE" eid="e9">incorporated</EVENT> into the design and construction work of the media village, such as the utilization of geothermal energy and solar energy, green construction materials and a rain water-recycling system.
+
+Aside from the new media village that just <EVENT class="OCCURRENCE" eid="e10">broke</EVENT> ground, two existing accommodation facilities have also been <EVENT class="OCCURRENCE" eid="e11">selected</EVENT> as media villages and will <EVENT class="OCCURRENCE" eid="e12">provide</EVENT> additional 2,500 rooms.
+
+Moreover, 46 hotels in Beijing have been so far <EVENT class="OCCURRENCE" eid="e13">assigned</EVENT> as media hotels, <EVENT class="OCCURRENCE" eid="e14">making</EVENT> around 15,000 hotel rooms available for the accredited media.
+
+Quick access to the Main Press Centre and major competition venues is one of the priorities for the organizers in the <EVENT class="OCCURRENCE" eid="e15">selection</EVENT> of media accommodation facilities.
+
+Around 21,000 accredited media from all over the world are <EVENT class="I_STATE" eid="e16">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e17">come</EVENT> to Beijing to <EVENT class="OCCURRENCE" eid="e18">cover</EVENT> the 2008 Games.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

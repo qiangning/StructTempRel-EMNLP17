@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0297</DOCID>
+
+<DCT>UNITED NATIONS, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Annan to speak on bird flu</TITLE>
+
+
+<TEXT>
+
+UN Secretary-General Kofi Annan is <EVENT class="I_STATE" eid="e1">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e2">deliver</EVENT> his first major <EVENT class="OCCURRENCE" eid="e3">speech</EVENT> on avian flu <TIMEX3 type="DATE" value="2005-10-27" tid="t1">Thursday</TIMEX3>, UN spokesman Stephane Dujarric <EVENT class="REPORTING" eid="e4">announced</EVENT> <TIMEX3 type="DATE" value="2005-11-02" tid="t2">Wednesday</TIMEX3>.
+
+In that <EVENT class="OCCURRENCE" eid="e5">speech</EVENT> which is to be <EVENT class="OCCURRENCE" eid="e6">delivered</EVENT> at the Time Global Health Summit in New York, the Secretary-General is <EVENT class="I_STATE" eid="e7">expected</EVENT> to <EVENT class="REPORTING" eid="e8">describe</EVENT> the highly complex challenges involved, and <EVENT class="OCCURRENCE" eid="e9">outline</EVENT> a set of key priorities for the UN system and the international community as a whole -- actions needed in <EVENT class="I_ACTION" eid="e10">seeking</EVENT> to avert, and <EVENT class="OCCURRENCE" eid="e12">preparing</EVENT> for the possibility of, a human pandemic, Dujarric <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+"Annan will <EVENT class="REPORTING" eid="e14">describe</EVENT> the coordination mechanism <EVENT class="OCCURRENCE" eid="e15">set</EVENT> up by the UN family to <EVENT class="OCCURRENCE" eid="e16">address</EVENT> the threat, and <EVENT class="OCCURRENCE" eid="e17">call</EVENT> for collective <EVENT class="OCCURRENCE" eid="e18">action</EVENT> among all partners of the United Nations," he <EVENT class="OCCURRENCE" eid="e19">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

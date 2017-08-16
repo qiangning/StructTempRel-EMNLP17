@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061222.0478</DOCID>
+
+<DCT>MONTREAL, <TIMEX3 tid="t0" type="TIME" value="2006-12-22" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 22 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>NHL ponders divisional realignment: report</TITLE>
+
+
+<TEXT>
+
+National Hockey League commissioner Gary Bettman is <EVENT class="I_ACTION" eid="e1">looking</EVENT> at <EVENT class="OCCURRENCE" eid="e2">realigning</EVENT> the league's divisions and <EVENT class="OCCURRENCE" eid="e3">altering</EVENT> its schedule makeup, The Sports Network of Canada <EVENT class="REPORTING" eid="e4">reported</EVENT> on its <TIMEX3 type="DATE" value="2006-12-22" tid="t1">website Friday</TIMEX3>.
+
+Citing unnamed sources, TSN <EVENT class="REPORTING" eid="e6">said</EVENT> the overhaul being <EVENT class="I_STATE" eid="e7">considered</EVENT> would <EVENT class="PERCEPTION" eid="e8">see</EVENT> the six current divisions <EVENT class="OCCURRENCE" eid="e9">reduced</EVENT> to four with each division having seven or eight teams rather than five.
+
+Six club executives, one from each current division, <EVENT class="OCCURRENCE" eid="e11">met</EVENT> with Bettman in New York earlier <TIMEX3 type="DATE" value="2006-W51" tid="t3">this week</TIMEX3> to <EVENT class="OCCURRENCE" eid="e12">discuss</EVENT> the matter and <EVENT class="OCCURRENCE" eid="e13">take</EVENT> information to other clubs in their division for feedback.
+
+Twenty of 30 teams would have to <EVENT class="OCCURRENCE" eid="e14">back</EVENT> such a <EVENT class="OCCURRENCE" eid="e15">move</EVENT> in order to <EVENT class="OCCURRENCE" eid="e16">make</EVENT> it <EVENT class="OCCURRENCE" eid="e17">happen</EVENT> <TIMEX3 type="DATE" value="2006-12-22" tid="t4">next season</TIMEX3>. That could <EVENT class="OCCURRENCE" eid="e18">happen</EVENT> at a board <EVENT class="OCCURRENCE" eid="e19">meeting</EVENT> during the NHL All-Star Game in Dallas <TIMEX3 type="DATE" value="2007-01" tid="t5">next month</TIMEX3>.
+
+New scheduling plans would <EVENT class="PERCEPTION" eid="e20">see</EVENT> teams <EVENT class="OCCURRENCE" eid="e21">play</EVENT> division foes six times, rivals from the same conference three or four times and non-conference clubs once.
+
+The Eastern and Western conferences would each <EVENT class="OCCURRENCE" eid="e23">stay</EVENT> with 15 teams, with the top two teams in each division <EVENT class="OCCURRENCE" eid="e24">taking</EVENT> the four top playoff seeds and the teams with the next four highest point totals also <EVENT class="I_STATE" eid="e25">qualifying</EVENT> in each <EVENT class="OCCURRENCE" eid="e26">conference</EVENT>.
+
+The Columbus Blue Jackets and Atlanta Thrashers would <EVENT class="OCCURRENCE" eid="e27">switch</EVENT> conferences, with Columbus <EVENT class="OCCURRENCE" eid="e29">moving</EVENT> to the East and <EVENT class="OCCURRENCE" eid="e30">joining</EVENT> a division with Toronto, Montreal, Ottawa, Boston, Buffalo and Pittsburgh, which might be <EVENT class="OCCURRENCE" eid="e31">relocating</EVENT> after a new arena plan <EVENT class="OCCURRENCE" eid="e32">fell</EVENT> apart.
+
+That would <EVENT class="OCCURRENCE" eid="e33">leave</EVENT> the New York Rangers and Islanders, New Jersey, Washington, Philadelphia, Carolina, Tampa Bay and Florida in the other Eastern division.
+
+The Western Conference would <EVENT class="STATE" eid="e34">have</EVENT> an eight-team division with clubs in the Pacific and Mountain time zones, including Vancouver, Calgary, Edmonton, San Jose, Anaheim, Los Angeles, Colorado and Phoenix.
+
+That would <EVENT class="OCCURRENCE" eid="e35">leave</EVENT> seven teams for the remaining division - Dallas, Minnesota, St. Louis, Chicago, Detroit, Atlanta and Nashville.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei33" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei34" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

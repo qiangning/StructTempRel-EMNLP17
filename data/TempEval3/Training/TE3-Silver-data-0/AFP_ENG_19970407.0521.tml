@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970407.0521</DOCID>
+
+<DCT>KAMPALA, <TIMEX3 tid="t0" type="TIME" value="1997-04-07" temporalFunction="false" functionInDocument="CREATION_TIME">April 7 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Museveni will not talk with rebels: adviser</TITLE>
+
+
+<TEXT>
+
+Ugandan President Yoweri Museveni will not <EVENT class="OCCURRENCE" eid="e1">answer</EVENT> a <EVENT class="OCCURRENCE" eid="e2">call</EVENT> by rebels for <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> with Lord's <EVENT class="OCCURRENCE" eid="e4">Resistance</EVENT> Army (LRA) leader Joseph Kony, the president's press adviser <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="1997-04-07" tid="t1">Monday</TIMEX3>.
+
+The adviser, John Nagenda, <EVENT class="REPORTING" eid="e6">said</EVENT> Museveni's position <EVENT class="STATE" eid="e7">remained</EVENT> that he himself would not <EVENT class="REPORTING" eid="e8">talk</EVENT> with Kony, but would not <EVENT class="I_STATE" eid="e9">stand</EVENT> in the way of others who <EVENT class="I_STATE" eid="e10">wanted</EVENT> to <EVENT class="REPORTING" eid="e11">talk</EVENT> with the former Roman Catholic catechist.
+
+The <EVENT class="OCCURRENCE" eid="e12">call</EVENT> for <EVENT class="OCCURRENCE" eid="e13">talks</EVENT> <EVENT class="OCCURRENCE" eid="e14">came</EVENT> at a <EVENT class="OCCURRENCE" eid="e15">meeting</EVENT> in London at the weekend of northern Ugandans.
+
+The LRA has been <EVENT class="OCCURRENCE" eid="e16">fighting</EVENT> in the north for <TIMEX3 type="DURATION" value="P10Y" tid="t3">the past 10 years</TIMEX3> in a bid to <EVENT class="OCCURRENCE" eid="e17">topple</EVENT> Museveni's government and <EVENT class="OCCURRENCE" eid="e18">replace</EVENT> it with one based on the Biblical 10 Commandments.
+
+Museveni has <EVENT class="OCCURRENCE" eid="e19">offered</EVENT> amnesty to the rank and file guerrillas, but not their leaders.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

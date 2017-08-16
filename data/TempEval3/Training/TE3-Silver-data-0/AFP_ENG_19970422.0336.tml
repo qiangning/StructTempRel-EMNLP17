@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970422.0336</DOCID>
+
+<DCT>CANA, Lebanon, <TIMEX3 tid="t0" type="TIME" value="1997-04-22" temporalFunction="false" functionInDocument="CREATION_TIME">April 22 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Top Arab actor pays tribute to Cana victims</TITLE>
+
+
+<TEXT>
+
+Adel Imam, the best-known comedy actor of the Arab world, <EVENT class="OCCURRENCE" eid="e1">paid</EVENT> tribute <TIMEX3 type="DATE" value="1997-04-22" tid="t1">Tuesday</TIMEX3> to the 105 Lebanese <EVENT class="OCCURRENCE" eid="e2">killed</EVENT> by Israeli <EVENT class="OCCURRENCE" eid="e3">shelling</EVENT> in Cana in south Lebanon.
+
+Dressed in a dark suit, the normally razor-sharp Egyptian comic was at a <EVENT class="OCCURRENCE" eid="e4">loss</EVENT> for words as he <EVENT class="I_ACTION" eid="e5">prayed</EVENT> and <EVENT class="OCCURRENCE" eid="e6">placed</EVENT> flowers on the graves of the victims in Cana village.
+
+"I am incapable of <EVENT class="REPORTING" eid="e8">saying</EVENT> anything <EVENT class="I_STATE" eid="e9">standing</EVENT> here before these tombs," he <EVENT class="REPORTING" eid="e10">told</EVENT> reporters, before <EVENT class="OCCURRENCE" eid="e11">greeting</EVENT> victims' relatives who <EVENT class="OCCURRENCE" eid="e12">turned</EVENT> out to <EVENT class="PERCEPTION" eid="e13">see</EVENT> him.
+
+Adel Imam has been in Lebanon since <TIMEX3 type="DATE" value="1997-04-16" tid="t2">April 16</TIMEX3> to <EVENT class="OCCURRENCE" eid="e14">perform</EVENT> his latest play, Az Zaim (The Leader), a satire on Arab politics.
+
+Lebanon <EVENT class="OCCURRENCE" eid="e15">marked</EVENT> the first anniversary on <TIMEX3 type="DATE" value="1997-04-18" tid="t3">Friday</TIMEX3> of Israel's <EVENT class="OCCURRENCE" eid="e17">shelling</EVENT> of a UN compound in Cana which <EVENT class="OCCURRENCE" eid="e18">killed</EVENT> 105 civilians taking shelter there during the Jewish state's Grapes of Wrath <EVENT class="OCCURRENCE" eid="e20">operation</EVENT> against Hezbollah guerrillas.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

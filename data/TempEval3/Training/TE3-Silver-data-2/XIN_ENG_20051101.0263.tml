@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051101.0263</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="2005-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Israeli army rejects drafting five anti-withdrawal youths</TITLE>
+
+
+<TEXT>
+
+Five Israeli right-wing youths have been <EVENT class="OCCURRENCE" eid="e1">rejected</EVENT> from the Israel Defense Forces (IDF) draft due to suspicions they were <EVENT class="OCCURRENCE" eid="e2">involved</EVENT> in <EVENT class="OCCURRENCE" eid="e3">violence</EVENT> against security personnel during the Gaza <EVENT class="OCCURRENCE" eid="e4">withdrawal</EVENT>, local newspaper Yedioth Aharonoth <EVENT class="REPORTING" eid="e5">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-01" tid="t1">Tuesday</TIMEX3>.
+
+The recruitment date of the youths, initially <EVENT class="OCCURRENCE" eid="e6">set</EVENT> for <TIMEX3 type="DATE" value="2005-11" tid="t2">this month</TIMEX3>, has been indefinitely <EVENT class="I_ACTION" eid="e7">delayed</EVENT>, a senior IDF Personnel Directorate officer was <EVENT class="REPORTING" eid="e8">cited</EVENT> as <EVENT class="REPORTING" eid="e9">saying</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e10">decision</EVENT> is in accordance with a policy <EVENT class="OCCURRENCE" eid="e11">established</EVENT> by IDF Chief of Staff Dan Halutz, <EVENT class="REPORTING" eid="e12">according</EVENT> to which the IDF will <EVENT class="OCCURRENCE" eid="e13">refuse</EVENT> to <EVENT class="OCCURRENCE" eid="e14">draft</EVENT> youths <EVENT class="OCCURRENCE" eid="e15">convicted</EVENT> of <EVENT class="OCCURRENCE" eid="e16">violence</EVENT> against soldiers and police during the <EVENT class="OCCURRENCE" eid="e17">pullout</EVENT>, <EVENT class="REPORTING" eid="e18">according</EVENT> to the report.
+
+Currently, more than 100 youths are under examination on possible <EVENT class="OCCURRENCE" eid="e20">involvement</EVENT> in anti-withdrawal <EVENT class="OCCURRENCE" eid="e21">violence</EVENT> before the IDF <EVENT class="OCCURRENCE" eid="e22">decide</EVENT> on whether to <EVENT class="OCCURRENCE" eid="e23">enlist</EVENT> them.
+
+Israel <EVENT class="OCCURRENCE" eid="e24">withdrew</EVENT> settlers and troops from the entire Gaza Strip and parts of the West Bank in <TIMEX3 type="DATE" value="2005-09" tid="t3">September</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e25">pullout</EVENT>, designed to "<EVENT class="OCCURRENCE" eid="e27">disengage</EVENT>" from violence with the Palestinians, has <EVENT class="OCCURRENCE" eid="e29">met</EVENT> with fierce opposition from rightists and some settlers.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

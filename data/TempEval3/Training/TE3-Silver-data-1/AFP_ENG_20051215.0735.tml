@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0735</DOCID>
+
+<DCT>PERTH, Australia, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>Australia 96-1 against South Africa at lunch in first Test</TITLE>
+
+
+<TEXT>
+
+Australia were 96-1 at lunch on <TIMEX3 type="DATE" value="PRESENT_REF" tid="t1">the first day</TIMEX3> of the first cricket Test against South Africa at the WACA Ground here <TIMEX3 type="DATE" value="2005-12-16" tid="t2">Friday</TIMEX3>.
+
+Brief score: Australia 96 for one (Ricky Ponting 57 not out, Justin Langer 33 not <EVENT class="OCCURRENCE" eid="e2">out</EVENT>; Ntini 1-34)
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

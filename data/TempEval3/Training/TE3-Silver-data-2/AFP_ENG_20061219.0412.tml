@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061219.0412</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-12-19" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 19 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS quotes, details, background ///</TITLE>
+
+
+<TEXT>
+
+The Russian prosecutor general's office <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2006-12-19" tid="t1">Tuesday</TIMEX3> it had <EVENT class="ASPECTUAL" eid="e2">completed</EVENT> a joint inquiry with <EVENT class="OCCURRENCE" eid="e3">visiting</EVENT> British detectives into the poisoning <EVENT class="OCCURRENCE" eid="e4">death</EVENT> of former Russian agent Alexander Litvinenko.
+
+"The Russian prosecutor general has officially <EVENT class="ASPECTUAL" eid="e5">completed</EVENT> <EVENT class="OCCURRENCE" eid="e6">work</EVENT> based on the investigation <EVENT class="OCCURRENCE" eid="e7">request</EVENT> of New Scotland Yard," the statement <EVENT class="REPORTING" eid="e8">said</EVENT>, <EVENT class="OCCURRENCE" eid="e9">referring</EVENT> to joint <EVENT class="OCCURRENCE" eid="e10">interviews</EVENT> of witnesses conducted here from <TIMEX3 type="DATE" value="2006-12-19" tid="t2">December 5-18</TIMEX3>.
+
+Kremlin spokesman <EVENT class="REPORTING" eid="e11">confirmed</EVENT> to AFP that "the final <EVENT class="OCCURRENCE" eid="e12">meeting</EVENT> with the British investigators has <EVENT class="OCCURRENCE" eid="e13">taken</EVENT> place."
+
+British detectives <EVENT class="OCCURRENCE" eid="e14">arrived</EVENT> in Moscow on <TIMEX3 type="DATE" value="2006-12-04" tid="t3">December 4</TIMEX3> to <EVENT class="OCCURRENCE" eid="e15">conduct</EVENT> an inquiry into the poisoning <EVENT class="OCCURRENCE" eid="e16">murder</EVENT> in London of Litvinenko, though they were not <EVENT class="OCCURRENCE" eid="e17">allowed</EVENT> to <EVENT class="OCCURRENCE" eid="e18">conduct</EVENT> witness <EVENT class="OCCURRENCE" eid="e19">interviews</EVENT> independently.
+
+The prosecutor general's office also <EVENT class="REPORTING" eid="e20">said</EVENT> it <EVENT class="OCCURRENCE" eid="e21">gave</EVENT> British detectives all materials from investigators' joint <EVENT class="OCCURRENCE" eid="e22">questioning</EVENT> of six witnesses in the case, including transcripts of the <EVENT class="OCCURRENCE" eid="e23">interviews</EVENT>.
+
+"Both sides <EVENT class="OCCURRENCE" eid="e24">decided</EVENT> not to <EVENT class="OCCURRENCE" eid="e25">waste</EVENT> time on translation from Russian to English and <EVENT class="I_ACTION" eid="e26">agreed</EVENT> to the prompt <EVENT class="OCCURRENCE" eid="e27">transfer</EVENT> of all the materials," news agency Interfax <EVENT class="REPORTING" eid="e28">quoted</EVENT> an "informed source in the Russian capital" as <EVENT class="REPORTING" eid="e29">saying</EVENT>.
+
+The group of British detectives was in Moscow <EVENT class="I_ACTION" eid="e30">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e31">unravel</EVENT> the mystery poisoning of Litvinenko, a former Russian federal security service agent who was <EVENT class="OCCURRENCE" eid="e32">granted</EVENT> political asylum in Britain, then British citizenship.
+
+He <EVENT class="OCCURRENCE" eid="e33">died</EVENT> <TIMEX3 type="DATE" value="2006-11-23" tid="t4">November 23</TIMEX3> after an agonising illness <EVENT class="OCCURRENCE" eid="e34">caused</EVENT> by radioactive polonium 210 that <EVENT class="ASPECTUAL" eid="e35">began</EVENT> after he <EVENT class="OCCURRENCE" eid="e36">met</EVENT> with ex-Soviet army officer Dmitry Kovtun and ex-KGB officer Andrei Lugovoi, at a hotel in London's Mayfair district on <TIMEX3 type="DATE" value="2006-11-01" tid="t5">November 1</TIMEX3>.
+
+British and Russian investigators jointly <EVENT class="OCCURRENCE" eid="e37">questioned</EVENT> the men, both of whom <EVENT class="OCCURRENCE" eid="e38">deny</EVENT> any role in Litvinenko's <EVENT class="OCCURRENCE" eid="e39">killing</EVENT>.
+
+A deathbed letter <EVENT class="I_ACTION" eid="e40">attributed</EVENT> to Litvinenko <EVENT class="I_ACTION" eid="e41">accused</EVENT> Russian President Vladimir Putin of <EVENT class="OCCURRENCE" eid="e42">ordering</EVENT> his poisoning, a charge the Kremlin has hotly <EVENT class="OCCURRENCE" eid="e44">denied</EVENT>. The affair has <EVENT class="OCCURRENCE" eid="e45">exacerbated</EVENT> existing British-Russian tensions.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei30" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei33" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei33" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei36" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei20" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l50" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei37" relatedToEventInstance="ei41" relType="SIMULTANEOUS" />
+<TLINK lid="l56" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei41" relatedToEventInstance="ei45" relType="BEFORE" />
+<TLINK lid="l58" eventInstanceID="ei41" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l59" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+
+
+
+
+</TimeML>

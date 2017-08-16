@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0043</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>(Beijing Olympics) Tickets for Beijing Olympics affordable for ordinary people</TITLE>
+
+
+<TEXT>
+
+The Beijing Organizing Committee for the Olympic Games (BOCOG) <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">revealed</EVENT> details of the most affordable ticketing program in recent Olympic history.
+
+Fifty-eight percent of the tickets for sale will be <EVENT class="OCCURRENCE" eid="e2">priced</EVENT> at or lower than RMB 100 yuans (about 13 US dollars). Among them, a significant portion will be available to students at less than RMB 10 (about one dollar and 30 cents).
+
+In <EVENT class="OCCURRENCE" eid="e4">mapping</EVENT> out the program, BOCOG has <EVENT class="OCCURRENCE" eid="e5">evaluated</EVENT> the ticketing policies of previous Olympic Games and other major international meets, conducted <EVENT class="OCCURRENCE" eid="e8">consultations</EVENT> with experts in the field and made thorough marketing <EVENT class="OCCURRENCE" eid="e10">research</EVENT>.
+
+Throughout the process, the Organizing Committee has <EVENT class="OCCURRENCE" eid="e11">carried</EVENT> out its <EVENT class="OCCURRENCE" eid="e12">commitment</EVENT> to <EVENT class="OCCURRENCE" eid="e13">ensure</EVENT> the greatest number of people to <EVENT class="STATE" eid="e14">enjoy</EVENT> the Olympic enthusiasm and to <EVENT class="OCCURRENCE" eid="e15">devote</EVENT> themselves to the national <EVENT class="OCCURRENCE" eid="e16">drive</EVENT> for a harmonious society.
+
+Therefore, the ticketing program reflects both the spirit of the Olympic Games and the hope of the host country, <EVENT class="REPORTING" eid="e18">said</EVENT> BOCOG officials.
+
+Under the ticketing policy, prices for preliminaries range from RMB 30 (about four US dollars) to RMB 300 (about 40 dollars), while the finals will be <EVENT class="OCCURRENCE" eid="e19">priced</EVENT> at RMB 60 (about eight dollars) to RMB 1,000 (about 130 dollars).
+
+The lowest tickets for the opening <EVENT class="OCCURRENCE" eid="e20">ceremony</EVENT> will be <EVENT class="OCCURRENCE" eid="e21">priced</EVENT> at RMB 200 (about 26 dollars), with the highest at RMB 5,000 (about 650 dollars), and the cheapest for the closing ceremony will be at RMB 150 (about 20 dollars), with the highest at RMB 3,000 (about 400 dollars).
+
+In line with the Olympic Education Program, BOCOG has also <EVENT class="OCCURRENCE" eid="e23">allocated</EVENT> a number of special tickets to <EVENT class="OCCURRENCE" eid="e24">encourage</EVENT> attendance from among China's youth. Those tickets for preliminaries will be <EVENT class="STATE" eid="e25">available</EVENT> for students at RMB 5 (less than one US dollar) and for <EVENT class="OCCURRENCE" eid="e26">finals</EVENT> at RMB 10 (about one dollar and 30 cents).
+
+About 14 percent of the tickets available will be <EVENT class="I_STATE" eid="e27">reserved</EVENT> for the Chinese students.
+
+Tickets will <EVENT class="OCCURRENCE" eid="e28">become</EVENT> available in China in <TIMEX3 type="DATE" value="2007" tid="t9">the first half of 2007</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei28" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei28" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

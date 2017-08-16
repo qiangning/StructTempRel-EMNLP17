@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0217</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China to tighten supervision of advertising for medical products</TITLE>
+
+
+<TEXT>
+
+Chinese authorities are to <EVENT class="OCCURRENCE" eid="e1">tighten</EVENT> the supervision and regulation of advertisements for medical products, and <EVENT class="OCCURRENCE" eid="e3">crack</EVENT> down on false and misleading advertising.
+
+The campaign will be jointly <EVENT class="OCCURRENCE" eid="e4">managed</EVENT> by the State Administration of Industry and Commerce (SAIC) and the Ministry of Health (MOH).
+
+An official with the SAIC <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="2006-11-27" tid="t1">Monday</TIMEX3> that the SAIC would <EVENT class="OCCURRENCE" eid="e6">inspect</EVENT> media that <EVENT class="OCCURRENCE" eid="e7">release</EVENT> large numbers of medical treatment advertisements, and the results would be <EVENT class="OCCURRENCE" eid="e8">publicized</EVENT>.
+
+Advertisements that have not been <EVENT class="OCCURRENCE" eid="e9">approved</EVENT> by the relevant monitoring department or that have been <EVENT class="OCCURRENCE" eid="e10">altered</EVENT> without authorization would <EVENT class="OCCURRENCE" eid="e11">incur</EVENT> <EVENT class="OCCURRENCE" eid="e12">prosecution</EVENT> for those responsible.
+
+The supervisory departments would <EVENT class="OCCURRENCE" eid="e13">strengthen</EVENT> <EVENT class="OCCURRENCE" eid="e14">inspection</EVENT> of media that <EVENT class="OCCURRENCE" eid="e15">release</EVENT> medical advertisements, and heads of media that <EVENT class="OCCURRENCE" eid="e17">release</EVENT> the illegal advertisements would <EVENT class="OCCURRENCE" eid="e18">face</EVENT> penalties.
+
+The regulatory departments should <EVENT class="I_ACTION" eid="e20">enhance</EVENT> their communication, the official <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+The MOH, along with the State Administration of Traditional Chinese Medicine, <EVENT class="I_STATE" eid="e22">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e23">organise</EVENT> all local healthy service departments to <EVENT class="OCCURRENCE" eid="e24">clean</EVENT> up false medical advertising, <EVENT class="REPORTING" eid="e25">said</EVENT> the official.
+
+China's medical advertising market had <EVENT class="OCCURRENCE" eid="e26">grown</EVENT> rapidly in <TIMEX3 type="DURATION" value="PXY" tid="t2">recent years</TIMEX3>. The country's advertising business was worth 7.6 billion yuan (950 million U.S. dollars) in <TIMEX3 type="DATE" value="2005" tid="t3">2005</TIMEX3>, <EVENT class="OCCURRENCE" eid="e27">ranking</EVENT> sixth in the world.
+
+However, some ads for fake medicines have <EVENT class="I_ACTION" eid="e28">misled</EVENT> consumers and <EVENT class="OCCURRENCE" eid="e29">harmed</EVENT> their interests. In <TIMEX3 type="DATE" value="2006-11-27T03:00" tid="t4">the first three quarters last year</TIMEX3>, 11,000 irregular medical advertisements were <EVENT class="REPORTING" eid="e30">reported</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei26" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei30" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+
+
+
+
+</TimeML>

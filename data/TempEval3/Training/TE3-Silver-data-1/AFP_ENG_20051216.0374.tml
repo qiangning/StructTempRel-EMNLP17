@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051216.0374</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>= (PICTURE) =</TITLE>
+
+
+<TEXT>
+
+US boxing legend Muhammed Ali <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> in Berlin on <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">receive</EVENT> a major German peace prize for his efforts to <EVENT class="OCCURRENCE" eid="e4">promote</EVENT> civil rights and the <EVENT class="OCCURRENCE" eid="e5">work</EVENT> of the United Nations.
+
+The former world heavyweight champion will on <TIMEX3 type="DATE" value="2005-12-10" tid="t2">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e6">accept</EVENT> the Otto Hahn peace medal, <EVENT class="OCCURRENCE" eid="e7">named</EVENT> for a German nuclear physicist, the German Society for the United Nations <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+Ali has been <EVENT class="OCCURRENCE" eid="e9">selected</EVENT> "for his lifelong <EVENT class="OCCURRENCE" eid="e10">engagement</EVENT> in the American civil rights movement and the global cultural emancipation of blacks as well as his work as a UN Goodwill ambassador," Christine Kalb, the regional president of the society, <EVENT class="REPORTING" eid="e13">told</EVENT> a press <EVENT class="OCCURRENCE" eid="e14">conference</EVENT>.
+
+The 63-year-old Ali, who <EVENT class="OCCURRENCE" eid="e15">suffers</EVENT> from Parkinson's disease, <EVENT class="OCCURRENCE" eid="e17">attended</EVENT> the <EVENT class="OCCURRENCE" eid="e18">conference</EVENT> but <EVENT class="OCCURRENCE" eid="e19">left</EVENT> it to his wife Lonnie to <EVENT class="OCCURRENCE" eid="e20">speak</EVENT> to journalists.
+
+"Boxing <EVENT class="OCCURRENCE" eid="e21">allowed</EVENT> him to <EVENT class="OCCURRENCE" eid="e22">travel</EVENT> the world. Even then he was already an ambassador for peace," she <EVENT class="REPORTING" eid="e23">said</EVENT>, <EVENT class="OCCURRENCE" eid="e24">adding</EVENT> that her husband was <EVENT class="OCCURRENCE" eid="e25">doing</EVENT> well.
+
+The prize is <EVENT class="OCCURRENCE" eid="e26">awarded</EVENT> <TIMEX3 type="DURATION" value="2005-12-16T02:00" tid="t3">every two years</TIMEX3>. Previous winners include former Soviet president Mikhail Gorbachev and Nazi hunter Simon Wiesenthal.
+
+Otto Hahn (1879-1968) <EVENT class="OCCURRENCE" eid="e28">won</EVENT> the Nobel Prize for Chemistry in <TIMEX3 type="DATE" value="1944" tid="t5">1944</TIMEX3> and after the <EVENT class="OCCURRENCE" eid="e29">war</EVENT> <EVENT class="STATE" eid="e30">became</EVENT> a vocal nuclear arms control advocate.
+
+After <EVENT class="OCCURRENCE" eid="e31">receiving</EVENT> the prize, Ali was due to <EVENT class="OCCURRENCE" eid="e33">attend</EVENT> a boxing <EVENT class="OCCURRENCE" eid="e34">match</EVENT> in Berlin <EVENT class="OCCURRENCE" eid="e35">pitting</EVENT> his daughter, unbeaten boxer Laila Ali, against Sweden's Asa Maria Sandell.
+
+"He is very proud of his daughter, even though as a Muslim and a man, he has reservations about female boxing," his wife <EVENT class="REPORTING" eid="e37">said</EVENT>.
+
+"He will be happy if Laila <EVENT class="REPORTING" eid="e38">claims</EVENT> her 22nd victory," she <EVENT class="OCCURRENCE" eid="e39">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei29" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei38" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei39" relatedToTime="t0" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

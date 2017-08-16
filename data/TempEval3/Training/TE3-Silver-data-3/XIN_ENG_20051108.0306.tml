@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0306</DOCID>
+
+<DCT>MADRID, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>BenQ-Siemens agrees to sponsor Real Madrid from 2006 to 2010</TITLE>
+
+
+<TEXT>
+
+BenQ Mobile has <EVENT class="I_ACTION" eid="e1">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e2">become</EVENT> the main sponsor of Spanish football club Real Madrid, the team's official website <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-08" tid="t1">Tuesday</TIMEX3>.
+
+Jose Angel Sanchez, head of marketing at Real <EVENT class="REPORTING" eid="e4">said</EVENT> the club was "very happy with its new main sponsor": a joint venture between Chinese Taipei-based BenQ Corporation and German technology firm Siemens AG.
+
+Clemence Joos, president of BenQ <EVENT class="REPORTING" eid="e6">said</EVENT> that Real Madrid's most important and attractive features were its professionalism, quality and <EVENT class="OCCURRENCE" eid="e7">teamwork</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

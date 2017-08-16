@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061227.0264</DOCID>
+
+<DCT>ADDIS ABABA, <TIMEX3 tid="t0" type="TIME" value="2006-12-27" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 27 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>delay'</TITLE>
+
+
+<TEXT>
+
+The African Union on <TIMEX3 type="DATE" value="2006-12-27" tid="t1">Wednesday</TIMEX3> <EVENT class="REPORTING" eid="e1">told</EVENT> Ethiopia to <EVENT class="OCCURRENCE" eid="e2">pull</EVENT> out thousands of its troops from Somalia "without delay."
+
+"We are <EVENT class="OCCURRENCE" eid="e4">calling</EVENT> for the <EVENT class="OCCURRENCE" eid="e5">withdrawal</EVENT> of Ethiopian troops without <EVENT class="OCCURRENCE" eid="e6">delay</EVENT>," AU Commission chairman Alpha Omar Konare <EVENT class="REPORTING" eid="e7">said</EVENT> in the body's headquarters in Addis Ababa.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+
+
+
+
+</TimeML>

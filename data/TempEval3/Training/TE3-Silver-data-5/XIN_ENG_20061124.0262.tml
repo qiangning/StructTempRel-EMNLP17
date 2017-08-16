@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0262</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st LD: U.S. helicopters fire into Baghdad's Sadr City, 2 wounded</TITLE>
+
+
+<TEXT>
+
+Two U.S. helicopters <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> fire on a <EVENT class="OCCURRENCE" eid="e2">funeral</EVENT> in Sadr City in eastern Baghdad on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">wounding</EVENT> two people, an Interior Ministry official <EVENT class="REPORTING" eid="e4">told</EVENT> Xinhua.
+
+Residents in Sadr City <EVENT class="OCCURRENCE" eid="e5">attended</EVENT> a <EVENT class="OCCURRENCE" eid="e6">funeral</EVENT> for victims who were <EVENT class="OCCURRENCE" eid="e7">killed</EVENT> in <TIMEX3 type="DATE" value="2006-11-23" tid="t2">Thursday</TIMEX3>'s deadliest <EVENT class="OCCURRENCE" eid="e8">bombings</EVENT> and some people <EVENT class="OCCURRENCE" eid="e9">fired</EVENT> into the air when two U.S. Apache helicopters <EVENT class="OCCURRENCE" eid="e10">flow</EVENT> over, the official <EVENT class="REPORTING" eid="e11">said</EVENT> on condition of anonymity.
+
+The choppers <EVENT class="OCCURRENCE" eid="e12">fired</EVENT> into the crowd, <EVENT class="OCCURRENCE" eid="e13">wounding</EVENT> two people, the official <EVENT class="REPORTING" eid="e14">said</EVENT>, <EVENT class="OCCURRENCE" eid="e15">adding</EVENT> it <EVENT class="I_STATE" eid="e16">seemed</EVENT> to be an accident, not <EVENT class="OCCURRENCE" eid="e18">clash</EVENT>.
+
+Earlier in the day, Doha-based al-Jazeera English channel <EVENT class="REPORTING" eid="e19">reported</EVENT> that armed <EVENT class="OCCURRENCE" eid="e20">clashes</EVENT> <EVENT class="OCCURRENCE" eid="e21">erupted</EVENT> on <TIMEX3 type="TIME" value="2006-11-17TEV" tid="t3">Friday evening</TIMEX3> between U.S. forces and Shiite militiamen in Shiite stronghold of Sadr City in eastern Baghdad.
+
+On <TIMEX3 type="TIME" value="2006-11-23TAF" tid="t4">Thursday afternoon</TIMEX3>, at least 200 people were <EVENT class="OCCURRENCE" eid="e22">killed</EVENT> and more than 250 others were <EVENT class="OCCURRENCE" eid="e23">injured</EVENT> in four coordinated <EVENT class="OCCURRENCE" eid="e24">bombings</EVENT> in Shiite neighborhood of Sadr City.
+
+It was the deadliest <EVENT class="OCCURRENCE" eid="e25">bombing</EVENT> <EVENT class="OCCURRENCE" eid="e26">attacks</EVENT> since the <EVENT class="OCCURRENCE" eid="e27">U.S.-led</EVENT> <EVENT class="OCCURRENCE" eid="e28">invasion</EVENT> in <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="IAFTER" />
+<TLINK lid="l7" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei28" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="INCLUDES" />
+
+
+
+
+</TimeML>

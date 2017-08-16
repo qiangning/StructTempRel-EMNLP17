@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061231.0214</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-31" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 31 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>festivities</TITLE>
+
+
+<TEXT>
+
+New Year's Eve fireworks displays, concerts and other outdoor parties were <EVENT class="OCCURRENCE" eid="e1">scrapped</EVENT> on <TIMEX3 type="DATE" value="2006-12-31" tid="t1">Sunday</TIMEX3> in several British cities amid security fears over heavy storms, disappointing tens of thousands of revelers.
+
+Celebrations overnight <TIMEX3 type="DATE" value="2006-12-31" tid="t2">Sunday</TIMEX3> in the Northern Irish capital of Belfast and the Scottish city of Glasgow as well as the northern English cities of Newcastle and Liverpool were all canceled because of the bad weather.
+
+Up to 10,000 people had been due to <EVENT class="PERCEPTION" eid="e3">watch</EVENT> soul singer Beverley Knight and rock band The <EVENT class="OCCURRENCE" eid="e4">Thrills</EVENT> in the streets outside Belfast's City Hall, but the city council <EVENT class="REPORTING" eid="e5">called</EVENT> off the events for safety reasons.
+
+Officials in Glasgow <EVENT class="OCCURRENCE" eid="e7">dropped</EVENT> plans for a massive outdoor street party in central George Square where around 25,000 people had been <EVENT class="I_STATE" eid="e8">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e9">dance</EVENT> and <EVENT class="OCCURRENCE" eid="e10">sing</EVENT> along with Fratellis and Sandi Thom as well as watch a fireworks <EVENT class="OCCURRENCE" eid="e12">show</EVENT>.
+
+With high winds and rain forecast, a spokesman for Glasgow City Council <EVENT class="I_ACTION" eid="e13">urged</EVENT> partygoers to <EVENT class="OCCURRENCE" eid="e14">stay</EVENT> away from the Hogmanay or New Year's party, traditionally the biggest event in the Scottish calendar.
+
+A pyrotechnics <EVENT class="OCCURRENCE" eid="e15">extravaganza</EVENT> in Newcastle, the culmination of the city's month-long <TIMEX3 type="DATE" value="2006-12-31" tid="t3">Winter Festival</TIMEX3>, was also <EVENT class="OCCURRENCE" eid="e17">dropped</EVENT>.
+
+"Obviously the safety of the public <EVENT class="OCCURRENCE" eid="e18">comes</EVENT> first," <EVENT class="REPORTING" eid="e19">said</EVENT> Newcastle councillor Pauline Allen.
+
+Fireworks planned for Liverpool's St George's Plateau were <EVENT class="OCCURRENCE" eid="e21">called</EVENT> off and the event will <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e22">take</EVENT> place on <TIMEX3 type="DATE" value="2007-01-05" tid="t5">Friday, January 5</TIMEX3>.
+
+New Year's fireworks displays in the British capital London were still <EVENT class="I_STATE" eid="e23">planned</EVENT>, <EVENT class="REPORTING" eid="e24">according</EVENT> to Mayor Ken Livingstone.
+
+London's New Year's Day Parade of marching bands, clowns, vintage cars, traction engines and carnival queens -- <EVENT class="I_STATE" eid="e25">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e26">attract</EVENT> up to 400,000 spectators -- will definitely <EVENT class="OCCURRENCE" eid="e27">go</EVENT> ahead, organizers <EVENT class="OCCURRENCE" eid="e28">added</EVENT>.
+
+Forecasters <EVENT class="REPORTING" eid="e29">said</EVENT> gusts of up to 80 miles (130 kilometres) per hour were <EVENT class="I_STATE" eid="e30">expected</EVENT> off the coast of Cumbria, northwest England.
+
+Days of fierce storms have already <EVENT class="OCCURRENCE" eid="e31">caused</EVENT> a number of casualties. An 18-year-old woman <EVENT class="OCCURRENCE" eid="e32">died</EVENT> and her two 19-year-old friends were <EVENT class="OCCURRENCE" eid="e33">injured</EVENT> when a tree <EVENT class="OCCURRENCE" eid="e34">crashed</EVENT> onto a mobile home in Staffordshire on <TIMEX3 type="DATE" value="2006-12-30" tid="t7">Saturday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei34" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei28" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970402.0459</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="1997-04-02" temporalFunction="false" functionInDocument="CREATION_TIME">April 2 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Dollar rises against allcomers, save Swiss franc</TITLE>
+
+
+<TEXT>
+
+The dollar <EVENT class="OCCURRENCE" eid="e1">firmed</EVENT> except against the Swiss franc on <TIMEX3 type="DATE" value="1997-04-02" tid="t1">Wednesday</TIMEX3>, dealers <EVENT class="REPORTING" eid="e2">saying</EVENT> the greenback had <EVENT class="OCCURRENCE" eid="e3">risen</EVENT> on technical factors and because US interest rates were relatively high.
+
+In Frankfurt, meanwhile, most economists <EVENT class="REPORTING" eid="e4">said</EVENT> that the central council of the Bundesbank was <EVENT class="I_STATE" eid="e5">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e6">hold</EVENT> its key rates at a <EVENT class="OCCURRENCE" eid="e7">meeting</EVENT> on <TIMEX3 type="DATE" value="1997-03-27" tid="t2">Thursday</TIMEX3>.
+
+The dollar <EVENT class="OCCURRENCE" eid="e8">opened</EVENT> weakly against the Japanese yen but then <EVENT class="OCCURRENCE" eid="e9">rallied</EVENT>. The initial weakness was in reaction to the Tankan report by the bank of Japan <EVENT class="OCCURRENCE" eid="e11">implying</EVENT> that industrial confidence was <EVENT class="OCCURRENCE" eid="e12">improving</EVENT>.
+
+At James Capel economist Ian Morris <EVENT class="REPORTING" eid="e13">explained</EVENT> that the dollar had then <EVENT class="OCCURRENCE" eid="e14">rallied</EVENT> because US interest rates were higher than Japanese rates.
+
+Analysts <EVENT class="REPORTING" eid="e15">said</EVENT> that they did not <EVENT class="I_STATE" eid="e16">expect</EVENT> the Japanese central bank to <EVENT class="OCCURRENCE" eid="e17">increase</EVENT> its rates and <EVENT class="REPORTING" eid="e18">noted</EVENT> that the bank itself <EVENT class="I_STATE" eid="e19">expected</EVENT> confidence to <EVENT class="OCCURRENCE" eid="e20">falter</EVENT> in <TIMEX3 type="DURATION" value="PXM" tid="t3">the next few months</TIMEX3>.
+
+The lira <EVENT class="OCCURRENCE" eid="e21">rose</EVENT> against the mark on technical factors but was unlikely to <EVENT class="OCCURRENCE" eid="e22">maintain</EVENT> this position because "Italian manufacturing industry is <EVENT class="OCCURRENCE" eid="e23">suffering</EVENT> and this is likely to <EVENT class="OCCURRENCE" eid="e24">cause</EVENT> the bank of Italy to <EVENT class="OCCURRENCE" eid="e25">ease</EVENT> its rates," Morris <EVENT class="REPORTING" eid="e26">said</EVENT>.
+
+Sterling <EVENT class="OCCURRENCE" eid="e27">fell</EVENT> because of uncertainty surrounding a general <EVENT class="OCCURRENCE" eid="e28">election</EVENT> on <TIMEX3 type="DATE" value="1997-05-01" tid="t4">May 1</TIMEX3> and because of fears that inflation might <EVENT class="OCCURRENCE" eid="e29">emerge</EVENT>, analysts <EVENT class="REPORTING" eid="e30">said</EVENT>.
+
+Morris <EVENT class="REPORTING" eid="e31">said</EVENT> that British interest rates would be <EVENT class="OCCURRENCE" eid="e32">increased</EVENT> after the <EVENT class="OCCURRENCE" eid="e33">election</EVENT> but that the market would <EVENT class="OCCURRENCE" eid="e34">judge</EVENT> this to be too little, too late.
+
+The dollar was being <EVENT class="OCCURRENCE" eid="e35">priced</EVENT> at 1.6714 marks from 1.6698 here late on <TIMEX3 type="DATE" value="1997-04-01" tid="t5">Tuesday</TIMEX3>, at 122.70 yen from 122.53, 1.4280 Swiss francs from <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">1.4395</TIMEX3> and 5.6286 French francs from <TIMEX3 type="DATE" value="PRESENT_REF" tid="t8">5.6247</TIMEX3>.
+
+The mark was at 3.3673 French francs from 3.3681, 992.0 lire from 998.0, 84.60 pesetas from 84.69, 0.8608 Swiss francs from <TIMEX3 type="DATE" value="PRESENT_REF" tid="t9">0.8629</TIMEX3> and 73.42 yen from 73.48.
+
+Sterling was at 1.6445 dollars from 1.6495, 2.7492 marks from 2.7544, 201.84 yen from 2202.11, 2.3643 Swiss francs from <TIMEX3 type="DATE" value="PRESENT_REF" tid="t11">2.3745</TIMEX3> and 9.2559 French francs from 9.2779.
+
+The price of gold <EVENT class="OCCURRENCE" eid="e36">firmed</EVENT> to 350.75 dollars an ounce from 350.25 dollars.
+
+The three-month British interbank rate <EVENT class="OCCURRENCE" eid="e37">fell</EVENT> to 6.437 percent from 6.468 percent and the three-month eurodollar rate was <EVENT class="STATE" eid="e38">unchanged</EVENT> at 5.687 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei28" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei35" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei31" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei35" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei15" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l53" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l57" eventInstanceID="ei35" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l58" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+
+
+
+
+</TimeML>

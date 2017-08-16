@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0141</DOCID>
+
+<DCT>NANNING, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Wild fruit poisons 43 children in S. China county</TITLE>
+
+
+<TEXT>
+
+Forty-two pupils from a rural primary school and a pre-school boy in south China are <EVENT class="OCCURRENCE" eid="e1">recovering</EVENT> after <EVENT class="OCCURRENCE" eid="e2">suffering</EVENT> food poisoning <EVENT class="OCCURRENCE" eid="e3">caused</EVENT> by wild fruit, <EVENT class="REPORTING" eid="e4">said</EVENT> a hospital source on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3>.
+
+The local government <EVENT class="REPORTING" eid="e5">said</EVENT> the children in Guangxi Zhuang Autonomous Region <EVENT class="OCCURRENCE" eid="e6">suffered</EVENT> nausea and dizziness after <EVENT class="OCCURRENCE" eid="e7">eating</EVENT> the fruit on <TIMEX3 type="DURATION" value="2006-11-20TAF" tid="t2">Monday afternoon</TIMEX3> and all were <EVENT class="OCCURRENCE" eid="e8">taken</EVENT> to hospital.
+
+All children are from Shuichong Primary School in Hepu County's Shankou Township and the younger boy was in a safe condition on <TIMEX3 type="DATE" value="2006-11-21" tid="t3">Tuesday</TIMEX3>.
+
+Test results <EVENT class="OCCURRENCE" eid="e9">showed</EVENT> they were <EVENT class="OCCURRENCE" eid="e10">poisoned</EVENT> by the fruit of the jatropha curcal, a shrub that is <EVENT class="OCCURRENCE" eid="e11">used</EVENT> to <EVENT class="OCCURRENCE" eid="e12">produce</EVENT> biological diesel oil and mainly <EVENT class="OCCURRENCE" eid="e13">distributed</EVENT> in south China.
+
+The fruit of the plant is poisonous and can <EVENT class="OCCURRENCE" eid="e14">cause</EVENT> dizziness, vomiting, diarrhea or shock.
+
+An emergency safety campaign was <EVENT class="OCCURRENCE" eid="e17">launched</EVENT> by all primary and middle schools in the county to <EVENT class="I_ACTION" eid="e18">avoid</EVENT> a recurrence of such incidents, <EVENT class="REPORTING" eid="e19">said</EVENT> Wang Yi, deputy head of the county.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+
+
+
+
+</TimeML>

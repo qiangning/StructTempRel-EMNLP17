@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061222.0461</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-22" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 22 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Hudson ends Sunderland's undefeated run</TITLE>
+
+
+<TEXT>
+
+Mark Hudson <EVENT class="OCCURRENCE" eid="e1">scored</EVENT> the only goal as hosts Crystal Palace <EVENT class="ASPECTUAL" eid="e3">ended</EVENT> Sunderland's seven-match unbeaten run with a 1-0 victory in the Championship at Selhurst Park here on <TIMEX3 type="DATE" value="2006-12-22" tid="t1">Friday</TIMEX3>.
+
+Defeat <EVENT class="OCCURRENCE" eid="e5">left</EVENT> the Black Cats in 11th place but only three points off the play-off places as they <EVENT class="I_ACTION" eid="e6">seek</EVENT> a <EVENT class="OCCURRENCE" eid="e7">return</EVENT> to the Premiership at the first <EVENT class="I_ACTION" eid="e8">attempt</EVENT> following last season's <EVENT class="OCCURRENCE" eid="e10">relegation</EVENT> from English football's top-flight.
+
+Sunderland, managed by former Manchester United and Republic of Ireland captain Roy Keane, had plenty of possession but <EVENT class="OCCURRENCE" eid="e12">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e13">take</EVENT> their chances and Hudson's half-volley strike four minutes before half-time <EVENT class="PERCEPTION" eid="e15">saw</EVENT> Palace <EVENT class="OCCURRENCE" eid="e16">take</EVENT> all three points.
+
+Victory <EVENT class="PERCEPTION" eid="e17">saw</EVENT> the Londoners <EVENT class="OCCURRENCE" eid="e18">climb</EVENT> further away from danger, the Eagles <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> nine points clear of the relegation zone ahead of <TIMEX3 type="DATE" value="2006-12-23" tid="t4">Saturday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e20">matches</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

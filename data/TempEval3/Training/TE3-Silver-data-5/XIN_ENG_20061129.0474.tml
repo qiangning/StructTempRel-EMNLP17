@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0474</DOCID>
+
+<DCT>NICOSIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Cypriots need more information on euro: EU commissioner</TITLE>
+
+
+<TEXT>
+
+EU Economic and Monetary Affairs Commissioner Joaquin Almunia on <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> <EVENT class="REPORTING" eid="e1">called</EVENT> on the Cypriot government to <EVENT class="OCCURRENCE" eid="e2">make</EVENT> the people well <EVENT class="REPORTING" eid="e3">informed</EVENT> and <EVENT class="I_STATE" eid="e4">prepared</EVENT> before they <EVENT class="OCCURRENCE" eid="e5">adopt</EVENT> the euro.
+
+"There is some demand for more information about the euro, about the consequences of <EVENT class="OCCURRENCE" eid="e8">joining</EVENT> the euro," Almunia <EVENT class="REPORTING" eid="e9">told</EVENT> reporters upon his <EVENT class="OCCURRENCE" eid="e10">arrival</EVENT>.
+
+He <EVENT class="REPORTING" eid="e11">said</EVENT> that his <EVENT class="OCCURRENCE" eid="e12">trip</EVENT> was a good opportunity to <EVENT class="I_ACTION" eid="e13">establish</EVENT> agreements between all the sectors <EVENT class="OCCURRENCE" eid="e14">involved</EVENT> to <EVENT class="I_ACTION" eid="e15">avoid</EVENT> that the <EVENT class="OCCURRENCE" eid="e16">introduction</EVENT> of the euro will <EVENT class="OCCURRENCE" eid="e17">create</EVENT> problems in price.
+
+He also <EVENT class="REPORTING" eid="e18">said</EVENT> that the Cypriot economy is "<EVENT class="OCCURRENCE" eid="e19">doing</EVENT> quite well regarding <EVENT class="OCCURRENCE" eid="e20">growth</EVENT>."
+
+"<EVENT class="I_STATE" eid="e21">Regarding</EVENT> micro-economic figures, I <EVENT class="I_STATE" eid="e22">think</EVENT> that the situation is positive and the evolution that we <EVENT class="I_ACTION" eid="e23">analyzing</EVENT> and monitoring is <EVENT class="OCCURRENCE" eid="e25">going</EVENT> to the right direction," he <EVENT class="REPORTING" eid="e26">said</EVENT>.
+
+Almunia <EVENT class="OCCURRENCE" eid="e27">arrived</EVENT> in Cyprus for a <EVENT class="OCCURRENCE" eid="e28">conference</EVENT> on changeover of the euro. Cyprus is <EVENT class="I_STATE" eid="e29">planning</EVENT> to <EVENT class="OCCURRENCE" eid="e30">enter</EVENT> the euro zone in <TIMEX3 type="DATE" value="2008" tid="t2">2008</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei30" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei29" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="BEFORE" />
+
+
+
+
+</TimeML>

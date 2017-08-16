@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0202</DOCID>
+
+<DCT>LOS ANGELES, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Wildfire in southern California burns 300 acres of brush</TITLE>
+
+
+<TEXT>
+
+A wind-fueled wildfire <EVENT class="OCCURRENCE" eid="e1">burned</EVENT> 300 acres of brush in southern California <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3>, <EVENT class="I_ACTION" eid="e2">threatening</EVENT> homes and <EVENT class="OCCURRENCE" eid="e3">choking</EVENT> the sky with gray clouds of smoke, officials <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Firefighters <EVENT class="OCCURRENCE" eid="e5">rushed</EVENT> to Fontana in San Bernadino Country, some 80 km east of Los Angeles, after the <EVENT class="OCCURRENCE" eid="e6">fire</EVENT> <EVENT class="ASPECTUAL" eid="e7">began</EVENT> about <TIMEX3 type="DATE" value="2006-11-06" tid="t2">7:35 a.m near Ineterstate 15</TIMEX3>, the main road from southern California to Las Vegas.
+
+About 150 firefighters were at the scene, where a golf course and a <EVENT class="OCCURRENCE" eid="e8">development</EVENT> of houses were nearby.
+
+The fire <EVENT class="ASPECTUAL" eid="e10">began</EVENT> in vegetation but <EVENT class="OCCURRENCE" eid="e11">spread</EVENT> south to a walled commercial lot <EVENT class="OCCURRENCE" eid="e12">used</EVENT> for the assembly and storage of wooden pallets, <EVENT class="REPORTING" eid="e13">according</EVENT> to a Los Angeles Times website report.
+
+Exploding propane tanks in the pallet yard <EVENT class="OCCURRENCE" eid="e14">sent</EVENT> debris across the street, but no <EVENT class="OCCURRENCE" eid="e15">damage</EVENT> to the homes was <EVENT class="REPORTING" eid="e16">reported</EVENT>, <EVENT class="REPORTING" eid="e17">said</EVENT> Fontana Mayor Mark Nuaimi.
+
+The blaze <EVENT class="OCCURRENCE" eid="e19">came</EVENT> as southern California authorities <EVENT class="OCCURRENCE" eid="e20">issued</EVENT> a red flag <EVENT class="I_ACTION" eid="e21">warning</EVENT> <EVENT class="OCCURRENCE" eid="e22">indicating</EVENT> a high risk of wildfires because of strong winds, high heat and low humidity. The <EVENT class="OCCURRENCE" eid="e23">warning</EVENT> was due to <EVENT class="OCCURRENCE" eid="e24">expire</EVENT> at 6 p.m.
+
+Four firefighters were <EVENT class="OCCURRENCE" eid="e25">killed</EVENT> <TIMEX3 type="DATE" value="2006-10" tid="t4">last month</TIMEX3> in a rampant wind- driven wildfire, which was apparently <EVENT class="OCCURRENCE" eid="e26">caused</EVENT> by an <EVENT class="OCCURRENCE" eid="e27">arson</EVENT> and <EVENT class="OCCURRENCE" eid="e28">burned</EVENT> some 40,000 acres of rugged terrain and <EVENT class="OCCURRENCE" eid="e29">destroyed</EVENT> 34 houses in the nearby Riverside County.
+
+Another firefighter <EVENT class="OCCURRENCE" eid="e30">died</EVENT> <TIMEX3 type="DATE" value="2006-W44" tid="t5">last week</TIMEX3>, <EVENT class="I_ACTION" eid="e31">failing</EVENT> to <EVENT class="OCCURRENCE" eid="e32">survive</EVENT> the burns over 90 percent of his body when the flames <EVENT class="OCCURRENCE" eid="e34">swept</EVENT> over the National Forest Service fire crew in the Riverside fire.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="IAFTER" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="IAFTER" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

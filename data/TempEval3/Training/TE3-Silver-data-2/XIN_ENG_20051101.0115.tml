@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051101.0115</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>parliamentary guests</TITLE>
+
+
+<TEXT>
+
+Xu Jialu, vice-chairman of the Standing Committee of China's National People's Congress (NPC), <EVENT class="OCCURRENCE" eid="e1">met</EVENT> here <TIMEX3 type="DATE" value="2005-11-01" tid="t1">Tuesday</TIMEX3> separately with Belgian Defence Minister Andre Flahaut and his party, and a delegation of Secretary Generals of Party Groups in European Parliament <EVENT class="OCCURRENCE" eid="e2">led</EVENT> by Vula Tsetsi.
+
+The two groups of guests are <EVENT class="OCCURRENCE" eid="e3">invited</EVENT> by the Chinese Ministry of National Defense, and the International Department of the Communist Party of China (CPC) Central Committee, respectively.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

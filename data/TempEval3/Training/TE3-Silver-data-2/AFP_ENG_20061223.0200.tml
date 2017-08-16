@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061223.0200</DOCID>
+
+<DCT>VIENNA, <TIMEX3 tid="t0" type="TIME" value="2006-12-23" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 23 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS quote ///</TITLE>
+
+
+<TEXT>
+
+The United Nations nuclear watchdog agency will <EVENT class="I_ACTION" eid="e1">press</EVENT> ahead with its investigation of Iran's nuclear program, IAEA chief Mohamed ElBaradei <EVENT class="REPORTING" eid="e3">said</EVENT> after the UN Security Council <EVENT class="OCCURRENCE" eid="e4">imposed</EVENT> sanctions on Tehran.
+
+The International Atomic Energy Agency "will <EVENT class="I_ACTION" eid="e6">implement</EVENT> the relevant parts of the UNSC (UN Security Council) resolution that relates to its <EVENT class="OCCURRENCE" eid="e7">work</EVENT>," Elbaradei <EVENT class="REPORTING" eid="e8">said</EVENT> in a statement <EVENT class="OCCURRENCE" eid="e9">posted</EVENT> on the IAEA's web site.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

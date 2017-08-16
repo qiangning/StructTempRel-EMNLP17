@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0199</DOCID>
+
+<DCT>TIRANA, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Overseas visitors to Albania hit record in summer</TITLE>
+
+
+<TEXT>
+
+A record number of overseas visitors <EVENT class="OCCURRENCE" eid="e1">came</EVENT> to Albania in <TIMEX3 type="DATE" value="2006-SU" tid="t1">the past summer</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">reaching</EVENT> well over 550,000 people, an Albanian official <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-06" tid="t2">Monday</TIMEX3>.
+
+Eris Hozha, director of the National Tourism Organization, <EVENT class="REPORTING" eid="e4">explained</EVENT> that the increasing numbers of visitors are <EVENT class="OCCURRENCE" eid="e6">attracted</EVENT> by Albania's well reserved cultural heritage.
+
+"Albania is home to the internationally renowned archeological sites, such as the Butrint National Park, the country's Stone City of Gjirokastra and its 2500-year-old city of Berati," he <EVENT class="REPORTING" eid="e7">said</EVENT>, <EVENT class="OCCURRENCE" eid="e8">adding</EVENT> that Berati is <EVENT class="I_STATE" eid="e9">expected</EVENT> to be <EVENT class="OCCURRENCE" eid="e10">granted</EVENT> World Heritage site status in <TIMEX3 type="DATE" value="2007" tid="t3">2007</TIMEX3>.
+
+He <EVENT class="REPORTING" eid="e11">said</EVENT> that after the new terminal at the Tirana International Airport is <EVENT class="ASPECTUAL" eid="e12">completed</EVENT> in <TIMEX3 type="DATE" value="2007" tid="t5">early 2007</TIMEX3>, an even greater number of visitors will <EVENT class="OCCURRENCE" eid="e13">come</EVENT> to Albania.
+
+Albania is a small, mountainous country, boasting some of the wildest mountain scenery in Europe. It <EVENT class="STATE" eid="e14">has</EVENT> a least built-up coastline of 150 miles in the Mediterranean region.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

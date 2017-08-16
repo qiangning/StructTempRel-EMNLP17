@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0458</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>China Energy begins trading on American Stock Exchange</TITLE>
+
+
+<TEXT>
+
+Shares of China Energy Resources Corporation, which has a majority stake in a Chinese joint venture company, <EVENT class="ASPECTUAL" eid="e2">began</EVENT> <EVENT class="OCCURRENCE" eid="e3">trading</EVENT> on the American Stock Exchange here <TIMEX3 type="DATE" value="1997-04-21" tid="t1">Monday</TIMEX3>.
+
+China Energy, a holding company based in the British Virgin Islands, <EVENT class="STATE" eid="e4">owns</EVENT> 80 percent of Mishan Hua Xing Coke Limited, a foreign equity joint venture operating in China.
+
+A local Chinese government entity <EVENT class="I_STATE" eid="e5">controls</EVENT> the remaining 20 percent in the joint <EVENT class="OCCURRENCE" eid="e7">venture</EVENT>, which <EVENT class="ASPECTUAL" eid="e8">began</EVENT> operations in <TIMEX3 type="DATE" value="1995-10" tid="t2">October 1995</TIMEX3>.
+
+China Energy Resources opend at six dollars on 100 shares early <TIMEX3 type="DATE" value="1997-04-21" tid="t3">Monday</TIMEX3>, followed by 4,900 shares at the same price.
+
+The American Stock Exchange, the second largest US market after the New York Stock Exchange, <EVENT class="OCCURRENCE" eid="e10">specializes</EVENT> in small to medium-sized companies, notably in the oil and gas sector.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

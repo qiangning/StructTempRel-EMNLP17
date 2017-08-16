@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051119.0247</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-20" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 20 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Chinese president to visit US early next year</TITLE>
+
+
+<TEXT>
+
+Chinese President Hu Jintao will <EVENT class="OCCURRENCE" eid="e1">pay</EVENT> a <EVENT class="OCCURRENCE" eid="e2">visit</EVENT> to the United States <TIMEX3 type="DATE" value="2006" tid="t1">early next year</TIMEX3>, according to sources close to the <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> between Hu and <EVENT class="OCCURRENCE" eid="e4">visiting</EVENT> US President George W. Bush, who <EVENT class="OCCURRENCE" eid="e5">offered</EVENT> an <EVENT class="OCCURRENCE" eid="e6">invitation</EVENT>, <TIMEX3 type="DATE" value="2005-11-13TMO" tid="t2">Sunday morning</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

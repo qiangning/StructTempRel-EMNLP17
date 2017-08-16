@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0201</DOCID>
+
+<DCT>SOFIA, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Legendary Lechkov elected as 1st vice president of BFU</TITLE>
+
+
+<TEXT>
+
+Former Bulgarian international Yordan Lechkov, also mayor of central Bulgarian city Sliven, was <EVENT class="OCCURRENCE" eid="e1">elected</EVENT> on <TIMEX3 type="DATE" value="2005-11-01" tid="t1">Tuesday</TIMEX3> as the first vice president of the Bulgarian Football Union (BFU).
+
+A 14-member Executive Committee of BFU on <TIMEX3 type="DATE" value="2005-11-01" tid="t2">Tuesday</TIMEX3> with a majority <EVENT class="OCCURRENCE" eid="e2">elected</EVENT> Lechkov the first vice president of the country's genaral soccerl organisation. Mihail Kasabov and Stefan Ormandzhiev were also <EVENT class="OCCURRENCE" eid="e3">seated</EVENT> on the vice presidential chairs.
+
+<EVENT class="REPORTING" eid="e4">According</EVENT> to the <EVENT class="OCCURRENCE" eid="e5">decision</EVENT> made by the Executive Committee, Lechkov will <EVENT class="OCCURRENCE" eid="e6">take</EVENT> charge on contacts and <EVENT class="OCCURRENCE" eid="e7">work</EVENT> with the local soccer groups.
+
+Lechkov <EVENT class="REPORTING" eid="e8">said</EVENT> that he was <EVENT class="OCCURRENCE" eid="e9">determined</EVENT> to <EVENT class="OCCURRENCE" eid="e10">unite</EVENT> the power of the government, court system and parliament to <EVENT class="OCCURRENCE" eid="e11">find</EVENT> out a way to <EVENT class="OCCURRENCE" eid="e12">raise</EVENT> the level of the professional and amateur teams all over the country.
+
+Legendary Lechkov was <EVENT class="OCCURRENCE" eid="e13">born</EVENT> in <TIMEX3 type="DATE" value="1967" tid="t3">1967</TIMEX3> at Straldzha, Bulgaria. He <EVENT class="STATE" eid="e14">was</EVENT> the biggest hero in the World Cup 1994, who <EVENT class="OCCURRENCE" eid="e15">led</EVENT> Bulgaria to the historic 4th place in the United States.
+
+After a brilliant <EVENT class="OCCURRENCE" eid="e16">career</EVENT> Lechkov was <EVENT class="OCCURRENCE" eid="e17">elected</EVENT> mayor of Sliven in <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3>, and is very <EVENT class="STATE" eid="e18">popular</EVENT> among the local citizens.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

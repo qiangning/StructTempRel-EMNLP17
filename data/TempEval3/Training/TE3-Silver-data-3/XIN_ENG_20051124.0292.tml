@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0292</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Legend Best's hour are numbered, says doctor</TITLE>
+
+
+<TEXT>
+
+Football legend George Best <EVENT class="I_STATE" eid="e1">faces</EVENT> no chance of recovery and his final hours are <EVENT class="OCCURRENCE" eid="e2">numbered</EVENT> as his deteriorating condition was irreversible, his personal doctor <EVENT class="REPORTING" eid="e5">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+Best, 59, could not <EVENT class="OCCURRENCE" eid="e6">recover</EVENT> from the internal bleeding that <EVENT class="OCCURRENCE" eid="e7">developed</EVENT> <TIMEX3 type="TIME" value="2005-11-23TNI" tid="t2">last night</TIMEX3>, Professor Roger Williams <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+Just before 1300 GMT, he <EVENT class="REPORTING" eid="e9">said</EVENT> the former Northern Ireland international would not <EVENT class="OCCURRENCE" eid="e10">survive</EVENT> another 24 hours.
+
+Family and friends have <EVENT class="OCCURRENCE" eid="e11">visited</EVENT> Best in London's Cromwell Hospital, where he has been <EVENT class="OCCURRENCE" eid="e12">treated</EVENT> for a lung infection.
+
+Later on <TIMEX3 type="DATE" value="2005-11-24" tid="t5">Thursday</TIMEX3>, Professor Williams <EVENT class="OCCURRENCE" eid="e14">added</EVENT> there had been "no <EVENT class="OCCURRENCE" eid="e15">change</EVENT>, just deterioration" in Best's condition.
+
+When Best's closest family <EVENT class="OCCURRENCE" eid="e16">arrived</EVENT> at the west London hospital, they <EVENT class="I_ACTION" eid="e17">asked</EVENT> the gathered media not to film or photograph them as they <EVENT class="OCCURRENCE" eid="e18">went</EVENT> in.
+
+Best has been in hospital for <TIMEX3 type="DURATION" value="P8W" tid="t6">eight weeks</TIMEX3>, after initially <EVENT class="OCCURRENCE" eid="e19">suffering</EVENT> flu-like symptoms, but <EVENT class="OCCURRENCE" eid="e20">deteriorated</EVENT> with a lung infection on <TIMEX3 type="DATE" value="2005-11-18" tid="t7">Friday</TIMEX3>.
+
+Professor Williams <EVENT class="REPORTING" eid="e22">said</EVENT>: "Mr. Best is <EVENT class="OCCURRENCE" eid="e23">coming</EVENT> to the end of the long road of his ill health.
+
+"The situation is that medically the intensive care team and everybody concerned have <EVENT class="OCCURRENCE" eid="e24">managed</EVENT> to <EVENT class="I_ACTION" eid="e25">cope</EVENT> with pretty well all of the <EVENT class="OCCURRENCE" eid="e26">complications</EVENT> except the one that has <EVENT class="OCCURRENCE" eid="e27">happened</EVENT> again during <TIMEX3 type="TIME" value="2005-11-24TNI" tid="t8">the night</TIMEX3> - this bleeding.
+
+"Although [the blood] has been <EVENT class="OCCURRENCE" eid="e28">replaced</EVENT>, it has now <TIMEX3 tid="t9" type="DATE" value="PRESENT_REF">affected</TIMEX3> the lungs and other parts, and there is really no <EVENT class="OCCURRENCE" eid="e30">return</EVENT> from that situation.
+
+"It is just not possible to <EVENT class="OCCURRENCE" eid="e32">recover</EVENT> from that."
+
+He <EVENT class="OCCURRENCE" eid="e33">added</EVENT>: "He is still <EVENT class="STATE" eid="e34">having</EVENT> standard medical care and treatment but I have to <EVENT class="REPORTING" eid="e36">tell</EVENT> you that his hours are <EVENT class="OCCURRENCE" eid="e37">numbered</EVENT> <TIMEX3 type="DATE" value="PRESENT_REF" tid="t10">now</TIMEX3> and it's all very upsetting."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei33" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei33" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei37" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei27" relatedToTime="t8" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

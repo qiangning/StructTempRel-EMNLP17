@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970411.0072</DOCID>
+
+<DCT>SYDNEY, <TIMEX3 tid="t0" type="TIME" value="1997-04-11" temporalFunction="false" functionInDocument="CREATION_TIME">April 11 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Australian stocks down 0.5 percent</TITLE>
+
+
+<TEXT>
+
+Australian share prices <EVENT class="OCCURRENCE" eid="e1">slipped</EVENT> 0.5 percent <TIMEX3 type="DATE" value="1997-04-11" tid="t1">Friday</TIMEX3> in the face of <EVENT class="OCCURRENCE" eid="e2">falling</EVENT> base metal prices and lingering concerns over an inflation report due out in the United States, brokers <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+The Australian Stock Exchange's main indicator, the all ordinaries index, <EVENT class="OCCURRENCE" eid="e5">fell</EVENT> 12.4 points to 2,380.5.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051104.0238</DOCID>
+
+<DCT>BRUSSELS, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Afghanistan is Netherlands' most disastrous overseas mission: newspaper</TITLE>
+
+
+<TEXT>
+
+The mission in Afghanistan is <EVENT class="OCCURRENCE" eid="e1">becoming</EVENT> the most accident-prone and expensive <EVENT class="OCCURRENCE" eid="e2">deployment</EVENT> ever for the Dutch defense ministry, the De Volkskrant daily <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-04" tid="t1">Friday</TIMEX3>.
+
+Although Dutch troops in Afghanistan never <EVENT class="OCCURRENCE" eid="e4">exchanged</EVENT> <EVENT class="OCCURRENCE" eid="e5">fire</EVENT> with al-Qaeda or Taliban fighters, the Dutch air force <EVENT class="OCCURRENCE" eid="e6">lost</EVENT> some 80 million euro worth of equipment in <TIMEX3 type="DATE" value="2004" tid="t2">the past year</TIMEX3>, a record for Dutch missions abroad, the paper <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+The Dutch air force <EVENT class="REPORTING" eid="e8">confirmed</EVENT> that a second Chinook helicopter was <EVENT class="OCCURRENCE" eid="e9">written</EVENT> off after <EVENT class="OCCURRENCE" eid="e10">making</EVENT> an emergency landing in mountains north of Kabul on <TIMEX3 type="DATE" value="2005-11-07" tid="t3">Monday</TIMEX3>, <EVENT class="REPORTING" eid="e12">according</EVENT> to the paper, one of the biggest dailies in the Netherlands.
+
+The 25-million-euro aircraft, en route to Dutch commandos in Kandahar, was <EVENT class="OCCURRENCE" eid="e14">forced</EVENT> to <EVENT class="OCCURRENCE" eid="e15">land</EVENT> for reasons not yet clear. Three of the 17 soldiers on board were <EVENT class="OCCURRENCE" eid="e17">wounded</EVENT>.
+
+In <TIMEX3 type="DATE" value="2005-07" tid="t4">July</TIMEX3>, a Chinook <EVENT class="OCCURRENCE" eid="e18">crashed</EVENT> near Kandahar. The Dutch defense ministry has <EVENT class="OCCURRENCE" eid="e19">ruled</EVENT> out the possibility that the aircraft was <EVENT class="OCCURRENCE" eid="e20">shot</EVENT> down by Taliban or al-Qaeda fighters.
+
+The air force <EVENT class="OCCURRENCE" eid="e21">suffered</EVENT> its heaviest <EVENT class="OCCURRENCE" eid="e22">loss</EVENT> in <TIMEX3 type="DURATION" value="2004-08" tid="t5">August last year</TIMEX3> when a mis-communication <EVENT class="OCCURRENCE" eid="e23">resulted</EVENT> in the <EVENT class="OCCURRENCE" eid="e24">crash</EVENT> of a 30-million- euro Apache combat helicopter north of Kabul.
+
+"It is never nice to <EVENT class="OCCURRENCE" eid="e25">lose</EVENT> so much equipment that is so crucial and scarce," an air force spokesperson was <EVENT class="REPORTING" eid="e26">quoted</EVENT> as <EVENT class="REPORTING" eid="e27">saying</EVENT>, <EVENT class="OCCURRENCE" eid="e28">adding</EVENT> that "luckily there have not been any wounded or dead so far."
+
+As the Dutch mission in Afghanistan <EVENT class="ASPECTUAL" eid="e29">continues</EVENT> its dangerous operations, the air force <EVENT class="OCCURRENCE" eid="e30">risks</EVENT> <EVENT class="OCCURRENCE" eid="e31">losing</EVENT> more of its remaining 11 Chinooks, the paper <EVENT class="REPORTING" eid="e32">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei26" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

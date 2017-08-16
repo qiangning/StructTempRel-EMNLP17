@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970404.0429</DOCID>
+
+<DCT>TYRE, Lebanon, <TIMEX3 tid="t0" type="TIME" value="1997-04-04" temporalFunction="false" functionInDocument="CREATION_TIME">April 4 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Twenty-six Israeli soldiers killed in Lebanon in 12 months: toll</TITLE>
+
+
+<TEXT>
+
+At least 26 Israeli soldiers have been <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> in south Lebanon since the Jewish state's <EVENT class="OCCURRENCE" eid="e2">offensive</EVENT> against Hezbollah guerrillas in the region in <TIMEX3 type="DATE" value="1996-04" tid="t1">April 1996</TIMEX3>, security sources <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-04" tid="t2">Friday</TIMEX3>.
+
+<EVENT class="OCCURRENCE" eid="e4">Attacks</EVENT> against the Israeli-occupied "security zone" in south Lebanon, mainly by the Iranian-backed Hezbollah, have also <EVENT class="OCCURRENCE" eid="e5">killed</EVENT> 13 members of the Israeli-backed South Lebanon Army (SLA) militia, <EVENT class="REPORTING" eid="e6">said</EVENT> the sources.
+
+At least 83 Israeli soldiers have been <EVENT class="OCCURRENCE" eid="e7">injured</EVENT> in the <EVENT class="OCCURRENCE" eid="e8">attacks</EVENT> along with 34 members of the SLA.
+
+The Islamic Resistance, Hezbollah's military wing, has <EVENT class="OCCURRENCE" eid="e9">launched</EVENT> 383 <EVENT class="OCCURRENCE" eid="e10">attacks</EVENT> on the buffer strip since <TIMEX3 type="DATE" value="1996-04" tid="t3">last April</TIMEX3>'s Israeli <EVENT class="OCCURRENCE" eid="e11">offensive</EVENT> -- dubbed Operation Grapes of Wrath -- <EVENT class="REPORTING" eid="e12">according</EVENT> to the security service toll.
+
+A total of 24 Hezbollah fighters were <EVENT class="OCCURRENCE" eid="e13">killed</EVENT> in the <EVENT class="OCCURRENCE" eid="e14">attacks</EVENT>, it <EVENT class="OCCURRENCE" eid="e15">added</EVENT>.
+
+Israeli <EVENT class="OCCURRENCE" eid="e16">shelling</EVENT> in response to Hezbollah <EVENT class="OCCURRENCE" eid="e17">attacks</EVENT> <EVENT class="OCCURRENCE" eid="e18">killed</EVENT> three Lebanese civilians and <EVENT class="OCCURRENCE" eid="e19">wounded</EVENT> 36 others during <TIMEX3 type="DATE" value="1997-04-04" tid="t4">the same period</TIMEX3>.
+
+Israel's 17-day <EVENT class="OCCURRENCE" eid="e20">offensive</EVENT>, <EVENT class="OCCURRENCE" eid="e21">launched</EVENT> to <EVENT class="OCCURRENCE" eid="e22">stamp</EVENT> out Hezbollah rocket <EVENT class="OCCURRENCE" eid="e23">attacks</EVENT> on northern Israel, <EVENT class="OCCURRENCE" eid="e24">killed</EVENT> 175 people and <EVENT class="OCCURRENCE" eid="e25">injured</EVENT> 350 others, mostly civilians, and also <EVENT class="OCCURRENCE" eid="e26">caused</EVENT> an estimated 500 million dollars of damage in south Lebanon.
+
+A five-nation ceasefire monitoring committee <EVENT class="OCCURRENCE" eid="e27">set</EVENT> up under the terms of the <TIMEX3 type="DATE" value="1997-04-26" tid="t6">April 26</TIMEX3> truce <EVENT class="ASPECTUAL" eid="e28">agreement</EVENT> <EVENT class="ASPECTUAL" eid="e29">ending</EVENT> the Israeli <EVENT class="OCCURRENCE" eid="e30">offensive</EVENT> has <EVENT class="OCCURRENCE" eid="e31">met</EVENT> 14 times, and has <EVENT class="OCCURRENCE" eid="e32">received</EVENT> 12 complaints from Lebanon and eight from Israel.
+
+Israel has <EVENT class="OCCURRENCE" eid="e34">occupied</EVENT> a "security zone" in south Lebanon since <TIMEX3 type="DATE" value="1985" tid="t7">1985</TIMEX3> to <EVENT class="OCCURRENCE" eid="e35">protect</EVENT> its northern border from <EVENT class="OCCURRENCE" eid="e36">attacks</EVENT> by anti-Israeli fighters.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1000003" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="IAFTER" />
+<TLINK lid="l15" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1000003" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei35" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei3" relatedToEventInstance="ei1000003" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l50" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei28" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

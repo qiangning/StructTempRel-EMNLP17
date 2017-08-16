@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970428.0427</DOCID>
+
+<DCT>NICOSIA, <TIMEX3 tid="t0" type="TIME" value="1997-04-28" temporalFunction="false" functionInDocument="CREATION_TIME">April 28 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Iraq says deals with foreign oil firms in final stages: report</TITLE>
+
+
+<TEXT>
+
+Iraq <EVENT class="REPORTING" eid="e1">says</EVENT> it is close to <EVENT class="I_STATE" eid="e3">agreement</EVENT> on upstream oil deals and their <EVENT class="OCCURRENCE" eid="e4">implementation</EVENT> with several foreign companies, thanks in part to a more favorable international atmosphere, an economic <EVENT class="OCCURRENCE" eid="e6">review</EVENT> published here <EVENT class="REPORTING" eid="e8">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-28" tid="t1">Monday</TIMEX3>.
+
+Iraqi Oil Minister Amer Rashid <EVENT class="REPORTING" eid="e9">said</EVENT> his country has <EVENT class="OCCURRENCE" eid="e10">reached</EVENT> an understanding with interested oil companies on the plan for <EVENT class="OCCURRENCE" eid="e12">implementing</EVENT> the contracts, given the international <EVENT class="OCCURRENCE" eid="e13">sanctions</EVENT> against Iraq, the Middle East Economic Survey (MEES) <EVENT class="REPORTING" eid="e14">reported</EVENT>.
+
+The United Nations <EVENT class="OCCURRENCE" eid="e15">imposed</EVENT> sanctions on Iraq after it <EVENT class="OCCURRENCE" eid="e17">invaded</EVENT> Kuwait in <TIMEX3 type="DATE" value="1990" tid="t2">1990</TIMEX3>. The sanctions are to be <EVENT class="OCCURRENCE" eid="e19">lifted</EVENT> after verification that Iraq has <EVENT class="OCCURRENCE" eid="e20">destroyed</EVENT> its weapons of mass destruction.
+
+The international political atmosphere is more positive toward Iraq and <EVENT class="ASPECTUAL" eid="e22">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e23">change</EVENT> gradually in Baghdad's favor, Rashid <EVENT class="REPORTING" eid="e24">told</EVENT> MEES by telephone from Rome.
+
+The minister was in the Italian capital for <EVENT class="OCCURRENCE" eid="e25">talks</EVENT> with the Italian energy group ENI and its subsidiary Agip and <EVENT class="REPORTING" eid="e26">said</EVENT> they are close to <EVENT class="OCCURRENCE" eid="e27">signing</EVENT> a 23-year <EVENT class="OCCURRENCE" eid="e28">agreement</EVENT> on the <EVENT class="OCCURRENCE" eid="e29">development</EVENT> of the Nasiriyah oil field in southern Iraq.
+
+The field has a production capacity of about 300,000 barrels a day, and Agip would <EVENT class="OCCURRENCE" eid="e30">invest</EVENT> two billion dollars to <EVENT class="OCCURRENCE" eid="e31">develop</EVENT> it.
+
+Rashid also <EVENT class="OCCURRENCE" eid="e32">held</EVENT> <EVENT class="OCCURRENCE" eid="e33">talks</EVENT> with senior political officials in Italy, where the Senate <EVENT class="OCCURRENCE" eid="e34">voted</EVENT> <TIMEX3 type="DATE" value="1997-W17" tid="t4">last week</TIMEX3> in favor of a gradual lifting of UN <EVENT class="OCCURRENCE" eid="e35">sanctions</EVENT> against Iraq.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei30" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei34" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

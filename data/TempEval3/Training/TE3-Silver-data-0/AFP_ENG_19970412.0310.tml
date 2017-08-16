@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970412.0310</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="1997-04-12" temporalFunction="false" functionInDocument="CREATION_TIME">April 12 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>London marathon runners warned to beware of terrorist attack</TITLE>
+
+
+<TEXT>
+
+Runners and spectators at <TIMEX3 type="DATE" value="1997-W14-WE" tid="t1">this weekend</TIMEX3>'s London marathon were <EVENT class="I_ACTION" eid="e1">warned</EVENT> <TIMEX3 type="DATE" value="1997-04-12" tid="t2">Saturday</TIMEX3> by police to be <EVENT class="STATE" eid="e2">vigilant</EVENT> against terrorist <EVENT class="OCCURRENCE" eid="e3">attack</EVENT>.
+
+Up to 27,000 runners are <EVENT class="I_STATE" eid="e4">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e5">take</EVENT> part in <TIMEX3 type="DATE" value="1997-04-13" tid="t3">Sunday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e6">race</EVENT> around London, with a crowd of 500,000 lining streets to <EVENT class="OCCURRENCE" eid="e7">cheer</EVENT> them on.
+
+The warning <EVENT class="OCCURRENCE" eid="e9">comes</EVENT> in the wake of <TIMEX3 type="DATE" value="1997-W14-WE" tid="t4">last weekend</TIMEX3>'s alert when the Grand National horse race had to be <EVENT class="OCCURRENCE" eid="e10">postponed</EVENT> and a 70,000 crowd <EVENT class="OCCURRENCE" eid="e11">cleared</EVENT> from the <EVENT class="OCCURRENCE" eid="e12">course</EVENT> at Aintree in northwest England after hoax bomb <EVENT class="OCCURRENCE" eid="e13">warnings</EVENT> by the Irish Republican Army (IRA).
+
+A terrorist expert <EVENT class="REPORTING" eid="e14">said</EVENT> it was clear the IRA had <EVENT class="I_ACTION" eid="e16">embarked</EVENT> on a policy of <EVENT class="OCCURRENCE" eid="e17">causing</EVENT> maximum disruption and <EVENT class="OCCURRENCE" eid="e18">intimidation</EVENT> on the British mainland in the <EVENT class="OCCURRENCE" eid="e19">run-up</EVENT> to the general <EVENT class="OCCURRENCE" eid="e20">election</EVENT> on <TIMEX3 type="DATE" value="1997-05-01" tid="t5">May 1</TIMEX3>.
+
+But neither Scotland Yard nor the organisers of <TIMEX3 type="DATE" value="1997-04-13" tid="t6">Sunday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e21">race</EVENT> would <EVENT class="OCCURRENCE" eid="e22">comment</EVENT> on whether security had been <EVENT class="OCCURRENCE" eid="e23">increased</EVENT> to <EVENT class="OCCURRENCE" eid="e24">take</EVENT> into account the IRA's apparent switch to targeting sporting events.
+
+A spokeswoman for Scotland Yard <EVENT class="REPORTING" eid="e27">said</EVENT>: "We always <EVENT class="OCCURRENCE" eid="e28">ask</EVENT> people to be vigilant. If they <EVENT class="PERCEPTION" eid="e30">see</EVENT> anything suspicious they should <EVENT class="REPORTING" eid="e31">report</EVENT> it."
+
+Professor Paul Wilkinson, a terrorist expert in the International Relations department at Saint Andrew's University in Scotland, <EVENT class="REPORTING" eid="e32">said</EVENT>: "It would be wrong to <EVENT class="OCCURRENCE" eid="e34">assume</EVENT> that the IRA has <EVENT class="OCCURRENCE" eid="e35">switched</EVENT> tactics. We cannot <EVENT class="OCCURRENCE" eid="e36">discount</EVENT> any target."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei30" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei36" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

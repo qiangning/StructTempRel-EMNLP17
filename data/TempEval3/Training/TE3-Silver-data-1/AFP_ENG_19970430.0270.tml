@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970430.0270</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="1997-04-30" temporalFunction="false" functionInDocument="CREATION_TIME">April 30 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Diaoyu Island group in HK sets mid-May for protest date</TITLE>
+
+
+<TEXT>
+
+A Hong Kong group <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="1997-04-30" tid="t1">Wednesday</TIMEX3> it <EVENT class="I_STATE" eid="e2">planned</EVENT> to <EVENT class="OCCURRENCE" eid="e3">make</EVENT> a landing <TIMEX3 type="DATE" value="1997-05" tid="t2">next month</TIMEX3> on the Diaoyu Islands, an archipelago <EVENT class="OCCURRENCE" eid="e4">claimed</EVENT> by China, Japan and Taiwan.
+
+The group, which backs China's claim, <EVENT class="REPORTING" eid="e6">announced</EVENT> the <EVENT class="OCCURRENCE" eid="e7">protest</EVENT> after Japanese supporters of Tokyo's claim <EVENT class="REPORTING" eid="e8">said</EVENT> they <EVENT class="I_STATE" eid="e9">wanted</EVENT> to <EVENT class="OCCURRENCE" eid="e10">land</EVENT> there in <TIMEX3 type="DATE" value="1996-05" tid="t3">May</TIMEX3>.
+
+The protestors, <EVENT class="OCCURRENCE" eid="e11">called</EVENT> the Protect the Diaoyu Islands Committee, are <EVENT class="OCCURRENCE" eid="e12">led</EVENT> by members of the Democratic Party, Hong Kong's largest political group.
+
+Tsang Kin-shing, a legislator, <EVENT class="REPORTING" eid="e13">said</EVENT> a group of 40 people would <EVENT class="OCCURRENCE" eid="e14">fly</EVENT> from Hong Kong to Taipei and <EVENT class="OCCURRENCE" eid="e15">team</EVENT> up with around 100 others from Taiwan and the United States.
+
+They would then <EVENT class="OCCURRENCE" eid="e16">set</EVENT> sail from a northern port in Taiwan to the archipelago, <EVENT class="I_STATE" eid="e17">hoping</EVENT> to <EVENT class="OCCURRENCE" eid="e18">land</EVENT> there on <TIMEX3 type="DATE" value="1997-05-18" tid="t4">May 18</TIMEX3> "and camp there for four to five days," Tsang <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+He <EVENT class="OCCURRENCE" eid="e20">added</EVENT> "there is a possibility that we will <EVENT class="OCCURRENCE" eid="e21">meet</EVENT> them (the Japanese)."
+
+"We will <EVENT class="OCCURRENCE" eid="e22">do</EVENT> our utmost to <EVENT class="OCCURRENCE" eid="e23">refrain</EVENT> from violence. We <EVENT class="I_ACTION" eid="e24">intend</EVENT> to <EVENT class="OCCURRENCE" eid="e25">ask</EVENT> them whether they have <EVENT class="OCCURRENCE" eid="e26">applied</EVENT> for a visa from China in order to be there."
+
+The islands, <EVENT class="I_STATE" eid="e27">believed</EVENT> to <EVENT class="OCCURRENCE" eid="e28">lie</EVENT> in an oil-rich area of the East China Sea, are <EVENT class="STATE" eid="e29">known</EVENT> to Chinese as the Diaoyus and to Japanese as the Senkakus.
+
+The three-way <EVENT class="OCCURRENCE" eid="e30">dispute</EVENT> over ownership was <EVENT class="OCCURRENCE" eid="e31">revived</EVENT> <TIMEX3 type="DATE" value="1996-07" tid="t6">last July</TIMEX3> after an ultra-right-wing Japanese group <EVENT class="OCCURRENCE" eid="e32">erected</EVENT> a lighthouse on one of the islands as a symbol of Tokyo's claim, <EVENT class="ASPECTUAL" eid="e33">sparking</EVENT> anti-Japanese sentiment in Hong Kong, Taiwan and China.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei31" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

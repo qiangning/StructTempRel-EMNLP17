@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0108</DOCID>
+
+<DCT>COLOMBO, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Colombo stocks close down</TITLE>
+
+
+<TEXT>
+
+Share prices on the Colombo Stock Exchange <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> down <TIMEX3 type="DATE" value="2005-11-10" tid="t1">Thursday</TIMEX3> with the key Colombo All Share Price Index <EVENT class="OCCURRENCE" eid="e2">moving</EVENT> down 18.12 points to <EVENT class="OCCURRENCE" eid="e3">close</EVENT> at 2438.67 points.
+
+On the other hand, the highly capitalized Milanka Price Index <EVENT class="OCCURRENCE" eid="e5">lost</EVENT> 37.17 points to <EVENT class="OCCURRENCE" eid="e6">close</EVENT> at 3199.05 points.
+
+A total turnover of 223 million rupee (2.23 million US dollars) was <EVENT class="I_ACTION" eid="e7">recorded</EVENT> during <TIMEX3 type="DATE" value="2005-11-10" tid="t2">the day</TIMEX3> with a volume of 9.82 million shares being <EVENT class="OCCURRENCE" eid="e8">traded</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

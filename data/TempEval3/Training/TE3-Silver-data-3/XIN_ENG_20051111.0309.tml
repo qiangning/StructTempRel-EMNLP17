@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0309</DOCID>
+
+<DCT>RABAT, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Morocco: more kinds of poultry importation banned</TITLE>
+
+
+<TEXT>
+
+Morocco's Agriculture Ministry <EVENT class="REPORTING" eid="e1">announced</EVENT> on <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3> that it had <EVENT class="OCCURRENCE" eid="e2">widened</EVENT> its ban on imports of poultry into the country to include wild birds such as pigeons and falcons.
+
+All Moroccan citizens, as well as importers, have to <EVENT class="I_STATE" eid="e3">comply</EVENT> with the enacted regulations, and all banned poultry <EVENT class="OCCURRENCE" eid="e5">discovered</EVENT> at border checkpoints will be <EVENT class="OCCURRENCE" eid="e6">returned</EVENT> or <EVENT class="OCCURRENCE" eid="e7">slaughtered</EVENT>, <EVENT class="REPORTING" eid="e8">according</EVENT> to a statement <EVENT class="OCCURRENCE" eid="e9">issued</EVENT> by the Agriculture Ministry.
+
+The statement also <EVENT class="REPORTING" eid="e10">emphasized</EVENT> that no bird flu cases have been <EVENT class="OCCURRENCE" eid="e11">found</EVENT> in Morocco so far, and the country's veterinary administration will <EVENT class="ASPECTUAL" eid="e12">continue</EVENT> to closely <EVENT class="OCCURRENCE" eid="e13">monitor</EVENT> domestic poultry as well as the latest <EVENT class="OCCURRENCE" eid="e14">development</EVENT> of worldwide bird flu pandemic.
+
+The ministry has <EVENT class="REPORTING" eid="e15">announced</EVENT> a ban on the <EVENT class="OCCURRENCE" eid="e16">importation</EVENT> of live poultry and bird-related products from countries <EVENT class="OCCURRENCE" eid="e17">affected</EVENT> by the fatal <EVENT class="OCCURRENCE" eid="e18">strain</EVENT> of virus H5N1 on <TIMEX3 type="DATE" value="2005-10-17" tid="t2">Oct. 17</TIMEX3>, and <EVENT class="OCCURRENCE" eid="e19">carried</EVENT> out more strict sanitary checks on poultry farms, border checkpoints and slaughterhouses.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

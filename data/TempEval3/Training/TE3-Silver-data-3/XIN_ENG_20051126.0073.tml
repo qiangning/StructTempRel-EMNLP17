@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051126.0073</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>water pollution</TITLE>
+
+
+<TEXT>
+
+Foreign Minister Li Zhaoxing <EVENT class="REPORTING" eid="e1">informed</EVENT> Russian Ambassador to China Sergey Razov here <TIMEX3 type="TIME" value="2005-11-19TAF" tid="t1">Saturday afternoon</TIMEX3> of the situation with the Songhua River's water pollution and measures <EVENT class="OCCURRENCE" eid="e2">taken</EVENT> by the Chinese government to <EVENT class="OCCURRENCE" eid="e3">tackle</EVENT> the issue.
+
+The Songhua River in northeast China's Heilongjiang Province, <EVENT class="OCCURRENCE" eid="e4">suffered</EVENT> major water pollution as a result of a <EVENT class="OCCURRENCE" eid="e5">blast</EVENT> that had <EVENT class="OCCURRENCE" eid="e6">occurred</EVENT> in the China National Petroleum Corporation (CNPC) Jilin Petrochemical company on Nov.13. The polluted water in Songhua River is <EVENT class="I_STATE" eid="e7">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e8">flow</EVENT> into the Heilongjiang River (also <EVENT class="PERCEPTION" eid="e9">called</EVENT> Amur River in Russia) on the Sino-Russian border.
+
+Li Zhaoxing, on be half of the Chinese government, <EVENT class="OCCURRENCE" eid="e10">expressed</EVENT> his regret over the possible harms to be <EVENT class="OCCURRENCE" eid="e11">done</EVENT> to the Russian people by the major environmental pollution accident, <EVENT class="REPORTING" eid="e12">saying</EVENT> China fully <EVENT class="I_STATE" eid="e13">understands</EVENT> and attaches great importance to the concerns of the Russian side, and that Chinese leaders have time and again <EVENT class="OCCURRENCE" eid="e14">made</EVENT> important directions to <EVENT class="OCCURRENCE" eid="e15">tackle</EVENT> the problem
+
+After the water pollution incident <EVENT class="OCCURRENCE" eid="e16">occurred</EVENT>, China has repeatedly <EVENT class="REPORTING" eid="e17">informed</EVENT> its neighbor of the details of the pollution incident, including various lab test results such as the pollutant's species and density and the location of polluted stretches.
+
+The two sides have <EVENT class="I_ACTION" eid="e18">agreed</EVENT> to <EVENT class="ASPECTUAL" eid="e19">open</EVENT> up a hotline between environmental departments for still better contacts and communication over the water pollution problem, and China <EVENT class="REPORTING" eid="e20">informs</EVENT> Russia of the latest <EVENT class="OCCURRENCE" eid="e21">developments</EVENT> daily, the Chinese forign minister <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0138</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>2nd Ld: China, U.S. hold third strategic dialogue</TITLE>
+
+
+<TEXT>
+
+China and the United States on <TIMEX3 type="DATE" value="2006-11-08" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">held</EVENT> their third round of strategic dialogue in Beijing, <EVENT class="OCCURRENCE" eid="e2">discussing</EVENT> bilateral ties and other issues of common concern.
+
+Chinese Vice Foreign Minister Yang Jiechi and the U.S. Undersecretary of State Nicholas Burns <EVENT class="OCCURRENCE" eid="e3">co-chaired</EVENT> the strategic <EVENT class="OCCURRENCE" eid="e4">dialogue</EVENT>.
+
+"The United States and China have very important relationship," Burns <EVENT class="REPORTING" eid="e5">said</EVENT> in the opening address.
+
+"The relationship focuses on bilateral issues that motivate us <TIMEX3 type="DURATION" value="2006-11-08" tid="t2">from day to day</TIMEX3>, and we also <EVENT class="STATE" eid="e8">have</EVENT> other issues. (Because) together we have responsibility for global peace and global security," Burns <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The two sides had a candid and in-depth exchange of views on bilateral ties and international and regional issues of common concern, <EVENT class="REPORTING" eid="e10">according</EVENT> to a statement <EVENT class="OCCURRENCE" eid="e11">released</EVENT> by the Chinese Foreign Ministry.
+
+The dialogue also <EVENT class="OCCURRENCE" eid="e13">touched</EVENT> upon the Korean Peninsular nuclear issue. Burns <EVENT class="REPORTING" eid="e14">said</EVENT> in a <EVENT class="OCCURRENCE" eid="e15">meeting</EVENT> with Chinese Vice Foreign Minister Dai Bingguo that "we will <EVENT class="PERCEPTION" eid="e16">see</EVENT> what we can <EVENT class="OCCURRENCE" eid="e17">do</EVENT> with" the North Korea's nuclear issue.
+
+Later <TIMEX3 type="DATE" value="2006-11-08" tid="t3">Wednesday</TIMEX3>, Chinese Foreign Minister Li Zhaoxing also <EVENT class="OCCURRENCE" eid="e18">met</EVENT> with Burns.
+
+Burns <EVENT class="OCCURRENCE" eid="e19">arrived</EVENT> in Beijing <TIMEX3 type="TIME" value="2006-11-07TEV" tid="t4">Tuesday evening</TIMEX3>. This was his first time to <EVENT class="OCCURRENCE" eid="e20">lead</EVENT> the U.S. side in strategic dialogue with China.
+
+Two rounds of China-U.S. strategic <EVENT class="OCCURRENCE" eid="e21">dialogues</EVENT> had been <EVENT class="OCCURRENCE" eid="e22">held</EVENT> in <TIMEX3 type="DATE" value="2006-08" tid="t5">August</TIMEX3> and <TIMEX3 type="DATE" value="2005-12" tid="t6">December last year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000022" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToEventInstance="ei1000022" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei1000022" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

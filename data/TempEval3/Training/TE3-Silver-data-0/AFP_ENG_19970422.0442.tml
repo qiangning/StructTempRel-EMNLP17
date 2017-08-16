@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970422.0442</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="1997-04-22" temporalFunction="false" functionInDocument="CREATION_TIME">April 22 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>"President" Marsalis would make Mardi Gras national holiday</TITLE>
+
+
+<TEXT>
+
+Pulitzer Prize-winning jazz trumpeter Wynton Marsalis, <EVENT class="OCCURRENCE" eid="e1">responding</EVENT> to George magazine's "If I were president" questionnaire, <EVENT class="REPORTING" eid="e2">says</EVENT> he would <EVENT class="OCCURRENCE" eid="e3">bring</EVENT> a sense of rhythm to the White House.
+
+"The people would never <EVENT class="PERCEPTION" eid="e4">see</EVENT> me <EVENT class="OCCURRENCE" eid="e5">clapping</EVENT> on one and three," he <EVENT class="REPORTING" eid="e6">says</EVENT> when <EVENT class="I_ACTION" eid="e7">asked</EVENT> to <EVENT class="OCCURRENCE" eid="e8">name</EVENT> a reason to <EVENT class="OCCURRENCE" eid="e9">elect</EVENT> him.
+
+His first official act would be to <EVENT class="OCCURRENCE" eid="e10">make</EVENT> Mardi Gras "a national celebration."
+
+"I'd also <EVENT class="STATE" eid="e12">have</EVENT> a big computer <EVENT class="REPORTING" eid="e13">called</EVENT> the Match Maker, with everybody's name in it. You could <EVENT class="OCCURRENCE" eid="e14">call</EVENT> it up and <EVENT class="OCCURRENCE" eid="e15">find</EVENT> your perfect match," he <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+His running mate would be TV talk show <EVENT class="OCCURRENCE" eid="e18">host</EVENT> Oprah Winfrey, and his closest adviser would be Danny Sheridan, the oddsmaker.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0016</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Soldier killed in heavy exchange of fire between military, Abu Sayyaf</TITLE>
+
+
+<TEXT>
+
+One soldier was <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> during an <EVENT class="OCCURRENCE" eid="e2">encounter</EVENT> between the government troops and about 100 suspected Abu Sayyaf militants in the southern Philippines, the military <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-11-23" tid="t1">Wednesday</TIMEX3>.
+
+The military's counter-terrorism task force commander Brig. Gen. Alexander Aleo <EVENT class="REPORTING" eid="e4">told</EVENT> reporters that the heavy fire was <EVENT class="OCCURRENCE" eid="e5">exchanged</EVENT> after the soldiers <EVENT class="OCCURRENCE" eid="e6">ran</EVENT> into the Abu Sayyaf group in the mountains of Jolo Island.
+
+Although <EVENT class="OCCURRENCE" eid="e7">losing</EVENT> a soldier, the government troops also <EVENT class="OCCURRENCE" eid="e8">gave</EVENT> a big blow to the Abu Sayyaf group by <EVENT class="OCCURRENCE" eid="e9">killing</EVENT> an unknown number of rebels, he <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+<EVENT class="REPORTING" eid="e11">According</EVENT> to the military, five soldiers have been <EVENT class="OCCURRENCE" eid="e12">killed</EVENT> and 25 others <EVENT class="OCCURRENCE" eid="e13">wounded</EVENT> since the government troops and the Abu Sayyaf <EVENT class="ASPECTUAL" eid="e14">began</EVENT> a new round of clashes in the south.
+
+An estimated 25 rebels have also been <EVENT class="OCCURRENCE" eid="e15">killed</EVENT>, and almost 5,000 residents in the area were <EVENT class="OCCURRENCE" eid="e16">forced</EVENT> to <EVENT class="OCCURRENCE" eid="e17">flee</EVENT> their homes as a result of the <EVENT class="OCCURRENCE" eid="e18">clashes</EVENT>, it <EVENT class="OCCURRENCE" eid="e19">added</EVENT>.
+
+The Abu Sayyaf, which is <EVENT class="I_STATE" eid="e20">suspected</EVENT> of links with al-Qaida terrorist network and the regional terrorist network Jemaah Islamiah, has been <EVENT class="I_ACTION" eid="e21">blamed</EVENT> for a <EVENT class="OCCURRENCE" eid="e22">wave</EVENT> of <EVENT class="OCCURRENCE" eid="e23">bombings</EVENT> in the south and Manila since <TIMEX3 type="DATE" value="2002" tid="t2">2002</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0158</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesia sees 0.86 pct inflation in October</TITLE>
+
+
+<TEXT>
+
+Inflation in Indonesia was <EVENT class="I_ACTION" eid="e1">recorded</EVENT> at 0.86 percent in <TIMEX3 type="DATE" value="2006-10" tid="t1">October</TIMEX3> as the government is <EVENT class="OCCURRENCE" eid="e2">moving</EVENT> closer to <EVENT class="I_STATE" eid="e3">achieving</EVENT> a single-digit figure <TIMEX3 type="DATE" value="2006" tid="t2">this year</TIMEX3>, <EVENT class="REPORTING" eid="e4">according</EVENT> to a report <TIMEX3 type="DATE" value="2006-11-08" tid="t3">Wednesday</TIMEX3>.
+
+The consumer price index (CPI) in all commodity groups <EVENT class="OCCURRENCE" eid="e6">rose</EVENT> in <TIMEX3 type="DATE" value="2006-10" tid="t4">October</TIMEX3>, the Central Statistics Agency <EVENT class="REPORTING" eid="e7">said</EVENT> in its latest report.
+
+The CPI in foodstuff <EVENT class="STATE" eid="e9">was</EVENT> up by 2.17 percent, in food, beverages, cigarettes and tobacco 0.64 percent, in housing, water, electricity, gas and fuel 0.26 percent, in clothes 1 percent, in health services 0.29 percent, in education, tourism and sports 0.1 percent and in transportation, communication and financial services 0.46 percent.
+
+The agency also <EVENT class="REPORTING" eid="e12">reported</EVENT> year-on-year inflation <EVENT class="OCCURRENCE" eid="e14">eased</EVENT> to 6.29 percent and cumulative inflation in <TIMEX3 type="DURATION" value="P10M" tid="t6">the first 10 months</TIMEX3> of 2006 <EVENT class="OCCURRENCE" eid="e15">stayed</EVENT> low at 4.96 percent.
+
+The government has <EVENT class="I_STATE" eid="e16">forecast</EVENT> 2006 inflation of below 8 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

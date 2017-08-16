@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0236</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3>, (Xinhua)</DCT>
+
+<TITLE>market</TITLE>
+
+
+<TEXT>
+
+Warner Brothers International Cinemas (WBIC), a subsidiary of the U.S. media giant Time Warner, has <EVENT class="OCCURRENCE" eid="e1">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e2">pull</EVENT> out from six theatres it <TIMEX3 type="DATE" value="PRESENT_REF" tid="t1">currently</TIMEX3> <EVENT class="OCCURRENCE" eid="e3">runs</EVENT> with Chinese partners, <EVENT class="REPORTING" eid="e4">according</EVENT> to <TIMEX3 type="DATE" value="2006-11-16" tid="t2">Thursday</TIMEX3>'s Beijing News.
+
+The news report <EVENT class="REPORTING" eid="e5">quoted</EVENT> a media <EVENT class="OCCURRENCE" eid="e6">announcement</EVENT> by WBIC, <EVENT class="REPORTING" eid="e7">saying</EVENT> that "it has <EVENT class="OCCURRENCE" eid="e8">ceased</EVENT> <EVENT class="OCCURRENCE" eid="e9">investment</EVENT> in China's movie theater market due to major regulatory <EVENT class="OCCURRENCE" eid="e10">changes</EVENT>".
+
+The Chinese government in <TIMEX3 type="DATE" value="2005" tid="t3">2005</TIMEX3> <EVENT class="I_ACTION" eid="e11">barred</EVENT> foreign investors from holding majority stakes in joint ventures in the entertainment sector.
+
+WBIC will <EVENT class="OCCURRENCE" eid="e12">pull</EVENT> out of six theaters in six cities including Shanghai and Nanjing. "The final plan is under discussion," <EVENT class="REPORTING" eid="e14">said</EVENT> the <EVENT class="OCCURRENCE" eid="e15">announcement</EVENT>.
+
+The company <EVENT class="STATE" eid="e16">has</EVENT> plans in <TIMEX3 type="DATE" value="2004" tid="t4">2004</TIMEX3> to <EVENT class="OCCURRENCE" eid="e17">build</EVENT> 40 movie theatres in China by <TIMEX3 type="DATE" value="2008" tid="t5">2008</TIMEX3> through local partners.
+
+In <TIMEX3 type="DATE" value="2003" tid="t6">2003</TIMEX3> China <EVENT class="OCCURRENCE" eid="e18">allowed</EVENT> seven cities to <EVENT class="ASPECTUAL" eid="e19">open</EVENT> theatres with 75 percent foreign investment on a trial basis.
+
+The Shanghai Film Group Corp. has <EVENT class="REPORTING" eid="e20">shown</EVENT> interest in buying stakes in the six theaters.
+
+In <TIMEX3 type="DATE" value="2005" tid="t7">2005</TIMEX3>, eight theaters <EVENT class="OCCURRENCE" eid="e21">invested</EVENT> or <EVENT class="OCCURRENCE" eid="e22">managed</EVENT> by WBIC in China <EVENT class="STATE" eid="e23">had</EVENT> total box office revenues of 120 million yuan (15 million U.S. dollars).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1000017" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei18" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

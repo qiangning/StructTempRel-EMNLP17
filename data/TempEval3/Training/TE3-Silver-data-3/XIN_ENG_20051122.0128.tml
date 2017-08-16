@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0128</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese FM has phone coversation with Syrian counterpart</TITLE>
+
+
+<TEXT>
+
+Chinese Foreign Minister Li Zhaoxing had a telephone <EVENT class="OCCURRENCE" eid="e2">conversation</EVENT> with his Syrian counterpart Faruk <EVENT class="OCCURRENCE" eid="e3">al-Shareh</EVENT> <TIMEX3 type="DATE" value="2005-11-15TNI" tid="t1">Tuesday night</TIMEX3>, <EVENT class="REPORTING" eid="e4">according</EVENT> to the Chinese Foreign Ministry.
+
+The two <EVENT class="OCCURRENCE" eid="e5">exchanged</EVENT> views on regional issues, <EVENT class="REPORTING" eid="e6">said</EVENT> a ministry press release without <EVENT class="OCCURRENCE" eid="e7">giving</EVENT> any details.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

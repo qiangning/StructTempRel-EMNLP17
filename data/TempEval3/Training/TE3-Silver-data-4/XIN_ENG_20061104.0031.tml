@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0031</DOCID>
+
+<DCT>LANZHOU, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's 16th medical team leaves for Madagascar</TITLE>
+
+
+<TEXT>
+
+A 30-strong medical team on <TIMEX3 type="DATE" value="2006-11-04" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">left</EVENT> Lanzhou, capital of northwest China's Gansu Province, for a two-year <EVENT class="OCCURRENCE" eid="e2">mission</EVENT> in Madagascar.
+
+It is China's 16th medical detachment to the east African country since <TIMEX3 type="DATE" value="1975" tid="t3">1975</TIMEX3>.
+
+Zhong Liangting, leader of the team and three-time veteran of Madagascar, <EVENT class="REPORTING" eid="e3">said</EVENT> the members were <EVENT class="I_ACTION" eid="e4">chosen</EVENT> from medical organizations across Gansu, and included specialists in internal medicine, surgery, orthopaedics and gynecology.
+
+The team would <EVENT class="OCCURRENCE" eid="e5">provide</EVENT> services to local people in four hospitals.
+
+Gansu has <EVENT class="OCCURRENCE" eid="e6">sent</EVENT> 444 medical workers to <EVENT class="OCCURRENCE" eid="e7">work</EVENT> in Madagascar in <TIMEX3 type="DURATION" value="P31Y" tid="t4">the past 31 years</TIMEX3>, of whom 51 have been <EVENT class="OCCURRENCE" eid="e8">awarded</EVENT> national honors by Madagascar.
+
+China has <EVENT class="OCCURRENCE" eid="e9">sent</EVENT> a total of 15,000 medical personnel to 47 African nations and regions since the <EVENT class="OCCURRENCE" eid="e10">dispatch</EVENT> of its first medical team to Algeria in <TIMEX3 type="DATE" value="1963" tid="t5">1963</TIMEX3>, <EVENT class="REPORTING" eid="e11">according</EVENT> to the Foreign Ministry.
+
+About 950 Chinese medical staff are currently <EVENT class="OCCURRENCE" eid="e12">working</EVENT> in 36 African nations.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051125.0288</DOCID>
+
+<DCT>RIO DE JANEIRO, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Fire forces closure of Brazil's two nuclear power stations</TITLE>
+
+
+<TEXT>
+
+A fire in an electrical transformer <EVENT class="OCCURRENCE" eid="e1">forced</EVENT> the <EVENT class="OCCURRENCE" eid="e2">closure</EVENT> of Brazil's Angra I and Angra II nuclear power stations early <TIMEX3 type="DATE" value="2005-11-18TMO" tid="t1">Friday morning</TIMEX3>, state-owned nuclear electricity company Eletronuclear <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+The fire <EVENT class="OCCURRENCE" eid="e4">triggered</EVENT> the automatic protection system, which immediately <EVENT class="OCCURRENCE" eid="e5">shut</EVENT> down the nuclear electricity generation units of the two nuclear power stations, <EVENT class="OCCURRENCE" eid="e6">located</EVENT> in Rio De Janeiro state, Eletronuclear <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e8">accident</EVENT> <EVENT class="OCCURRENCE" eid="e9">happened</EVENT> outside the Angra II plant and was not <EVENT class="STATE" eid="e10">related</EVENT> to the nuclear generators, <EVENT class="REPORTING" eid="e11">said</EVENT> the company, <EVENT class="OCCURRENCE" eid="e12">adding</EVENT> that no abnormalities have been <EVENT class="I_ACTION" eid="e13">recorded</EVENT> inside the plant.
+
+Angra II will <EVENT class="STATE" eid="e14">remain</EVENT> closed until investigators <EVENT class="OCCURRENCE" eid="e16">find</EVENT> the cause of the fire.
+
+The automatic system <EVENT class="OCCURRENCE" eid="e18">disconnected</EVENT> Angra I automatically, although it <EVENT class="STATE" eid="e19">has</EVENT> no problems inside or outside. It will <EVENT class="ASPECTUAL" eid="e20">resume</EVENT> electricity generation straight away, Eletronuclear <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+The southeast of Brazil will not have access to the 1,350 megawatts of electricity <EVENT class="OCCURRENCE" eid="e22">generated</EVENT> by the two plants, but other generation sources will <EVENT class="OCCURRENCE" eid="e23">make</EVENT> up for the <EVENT class="OCCURRENCE" eid="e24">loss</EVENT>, it <EVENT class="REPORTING" eid="e25">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

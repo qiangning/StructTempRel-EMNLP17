@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051115.0151</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese state councilor meets ROK guest</TITLE>
+
+
+<TEXT>
+
+Chinese State Councilor Chen Zhili <EVENT class="OCCURRENCE" eid="e1">met</EVENT> with Oh Myung, deputy prime minister and minister of science and technology of the Republic of Korea (ROK), at the Diaoyutai State Guesthouse on <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3>.
+
+Chen <EVENT class="STATE" eid="e2">had</EVENT> an exchange of views with the guest on issues of common concern at a friendly atmosphere.
+
+Chen <EVENT class="REPORTING" eid="e3">said</EVENT>, China and ROK have a traditional friendship as neighboring countries. The bilateral <EVENT class="OCCURRENCE" eid="e4">cooperation</EVENT> in politics, economy, science and technology, education and culture has <EVENT class="OCCURRENCE" eid="e5">scored</EVENT> remarkable achievements.
+
+The bilateral <EVENT class="OCCURRENCE" eid="e6">cooperation</EVENT> in science and technology is reciprocal and <EVENT class="OCCURRENCE" eid="e7">enjoys</EVENT> a bright prospect, Chen <EVENT class="REPORTING" eid="e8">said</EVENT>, <EVENT class="OCCURRENCE" eid="e9">adding</EVENT> that the two sides should <EVENT class="OCCURRENCE" eid="e10">join</EVENT> hands to <EVENT class="OCCURRENCE" eid="e11">push</EVENT> the <EVENT class="OCCURRENCE" eid="e12">cooperation</EVENT> to a higher stage of development.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+
+
+
+
+</TimeML>

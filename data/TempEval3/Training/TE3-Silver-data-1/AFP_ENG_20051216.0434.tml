@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051216.0434</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>Ukraine-Russia gas dispute not to be politicised: Putin</TITLE>
+
+
+<TEXT>
+
+A <EVENT class="OCCURRENCE" eid="e1">dispute</EVENT> between Russia and Ukraine over gas supplies to the strategic transit country should not be <EVENT class="OCCURRENCE" eid="e2">politicised</EVENT>, Russian President Vladimir Putin <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3> after a telephone <EVENT class="OCCURRENCE" eid="e4">discussion</EVENT> with Ukrainian counterpart Viktor Yushchenko.
+
+"We are in agreement on not <EVENT class="OCCURRENCE" eid="e5">politicising</EVENT> the question of gas," Putin <EVENT class="REPORTING" eid="e6">said</EVENT>, <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> by the Interfax news agency.
+
+Yushchenko had <EVENT class="I_STATE" eid="e8">assured</EVENT> Putin that he would not <EVENT class="OCCURRENCE" eid="e9">allow</EVENT> "the politicisation of this question and I <EVENT class="I_ACTION" eid="e10">agree</EVENT> with him," the Russian leader <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+"A market <EVENT class="OCCURRENCE" eid="e12">exists</EVENT> and all our partners should <EVENT class="OCCURRENCE" eid="e13">benefit</EVENT> from equal conditions. Economic matters are one thing, politics another," Putin <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+Analysts have <EVENT class="OCCURRENCE" eid="e15">detected</EVENT> in the current <EVENT class="OCCURRENCE" eid="e16">dispute</EVENT> Moscow's disapproval of <TIMEX3 type="DATE" value="2004" tid="t2">last year</TIMEX3>'s "orange revolution", which <EVENT class="OCCURRENCE" eid="e18">set</EVENT> Kiev on a pro-Western course.
+
+The Russian energy giant Gazprom has <EVENT class="REPORTING" eid="e19">said</EVENT> the <EVENT class="OCCURRENCE" eid="e20">dispute</EVENT> <EVENT class="I_ACTION" eid="e21">threatens</EVENT> supplies through Ukraine to other European countries, the main transit route for Russian gas supplies to Europe.
+
+The <EVENT class="OCCURRENCE" eid="e22">dispute</EVENT> <EVENT class="OCCURRENCE" eid="e23">centres</EVENT> on a <EVENT class="OCCURRENCE" eid="e24">demand</EVENT> by Gazprom that Ukraine pay market prices for gas supplies to Ukrainian consumers, rather than <EVENT class="OCCURRENCE" eid="e26">sticking</EVENT> to the current barter arrangement whereby Ukraine gets cut-price gas in exchange for <EVENT class="OCCURRENCE" eid="e29">providing</EVENT> transit to other countries.
+
+Gazprom chairman Alexei Miller <EVENT class="REPORTING" eid="e30">said</EVENT> earlier <TIMEX3 type="DATE" value="2005-W50" tid="t3">this week</TIMEX3> that supplies to the Ukrainian market could be <EVENT class="OCCURRENCE" eid="e32">cut</EVENT> altogether if Kiev did not <EVENT class="I_ACTION" eid="e33">agree</EVENT> to the company's terms by <TIMEX3 type="DATE" value="2005-01-01" tid="t4">January 1</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei30" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei33" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei29" relType="AFTER" />
+
+
+
+
+</TimeML>

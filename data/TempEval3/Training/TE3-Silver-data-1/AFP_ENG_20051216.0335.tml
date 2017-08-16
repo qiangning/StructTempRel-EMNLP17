@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051216.0335</DOCID>
+
+<DCT>ISTANBUL, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>Turkey's top mafia boss jailed for 14 years</TITLE>
+
+
+<TEXT>
+
+Turkey's most notorious mafia leader was <EVENT class="OCCURRENCE" eid="e1">sentenced</EVENT> <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3> to more than 14 years in jail for a gang-related <EVENT class="OCCURRENCE" eid="e2">attack</EVENT> on a cafe but <EVENT class="REPORTING" eid="e3">told</EVENT> his relatives "it is not important, do not be sad," the Anatolia news agency <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Alaattin Cakici was <EVENT class="OCCURRENCE" eid="e5">convicted</EVENT> of <EVENT class="OCCURRENCE" eid="e6">ordering</EVENT> an armed <EVENT class="OCCURRENCE" eid="e7">attack</EVENT> in <TIMEX3 type="DATE" value="2000" tid="t2">2000</TIMEX3> that <EVENT class="OCCURRENCE" eid="e8">injured</EVENT> 15 people at a cafe <EVENT class="OCCURRENCE" eid="e9">frequented</EVENT> by a rival gang, and <EVENT class="OCCURRENCE" eid="e10">sentenced</EVENT> to <TIMEX3 type="DURATION" value="2005-12-16" tid="t3">14 years, nine months</TIMEX3> and <TIMEX3 type="DURATION" value="P20D" tid="t4">20</TIMEX3> days.
+
+"It is not important. Do not be sad," the 52-year-old <EVENT class="REPORTING" eid="e11">told</EVENT> relatives as he was being <EVENT class="OCCURRENCE" eid="e12">escorted</EVENT> out of the court building, Anatolia <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+It was the second time the mafia boss had been <EVENT class="I_ACTION" eid="e14">tried</EVENT> over the <EVENT class="OCCURRENCE" eid="e15">attack</EVENT>.
+
+He had already <EVENT class="OCCURRENCE" eid="e16">spent</EVENT> <TIMEX3 type="DURATION" value="P3Y" tid="t5">three years</TIMEX3> in jail, but the appeals court <EVENT class="OCCURRENCE" eid="e17">overturned</EVENT> part of the <EVENT class="OCCURRENCE" eid="e18">ruling</EVENT> and <EVENT class="I_ACTION" eid="e19">asked</EVENT> that his sentence be <EVENT class="OCCURRENCE" eid="e20">increased</EVENT>.
+
+Cakici is a former far-right militant turned mob leader in <TIMEX3 type="DURATION" value="199" tid="t6">the 1990s</TIMEX3>. He <EVENT class="REPORTING" eid="e22">claims</EVENT> to <EVENT class="STATE" eid="e23">have</EVENT> links with the country's intelligence services and to have <EVENT class="OCCURRENCE" eid="e25">enjoyed</EVENT> <EVENT class="OCCURRENCE" eid="e26">protection</EVENT> by politicians.
+
+Cakici, who was <EVENT class="OCCURRENCE" eid="e27">extradited</EVENT> from Austria <TIMEX3 type="DATE" value="2004" tid="t7">last year</TIMEX3>, is <EVENT class="OCCURRENCE" eid="e28">indicted</EVENT> in five other cases.
+
+He <EVENT class="OCCURRENCE" eid="e29">risks</EVENT> life imprisonment for two of them -- for <EVENT class="OCCURRENCE" eid="e30">ordering</EVENT> the <EVENT class="OCCURRENCE" eid="e31">murders</EVENT> of his wife 1995 and of four other people, including his former right-hand man, in <TIMEX3 type="DATE" value="1996" tid="t9">1996</TIMEX3>.
+
+He will also <EVENT class="I_STATE" eid="e32">stand</EVENT> <EVENT class="OCCURRENCE" eid="e33">trial</EVENT> for his role in the failed <EVENT class="OCCURRENCE" eid="e35">privatization</EVENT> of the public Turkbank in <TIMEX3 type="DATE" value="1998" tid="t10">1998</TIMEX3>, which <EVENT class="OCCURRENCE" eid="e36">toppled</EVENT> the government then in power.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei31" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei36" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

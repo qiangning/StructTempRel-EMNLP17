@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0076</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Fiscal deficit of Philippines drops greatly in first 10 months</TITLE>
+
+
+<TEXT>
+
+The fiscal deficit in <TIMEX3 type="DATE" value="2006-11-16T10:00" tid="t1">the first 10 months this year</TIMEX3> of the Philippine government <EVENT class="OCCURRENCE" eid="e1">reached</EVENT> 56.3 billion pesos (1.12 billion U.S. dollars), lower than 115.5 billion pesos (2.23 billion U.S. dollars) <EVENT class="OCCURRENCE" eid="e2">incurred</EVENT> during the same period <TIMEX3 type="DATE" value="2005" tid="t3">last year</TIMEX3>, the Philippine Central Bank <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-16" tid="t4">Thursday</TIMEX3>.
+
+The lower deficit was a result of better revenue performance and lower-than-expected spending due to the non-approval of the 2006 proposed budget bill, <EVENT class="REPORTING" eid="e4">said</EVENT> the central bank.
+
+Moreover, the first <TIMEX3 type="DURATION" value="P10M" tid="t6">ten months</TIMEX3>' deficit is just 45 percent of the full year target of 125 billion pesos (2.5 billion U.S. dollars).
+
+From <TIMEX3 type="DATE" value="2006-01" tid="t7">January</TIMEX3> to October, government revenues were up by 19 percent <EVENT class="OCCURRENCE" eid="e5">compared</EVENT> to the same period <TIMEX3 type="DATE" value="2005" tid="t9">last year</TIMEX3>, with collections of the Bureau of Internal Revenue and the Bureau of Customs <EVENT class="OCCURRENCE" eid="e6">reaching</EVENT> 522.8 billion pesos 10.5 billion U.S. dollars) and 159.8 billion pesos (3.2 billion U.S. dollars) respectively.
+
+The Philippine government is <EVENT class="OCCURRENCE" eid="e7">cutting</EVENT> its fiscal deficit as part of its fiscal reform package which is <EVENT class="I_STATE" eid="e8">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e9">reaching</EVENT> zero deficit by <TIMEX3 type="DATE" value="2010" tid="t10">2010</TIMEX3>, <TIMEX3 type="DURATION" value="P1Y" tid="t11">the year</TIMEX3> President Gloria Macapagal Arroyo's presidential term <EVENT class="ASPECTUAL" eid="e10">expires</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1000005" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei1000005" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

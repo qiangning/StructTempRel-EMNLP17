@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970426.0106</DOCID>
+
+<DCT>DUSSELDORF, Germany, <TIMEX3 tid="t0" type="TIME" value="1997-04-26" temporalFunction="false" functionInDocument="CREATION_TIME">April 26 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Kurds demonstrate in favour of peace with Ankara</TITLE>
+
+
+<TEXT>
+
+Some 50,000 Kurds <EVENT class="OCCURRENCE" eid="e1">calling</EVENT> for a peaceful resolution to the bloody <EVENT class="OCCURRENCE" eid="e2">battle</EVENT> with Ankara for an independent Kurdish homeland, were <EVENT class="I_STATE" eid="e3">expected</EVENT> <TIMEX3 type="DATE" value="1997-04-26" tid="t1">Saturday</TIMEX3> in Dusseldorf, western Germany, organisers <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+The Kurds were <EVENT class="OCCURRENCE" eid="e5">converging</EVENT> here on <TIMEX3 type="DATE" value="1997-04-26" tid="t2">Saturday</TIMEX3> from all over Germany, the Netherlands and Belgium for the <EVENT class="OCCURRENCE" eid="e6">demonstration</EVENT>, in 450 coaches and two special trains.
+
+At least 10,000 had <EVENT class="OCCURRENCE" eid="e7">arrived</EVENT> <TIMEX3 type="TIME" value="1997-04-19TMO" tid="t3">early Saturday morning</TIMEX3>, police <EVENT class="REPORTING" eid="e8">said</EVENT>. They were <EVENT class="OCCURRENCE" eid="e9">due</EVENT> <TIMEX3 type="TIME" value="1997-05-03TAF" tid="t4">Saturday afternoon</TIMEX3> to <EVENT class="OCCURRENCE" eid="e10">stage</EVENT> a <EVENT class="OCCURRENCE" eid="e11">rally</EVENT> at a public space on the banks of the river Rhine.
+
+Some 1,000 police were <EVENT class="OCCURRENCE" eid="e12">called</EVENT> in to Dusseldorf to <EVENT class="OCCURRENCE" eid="e13">monitor</EVENT> the <EVENT class="OCCURRENCE" eid="e14">demonstration</EVENT>.
+
+No <EVENT class="OCCURRENCE" eid="e15">incidents</EVENT> were <EVENT class="ASPECTUAL" eid="e16">signalled</EVENT> by police.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

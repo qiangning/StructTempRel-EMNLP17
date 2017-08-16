@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061126.0263</DOCID>
+
+<DCT>JOHANNESBURG, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>S. African basketball coach dies during match</TITLE>
+
+
+<TEXT>
+
+South African basketball <EVENT class="OCCURRENCE" eid="e1">suffered</EVENT> a tragic <EVENT class="OCCURRENCE" eid="e2">loss</EVENT> when leading coach and former Serbian national player Nikola Jokanovic <EVENT class="OCCURRENCE" eid="e3">died</EVENT> while coaching his team in a Premier Basketball League (PBL) <EVENT class="OCCURRENCE" eid="e5">match</EVENT> in Johannesburg on <TIMEX3 type="DATE" value="2006-11-26" tid="t1">Sunday</TIMEX3>.
+
+Jokanovic, who <EVENT class="STATE" eid="e6">was</EVENT> the player coach of Tshwane Suns, <EVENT class="OCCURRENCE" eid="e7">collapsed</EVENT> in a dressing room shortly after <EVENT class="OCCURRENCE" eid="e8">leading</EVENT> his side off the court in the <EVENT class="OCCURRENCE" eid="e9">match</EVENT> against the Olympians, the Basketball South Africa (BSA) <EVENT class="REPORTING" eid="e10">said</EVENT> in a statement.
+
+Efforts by medics to <EVENT class="OCCURRENCE" eid="e11">revive</EVENT> him <EVENT class="OCCURRENCE" eid="e12">failed</EVENT> and he was <EVENT class="REPORTING" eid="e13">declared</EVENT> dead by medical staff.
+
+BSA President and PBL vice chairman Vusi Mgobhozi <EVENT class="OCCURRENCE" eid="e14">expressed</EVENT> his shock at the <EVENT class="OCCURRENCE" eid="e15">death</EVENT> of Jokanovic and <EVENT class="OCCURRENCE" eid="e16">conveyed</EVENT> his condolences to his family, friends and the Serbian community in South Africa.
+
+Tshwane Suns' Dion Karagiannis <EVENT class="REPORTING" eid="e17">said</EVENT> that his team <EVENT class="OCCURRENCE" eid="e18">lost</EVENT> more than a coach in Jokanovic.
+
+"He was <EVENT class="STATE" eid="e19">passionate</EVENT> about basketball and <EVENT class="OCCURRENCE" eid="e20">lived</EVENT> for the game. We <EVENT class="I_STATE" eid="e21">want</EVENT> to <EVENT class="OCCURRENCE" eid="e22">express</EVENT> our heartfelt condolences to everyone who were <EVENT class="OCCURRENCE" eid="e23">associated</EVENT> with Nikola," Karagiannis <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

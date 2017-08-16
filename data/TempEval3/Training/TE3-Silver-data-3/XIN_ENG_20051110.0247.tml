@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0247</DOCID>
+
+<DCT>NAIROBI, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>French foreign trade minister due in Kenya Friday</TITLE>
+
+
+<TEXT>
+
+French Minister for Foreign Trade Christine Lagardo is due in Kenya on <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3> for a two-day <EVENT class="OCCURRENCE" eid="e2">visit</EVENT> to <EVENT class="OCCURRENCE" eid="e3">discuss</EVENT> trade and development issues, officials <EVENT class="REPORTING" eid="e4">disclosed</EVENT> here <TIMEX3 type="DATE" value="2005-11-10" tid="t3">Thursday</TIMEX3>.
+
+During her <EVENT class="OCCURRENCE" eid="e5">visit</EVENT> to Kenya, which <EVENT class="OCCURRENCE" eid="e6">comes</EVENT> just <TIMEX3 type="DURATION" value="P6W" tid="t4">six weeks</TIMEX3> before the World Trade Organization's (WTO) ministerial conference to be <EVENT class="OCCURRENCE" eid="e8">held</EVENT> in Hong Kong in <TIMEX3 type="DATE" value="2004-12" tid="t5">December</TIMEX3>, Lagardo will <EVENT class="REPORTING" eid="e9">emphasize</EVENT> the key priorities that France attaches to the development aspect of the global trade <EVENT class="OCCURRENCE" eid="e10">negotiations</EVENT>, <EVENT class="REPORTING" eid="e11">said</EVENT> a statement from the French Embassy in Nairobi.
+
+"Lagardo will <EVENT class="OCCURRENCE" eid="e12">discuss</EVENT> trade and development issues. She will also <EVENT class="OCCURRENCE" eid="e13">stress</EVENT> the important priority that France <EVENT class="OCCURRENCE" eid="e14">attaches</EVENT> to the development aspect of the WTO <EVENT class="OCCURRENCE" eid="e15">negotiations</EVENT> and especially the issues of access to medicines in African countries," the statement <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+The French minister, who <EVENT class="OCCURRENCE" eid="e17">arrives</EVENT> from west Africa where she <EVENT class="OCCURRENCE" eid="e18">visited</EVENT> Benin and Nigeria, will <EVENT class="OCCURRENCE" eid="e19">hold</EVENT> <EVENT class="OCCURRENCE" eid="e20">talks</EVENT> with Kenyan authorities and the relevant stakeholders as well as representatives of the private sector and nongovernmental organizations.
+
+She is also <EVENT class="I_STATE" eid="e21">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e22">visit</EVENT> a factory producing generic drugs in Nairobi, as well as a coffee firm in the outskirts of the Kenyan capital.
+
+The WTO <EVENT class="OCCURRENCE" eid="e24">talks</EVENT> in Hong Kong are part of the four-year-old Doha Round <EVENT class="OCCURRENCE" eid="e25">talks</EVENT> which <EVENT class="OCCURRENCE" eid="e26">aims</EVENT> to <EVENT class="OCCURRENCE" eid="e27">expand</EVENT> free trade in a way that benefits poor countries.
+
+African nations have <EVENT class="STATE" eid="e28">remained</EVENT> adamant that no <EVENT class="OCCURRENCE" eid="e29">deals</EVENT> would be <EVENT class="OCCURRENCE" eid="e30">struck</EVENT> on the agricultural fronts during the <EVENT class="OCCURRENCE" eid="e31">talks</EVENT> because of the huge agricultural subsidies given by the United States and the European Union.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051125.0145</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>examinees</TITLE>
+
+
+<TEXT>
+
+Some 365,000 people around China have <EVENT class="OCCURRENCE" eid="e1">applied</EVENT> to <EVENT class="OCCURRENCE" eid="e2">attend</EVENT> the national civil servant qualification <EVENT class="OCCURRENCE" eid="e3">exam</EVENT> for 10,282 posts available <TIMEX3 type="DATE" value="2006" tid="t1">next year</TIMEX3> in central government departments, the Ministry of Personnel <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-11-25" tid="t2">Friday</TIMEX3>.
+
+This <EVENT class="I_STATE" eid="e5">means</EVENT> roughly 35 candidates will <EVENT class="OCCURRENCE" eid="e6">compete</EVENT> for one post in 97 departments of the central government, <EVENT class="REPORTING" eid="e7">said</EVENT> a ministry official.
+
+<EVENT class="REPORTING" eid="e8">According</EVENT> to the official, the exam <TIMEX3 type="DATE" value="2005" tid="t3">this year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e9">scheduled</EVENT> for <TIMEX3 type="DATE" value="2005-11-19" tid="t4">Saturday</TIMEX3> in 347 exam spots across the country, for the first time <EVENT class="OCCURRENCE" eid="e10">calls</EVENT> off limitations, such as household registration, gender, appearance and marriage status, so as to <EVENT class="OCCURRENCE" eid="e11">offer</EVENT> equal opportunities for examinees.
+
+The exam fee is <EVENT class="OCCURRENCE" eid="e12">exempted</EVENT> for examinees from impoverished families.
+
+Inspection teams <EVENT class="OCCURRENCE" eid="e13">sent</EVENT> by the central authorities will be <EVENT class="OCCURRENCE" eid="e14">touring</EVENT> the exam spot for supervision, the official <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+The result of the exam will be <EVENT class="OCCURRENCE" eid="e16">released</EVENT> at the website of the Ministry of Personnel in <TIMEX3 type="DATE" value="2005-11-25" tid="t6">late December</TIMEX3>.
+
+With severe employment pressure, civil service has <EVENT class="STATE" eid="e17">become</EVENT> one of most popular professions in the country over <TIMEX3 type="DURATION" value="PXY" tid="t7">recent years</TIMEX3> for its stable incomes, lofty social status and perfect welfare insurance.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051115.0127</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hong Kong share prices close almost flat -- Nov. 15</TITLE>
+
+
+<TEXT>
+
+Hong Kong shares <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> almost flat <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3> with Hang Seng Index <EVENT class="OCCURRENCE" eid="e2">falling</EVENT> 2.08 points, or 0.01 percent, to 14,627.41 after <EVENT class="OCCURRENCE" eid="e3">trading</EVENT> between <TIMEX3 type="DATE" value="2005-11-15" tid="t2">14,518.75</TIMEX3> and 14,671. 02 during the <EVENT class="OCCURRENCE" eid="e4">session</EVENT>.
+
+Turnover <EVENT class="PERCEPTION" eid="e5">totaled</EVENT> 16.11 billion HK dollars, down from 17.1 billion HK dollars <TIMEX3 type="DATE" value="2005-11-14" tid="t4">Monday</TIMEX3>.
+
+Property shares <EVENT class="OCCURRENCE" eid="e6">fell</EVENT>. Sun Hung Kai Properties <EVENT class="OCCURRENCE" eid="e7">slipped</EVENT> 0.5 percent to 72.3 HK dollars while Henderson Land Development <EVENT class="OCCURRENCE" eid="e8">lost</EVENT> 0. 4 percent to 34.75 HK dollars.
+
+Mid-tier developer New World Development <EVENT class="OCCURRENCE" eid="e9">fell</EVENT> 0.5 percent to 9.45 HK dollars and Sino Land <EVENT class="OCCURRENCE" eid="e10">dropped</EVENT> 2.4 percent to 8.25 HK dollars. The Hang Seng Properties sub-index <EVENT class="OCCURRENCE" eid="e11">shed</EVENT> 0.4 percent to 17,265.36.
+
+HSBC Holdings also <EVENT class="STATE" eid="e12">weighed</EVENT> on the benchmark share index, <EVENT class="ASPECTUAL" eid="e13">ending</EVENT> down 0.1 percent at 124.4 HK dollars.
+
+The <EVENT class="OCCURRENCE" eid="e14">declines</EVENT> of HSBC and property stocks <EVENT class="OCCURRENCE" eid="e15">offset</EVENT> the slim <EVENT class="OCCURRENCE" eid="e16">gains</EVENT> of other index heavyweights.
+
+Cheung Kong and Hutchison Whampoa, two blue chips owned by tycoon Li Ka-shing, <EVENT class="OCCURRENCE" eid="e17">rebounded</EVENT> slightly from recent <EVENT class="OCCURRENCE" eid="e18">falls</EVENT>.
+
+Hutchison shares <EVENT class="OCCURRENCE" eid="e19">rose</EVENT> 0.3 percent to 73.25 HK dollars, while Cheung Kong <EVENT class="OCCURRENCE" eid="e20">edged</EVENT> up 0.1 percent to 78.35 HK dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

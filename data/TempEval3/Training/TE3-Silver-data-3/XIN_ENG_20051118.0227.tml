@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051118.0227</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>humans</TITLE>
+
+
+<TEXT>
+
+The Beijing-based vaccine producer Sinovac Biotech, the first in the world to <EVENT class="OCCURRENCE" eid="e1">develop</EVENT> SARS vaccine, <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2005-11-18" tid="t1">Friday</TIMEX3> it has <EVENT class="OCCURRENCE" eid="e3">made</EVENT> <EVENT class="OCCURRENCE" eid="e4">preparations</EVENT> to <EVENT class="OCCURRENCE" eid="e5">produce</EVENT> human-use bird flu vaccine in mass quantity.
+
+Sinovac has <EVENT class="OCCURRENCE" eid="e6">installed</EVENT> a special production line for the human-use bird flu vaccine, <EVENT class="REPORTING" eid="e7">said</EVENT> Yin Weidong. general manager of the company, which is <EVENT class="OCCURRENCE" eid="e8">working</EVENT> with the Chinese Center for Disease Control and Prevention to <EVENT class="OCCURRENCE" eid="e9">research</EVENT> bird flu human vaccine.
+
+"We have <EVENT class="OCCURRENCE" eid="e10">applied</EVENT> for human clinical <EVENT class="OCCURRENCE" eid="e11">trials</EVENT> for the vaccine with the Chinese State Food and Drug Administration and the vaccine can be <EVENT class="OCCURRENCE" eid="e12">put</EVENT> into production once the clinical trials complete," <EVENT class="REPORTING" eid="e13">said</EVENT> Yin, <EVENT class="OCCURRENCE" eid="e14">adding</EVENT> the price of the vaccine could be <EVENT class="STATE" eid="e15">lower</EVENT> than the commonly-used flu vaccines.
+
+Chinese scientists have <EVENT class="OCCURRENCE" eid="e16">developed</EVENT> a bird flue vaccine for human use and will <EVENT class="OCCURRENCE" eid="e18">carry</EVENT> out clinical tests in days.
+
+"Tests show that the vaccine is highly safe," <EVENT class="REPORTING" eid="e20">said</EVENT> Yin.
+
+<EVENT class="OCCURRENCE" eid="e21">Founded</EVENT> in <TIMEX3 type="DATE" value="2001" tid="t3">2001</TIMEX3>, Sinovac, known in China as Beijing Kexing Bioproducts Limited Company, focuses on manufacturing and marketing human-use vaccines and related products for infectious diseases such as Hepatitis A and Hepatitis B, influenza and SARS.
+
+The company was <EVENT class="OCCURRENCE" eid="e25">designated</EVENT> to <EVENT class="OCCURRENCE" eid="e26">cooperate</EVENT> with the state disease control and prevention center to <EVENT class="OCCURRENCE" eid="e28">carry</EVENT> out the <EVENT class="OCCURRENCE" eid="e29">research</EVENT> and <EVENT class="OCCURRENCE" eid="e30">development</EVENT> for human-use bird flu vaccine, to be <EVENT class="OCCURRENCE" eid="e31">used</EVENT> for <EVENT class="I_ACTION" eid="e32">preventing</EVENT> the disease among humans, since the <EVENT class="OCCURRENCE" eid="e33">epidemic</EVENT> among birds was first <EVENT class="OCCURRENCE" eid="e34">found</EVENT> in <TIMEX3 type="DATE" value="2004-03" tid="t4">March 2004</TIMEX3>.
+
+"We <EVENT class="OCCURRENCE" eid="e35">get</EVENT> the virus samples from the lab of the influenza center under the World Health Organization and the research is <EVENT class="OCCURRENCE" eid="e36">going</EVENT> on well," <EVENT class="REPORTING" eid="e37">said</EVENT> Yin.
+
+"If the bird flu virus mutates, we can <EVENT class="OCCURRENCE" eid="e39">develop</EVENT> new vaccines in <TIMEX3 type="DURATION" value="P4M" tid="t5">four months</TIMEX3>," <EVENT class="REPORTING" eid="e40">said</EVENT> Yin.
+
+Millions of chickens, ducks, geese and other poultry have been <EVENT class="OCCURRENCE" eid="e41">culled</EVENT> after bird flu <EVENT class="OCCURRENCE" eid="e42">outbreaks</EVENT> were <EVENT class="REPORTING" eid="e43">reported</EVENT> in Xinjiang, Inner Mongolia, Liaoning, Hunan, Hubei, and Anhui provinces <TIMEX3 type="DATE" value="2005" tid="t6">this year</TIMEX3>.
+
+China's health authorities have <EVENT class="REPORTING" eid="e44">confirmed</EVENT> on <TIMEX3 type="DATE" value="2005-11-16" tid="t7">Wednesday</TIMEX3> the first two human infection cases of bird flu in the country, and enhanced <EVENT class="OCCURRENCE" eid="e45">efforts</EVENT> to <EVENT class="I_ACTION" eid="e46">prevent</EVENT> and <EVENT class="STATE" eid="e47">control</EVENT> the epidemic.
+
+Chinese Premier Wen Jiabao <EVENT class="OCCURRENCE" eid="e48">inspected</EVENT> the workshops of bird flu vaccine and medicine for human use in Sinovac on <TIMEX3 type="DATE" value="2005-11-17" tid="t8">Thursday</TIMEX3> and <EVENT class="REPORTING" eid="e50">called</EVENT> for new progress on the research and <EVENT class="OCCURRENCE" eid="e51">development</EVENT> of the bird flu vaccine.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei48" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei41" relatedToEventInstance="ei44" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei44" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei34" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei39" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei25" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei44" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei44" relatedToEventInstance="ei47" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei44" relatedToEventInstance="ei46" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei25" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei50" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei50" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei43" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei41" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei48" relatedToEventInstance="ei51" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei48" relatedToEventInstance="ei50" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei25" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei25" relatedToEventInstance="ei37" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l57" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l58" eventInstanceID="ei37" relatedToEventInstance="ei40" relType="SIMULTANEOUS" />
+<TLINK lid="l59" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l60" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l61" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l62" eventInstanceID="ei44" relatedToEventInstance="ei45" relType="AFTER" />
+
+
+
+
+</TimeML>

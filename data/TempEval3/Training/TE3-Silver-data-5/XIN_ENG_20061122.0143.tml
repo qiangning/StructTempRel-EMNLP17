@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0143</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Seven foreign oil workers confirmed hostages in southern Nigeria</TITLE>
+
+
+<TEXT>
+
+Gunmen have <EVENT class="OCCURRENCE" eid="e1">kidnapped</EVENT> seven foreign workers including one Italian from an Agip oil vessel off the Nigerian coast, industry and security officials <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-22" tid="t1">Wednesday</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e3">According</EVENT> to a statement <EVENT class="OCCURRENCE" eid="e4">released</EVENT> by Italian oil company Eni, parent company of Agip, seven of its workers were <EVENT class="OCCURRENCE" eid="e5">taken</EVENT> hostage when 10 armed men <EVENT class="OCCURRENCE" eid="e6">attacked</EVENT> the vessel where there were 83 crew members aboard.
+
+The nationalities of the other hostages were not immediately known, the statement <EVENT class="OCCURRENCE" eid="e8">added</EVENT>, <EVENT class="OCCURRENCE" eid="e9">adding</EVENT> that "the remaining 76 members of the crew are in good health and no <EVENT class="OCCURRENCE" eid="e10">damage</EVENT> to the ship was <EVENT class="REPORTING" eid="e11">reported</EVENT>."
+
+The vessel was about 50 km off the coast of Nigeria's southern Rivers State when <EVENT class="OCCURRENCE" eid="e13">attacked</EVENT>, Nigerian security officials <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e15">kidnappings</EVENT> were the latest in a series of <EVENT class="OCCURRENCE" eid="e16">attack</EVENT> on oil installations in the volatile Niger Delta, where most of the country's oil is <EVENT class="OCCURRENCE" eid="e17">produced</EVENT>.
+
+Since <TIMEX3 type="DATE" value="2006-11-22" tid="t2">the beginning of the year</TIMEX3>, militant groups have constantly <EVENT class="OCCURRENCE" eid="e18">attacked</EVENT> oil facilities and taken oil workers as hostages.
+
+Nigeria, Africa's largest oil producer and the sixth largest oil exporter in the world, has a daily crude oil output of 2.6 million barrels.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0752</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891027-0143 = 891027 891027-0143.
+Dividend News: @ AEP Industries Inc. 10/27/89 WALL STREET JOURNAL (J) AEPI DIVIDENDS (DIV)
+</EXTRAINFO>
+
+<TEXT>
+AEP INDUSTRIES Inc. directors <EVENT eid="e1" class="I_ACTION">authorized</EVENT> a 3-for-2 <EVENT eid="e2" class="OCCURRENCE">split</EVENT> of the common, payable <TIMEX3 tid="t1" type="DATE" value="1989-12-07" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">Dec. 7</TIMEX3> to stock of record <TIMEX3 tid="t2" type="DATE" value="1989-11-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">Nov. 22</TIMEX3>. The <EVENT eid="e3" class="OCCURRENCE">split</EVENT> was <EVENT eid="e4" class="I_STATE">aimed</EVENT> at <EVENT eid="e5" class="I_ACTION">boosting</EVENT> the stock's liquidity, <EVENT eid="e6" class="REPORTING">said</EVENT> Brendan Barba, chairman of the Moonachie, N.J., maker of plastic film products. After the <EVENT eid="e7" class="OCCURRENCE">split</EVENT>, the company will <EVENT eid="e8" class="STATE">have</EVENT> more than 4.7 million shares outstanding. In national over-the-counter <EVENT eid="e9" class="OCCURRENCE">trading</EVENT> <TIMEX3 tid="t3" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">yesterday</TIMEX3>, AEP shares <EVENT eid="e10" class="OCCURRENCE">closed</EVENT> at $21.25, down 50 cents.
+</TEXT>
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t3" relatedToTime="t0" />
+<TLINK lid="l2" relType="BEFORE" timeID="t0" relatedToTime="t2" />
+<TLINK lid="l3" relType="BEFORE" timeID="t2" relatedToTime="t1" />
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei7" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l14" relType="ENDED_BY" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei8" />
+
+</TimeML>
+

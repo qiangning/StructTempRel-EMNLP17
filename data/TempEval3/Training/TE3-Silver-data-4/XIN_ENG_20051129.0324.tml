@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0324</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>AC Milan close to Italian Cup quarters</TITLE>
+
+
+<TEXT>
+
+AC Milan <EVENT class="OCCURRENCE" eid="e1">came</EVENT> close to a <EVENT class="OCCURRENCE" eid="e2">berth</EVENT> to the quarterfianls of Italian Cup after <EVENT class="OCCURRENCE" eid="e3">beating</EVENT> Serie B side Brescia 3-1 in their fourth round first-leg match on <TIMEX3 type="DATE" value="2005-12-06" tid="t1">Tuesday</TIMEX3>.
+
+Portuguese midfielder Rui Costa <EVENT class="OCCURRENCE" eid="e5">scored</EVENT> one goal and <EVENT class="OCCURRENCE" eid="e6">laid</EVENT> on another to <EVENT class="OCCURRENCE" eid="e7">steer</EVENT> Milan to the home victory.
+
+Milan, <EVENT class="OCCURRENCE" eid="e8">playing</EVENT> without a number of first-team regulars, <EVENT class="OCCURRENCE" eid="e9">opened</EVENT> the <EVENT class="OCCURRENCE" eid="e10">scoring</EVENT> at <TIMEX3 type="DATE" value="1926" tid="t2">26</TIMEX3> when Rui Costa <EVENT class="OCCURRENCE" eid="e11">fired</EVENT> home from the edge of the area after being <EVENT class="OCCURRENCE" eid="e12">set</EVENT> up by Georgian defender Kakha Kaladze.
+
+Italian striker Alberto Gilardino <EVENT class="OCCURRENCE" eid="e13">headed</EVENT> in the second as he <EVENT class="OCCURRENCE" eid="e14">converted</EVENT> a corner from Rui Costa five minutes before the <EVENT class="OCCURRENCE" eid="e15">break</EVENT>.
+
+Lithuanian Marius Stankevicius <EVENT class="OCCURRENCE" eid="e16">brought</EVENT> Brescia back into the tie with a 48th-minute header from a cross by former Inter Milan midfielder Luigi Di Biagio.
+
+Carlo Ancelotti's Milan <EVENT class="OCCURRENCE" eid="e17">restored</EVENT> their two-goal advantage in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">the 69th minute</TIMEX3> after a <TIMEX3 type="DATE" value="2005-11-29" tid="t5">well-taken</TIMEX3> <EVENT class="OCCURRENCE" eid="e18">shot</EVENT> from inside the area by Christian Vieri.
+
+Other first leg <EVENT class="OCCURRENCE" eid="e19">matches</EVENT> of Italian Cup fourth round <EVENT class="OCCURRENCE" eid="e20">kick</EVENT> off on <TIMEX3 type="DATE" value="2005-11-30" tid="t6">Wednesday</TIMEX3> when Parma host Inter Milan and Serie B side Atalanta are at home to Udinese
+
+And on <TIMEX3 type="DATE" value="2005-11-24" tid="t7">Thursday</TIMEX3>, third-placed Serie A side Fiorentina <EVENT class="OCCURRENCE" eid="e22">take</EVENT> on champions Juventus before the remaining four ties <EVENT class="OCCURRENCE" eid="e23">take</EVENT> place <TIMEX3 type="DATE" value="2005-W49" tid="t8">next week</TIMEX3> with the return legs in <TIMEX3 type="DATE" value="2005-11-29" tid="t9">the second week of January.</TIMEX3>
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000023" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1000023" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei22" relatedToEventInstance="ei1000023" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

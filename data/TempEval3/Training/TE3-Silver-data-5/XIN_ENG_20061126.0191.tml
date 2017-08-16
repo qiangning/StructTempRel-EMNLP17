@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061126.0191</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Newcastle beat Portsmouth 1-0</TITLE>
+
+
+<TEXT>
+
+Antoine Sibierski <EVENT class="OCCURRENCE" eid="e1">scored</EVENT> his first Premiership goal of the season on <TIMEX3 type="DATE" value="2006-11-25" tid="t1">Saturday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">award</EVENT> Newcastle a 1- 0 <EVENT class="OCCURRENCE" eid="e3">win</EVENT> over Portsmouth.
+
+The home side were on top from the start and were <EVENT class="STATE" eid="e5">unfortunate</EVENT> to <EVENT class="PERCEPTION" eid="e6">see</EVENT> Obafemi Martins' first-half goal <EVENT class="OCCURRENCE" eid="e7">ruled</EVENT> out for a marginal offside <EVENT class="OCCURRENCE" eid="e8">decision</EVENT>.
+
+Newcastle <EVENT class="PERCEPTION" eid="e9">saw</EVENT> more chances <EVENT class="OCCURRENCE" eid="e10">go</EVENT> astray before Charles N'Zogbia <EVENT class="OCCURRENCE" eid="e11">crossed</EVENT> for substitute Sibierski to slot home in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">the 69th minute</TIMEX3>.
+
+Portsmouth <EVENT class="OCCURRENCE" eid="e12">offered</EVENT> little <EVENT class="OCCURRENCE" eid="e13">going</EVENT> forward and only some fine <EVENT class="OCCURRENCE" eid="e14">saves</EVENT> from David James <EVENT class="ASPECTUAL" eid="e15">stopped</EVENT> the Magpies <EVENT class="OCCURRENCE" eid="e16">adding</EVENT> more.
+
+The <EVENT class="OCCURRENCE" eid="e17">win</EVENT> was still a welcome one for Newcastle boss Glenn Roeder as, for all his side's <EVENT class="OCCURRENCE" eid="e18">heroics</EVENT> in the UEFA Cup, their domestic form had been a serious <EVENT class="OCCURRENCE" eid="e19">cause</EVENT> for concern.
+
+This was their first <EVENT class="OCCURRENCE" eid="e20">victory</EVENT> on home turf in the league since <TIMEX3 type="DATE" value="2006-11-26" tid="t3">the opening day of the season</TIMEX3> - and Sibierski's goal was only their ninth in 14 top-flight games.
+
+They were never going to <EVENT class="OCCURRENCE" eid="e21">get</EVENT> it all their own way here either.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

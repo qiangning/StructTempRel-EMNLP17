@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970423.0499</DOCID>
+
+<DCT>MOSTAR, Bosnia-Hercegovina, <TIMEX3 tid="t0" type="TIME" value="1997-04-23" temporalFunction="false" functionInDocument="CREATION_TIME">April 23 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Italian SFOR colonel found dead in suspected suicide</TITLE>
+
+
+<TEXT>
+
+An Italian colonel serving with the NATO-led Stabilisation Force (SFOR) in Bosnia was <EVENT class="OCCURRENCE" eid="e3">found</EVENT> dead <TIMEX3 type="DATE" value="1997-04-16TMO" tid="t1">Wednesday morning</TIMEX3> at an SFOR base in this southern city, a spokesman <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Colonel Roberto Petrucci, 57, was <EVENT class="OCCURRENCE" eid="e5">shot</EVENT> with a bullet <EVENT class="OCCURRENCE" eid="e6">fired</EVENT> from his own gun, SFOR spokesman Mike Fabbro <EVENT class="REPORTING" eid="e7">told</EVENT> AFP, <EVENT class="OCCURRENCE" eid="e8">adding</EVENT> that suicide was <EVENT class="I_STATE" eid="e9">suspected</EVENT>.
+
+Petrucci had <EVENT class="OCCURRENCE" eid="e10">served</EVENT> with the Italian army's artillery school at Bracciano near Rome and <EVENT class="OCCURRENCE" eid="e11">arrived</EVENT> in Bosnia in <TIMEX3 type="DATE" value="1997-04-23" tid="t2">late January</TIMEX3>, Fabbro <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+
+
+
+
+</TimeML>

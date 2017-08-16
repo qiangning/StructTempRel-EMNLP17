@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051203.0131</DOCID>
+
+<DCT>BAMAKO, <TIMEX3 tid="t0" type="TIME" value="2005-12-03" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 3 , 2005</TIMEX3></DCT>
+
+<TITLE>ATTENTION - ADDS quotes, details ///</TITLE>
+
+
+<TEXT>
+
+African leaders and French President Jacques Chirac <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> a two-day <EVENT class="OCCURRENCE" eid="e2">summit</EVENT> here on <TIMEX3 type="DATE" value="2005-12-03" tid="t2">Saturday</TIMEX3>, <EVENT class="I_ACTION" eid="e3">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e4">tackling</EVENT> the problems of Africa's youth, but the continent's conflicts and combatting immimgration were also likely to <EVENT class="OCCURRENCE" eid="e6">top</EVENT> the agenda.
+
+All 53 African states are <EVENT class="STATE" eid="e7">represented</EVENT> at the biennial gathering, a Malian organising committee official <EVENT class="REPORTING" eid="e9">said</EVENT>, in a first for the Africa-France <EVENT class="OCCURRENCE" eid="e10">summits</EVENT> since they <EVENT class="ASPECTUAL" eid="e11">began</EVENT> in <TIMEX3 type="DATE" value="1973" tid="t3">1973</TIMEX3>.
+
+As well as Chirac, about 20 heads of state and government, including South Africa's Thabo Mbeki and recently re-elected Omar Bongo Ondimba of Gabon were <EVENT class="STATE" eid="e13">present</EVENT> at the <EVENT class="OCCURRENCE" eid="e14">opening</EVENT>.
+
+Mali President Amadou Toumani Toure <EVENT class="OCCURRENCE" eid="e15">opened</EVENT> the <EVENT class="OCCURRENCE" eid="e16">summit</EVENT>, which <EVENT class="ASPECTUAL" eid="e17">began</EVENT> about an hour behind schedule at the specially-extended congress hall in the Malian capital, Bamako.
+
+He <EVENT class="REPORTING" eid="e18">called</EVENT> for a <EVENT class="OCCURRENCE" eid="e19">meeting</EVENT> between European and African nations on how to <EVENT class="OCCURRENCE" eid="e20">tackle</EVENT> immigration, <EVENT class="OCCURRENCE" eid="e21">highlighting</EVENT> the need to <EVENT class="OCCURRENCE" eid="e22">combat</EVENT> trafficking networks.
+
+"We have to <EVENT class="OCCURRENCE" eid="e23">keep</EVENT> young people here at home," he <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+He was to be <EVENT class="OCCURRENCE" eid="e25">followed</EVENT> later by 73-year-old Chirac, who on his <EVENT class="OCCURRENCE" eid="e26">arrival</EVENT> late <TIMEX3 type="DATE" value="2005-12-02" tid="t4">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e27">called</EVENT> for greater international <EVENT class="OCCURRENCE" eid="e28">effort</EVENT> for development. He also <EVENT class="REPORTING" eid="e30">said</EVENT> Africa's youth predominantly <EVENT class="I_STATE" eid="e31">wanted</EVENT> peace and democracy.
+
+The theme of the <EVENT class="OCCURRENCE" eid="e32">discussions</EVENT>, which include three closed-door sessions over <TIMEX3 type="DURATION" value="P2D" tid="t5">the two days</TIMEX3> and <EVENT class="ASPECTUAL" eid="e33">continue</EVENT> until about midday on <TIMEX3 type="DATE" value="2005-12-04" tid="t6">Sunday</TIMEX3>, is 'African youth, its vitality, its creativity, their hopes'.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei33" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei33" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+
+
+
+
+</TimeML>

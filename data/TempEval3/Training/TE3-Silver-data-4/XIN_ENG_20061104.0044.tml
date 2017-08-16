@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0044</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>up</TITLE>
+
+
+<TEXT>
+
+China-Africa Joint Chamber of Commerce will be formally <EVENT class="OCCURRENCE" eid="e1">set</EVENT> up on <TIMEX3 type="DATE" value="2006-11-05" tid="t1">Sunday</TIMEX3>, Wan Jifei, Chairman of the China Council for the Promotion of International Trade, <EVENT class="REPORTING" eid="e2">said</EVENT> at the High-level Dialogue and 2nd <EVENT class="OCCURRENCE" eid="e3">Conference</EVENT> of Chinese and African Entrepreneurs on <TIMEX3 type="DATE" value="2006-11-04" tid="t2">Saturday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

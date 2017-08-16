@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061226.0190</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="2006-12-26" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 26 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Indian widow's head shaved for stealing bananas</TITLE>
+
+
+<TEXT>
+
+An impoverished widow in eastern India had her head forcibly <EVENT class="OCCURRENCE" eid="e2">shaved</EVENT> after a wealthy farmer <EVENT class="I_ACTION" eid="e3">accused</EVENT> her of <EVENT class="OCCURRENCE" eid="e4">stealing</EVENT> his bananas, a report <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="2006-12-26" tid="t1">Tuesday</TIMEX3>.
+
+Desri Devi was allegedly <EVENT class="OCCURRENCE" eid="e6">caught</EVENT> <EVENT class="OCCURRENCE" eid="e7">stealing</EVENT> bananas from a field in Balua-Basant <EVENT class="OCCURRENCE" eid="e8">village</EVENT> in poverty-ridden Bihar state <TIMEX3 type="DATE" value="2006-W51" tid="t2">last week</TIMEX3>, the Press Trust of India <EVENT class="REPORTING" eid="e9">reported</EVENT>,
+
+Village officials <EVENT class="OCCURRENCE" eid="e10">fined</EVENT> her 2,500 rupees (56 dollars) but when she could not <EVENT class="OCCURRENCE" eid="e11">pay</EVENT> they <EVENT class="OCCURRENCE" eid="e12">summoned</EVENT> a barber who <EVENT class="OCCURRENCE" eid="e13">shaved</EVENT> her head, the news agency <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+"Some people <EVENT class="I_STATE" eid="e15">wanted</EVENT> me to be <EVENT class="OCCURRENCE" eid="e16">stripped</EVENT> and then <EVENT class="OCCURRENCE" eid="e17">paraded</EVENT> on the streets, but others <EVENT class="ASPECTUAL" eid="e18">stopped</EVENT> them from <EVENT class="OCCURRENCE" eid="e19">doing</EVENT> that. Still, I was <EVENT class="OCCURRENCE" eid="e20">paraded</EVENT> in the lanes of the village for no <EVENT class="OCCURRENCE" eid="e21">fault</EVENT> of mine," Devi <EVENT class="REPORTING" eid="e22">said</EVENT> in a complaint <EVENT class="OCCURRENCE" eid="e23">lodged</EVENT> with police.
+
+District magistrate Lallan Singh <EVENT class="REPORTING" eid="e24">said</EVENT> the woman, who was a beggar, had "<EVENT class="OCCURRENCE" eid="e26">sleepwalked</EVENT>" to the field where the nightwatchman <EVENT class="OCCURRENCE" eid="e27">caught</EVENT> her taking bananas, <EVENT class="REPORTING" eid="e29">according</EVENT> to the news agency.
+
+<TIMEX3 type="DATE" value="2006-W52" tid="t3">Earlier this week</TIMEX3>, the Times of India <EVENT class="REPORTING" eid="e30">reported</EVENT> that a landowner in the same state had <EVENT class="OCCURRENCE" eid="e31">chopped</EVENT> off the fingers of a 10-year-old girl's right hand to <EVENT class="OCCURRENCE" eid="e32">punish</EVENT> her for <EVENT class="OCCURRENCE" eid="e33">stealing</EVENT> spinach leaves to <EVENT class="OCCURRENCE" eid="e35">eat</EVENT>.
+
+Despite India's fast-growing economy, hunger <EVENT class="STATE" eid="e36">remains</EVENT> a major problem in the country. Some 42 percent of Biharis live under India's official poverty line compared with a nationwide average of 26 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei30" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei30" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei30" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+
+
+
+
+</TimeML>

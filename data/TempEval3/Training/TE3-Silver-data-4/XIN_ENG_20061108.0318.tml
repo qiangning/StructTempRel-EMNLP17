@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0318</DOCID>
+
+<DCT>CAIRO, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mubarak fears Saddam's execution to fuel violence in Iraq</TITLE>
+
+
+<TEXT>
+
+Egyptian President Hosni Mubarak <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-08" tid="t1">Wednesday</TIMEX3> that he <EVENT class="I_STATE" eid="e2">feared</EVENT> the recent death <EVENT class="OCCURRENCE" eid="e3">verdict</EVENT> against ousted Iraqi president Saddam Hussein and its <EVENT class="OCCURRENCE" eid="e4">execution</EVENT> would <EVENT class="OCCURRENCE" eid="e5">fuel</EVENT> sectarian and ethnic <EVENT class="OCCURRENCE" eid="e6">violence</EVENT> in Iraq.
+
+Mubarak <EVENT class="OCCURRENCE" eid="e7">made</EVENT> the remarks in statements to editors-in-chief of the Egyptian national newspapers and the Middle East News Agency ( MENA) on his way back home <TIMEX3 type="DATE" value="2006-11-08" tid="t2">Wednesday</TIMEX3> from his three-nation <EVENT class="OCCURRENCE" eid="e9">tour</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e10">trial</EVENT> of Saddam and six of his aides on charges of <EVENT class="OCCURRENCE" eid="e11">genocide</EVENT> against Kurds <EVENT class="ASPECTUAL" eid="e12">resumed</EVENT> in Baghdad on <TIMEX3 type="DATE" value="2006-11-08" tid="t3">Wednesday</TIMEX3> after Saddam and two of his senior aides were <EVENT class="OCCURRENCE" eid="e13">sentenced</EVENT> to <EVENT class="OCCURRENCE" eid="e14">death</EVENT> on <TIMEX3 type="DATE" value="2006-11-05" tid="t4">Sunday</TIMEX3> in a separate <EVENT class="OCCURRENCE" eid="e15">trial</EVENT> of Dujail case, in which 148 people were <EVENT class="OCCURRENCE" eid="e16">executed</EVENT> in the aftermath crackdown on the town following a failed assassination <EVENT class="I_ACTION" eid="e17">attempt</EVENT> against Saddam in <TIMEX3 type="DATE" value="1982" tid="t5">1982</TIMEX3>.
+
+On the situation in Iraq, Mubarak <EVENT class="REPORTING" eid="e18">said</EVENT> that Egypt is <EVENT class="OCCURRENCE" eid="e19">making</EVENT> <EVENT class="OCCURRENCE" eid="e20">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e21">protect</EVENT> interests of the Iraqi people, stop bloodshed and <EVENT class="OCCURRENCE" eid="e24">support</EVENT> the Iraqi national unity.
+
+Mubarak <EVENT class="OCCURRENCE" eid="e25">returned</EVENT> to Cairo on <TIMEX3 type="DATE" value="2006-11-08" tid="t6">Wednesday</TIMEX3> after <EVENT class="OCCURRENCE" eid="e26">visits</EVENT> to Russia, China and Kazakhstan. <TIMEX3 type="DATE" value="2006-11-08" tid="t7">While</TIMEX3> in Beijing he <EVENT class="OCCURRENCE" eid="e27">attended</EVENT> the Forum on China-Africa Cooperation Summit which is <EVENT class="PERCEPTION" eid="e29">seen</EVENT> as an important <EVENT class="OCCURRENCE" eid="e30">conference</EVENT> to <EVENT class="OCCURRENCE" eid="e31">promote</EVENT> China and Africa to <EVENT class="OCCURRENCE" eid="e32">construct</EVENT> new strategic partnership and <EVENT class="OCCURRENCE" eid="e33">strengthen</EVENT> <EVENT class="OCCURRENCE" eid="e34">cooperation</EVENT> between China and Africa.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei26" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei27" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei27" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei27" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

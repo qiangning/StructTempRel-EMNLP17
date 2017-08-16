@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970408.0763</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-09" temporalFunction="false" functionInDocument="CREATION_TIME">April 9 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Tokyo stocks open lower</TITLE>
+
+
+<TEXT>
+
+Share prices <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> lower on the Tokyo Stock Exchange on <TIMEX3 type="DATE" value="1997-04-09" tid="t1">Wednesday</TIMEX3>, with the Nikkei stock average <EVENT class="OCCURRENCE" eid="e2">falling</EVENT> 34.70 points or 0.2 percent to 17,987.00 in <TIMEX3 type="DURATION" value="PT5M" tid="t2">the first five minutes</TIMEX3> of trading.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

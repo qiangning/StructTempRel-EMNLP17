@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0114</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Iraqi PM pledges to arrest kidnappers of ministry employees</TITLE>
+
+
+<TEXT>
+
+Iraqi Prime Minister Nuri al- Maliki <EVENT class="I_ACTION" eid="e1">pledged</EVENT> <TIMEX3 type="DATE" value="2006-11-15" tid="t1">Wednesday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">arrest</EVENT> all those <EVENT class="OCCURRENCE" eid="e3">carried</EVENT> out kidnappings in Baghdad within the "open <EVENT class="OCCURRENCE" eid="e5">battle</EVENT> with terrorists."
+
+"We feel sorry to what <EVENT class="OCCURRENCE" eid="e6">happened</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t2">yesterday</TIMEX3>, but I pledge that we will <EVENT class="OCCURRENCE" eid="e7">trail</EVENT> those who <EVENT class="OCCURRENCE" eid="e8">put</EVENT> their hands in the hands of the devil," Maliki <EVENT class="REPORTING" eid="e9">told</EVENT> a gathering at a Baghdad university.
+
+"This is an open <EVENT class="OCCURRENCE" eid="e11">battle</EVENT> with terrorists whatever their names are," Maliki <EVENT class="REPORTING" eid="e12">said</EVENT> during his <EVENT class="OCCURRENCE" eid="e13">visit</EVENT> to the university after mass <EVENT class="OCCURRENCE" eid="e14">abduction</EVENT> of the Higher Education Ministry employees on <TIMEX3 type="DATE" value="2006-11-14" tid="t4">Tuesday</TIMEX3>.
+
+The state-run television <EVENT class="REPORTING" eid="e15">reported</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t6">Tuesday</TIMEX3> that gunmen wearing Iraqi police commando uniform <EVENT class="OCCURRENCE" eid="e16">stormed</EVENT> the ministry's Research Directorate building in the Nidhal Street in Karradah district, kidnapping scores of male employees.
+
+"It is not enough for us to <EVENT class="OCCURRENCE" eid="e17">release</EVENT> some captives, but also we are <EVENT class="I_STATE" eid="e18">keen</EVENT> to <EVENT class="OCCURRENCE" eid="e19">bring</EVENT> those kidnappers to justice," he <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+Maliki also <EVENT class="REPORTING" eid="e21">said</EVENT> that he <EVENT class="OCCURRENCE" eid="e22">rejects</EVENT> any sectarian and political activities in the Iraqi universities.
+
+The Iraqi Higher Education Minister, Abed Thiyab al-Ajili, <EVENT class="REPORTING" eid="e23">said</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t7">Tuesday</TIMEX3> that the number of hostages was more than 100, including male employees and visitors.
+
+However, the Interior Ministry sources <EVENT class="REPORTING" eid="e24">said</EVENT> the number of hostages in the hands of the kidnappers was <EVENT class="OCCURRENCE" eid="e25">exaggerated</EVENT>.
+
+Late <TIMEX3 type="DATE" value="2006-11-14" tid="t8">Tuesday</TIMEX3>, at least 15 hostages of the mass <EVENT class="OCCURRENCE" eid="e26">kidnapping</EVENT> were <EVENT class="OCCURRENCE" eid="e27">released</EVENT>, local security and education sources <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+<EVENT class="REPORTING" eid="e29">According</EVENT> to the released hostages, there were only some 40 people had been <EVENT class="OCCURRENCE" eid="e31">held</EVENT> hostages by the unidentified gunmen.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei23" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+
+
+
+
+</TimeML>

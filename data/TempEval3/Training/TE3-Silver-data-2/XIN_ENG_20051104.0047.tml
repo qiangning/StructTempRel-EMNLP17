@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051104.0047</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Toyota reports record-high sales, lower profit</TITLE>
+
+
+<TEXT>
+
+Toyota Motor Corp. <EVENT class="OCCURRENCE" eid="e1">logged</EVENT> new high sales in <TIMEX3 type="DATE" value="2005" tid="t1">the first half of fiscal 2005</TIMEX3>, but its profit in the same period <EVENT class="OCCURRENCE" eid="e2">suffered</EVENT> the first <EVENT class="OCCURRENCE" eid="e3">drop</EVENT> in <TIMEX3 type="DURATION" value="P4Y" tid="t2">four years</TIMEX3>, <EVENT class="REPORTING" eid="e4">according</EVENT> to its interim report <EVENT class="OCCURRENCE" eid="e5">released</EVENT> on <TIMEX3 type="DATE" value="2005-11-04" tid="t3">Friday</TIMEX3>.
+
+The world's second largest carmaker after General Motors Corp. of the United States <EVENT class="OCCURRENCE" eid="e6">sold</EVENT> 3.83 million vehicles for <TIMEX3 type="DURATION" value="P6M" tid="t4">the six months</TIMEX3> through <TIMEX3 type="DATE" value="2005-09-30" tid="t5">Sept. 30</TIMEX3>, <EVENT class="OCCURRENCE" eid="e7">rising</EVENT> 266,000 vehicles from <TIMEX3 type="DURATION" value="2005-11-04" tid="t6">the same period of last year</TIMEX3>.
+
+On a consolidated basis, net revenues <EVENT class="OCCURRENCE" eid="e8">rose</EVENT> 10.3 percent to a record 9.95 trillion yen (85.04 billion US dollars).
+
+However, Its operating profit <EVENT class="OCCURRENCE" eid="e9">dropped</EVENT> 6.6 percent to 809.49 billion yen (6.92 billion dollars). Pretax profit <EVENT class="OCCURRENCE" eid="e10">slipped</EVENT> 6.3 percent to 856.00 billion yen (7.32 billion dollars).
+
+Toyota <EVENT class="I_STATE" eid="e11">expected</EVENT> that the sales volume is <EVENT class="I_STATE" eid="e12">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e13">reach</EVENT> 8.03 million vehicles for <TIMEX3 type="DATE" value="2005-11-04" tid="t7">the full year</TIMEX3> through <TIMEX3 type="DATE" value="2006-03-31" tid="t8">next March 31</TIMEX3>, up from 7.41 million <TIMEX3 type="DATE" value="2003" tid="t9">the previous year</TIMEX3>.
+
+Its group net profit for <TIMEX3 type="DATE" value="2005" tid="t10">the current fiscal year</TIMEX3> is likely to <EVENT class="OCCURRENCE" eid="e14">top</EVENT> 1 trillion yen (8.55 billion dollars) for <TIMEX3 type="DATE" value="P3Y" tid="t11">the third year</TIMEX3> in a row, the company <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+Toyota's Executive Vice President Mitsuo Kinoshita <EVENT class="REPORTING" eid="e16">said</EVENT>, "We <EVENT class="OCCURRENCE" eid="e17">attained</EVENT> a high level of profit while <EVENT class="OCCURRENCE" eid="e18">expanding</EVENT> production capacity and <EVENT class="OCCURRENCE" eid="e19">developing</EVENT> advanced technology and future products in response to strong <EVENT class="OCCURRENCE" eid="e20">demand</EVENT> worldwide."
+
+In North America, its sales <EVENT class="OCCURRENCE" eid="e21">hiked</EVENT> by 119,000 vehicles to 1.245 million vehicles, mostly thanks to the popularity of vehicles like Prius and new Avalon.
+
+In the European market, the newly introduced Aygo and the Corolla <EVENT class="OCCURRENCE" eid="e22">contributed</EVENT> to a sales <EVENT class="OCCURRENCE" eid="e23">increase</EVENT> of 22,000 vehicles to 1. 086 million vehicles.
+
+<EVENT class="OCCURRENCE" eid="e24">Sales</EVENT> in Asia, which have been <EVENT class="REPORTING" eid="e25">reported</EVENT> as an independent geographical segment since the first quarter, <EVENT class="OCCURRENCE" eid="e26">rose</EVENT> by 62,000 vehicles to 448,000 vehicles mainly thanks to the successful launch of the Innovative International Multi-Vehicle project, it <EVENT class="REPORTING" eid="e27">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000013" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000014" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei1000007" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei1000013" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei1000007" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei14" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei1000014" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l47" eventInstanceID="ei11" relatedToEventInstance="ei1000014" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei1000013" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l52" eventInstanceID="ei14" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l53" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

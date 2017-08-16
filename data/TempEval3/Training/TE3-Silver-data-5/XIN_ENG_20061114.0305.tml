@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0305</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>German stocks close lower</TITLE>
+
+
+<TEXT>
+
+German stocks <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> lower on <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Tuesday</TIMEX3> on the Frankfurt market.
+
+The 30-share DAX Index <EVENT class="OCCURRENCE" eid="e2">lost</EVENT> 6.35 percent to 6,387.38 points.
+
+The MDAX index of medium-sized companies was down 0.21 percent to 8,877.6 points.
+
+The TecDAX index of technologies and science firms <EVENT class="OCCURRENCE" eid="e3">lost</EVENT> 0.65 percent to 706.71.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

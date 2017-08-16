@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0344</DOCID>
+
+<DCT>MADRID, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Spain to give 2.3 mln dlrs to Americas Cup promotors</TITLE>
+
+
+<TEXT>
+
+The Spanish government will <EVENT class="OCCURRENCE" eid="e1">give</EVENT> two million euros (around 2.3 million US dollars) to the organizers of the Americas Cup, the sailing event <EVENT class="OCCURRENCE" eid="e2">hosted</EVENT> by the Spanish city of Valencia in <TIMEX3 type="DATE" value="2007" tid="t1">2007</TIMEX3>, local media <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-17" tid="t2">Thursday</TIMEX3>.
+
+The plan was <EVENT class="OCCURRENCE" eid="e4">approved</EVENT> on <TIMEX3 type="DATE" value="2005-11-17" tid="t3">Thursday</TIMEX3> in a <EVENT class="OCCURRENCE" eid="e5">ceremony</EVENT> <EVENT class="OCCURRENCE" eid="e6">attended</EVENT> by Jordi Sevilla, Spain's minister of public affairs, and Ricard Perez Casado, Americas Cup president.
+
+The money will be <EVENT class="OCCURRENCE" eid="e7">used</EVENT> to <EVENT class="ASPECTUAL" eid="e8">launch</EVENT> an international publicity <EVENT class="OCCURRENCE" eid="e9">campaign</EVENT> <EVENT class="OCCURRENCE" eid="e10">promoting</EVENT> Valencia and the Americas Cup. Casado and Sevilla <EVENT class="OCCURRENCE" eid="e11">approved</EVENT> the marketing plan <EVENT class="OCCURRENCE" eid="e12">drawn</EVENT> up by the Americas Cup coordination committee at the same time as <EVENT class="OCCURRENCE" eid="e13">approving</EVENT> the <EVENT class="OCCURRENCE" eid="e14">deal</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0362</DOCID>
+
+<DCT>LISBON, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>agency</TITLE>
+
+
+<TEXT>
+
+Around 10 percent of Portuguese intravenous drug users are <EVENT class="OCCURRENCE" eid="e1">infected</EVENT> with HIV, the virus which causes AIDS, European Union experts <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+"Portugal <EVENT class="REPORTING" eid="e4">reported</EVENT> a very high rate of new infections with 88 new infection cases per million citizens," the European Rapporteur for Drugs and Drug Dependency (OEDT) <EVENT class="REPORTING" eid="e5">said</EVENT> in a report <EVENT class="OCCURRENCE" eid="e7">published</EVENT> on <TIMEX3 type="DATE" value="2005-11-24" tid="t2">Thursday</TIMEX3>, based on 2003 data.
+
+The OEDT <EVENT class="REPORTING" eid="e8">said</EVENT> that Portugal <EVENT class="STATE" eid="e9">had</EVENT> 33 AIDS cases per million citizens in <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3>, a number which has been <EVENT class="OCCURRENCE" eid="e10">falling</EVENT> since <TIMEX3 type="DATE" value="1999" tid="t6">1999</TIMEX3>, as many HIV carriers have not <EVENT class="OCCURRENCE" eid="e11">developed</EVENT> into full-blown AIDS.
+
+The European Drug Information Agency <EVENT class="REPORTING" eid="e12">said</EVENT> in a report on <TIMEX3 type="DATE" value="2005-11-24" tid="t7">Thursday</TIMEX3> that "indices of newly-diagnosed cases <EVENT class="STATE" eid="e14">remained</EVENT> at low levels in <TIMEX3 type="DURATION" value="PXY" tid="t8">recent years</TIMEX3>,with the exception of Portugal".
+
+The OEDT <EVENT class="REPORTING" eid="e15">said</EVENT> that while AIDS infection statistics <EVENT class="OCCURRENCE" eid="e16">showed</EVENT> some <EVENT class="OCCURRENCE" eid="e17">reduction</EVENT>, the news about hepatitis <EVENT class="STATE" eid="e18">remained</EVENT> very bad. A very large percentage of intravenous drug users are <EVENT class="OCCURRENCE" eid="e19">infected</EVENT> with hepatitis B and C only <TIMEX3 type="DURATION" value="P1Y" tid="t9">a few years</TIMEX3> after they <EVENT class="ASPECTUAL" eid="e20">began</EVENT> <EVENT class="OCCURRENCE" eid="e21">injecting</EVENT>.
+
+Almost 5 million people were <EVENT class="OCCURRENCE" eid="e22">infected</EVENT> with HIV globally in <TIMEX3 type="DATE" value="2005" tid="t10">2005</TIMEX3>, <EVENT class="OCCURRENCE" eid="e23">taking</EVENT> the number living with the virus to a record 40.3 million, according to UN data.
+
+The Acquired Immune Deficiency Syndrome (AIDS) has <EVENT class="OCCURRENCE" eid="e25">killed</EVENT> more than 25 million people in the world since it was first <EVENT class="OCCURRENCE" eid="e26">found</EVENT> in <TIMEX3 type="DATE" value="1981" tid="t11">1981</TIMEX3>, <EVENT class="OCCURRENCE" eid="e27">making</EVENT> it one of the most destructive epidemics in recorded history.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

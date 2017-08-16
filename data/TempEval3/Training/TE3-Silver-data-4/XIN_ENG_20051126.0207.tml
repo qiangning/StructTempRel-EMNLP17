@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051126.0207</DOCID>
+
+<DCT>LHASA,  <TIMEX3 tid="t0" type="TIME" value="2005-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tibet gains 200-mln-yuan non-governmental relief fund</TITLE>
+
+
+<TEXT>
+
+The Tibet Development Foundation in southwest China's Tibet Autonomous region has <EVENT class="OCCURRENCE" eid="e1">raised</EVENT> nearly 200 million yuan (24.7 million US dollars) and <EVENT class="OCCURRENCE" eid="e2">launched</EVENT> 640 supporting projects with no strings <EVENT class="OCCURRENCE" eid="e4">attached</EVENT>, <EVENT class="REPORTING" eid="e5">according</EVENT> to sources of the foundation.
+
+The supporting projects <EVENT class="OCCURRENCE" eid="e7">launched</EVENT> by the foundation <EVENT class="OCCURRENCE" eid="e8">cover</EVENT> many fields, like culture, education, medical care and ecological protection.
+
+The Brightness <EVENT class="OCCURRENCE" eid="e9">Project</EVENT>, for instance, has <EVENT class="I_ACTION" eid="e10">helped</EVENT> 20,000 cataract sufferers <EVENT class="I_ACTION" eid="e11">regain</EVENT> eyesight since it was <EVENT class="OCCURRENCE" eid="e12">launched</EVENT> in <TIMEX3 type="DATE" value="1993" tid="t1">1993</TIMEX3>. The relief money <EVENT class="OCCURRENCE" eid="e13">provided</EVENT> by the project for medical care has <EVENT class="OCCURRENCE" eid="e14">amounted</EVENT> to 80 million yuan (9.9 million US dollars) so far.
+
+Sunshine Program, another aid project <EVENT class="OCCURRENCE" eid="e15">launched</EVENT> by the foundation <TIMEX3 type="DATE" value="2006-06" tid="t2">this June</TIMEX3>, has <EVENT class="OCCURRENCE" eid="e16">installed</EVENT> solar-energy stoves for 191 rural households. It has also <EVENT class="OCCURRENCE" eid="e17">offered</EVENT> other equipment <EVENT class="OCCURRENCE" eid="e18">powered</EVENT> by solar energy for free.
+
+The foundation was <EVENT class="OCCURRENCE" eid="e19">initiated</EVENT> in <TIMEX3 type="DATE" value="1987" tid="t3">1987</TIMEX3> by the tenth Panchen Lama and Ngapoi Ngawang Jigme, vice chairman of the National Committee of the Chinese People's Political Consultative Conference. Its principle is to <EVENT class="I_ACTION" eid="e20">assist</EVENT> the local government to further <EVENT class="OCCURRENCE" eid="e21">improve</EVENT> Tibetan residents' living standards.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEGUN_BY" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

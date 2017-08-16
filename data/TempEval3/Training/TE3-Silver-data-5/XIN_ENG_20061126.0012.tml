@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061126.0012</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2006</TIMEX3> (Xinhu)</DCT>
+
+<TITLE>China's young netizens reaches 18.3 million</TITLE>
+
+
+<TEXT>
+
+By the end of the <TIMEX3 tid="t1" type="DATE" value="2006">first half of this year</TIMEX3>,China's netizens <EVENT class="OCCURRENCE" eid="e1">totaled</EVENT> 123 million, and those under the age of 18, 18.3 million, <EVENT class="OCCURRENCE" eid="e2">accounting</EVENT> for 14.9 percent of the total.
+
+"The Internet has <EVENT class="STATE" eid="e3">become</EVENT> an important facility in Chinese youth's daily life," an official with the Central Committee of the Communist Youth League <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-11-26" tid="t3">Sunday</TIMEX3>.
+
+"Through the Internet, the young people can <EVENT class="OCCURRENCE" eid="e5">get</EVENT> information for study, work and entertainment," he <EVENT class="REPORTING" eid="e6">said</EVENT>,
+
+China's Internet industry is on the upswing and minor netizens are both beneficiaries and a driving force of the industry's <EVENT class="OCCURRENCE" eid="e7">development</EVENT>, he <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+"We can <EVENT class="OCCURRENCE" eid="e9">cultivate</EVENT> more talents and experts from them through proper guidance," he <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+Meanwhile, the official also <EVENT class="I_ACTION" eid="e11">pointed</EVENT> out several problems that <EVENT class="I_STATE" eid="e12">need</EVENT> to be <EVENT class="I_ACTION" eid="e13">resolved</EVENT> <EVENT class="OCCURRENCE" eid="e14">concerning</EVENT> the influence of the Internet's rapid <EVENT class="OCCURRENCE" eid="e15">development</EVENT> on minors.
+
+"The most typical problem is the network addiction," he <EVENT class="OCCURRENCE" eid="e17">stressed</EVENT>.
+
+About 13.2 percent Chinese netizens are network addicts, <EVENT class="REPORTING" eid="e18">according</EVENT> to a report <EVENT class="OCCURRENCE" eid="e19">released</EVENT> in <TIMEX3 type="DATE" value="2005-11" tid="t5">November 2005</TIMEX3> by China Youth Association For Network Development.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

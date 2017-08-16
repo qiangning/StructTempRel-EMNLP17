@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970416.0029</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="1997-04-16" temporalFunction="false" functionInDocument="CREATION_TIME">April 16 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Thailand's Bank of Ayudhya ratings cut by Standard and Poor's</TITLE>
+
+
+<TEXT>
+
+US ratings agency Standard and Poor's Corp. Wednesday <EVENT class="REPORTING" eid="e1">said</EVENT> it had <EVENT class="OCCURRENCE" eid="e3">cut</EVENT> to A-3 from A-2 the short term counterparty rating of Thailand's Bank of Ayudhya but <EVENT class="REPORTING" eid="e4">affirmed</EVENT> a BBB long-term counterparty rating.
+
+Bank of Ayudhya's rating has now been <EVENT class="OCCURRENCE" eid="e5">removed</EVENT> from CreditWatch, where it was <EVENT class="OCCURRENCE" eid="e6">placed</EVENT> on <TIMEX3 type="DATE" value="1997-03-18" tid="t3">March 18</TIMEX3>, the agency <EVENT class="REPORTING" eid="e7">said</EVENT> in a statement, but <EVENT class="OCCURRENCE" eid="e9">added</EVENT> the outlook was negative.
+
+An "A" rating is <EVENT class="OCCURRENCE" eid="e10">defined</EVENT> as a strong capacity to <EVENT class="OCCURRENCE" eid="e11">pay</EVENT> interest and <EVENT class="OCCURRENCE" eid="e12">repay</EVENT> principal in a timely manner but susceptible to outside negative factors.
+
+Standard and Poor's <EVENT class="REPORTING" eid="e13">said</EVENT> it <EVENT class="STATE" eid="e14">had</EVENT> some concerns about the deteriorating condition of Thailand's finance sector, which has <EVENT class="OCCURRENCE" eid="e16">come</EVENT> under pressure with the <EVENT class="OCCURRENCE" eid="e17">downturn</EVENT> in the property market and the economic <EVENT class="OCCURRENCE" eid="e18">slowdown</EVENT>.
+
+"The extent of the <EVENT class="OCCURRENCE" eid="e19">downturn</EVENT> is <EVENT class="I_STATE" eid="e20">expected</EVENT> to be more significant and <EVENT class="OCCURRENCE" eid="e21">prolonged</EVENT> than is currently <EVENT class="I_STATE" eid="e22">expected</EVENT> by both the regulators and the individual banks," it <EVENT class="REPORTING" eid="e23">said</EVENT>, <EVENT class="OCCURRENCE" eid="e24">reiterating</EVENT> concerns made <TIMEX3 type="DATE" value="1997-04" tid="t5">earlier this month</TIMEX3>.
+
+"Recent initiatives <EVENT class="REPORTING" eid="e26">announced</EVENT> by the Bank of Thailand may not be <EVENT class="I_STATE" eid="e27">sufficient</EVENT> to <EVENT class="OCCURRENCE" eid="e28">contain</EVENT> problems within the property sector, <EVENT class="OCCURRENCE" eid="e29">resulting</EVENT> in a substantial <EVENT class="OCCURRENCE" eid="e30">rise</EVENT> in the current level of non-performing loans," it <EVENT class="REPORTING" eid="e31">said</EVENT>.
+
+The downgrade of the short-term counterparty rating <EVENT class="OCCURRENCE" eid="e32">recognises</EVENT> system- wide liquidity concerns and the banks higher vulnerability here relative to other commercial banks, the agency <EVENT class="REPORTING" eid="e33">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e34">announcement</EVENT> <EVENT class="OCCURRENCE" eid="e35">came</EVENT> a <TIMEX3 type="DATE" value="P1W" tid="t6">week</TIMEX3> after Moody's Investors Services <EVENT class="REPORTING" eid="e36">said</EVENT> it was <EVENT class="OCCURRENCE" eid="e37">lowering</EVENT> foreign currency ceilings for Thai bonds and bank deposits from A2 to A3 on concerns about the country's current account deficit.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei35" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei23" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+
+
+
+
+</TimeML>

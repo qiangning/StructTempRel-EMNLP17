@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0137</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Pilot killed when training plane crashes in northern Philippines</TITLE>
+
+
+<TEXT>
+
+A light trainer plane <EVENT class="OCCURRENCE" eid="e1">crash</EVENT> off on <TIMEX3 type="DATE" value="2005-11-30" tid="t1">Wednesday</TIMEX3> in the northern Philippines, <EVENT class="OCCURRENCE" eid="e2">killing</EVENT> the pilot and <EVENT class="OCCURRENCE" eid="e3">injuring</EVENT> his student, the military <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Air Force spokesman Lt. Col. Restituto Padilla <EVENT class="REPORTING" eid="e5">told</EVENT> a press <EVENT class="OCCURRENCE" eid="e6">briefing</EVENT> that the Cessna trainer jet, with tail No. RPC-727, <EVENT class="OCCURRENCE" eid="e7">crashed</EVENT> at <TIMEX3 type="DATE" value="2005-11-23T1:30" tid="t2">around 1:30</TIMEX3> <EVENT class="OCCURRENCE" eid="e8">p.m.</EVENT> in Alabat island in Quezon for still unknown reasons.
+
+The ill-fated aircraft is <EVENT class="STATE" eid="e9">owned</EVENT> by Master Flying School, <EVENT class="REPORTING" eid="e10">said</EVENT> Padilla.
+
+<EVENT class="REPORTING" eid="e11">According</EVENT> to Padilla, this was the third <EVENT class="OCCURRENCE" eid="e12">crashed</EVENT> Cessna planes <TIMEX3 type="DATE" value="2005" tid="t3">this year</TIMEX3> in the country.
+
+In <TIMEX3 type="DATE" value="2005-05" tid="t4">May</TIMEX3>, an aircraft <EVENT class="OCCURRENCE" eid="e13">hit</EVENT> a coconut tree and <EVENT class="OCCURRENCE" eid="e14">burst</EVENT> into flames after <EVENT class="OCCURRENCE" eid="e15">taking</EVENT> off from a private airstrip in Tanauan town in Batangas province, <EVENT class="OCCURRENCE" eid="e16">killing</EVENT> four people.
+
+In <TIMEX3 type="DATE" value="2005-03" tid="t5">March</TIMEX3>, another Cessna plane <EVENT class="OCCURRENCE" eid="e17">crashed</EVENT> into the sea off Jomalig Island in Quezon while <EVENT class="OCCURRENCE" eid="e18">transporting</EVENT> fish products from Palawan to Manila.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

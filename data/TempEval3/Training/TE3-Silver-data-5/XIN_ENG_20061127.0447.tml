@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0447</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hong Kong stocks open higher -- Nov. 28</TITLE>
+
+
+<TEXT>
+
+Hong Kong stocks <EVENT class="OCCURRENCE" eid="e1">went</EVENT> up 207.17 points, or 1.08 percent, to <EVENT class="ASPECTUAL" eid="e2">open</EVENT> at 18,996.84 on <TIMEX3 tid="t1" type="DATE" value="2006-11-28">Tuesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

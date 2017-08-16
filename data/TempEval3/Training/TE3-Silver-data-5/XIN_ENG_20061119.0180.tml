@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0180</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Boat carrying immigrants sinks in Aegean</TITLE>
+
+
+<TEXT>
+
+A boat <EVENT class="OCCURRENCE" eid="e1">carrying</EVENT> 25 people to Europe <EVENT class="OCCURRENCE" eid="e2">sank</EVENT> in the Aegean Sea near Izmir province in western Turkey on <TIMEX3 type="DATE" value="2006-11-12TMO" tid="t1">Sunday morning</TIMEX3>, local Cihan News Agency <EVENT class="REPORTING" eid="e3">reported</EVENT>.
+
+The boat was reportedly <EVENT class="OCCURRENCE" eid="e4">carrying</EVENT> 25 illegal immigrants, fourteen of them were <EVENT class="OCCURRENCE" eid="e5">rescued</EVENT> by the Turkish Coast Guard while three others, who <EVENT class="OCCURRENCE" eid="e6">managed</EVENT> to <EVENT class="OCCURRENCE" eid="e7">swim</EVENT> ashore, were <EVENT class="OCCURRENCE" eid="e8">seized</EVENT> in the Ulamis quarter of Izmir, <EVENT class="REPORTING" eid="e9">according</EVENT> to the report.
+
+The Turkish Coast Guard could not <EVENT class="OCCURRENCE" eid="e11">find</EVENT> the missing eight immigrants and the <EVENT class="OCCURRENCE" eid="e12">search</EVENT> for them <EVENT class="ASPECTUAL" eid="e13">continues</EVENT>, the report <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+those <EVENT class="OCCURRENCE" eid="e15">captured</EVENT> illegal immigrants from Somalia and Palestine were <EVENT class="OCCURRENCE" eid="e16">transferred</EVENT> to the Foreigners Office of the Izmir Security Authority to <EVENT class="OCCURRENCE" eid="e17">await</EVENT> deportation, <EVENT class="OCCURRENCE" eid="e19">added</EVENT> the report.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

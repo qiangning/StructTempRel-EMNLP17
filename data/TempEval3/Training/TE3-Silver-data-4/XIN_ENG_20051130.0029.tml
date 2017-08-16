@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051130.0029</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Asia Media Festival trade events opens in Singapore</TITLE>
+
+
+<TEXT>
+
+The Asia Media Festival (AMF) trade events <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> in Singapore <TIMEX3 type="DATE" value="2005-11-30" tid="t1">Wednesday</TIMEX3> with <EVENT class="OCCURRENCE" eid="e2">participation</EVENT> of 4, 500 foreign trade delegates and 200 international sellers from 40 countries.
+
+With the AMF events for the public including film screenings on display for <TIMEX3 type="DURATION" value="P2W" tid="t2">two weeks</TIMEX3>, half a million participants for both consumer and trade events are <EVENT class="I_STATE" eid="e3">expected</EVENT> <TIMEX3 type="DATE" value="2005" tid="t3">this year</TIMEX3>.
+
+"The Asia market with its diverse culture and flavor <EVENT class="I_ACTION" eid="e4">offers</EVENT> tremendous opportunities to the media industry," Singapore Minister for Information, Communications and the Arts Lee Boon Yang <EVENT class="REPORTING" eid="e5">said</EVENT> at the opening <EVENT class="OCCURRENCE" eid="e6">ceremony</EVENT>.
+
+He <EVENT class="REPORTING" eid="e7">announced</EVENT> that Discovery Networks Asia, the Media Development Authority (MDA) of Singapore and a local production company will jointly <EVENT class="OCCURRENCE" eid="e8">adapt</EVENT> Asian-made <EVENT class="OCCURRENCE" eid="e9">documentaries</EVENT> for international audiences.
+
+Singapore will be <EVENT class="STATE" eid="e10">capable</EVENT> of transferring films to high- definition (HD) format by <TIMEX3 type="DATE" value="2006" tid="t4">early 2006</TIMEX3> while a <EVENT class="OCCURRENCE" eid="e12">trial</EVENT> to <EVENT class="OCCURRENCE" eid="e13">test</EVENT> HD television services will be <EVENT class="OCCURRENCE" eid="e14">carried</EVENT> out by the middle of <TIMEX3 type="DATE" value="2006" tid="t5">next year</TIMEX3>, <EVENT class="REPORTING" eid="e15">according</EVENT> to the minister.
+
+<EVENT class="OCCURRENCE" eid="e16">Organized</EVENT> by Reed Exhibitions and <EVENT class="OCCURRENCE" eid="e17">hosted</EVENT> by the MDA, the Asia Media Festival is an annual fiesta in the media and entertainment industry, and will <EVENT class="OCCURRENCE" eid="e18">last</EVENT> until <TIMEX3 type="DATE" value="2005-12-02" tid="t6">Dec. 2</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

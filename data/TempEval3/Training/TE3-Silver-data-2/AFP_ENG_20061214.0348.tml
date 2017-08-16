@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061214.0348</DOCID>
+
+<DCT>YOKOHAMA, Japan, <TIMEX3 tid="t0" type="TIME" value="2006-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Club World Cup result: Barcelona 4 Club America 0</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Result</EVENT> from the FIFA Club World Cup football tournament on <TIMEX3 type="DATE" value="2006-12-21" tid="t1">Thursday</TIMEX3>:
+
+Semi-final
+
+Barcelona (ESP) 4 (Gudjohnsen 11, Marquez 30, Ronaldinho 65, Deco 85) Club America (MEX) 0
+
+Teams
+
+Barcelona: Victor Valdes, Motta (Xavi 61), Rafael Marquez, Carlos Puyol (capt), Eidur Gudjohnsen (Ezquerro 66), Ludovic Giuly (Belletti 74), Ronaldinho, Gianluca Zambrotta, Giovanni van Bronckhorst, Deco, Andres Iniesta
+
+Club America
+
+Guillermo Ochoa, Jose Antonio Castro, Oscar Rojas, Duilio Davino (capt), Claudio Lopez (Matias Vuoso 74), Salvador Cabanas (Cuauhtemoc Blanco 45), Fabiano Pereira (Raul Alvin Mendoza 74), Ricardo Rojas, German Villa, Alejandro Arguello, Nelson Cuevas
+
+Yellow cards: Claudio Lopez, Fabiano Pereira
+
+Referee: Oscar Ruiz (COL)
+
+Assistant referees: Wilson Berrio (COL), Rafael Yanez (VEN)
+
+Fourth official: Jerome Damon (RSA)
+
+Attendance: 62,316
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0324</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>German stocks end lower</TITLE>
+
+
+<TEXT>
+
+German stocks <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> lower <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3> in the Frankfurt Stock Exchange for the first day in six.
+
+The 30-share benchmark DAX Index <EVENT class="OCCURRENCE" eid="e2">fell</EVENT> 0.57 percent to 5,081.46 points with 19 stocks <EVENT class="OCCURRENCE" eid="e3">falling</EVENT>.
+
+The fall was <EVENT class="OCCURRENCE" eid="e4">led</EVENT> by Europe's third-largest utility RWE AG after <EVENT class="REPORTING" eid="e5">reporting</EVENT> poor earnings. RWE <EVENT class="OCCURRENCE" eid="e6">fell</EVENT> 2.2 percent to 56.55 euros.
+
+The index of medium-sized firms, MDAX, <EVENT class="OCCURRENCE" eid="e7">slipped</EVENT> 0.31 percent to 6,976.49 points.
+
+The index of high-tech stocks, TecDAX, was down 0.86 percent to 574.82 points.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

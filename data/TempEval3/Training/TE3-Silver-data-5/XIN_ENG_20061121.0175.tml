@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0175</DOCID>
+
+<DCT>AMMAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Jordan's stock market index closes up</TITLE>
+
+
+<TEXT>
+
+The price index of Jordan's Amman stock market <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> at 5,691 points on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3>, up 63 points from <TIMEX3 type="DATE" value="2006-11-20" tid="t2">Monday</TIMEX3>'s finish.
+
+The turnover was 27.4 million Jordanian dinars (about 38.7 million U.S. dollars). A total of 10.3 million shares were <EVENT class="OCCURRENCE" eid="e3">traded</EVENT> in 11,187 deals.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="AFTER" />
+
+
+
+
+</TimeML>

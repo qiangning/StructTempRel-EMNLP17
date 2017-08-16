@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0152</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Ministry</TITLE>
+
+
+<TEXT>
+
+China's <EVENT class="OCCURRENCE" eid="e1">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e2">contain</EVENT> rabies <EVENT class="PERCEPTION" eid="e3">seem</EVENT> not to have <EVENT class="OCCURRENCE" eid="e4">taken</EVENT> <EVENT class="ASPECTUAL" eid="e5">effect</EVENT> yet as the number of people <EVENT class="OCCURRENCE" eid="e6">killed</EVENT> by the disease <EVENT class="OCCURRENCE" eid="e8">climbed</EVENT> slightly to 326 in <TIMEX3 type="DATE" value="2006-10" tid="t1">October</TIMEX3>, China's Health Ministry <EVENT class="REPORTING" eid="e9">reported</EVENT> here <TIMEX3 type="DATE" value="2006-11-10" tid="t2">Friday</TIMEX3>.
+
+Rabies <EVENT class="OCCURRENCE" eid="e10">accounted</EVENT> for 46 percent of all fatalities <EVENT class="OCCURRENCE" eid="e11">caused</EVENT> by infectious diseases <EVENT class="REPORTING" eid="e12">reported</EVENT> on the Chinese mainland in <TIMEX3 type="DATE" value="2006-10" tid="t3">October</TIMEX3>, <EVENT class="REPORTING" eid="e13">according</EVENT> to the ministry.
+
+In <TIMEX3 type="DATE" value="2006-09" tid="t4">September</TIMEX3> rabies <EVENT class="OCCURRENCE" eid="e14">caused</EVENT> 318 deaths. The country has <EVENT class="I_ACTION" eid="e15">recorded</EVENT> 2,254 rabies cases in <TIMEX3 type="DURATION" value="P9M" tid="t5">the first nine months</TIMEX3> of <TIMEX3 type="DURATION" value="P1Y" tid="t6">the year</TIMEX3>, an <EVENT class="OCCURRENCE" eid="e16">increase</EVENT> of 29.69 percent over the same period <TIMEX3 type="DATE" value="2005" tid="t7">last year</TIMEX3>.
+
+The disease <EVENT class="OCCURRENCE" eid="e18">emerged</EVENT> as the top public health priority <TIMEX3 type="DATE" value="2006-07" tid="t8">four months ago</TIMEX3> after it <EVENT class="OCCURRENCE" eid="e19">caused</EVENT> the <EVENT class="OCCURRENCE" eid="e20">deaths</EVENT> of three people in southwest China's Yunnan Province and local authorities in Yunnan and Shandong provinces <EVENT class="I_ACTION" eid="e21">sought</EVENT> to <EVENT class="OCCURRENCE" eid="e22">curb</EVENT> the risk through mass <EVENT class="OCCURRENCE" eid="e23">killings</EVENT> of dogs.
+
+Campaigns to <EVENT class="ASPECTUAL" eid="e24">clamp</EVENT> down on stray dog were also <EVENT class="OCCURRENCE" eid="e25">launched</EVENT> in many other places including Beijing.
+
+The Health Ministry has <EVENT class="OCCURRENCE" eid="e26">launched</EVENT> a program to <EVENT class="OCCURRENCE" eid="e27">conduct</EVENT> regular <EVENT class="OCCURRENCE" eid="e28">monitoring</EVENT> of rabies across the country to <EVENT class="OCCURRENCE" eid="e29">collect</EVENT> evidence and <EVENT class="OCCURRENCE" eid="e30">use</EVENT> it as a basis for <EVENT class="OCCURRENCE" eid="e31">drafting</EVENT> regulations that can effectively control rabies.
+
+Rabies was <EVENT class="OCCURRENCE" eid="e33">followed</EVENT> by tuberculosis, AIDS, hepatitis B and infant tetanus on the list of the most deadly infectious diseases in China.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei18" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

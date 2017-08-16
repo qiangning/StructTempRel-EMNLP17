@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970410.0489</DOCID>
+
+<DCT>LISBON, <TIMEX3 tid="t0" type="TIME" value="1997-04-10" temporalFunction="false" functionInDocument="CREATION_TIME">April 10 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>One dead, more missing in accident on Lisbon bridge</TITLE>
+
+
+<TEXT>
+
+One worker was <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> <TIMEX3 type="DATE" value="1997-04-10" tid="t1">Thursday</TIMEX3> and eight others <EVENT class="OCCURRENCE" eid="e2">injured</EVENT>, seven seriously, when a 360-tonne part of a pillar <EVENT class="OCCURRENCE" eid="e3">fell</EVENT> off the Vasco da Gama bridge, Europe's largest bridge project, officials <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Up to five people were <EVENT class="I_STATE" eid="e5">feared</EVENT> <EVENT class="OCCURRENCE" eid="e6">lost</EVENT> in the waters of the Tagus river, a navy spokesman <EVENT class="REPORTING" eid="e7">said</EVENT>. Rescue operations were <EVENT class="OCCURRENCE" eid="e8">halted</EVENT> <TIMEX3 type="TIME" value="1997-04-03TAF" tid="t2">Thursday afternoon</TIMEX3> but will <EVENT class="ASPECTUAL" eid="e9">resume</EVENT> at high tide.
+
+A spokesman for the builders, Lusoponte, <EVENT class="REPORTING" eid="e10">said</EVENT> a British engineer was among the injured but <EVENT class="OCCURRENCE" eid="e11">declined</EVENT> to <EVENT class="OCCURRENCE" eid="e12">name</EVENT> him. All other injured were <EVENT class="STATE" eid="e13">Portuguese</EVENT>.
+
+The spokesman would not <EVENT class="REPORTING" eid="e14">confirm</EVENT> or <EVENT class="OCCURRENCE" eid="e15">deny</EVENT> the number of <EVENT class="OCCURRENCE" eid="e16">missing</EVENT>.
+
+The first state television channel <EVENT class="REPORTING" eid="e17">said</EVENT> two people <EVENT class="OCCURRENCE" eid="e18">died</EVENT>, three <EVENT class="OCCURRENCE" eid="e19">went</EVENT> missing and nine were <EVENT class="OCCURRENCE" eid="e20">hurt</EVENT> in the accident, the first fatal one on the construction site.
+
+Construction on the 12-kilometer (seven-mile) bridge, Europe's longest, <EVENT class="ASPECTUAL" eid="e22">began</EVENT> <TIMEX3 type="DATE" value="1994" tid="t3">three years ago</TIMEX3>. It is due to be <EVENT class="OCCURRENCE" eid="e23">opened</EVENT> in <TIMEX3 type="DATE" value="1998-05" tid="t4">May 1998</TIMEX3>, in time for the World's <EVENT class="OCCURRENCE" eid="e24">Fair</EVENT> in Lisbon.
+
+First television reports <EVENT class="REPORTING" eid="e25">said</EVENT> a shuttle <EVENT class="OCCURRENCE" eid="e26">travelling</EVENT> on the bridge <EVENT class="OCCURRENCE" eid="e27">derailed</EVENT> after the <EVENT class="OCCURRENCE" eid="e28">rupture</EVENT> or <EVENT class="OCCURRENCE" eid="e29">collapse</EVENT> of a metal structure and <EVENT class="OCCURRENCE" eid="e30">plunged</EVENT> into the river, 30 meters (100 feet) below.
+
+The LUSA news agency <EVENT class="REPORTING" eid="e31">said</EVENT> between <TIMEX3 type="DATE" value="1914" tid="t5">14</TIMEX3> and 16 people were at the site when the accident <EVENT class="OCCURRENCE" eid="e32">happened</EVENT> at lunch hour. Normally up to 24 people <EVENT class="OCCURRENCE" eid="e33">work</EVENT> there, the agency <EVENT class="REPORTING" eid="e34">said</EVENT>.
+
+Lusoponte <EVENT class="ASPECTUAL" eid="e35">suspended</EVENT> <EVENT class="OCCURRENCE" eid="e36">work</EVENT> on the bridge, <EVENT class="OCCURRENCE" eid="e37">named</EVENT> after the 15th-century Portuguese navigator, and <EVENT class="OCCURRENCE" eid="e38">sent</EVENT> all workers home.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="IS_INCLUDED" />
+<TLINK lid="l51" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+
+
+
+
+</TimeML>

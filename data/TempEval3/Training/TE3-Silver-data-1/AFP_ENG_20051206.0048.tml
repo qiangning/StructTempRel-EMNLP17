@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0048</DOCID>
+
+<DCT>MUSAYYIB, Iraq, <TIMEX3 tid="t0" type="TIME" value="2005-12-06" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 6 , 2005</TIMEX3></DCT>
+
+<TITLE>Nine bodies found south of Baghdad</TITLE>
+
+
+<TEXT>
+
+Police have <EVENT class="OCCURRENCE" eid="e1">discovered</EVENT> nine bodies of Iraqi civilians <EVENT class="OCCURRENCE" eid="e2">shot</EVENT> dead near Mussayab, south of the capital, police <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-12-06" tid="t1">Tuesday</TIMEX3>.
+
+The victims had all been <EVENT class="OCCURRENCE" eid="e4">shot</EVENT> at close range and were men in their 30s, <EVENT class="OCCURRENCE" eid="e5">added</EVENT> police.
+
+Iraq has <EVENT class="PERCEPTION" eid="e6">seen</EVENT> a <EVENT class="OCCURRENCE" eid="e7">spike</EVENT> of violence in the run-up to legislative <EVENT class="OCCURRENCE" eid="e9">elections</EVENT> on <TIMEX3 type="DATE" value="2004-12-15" tid="t2">December 15</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

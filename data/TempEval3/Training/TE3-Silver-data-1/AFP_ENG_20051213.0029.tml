@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051213.0029</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2005-12-13" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 13 , 2005</TIMEX3></DCT>
+
+<TITLE>ATTENTION - ADDS quotes, background ///</TITLE>
+
+
+<TEXT>
+
+Iraq's first Kurdish head of state Jalal Talabani <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2005-12-13" tid="t1">Tuesday</TIMEX3> that he would not <EVENT class="I_ACTION" eid="e2">seek</EVENT> a second presidential mandate if the post <EVENT class="STATE" eid="e3">remained</EVENT> largely ceremonial following <TIMEX3 type="DATE" value="2005-W50" tid="t2">this week</TIMEX3>'s watershed general <EVENT class="OCCURRENCE" eid="e4">election</EVENT>.
+
+"In keeping with the new constitution, the president of the republic does not have the power to <EVENT class="OCCURRENCE" eid="e6">participate</EVENT> in the management of state and therefore I would not <EVENT class="I_ACTION" eid="e7">agree</EVENT> to <EVENT class="OCCURRENCE" eid="e8">become</EVENT> an honorary president," <EVENT class="REPORTING" eid="e9">said</EVENT> Talabani.
+
+"I <EVENT class="OCCURRENCE" eid="e10">refuse</EVENT> to <EVENT class="OCCURRENCE" eid="e11">present</EVENT> my candidacy in such circumstances," he <EVENT class="OCCURRENCE" eid="e13">added</EVENT> in a statement <EVENT class="OCCURRENCE" eid="e14">released</EVENT> overnight.
+
+Iraq <EVENT class="OCCURRENCE" eid="e15">goes</EVENT> to the polls on <TIMEX3 type="DATE" value="2005-12-15" tid="t3">Thursday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e16">elect</EVENT> its first full-term parliament since the 2003 US-led <EVENT class="OCCURRENCE" eid="e17">invasion</EVENT> and the fall of Saddam Hussein.
+
+"The president of the republic must be a real president, active in the leadership of the state, for the simple reason that Iraqis <EVENT class="I_STATE" eid="e18">expect</EVENT> a lot from him," <EVENT class="REPORTING" eid="e19">said</EVENT> Talabani.
+
+"They <EVENT class="OCCURRENCE" eid="e20">address</EVENT> numerous demands to him, they <EVENT class="OCCURRENCE" eid="e22">call</EVENT> on him to <EVENT class="ASPECTUAL" eid="e23">end</EVENT> <EVENT class="OCCURRENCE" eid="e24">injustice</EVENT> and to <EVENT class="I_ACTION" eid="e25">help</EVENT> them <EVENT class="OCCURRENCE" eid="e26">solve</EVENT> their problems. If the president is honorary, he cannot <EVENT class="OCCURRENCE" eid="e27">respond</EVENT> to these demands."
+
+The 72-year-old Talabani <EVENT class="I_ACTION" eid="e29">leads</EVENT> the main Kurdish coalition <EVENT class="OCCURRENCE" eid="e30">contesting</EVENT> <TIMEX3 type="DATE" value="2005-12-15" tid="t5">Thursday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e31">election</EVENT>, an alliance of his Patriotic Union of Kurdistan and Massud Barzani's Kurdistan Democratic Party.
+
+The first <EVENT class="OCCURRENCE" eid="e32">task</EVENT> of the elected 275 members of parliaments will be to <EVENT class="OCCURRENCE" eid="e33">appoint</EVENT>, by a two-thirds majority, a president and two vice-presidents.
+
+The presidency council will then <EVENT class="STATE" eid="e34">have</EVENT> <TIMEX3 type="DURATION" value="P15D" tid="t6">15 days</TIMEX3> to <EVENT class="OCCURRENCE" eid="e35">name</EVENT> a prime minister, who will <EVENT class="OCCURRENCE" eid="e36">form</EVENT> a cabinet to be <EVENT class="OCCURRENCE" eid="e37">put</EVENT> to parliament for approval.
+
+The constitution, <EVENT class="OCCURRENCE" eid="e38">adopted</EVENT> at a <EVENT class="OCCURRENCE" eid="e39">referendum</EVENT> in <TIMEX3 type="DATE" value="2005-10" tid="t7">October</TIMEX3>, <EVENT class="OCCURRENCE" eid="e40">limits</EVENT> the powers of the four-year head of state in order to <EVENT class="I_ACTION" eid="e41">guard</EVENT> against any <EVENT class="OCCURRENCE" eid="e42">return</EVENT> to the decades of authoritarian dictatorship during the Saddam Hussein era.
+
+A strong man who hates to be <EVENT class="OCCURRENCE" eid="e44">made</EVENT> a fool of, Talabani publicly <EVENT class="OCCURRENCE" eid="e45">reprimanded</EVENT> Shiite Prime Minister Ibrahim Jaafari, <EVENT class="I_ACTION" eid="e46">accusing</EVENT> him of <EVENT class="OCCURRENCE" eid="e47">violating</EVENT> Iraqi law and <EVENT class="OCCURRENCE" eid="e48">exceeding</EVENT> his authority by <EVENT class="OCCURRENCE" eid="e49">taking</EVENT> decisions without <EVENT class="OCCURRENCE" eid="e51">consulting</EVENT> the president.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei34" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei29" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei33" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei45" relatedToEventInstance="ei46" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei45" relatedToEventInstance="ei48" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei40" relatedToEventInstance="ei45" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei45" relatedToEventInstance="ei51" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei44" relatedToEventInstance="ei45" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei45" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei45" relatedToEventInstance="ei47" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei32" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei39" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l57" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei35" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l59" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

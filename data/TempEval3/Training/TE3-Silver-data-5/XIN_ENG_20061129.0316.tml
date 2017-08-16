@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0316</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st LD: U.S. economy grows at 2.2 percent in third quarter</TITLE>
+
+
+<TEXT>
+
+The U.S. economy <EVENT class="OCCURRENCE" eid="e1">grew</EVENT> at an annual rate of 2.2 percent in the July-to-September period, better than the initially estimated 1.6 percent pace, the Commerce Department <EVENT class="REPORTING" eid="e2">reported</EVENT> <TIMEX3 type="DATE" value="2006-11-29" tid="t2">Wednesday</TIMEX3>.
+
+The rate of <EVENT class="OCCURRENCE" eid="e3">expansion</EVENT> in gross domestic product was stronger than the 1.8 percent pace that economists had <EVENT class="OCCURRENCE" eid="e4">forecast</EVENT>, but less than half the blistering 5.6 percent rate <EVENT class="I_ACTION" eid="e6">recorded</EVENT> in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">the first quarter</TIMEX3>.
+
+The 2.2 percent <EVENT class="OCCURRENCE" eid="e7">growth</EVENT> was slowest since a 1.8 percent growth rate in <TIMEX3 type="DATE" value="2005" tid="t4">final quarter of 2005</TIMEX3>, when the economy was <EVENT class="OCCURRENCE" eid="e9">suffering</EVENT> fallout from the devastating Gulf Coast hurricanes.
+
+GDP <EVENT class="OCCURRENCE" eid="e11">measures</EVENT> the value of all goods and services <EVENT class="OCCURRENCE" eid="e12">produced</EVENT> within the United States and is <EVENT class="I_STATE" eid="e13">considered</EVENT> the best barometer of the country's economic fitness.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

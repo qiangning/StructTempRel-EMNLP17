@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0226</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st LD: U.S. warplane crash in northwest of Baghdad</TITLE>
+
+
+<TEXT>
+
+A U.S. fighter jet <EVENT class="OCCURRENCE" eid="e1">crashed</EVENT> northwest of Baghdad on <TIMEX3 type="DATE" value="2006-11-27" tid="t1">Monday</TIMEX3> with one pilot on board, al-Jazeera TV channel <EVENT class="REPORTING" eid="e2">reported</EVENT>.
+
+The U.S. military <EVENT class="REPORTING" eid="e3">confirmed</EVENT> the <EVENT class="OCCURRENCE" eid="e4">incident</EVENT> in a brief statement, <EVENT class="REPORTING" eid="e6">saying</EVENT> the U.S. Air force jet, F-16 <EVENT class="OCCURRENCE" eid="e7">carrying</EVENT> one pilot <EVENT class="OCCURRENCE" eid="e8">crashed</EVENT> in northwest of Baghdad at about <TIMEX3 type="DATE" value="2006-11-27" tid="t2">1:35 p.m.</TIMEX3> (1035 GMT).
+
+The F-16 CG was <EVENT class="OCCURRENCE" eid="e9">providing</EVENT> support for the coalition ground forces when it <EVENT class="OCCURRENCE" eid="e10">went</EVENT> down in an area <EVENT class="OCCURRENCE" eid="e11">located</EVENT> 32 km northwest of Baghdad in the volatile Anbar province, <EVENT class="OCCURRENCE" eid="e12">added</EVENT> the statement.
+
+However, the statement did not <EVENT class="REPORTING" eid="e13">say</EVENT> what <EVENT class="OCCURRENCE" eid="e14">cause</EVENT> the <EVENT class="OCCURRENCE" eid="e15">crash</EVENT> or the <EVENT class="OCCURRENCE" eid="e16">fate</EVENT> of the pilot.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

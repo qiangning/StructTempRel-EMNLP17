@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051202.0007</DOCID>
+
+<DCT>LAKE LOUISE, Canada, <TIMEX3 tid="t0" type="TIME" value="2005-12-02" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 2 , 2005</TIMEX3></DCT>
+
+<TITLE>Italy's Recchia crashes during Lake Louise downhill</TITLE>
+
+
+<TEXT>
+
+Italy's Lucia Recchia <EVENT class="OCCURRENCE" eid="e1">crashed</EVENT> at high speed in <TIMEX3 type="DATE" value="2005-12-02" tid="t1">Friday</TIMEX3>'s women's World Cup downhill and was <EVENT class="OCCURRENCE" eid="e2">airlifted</EVENT> to hospital.
+
+<EVENT class="ASPECTUAL" eid="e3">Starting</EVENT> from the 18th spot, the 26-year-old Recchia apparently <EVENT class="OCCURRENCE" eid="e4">lost</EVENT> a ski and <EVENT class="OCCURRENCE" eid="e5">hit</EVENT> a gate shortly after <EVENT class="ASPECTUAL" eid="e6">starting</EVENT> her run, then before <EVENT class="OCCURRENCE" eid="e8">crashed</EVENT> through the safety <EVENT class="STATE" eid="e9">netting</EVENT> on the side of the course.
+
+She was <EVENT class="OCCURRENCE" eid="e10">put</EVENT> on a stretcher and <EVENT class="OCCURRENCE" eid="e11">airlifted</EVENT> off the mountain by helicopter to a waiting ambulance.
+
+Recchia was conscious as ski patrol and medical staff <EVENT class="OCCURRENCE" eid="e12">assisted</EVENT> her on the mountain.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

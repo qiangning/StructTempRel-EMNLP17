@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051203.0071</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-12-03" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 3 , 2005</TIMEX3></DCT>
+
+<TITLE>Japanese governor to try and stop US nuclear ship deployment</TITLE>
+
+
+<TEXT>
+
+The governor of a prefecture <EVENT class="OCCURRENCE" eid="e1">hosting</EVENT> the largest US Navy base in Japan <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2005-12-03" tid="t1">Saturday</TIMEX3> he would <EVENT class="ASPECTUAL" eid="e3">continue</EVENT> to <EVENT class="I_ACTION" eid="e4">seek</EVENT> to <EVENT class="ASPECTUAL" eid="e5">stop</EVENT> the <EVENT class="OCCURRENCE" eid="e6">deployment</EVENT> of a nuclear-powered ship there in <TIMEX3 type="DATE" value="2008" tid="t2">2008</TIMEX3> as <EVENT class="REPORTING" eid="e7">announced</EVENT> by Washington.
+
+"It doesn't <EVENT class="OCCURRENCE" eid="e8">mean</EVENT> that we have <EVENT class="OCCURRENCE" eid="e9">exhausted</EVENT> all possibilities" of <EVENT class="ASPECTUAL" eid="e10">stopping</EVENT> the <EVENT class="OCCURRENCE" eid="e11">deployment</EVENT> of a nuclear-powered ship at Yokosuka, Kanagawa governor Shigefumi Matsuzawa <EVENT class="REPORTING" eid="e12">said</EVENT> in a statement.
+
+The US Navy <EVENT class="REPORTING" eid="e13">announced</EVENT> <TIMEX3 type="DATE" value="2005-12-02" tid="t3">Friday</TIMEX3> in Washington that the USS George Washington would <EVENT class="OCCURRENCE" eid="e14">replace</EVENT> the USS Kitty Hawk in <TIMEX3 type="DATE" value="2008" tid="t4">2008</TIMEX3> as its first nuclear-powered aircraft carrier based in Japan.
+
+Japan, a close US ally, <EVENT class="REPORTING" eid="e15">announced</EVENT> in <TIMEX3 type="DATE" value="2005-10" tid="t5">October</TIMEX3> it had <EVENT class="I_ACTION" eid="e16">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e17">host</EVENT> a Nimitz-class nuclear-powered aircraft carrier at the port from 2008 prompting <EVENT class="OCCURRENCE" eid="e18">protests</EVENT> in the only nation to have <EVENT class="OCCURRENCE" eid="e19">suffered</EVENT> nuclear <EVENT class="OCCURRENCE" eid="e20">attack</EVENT>.
+
+More than 210,000 people <EVENT class="OCCURRENCE" eid="e21">died</EVENT> when Hiroshima and Nagasaki were <EVENT class="OCCURRENCE" eid="e22">bombed</EVENT> by US forces in <TIMEX3 type="DATE" value="1945" tid="t7">1945</TIMEX3>.
+
+"I'll <EVENT class="ASPECTUAL" eid="e23">continue</EVENT> <EVENT class="I_ACTION" eid="e24">urging</EVENT> the Japanese and US governments to <EVENT class="OCCURRENCE" eid="e25">solve</EVENT> the noise problem <EVENT class="OCCURRENCE" eid="e26">caused</EVENT> by carrier-based aircraft as soon as possible and to <EVENT class="I_ACTION" eid="e27">try</EVENT> my best to <EVENT class="PERCEPTION" eid="e28">see</EVENT> that a conventional carrier is <EVENT class="OCCURRENCE" eid="e29">deployed</EVENT> here," Matsuzawa <EVENT class="REPORTING" eid="e30">said</EVENT>.
+
+Japanese Foreign Minister Taro Aso, currently <EVENT class="OCCURRENCE" eid="e31">visiting</EVENT> Washington, is <EVENT class="I_STATE" eid="e32">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e33">meet</EVENT> US Secretary of Defense Donald Rumsfeld on <TIMEX3 type="DATE" value="2005-12-03" tid="t8">Saturday</TIMEX3> and to <EVENT class="OCCURRENCE" eid="e34">discuss</EVENT> the realignment of US forces in Japan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei34" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei23" relatedToEventInstance="ei30" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei2" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

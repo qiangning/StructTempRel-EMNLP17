@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0153</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Beijing unveils 2008 Olympic mascots</TITLE>
+
+
+<TEXT>
+
+Beijing <EVENT class="OCCURRENCE" eid="e1">unveiled</EVENT> a set of five doll mascots for the 2008 Olympic Games <TIMEX3 type="DATE" value="2005-11-04TEV" tid="t2">Friday evening, exactly 1,000 days</TIMEX3> before the event's opening <EVENT class="OCCURRENCE" eid="e2">ceremony</EVENT>.
+
+The long-anticipated mascots, which <EVENT class="OCCURRENCE" eid="e3">embody</EVENT> the natural characteristics of four of China's popular animals -- the Fish, the Panda, the Tibetan Antelope, the <EVENT class="OCCURRENCE" eid="e4">Swallow</EVENT> -- and the Olympic Flame, were <EVENT class="OCCURRENCE" eid="e5">presented</EVENT> at a televised grand <EVENT class="OCCURRENCE" eid="e6">ceremony</EVENT> inside the Workers' Gymnasium.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+
+
+
+
+</TimeML>

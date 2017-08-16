@@ -1,0 +1,784 @@
+package edu.illinois.cs.cogcomp.nlp.CompareCAVEO;
+
+import edu.illinois.cs.cogcomp.core.datastructures.Pair;
+import edu.illinois.cs.cogcomp.core.utilities.configuration.ResourceManager;
+import edu.illinois.cs.cogcomp.infer.ilp.GurobiHook;
+import edu.illinois.cs.cogcomp.lbjava.classify.ScoreSet;
+import edu.illinois.cs.cogcomp.lbjava.learn.Softmax;
+import edu.illinois.cs.cogcomp.nlp.classifier.FeatureExtractor;
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.ClassifierConfigurator;
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.LearningObj;
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.ParamLBJ;
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.ScoringFunc;
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.ee.ee_perceptron;
+import edu.illinois.cs.cogcomp.nlp.classifier.my_ee_perceptron;
+import edu.illinois.cs.cogcomp.nlp.corpusreaders.TLINK;
+import edu.illinois.cs.cogcomp.nlp.corpusreaders.TempEval3Reader;
+import edu.illinois.cs.cogcomp.nlp.timeline.GlobalEEClassifierExp;
+import edu.illinois.cs.cogcomp.nlp.timeline.LocalEEClassifierExp;
+import edu.illinois.cs.cogcomp.nlp.timeline.LocalETClassifierExp;
+import edu.illinois.cs.cogcomp.nlp.timeline.test.sieve_output;
+import edu.illinois.cs.cogcomp.nlp.util.*;
+import edu.uw.cs.lil.uwtime.chunking.chunks.EventChunk;
+import edu.uw.cs.lil.uwtime.data.TemporalDocument;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
+
+/**
+ * Created by qning2 on 4/4/17.
+ * Copied from the standard GlobalEEClassifierExp
+ */
+public class GlobalEE {
+    private ScoringFunc ee_scorer;
+    private List<TemporalDocument> docs;
+    public HashMap<String,List<TLINK>> CAVEO_output;
+    public HashMap<String, HashMap<Integer, List<Integer>>> ignoreVarsMap;
+    public HashMap<String, HashMap<Integer, HashMap<Integer, List<String>>>> knownVarsMap;
+    public HashMap<String, HashMap<Integer, HashMap<Integer, double[]>>> knownScoresMap;
+    public HashMap<String, Double> baseline_prob;
+    public HashMap<String, HashMap<String, Double>> chain_prob;//not very useful
+    private PrecisionRecallManager evaluator = new PrecisionRecallManager();
+
+    public static boolean CAVEO_or_LpI = false;//true: CAVEP, false: L+I
+    public static boolean use_CAVEO_ettt = true;// use the et&tt from caveo for fair comparison
+    public static boolean remove_vague = true;// don't care the vague classifier ee_scorer_vague
+    public static boolean knownNONEs = false;
+    public static boolean useBaselineProb = false;
+    public boolean serialize = true;
+    public String cacheDir = "serialized_data/Chambers/global-noV-augTE3/";
+    public boolean force_update = true;
+    public double kl_threshold = 1.4;
+    public boolean sentDistFilter = true;
+    public LocalETClassifierExp et_classifier;
+    public ScoringFunc ee_scorer_vague;
+
+
+    public GlobalEE(List<TemporalDocument> docs, ScoringFunc ee_scorer){
+        this.docs = docs;
+        this.ee_scorer = ee_scorer;
+        ignoreVarsMap = null;
+        knownVarsMap = null;
+        knownScoresMap = null;
+        baseline_prob = null;
+        chain_prob = null;
+        /*ResourceManager rm2 = new ClassifierConfigurator().getDefaultConfig();
+        ee_scorer_vague = new my_ee_perceptron(new ee_perceptron(
+                rm2.getString("eeModelDirPath")+rm2.getString("eeModelName")+"_dense"+".lc",
+                rm2.getString("eeModelDirPath")+rm2.getString("eeModelName")+"_dense"+".lex"));*/
+        ee_scorer_vague = ee_scorer;
+    }
+    public GlobalEE(List<TemporalDocument> docs, String modelDirPath, String modelName) {
+        String modelPath;
+        String modelLexPath;
+        modelPath = modelDirPath + modelName + ".lc";
+        modelLexPath = modelDirPath + modelName + ".lex";
+        ee_scorer = new my_ee_perceptron(new ee_perceptron(modelPath, modelLexPath));
+        this.docs = docs;
+        ignoreVarsMap = null;
+        knownVarsMap = null;
+        knownScoresMap = null;
+        baseline_prob = null;
+        chain_prob = null;
+
+        /*ResourceManager rm2 = new ClassifierConfigurator().getDefaultConfig();
+        ee_scorer_vague = new my_ee_perceptron(new ee_perceptron(
+                rm2.getString("eeModelDirPath")+rm2.getString("eeModelName")+"_dense"+".lc",
+                rm2.getString("eeModelDirPath")+rm2.getString("eeModelName")+"_dense"+".lex"));*/
+        ee_scorer_vague = ee_scorer;
+    }
+
+    /*solveDoc() hard copies tlinks*/
+    public TemporalDocument solveDoc(TemporalDocument doc) throws Exception {
+        TemporalDocument predDoc;
+        if(!force_update) {
+            predDoc = TemporalDocument.deserialize(cacheDir, doc.getDocID(), true);
+            if (predDoc != null)
+                return predDoc;
+        }
+        GurobiHook solver = new GurobiHook();
+        FeatureExtractor featureExtractor = new FeatureExtractor(doc);
+        HashMap<Integer, HashMap<Integer, HashMap<String, Integer>>> eeVar = new HashMap<>();
+        HashMap<Integer, HashMap<String, HashMap<String, Integer>>> chainVar = new HashMap<>();
+        HashMap<Integer, List<Integer>> ignoreVar = (ignoreVarsMap != null && ignoreVarsMap.containsKey(doc.getDocID())) ?
+                ignoreVarsMap.get(doc.getDocID()) : null;
+        HashMap<Integer, HashMap<Integer, List<String>>> knownVar = (knownVarsMap != null && knownVarsMap.containsKey(doc.getDocID())) ?
+                knownVarsMap.get(doc.getDocID()) : null;
+        HashMap<Integer, HashMap<Integer, double[]>> knownScore = (knownScoresMap != null && knownScoresMap.containsKey(doc.getDocID())) ?
+                knownScoresMap.get(doc.getDocID()) : null;
+        HashMap<Integer, List<Integer>> small_kl = new HashMap<>();
+        /*Add variable*/
+        Softmax sm = new Softmax();
+        for (EventChunk ec1 : doc.getBodyEventMentions()) {
+            int id1 = doc.getBodyEventMentions().indexOf(ec1);
+            if (!eeVar.containsKey(id1)) {
+                eeVar.put(id1, new HashMap<>());
+            }
+            for (EventChunk ec2 : doc.getBodyEventMentions()) {
+                if (ec1.equals(ec2))
+                    continue;
+                int id2 = doc.getBodyEventMentions().indexOf(ec2);
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(id1)
+                        && ignoreVar.get(id1).contains(id2)) {
+                    continue;
+                }
+                if (!eeVar.get(id1).containsKey(id2))
+                    eeVar.get(id1).put(id2, new HashMap<>());
+
+                ScoreSet normScores;
+                if(knownScore!=null
+                        &&knownScore.containsKey(ec1.getEiid())
+                        &&knownScore.get(ec1.getEiid()).containsKey(ec2.getEiid())){
+                    double[] prior_scores = knownScore.get(ec1.getEiid()).get(ec2.getEiid());
+                    if(prior_scores.length!= TLINK.TlinkType.values().length) {
+                        System.out.println("knownScoresMap provided to GlobalEEClassifierExp is not valid. (length of double[] is not consistent with TlinkType)");
+                        System.exit(-1);
+                    }
+                    String[] prior_values = new String[TLINK.TlinkType.values().length];
+                    for(int i = 0; i< TLINK.TlinkType.values().length; i++){
+                        prior_values[i] = TLINK.TlinkType.values()[i].toStringfull();
+                    }
+                    normScores = new ScoreSet(prior_values,prior_scores);
+                }
+                else {
+                    String feat = featureExtractor.getFeatureString(featureExtractor.extractEEfeats(ec1, ec2), "test");//@@fix later
+                    int pos = feat.lastIndexOf(ParamLBJ.FEAT_DELIMITER);
+                    String goldLabel = feat.substring(pos + 1).trim();
+                    LearningObj obj = new LearningObj(feat.substring(0, pos).trim(), goldLabel);
+                    ScoreSet scores = ee_scorer.scores(obj);
+                    ScoreSet scores_vague = ee_scorer_vague.scores(obj);
+
+                    /*Remove the vague classifier in scores*/
+                    ScoreSet scores_new = new ScoreSet();
+                    for(Object val:scores.values()){
+                        if(val.equals("undef")) {
+                            if(!remove_vague)
+                                scores_new.put("undef",scores_vague.get("undef"));
+                        }
+                        else
+                            scores_new.put((String)val,scores.get((String)val));
+                    }
+
+                    normScores = sm.normalize(scores_new);
+
+                    //normScores = sm.normalize(scores);
+                }
+
+                Set vals = normScores.values();
+                double[] p = new double[vals.size()];
+                int cnt = 0;
+                for (Object val : vals) {
+                    double offset = (baseline_prob != null && baseline_prob.containsKey((String) val)) ? baseline_prob.get(val) : 0;
+                    int var = solver.addBooleanVariable(normScores.get((String) val) + offset);
+                    eeVar.get(id1).get(id2).put((String) val, var);
+
+                    p[cnt++] = normScores.get((String) val);
+                }
+                //System.out.println(KLDiv.kldivergence(p));
+                if(KLDiv.kldivergence(p)<kl_threshold){// kl_div too small
+                    if(!small_kl.containsKey(id1))
+                        small_kl.put(id1,new ArrayList<Integer>());
+                    small_kl.get(id1).add(id2);
+                }
+                if (!vals.contains(TLINK.TlinkType.UNDEF.toStringfull())) {
+                    int var = solver.addBooleanVariable(0);
+                    eeVar.get(id1).get(id2).put(TLINK.TlinkType.UNDEF.toStringfull(), var);
+                }
+            }
+        }
+        if (chain_prob != null) {
+            int nType = TLINK.TlinkType.values().length;
+            for (int ne = 1; ne < doc.getBodyEventMentions().size() - 1; ne++) {
+                int eiid1 = doc.getBodyEventMentions().get(ne - 1).getEiid();
+                int eiid2 = doc.getBodyEventMentions().get(ne).getEiid();
+                int eiid3 = doc.getBodyEventMentions().get(ne + 1).getEiid();
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(ne-1)
+                        && ignoreVar.get(ne-1).contains(ne)) {
+                    continue;
+                }
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(ne)
+                        && ignoreVar.get(ne).contains(ne+1)) {
+                    continue;
+                }
+                chainVar.put(ne, new HashMap<>());
+                for (int k1 = 0; k1 < nType; k1++) {
+                    String tt1 = TLINK.TlinkType.values()[k1].toStringfull();
+                    chainVar.get(ne).put(tt1, new HashMap<>());
+                    for (int k2 = 0; k2 < nType; k2++) {
+                        /*Add variable*/
+                        String tt2 = TLINK.TlinkType.values()[k2].toStringfull();
+                        int var = solver.addBooleanVariable(chain_prob.get(tt1).get(tt2));
+                        chainVar.get(ne).get(tt1).put(tt2, var);
+
+                        /*Add constraints*/
+                        int[] vars = new int[3];
+                        double[] coefs = new double[]{1, 1, -1};
+                        vars[0] = eeVar.get(ne-1).get(ne).get(tt1);
+                        vars[1] = eeVar.get(ne).get(ne+1).get(tt2);
+                        vars[2] = var;
+                        solver.addLessThanConstraint(vars, coefs, 1);
+                    }
+                }
+            }
+
+        }
+        /*Use knownVar information*/
+        if (knownVar != null) {
+            for (int id1 : knownVar.keySet()) {
+                for (int id2 : knownVar.get(id1).keySet()) {
+                    if (id1 == id2)
+                        continue;
+                    if (ignoreVar != null
+                            && ignoreVar.containsKey(id1)
+                            && ignoreVar.get(id1).contains(id2)) {
+                        continue;
+                    }
+                    int n = knownVar.get(id1).get(id2).size();
+                    int[] vars = new int[n];
+                    double[] coefs = new double[n];
+                    int i = 0;
+                    for (String str : knownVar.get(id1).get(id2)) {
+                        vars[i] = eeVar.get(id1).get(id2).get(str);
+                        coefs[i] = 1;
+                        i++;
+                    }
+                    solver.addEqualityConstraint(vars, coefs, 1);
+                }
+            }
+        }
+        /*Add uniqueness constraints*/
+        for (EventChunk ec1 : doc.getBodyEventMentions()) {
+            int id1 = doc.getBodyEventMentions().indexOf(ec1);
+            for (EventChunk ec2 : doc.getBodyEventMentions()) {
+                int id2 = doc.getBodyEventMentions().indexOf(ec2);
+                if (ec1.equals(ec2))
+                    continue;
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(id1)
+                        && ignoreVar.get(id1).contains(id2)) {
+                    continue;
+                }
+                Set<String> rels = eeVar.get(id1).get(id2).keySet();
+                int n = rels.size();
+                int[] vars = new int[n];
+                double[] coefs = new double[n];
+                int i = 0;
+                for (String rel : rels) {
+                    vars[i] = eeVar.get(id1).get(id2).get(rel);
+                    coefs[i] = 1;
+                    i++;
+                }
+                solver.addEqualityConstraint(vars, coefs, 1);
+            }
+        }
+        /*Add symmetry constraints*/
+        for (EventChunk ec1 : doc.getBodyEventMentions()) {
+            int id1 = doc.getBodyEventMentions().indexOf(ec1);
+            for (EventChunk ec2 : doc.getBodyEventMentions()) {
+                int id2 = doc.getBodyEventMentions().indexOf(ec2);
+                if (ec1.equals(ec2))
+                    continue;
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(id1)
+                        && ignoreVar.get(id1).contains(id2)) {
+                    continue;
+                }
+                Set<String> rels = eeVar.get(id1).get(id2).keySet();
+                double[] coefs = new double[]{1, -1};
+                int[] vars = new int[2];
+                for (String rel : rels) {
+                    vars[0] = eeVar.get(id1).get(id2).get(rel);
+                    vars[1] = eeVar.get(id2).get(id1).get(TLINK.TlinkType.reverse(rel).toStringfull());
+                    solver.addEqualityConstraint(vars, coefs, 0);
+                }
+            }
+        }
+        /*Add transitivity constraints*/
+        for (EventChunk ec1 : doc.getBodyEventMentions()) {
+            int id1 = doc.getBodyEventMentions().indexOf(ec1);
+            for (EventChunk ec2 : doc.getBodyEventMentions()) {
+                int id2 = doc.getBodyEventMentions().indexOf(ec2);
+                if (ec1.equals(ec2))
+                    continue;
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(id1)
+                        && ignoreVar.get(id1).contains(id2)) {
+                    continue;
+                }
+                for (EventChunk ec3 : doc.getBodyEventMentions()) {
+                    int id3 = doc.getBodyEventMentions().indexOf(ec3);
+                    if (ec1.equals(ec3))
+                        continue;
+                    if (ec2.equals(ec3))
+                        continue;
+                    if (ignoreVar != null
+                            && ignoreVar.containsKey(id1)
+                            && ignoreVar.get(id1).contains(id3)) {
+                        continue;
+                    }
+                    if (ignoreVar != null
+                            && ignoreVar.containsKey(id2)
+                            && ignoreVar.get(id2).contains(id3)) {
+                        continue;
+                    }
+                    List<TransitivityTriplets> transTriplets = TransitivityTriplets.transTriplets();
+                    for (TransitivityTriplets triplet : transTriplets) {
+                        int n = triplet.getThird().length;
+                        double[] coefs = new double[n + 2];
+                        int[] vars = new int[n + 2];
+                        coefs[0] = 1;
+                        coefs[1] = 1;
+                        vars[0] = eeVar.get(id1).get(id2).get(triplet.getFirst().toStringfull());
+                        vars[1] = eeVar.get(id2).get(id3).get(triplet.getSecond().toStringfull());
+                        for (int i = 0; i < n; i++) {
+                            coefs[i + 2] = -1;
+                            vars[i + 2] = eeVar.get(id1).get(id3).get(triplet.getThird()[i].toStringfull());
+                        }
+                        solver.addLessThanConstraint(vars, coefs, 1);
+                    }
+                }
+            }
+        }
+
+        solver.setMaximize(true);
+        solver.solve();
+
+        predDoc = new TemporalDocument(doc);
+        predDoc.setBodyTlinks(null);//reset TLINKs
+        List<TLINK> predTlinks = new ArrayList<>();
+        int lid = 0;
+        for (EventChunk ec1 : doc.getBodyEventMentions()) {
+            int id1 = doc.getBodyEventMentions().indexOf(ec1);
+            for (EventChunk ec2 : doc.getBodyEventMentions()) {
+                int id2 = doc.getBodyEventMentions().indexOf(ec2);
+                if (ec1.equals(ec2))
+                    continue;
+                if (ignoreVar != null
+                        && ignoreVar.containsKey(id1)
+                        && ignoreVar.get(id1).contains(id2)) {
+                    continue;
+                }
+                if(small_kl.containsKey(id1)&&small_kl.get(id1).contains(id2))
+                    continue;
+                Set<String> rels = eeVar.get(id1).get(id2).keySet();
+                int var;
+                String result = "";
+                int cnt = 0;
+                for (String rel : rels) {
+                    var = eeVar.get(id1).get(id2).get(rel);
+                    if (solver.getBooleanValue(var)) {
+                        result = rel;
+                        cnt++;
+                    }
+                }
+                if (cnt > 1)
+                    System.exit(-1);
+                if (result.toLowerCase().equals("undef"))//don't store undefined tlinks
+                    continue;
+                TLINK tmp = new TLINK(lid, "", TempEval3Reader.Type_Event, TempEval3Reader.Type_Event, ec1.getEiid(), ec2.getEiid(), TLINK.TlinkType.str2TlinkType(result));
+                lid++;
+                predTlinks.add(tmp);
+            }
+        }
+        //predTlinks.addAll(doc.getETlinks());//gold ET
+        predDoc.setBodyTlinks(predTlinks);
+        if(et_classifier!=null && !use_CAVEO_ettt) {// set et links if et_classifier exists
+            TemporalDocument etpred = et_classifier.testOnDoc(predDoc, TLINK.ignore_tlink);
+            List<TLINK> newtlinks = predDoc.getBodyTlinks();
+            newtlinks.addAll(etpred.getETlinks());
+            predDoc.setBodyTlinks(newtlinks);
+        }
+
+
+        /*Filter out distant event pairs*/
+        if(sentDistFilter) {
+            List<TLINK> filtered = new ArrayList<>();
+            for (TLINK tlink : predDoc.getBodyTlinks()) {
+                if (!tlink.getSourceType().equals(TempEval3Reader.Type_Event)
+                        || !tlink.getTargetType().equals(TempEval3Reader.Type_Event)) {
+                    filtered.add(tlink);
+                    continue;
+                }
+                EventChunk ec1 = predDoc.getEventMentionFromEIID(tlink.getSourceId());
+                EventChunk ec2 = predDoc.getEventMentionFromEIID(tlink.getTargetId());
+                int sentId1 = predDoc.getSentId(ec1);
+                int sentId2 = predDoc.getSentId(ec2);
+                if(Math.abs(sentId1-sentId2)>=2)
+                    continue;
+                filtered.add(tlink);
+            }
+            predDoc.setBodyTlinks(filtered);
+        }
+
+        /*If ignoreVar is active, saturate before returning the predicted doc.*/
+        /*if(ignoreVar!=null)
+            predDoc.saturateTlinks();*/
+        if(serialize)
+            predDoc.serialize(cacheDir,doc.getDocID(),true);
+        return predDoc;
+    }
+    public List<TemporalDocument> solve() throws Exception {
+        int n = docs.size();
+        List<TemporalDocument> res_docs = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            TemporalDocument doc = docs.get(i);
+            if(doc.getTextAnnotation()==null){
+                res_docs.add(null);
+            }
+            //doc.createTextAnnotation(ta_pipeline);
+            /*int none_edge = Integer.MAX_VALUE;
+            int ignore_edge = Integer.MAX_VALUE;
+            int include_edge = Integer.MAX_VALUE;*/
+            int none_edge = Integer.MAX_VALUE;
+            int ignore_edge = 3;
+            int include_edge = 1;
+            boolean sentId_or_not = true;
+            if(knownNONEs)
+                getKnownVarsMap();
+            else{
+                /*pred knownVarsMap*/
+                HashMap<TLINK.TlinkType,Pair<Integer,Integer>> reliableRange = new HashMap<>();
+                reliableRange.put(TLINK.TlinkType.BEFORE,new Pair<Integer,Integer>(0,none_edge));
+                reliableRange.put(TLINK.TlinkType.AFTER,new Pair<Integer,Integer>(0,none_edge));
+                reliableRange.put(TLINK.TlinkType.INCLUDES,new Pair<Integer,Integer>(0,include_edge));
+                reliableRange.put(TLINK.TlinkType.IS_INCLUDED,new Pair<Integer,Integer>(0,include_edge));
+                reliableRange.put(TLINK.TlinkType.EQUAL,new Pair<Integer,Integer>(0,none_edge));
+                reliableRange.put(TLINK.TlinkType.UNDEF,new Pair<Integer,Integer>(0,Integer.MAX_VALUE));
+                setReliableRange(reliableRange,sentId_or_not);
+                /*Ignore maps*/
+                genIgnoreMapByDist(ignore_edge,none_edge, sentId_or_not);
+            }
+            if(useBaselineProb)
+                getBaselineProb();
+
+            System.out.printf("Solving: [" + (i + 1) + "/" + n + "]:" + doc.getDocID() + "...");
+            ExecutionTimeUtil timer = new ExecutionTimeUtil();
+            timer.start();
+            TemporalDocument predDoc;
+            try{
+                if(CAVEO_or_LpI){
+                    predDoc = new TemporalDocument(doc);
+                    predDoc.setBodyTlinks(CAVEO_output.get(predDoc.getDocID()+".tml"));
+                }
+                else {
+                    predDoc = solveDoc(doc);
+                    if(use_CAVEO_ettt) {
+                        predDoc.removeTTlinks();
+                        predDoc.removeETlinks();
+                        List<TLINK> tlinks = predDoc.getBodyTlinks();
+                        List<TLINK> caveo_tl = CAVEO_output.get(predDoc.getDocID() + ".tml");
+                        for (TLINK tl : caveo_tl) {
+                            if (!tl.getSourceType().equals(tl.getTargetType()))// ET
+                                tlinks.add(tl);
+                            else if (tl.getSourceType().equals(TempEval3Reader.Type_Timex))
+                                tlinks.add(tl);
+
+                        }
+                    }
+                }
+
+            }
+            catch (Exception e){
+                e.printStackTrace();
+                predDoc = null;
+            }
+            res_docs.add(predDoc);
+            timer.end();
+            timer.print();
+            if(predDoc != null) {
+                List<Pair<String, String>> results = TempDocEval.evalBetweenDocs_Chambers(doc, predDoc);
+                for (Pair<String, String> result : results) {
+                    evaluator.addPredGoldLabels(result.getSecond(), result.getFirst());
+                }
+            }
+        }
+        evaluator.printPrecisionRecall();
+        evaluator.printConfusionMatrix();
+        return res_docs;
+    }
+
+    public void getBaselineProb() {
+        if(knownNONEs) {
+            HashMap<String, Double> baseline_prob = new HashMap<>();
+            baseline_prob.put("before", 0.407);
+            baseline_prob.put("after", 0.407);
+            baseline_prob.put("includes", 0.049);
+            baseline_prob.put("included", 0.049);
+            baseline_prob.put("equal", 0.087);
+            this.baseline_prob = baseline_prob;
+        }
+        else{
+            System.out.println("Has not counted yet.");
+            System.exit(-1);
+        }
+    }
+
+    public void getChainProb() {
+        HashMap<String, HashMap<String, Double>> chain_prob = new HashMap<>();
+        double lambda = 1500;
+        chain_prob.put("equal",
+                new HashMap<String, Double>() {{
+                    put("equal", lambda * 0.1);
+                    put("before", lambda * 0.19);
+                    put("after", lambda * 0.1);
+                    put("includes", lambda * 0.04);
+                    put("included", lambda * 0.06);
+                    put("undef", lambda * 0.51);
+                }});
+        chain_prob.put("before",
+                new HashMap<String, Double>() {{
+                    put("equal", lambda * 0.05);
+                    put("before", lambda * 0.17);
+                    put("after", lambda * 0.23);
+                    put("includes", lambda * 0.04);
+                    put("included", lambda * 0.07);
+                    put("undef", lambda * 0.44);
+                }});
+        chain_prob.put("after",
+                new HashMap<String, Double>() {{
+                    put("equal", lambda * 0.06);
+                    put("before", lambda * 0.31);
+                    put("after", lambda * 0.13);
+                    put("includes", lambda * 0.04);
+                    put("included", lambda * 0.09);
+                    put("undef", lambda * 0.39);
+                }});
+        chain_prob.put("includes",
+                new HashMap<String, Double>() {{
+                    put("equal", lambda * 0.08);
+                    put("before", lambda * 0.14);
+                    put("after", lambda * 0.13);
+                    put("includes", lambda * 0.04);
+                    put("included", lambda * 0.08);
+                    put("undef", lambda * 0.53);
+                }});
+        chain_prob.put("included",
+                new HashMap<String, Double>() {{
+                    put("equal", lambda * 0.06);
+                    put("before", lambda * 0.15);
+                    put("after", lambda * 0.07);
+                    put("includes", lambda * 0.24);
+                    put("included", lambda * 0.03);
+                    put("undef", lambda * 0.46);
+                }});
+        chain_prob.put("undef",
+                new HashMap<String, Double>() {{
+                    put("equal", lambda * 0.07);
+                    put("before", lambda * 0.12);
+                    put("after", lambda * 0.1);
+                    put("includes", lambda * 0.04);
+                    put("included", lambda * 0.03);
+                    put("undef", lambda * 0.64);
+                }});
+        this.chain_prob = chain_prob;
+    }
+
+    /*Ignore event pairs with distance between min_dist and max_dist (inclusive).*/
+    public void genIgnoreMapByDist(int min_dist, int max_dist, boolean sentId_or_not) {
+        if(ignoreVarsMap==null)
+            ignoreVarsMap = new HashMap<>();
+        for (TemporalDocument doc : docs) {
+            ignoreVarsMap.put(doc.getDocID(), new HashMap<>());
+            List<EventChunk> bodyEvents = doc.getBodyEventMentions();
+            for (EventChunk ec1 : bodyEvents) {
+                int id1 = bodyEvents.indexOf(ec1);
+                int dist1 = sentId_or_not? doc.getSentId(ec1) : id1;
+                ignoreVarsMap.get(doc.getDocID()).put(id1, new ArrayList<>());
+                for (EventChunk ec2 : bodyEvents) {
+                    if (ec1 == ec2)
+                        continue;
+                    int id2 = bodyEvents.indexOf(ec2);
+                    int dist2 = sentId_or_not? doc.getSentId(ec2) : id2;
+                    if (Math.abs(dist1-dist2) <= max_dist && Math.abs(dist1-dist2) >= min_dist)
+                        ignoreVarsMap.get(doc.getDocID()).get(id1).add(id2);
+                }
+            }
+        }
+    }
+    /*Get the true NONE maps and force others to be not NONE*/
+    public void getKnownVarsMap() {
+        if(knownVarsMap==null)
+            knownVarsMap = new HashMap<>();
+        for(TemporalDocument doc:docs) {
+            HashMap<Integer, HashMap<Integer, List<String>>> knownVar = getKnownVarsMap(doc,true);
+            knownVarsMap.put(doc.getDocID(),knownVar);
+        }
+    }
+    public static HashMap<Integer,HashMap<Integer,List<String>>> getKnownVarsMap(TemporalDocument doc){
+        return getKnownVarsMap(doc, false);
+    }
+    public static HashMap<Integer,HashMap<Integer,List<String>>> getKnownVarsMap(TemporalDocument doc, boolean index_or_eiid){
+        //index_or_eiid:
+        //true: index
+        //false: eiid
+        HashMap<Integer,HashMap<Integer,List<String>>> knownVarsMap = new HashMap<>();
+        HashMap<Integer,List<Integer>> eeNONEmap = doc.getEENONEmap(index_or_eiid);
+        /*Get NONE links as priori*/
+        for(int id1:eeNONEmap.keySet()){
+            knownVarsMap.put(id1,new HashMap<Integer,List<String>>());
+            for(int id2:eeNONEmap.get(id1)){
+                List<String> tmp = new ArrayList<>();
+                tmp.add(TLINK.TlinkType.UNDEF.toStringfull());
+                knownVarsMap.get(id1).put(id2, tmp);
+            }
+        }
+        /*Other links are not NONE*/
+        for(EventChunk ec1:doc.getBodyEventMentions()){
+            int id1 = index_or_eiid?doc.getBodyEventMentions().indexOf(ec1):ec1.getEiid();
+            for(EventChunk ec2:doc.getBodyEventMentions()){
+                if(ec1==ec2)
+                    continue;
+                int id2 = index_or_eiid?doc.getBodyEventMentions().indexOf(ec2):ec2.getEiid();
+                if (eeNONEmap.containsKey(id1)
+                        &&eeNONEmap.get(id1).contains(id2))
+                    continue;
+                List<String> tmp = new ArrayList<>();
+                tmp.add(TLINK.TlinkType.BEFORE.toStringfull());
+                tmp.add(TLINK.TlinkType.AFTER.toStringfull());
+                tmp.add(TLINK.TlinkType.INCLUDES.toStringfull());
+                tmp.add(TLINK.TlinkType.IS_INCLUDED.toStringfull());
+                tmp.add(TLINK.TlinkType.EQUAL.toStringfull());
+                if(eeNONEmap.containsKey(id1))
+                    knownVarsMap.get(id1).put(id2,tmp);
+                else
+                    knownVarsMap.put(id1,new HashMap<Integer,List<String>>(){{put(id2,tmp);}});
+            }
+        }
+        return knownVarsMap;
+    }
+
+    /*Setup the reliable range for every label. For example, we can force events with distance>2 to be not "includes"*/
+    public void setReliableRange(HashMap<TLINK.TlinkType,Pair<Integer,Integer>> reliableRange, boolean sentId_or_not) {
+        if(knownVarsMap==null)
+            knownVarsMap = new HashMap<>();
+        for(TemporalDocument doc:docs) {
+            HashMap<Integer, HashMap<Integer, List<String>>> knownVar = new HashMap<>();
+            List<EventChunk> bodyEvents = doc.getBodyEventMentions();
+            for (EventChunk ec1 : bodyEvents) {
+                int id1 = bodyEvents.indexOf(ec1);
+                int dist1 = sentId_or_not? doc.getSentId(ec1) : id1;
+                knownVar.put(id1, new HashMap<>());
+                for (EventChunk ec2 : bodyEvents) {
+                    if (ec1 == ec2)
+                        continue;
+                    int id2 = bodyEvents.indexOf(ec2);
+                    int dist2 = sentId_or_not? doc.getSentId(ec2) : id2;
+                    int diff = Math.abs(dist1-dist2);
+                    Set<TLINK.TlinkType> types = reliableRange.keySet();
+                    if(types.size()==0) {
+                        System.out.println("reliableRange.keySet.size()==0!");
+                        System.exit(-1);
+                    }
+                    List<String> tmp = new ArrayList<>();
+                    for(TLINK.TlinkType type:types){
+                        int min_dist = reliableRange.get(type).getFirst();
+                        int max_dist = reliableRange.get(type).getSecond();
+                        if(diff>=min_dist&&diff<=max_dist){
+                            tmp.add(type.toStringfull());
+                        }
+                    }
+                    if(tmp.size()>0)
+                        knownVar.get(id1).put(id2,tmp);
+                }
+            }
+            knownVarsMap.put(doc.getDocID(), knownVar);
+        }
+    }
+
+    public static void sanityCheck(TemporalDocument doc, HashMap<Integer, HashMap<Integer, List<String>>> knownVar) {
+        for (EventChunk ec1 : doc.getBodyEventMentions()) {
+            int eiid1 = ec1.getEiid();
+            for (EventChunk ec2 : doc.getBodyEventMentions()) {
+                if (ec1 == ec2)
+                    continue;
+                int eiid2 = ec2.getEiid();
+                TLINK tlink = doc.getTlink(ec1, ec2);
+                if (tlink == null || tlink.getReducedRelType() == TLINK.TlinkType.UNDEF) {
+                    if (!knownVar.get(eiid1).get(eiid2).contains(TLINK.TlinkType.UNDEF.toStringfull())) {
+                        System.out.println("Doc " + doc.getDocID() + ":eiid1=" + eiid1 + ", eiid2=" + eiid2);
+                    }
+                } else {
+                    if (!knownVar.get(eiid1).get(eiid2).contains(tlink.getReducedRelType().toStringfull())) {
+                        System.out.println("Doc " + doc.getDocID() + ":eiid1=" + eiid1 + ", eiid2=" + eiid2);
+                    }
+                }
+            }
+        }
+    }
+
+
+    public static void main(String[] args) throws Exception{
+        boolean tdtest_or_platinum = false;//true: TD-Test. false: platinum
+        ResourceManager rm2 = new ClassifierConfigurator().getDefaultConfig();
+        List<TemporalDocument> chambers;
+        List<TemporalDocument> testdocs = new ArrayList<>();
+        if(tdtest_or_platinum)
+            chambers = TempEval3Reader.deserialize(TempEval3Reader.label2dir("chambers_only"));
+        else
+            chambers = TempEval3Reader.deserialize(TempEval3Reader.label2dir("platinum"));
+        for(TemporalDocument doc:chambers){
+            if(tdtest_or_platinum) {
+                switch (TBDense_split.findDoc(doc.getDocID())) {
+                    case 3:
+                        testdocs.add(doc);
+                        break;
+                    default:
+                }
+            }
+            else
+                testdocs.add(doc);
+        }
+        GlobalEE exp;
+        exp = new GlobalEE(testdocs,
+                rm2.getString("eeModelDirPath"),
+                rm2.getString("eeModelName")+"_dense_noV_augTE3");
+
+        // et classifier
+        String etmodelname = rm2.getString("etModelName")+"_dense";
+        exp.et_classifier = new LocalETClassifierExp(null, null,rm2.getString("etModelDirPath"),etmodelname);
+        localET.init();
+
+        if(tdtest_or_platinum)
+            exp.cacheDir = "serialized_data/Chambers/global/";
+        else
+            exp.cacheDir = "serialized_data/Chambers/global-noV-augTE3/";
+
+        HashMap<String,List<TLINK>> CAVEO_output;
+        if(tdtest_or_platinum)
+            CAVEO_output = sieve_output.get_CAVEO_output();
+        else
+            CAVEO_output = sieve_output.get_CAVEO_output("serialized_data/Chambers/sieve_output_te3platinum.ser","platinum");
+        exp.CAVEO_output = CAVEO_output;
+
+        List<TemporalDocument> predDocs = exp.solve();
+        for(TemporalDocument doc:predDocs) {
+            if(GlobalEE.CAVEO_or_LpI)
+                doc.temporalDocumentToText("./output/Chambers/caveo/" + doc.getDocID() + ".tml");
+            else {
+                if (tdtest_or_platinum)
+                    doc.temporalDocumentToText("./output/Chambers/global/" + doc.getDocID() + ".tml");
+                else
+                    doc.temporalDocumentToText("./output/Chambers/global-noV-augTE3/" + doc.getDocID() + ".tml");
+            }
+
+        }
+
+        /*EVALUATION: temporal awareness*/
+        Runtime rt = Runtime.getRuntime();
+        String cmd;
+        if(GlobalEE.CAVEO_or_LpI)
+            cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold ./output/Chambers/caveo caveo_vs_global_1";
+        else {
+            if(tdtest_or_platinum)
+                cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold ./output/Chambers/global caveo_vs_global_2";
+            else
+                cmd = "sh scripts/evaluate_general.sh ./data/TempEval3/Evaluation/te3-platinum ./output/Chambers/global-noV-augTE3 caveo_vs_global-noV-augTE3";
+        }
+        Process pr = rt.exec(cmd);
+    }
+}

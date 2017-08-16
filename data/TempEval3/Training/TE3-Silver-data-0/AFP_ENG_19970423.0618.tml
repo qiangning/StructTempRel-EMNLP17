@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970423.0618</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="1997-04-23" temporalFunction="false" functionInDocument="CREATION_TIME">April 23 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Conservative support dips in new polls</TITLE>
+
+
+<TEXT>
+
+Support for the ruling Conservative Party <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> in fresh opinion polls to be <EVENT class="OCCURRENCE" eid="e2">published</EVENT>, <TIMEX3 type="DURATION" value="P1W" tid="t1">one week</TIMEX3> ahead of Britain's general <EVENT class="OCCURRENCE" eid="e3">election</EVENT>, with three new polls <EVENT class="OCCURRENCE" eid="e4">giving</EVENT> the opposition Labour Party as easy winners.
+
+A survey by the polling group MORI for <TIMEX3 type="DATE" value="1997-04-17" tid="t2">Thursday</TIMEX3>'s Times newspaper <EVENT class="OCCURRENCE" eid="e5">showed</EVENT> support for the opposition Labour Party down one to 48 percent, the Conservatives down five to 27 percent and the Liberal Democrats up four to 17 percent. It <EVENT class="OCCURRENCE" eid="e6">gave</EVENT> Labour a 21-point lead.
+
+<TIMEX3 type="DATE" value="1997-04-16T02:00" tid="t3">Earlier Wednesday two</TIMEX3> polls by Gallup -- the first for Channel 4 News and the second for <TIMEX3 type="DATE" value="1997-04-17" tid="t4">Thursday</TIMEX3>'s Daily Telegraph -- <EVENT class="OCCURRENCE" eid="e7">put</EVENT> Labour's lead at 19 percent and 20 percent.
+
+Both Channel 4 and the Daily Telegraph <EVENT class="OCCURRENCE" eid="e8">put</EVENT> Labour on 50 percent of voting intentions.
+
+The figures <EVENT class="OCCURRENCE" eid="e9">suggested</EVENT> that a poll by the group ICM and <EVENT class="OCCURRENCE" eid="e10">published</EVENT> by the left-of-centre Guardian newspaper <TIMEX3 type="DATE" value="1997-04-23" tid="t5">Wednesday</TIMEX3>, which <EVENT class="REPORTING" eid="e11">claimed</EVENT> Labour's lead had <EVENT class="OCCURRENCE" eid="e12">fallen</EVENT> to just five percent, could have been a rogue <EVENT class="OCCURRENCE" eid="e13">result</EVENT>.
+
+Ironically neither Labour nor Tory officials <EVENT class="I_STATE" eid="e14">believe</EVENT> the gap between the two parties is as wide as the Gallup and MORI polls <EVENT class="REPORTING" eid="e15">suggest</EVENT>, although Labour also <EVENT class="STATE" eid="e16">feel</EVENT> it is not as slim as five percent.
+
+Both parties would <EVENT class="I_STATE" eid="e17">prefer</EVENT> a closer race, the Conservatives to <EVENT class="OCCURRENCE" eid="e19">engender</EVENT> hope they could still <EVENT class="OCCURRENCE" eid="e20">win</EVENT>, Labour to <EVENT class="OCCURRENCE" eid="e21">ensure</EVENT> their supporters <EVENT class="OCCURRENCE" eid="e22">turn</EVENT> out to <EVENT class="OCCURRENCE" eid="e23">vote</EVENT>.
+
+The Channel 4 poll, which was <EVENT class="OCCURRENCE" eid="e24">carried</EVENT> out between <TIMEX3 type="DATE" value="1997-04-18" tid="t6">Friday</TIMEX3> and <TIMEX3 type="DATE" value="1997-04-23" tid="t7">Wednesday</TIMEX3>, also <EVENT class="OCCURRENCE" eid="e25">suggested</EVENT> that up to half the electorate had not firmly <EVENT class="OCCURRENCE" eid="e26">decided</EVENT> which way they would <EVENT class="OCCURRENCE" eid="e27">vote</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e28">interviews</EVENT> which <EVENT class="OCCURRENCE" eid="e29">formed</EVENT> the basis for the MORI figures were <EVENT class="OCCURRENCE" eid="e30">carried</EVENT> out on <TIMEX3 type="DATE" value="1997-04-22" tid="t8">Tuesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000024" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei30" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei28" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei1000007" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei1000007" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei25" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei25" relatedToEventInstance="ei1000024" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei1000024" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l47" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

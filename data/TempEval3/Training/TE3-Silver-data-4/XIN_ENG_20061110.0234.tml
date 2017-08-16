@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0234</DOCID>
+
+<DCT>LUANDA, <TIMEX3 tid="t0" type="TIME" value="2006-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>WFP halves rations for hungry Mozambicans</TITLE>
+
+
+<TEXT>
+
+A funding shortfall of over 70 percent has <EVENT class="OCCURRENCE" eid="e1">forced</EVENT> the World Food Programme (WFP) to <EVENT class="OCCURRENCE" eid="e2">halve</EVENT> its rations to hungry Mozambicans, ahead of the critical "lean season" between harvests, when food stocks generally run out, <EVENT class="REPORTING" eid="e5">said</EVENT> a report <EVENT class="OCCURRENCE" eid="e7">reaching</EVENT> here from the Mozambican capital of Maputo on <TIMEX3 type="DATE" value="2006-11-17" tid="t1">Friday</TIMEX3>.
+
+The report <EVENT class="REPORTING" eid="e8">said</EVENT> the food aid agency urgently <EVENT class="OCCURRENCE" eid="e9">requires</EVENT> 10 million U.S. dollars to <EVENT class="OCCURRENCE" eid="e10">feed</EVENT> 460,000 people till <TIMEX3 type="DATE" value="2007-03" tid="t2">next March</TIMEX3> when another harvest is due.
+
+The WFP currently <EVENT class="I_ACTION" eid="e11">assists</EVENT> 292,000 vulnerable people, but a 77 percent shortfall in funding has <EVENT class="I_STATE" eid="e12">deprived</EVENT> hundreds of thousands of people of half the ration of cereals and corn-soya <EVENT class="OCCURRENCE" eid="e13">blend</EVENT> they have been <EVENT class="OCCURRENCE" eid="e14">using</EVENT> to <EVENT class="OCCURRENCE" eid="e15">fight</EVENT> starvation.
+
+"We are very concerned, because we are not <EVENT class="REPORTING" eid="e17">talking</EVENT> about small numbers: some 240,000 people have no food security; half of those people are living in arid areas where they can not <EVENT class="OCCURRENCE" eid="e18">farm</EVENT>; they have nothing, " <EVENT class="REPORTING" eid="e19">said</EVENT> Paulo Zacula, director of Mozambique's National Disaster agency.
+
+The director <EVENT class="REPORTING" eid="e20">said</EVENT>, "we are about to <EVENT class="OCCURRENCE" eid="e21">enter</EVENT> a period of emergencies with possible cyclones and floods. We should <EVENT class="STATE" eid="e22">have</EVENT> stockpiles of food in case of emergencies,"
+
+Karin Manente, WFP acting country director in Mozambique, <EVENT class="REPORTING" eid="e25">said</EVENT>, "By this time, we have usually pre-positioned food stocks in areas that <EVENT class="STATE" eid="e26">become</EVENT> inaccessible during such emergencies."
+
+She <EVENT class="OCCURRENCE" eid="e27">added</EVENT> that due to the huge shortfall, some WFP-supported activities might have to be <EVENT class="OCCURRENCE" eid="e28">discontinued</EVENT> or <EVENT class="ASPECTUAL" eid="e29">suspended</EVENT> <TIMEX3 type="DATE" value="2006-11" tid="t4">this month</TIMEX3> unless new donations were <EVENT class="OCCURRENCE" eid="e30">received</EVENT>, <EVENT class="REPORTING" eid="e31">according</EVENT> to the report.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei31" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+
+
+
+
+</TimeML>

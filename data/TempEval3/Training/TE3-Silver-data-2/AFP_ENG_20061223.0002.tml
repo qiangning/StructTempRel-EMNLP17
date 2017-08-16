@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061223.0002</DOCID>
+
+<DCT>DALLAS, <TIMEX3 tid="t0" type="TIME" value="2006-12-22" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 22 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Sore ankle no problem for Nowitzki as NBA Mavericks romp</TITLE>
+
+
+<TEXT>
+
+Dirk Nowitzki <EVENT class="OCCURRENCE" eid="e1">scored</EVENT> 20 points and <EVENT class="OCCURRENCE" eid="e2">grabbed</EVENT> 12 rebounds despite <EVENT class="OCCURRENCE" eid="e3">playing</EVENT> on a sore left ankle to <EVENT class="ASPECTUAL" eid="e4">spark</EVENT> the Dallas Mavericks past the Los Angeles Clippers 115-83 here <TIMEX3 type="DATE" value="2006-12-29" tid="t1">Friday</TIMEX3>.
+
+Josh Howard <EVENT class="OCCURRENCE" eid="e5">scored</EVENT> 25 points and Devean George <EVENT class="OCCURRENCE" eid="e6">scored</EVENT> a season-high 21 points with 5-of-6 3-point accuracy as the Mavericks <EVENT class="OCCURRENCE" eid="e7">hit</EVENT> 15-of-27 from beyond the 3-point arc for their sixth <EVENT class="OCCURRENCE" eid="e8">victory</EVENT> in a row.
+
+Nowitzki <EVENT class="OCCURRENCE" eid="e9">left</EVENT> <TIMEX3 type="DATE" value="2006-12-20" tid="t2">Wednesday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e10">game</EVENT> against Seattle in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">the first quarter</TIMEX3> after <EVENT class="OCCURRENCE" eid="e11">hurting</EVENT> his left ankle and had been questionable, but the 7-foot German star <EVENT class="OCCURRENCE" eid="e13">answered</EVENT> all soubts by <EVENT class="OCCURRENCE" eid="e14">shooting</EVENT> 7-for-15, 3-of-5 in 3-pointers, in <TIMEX3 type="DURATION" value="PT26M" tid="t4">26 minutes</TIMEX3>.
+
+Dallas <EVENT class="OCCURRENCE" eid="e15">led</EVENT> by as many as 43 points in <TIMEX3 type="DATE" value="2006-Q4" tid="t5">the fourth quarter</TIMEX3> over the Clippers, who <EVENT class="OCCURRENCE" eid="e16">lost</EVENT> their six game in a row.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

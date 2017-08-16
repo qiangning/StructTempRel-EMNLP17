@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051120.0114</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-20" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 20 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China reports 2 new bird flu outbreaks in Inner Mongolia, Hubei</TITLE>
+
+
+<TEXT>
+
+The Chinses Ministry of Agriculture <TIMEX3 type="DATE" value="2005-11-20" tid="t1">Sunday</TIMEX3> <EVENT class="REPORTING" eid="e1">confirmed</EVENT> bird flu outbreaks in northern China's Inner Mongolia Autonomous Region and central China's Hubei Province.
+
+It <EVENT class="OCCURRENCE" eid="e2">noted</EVENT> in a statement that a total of 176 chickens, ducks and geese <EVENT class="OCCURRENCE" eid="e3">died</EVENT> <TIMEX3 type="DATE" value="2005-11-15" tid="t2">Tuesday</TIMEX3> in the banner (or county) of Morin Dawa in Inner Mongolia before they were <EVENT class="REPORTING" eid="e4">confirmed</EVENT> by a state avian flu lab as H5N1 subtype highly pathogenic bird flu cases.
+
+Separately, the same kind of bird flu <EVENT class="OCCURRENCE" eid="e5">killed</EVENT> 3,500 geese <TIMEX3 type="DATE" value="2005-11-16" tid="t3">Wednesday</TIMEX3> at a development zone in Shishou City of Hubei Province.
+
+The Ministry of Agriculture has <EVENT class="OCCURRENCE" eid="e6">sent</EVENT> a team of experts to <EVENT class="I_ACTION" eid="e7">help</EVENT> <EVENT class="OCCURRENCE" eid="e8">contain</EVENT> the disease, and local veterinary departments have <EVENT class="OCCURRENCE" eid="e10">culled</EVENT> the poultry near the affected area, the statement <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061208.0027</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-12-08" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 8 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>US stocks higher as job growth improves; Dow up 0.24 percent</TITLE>
+
+
+<TEXT>
+
+US stocks <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> higher <TIMEX3 type="DATE" value="2006-12-08" tid="t1">Friday</TIMEX3> after a government report <EVENT class="OCCURRENCE" eid="e3">showed</EVENT> an improving job market <TIMEX3 type="DATE" value="2006-11" tid="t2">last month</TIMEX3> as employers added a better-than-expected 132,000 nonfarm positions.
+
+The Dow Jones Industrial Average <EVENT class="ASPECTUAL" eid="e5">ended</EVENT> up 29.08 points (0.24 percent) at 12,307.49 just after the closing bell.
+
+The tech-dominated Nasdaq composite <EVENT class="OCCURRENCE" eid="e6">gained</EVENT> 9.67 points (0.40 percent) to 2,437.36 while the broad-market Standard and Poor's 500 index <EVENT class="OCCURRENCE" eid="e7">added</EVENT> 2.55 points (0.18 percent) to a preliminary <EVENT class="OCCURRENCE" eid="e8">close</EVENT> of 1,409.84.
+
+The Labor Department <EVENT class="REPORTING" eid="e9">said</EVENT> that US employers <EVENT class="OCCURRENCE" eid="e10">added</EVENT> 132,000 jobs in <TIMEX3 type="DATE" value="2006-11" tid="t3">November</TIMEX3> in a report that suggested overall economic <EVENT class="OCCURRENCE" eid="e12">growth</EVENT> remains on track days before the Federal Reserve <EVENT class="OCCURRENCE" eid="e13">meets</EVENT> to <EVENT class="OCCURRENCE" eid="e14">deliberate</EVENT> interest rates.
+
+Merger speculation <EVENT class="OCCURRENCE" eid="e15">rose</EVENT> as Merrill Lynch banking analysts meanwhile <EVENT class="REPORTING" eid="e16">said</EVENT> in a research report that they <EVENT class="I_STATE" eid="e18">believe</EVENT> Bank of America is "very interested" in <EVENT class="OCCURRENCE" eid="e19">acquiring</EVENT> Barclays bank of Britain.
+
+The banking analysts <EVENT class="REPORTING" eid="e20">said</EVENT> such a potential deal would be <EVENT class="STATE" eid="e22">profitable</EVENT> even if Bank of America had to <EVENT class="OCCURRENCE" eid="e23">pay</EVENT> a 25-to-30 percent <EVENT class="OCCURRENCE" eid="e24">premium</EVENT> to <EVENT class="OCCURRENCE" eid="e25">acquire</EVENT> Barclays.
+
+"We don't <EVENT class="OCCURRENCE" eid="e26">comment</EVENT> on market rumors or speculation," <EVENT class="REPORTING" eid="e29">said</EVENT> Scott Silvestri, a Bank of America spokesman.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

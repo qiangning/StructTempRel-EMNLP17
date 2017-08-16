@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970403.0478</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="1997-04-03" temporalFunction="false" functionInDocument="CREATION_TIME">April 3 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Human rights commission condemns capital punishment</TITLE>
+
+
+<TEXT>
+
+The UN Human Rights Commission in Geneva <TIMEX3 type="DATE" value="1997-04-03" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">voted</EVENT> a resolution condemning capital <EVENT class="OCCURRENCE" eid="e4">punishment</EVENT> despite opposition from a number of countries, including China, Japan and the United States.
+
+The resolution, <EVENT class="OCCURRENCE" eid="e7">passed</EVENT> by 27 votes to 11, also <EVENT class="OCCURRENCE" eid="e8">called</EVENT> on countries still <EVENT class="OCCURRENCE" eid="e9">practising</EVENT> state-sponsored execution to spare adolescents less than 18 years old and pregnant women.
+
+The countries <EVENT class="OCCURRENCE" eid="e11">voting</EVENT> against the text were: Algeria, Bangladesh, Bhutan, China, Egypt, Indonesia, Japan, Malaysia, Pakistan, South Korea and the United States.
+
+The cautiously-worded text, which <EVENT class="I_ACTION" eid="e12">asked</EVENT> "all states who still have not <EVENT class="OCCURRENCE" eid="e13">abolished</EVENT> the pain of death to <EVENT class="OCCURRENCE" eid="e14">limit</EVENT> progressively the number of infractions," also <EVENT class="OCCURRENCE" eid="e16">produced</EVENT> 14 abstentions. One country was absent.
+
+Countries still <EVENT class="OCCURRENCE" eid="e17">using</EVENT> capital <EVENT class="OCCURRENCE" eid="e18">punishment</EVENT> were <EVENT class="I_ACTION" eid="e19">urged</EVENT> "to <EVENT class="OCCURRENCE" eid="e20">contemplate</EVENT> <EVENT class="OCCURRENCE" eid="e21">suspending</EVENT> <EVENT class="OCCURRENCE" eid="e22">executions</EVENT> with a view to <EVENT class="OCCURRENCE" eid="e23">abolishing</EVENT> completely the pain of death," <EVENT class="OCCURRENCE" eid="e25">limit</EVENT> its application to only the most serious crimes, to <EVENT class="OCCURRENCE" eid="e27">exclude</EVENT> people younger than 18 and pregnant women, and to <EVENT class="OCCURRENCE" eid="e28">guarantee</EVENT> the right for those <EVENT class="OCCURRENCE" eid="e29">condemned</EVENT> to <EVENT class="OCCURRENCE" eid="e30">ask</EVENT> for a <EVENT class="OCCURRENCE" eid="e31">pardon</EVENT> or to <EVENT class="OCCURRENCE" eid="e32">commute</EVENT> the sentence.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei32" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei31" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

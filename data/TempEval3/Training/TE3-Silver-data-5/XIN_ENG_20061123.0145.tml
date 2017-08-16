@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0145</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>ISS crew play golf during space walk</TITLE>
+
+
+<TEXT>
+
+The 14th crew of the International Space Station (ISS) <EVENT class="OCCURRENCE" eid="e1">played</EVENT> <EVENT class="OCCURRENCE" eid="e2">golf</EVENT> during a nearly six-hour space walk in a Russian program on <TIMEX3 type="DATE" value="2006-11-23" tid="t2">Thursday</TIMEX3>, a Mission Control spokesman <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Russian cosmonaut Mikhail Tyurin and U.S. astronaut Michael Lopez-Alegria <EVENT class="OCCURRENCE" eid="e4">opened</EVENT> the hatches and <EVENT class="ASPECTUAL" eid="e5">begun</EVENT> their <EVENT class="OCCURRENCE" eid="e6">walk</EVENT> at 0020 GMT on <TIMEX3 type="DATE" value="2006-11-23" tid="t3">Thursday</TIMEX3> after a 60-minute <EVENT class="OCCURRENCE" eid="e7">delay</EVENT> for technical reasons, <EVENT class="REPORTING" eid="e8">said</EVENT> Valery Lyndin, spokesman for the Mission Control Center near Moscow.
+
+<EVENT class="REPORTING" eid="e9">According</EVENT> to the Itar-Tass news agency,the pair <EVENT class="OCCURRENCE" eid="e10">spent</EVENT> in outer space five hours 38 minutes instead of the planned five hours 47 minutes, Lyndin <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+"Most of the program has been <EVENT class="OCCURRENCE" eid="e12">fulfilled</EVENT>," Lyndin <EVENT class="REPORTING" eid="e13">said</EVENT>. They <EVENT class="OCCURRENCE" eid="e14">played</EVENT> golf, <EVENT class="OCCURRENCE" eid="e16">installed</EVENT> a neutron telescope on the exterior of the Zvezda service module, <EVENT class="OCCURRENCE" eid="e17">took</EVENT> a picture of an antenna of the Kurs docking system and <EVENT class="OCCURRENCE" eid="e19">replaced</EVENT> a WAL 2 antenna.
+
+German astronaut Thomas Reiter <EVENT class="OCCURRENCE" eid="e20">assisted</EVENT> the space <EVENT class="OCCURRENCE" eid="e21">walk</EVENT> from the ISS.
+
+Tyurin <EVENT class="OCCURRENCE" eid="e22">hit</EVENT> a ball with a golf club <EVENT class="OCCURRENCE" eid="e23">manufactured</EVENT> by the Canadian firm Element 21 Golf.
+
+The company's chiefs <EVENT class="REPORTING" eid="e24">said</EVENT> that they <EVENT class="I_STATE" eid="e25">wanted</EVENT> to <EVENT class="I_ACTION" eid="e26">mark</EVENT> by the space "game of golf" the <TIMEX3 type="DATE" value="2006-11-23" tid="t6">35 anniversary</TIMEX3> of the first "golf <EVENT class="OCCURRENCE" eid="e28">strike</EVENT>" <EVENT class="OCCURRENCE" eid="e29">made</EVENT> by American astronaut Alan Shepard on the moon surface.
+
+Tyurin's <EVENT class="OCCURRENCE" eid="e30">strike</EVENT>, which has <EVENT class="OCCURRENCE" eid="e31">entered</EVENT> the Guinness Book of Records, was only a two-minute event, but preparations for it were long. Lopez-Allegria <EVENT class="I_ACTION" eid="e33">helped</EVENT> him in <EVENT class="OCCURRENCE" eid="e34">fixing</EVENT> a device with a spring that <EVENT class="OCCURRENCE" eid="e35">sent</EVENT> the ball in a needed direction.
+
+The technical director of the Golf project, Alexander Alexandrov, <EVENT class="REPORTING" eid="e36">told</EVENT> reporters that the golf ball would <EVENT class="OCCURRENCE" eid="e37">travel</EVENT> "miles and miles" in space, while Shepard's ball <EVENT class="OCCURRENCE" eid="e38">flew</EVENT> only 22 feet.
+
+Unlike usual golf balls <EVENT class="STATE" eid="e39">weighing</EVENT> 35 grams, the space ball <EVENT class="STATE" eid="e40">weighs</EVENT> only three grams.
+
+Under the contract, the golf club and remaining balls will be <EVENT class="OCCURRENCE" eid="e41">returned</EVENT> to the Earth in a Soyuz spacecraft in the spring and <EVENT class="OCCURRENCE" eid="e42">turned</EVENT> over to the customers.
+
+Besides the <EVENT class="OCCURRENCE" eid="e43">golf</EVENT>, Tyurin and Lopez-Allegria <EVENT class="OCCURRENCE" eid="e44">examined</EVENT> the antenna of the Kurs system for problems that <EVENT class="OCCURRENCE" eid="e45">arose</EVENT> during the <EVENT class="OCCURRENCE" eid="e46">docking</EVENT> of Russia's supply ship Progress with the ISS in <TIMEX3 type="DATE" value="2006-11-23" tid="t7">late October</TIMEX3>. They <EVENT class="I_ACTION" eid="e47">tried</EVENT> to <EVENT class="OCCURRENCE" eid="e48">retract</EVENT> the antenna, but <EVENT class="OCCURRENCE" eid="e49">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e50">do</EVENT> so.
+
+The pair <EVENT class="OCCURRENCE" eid="e51">moved</EVENT> a WAL 2 antenna to a more convenient place that will be <EVENT class="OCCURRENCE" eid="e52">used</EVENT> during the <EVENT class="OCCURRENCE" eid="e53">docking</EVENT> of the European craft ATV, the launch of which is <EVENT class="I_ACTION" eid="e55">scheduled</EVENT> for <TIMEX3 type="DATE" value="2008" tid="t8">the beginning of 2008</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei55" eventID="e55" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52" eventID="e52" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei51" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei41" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei47" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei44" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei47" relatedToEventInstance="ei50" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei47" relatedToEventInstance="ei48" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei47" relatedToEventInstance="ei51" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei51" relatedToEventInstance="ei52" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei51" relatedToEventInstance="ei55" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei44" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei45" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei46" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei47" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l53" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l54" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l57" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l59" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l60" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l61" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l62" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l63" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l64" eventInstanceID="ei28" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l65" eventInstanceID="ei36" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l66" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l67" eventInstanceID="ei40" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l68" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l69" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="BEFORE" />
+<TLINK lid="l70" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+
+
+
+
+</TimeML>

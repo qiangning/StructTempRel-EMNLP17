@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0319</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's badminton head coach delighted with new schedule</TITLE>
+
+
+<TEXT>
+
+Chinese badminton team's head coach Li Yongbo <EVENT class="OCCURRENCE" eid="e1">looked</EVENT> delighted as he <EVENT class="I_STATE" eid="e2">knew</EVENT> on <TIMEX3 type="DATE" value="2006-11-27" tid="t1">Monday</TIMEX3> the competition at the Doha Asian Games had been <EVENT class="OCCURRENCE" eid="e4">rescheduled</EVENT>.
+
+The Chinese team <EVENT class="OCCURRENCE" eid="e5">arrived</EVENT> at Doha International Airport at <TIMEX3 type="DATE" value="2006-11-27" tid="t2">7 a.m.</TIMEX3> <TIMEX3 type="DATE" value="2006-12-04" tid="t3">Monday</TIMEX3>. <TIMEX3 type="DURATION" value="PTXH" tid="t4">Several hours</TIMEX3> later, Li was <EVENT class="REPORTING" eid="e6">told</EVENT> by the umpire that the team semifinals and finals would not be <EVENT class="OCCURRENCE" eid="e7">played</EVENT> in the same day, but in <TIMEX3 type="DURATION" value="P2D" tid="t5">two</TIMEX3> days.
+
+"I'm very <EVENT class="I_STATE" eid="e8">happy</EVENT> to <EVENT class="I_STATE" eid="e9">know</EVENT> that. It's good news," <EVENT class="REPORTING" eid="e10">said</EVENT> Li, who had <EVENT class="OCCURRENCE" eid="e11">blasted</EVENT> at the former schedule as a "big joke".
+
+The previous schedule had <EVENT class="OCCURRENCE" eid="e12">put</EVENT> the team semifinals and finals on <TIMEX3 type="DATE" value="2005-12-05" tid="t6">Dec. 5</TIMEX3>. Li had <EVENT class="REPORTING" eid="e14">said</EVENT> bluntly that it <EVENT class="STATE" eid="e15">was</EVENT> "the most unreasonable schedule" he had ever <EVENT class="PERCEPTION" eid="e16">seen</EVENT>.
+
+"Badminton competition <EVENT class="OCCURRENCE" eid="e17">demands</EVENT> physical strength," <EVENT class="REPORTING" eid="e18">said</EVENT> the head coach. "For Chinese players, two <EVENT class="OCCURRENCE" eid="e19">matches</EVENT> a day is too hard to <EVENT class="I_STATE" eid="e20">stand</EVENT>, let alone <EVENT class="OCCURRENCE" eid="e22">playing</EVENT> the <EVENT class="OCCURRENCE" eid="e23">singles</EVENT> and doubles events <TIMEX3 type="DURATION" value="2006-11-28" tid="t7">the next day</TIMEX3>."
+
+To Li's delight, the team semifinals will <EVENT class="OCCURRENCE" eid="e26">take</EVENT> place on <TIMEX3 type="DATE" value="2006-12-04" tid="t8">Dec. 4</TIMEX3> and finals on <TIMEX3 type="DATE" value="2006-12-05" tid="t9">Dec. 5</TIMEX3>. He <EVENT class="I_STATE" eid="e28">believed</EVENT> his 16-member contingent would <EVENT class="OCCURRENCE" eid="e29">fine-tune</EVENT> in <TIMEX3 type="DURATION" value="P2D" tid="t10">two</TIMEX3> days.
+
+China is the biggest winner at the 2004 Athens Olympics and 2005 Madrid World Championships as the dream team collected three and four golds respectively.
+
+The traditional powerhouse, however, <EVENT class="OCCURRENCE" eid="e31">took</EVENT> only two out of seven golds at the Busan Asian Games in <TIMEX3 type="DATE" value="2002" tid="t13">2002</TIMEX3>. <TIMEX3 type="DURATION" value="P4Y" tid="t14">Four years</TIMEX3> around, Chinese shuttlers will vie for at least three titles, <EVENT class="REPORTING" eid="e33">said</EVENT> Li.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000026" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei26" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei31" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei1000026" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1000026" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei19" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei23" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei33" relatedToTime="t14" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei29" relatedToTime="t10" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

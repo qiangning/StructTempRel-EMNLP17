@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0108</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>New Chinese historic sites granted certificates of world heritage</TITLE>
+
+
+<TEXT>
+
+A batch of Chinese historic sites, including the historic center of Macao, were <EVENT class="OCCURRENCE" eid="e1">granted</EVENT> the certificates of world heritage here on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3>.
+
+Chinese State Councilor Chen Zhili, Edmund Ho Hau Wah, chief executive of the Macao Special Administrative Region (SAR) and Koichiro Matsuura, director-general of the United Nations Educational, Scientific and Cultural Organization (UNESCO) <EVENT class="OCCURRENCE" eid="e2">attended</EVENT> the certificate awarding <EVENT class="OCCURRENCE" eid="e4">ceremony</EVENT> in Beijing.
+
+The historic center of Macao was <EVENT class="OCCURRENCE" eid="e5">added</EVENT> to the World Heritage List at the 29th <EVENT class="OCCURRENCE" eid="e6">session</EVENT> of the World Heritage Committee, <EVENT class="OCCURRENCE" eid="e7">held</EVENT> in Durban, South Africa, in <TIMEX3 type="DATE" value="2005-07" tid="t2">July this year</TIMEX3>.
+
+The heritage in Macao <EVENT class="OCCURRENCE" eid="e8">comprises</EVENT> about two dozen monuments, including the Buddhist Ma Kok Temple, the Catholic Holy House of Mercy, the Old City Walls, the Fortress Hill and a number of churches.
+
+The relics, most are still in <EVENT class="OCCURRENCE" eid="e9">use</EVENT>, have <EVENT class="PERCEPTION" eid="e10">witnessed</EVENT> the earliest pervasion of Western religious culture in the oriental continent as well as its ensuing coexistence with the local culture.
+
+The other sites <EVENT class="OCCURRENCE" eid="e12">awarded</EVENT> the certificates <EVENT class="OCCURRENCE" eid="e13">include</EVENT> the capital cities and tombs of the ancient Koguryo Kingdom of China, the three imperial mausoleums <EVENT class="OCCURRENCE" eid="e14">dedicated</EVENT> to first and second emperors and the two empresses of the Qing Dynasty (1644-1911), as well as to the ancestors of the emperors, all in Shenyang, capital of Liaoning Province, and the Shenyang Imperial Palace of the early Qing Dynasty.
+
+These sites were <EVENT class="OCCURRENCE" eid="e15">added</EVENT> to the World Heritage List at the 28th <EVENT class="OCCURRENCE" eid="e16">conference</EVENT> of the World Heritage Committee in <TIMEX3 type="DATE" value="2004-07" tid="t4">July 2004</TIMEX3> in Suzhou, a scenic city in Jiangsu Province, east China.
+
+<EVENT class="OCCURRENCE" eid="e17">Joining</EVENT> UNESCO's Convention <EVENT class="OCCURRENCE" eid="e18">Concerning</EVENT> the Protection of the World Cultural and Natural Heritage in <TIMEX3 type="DATE" value="1985" tid="t5">1985</TIMEX3>, China <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">now</TIMEX3> <EVENT class="STATE" eid="e19">has</EVENT> 31 sites on the World Heritage List, the third most next to Italy and Spain, and it is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e20">playing</EVENT> an active role in <EVENT class="OCCURRENCE" eid="e21">protecting</EVENT> the world heritages.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+
+
+
+
+</TimeML>

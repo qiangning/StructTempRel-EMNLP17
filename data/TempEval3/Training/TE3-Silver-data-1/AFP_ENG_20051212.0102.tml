@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051212.0102</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2005-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2005</TIMEX3></DCT>
+
+<TITLE>Police swoop in Paris region nets 20 to 30</TITLE>
+
+
+<TEXT>
+
+Between <TIMEX3 type="DATE" value="1920" tid="t1">20</TIMEX3> and 30 people were <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> <TIMEX3 type="DATE" value="2005-12-12" tid="t2">early Monday</TIMEX3> in the Paris region under an <EVENT class="OCCURRENCE" eid="e2">investigation</EVENT> into the funding of Islamist extremists, officials <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Investigators <EVENT class="I_STATE" eid="e4">believe</EVENT> some of the detainees are active in organised crime and have <EVENT class="OCCURRENCE" eid="e5">carried</EVENT> out armed <EVENT class="OCCURRENCE" eid="e6">robberies</EVENT> to <EVENT class="OCCURRENCE" eid="e7">raise</EVENT> money for Islamist groups, the officials <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+The suspects were under <EVENT class="OCCURRENCE" eid="e9">surveillance</EVENT> for <TIMEX3 type="DURATION" value="PXW" tid="t3">several weeks</TIMEX3> and were <EVENT class="OCCURRENCE" eid="e10">detained</EVENT> after evidence <EVENT class="OCCURRENCE" eid="e11">emerged</EVENT> that "violent actions" were being <EVENT class="I_STATE" eid="e13">planned</EVENT>, the officials <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei1000001" relType="AFTER" />
+
+
+
+
+</TimeML>

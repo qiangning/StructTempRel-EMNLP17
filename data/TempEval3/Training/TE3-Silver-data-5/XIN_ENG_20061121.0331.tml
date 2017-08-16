@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0331</DOCID>
+
+<DCT>SOFIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Bulgarian approves new constitutional amendments</TITLE>
+
+
+<TEXT>
+
+Bulgarian lawmakers on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> the new constitutional amendments needed to <EVENT class="OCCURRENCE" eid="e3">raise</EVENT> accountability in the judiciary ahead of European Union membership on <TIMEX3 type="DATE" value="2006-11-21T01:00" tid="t2">Jan. 1 next year</TIMEX3>.
+
+The state-owned BTA <EVENT class="REPORTING" eid="e4">reported</EVENT> that in a <EVENT class="OCCURRENCE" eid="e5">vote</EVENT> at the National Assembly, the parliament, 203 of 240 deputies <EVENT class="OCCURRENCE" eid="e6">backed</EVENT> amendments to <EVENT class="ASPECTUAL" eid="e7">end</EVENT> blanket immunity held by judges, prosecutors and investigators and to <EVENT class="OCCURRENCE" eid="e8">set</EVENT> up a special parliament-elected inspectorate to <EVENT class="OCCURRENCE" eid="e9">monitor</EVENT> the judiciary.
+
+This is the fourth <EVENT class="OCCURRENCE" eid="e10">amendment</EVENT> to the 1991 constitution and also the second <EVENT class="OCCURRENCE" eid="e11">amendment</EVENT> in <TIMEX3 type="DATE" value="2006" tid="t5">2006</TIMEX3>.
+
+Changes in the country's basic law are <EVENT class="REPORTING" eid="e13">regarded</EVENT> as important steps for Bulgaria's bid for EU membership.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

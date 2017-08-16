@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970427.0491</DOCID>
+
+<DCT>SUVA, <TIMEX3 tid="t0" type="TIME" value="1997-04-28" temporalFunction="false" functionInDocument="CREATION_TIME">April 28 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Fiji family killed in landslide</TITLE>
+
+
+<TEXT>
+
+A 16-year-old girl was <EVENT class="OCCURRENCE" eid="e1">recovering</EVENT> in hospital <TIMEX3 type="DATE" value="1997-04-28" tid="t1">Monday</TIMEX3> after <EVENT class="PERCEPTION" eid="e2">seeing</EVENT> her sister and grandparents <EVENT class="OCCURRENCE" eid="e3">killed</EVENT> as their home was <EVENT class="OCCURRENCE" eid="e4">buried</EVENT> by a <EVENT class="OCCURRENCE" eid="e5">landslide</EVENT>, emergency authorities <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+Raja Ram, 61, his wife Kala Wati, 56, and five-year-old granddaughter, Priya Bandana Lata, were <EVENT class="OCCURRENCE" eid="e7">buried</EVENT> when the corrugated iron house in the Fijian hillside village of Saweni was <EVENT class="OCCURRENCE" eid="e8">hit</EVENT> by the <EVENT class="OCCURRENCE" eid="e9">landslide</EVENT> that <EVENT class="OCCURRENCE" eid="e10">followed</EVENT> heavy <EVENT class="OCCURRENCE" eid="e11">rain</EVENT> on <TIMEX3 type="DATE" value="1997-04-26" tid="t2">Saturday</TIMEX3>.
+
+They had just <EVENT class="OCCURRENCE" eid="e12">returned</EVENT> to the house from a family wedding, relatives <EVENT class="REPORTING" eid="e14">told</EVENT> police.
+
+Priya's sister, 16-year-old Payal, probably <EVENT class="OCCURRENCE" eid="e15">owes</EVENT> her life to swift rescue <EVENT class="OCCURRENCE" eid="e16">effort</EVENT> from Constable Peni Verekauta who was on duty at the nearby Sawani police post when the landslide <EVENT class="OCCURRENCE" eid="e17">occurred</EVENT>.
+
+"I <EVENT class="PERCEPTION" eid="e18">heard</EVENT> somebody <EVENT class="OCCURRENCE" eid="e19">screaming</EVENT>. When I <EVENT class="OCCURRENCE" eid="e20">located</EVENT> her she was half <EVENT class="OCCURRENCE" eid="e21">buried</EVENT> and a lemon tree had <EVENT class="OCCURRENCE" eid="e22">pinned</EVENT> her to the ground," <EVENT class="REPORTING" eid="e23">said</EVENT> Verekauta, who <EVENT class="OCCURRENCE" eid="e24">freed</EVENT> the girl with the <EVENT class="OCCURRENCE" eid="e25">help</EVENT> of neighbours and an emergency unit which was <EVENT class="OCCURRENCE" eid="e26">called</EVENT> to the scene.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051217.0027</DOCID>
+
+<DCT>PERTH, Australia, <TIMEX3 tid="t0" type="TIME" value="2005-12-17" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 17 , 2005</TIMEX3></DCT>
+
+<TITLE>Brilliant Warne claims new wickets record</TITLE>
+
+
+<TEXT>
+
+Australian leg-spinner Shane Warne <EVENT class="OCCURRENCE" eid="e1">outstripped</EVENT> Dennis Lillee's 24-year-old record for most wickets in a calendar year on <TIMEX3 type="DATE" value="2005-12-17" tid="t1">Saturday</TIMEX3> when he <EVENT class="REPORTING" eid="e2">claimed</EVENT> his 85th and 86th in the first Test against South Africa.
+
+Warne <EVENT class="OCCURRENCE" eid="e3">bowled</EVENT> opener A.B. de Villiers for 68 before <EVENT class="OCCURRENCE" eid="e4">trapping</EVENT> Ashwell Prince lbw for <TIMEX3 type="DATE" value="1928" tid="t3">28</TIMEX3>, <EVENT class="OCCURRENCE" eid="e5">moving</EVENT> past compatriot Lillee's 1981 haul of 85.
+
+"If I <EVENT class="STATE" eid="e6">had</EVENT> the choice of picking someone to <EVENT class="OCCURRENCE" eid="e7">beat</EVENT> the record, I would've <EVENT class="OCCURRENCE" eid="e8">picked</EVENT> Warney," Lillee <EVENT class="REPORTING" eid="e9">said</EVENT> earlier. "I just <EVENT class="I_STATE" eid="e10">think</EVENT> he's a sensational player.
+
+"He's the best leg-spinner I've ever <EVENT class="PERCEPTION" eid="e11">seen</EVENT>, by a mile, and he's probably the best bowler as well."
+
+Warne, the world's leading Test wicket-taker with 647 in 133 matches, <EVENT class="ASPECTUAL" eid="e13">began</EVENT> the year with a five-wicket haul in the final Test against Pakistan at the Sydney Cricket Ground in <TIMEX3 type="DATE" value="2005-01" tid="t6">January</TIMEX3> on the way to a 3-0 series whitewash.
+
+The 36-year-old then <EVENT class="OCCURRENCE" eid="e14">picked</EVENT> up 17 victims in a three-Test <EVENT class="OCCURRENCE" eid="e15">tour</EVENT> of New Zealand, but it was the 2-1 Ashes <EVENT class="OCCURRENCE" eid="e16">defeat</EVENT> in England that <EVENT class="OCCURRENCE" eid="e17">brought</EVENT> him within reach of the record.
+
+He <EVENT class="OCCURRENCE" eid="e18">took</EVENT> 40 wickets in the five-Test series at <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">19.92</TIMEX3> and <EVENT class="OCCURRENCE" eid="e19">added</EVENT> an average of 27.66 with the bat for good measure.
+
+Warne then <EVENT class="REPORTING" eid="e20">claimed</EVENT> six ICC World XI wickets in the one-off Test match at the SCG and 16 West Indian scalps before the South Africa series.
+
+He has <EVENT class="OCCURRENCE" eid="e22">eclipsed</EVENT> his previous best years of 72 wickets in <TIMEX3 type="DATE" value="1993" tid="t8">1993</TIMEX3> -- in just his second season of Test cricket -- and 70 in <TIMEX3 type="DATE" value="1994" tid="t9">1994</TIMEX3> and <TIMEX3 type="DATE" value="2004" tid="t10">2004</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000022" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000023" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei1000023" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei1000022" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1000022" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei1000023" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

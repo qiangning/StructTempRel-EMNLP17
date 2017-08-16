@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0716</DOCID>
+
+<DCT>WELLINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-12-07" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 7 , 2005</TIMEX3></DCT>
+
+<TITLE>Australia make 322-5 batting first against New Zealand</TITLE>
+
+
+<TEXT>
+
+Australia <EVENT class="OCCURRENCE" eid="e1">made</EVENT> 322-5 in their 50 overs after Andrew Symonds <EVENT class="OCCURRENCE" eid="e2">scored</EVENT> a magnificent 156 against New Zealand in the second match of the Chappell-Hadlee one-day cricket series at Westpac Stadium here <TIMEX3 type="DATE" value="2005-12-07" tid="t2">Wednesday</TIMEX3>.
+
+Symonds <EVENT class="OCCURRENCE" eid="e4">teamed</EVENT> up with Michael Clarke (82 not out) to <EVENT class="OCCURRENCE" eid="e5">put</EVENT> on 220 runs for the fifth wicket.
+
+For New Zealand, Kyle Mills <EVENT class="OCCURRENCE" eid="e6">took</EVENT> 2-60 with all the bowlers <EVENT class="OCCURRENCE" eid="e7">suffering</EVENT> from Symonds' <EVENT class="OCCURRENCE" eid="e8">onslaught</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

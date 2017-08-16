@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061102.0227</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Japanese NGO vehicle in Afghanistan fired by shots</TITLE>
+
+
+<TEXT>
+
+A vehicle of a Japanese nongovernmental organization was <EVENT class="OCCURRENCE" eid="e1">fired</EVENT> by <EVENT class="OCCURRENCE" eid="e2">shots</EVENT> in northern Afghanistan on <TIMEX3 type="DATE" value="2006-11-01" tid="t1">Wednesday</TIMEX3>, Kyodo News <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="2006-11-02" tid="t2">Thursday</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e4">According</EVENT> to the Japanese Embassy, the vehicle, <EVENT class="STATE" eid="e5">belonging</EVENT> to Peace Winds Japan, was <EVENT class="OCCURRENCE" eid="e6">shot</EVENT> by three bullets from at least four men <EVENT class="OCCURRENCE" eid="e7">riding</EVENT> on two motorbikes when it was <EVENT class="OCCURRENCE" eid="e8">driving</EVENT> in Sar-i-Pul Province, but two local staffs in the vehicle were fortunately unhurt.
+
+Embassy officials <EVENT class="REPORTING" eid="e10">said</EVENT> Taliban remnants or al-Qaida fighters were behind the incident and <EVENT class="REPORTING" eid="e11">called</EVENT> for caution.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1000003" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1000003" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei1000003" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

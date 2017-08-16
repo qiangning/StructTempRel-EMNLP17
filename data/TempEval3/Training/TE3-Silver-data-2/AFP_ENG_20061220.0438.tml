@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061220.0438</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-12-20" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 20 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Bush "proud" of Lebanese PM Siniora</TITLE>
+
+
+<TEXT>
+
+US President George W. Bush <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2006-12-20" tid="t1">Wednesday</TIMEX3> he was proud of Lebanese Prime Minister Fuad Siniora, <EVENT class="OCCURRENCE" eid="e3">praising</EVENT> his tenacity in <EVENT class="I_ACTION" eid="e4">resisting</EVENT> "enormous pressure" from Syria and Hezbollah.
+
+Bush <EVENT class="OCCURRENCE" eid="e5">digressed</EVENT> from a critique of Damascus and Iran during a year-end news <EVENT class="OCCURRENCE" eid="e6">conference</EVENT> to <EVENT class="OCCURRENCE" eid="e7">pour</EVENT> special praise on Siniora, who is <EVENT class="OCCURRENCE" eid="e8">struggling</EVENT> to <EVENT class="OCCURRENCE" eid="e9">shore</EVENT> up his government in the <EVENT class="OCCURRENCE" eid="e10">grip</EVENT> of a political crisis.
+
+"<EVENT class="I_ACTION" eid="e12">Let</EVENT> me <EVENT class="OCCURRENCE" eid="e13">step</EVENT> back: I'm proud of Prime Minister Siniora," Bush <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+"He has <EVENT class="REPORTING" eid="e15">shown</EVENT> tenacity, toughness in the face of enormous pressure from Syria as well as Hezbollah, which is <EVENT class="STATE" eid="e16">funded</EVENT> by Iran," Bush <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+The United States has staunchly <EVENT class="OCCURRENCE" eid="e18">supported</EVENT> the Siniora government, though ties were <EVENT class="OCCURRENCE" eid="e19">frayed</EVENT> <TIMEX3 type="DATE" value="2006" tid="t2">earlier this year</TIMEX3> by the US <EVENT class="OCCURRENCE" eid="e20">refusal</EVENT> to <EVENT class="OCCURRENCE" eid="e21">condemn</EVENT> Israel for its tactics in the <EVENT class="OCCURRENCE" eid="e22">war</EVENT> in Lebanon against Hezbollah.
+
+In an <EVENT class="OCCURRENCE" eid="e23">interview</EVENT> with AFP <TIMEX3 type="DATE" value="2006-W50" tid="t3">last week</TIMEX3>, Secretary of State Condoleezza Rice <EVENT class="REPORTING" eid="e24">voiced</EVENT> deep concern that Syria and Iran were <EVENT class="OCCURRENCE" eid="e25">moving</EVENT> to <EVENT class="OCCURRENCE" eid="e26">topple</EVENT> the Lebanese government.
+
+The Hezbollah-led Lebanese opposition has <EVENT class="OCCURRENCE" eid="e27">stepped</EVENT> up its <EVENT class="OCCURRENCE" eid="e28">campaign</EVENT> against Siniora's cabinet, <EVENT class="OCCURRENCE" eid="e29">calling</EVENT> for early parliamentary elections under a new electoral law.
+
+Previously, the opposition had merely <EVENT class="OCCURRENCE" eid="e31">demanded</EVENT> the cabinet <EVENT class="OCCURRENCE" eid="e32">make</EVENT> way for a government of national unity.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

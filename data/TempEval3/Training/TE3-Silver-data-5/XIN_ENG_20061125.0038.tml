@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061125.0038</DOCID>
+
+<DCT>DAR ES SALAAM, <TIMEX3 tid="t0" type="TIME" value="2006-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tanzania ready for Anoca Games</TITLE>
+
+
+<TEXT>
+
+Tanzania has <EVENT class="REPORTING" eid="e1">confirmed</EVENT> <EVENT class="OCCURRENCE" eid="e2">participation</EVENT> in the forthcoming Association of National Olympic Committees of Africa (Anoca) Zone Five U-20 Games.
+
+Tanzania has thus <EVENT class="OCCURRENCE" eid="e3">joined</EVENT> Burundi, Egypt, Ethiopia, Eritrea, Kenya, Rwanda, Somalia, Sudan and Uganda in the Games to be <EVENT class="OCCURRENCE" eid="e4">held</EVENT> in Nairobi of Kenya between <TIMEX3 type="DATE" value="2005-12-01" tid="t1">Dec. 1</TIMEX3> and 5.
+
+The Anoca Games will <EVENT class="OCCURRENCE" eid="e5">feature</EVENT> four sports of track and field, boxing, cycling and basketball.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

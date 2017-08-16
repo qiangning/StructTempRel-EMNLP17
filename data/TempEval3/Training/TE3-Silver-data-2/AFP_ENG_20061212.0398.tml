@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061212.0398</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2006-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS background, Olmert comment on Iran ///</TITLE>
+
+
+<TEXT>
+
+Israeli Prime Minister Ehud Olmert on <TIMEX3 type="DATE" value="2006-12-12" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">reiterated</EVENT> his country's longstanding position that it will not <EVENT class="REPORTING" eid="e2">confirm</EVENT> or <EVENT class="OCCURRENCE" eid="e3">deny</EVENT> having nuclear weapons.
+
+"Israel will not be the first country to <EVENT class="OCCURRENCE" eid="e4">introduce</EVENT> nuclear weapons to the region. That is our policy and it has not <EVENT class="OCCURRENCE" eid="e5">changed</EVENT>," he <EVENT class="REPORTING" eid="e6">told</EVENT> a press <EVENT class="OCCURRENCE" eid="e7">conference</EVENT> after a <EVENT class="OCCURRENCE" eid="e8">meeting</EVENT> with German Chancellor Angela Merkel.
+
+"There is no need to <EVENT class="I_ACTION" eid="e10">explain</EVENT> it any further."
+
+Olmert <EVENT class="OCCURRENCE" eid="e11">sparked</EVENT> an uproar on <TIMEX3 type="DATE" value="2006-12-11" tid="t2">Monday</TIMEX3> when he <EVENT class="OCCURRENCE" eid="e12">made</EVENT> remarks in an <EVENT class="OCCURRENCE" eid="e13">interview</EVENT> with a German television station that were <EVENT class="OCCURRENCE" eid="e14">interpreted</EVENT> by some as a break with Israel's traditional nuclear "policy of ambiguity".
+
+He <EVENT class="REPORTING" eid="e15">told</EVENT> <TIMEX3 type="DATE" value="2006-12-12T24:00" tid="t3">N24</TIMEX3> <EVENT class="OCCURRENCE" eid="e16">Sat1</EVENT> television: "Iran openly, explicitly and publicly <EVENT class="I_ACTION" eid="e17">threatens</EVENT> to <EVENT class="OCCURRENCE" eid="e18">wipe</EVENT> Israel off the map.
+
+"Can you <EVENT class="REPORTING" eid="e19">say</EVENT> that this is the same level, when they are aspiring to have nuclear weapons, as France, America, Russia and Israel?"
+
+Th apparent <EVENT class="OCCURRENCE" eid="e21">blunder</EVENT> <EVENT class="OCCURRENCE" eid="e22">came</EVENT> less than a week after Israeli officials <EVENT class="OCCURRENCE" eid="e23">rounded</EVENT> on the incoming US defense secretary Robert Gates for the same slip-up, and <EVENT class="OCCURRENCE" eid="e24">drew</EVENT> calls from across the political spectrum in Israel for Olmert to <EVENT class="OCCURRENCE" eid="e25">resign</EVENT>.
+
+The prime minister's spokeswoman however immediately <EVENT class="OCCURRENCE" eid="e26">denied</EVENT> that his words had <EVENT class="OCCURRENCE" eid="e27">signalled</EVENT> any <EVENT class="OCCURRENCE" eid="e28">departure</EVENT> from established policy.
+
+Israel's policy of nuclear ambiguity <EVENT class="OCCURRENCE" eid="e29">dates</EVENT> back to the <TIMEX3 type="DATE" value="196" tid="t5">early 1960s</TIMEX3>, to an <EVENT class="I_STATE" eid="e30">agreement</EVENT> <EVENT class="OCCURRENCE" eid="e31">struck</EVENT> with the United States and France.
+
+Under this policy, the Jewish state would not <EVENT class="OCCURRENCE" eid="e32">carry</EVENT> out any nuclear tests and would <EVENT class="OCCURRENCE" eid="e33">stay</EVENT> silent on the issue in order to <EVENT class="I_ACTION" eid="e34">prevent</EVENT> a nuclear arms race in the Middle East.
+
+Observers have <EVENT class="I_ACTION" eid="e36">warned</EVENT> however that Olmert's statement could <EVENT class="OCCURRENCE" eid="e37">undermine</EVENT> <EVENT class="OCCURRENCE" eid="e38">efforts</EVENT> by Israel and the West to <EVENT class="I_ACTION" eid="e39">prevent</EVENT> its arch-foe Iran from <EVENT class="OCCURRENCE" eid="e40">pursuing</EVENT> its bitterly <EVENT class="OCCURRENCE" eid="e41">contested</EVENT> nuclear power program.
+
+But they also <EVENT class="REPORTING" eid="e42">said</EVENT> that the prime minister's remarks were unlikely to <EVENT class="OCCURRENCE" eid="e43">change</EVENT> the way the world <EVENT class="I_STATE" eid="e44">views</EVENT> the Jewish state's nuclear capabilities because it is widely <EVENT class="OCCURRENCE" eid="e45">assumed</EVENT> to <EVENT class="STATE" eid="e46">have</EVENT> an atomic arsenal.
+
+Olmert on <TIMEX3 type="DATE" value="2006-12-12" tid="t6">Tuesday</TIMEX3> <EVENT class="REPORTING" eid="e47">described</EVENT> Iran's hardline regime as "a danger" for all of the western world. Israel and the West <EVENT class="I_STATE" eid="e48">fear</EVENT> that Tehran's nuclear power <EVENT class="OCCURRENCE" eid="e49">programme</EVENT> masks an <EVENT class="I_ACTION" eid="e50">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e51">develop</EVENT> nuclear weapons.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei36" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei36" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei42" relatedToEventInstance="ei47" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei42" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei42" relatedToEventInstance="ei46" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei47" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei36" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei50" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l44" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei48" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l51" eventInstanceID="ei48" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei48" relatedToEventInstance="ei51" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei47" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l55" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei42" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei29" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l59" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l60" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="BEFORE" />
+
+
+
+
+</TimeML>

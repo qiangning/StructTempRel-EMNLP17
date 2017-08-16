@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0347</DOCID>
+
+<DCT>CARACAS, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>election "good"</TITLE>
+
+
+<TEXT>
+
+Venezuelan Vice President Jose Vecente Rangel <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2005-11-29" tid="t1">Tuesday</TIMEX3> that <TIMEX3 type="DATE" value="2005-12-04" tid="t2">Sunday</TIMEX3>'s congressional elections will <EVENT class="OCCURRENCE" eid="e3">go</EVENT> ahead despite <EVENT class="OCCURRENCE" eid="e4">boycott</EVENT> from three opposition parties, <EVENT class="REPORTING" eid="e5">saying</EVENT> the opposition's <EVENT class="OCCURRENCE" eid="e6">withdrawal</EVENT> was "good."
+
+"The opposition <EVENT class="REPORTING" eid="e7">says</EVENT> this election isn't clean. It's the <EVENT class="OCCURRENCE" eid="e8">cleanest</EVENT> in Venezuela's history, but they have interests <EVENT class="STATE" eid="e9">opposed</EVENT> to the National Electoral Council," Rangel <EVENT class="REPORTING" eid="e10">told</EVENT> local press. "The Democratic Action party <EVENT class="STATE" eid="e11">has</EVENT> <EVENT class="OCCURRENCE" eid="e12">withdrawn</EVENT>... very good! "
+
+Rangal's remarks <EVENT class="OCCURRENCE" eid="e13">came</EVENT> after three opposition parties -- the Democratic Action, the Project Venezuela and the Social Christian Party, or Copei, <EVENT class="REPORTING" eid="e14">announced</EVENT> their <EVENT class="OCCURRENCE" eid="e15">pulling</EVENT> <EVENT class="OCCURRENCE" eid="e16">out</EVENT> from the elections.
+
+The opposition <EVENT class="REPORTING" eid="e18">said</EVENT> the National Electoral Council <EVENT class="I_STATE" eid="e19">favored</EVENT> the ruling party candidates and has <EVENT class="I_ACTION" eid="e20">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e21">correct</EVENT> the errors in the voter registry.
+
+"<EVENT class="OCCURRENCE" eid="e22">Imagine</EVENT> what it <EVENT class="I_STATE" eid="e23">means</EVENT> for a party like Democratic Action to <EVENT class="REPORTING" eid="e24">say</EVENT> that today...under these conditions, we cannot <EVENT class="OCCURRENCE" eid="e25">participate</EVENT> in the electoral process, " <EVENT class="REPORTING" eid="e26">said</EVENT> Henry Ramos of the Democratic Action, the largest opposition party in the country.
+
+Polling firms <EVENT class="REPORTING" eid="e27">said</EVENT> the ruling Fifth Republic Movement of President Hugo Chavez will <EVENT class="OCCURRENCE" eid="e29">win</EVENT> a sweeping <EVENT class="OCCURRENCE" eid="e30">victory</EVENT> in <TIMEX3 type="DATE" value="2005-12-04" tid="t5">Sunday</TIMEX3>'s elections. If the ruling party <EVENT class="I_STATE" eid="e32">reaches</EVENT> its goal of getting a two-thirds majority, it can <EVENT class="ASPECTUAL" eid="e34">begin</EVENT> to <EVENT class="OCCURRENCE" eid="e35">make</EVENT> constitutional reforms.
+
+Analysts <EVENT class="REPORTING" eid="e36">said</EVENT> one of the possible reforms might be <EVENT class="OCCURRENCE" eid="e37">lifting</EVENT> the restriction limiting presidents to two six-year terms. Chavez's term will not <EVENT class="OCCURRENCE" eid="e38">expire</EVENT> until <TIMEX3 type="DATE" value="2012" tid="t7">2012</TIMEX3> if he is <EVENT class="OCCURRENCE" eid="e39">re-elected</EVENT> <TIMEX3 type="DATE" value="2006" tid="t8">next year</TIMEX3>.
+
+Venezuela's opposition parties, including the three parties that <EVENT class="OCCURRENCE" eid="e40">boycotted</EVENT> the upcoming elections, <TIMEX3 type="DATE" value="PRESENT_REF" tid="t9">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e42">hold</EVENT> a total of 79 seats in the 165-seat National Assembly, while the rest 86 seats are <EVENT class="OCCURRENCE" eid="e43">taken</EVENT> by pro-Chavez lawmakers.
+
+<TIMEX3 type="DATE" value="2005-12-04" tid="t10">Sunday</TIMEX3>'s election will be the first time when both Democratic Action and Copei have no candidates since <TIMEX3 type="DATE" value="1958" tid="t11">1958</TIMEX3> -- when Venezuela's last military dictatorship <EVENT class="ASPECTUAL" eid="e44">ended</EVENT>. Venezuelans will <EVENT class="OCCURRENCE" eid="e45">elect</EVENT> 167 deputies to the National Assembly for five-year terms.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000044" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei45" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei38" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei38" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei34" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei39" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei42" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei32" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei29" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei42" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei18" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei44" relatedToEventInstance="ei1000044" relType="SIMULTANEOUS" />
+<TLINK lid="l53" eventInstanceID="ei44" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l54" eventInstanceID="ei38" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l57" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l59" eventInstanceID="ei1000044" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l60" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

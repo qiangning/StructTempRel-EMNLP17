@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0314</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Christie considering retirement because of sore left ankle</TITLE>
+
+
+<TEXT>
+
+The Dallas Mavericks <EVENT class="I_ACTION" eid="e1">guard</EVENT> Doug Christie is <EVENT class="I_STATE" eid="e2">considering</EVENT> retirement because of his recurring sore left ankle, reports from Dallas <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Christie <EVENT class="OCCURRENCE" eid="e4">went</EVENT> home to Seattle <TIMEX3 type="DATE" value="2005-W46" tid="t1">last week</TIMEX3> to <EVENT class="STATE" eid="e5">have</EVENT> the surgically repaired ankle <EVENT class="OCCURRENCE" eid="e7">examined</EVENT> by his personal physician. He <EVENT class="OCCURRENCE" eid="e8">missed</EVENT> the final 24 games <TIMEX3 type="DATE" value="2005-11-23" tid="t2">last season</TIMEX3> for Orlando because of bone <EVENT class="OCCURRENCE" eid="e9">spurs</EVENT> in his ankle that were <EVENT class="OCCURRENCE" eid="e10">removed</EVENT>.
+
+Mavericks owner Mark Cuban <EVENT class="REPORTING" eid="e11">said</EVENT> <TIMEX3 type="DATE" value="2005-11-22" tid="t3">Tuesday</TIMEX3> that he <EVENT class="I_STATE" eid="e12">expects</EVENT> to <EVENT class="I_STATE" eid="e13">know</EVENT> within a few days what Christie will <EVENT class="OCCURRENCE" eid="e14">do</EVENT>. Retirement is an option, he <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+The 35-year-old Christie, in his 14th NBA season, <EVENT class="OCCURRENCE" eid="e16">signed</EVENT> a three-year contract with Dallas in <TIMEX3 type="DATE" value="2005-08" tid="t5">August</TIMEX3>, but only the $3.15 million for the first season is <EVENT class="OCCURRENCE" eid="e17">guaranteed</EVENT>.
+
+Christie <EVENT class="OCCURRENCE" eid="e18">played</EVENT> the first seven games this season for Dallas, <EVENT class="OCCURRENCE" eid="e19">averaging</EVENT> just 3.7 points and 2.0 <EVENT class="I_ACTION" eid="e20">assists</EVENT> a <EVENT class="OCCURRENCE" eid="e21">game</EVENT>. He <EVENT class="OCCURRENCE" eid="e22">got</EVENT> permission to <EVENT class="OCCURRENCE" eid="e23">go</EVENT> home and hasn't been with the team the last three games, including <TIMEX3 type="DATE" value="2005-11-29TNI" tid="t7">Tuesday night</TIMEX3>'s 102-93 <EVENT class="OCCURRENCE" eid="e24">victory</EVENT> over Houston.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

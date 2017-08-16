@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970408.0311</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="1997-04-08" temporalFunction="false" functionInDocument="CREATION_TIME">April 8 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Israeli FM begins Turkey visit</TITLE>
+
+
+<TEXT>
+
+Israeli Foreign Minister David Levy <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> here <TIMEX3 type="DATE" value="1997-04-08" tid="t1">Tuesday</TIMEX3> for cooperation <EVENT class="OCCURRENCE" eid="e2">talks</EVENT> with Turkish leaders, including a <EVENT class="OCCURRENCE" eid="e3">meeting</EVENT> with Islamist Prime Minister Necmettin Erbakan, who <EVENT class="I_STATE" eid="e4">opposes</EVENT> close ties with the Jewish state.
+
+This is the first high-level political <EVENT class="OCCURRENCE" eid="e5">visit</EVENT> between the two states since Erbakan and Israel's hardline Prime Minister Benjamin Netanyahu <EVENT class="OCCURRENCE" eid="e6">came</EVENT> to power in their respective countries <TIMEX3 type="DATE" value="1996" tid="t2">last year</TIMEX3>.
+
+Turkey and Israel, whose relations <EVENT class="STATE" eid="e7">remained</EVENT> dormant during decades of the Arab-Israeli <EVENT class="OCCURRENCE" eid="e8">conflict</EVENT>, <EVENT class="OCCURRENCE" eid="e9">boosted</EVENT> their ties to a strategic level <TIMEX3 type="DATE" value="1996" tid="t3">last year</TIMEX3>.
+
+They <EVENT class="OCCURRENCE" eid="e10">signed</EVENT> two major pacts on military and defense industry <EVENT class="OCCURRENCE" eid="e11">cooperation</EVENT> despite condemnation by radical states such as Iran, Syria and Iraq.
+
+But the <EVENT class="OCCURRENCE" eid="e12">boost</EVENT> in military relations could not be <EVENT class="OCCURRENCE" eid="e13">matched</EVENT> in political ties, as Erbakan has still not <EVENT class="OCCURRENCE" eid="e14">responded</EVENT> to an <EVENT class="OCCURRENCE" eid="e15">invitation</EVENT> by Netanyahu to <EVENT class="OCCURRENCE" eid="e16">visit</EVENT> Israel.
+
+Levy <EVENT class="REPORTING" eid="e17">said</EVENT> in <EVENT class="OCCURRENCE" eid="e18">interviews</EVENT> with Turkish newspapers <TIMEX3 type="DATE" value="1997-W14" tid="t4">last week</TIMEX3> that his <EVENT class="OCCURRENCE" eid="e19">visit</EVENT> would be <EVENT class="I_STATE" eid="e20">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e21">cementing</EVENT> political cooperation.
+
+Diplomats here <EVENT class="REPORTING" eid="e23">said</EVENT> Erbakan <EVENT class="OCCURRENCE" eid="e24">accepted</EVENT> Levy's <EVENT class="OCCURRENCE" eid="e25">request</EVENT> for a <EVENT class="OCCURRENCE" eid="e26">meeting</EVENT> at <TIMEX3 type="DATE" value="1997-04-07T23:59" tid="t5">the last minute</TIMEX3>.
+
+A 630 million dollar agreement under which Israeli Aircraft Industries will <EVENT class="OCCURRENCE" eid="e27">upgrade</EVENT> Turkey's aging fleet of 54 F-4E Phantom aircraft <EVENT class="OCCURRENCE" eid="e28">took</EVENT> effect <TIMEX3 type="DATE" value="1996-11" tid="t6">last November</TIMEX3>, the largest-scale defense industry <EVENT class="OCCURRENCE" eid="e29">deal</EVENT> between the two countries.
+
+In Turkey, Levy will also <EVENT class="OCCURRENCE" eid="e30">meet</EVENT> President Suleymen Demirel, Foreign Minister Tansu Ciller, Chief of the General Staff Ismail Hakki Karadayi and business circles.
+
+The Turkish parliament last <TIMEX3 type="DATE" value="1997-04-04" tid="t7">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e31">approved</EVENT> a free trade agreement <EVENT class="OCCURRENCE" eid="e32">signed</EVENT> <TIMEX3 type="DATE" value="1996" tid="t8">last year</TIMEX3>.
+
+With the agreement, the two countries <EVENT class="I_STATE" eid="e34">hope</EVENT> to <EVENT class="OCCURRENCE" eid="e35">bolster</EVENT> their trade relations, which <TIMEX3 type="DATE" value="PRESENT_REF" tid="t9">currently</TIMEX3> <EVENT class="OCCURRENCE" eid="e36">register</EVENT> an annual two-way volume of nearly 500 million dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei30" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei32" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei28" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei31" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei34" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei36" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+
+
+
+
+</TimeML>

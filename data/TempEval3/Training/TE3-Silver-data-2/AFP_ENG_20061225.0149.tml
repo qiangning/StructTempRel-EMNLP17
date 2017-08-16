@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061225.0149</DOCID>
+
+<DCT>LISBON, <TIMEX3 tid="t0" type="TIME" value="2006-12-25" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 25 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>National squads play too many matches: Mourinho</TITLE>
+
+
+<TEXT>
+
+National teams are <EVENT class="OCCURRENCE" eid="e1">required</EVENT> to <EVENT class="OCCURRENCE" eid="e2">play</EVENT> far too many <EVENT class="OCCURRENCE" eid="e3">matches</EVENT>, Chelsea's Portuguese coach Jose Mourinho <EVENT class="REPORTING" eid="e4">said</EVENT> in a newspaper <EVENT class="OCCURRENCE" eid="e5">interview</EVENT> <EVENT class="OCCURRENCE" eid="e6">published</EVENT> on <TIMEX3 type="DATE" value="2006-12-25" tid="t1">Monday</TIMEX3>.
+
+"There are too many matches with minor teams and because of this when there are serious <EVENT class="OCCURRENCE" eid="e7">matches</EVENT> players are at risk of not being at the level that people <EVENT class="I_STATE" eid="e8">expect</EVENT>," he <EVENT class="REPORTING" eid="e9">told</EVENT> Portuguese sports daily O Jogo.
+
+"It is too much to have groups of seven to eight teams that play <TIMEX3 type="DATE" value="2006-12-25T15:00" tid="t2">14, 15, 16</TIMEX3> <EVENT class="OCCURRENCE" eid="e11">matches</EVENT> to <EVENT class="I_STATE" eid="e12">qualify</EVENT>, which serve mostly to <EVENT class="OCCURRENCE" eid="e14">injure</EVENT> players," he <EVENT class="OCCURRENCE" eid="e15">added</EVENT>.
+
+Mourinho, who has <EVENT class="OCCURRENCE" eid="e16">guided</EVENT> Chelsea to two successive Premiership titles after <EVENT class="OCCURRENCE" eid="e17">taking</EVENT> FC Porto to the Champions League triumph, <EVENT class="OCCURRENCE" eid="e18">suggested</EVENT> that qualifying groups should instead <EVENT class="OCCURRENCE" eid="e19">consist</EVENT> of just three or four national teams <EVENT class="OCCURRENCE" eid="e20">matched</EVENT> by their ability.
+
+"The best would <EVENT class="OCCURRENCE" eid="e21">play</EVENT> against the best and the worst against the worst. Instead of Portugal <EVENT class="OCCURRENCE" eid="e22">playing</EVENT> against Kazakhstan and England against San Marino, <EVENT class="I_ACTION" eid="e23">let</EVENT> Kazakhstan and San Marino <EVENT class="OCCURRENCE" eid="e24">play</EVENT> against Andorra," he <EVENT class="REPORTING" eid="e25">said</EVENT>.
+
+Mourinho, who is under contract with Chelsea until <TIMEX3 type="DATE" value="2010" tid="t3">2010</TIMEX3>, has <EVENT class="REPORTING" eid="e26">said</EVENT> he would <EVENT class="I_STATE" eid="e27">like</EVENT> to <EVENT class="OCCURRENCE" eid="e28">coach</EVENT> Portugal before <EVENT class="OCCURRENCE" eid="e29">retiring</EVENT> from football.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei26" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

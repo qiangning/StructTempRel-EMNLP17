@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0188</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Urgent: Four explosions rock Baghdad's Sadr City</TITLE>
+
+
+<TEXT>
+
+Four explosions, including a car bomb at the 55th Square, in Baghdad's Shiite slum of Sadr City, <EVENT class="OCCURRENCE" eid="e2">took</EVENT> place on <TIMEX3 type="DATE" value="2006-11-23" tid="t1">Thursday</TIMEX3>, an Interior Ministry source <EVENT class="REPORTING" eid="e3">told</EVENT> Xinhua.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051104.0125</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese vice premier meets Japanese guests</TITLE>
+
+
+<TEXT>
+
+Chinese Vice Premier Wu Yi <EVENT class="OCCURRENCE" eid="e1">met</EVENT> with a delegation from the Kansai region of Japan here <TIMEX3 type="DATE" value="2005-11-04" tid="t1">Friday</TIMEX3>.
+
+The delegation is <EVENT class="OCCURRENCE" eid="e2">headed</EVENT> by Fusae Ota, governor of Osaka-Fu, Keiji Yamada, governor of Kyoto-Fu and Toshizo Ido, governor of Hyogo-Ken.
+
+Wu <EVENT class="OCCURRENCE" eid="e3">expressed</EVENT> her appreciation for Kansai's friendly exchanges and cooperation with China. She <EVENT class="REPORTING" eid="e5">said</EVENT> China and Japan, as close neighbors, are strongly <EVENT class="STATE" eid="e6">compatible</EVENT> in economy and <EVENT class="STATE" eid="e7">enjoy</EVENT> broad fields for cooperation.
+
+"To <EVENT class="OCCURRENCE" eid="e9">develop</EVENT> Sino-Japanese long-term stable good-neighborly relations is in the fundemental interests of the people of the two countries", Wu <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+She <EVENT class="REPORTING" eid="e11">noted</EVENT> that Japanese leaders' stubborn <EVENT class="OCCURRENCE" eid="e12">visits</EVENT> to Yasukuni Shrine, which honors 14 Class-A war criminals, had <EVENT class="OCCURRENCE" eid="e13">caused</EVENT> severe <EVENT class="STATE" eid="e14">difficulties</EVENT> for Sino-Japanese ties.
+
+"Their acts severely <EVENT class="OCCURRENCE" eid="e16">hurt</EVENT> the feeling of the Chinese people and <EVENT class="OCCURRENCE" eid="e17">undermined</EVENT> the political foundation of Sino-Japanese ties", she <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+Under the current situation, the two countries should <EVENT class="OCCURRENCE" eid="e19">cherish</EVENT> the traditional friendship of the people of both countries, <EVENT class="OCCURRENCE" eid="e20">enhance</EVENT> exchanges and mutual understanding, and <EVENT class="I_STATE" eid="e22">facilitate</EVENT> cooperation.
+
+She <EVENT class="OCCURRENCE" eid="e24">expressed</EVENT> the hope that the Kansai region will <EVENT class="OCCURRENCE" eid="e25">make</EVENT> full play of its advantages to <EVENT class="OCCURRENCE" eid="e26">expand</EVENT> friendly exchanges with China in terms of economy, trade, culture and personnel exchanges, and <EVENT class="OCCURRENCE" eid="e27">contribute</EVENT> more to the <EVENT class="OCCURRENCE" eid="e28">improvement</EVENT> of bilateral ties.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+
+
+
+
+</TimeML>

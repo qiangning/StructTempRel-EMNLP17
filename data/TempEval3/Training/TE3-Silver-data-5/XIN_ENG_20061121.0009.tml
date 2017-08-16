@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0009</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesian Merapi volcano calms down after spewing hot clouds</TITLE>
+
+
+<TEXT>
+
+Mt. Merapi in Indonesia's Java island <EVENT class="OCCURRENCE" eid="e1">calmed</EVENT> down <TIMEX3 type="DATE" value="2006-11-14TMO" tid="t1">Tuesday morning</TIMEX3> after <EVENT class="OCCURRENCE" eid="e2">spewing</EVENT> hot clouds up to three kilometers down from its peak <TIMEX3 type="DATE" value="2006-11-20TNI" tid="t2">Monday night</TIMEX3>.
+
+The local government in Sleman district had <EVENT class="OCCURRENCE" eid="e3">called</EVENT> on people living on the volcano's slope to <EVENT class="OCCURRENCE" eid="e4">increase</EVENT> their awareness for possible more hot clouds and floods of cold lava.
+
+"Merapi is still in the status of alert, and we are still <EVENT class="OCCURRENCE" eid="e5">monitoring</EVENT> its development," Sleman district head Ibnu Subiyanto was <EVENT class="REPORTING" eid="e7">quoted</EVENT> by the national Antara news agency as <EVENT class="REPORTING" eid="e8">saying</EVENT>.
+
+In <TIMEX3 type="DATE" value="2006-04" tid="t3">April</TIMEX3>, thousands of people living in the slopes of the mountain, <EVENT class="OCCURRENCE" eid="e9">located</EVENT> in the border area between Yogyakarta and Central Java provinces, were <EVENT class="OCCURRENCE" eid="e10">evacuated</EVENT> as it <EVENT class="OCCURRENCE" eid="e11">spewed</EVENT> volcanic materials and hot clouds up to six kilometers away from its peak.
+
+Two were <EVENT class="OCCURRENCE" eid="e12">killed</EVENT> in the last eruption.
+
+Indonesia sits astride the "Ring of Fire," a series of volcanoes and fault lines <EVENT class="OCCURRENCE" eid="e13">stretching</EVENT> from the Western Hemisphere through Japan and Southeast Asia to New Zealand.
+
+It <EVENT class="STATE" eid="e14">has</EVENT> more active volcanoes than any other nation.
+
+The eruption of Mt. Merapi in <TIMEX3 type="DATE" value="1994" tid="t5">1994</TIMEX3>, <EVENT class="OCCURRENCE" eid="e15">killed</EVENT> 60 people. About 1, 300 people were <EVENT class="OCCURRENCE" eid="e16">killed</EVENT> when it <EVENT class="OCCURRENCE" eid="e17">erupted</EVENT> in <TIMEX3 type="DATE" value="1930" tid="t6">1930</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+
+
+
+
+</TimeML>

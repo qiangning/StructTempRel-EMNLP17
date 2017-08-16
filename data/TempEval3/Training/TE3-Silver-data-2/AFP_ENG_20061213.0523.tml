@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061213.0523</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-12-13" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 13 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>India take tennis mixed doubles gold over Japan</TITLE>
+
+
+<TEXT>
+
+India's Leander Paes and Sania Mirza <EVENT class="STATE" eid="e1">combined</EVENT> to <EVENT class="OCCURRENCE" eid="e2">win</EVENT> gold in the tennis mixed <EVENT class="OCCURRENCE" eid="e4">doubles</EVENT> at the Asian Games on <TIMEX3 type="DATE" value="2006-12-13" tid="t1">Wednesday</TIMEX3>.
+
+The pair <EVENT class="OCCURRENCE" eid="e5">defeated</EVENT> seventh seeds Satoshi Iwabuchi and Akiko Morigami from <TIMEX3 type="DATE" value="2006-12-13" tid="t2">Japan 7-5, 5-7, 6-2</TIMEX3>.
+
+They <EVENT class="OCCURRENCE" eid="e6">won</EVENT> bronze together at the 2002 Asian Games.
+
+Paes <EVENT class="OCCURRENCE" eid="e7">returned</EVENT> to the court for the gold medal <EVENT class="OCCURRENCE" eid="e8">match</EVENT> just minutes after <EVENT class="OCCURRENCE" eid="e9">winning</EVENT> the men's doubles title with team-mate Mahesh Bhupathi.
+
+Mirza <EVENT class="OCCURRENCE" eid="e11">won</EVENT> silver earlier in the day, <EVENT class="OCCURRENCE" eid="e12">losing</EVENT> to China's Zheng Jie in the women's singles final.
+
+Taiwan's Lu Yen Hsun and Hsieh Su Wei and China's Yu Xinyuan and Sun Tiantian share bronze.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0505</DOCID>
+
+<DCT>BONN, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Germany: 109 fires in asylum-seekers' homes in 1996</TITLE>
+
+
+<TEXT>
+
+A total of 109 fires <EVENT class="OCCURRENCE" eid="e1">broke</EVENT> out in asylum-seekers' homes in Germany <TIMEX3 type="DATE" value="1996" tid="t1">last year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">killing</EVENT> 12 people and injuring 107, the German government <EVENT class="REPORTING" eid="e3">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-21" tid="t2">Monday</TIMEX3>.
+
+Some fires were deliberately <EVENT class="OCCURRENCE" eid="e4">set</EVENT> while others were <EVENT class="ASPECTUAL" eid="e5">started</EVENT> accidentally, <EVENT class="OCCURRENCE" eid="e6">caused</EVENT> by <EVENT class="OCCURRENCE" eid="e7">dropped</EVENT> cigarettes or faulty wiring, the government <EVENT class="REPORTING" eid="e9">told</EVENT> the lower house of parliament. The interior ministry did not detail how many were of criminal origin.
+
+The issue of fires that target asylum seekers or other foreigners is emotive in Germany where in <TIMEX3 type="DATE" value="1992" tid="t3">1992</TIMEX3> and 1993 fires <EVENT class="OCCURRENCE" eid="e10">killed</EVENT> eight women and young girls. The fires were <EVENT class="I_STATE" eid="e11">believed</EVENT> to have been <EVENT class="ASPECTUAL" eid="e12">started</EVENT> by xenophobes.
+
+In <TIMEX3 type="DATE" value="1997-03" tid="t5">March</TIMEX3>, a deliberately set fire <EVENT class="OCCURRENCE" eid="e13">killed</EVENT> three people of Turkish origin at Krefeld in eastern Germany. The father of the family was <EVENT class="OCCURRENCE" eid="e14">charged</EVENT> with <EVENT class="ASPECTUAL" eid="e15">starting</EVENT> the <EVENT class="OCCURRENCE" eid="e16">fire</EVENT> after his wife <EVENT class="REPORTING" eid="e17">said</EVENT> she <EVENT class="I_STATE" eid="e18">wanted</EVENT> a <EVENT class="OCCURRENCE" eid="e19">divorce</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

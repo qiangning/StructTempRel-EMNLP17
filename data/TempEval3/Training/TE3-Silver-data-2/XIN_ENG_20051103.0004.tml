@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0004</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>trafficker clemency</TITLE>
+
+
+<TEXT>
+
+Singapore's Ministry of Foreign Affairs <EVENT class="REPORTING" eid="e1">said</EVENT> in a statement on <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Thursday</TIMEX3> that the city state is unable to <EVENT class="OCCURRENCE" eid="e2">change</EVENT> its <EVENT class="OCCURRENCE" eid="e3">decision</EVENT> of not <EVENT class="OCCURRENCE" eid="e4">granting</EVENT> clemency to Nguyen Tuong Van.
+
+Nguyen, a 25-year-old Australian, had been <EVENT class="OCCURRENCE" eid="e5">sentenced</EVENT> to <EVENT class="OCCURRENCE" eid="e6">death</EVENT> by a Singapore court <TIMEX3 type="DATE" value="2004" tid="t2">last year</TIMEX3> after being <EVENT class="OCCURRENCE" eid="e7">found</EVENT> guilty of <EVENT class="OCCURRENCE" eid="e8">smuggling</EVENT> almost 400 grams of pure heroin from Cambodia to Australia via Singapore.
+
+The statement <EVENT class="REPORTING" eid="e9">said</EVENT> that Singapore's Foreign Minister George Yeo had <EVENT class="OCCURRENCE" eid="e10">written</EVENT> to his Australian counterpart Alexander Downer on <TIMEX3 type="DATE" value="2005-11-02" tid="t3">Wednesday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e11">stressing</EVENT> that the <EVENT class="OCCURRENCE" eid="e12">decision</EVENT> is unable to be <EVENT class="OCCURRENCE" eid="e13">changed</EVENT> because of "the seriousness of the <EVENT class="OCCURRENCE" eid="e14">offense</EVENT> and the need to <EVENT class="OCCURRENCE" eid="e16">hold</EVENT> firm the national position against drug trafficking".
+
+He <EVENT class="REPORTING" eid="e18">noted</EVENT> that the city state had carefully <EVENT class="I_STATE" eid="e19">considered</EVENT> all relevant factors of this case including Nguyen's sad personal circumstances and his value as a potential source of information.
+
+Yeo <EVENT class="OCCURRENCE" eid="e20">added</EVENT> that the Singapore government <EVENT class="STATE" eid="e21">has</EVENT> the responsibility to <EVENT class="OCCURRENCE" eid="e22">protect</EVENT> its people from the scourge of drug addiction and to <EVENT class="I_ACTION" eid="e23">prevent</EVENT> the country from <EVENT class="OCCURRENCE" eid="e24">becoming</EVENT> a conduit for the trafficking of illicit drugs in the region.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

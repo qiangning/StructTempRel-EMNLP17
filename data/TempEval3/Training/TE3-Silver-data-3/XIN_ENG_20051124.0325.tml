@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0325</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Buyers of big cars to pay more tax</TITLE>
+
+
+<TEXT>
+
+Buyers of big cars will <EVENT class="OCCURRENCE" eid="e1">fork</EVENT> out more taxes and those who <EVENT class="OCCURRENCE" eid="e2">opt</EVENT> for smaller models will <EVENT class="OCCURRENCE" eid="e3">pay</EVENT> less under a revised auto consumption tax likely to <EVENT class="OCCURRENCE" eid="e4">come</EVENT> into force <TIMEX3 type="DATE" value="2006" tid="t1">next year</TIMEX3>.
+
+China Daily <EVENT class="REPORTING" eid="e5">quoted</EVENT> Zhang Jinhua, deputy director of the China Automotive Technology and Research Centre, as <EVENT class="REPORTING" eid="e6">saying</EVENT> <TIMEX3 type="DATE" value="2005-12-01" tid="t2">Thursday</TIMEX3> at the Fourth International Clean Vehicle Technology Conference and Exhibition.
+
+The current tax structure, which <EVENT class="STATE" eid="e7">has</EVENT> three slabs for different engine sizes, is likely to have five. Vehicles with 4 litre or higher engines would <EVENT class="OCCURRENCE" eid="e9">pay</EVENT> between 20-25 percent instead of the current 8 percent, while those with engine displacement of 1 litre or less will <EVENT class="OCCURRENCE" eid="e10">pay</EVENT> 1 percent instead of the current 3 percent.
+
+Industry experts <EVENT class="PERCEPTION" eid="e11">see</EVENT> it as a government <EVENT class="OCCURRENCE" eid="e12">move</EVENT> to <EVENT class="OCCURRENCE" eid="e13">increase</EVENT> fuel efficiency and <EVENT class="OCCURRENCE" eid="e14">reduce</EVENT> emissions.
+
+"The consumption tax reform cannot have an immediate <EVENT class="STATE" eid="e17">impact</EVENT> on the clean-vehicle market. But at least, it is an inspiration for car makers," the newspaper <EVENT class="OCCURRENCE" eid="e18">quoted</EVENT> Zhang as <EVENT class="REPORTING" eid="e19">saying</EVENT>.
+
+Zhang also <EVENT class="I_ACTION" eid="e20">pointed</EVENT> out that substantial support from the government is needed if emissions were to be <EVENT class="OCCURRENCE" eid="e22">cut</EVENT> significantly, because the price for hybrid vehicles will <EVENT class="STATE" eid="e23">remain</EVENT> high without government support.
+
+Prius, jointly <EVENT class="OCCURRENCE" eid="e24">manufactured</EVENT> by Japan-based Toyota and the China FAW Group Corporation, will be the first hybrid car available in the Chinese market.
+
+Zhu Yanfeng, president of the joint venture, <EVENT class="REPORTING" eid="e26">announced</EVENT> on <TIMEX3 type="DATE" value="2005-11-23" tid="t3">Wednesday</TIMEX3> that Prius would be <EVENT class="STATE" eid="e27">available</EVENT> from mid-December for 250,000 yuan (31,000 US dollars) a price tag substantially higher than the average.
+
+Feng Fei, director of the industry department of the State Council Development Research Centre, also <EVENT class="I_ACTION" eid="e28">proposed</EVENT> <TIMEX3 type="DATE" value="2005-11" tid="t5">early this month</TIMEX3> that tax be <EVENT class="OCCURRENCE" eid="e29">levied</EVENT> on buyers rather than on auto producers as is <EVENT class="OCCURRENCE" eid="e30">done</EVENT> <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">now</TIMEX3>, so as to <EVENT class="OCCURRENCE" eid="e31">encourage</EVENT> sales with economy vehicles with lower emissions.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="NONE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei28" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="AFTER" />
+
+
+
+
+</TimeML>

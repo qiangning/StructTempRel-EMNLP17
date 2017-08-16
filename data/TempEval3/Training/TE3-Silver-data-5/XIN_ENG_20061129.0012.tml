@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0012</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Clippers, Dunleavy reportedly reach four-year deal</TITLE>
+
+
+<TEXT>
+
+The Los Angeles Clippers and coach Mike Dunleavy have <EVENT class="OCCURRENCE" eid="e1">reached</EVENT> a four-year contract extension worth more than 21 million U.S. dollars, <EVENT class="REPORTING" eid="e2">according</EVENT> to the Los Angeles <TIMEX3 type="DATE" value="2006-11-29" tid="t2">Times Tuesday</TIMEX3>.
+
+The team and Dunleavy's agent have <EVENT class="OCCURRENCE" eid="e3">worked</EVENT> out a <EVENT class="OCCURRENCE" eid="e4">deal</EVENT> that will <EVENT class="OCCURRENCE" eid="e5">pay</EVENT> him more than 5.3 million U.S. doallars a season. The Clippers have not <EVENT class="OCCURRENCE" eid="e6">made</EVENT> the deal public because bonuses <EVENT class="OCCURRENCE" eid="e7">tied</EVENT> to future playoff appearances were still being <EVENT class="OCCURRENCE" eid="e8">worked</EVENT> out, the Times <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The Clippers <EVENT class="OCCURRENCE" eid="e10">improved</EVENT> dramatically under Dunleavy <TIMEX3 type="DATE" value="2006-11-29" tid="t3">last season</TIMEX3>, <EVENT class="I_ACTION" eid="e11">posting</EVENT> their best win total since the franchise's glory days as the Buffalo Braves in the <TIMEX3 type="DATE" value="1970" tid="t4">mid-1970s</TIMEX3>. The team <EVENT class="OCCURRENCE" eid="e13">reached</EVENT> the playoffs for the first time in <TIMEX3 type="DATE" value="2006-11-29" tid="t5">nine seasons</TIMEX3> and <EVENT class="OCCURRENCE" eid="e14">came</EVENT> within one win of <EVENT class="OCCURRENCE" eid="e16">reaching</EVENT> the Western Conference final.
+
+The Times <EVENT class="REPORTING" eid="e17">reported</EVENT> the <EVENT class="OCCURRENCE" eid="e18">offer</EVENT> is close to the 6 million U.S. a year Dunleavy's agent initially <EVENT class="OCCURRENCE" eid="e19">proposed</EVENT> and would <EVENT class="OCCURRENCE" eid="e20">make</EVENT> him among the highest-paid coaches in the NBA.
+
+Dunleavy, the NBA's 1999 coach of <TIMEX3 type="DURATION" value="P1Y" tid="t8">the year</TIMEX3>, currently <EVENT class="OCCURRENCE" eid="e21">earns</EVENT> 2.5 million U.S. dollars a <TIMEX3 type="DATE" value="2006-11-29" tid="t9">season</TIMEX3>, and his <EVENT class="OCCURRENCE" eid="e22">deal</EVENT> <EVENT class="ASPECTUAL" eid="e23">expires</EVENT> at <TIMEX3 type="DATE" value="2006-11-29" tid="t10">the end of this season</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000011" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1000011" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei1000011" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei23" relatedToTime="t10" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

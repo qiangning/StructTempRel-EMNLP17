@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051113.0099</DOCID>
+
+<DCT>DHAKA, <TIMEX3 tid="t0" type="TIME" value="2005-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>SAARC summit ends with three agreements signed</TITLE>
+
+
+<TEXT>
+
+The 13th South Asian Association for Regional Cooperation (SAARC) Summit <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> here <TIMEX3 type="DATE" value="2005-11-13" tid="t1">Sunday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e2">passed</EVENT> Dhaka Declaration.
+
+The <EVENT class="OCCURRENCE" eid="e3">summit</EVENT> also <EVENT class="OCCURRENCE" eid="e4">passed</EVENT> three agreements -- Avoidance of Double Taxation, Liberalization of Visa Regime and SAARC Arbitration Council.
+
+At the concluding <EVENT class="OCCURRENCE" eid="e6">session</EVENT> of 13th SAARC summit, Bangladesh Prime Minister Khaleda Zia <EVENT class="REPORTING" eid="e8">said</EVENT> that India has <EVENT class="OCCURRENCE" eid="e9">offered</EVENT> to <EVENT class="OCCURRENCE" eid="e10">host</EVENT> the next summit and the 7-member states of SAARC have <EVENT class="OCCURRENCE" eid="e11">welcomed</EVENT> it.
+
+Zia also <EVENT class="REPORTING" eid="e12">said</EVENT> that the 13th summit has <EVENT class="OCCURRENCE" eid="e14">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e15">set</EVENT> up a SAARC Surveillance and Rapid Response System to <EVENT class="OCCURRENCE" eid="e16">deal</EVENT> with health concerns such as bird flu, that has <EVENT class="OCCURRENCE" eid="e18">affected</EVENT> several countries in East Asia.
+
+Indian Prime Minister Manmohan Singh, who will <EVENT class="OCCURRENCE" eid="e19">serve</EVENT> as the chairman of the next summit, <EVENT class="OCCURRENCE" eid="e21">called</EVENT> on all SAARC member countries to <EVENT class="OCCURRENCE" eid="e22">settle</EVENT> issues to <EVENT class="I_STATE" eid="e23">facilitate</EVENT> implementation of South Asian Free Trade Agreement (SAFTA) by <TIMEX3 type="DATE" value="2006-01" tid="t2">January 2006</TIMEX3>.
+
+"I would <EVENT class="I_STATE" eid="e24">like</EVENT> to <EVENT class="OCCURRENCE" eid="e25">underline</EVENT> that we must <EVENT class="OCCURRENCE" eid="e26">expedite</EVENT> the process of <EVENT class="I_ACTION" eid="e27">resolving</EVENT> few outstanding issues that <EVENT class="OCCURRENCE" eid="e28">separate</EVENT> us from the final <EVENT class="I_STATE" eid="e29">agreement</EVENT> on SAFTA," Singh <EVENT class="REPORTING" eid="e30">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

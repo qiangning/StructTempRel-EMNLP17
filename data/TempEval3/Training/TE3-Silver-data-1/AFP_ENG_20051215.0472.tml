@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0472</DOCID>
+
+<DCT>BRUSSELS, <TIMEX3 tid="t0" type="TIME" value="2005-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 15 , 2005</TIMEX3></DCT>
+
+<TITLE>Bickering EU leaders to fill up on Cullen Skink</TITLE>
+
+
+<TEXT>
+
+European Union leaders were to <EVENT class="OCCURRENCE" eid="e1">discover</EVENT> the pleasures of Cullen Skink when they sit down to <EVENT class="OCCURRENCE" eid="e3">dinner</EVENT> <TIMEX3 type="DATE" value="2005-12-22" tid="t1">Thursday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e4">haggle</EVENT> over EU financial perspectives.
+
+It's a hearty smoked-haddock soup from Scotland -- Cullen is a coastal town and skink <EVENT class="OCCURRENCE" eid="e6">comes</EVENT> from the Gaelic word for essence -- that British Prime Minister Tony Blair <EVENT class="I_STATE" eid="e7">hopes</EVENT> can <EVENT class="I_ACTION" eid="e8">help</EVENT> <EVENT class="OCCURRENCE" eid="e9">warm</EVENT> the mood.
+
+Anyone <EVENT class="I_STATE" eid="e10">wanting</EVENT> to <EVENT class="OCCURRENCE" eid="e11">spoil</EVENT> the mood could <EVENT class="I_ACTION" eid="e12">point</EVENT> out that Scotland's fisheries have been <EVENT class="OCCURRENCE" eid="e13">hit</EVENT> hard by EU fisheries policy, with tough quotas <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">now</TIMEX3> in place after <TIMEX3 type="DURATION" value="PXY" tid="t3">years</TIMEX3> of <EVENT class="OCCURRENCE" eid="e14">overfishing</EVENT> in the North Sea.
+
+The two-day <EVENT class="OCCURRENCE" eid="e15">summit</EVENT> in Brussels is <EVENT class="OCCURRENCE" eid="e16">dominated</EVENT> by intense wrangling over the bloc's budget for <TIMEX3 type="DATE" value="2007" tid="t5">2007</TIMEX3> to 2013, but the dinner itself is likely to be a more harmonious <EVENT class="OCCURRENCE" eid="e17">occasion</EVENT>.
+
+The main course, a European diplomat <EVENT class="REPORTING" eid="e18">told</EVENT> AFP, would be "carre d'agneau" -- that reads better on a menu than "lamb chops" -- from Northern Ireland, <EVENT class="OCCURRENCE" eid="e20">accompanied</EVENT> with cabbage and mushrooms.
+
+A <EVENT class="OCCURRENCE" eid="e21">selection</EVENT> of British cheeses and oatcakes was to <EVENT class="OCCURRENCE" eid="e22">follow</EVENT>, together with coffee and, in a <EVENT class="OCCURRENCE" eid="e23">return</EVENT> to things Scottish, shortbread.
+
+To <EVENT class="OCCURRENCE" eid="e24">wash</EVENT> it all down, there was to be Sharpham Beenleigh red wine from Devon, southwest England, and Tintern Parva white from Wales, as well as mineral water from Shropshire, in the north of England.
+
+Coffee and shortbread was to <EVENT class="OCCURRENCE" eid="e25">round</EVENT> out the evening.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

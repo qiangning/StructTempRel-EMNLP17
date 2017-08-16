@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970409.0221</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="1997-04-09" temporalFunction="false" functionInDocument="CREATION_TIME">April 9 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Prodi says his fate up to president if parliament rejects Albania force</TITLE>
+
+
+<TEXT>
+
+Prime Minister Romano Prodi <EVENT class="REPORTING" eid="e1">told</EVENT> the Italian parliament <TIMEX3 type="DATE" value="1997-04-09" tid="t1">Wednesday</TIMEX3> that if his government <EVENT class="OCCURRENCE" eid="e2">loses</EVENT> a vote on <EVENT class="OCCURRENCE" eid="e3">sending</EVENT> troops to Albania he would <EVENT class="OCCURRENCE" eid="e4">put</EVENT> its future in the hands of President Oscar Luigi Scalfaro.
+
+Prodi <EVENT class="OCCURRENCE" eid="e5">made</EVENT> the statement at the <EVENT class="ASPECTUAL" eid="e6">start</EVENT> of a day-long <EVENT class="OCCURRENCE" eid="e7">debate</EVENT> on Italy's planned leadership of a multinational force to <EVENT class="OCCURRENCE" eid="e8">protect</EVENT> aid supplies to Albania.
+
+The Refounded Communists, allies of the government in parliament, have <EVENT class="OCCURRENCE" eid="e9">withdrawn</EVENT> their <EVENT class="OCCURRENCE" eid="e10">support</EVENT> ahead of the vote on the force for Albania.
+
+"If the <EVENT class="OCCURRENCE" eid="e12">opposition</EVENT> of the Refounded Communists <EVENT class="ASPECTUAL" eid="e13">continues</EVENT> I will immediately <EVENT class="OCCURRENCE" eid="e14">go</EVENT> to the head of state to officially <EVENT class="REPORTING" eid="e15">inform</EVENT> him of the situation, and <EVENT class="OCCURRENCE" eid="e16">leave</EVENT> the <EVENT class="OCCURRENCE" eid="e17">decision</EVENT> up to him," Prodi <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

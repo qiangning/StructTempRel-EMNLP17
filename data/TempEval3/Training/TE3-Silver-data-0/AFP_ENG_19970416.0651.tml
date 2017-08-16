@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970416.0651</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Japan's trade surplus down 26.8 percent in March</TITLE>
+
+
+<TEXT>
+
+Japan's trade surplus in <TIMEX3 type="DATE" value="1997-03" tid="t1">March</TIMEX3> was down 26.8 percent from <TIMEX3 type="SET" value="P1Y" tid="t2">a year</TIMEX3> earlier at 818.3 billion yen (6.49 billion dollars) but up from 686.7 billion yen in <TIMEX3 type="DATE" value="1997-02" tid="t3">February</TIMEX3>, the finance ministry <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="1997-04-17" tid="t4">Thursday</TIMEX3>.
+
+Exports were up 10.5 percent at 4.54 billion yen while imports were up 24.4 percent at 3.72 billion yen, it <EVENT class="REPORTING" eid="e2">said</EVENT>.
+
+For <TIMEX3 type="DURATION" value="P1Y" tid="t5">the fiscal year</TIMEX3> <EVENT class="ASPECTUAL" eid="e3">ending</EVENT> in <TIMEX3 type="DATE" value="1997-03" tid="t6">March</TIMEX3>, the trade surplus <EVENT class="OCCURRENCE" eid="e4">narrowed</EVENT> 29.6 percent to 6,421 billion yen.
+
+A ministry official <EVENT class="REPORTING" eid="e5">said</EVENT> the <EVENT class="OCCURRENCE" eid="e6">decline</EVENT> in Japan's trade surplus was "<EVENT class="OCCURRENCE" eid="e7">slowing</EVENT>", apparently <EVENT class="OCCURRENCE" eid="e8">referring</EVENT> to the <EVENT class="OCCURRENCE" eid="e9">impact</EVENT> of the weaker yen.
+
+Tokyo Research Institute economist Toshio Sumitani <EVENT class="REPORTING" eid="e10">said</EVENT> the <TIMEX3 type="DATE" value="1997-03" tid="t7">March</TIMEX3> surplus was below his forecast for a trade imbalance of one trillion yen.
+
+"Imports were stronger than <EVENT class="I_STATE" eid="e11">expected</EVENT> ... Crude oil prices have <EVENT class="OCCURRENCE" eid="e12">fallen</EVENT> recently, so I did not <EVENT class="I_STATE" eid="e13">expect</EVENT> strong imports," he <EVENT class="REPORTING" eid="e14">said</EVENT>, <EVENT class="REPORTING" eid="e15">citing</EVENT> "extraordinary factors" for the <EVENT class="OCCURRENCE" eid="e16">increase</EVENT>.
+
+Sumitani also <EVENT class="REPORTING" eid="e17">noted</EVENT> that exports to the United States remained high and this was <EVENT class="I_STATE" eid="e19">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e20">continue</EVENT> <EVENT class="OCCURRENCE" eid="e21">boosting</EVENT> the surplus in the <TIMEX3 type="DATE" value="FUTURE_REF" tid="t9">coming months</TIMEX3>.
+
+"The pace of the movement in the trade surplus year on year is <EVENT class="OCCURRENCE" eid="e22">slowing</EVENT>, because of <EVENT class="OCCURRENCE" eid="e23">slowing</EVENT> exports to the Asian and European markets," he <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+In <TIMEX3 type="DATE" value="1997-03" tid="t11">March</TIMEX3> alone, Japan's surplus with the United States, its biggest trading partner, <EVENT class="OCCURRENCE" eid="e25">surged</EVENT> 11.2 percent to 380 billion yen with exports up 14.3 percent at 1,260 billion yen and imports up 15.7 percent at 880 billion yen.
+
+The surplus with Asia <EVENT class="OCCURRENCE" eid="e26">shrank</EVENT> 17.9 percent to 635 billion yen, with exports up 7.6 percent at 1,922 billion yen and imports <EVENT class="OCCURRENCE" eid="e27">increasing</EVENT> 27.0 percent to 1,287 billion yen.
+
+With the European Union, the trade surplus <EVENT class="OCCURRENCE" eid="e28">narrowed</EVENT> 39.2 percent to 131 billion yen. Exports to the EU countries <EVENT class="OCCURRENCE" eid="e29">rose</EVENT> 2.5 percent to 676 billion yen with imports down 22.8 percent at 545 billion yen.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei25" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei1000001" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei17" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="INCLUDES" />
+<TLINK lid="l43" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei1" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei1000002" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l49" eventInstanceID="ei1000001" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l50" eventInstanceID="ei10" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l51" eventInstanceID="ei3" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l52" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+
+
+
+
+</TimeML>

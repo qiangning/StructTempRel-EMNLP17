@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051216.0239</DOCID>
+
+<DCT>VAL GARDENA, Italy, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>URGENT Grugger wins World Cup Super-G in Italy</TITLE>
+
+
+<TEXT>
+
+Austria's Hans Grugger <EVENT class="OCCURRENCE" eid="e1">won</EVENT> the men's World Cup Super-G race here on <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3> ahead of Canadian Erik Guay and Ambrosi Hoffmann of Switzerland.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

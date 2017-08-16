@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0054</DOCID>
+
+<DCT>NANJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's new Schmidt telescope's test observation successful</TITLE>
+
+
+<TEXT>
+
+Tests on China's Schmidt telescope, which is <EVENT class="OCCURRENCE" eid="e1">designed</EVENT> to <EVENT class="OCCURRENCE" eid="e2">detect</EVENT> near-earth objects (NEO) that could <EVENT class="I_ACTION" eid="e3">threaten</EVENT> the planet were <EVENT class="STATE" eid="e4">successful</EVENT>.
+
+The telescope, <EVENT class="OCCURRENCE" eid="e5">measuring</EVENT> one meter in diameter, was <EVENT class="OCCURRENCE" eid="e6">tested</EVENT> by scientists at the Mount Zijin Observatory under the Chinese Academy of Sciences, in the suburb of Huai'an city of east China's Jiangsu Province.
+
+It is the fist telescope in China <EVENT class="OCCURRENCE" eid="e7">specialized</EVENT> in NEO observation and one of only six, one-meter NEO observation telescopes in the world, <EVENT class="REPORTING" eid="e9">said</EVENT> Yang Jiexing, a researcher with the observatory.
+
+Near-earth objects are comets and asteroids that have been <EVENT class="OCCURRENCE" eid="e10">nudged</EVENT> by the gravitational pull and may <EVENT class="OCCURRENCE" eid="e11">collide</EVENT> with earth.
+
+<EVENT class="OCCURRENCE" eid="e12">Using</EVENT> the most sensitive CCD (Charge-Coupled Device) detectors, the telescope can <EVENT class="OCCURRENCE" eid="e13">take</EVENT> pictures of the high-orbit satellites, spatial debris, nebula and variable stars.
+
+After the test observation, the telescope will <EVENT class="I_ACTION" eid="e15">help</EVENT> astronomers <EVENT class="OCCURRENCE" eid="e16">document</EVENT> all NEOs, including unknown ones, for further study, and <EVENT class="ASPECTUAL" eid="e17">enable</EVENT> astronomers to <EVENT class="I_STATE" eid="e18">know</EVENT> in advance whether an NEO <EVENT class="OCCURRENCE" eid="e19">poses</EVENT> a threat to the earth, <EVENT class="REPORTING" eid="e21">said</EVENT> Yang.
+
+Once the danger is <EVENT class="OCCURRENCE" eid="e22">found</EVENT>, astronomers will <EVENT class="OCCURRENCE" eid="e23">exchange</EVENT> the information within the global observation network, Yang <EVENT class="REPORTING" eid="e24">said</EVENT> .
+
+A global observation network has been <EVENT class="OCCURRENCE" eid="e25">set</EVENT> up to <EVENT class="I_ACTION" eid="e26">prevent</EVENT> the NEOs from <EVENT class="OCCURRENCE" eid="e27">colliding</EVENT> with earth.
+
+So far, more than 800 near-earth asteroids have been <EVENT class="OCCURRENCE" eid="e28">discovered</EVENT> by scientists, including nearly 100 with a diameter of more than 1,000 meters.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

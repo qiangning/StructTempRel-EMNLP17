@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0073</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's heat supply price starts to float with coal price</TITLE>
+
+
+<TEXT>
+
+The State Development and Reform Commission (SDRC) and the Ministry of Construction jointly <EVENT class="OCCURRENCE" eid="e1">issued</EVENT> a circular recently <EVENT class="OCCURRENCE" eid="e2">allowing</EVENT> the heat supply price to <EVENT class="OCCURRENCE" eid="e3">fluctuate</EVENT> with the coal price <EVENT class="OCCURRENCE" eid="e4">change</EVENT>, an SDRC source <EVENT class="REPORTING" eid="e5">announced</EVENT> on <TIMEX3 type="DATE" value="2005-11-07" tid="t2">Monday</TIMEX3>.
+
+Despite China's general evolution from a planned economy to a market economy, the prices of some resource products <EVENT class="OCCURRENCE" eid="e6">monopolized</EVENT> by state-owned enterprises, including electricity, water, oil and heat supply, are still <EVENT class="OCCURRENCE" eid="e7">set</EVENT> by the government and do not <EVENT class="OCCURRENCE" eid="e8">fluctuate</EVENT> <EVENT class="REPORTING" eid="e9">according</EVENT> to the supply and demand relations in the market.
+
+In <TIMEX3 type="DURATION" value="PXY" tid="t3">recent years</TIMEX3>, although China's coal price has been <EVENT class="OCCURRENCE" eid="e10">rocketing</EVENT>, the price of electricity and heat supply did not <EVENT class="OCCURRENCE" eid="e11">follow</EVENT> such <EVENT class="OCCURRENCE" eid="e12">changes</EVENT>, <EVENT class="OCCURRENCE" eid="e13">making</EVENT> many power and heat enterprises <EVENT class="PERCEPTION" eid="e14">witness</EVENT> serious deficits due to <EVENT class="OCCURRENCE" eid="e15">increasing</EVENT> costs and stable sales prices.
+
+<EVENT class="REPORTING" eid="e16">According</EVENT> to the recent circular, when the coal price <EVENT class="OCCURRENCE" eid="e17">rises</EVENT> over 10 percent, heat suppliers have the right to <EVENT class="OCCURRENCE" eid="e18">adjust</EVENT> their heat factory price accordingly, the SDRC <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+Previously the government <EVENT class="OCCURRENCE" eid="e20">issued</EVENT> a circular to <EVENT class="I_ACTION" eid="e21">let</EVENT> electricity prices <EVENT class="OCCURRENCE" eid="e22">fluctuate</EVENT> with coal prices, which is <EVENT class="OCCURRENCE" eid="e23">decided</EVENT> mainly by market supply and demand.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

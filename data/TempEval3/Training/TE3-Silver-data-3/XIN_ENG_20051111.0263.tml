@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0263</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>German Stocks end higher</TITLE>
+
+
+<TEXT>
+
+German stocks <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3> in Frankfurt <EVENT class="OCCURRENCE" eid="e2">led</EVENT> by Siemens AG and DaimlerChrysler AG.
+
+The 30-share benchmark DAX Index <EVENT class="OCCURRENCE" eid="e3">jumped</EVENT> 1.50 percent to 5090.75 with 29 stocks <EVENT class="OCCURRENCE" eid="e4">rising</EVENT>.
+
+Siemens AG <EVENT class="OCCURRENCE" eid="e5">rose</EVENT> 0.97 euros to 63.30 euros after the company <EVENT class="OCCURRENCE" eid="e6">sold</EVENT> its stake in Mitsubishi Motors Corp.
+
+DaimlerChrysler AG <EVENT class="OCCURRENCE" eid="e7">gained</EVENT> 0.69 euros to 42.65 euros after <EVENT class="OCCURRENCE" eid="e8">selling</EVENT> part of its holding in Juniper Networks Inc.
+
+The index of medium-sized firms, MDAX, <EVENT class="OCCURRENCE" eid="e9">rose</EVENT> 0.79 percent to 6992.74 points.
+
+The index of high-tech stocks, TecDAX, was up 0.77 percent to 581.41 points.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

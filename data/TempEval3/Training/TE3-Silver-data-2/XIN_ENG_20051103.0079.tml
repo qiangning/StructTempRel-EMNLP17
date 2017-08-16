@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0079</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Bomb hoaxes greet Eid el-Fitr in south Thailand</TITLE>
+
+
+<TEXT>
+
+Suspected insurgents has <EVENT class="OCCURRENCE" eid="e1">placed</EVENT> suspicious packages in eight different locations in three districts of southern Spongkhla province bordering the predominantly Muslim southernmost border provinces.
+
+The incidents <EVENT class="OCCURRENCE" eid="e2">coincided</EVENT> with the <EVENT class="ASPECTUAL" eid="e3">beginning</EVENT> of Eid-al-Fitr which <EVENT class="OCCURRENCE" eid="e4">marks</EVENT> the end of <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Ramadan</TIMEX3>, the Islamic holy month of <EVENT class="OCCURRENCE" eid="e5">fasting</EVENT> -- known locally as Hari Raya -- from <TIMEX3 type="DATE" value="2005-11-03" tid="t2">Thursday</TIMEX3> through <TIMEX3 type="DATE" value="2005-10-29" tid="t3">Saturday</TIMEX3>.
+
+Police demolitions experts <EVENT class="OCCURRENCE" eid="e6">rushed</EVENT> to the sites only to <EVENT class="OCCURRENCE" eid="e7">discover</EVENT> that all the so-called "bombs" in Chana, Thepha and Saba Yoi districts of the province <EVENT class="OCCURRENCE" eid="e8">contained</EVENT> cattle manure and sand.
+
+The investigators <EVENT class="REPORTING" eid="e9">said</EVENT> they <EVENT class="I_STATE" eid="e10">thought</EVENT> the bomb <EVENT class="OCCURRENCE" eid="e11">hoaxes</EVENT> were the <EVENT class="OCCURRENCE" eid="e12">work</EVENT> of militants who <EVENT class="OCCURRENCE" eid="e13">wished</EVENT> to <EVENT class="OCCURRENCE" eid="e14">create</EVENT> further <EVENT class="OCCURRENCE" eid="e15">disturbance</EVENT> on the Muslim holiday, according to local newspaper reports on <TIMEX3 type="DATE" value="2005-11-10" tid="t4">Thursday</TIMEX3>.
+
+The bomb <EVENT class="OCCURRENCE" eid="e16">hoaxes</EVENT> occurred <TIMEX3 type="DURATION" value="PT12H" tid="t5">less than 12 hours</TIMEX3> after a number of bomb incidents in Narathiwat province <TIMEX3 type="DATE" value="2005-11-02TNI" tid="t6">Wednesday night</TIMEX3>.
+
+Police <EVENT class="OCCURRENCE" eid="e18">defused</EVENT> seven bombs in the provincial capital but another five bombs <EVENT class="OCCURRENCE" eid="e19">went</EVENT> off, <EVENT class="OCCURRENCE" eid="e20">downing</EVENT> 10 high-voltage power poles in Narathiwat city. The <EVENT class="OCCURRENCE" eid="e21">attacks</EVENT> <EVENT class="OCCURRENCE" eid="e22">caused</EVENT> power blackout in many areas.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000004" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei1000005" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1000005" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei1000004" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei1000004" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

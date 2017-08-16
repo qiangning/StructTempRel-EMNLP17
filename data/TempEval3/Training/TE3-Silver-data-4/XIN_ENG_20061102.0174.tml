@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061102.0174</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Vice president of DR Congo arrives in Beijing</TITLE>
+
+
+<TEXT>
+
+Vice President of Democratic Republic of Congo Abdoulaye Yerodia Ndombasi <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> here <TIMEX3 type="TIME" value="2006-10-26TEV" tid="t1">Thursday evening</TIMEX3> for the Beijing Summit of the Forum on China-Africa Cooperation.
+
+Forty eight African countries that have diplomatic relations with China are to <EVENT class="OCCURRENCE" eid="e2">participate</EVENT> in the two-day <EVENT class="OCCURRENCE" eid="e3">summit</EVENT> <EVENT class="I_ACTION" eid="e4">scheduled</EVENT> to <EVENT class="ASPECTUAL" eid="e5">start</EVENT> on <TIMEX3 type="DATE" value="2005-11-04" tid="t3">Nov. 4.</TIMEX3>
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

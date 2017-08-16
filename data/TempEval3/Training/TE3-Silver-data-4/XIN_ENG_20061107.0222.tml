@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0222</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>GM's third quarter loss reduces to 91 million dollars</TITLE>
+
+
+<TEXT>
+
+General Motors Corp. <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> that it had <EVENT class="OCCURRENCE" eid="e3">made</EVENT> <EVENT class="OCCURRENCE" eid="e4">losses</EVENT> of 91 million U.S. dollars in <TIMEX3 type="DATE" value="2006-11-07" tid="t2">the July-to-September quarter</TIMEX3>, 24 million dollars less than previously <EVENT class="OCCURRENCE" eid="e5">estimated</EVENT>.
+
+On <TIMEX3 type="DATE" value="2006-10-25" tid="t3">October 25</TIMEX3>, the world's biggest automaker <EVENT class="REPORTING" eid="e6">reported</EVENT> a <EVENT class="OCCURRENCE" eid="e7">loss</EVENT> of 115 million dollars for <TIMEX3 type="DATE" value="2006-Q3" tid="t4">the third quarter</TIMEX3>.
+
+"The <EVENT class="OCCURRENCE" eid="e8">reduction</EVENT> in net <EVENT class="OCCURRENCE" eid="e9">loss</EVENT> is attributable to additional loan sales that had not been previously <EVENT class="REPORTING" eid="e10">reported</EVENT>" by its financing arm General Motors Acceptance Corp., the automaker <EVENT class="REPORTING" eid="e11">said</EVENT> in a filing with the U.S. Securities and Exchange Commission.
+
+The automaker's <TIMEX3 type="DATE" value="2006-Q3" tid="t5">third quarter</TIMEX3> loss <EVENT class="OCCURRENCE" eid="e12">amounted</EVENT> to 16 cents a share, compared with a <EVENT class="OCCURRENCE" eid="e13">loss</EVENT> of 1.66 billion dollars, or 2.94 dollars a share, in <TIMEX3 type="DATE" value="2006-11-07" tid="t6">the same quarter last year</TIMEX3>.
+
+For <TIMEX3 type="DATE" value="2006-Q3" tid="t7">the third quarter</TIMEX3>, General Motors' revenues <EVENT class="PERCEPTION" eid="e14">totaled</EVENT> 48.89 billion dollars, compared with 47.18 billion dollars <TIMEX3 type="DATE" value="2005" tid="t8">a year ago</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000014" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1000014" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei1000014" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

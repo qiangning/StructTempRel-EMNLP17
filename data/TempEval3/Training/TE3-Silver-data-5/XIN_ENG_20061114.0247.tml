@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0247</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Alcohol poisoning kills over 400 across Russia</TITLE>
+
+
+<TEXT>
+
+A total of 406 people have <EVENT class="OCCURRENCE" eid="e1">died</EVENT> from <EVENT class="STATE" eid="e2">drinking</EVENT> illicit liquor in a wave of alcohol poisoning in numerous Russian regions over <TIMEX3 type="DURATION" value="PXM" tid="t1">the past few months</TIMEX3>, the head of the country's consumer rights watchdog agency <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-14" tid="t2">Tuesday</TIMEX3>.
+
+Gennady Onishchenko, chief of the Federal Service for Consumer Rights Supervision, <EVENT class="REPORTING" eid="e4">said</EVENT> some 10,000 cases of toxic hepatitis <EVENT class="OCCURRENCE" eid="e5">caused</EVENT> by toxic alcohol substitutes have been <EVENT class="OCCURRENCE" eid="e6">registered</EVENT> in 18 regions, <EVENT class="REPORTING" eid="e7">according</EVENT> to the Itar-Tass news agency.
+
+The hardest <EVENT class="OCCURRENCE" eid="e8">hit</EVENT> were the Irkutsk, Chelyabinsk and Belgorod regions, where 107 people have been <EVENT class="OCCURRENCE" eid="e9">affected</EVENT> and 16 of them <EVENT class="OCCURRENCE" eid="e10">died</EVENT> in <TIMEX3 type="DURATION" value="PT24H" tid="t3">the past 24 hours</TIMEX3> alone, Onishchenko <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+A total of 406 deaths from toxic alcohol substitutes have <EVENT class="OCCURRENCE" eid="e13">occurred</EVENT> in Russia over <TIMEX3 type="DURATION" value="PAST_REF" tid="t4">the past several months</TIMEX3>, he <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+The massive <EVENT class="OCCURRENCE" eid="e15">wave</EVENT> of poisoning has <EVENT class="OCCURRENCE" eid="e16">raised</EVENT> alarm in the country, with top lawmakers <EVENT class="OCCURRENCE" eid="e17">calling</EVENT> for state monopoly over alcohol products to <EVENT class="I_ACTION" eid="e18">help</EVENT> <EVENT class="OCCURRENCE" eid="e19">crack</EVENT> down on fake vodka and toxic alcohol substitutes.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

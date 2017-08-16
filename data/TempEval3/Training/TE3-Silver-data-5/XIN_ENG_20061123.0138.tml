@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0138</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's State Post Bureau to cooperate with Alibaba in e-commerce</TITLE>
+
+
+<TEXT>
+
+China's State Post Bureau (SPB) will <EVENT class="OCCURRENCE" eid="e1">provide</EVENT> delivery services and on-line payment support to e-commerce giant Alibaba.com.
+
+Under a framework agreement, the express mail service (EMS) under China's largest deliverer, would be <EVENT class="I_ACTION" eid="e2">recommended</EVENT> by Alibaba's on-line payment platform Alipay to its customers.
+
+Alibaba president Ma Yun <EVENT class="REPORTING" eid="e3">said</EVENT> the <EVENT class="OCCURRENCE" eid="e4">cooperation</EVENT> would <EVENT class="I_ACTION" eid="e5">help</EVENT> <EVENT class="OCCURRENCE" eid="e6">solve</EVENT> the problem of delivery that <EVENT class="OCCURRENCE" eid="e7">bottlenecks</EVENT> the country's burgeoning e-commerce.
+
+Most commodities <EVENT class="OCCURRENCE" eid="e9">traded</EVENT> on-line in China are <EVENT class="OCCURRENCE" eid="e10">delivered</EVENT> by regular mail, small and medium-sized express companies or standard EMS services, which are either too slow or too costly, especially for long-distance deals.
+
+The SPB will <EVENT class="OCCURRENCE" eid="e12">develop</EVENT> a special EMS service, 40 percent cheaper than the standard service, for on-line traders at Taobao.com, an Alibaba subsidiary and the country's most popular consumer-to-consumer marketplace, <EVENT class="REPORTING" eid="e13">said</EVENT> director Yuan Guoli of the SPB's delivery bureau, without revealing details.
+
+The "special EMS service" will be <EVENT class="OCCURRENCE" eid="e14">piloted</EVENT> in Hangzhou, capital of the southern Zhejiang Province, at <TIMEX3 type="DATE" value="2006-11-23" tid="t1">the end of the year</TIMEX3>, before being <EVENT class="OCCURRENCE" eid="e15">expanded</EVENT> to nationwide <TIMEX3 type="DATE" value="2007" tid="t2">next year</TIMEX3>.
+
+Industry insiders <EVENT class="REPORTING" eid="e16">say</EVENT> the strategic partnership could <EVENT class="OCCURRENCE" eid="e17">reduce</EVENT> the costs of delivery through large-scale negotiation, and <EVENT class="I_ACTION" eid="e18">prevent</EVENT> e-commerce <EVENT class="OCCURRENCE" eid="e19">fraud</EVENT> as the EMS would <EVENT class="OCCURRENCE" eid="e20">check</EVENT> the delivered commodities.
+
+Meanwhile, on-line buyers can <EVENT class="OCCURRENCE" eid="e21">remit</EVENT> the payments through post bureaus to their Alipay accounts instead of solely <EVENT class="OCCURRENCE" eid="e23">relying</EVENT> on bank cards as they do <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3>, <EVENT class="REPORTING" eid="e25">according</EVENT> to the <EVENT class="I_STATE" eid="e26">agreement</EVENT>.
+
+The <EVENT class="I_ACTION" eid="e27">agreement</EVENT> follows <EVENT class="OCCURRENCE" eid="e28">moves</EVENT> by the SPB to <EVENT class="OCCURRENCE" eid="e29">set</EVENT> up an on-line bookstore and philatelic center at Taobao.com, and a simultaneous issue of greeting cards and special stamps for the New Year on the website and at the bureau's outlets on Nov.1.
+
+<EVENT class="OCCURRENCE" eid="e30">Founded</EVENT> in <TIMEX3 type="DATE" value="2003" tid="t4">2003</TIMEX3> with an <EVENT class="OCCURRENCE" eid="e31">investment</EVENT> of 450 million yuan (56.25 million U.S. dollars), Taobao.com <EVENT class="STATE" eid="e32">has</EVENT> six million registered users.
+
+By <TIMEX3 type="DATE" value="2006-06-30" tid="t5">June 30</TIMEX3>, about a quarter of China's 123 million Internet users were regularly <EVENT class="OCCURRENCE" eid="e34">engaged</EVENT> in on-line shopping, 50 percent more than the same time <TIMEX3 type="DATE" value="2005" tid="t6">last year</TIMEX3>, <EVENT class="REPORTING" eid="e35">according</EVENT> to the China Internet Network Information Center.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000015" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei34" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei1000015" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei25" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei35" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei35" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1000015" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei32" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l36" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei30" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

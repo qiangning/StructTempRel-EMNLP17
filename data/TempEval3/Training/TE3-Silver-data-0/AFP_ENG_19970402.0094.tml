@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970402.0094</DOCID>
+
+<DCT>KHARTOUM, <TIMEX3 tid="t0" type="TIME" value="1997-04-02" temporalFunction="false" functionInDocument="CREATION_TIME">April 2 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>SPLA rebel faction fights of attack on its stronghold</TITLE>
+
+
+<TEXT>
+
+A breakaway rebel faction <EVENT class="OCCURRENCE" eid="e1">inflicted</EVENT> heavy casualties on the Sudan People's Liberation Army which <EVENT class="OCCURRENCE" eid="e2">attacked</EVENT> its Wun Roj stronghold in south Sudan's Bahrel Ghazal state <TIMEX3 type="DATE" value="1997-W13" tid="t1">last week</TIMEX3>, it was <EVENT class="REPORTING" eid="e3">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-02" tid="t2">Wednesday</TIMEX3>.
+
+Faustino Obanj, spokesman of the SPLA rebel Bahrel Ghazal group, <EVENT class="REPORTING" eid="e4">said</EVENT> its forces had "<EVENT class="OCCURRENCE" eid="e5">repulsed</EVENT> the attackers, <EVENT class="OCCURRENCE" eid="e6">inflicting</EVENT> heavy casualties, in the form of soldiers and weapons," the independent Alwan daily newspaper <EVENT class="REPORTING" eid="e7">reported</EVENT>.
+
+Wun Roj, about 112 kilometers (70 miles) north of Qoqriyal is <EVENT class="OCCURRENCE" eid="e8">held</EVENT> by the rebel faction <EVENT class="OCCURRENCE" eid="e9">headed</EVENT> by Kerbino Kuanyen.
+
+Obanj <EVENT class="REPORTING" eid="e10">said</EVENT> the SPLA unit's commanding officer Silva Metok and his second in command James Lual were both <EVENT class="OCCURRENCE" eid="e11">injured</EVENT>. He <EVENT class="REPORTING" eid="e12">said</EVENT> his men also <EVENT class="OCCURRENCE" eid="e13">captured</EVENT> 100 SPLA soldiers as well as 315 automatic rifles and 17 mortars.
+
+"Most important of all, our forces <EVENT class="OCCURRENCE" eid="e14">seized</EVENT> Ajak airport, outside Wun Roj, which was <EVENT class="OCCURRENCE" eid="e15">built</EVENT> by foreign organizations and which is <EVENT class="OCCURRENCE" eid="e16">equipped</EVENT> with modern communications devices and lighting systems," Obanj <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+The Kerbino faction <EVENT class="OCCURRENCE" eid="e18">broke</EVENT> away from the SPLA in <TIMEX3 type="DURATION" value="1996-04" tid="t3">April last year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e19">switched</EVENT> allegiances and <EVENT class="OCCURRENCE" eid="e20">signed</EVENT> an agreement with the government in Khartoum. It <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e22">fights</EVENT> the SPLA for the government in Bahrel Ghazal state.
+
+He <EVENT class="REPORTING" eid="e23">said</EVENT> the rebels were <EVENT class="I_STATE" eid="e24">willing</EVENT> to <EVENT class="OCCURRENCE" eid="e25">fight</EVENT> for the government against "agents and mercenaries" <EVENT class="I_ACTION" eid="e26">seeking</EVENT> to <EVENT class="OCCURRENCE" eid="e27">destroy</EVENT> Sudanese unity, Obanj <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei1000003" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1000003" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei1000003" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

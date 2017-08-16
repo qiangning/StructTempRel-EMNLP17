@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0652</DOCID>
+
+<DCT>AUCKLAND, <TIMEX3 tid="t0" type="TIME" value="1997-04-22" temporalFunction="false" functionInDocument="CREATION_TIME">April 22 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>NZ Women's Affairs minister bans strip shows in her bar</TITLE>
+
+
+<TEXT>
+
+New Zealand Women's Affairs Minister Christine Fletcher <EVENT class="OCCURRENCE" eid="e1">rected</EVENT> angrily <TIMEX3 type="DATE" value="1997-04-22" tid="t1">Tuesday</TIMEX3> to news that a bar she owns has <EVENT class="OCCURRENCE" eid="e3">staged</EVENT> a raunchy Australian strip show.
+
+"I'm quite horrified," Fletcher <EVENT class="REPORTING" eid="e5">said</EVENT>. "Some may <EVENT class="OCCURRENCE" eid="e6">call</EVENT> it entertainment -- I <EVENT class="OCCURRENCE" eid="e7">reject</EVENT> that. It's exploitation not only of women's bodies but of men's bodies."
+
+Fletcher with husband Angus <EVENT class="STATE" eid="e8">own</EVENT> the Whitianga Hotel on the Coromandel coast, east of here.
+
+A standing-room only, all-male audience <EVENT class="OCCURRENCE" eid="e9">paid</EVENT> 10 New Zealand dollars (seven US) a head to <EVENT class="PERCEPTION" eid="e10">watch</EVENT> the five-woman 'Seductions Australia' group strip themselves naked.
+
+Fletcher <EVENT class="REPORTING" eid="e12">said</EVENT> she had <EVENT class="STATE" eid="e13">known</EVENT> nothing about the show and they would <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e14">reconsider</EVENT> the contract of their hotel manager, Hugh Rhodes.
+
+She <EVENT class="REPORTING" eid="e15">said</EVENT> they had <EVENT class="I_STATE" eid="e16">wanted</EVENT> the hotel to be a place for families and a strip <EVENT class="OCCURRENCE" eid="e17">show</EVENT> was "entirely inconsistent with our vision".
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

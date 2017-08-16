@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061126.0194</DOCID>
+
+<DCT>ABUJA, <TIMEX3 tid="t0" type="TIME" value="2006-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Leaders to discuss Darfur crisis at Afro-South American Summit</TITLE>
+
+
+<TEXT>
+
+African Heads of State and Government <EVENT class="OCCURRENCE" eid="e1">attending</EVENT> the First Africa-South America Summit will <EVENT class="OCCURRENCE" eid="e2">discuss</EVENT> the Darfur <EVENT class="OCCURRENCE" eid="e3">crisis</EVENT> on <TIMEX3 type="DATE" value="2006-11-30" tid="t1">Thursday</TIMEX3>, <EVENT class="REPORTING" eid="e4">according</EVENT> to the summit timetable <EVENT class="OCCURRENCE" eid="e5">issued</EVENT> here on <TIMEX3 type="DATE" value="2006-11-26" tid="t2">Sunday</TIMEX3>.
+
+The timetable of the five-day summit, which <EVENT class="OCCURRENCE" eid="e7">kicked</EVENT> off here on <TIMEX3 type="DATE" value="2006-11-26" tid="t4">Sunday</TIMEX3> in the Nigeria capital Abuja with pre-summit technical <EVENT class="OCCURRENCE" eid="e8">meeting</EVENT> of officials, <EVENT class="OCCURRENCE" eid="e9">shows</EVENT> that Darfur crisis will <EVENT class="OCCURRENCE" eid="e10">engage</EVENT> the African leaders when their <EVENT class="OCCURRENCE" eid="e11">visiting</EVENT> colleagues from South America will have <EVENT class="OCCURRENCE" eid="e12">left</EVENT>.
+
+Some 53 African countries and 12 South American countries are <EVENT class="I_STATE" eid="e13">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e14">attend</EVENT> the <EVENT class="OCCURRENCE" eid="e15">conference</EVENT>.
+
+The timetable also <EVENT class="I_ACTION" eid="e16">indicates</EVENT> that ministers of foreign affairs of the countries will <EVENT class="OCCURRENCE" eid="e17">meet</EVENT> on <TIMEX3 type="DATE" value="2006-11-27" tid="t5">Monday</TIMEX3> and <TIMEX3 type="DATE" value="2006-11-28" tid="t6">Tuesday</TIMEX3>, and the heads of state will <EVENT class="OCCURRENCE" eid="e18">arrive</EVENT> on <TIMEX3 type="DATE" value="2006-11-29" tid="t7">Wednesday</TIMEX3>.
+
+Special group meetings of NGOs and civil society organizations will <EVENT class="OCCURRENCE" eid="e20">feature</EVENT> before the <EVENT class="OCCURRENCE" eid="e21">summit</EVENT> of heads of state and governments.
+
+The <EVENT class="OCCURRENCE" eid="e22">summit</EVENT> would largely <EVENT class="OCCURRENCE" eid="e23">discuss</EVENT> workable areas of cooperation and understanding that would <EVENT class="I_STATE" eid="e25">facilitate</EVENT> genuine strategic <EVENT class="OCCURRENCE" eid="e26">development</EVENT> in the two regions.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1000017" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

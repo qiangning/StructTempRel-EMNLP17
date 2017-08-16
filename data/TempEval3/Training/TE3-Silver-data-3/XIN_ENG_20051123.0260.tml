@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0260</DOCID>
+
+<DCT>ATHENS, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Greek stocks close lower</TITLE>
+
+
+<TEXT>
+
+Greek stocks <EVENT class="OCCURRENCE" eid="e1">eased</EVENT> slightly on <TIMEX3 type="DATE" value="2005-11-23" tid="t1">Wednesday</TIMEX3> as investors <EVENT class="OCCURRENCE" eid="e2">took</EVENT> profits after the Athens Stock Exchange <EVENT class="OCCURRENCE" eid="e3">hit</EVENT> new five-year highs on <TIMEX3 type="DATE" value="2005-11-22" tid="t3">Tuesday</TIMEX3>, traders here <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+The composite index <EVENT class="OCCURRENCE" eid="e5">fell</EVENT> 0.38 percent to <EVENT class="ASPECTUAL" eid="e6">end</EVENT> at 3,491.56 points with turnover a heavy 238.7 million euros (281.4 million US dollars).
+
+The FTSE/ASE 20 index for blue chip and heavy traded stocks <EVENT class="OCCURRENCE" eid="e7">eased</EVENT> 0.43 percent, while the FTSE/ASE MID 40 index and the FTSE/ ASE SmallCap 80 index <EVENT class="OCCURRENCE" eid="e8">fell</EVENT> 0.05 percent and 0.06 percent respectively.
+
+Broadly, decliners <EVENT class="OCCURRENCE" eid="e9">led</EVENT> advancers by <TIMEX3 type="DATE" value="176" tid="t4">176</TIMEX3> to 91 with another 66 issues unchanged.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

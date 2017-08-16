@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0089</DOCID>
+
+<DCT>SEOUL, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>S.Korea, UAE to sign agreement on military cooperation</TITLE>
+
+
+<TEXT>
+
+South Korea and the United Arab Emirates (UAE) are <EVENT class="I_STATE" eid="e1">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e2">sign</EVENT> a military <EVENT class="OCCURRENCE" eid="e3">agreement</EVENT> <TIMEX3 type="DATE" value="2006-W46" tid="t1">this week</TIMEX3> to <EVENT class="OCCURRENCE" eid="e4">strengthen</EVENT> their cooperation, the South Korean Defense Ministry <EVENT class="REPORTING" eid="e6">said</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t2">Tuesday</TIMEX3>.
+
+South Korean Vice Defense Minister Hwang Kyu-sik, who <EVENT class="OCCURRENCE" eid="e7">left</EVENT> for the UAE on <TIMEX3 type="DATE" value="2006-11-14" tid="t3">Tuesday</TIMEX3> on a four-day <EVENT class="OCCURRENCE" eid="e8">trip</EVENT>, will <EVENT class="OCCURRENCE" eid="e9">sign</EVENT> an agreement with UAE officials on <TIMEX3 type="DATE" value="2006-11-08" tid="t5">Wednesday</TIMEX3>, the ministry <EVENT class="REPORTING" eid="e11">said</EVENT>, <EVENT class="OCCURRENCE" eid="e12">adding</EVENT> that the <EVENT class="I_ACTION" eid="e13">agreement</EVENT> would <EVENT class="I_ACTION" eid="e14">help</EVENT> <EVENT class="OCCURRENCE" eid="e15">increase</EVENT> exchanges between the two countries' militaries as well as their defense-related industries.
+
+Hwang was also <EVENT class="I_STATE" eid="e16">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e17">discuss</EVENT> ways to <EVENT class="OCCURRENCE" eid="e18">expand</EVENT> South Korea's exports of weapons to the UAE during his <EVENT class="OCCURRENCE" eid="e19">visit</EVENT>, the ministry <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0070</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's high earners to report income</TITLE>
+
+
+<TEXT>
+
+Employees <EVENT class="OCCURRENCE" eid="e1">earning</EVENT> more than 120,000 yuan (about 15,000 U.S. dollars) annually must <EVENT class="REPORTING" eid="e2">file</EVENT> individual income declarations to tax authorities <EVENT class="ASPECTUAL" eid="e3">starting</EVENT> <TIMEX3 type="DATE" value="2007" tid="t1">next year</TIMEX3>, <EVENT class="REPORTING" eid="e4">according</EVENT> to a newly released regulation from the State Administration of Taxation.
+
+The regulation <EVENT class="OCCURRENCE" eid="e6">issued</EVENT> on <TIMEX3 type="DATE" value="2006-11-08" tid="t2">Wednesday</TIMEX3> <EVENT class="REPORTING" eid="e7">said</EVENT> that anyone <EVENT class="OCCURRENCE" eid="e8">working</EVENT> in China, including foreigners, who <EVENT class="OCCURRENCE" eid="e9">meets</EVENT> any of the following criteria -- people with a yearly income of more than 120,000 yuan, people with income from more than one organization, those with income from overseas, those whose employer does not <EVENT class="OCCURRENCE" eid="e10">pay</EVENT> tax, or those in other particular situations <EVENT class="OCCURRENCE" eid="e11">defined</EVENT> by the State Council -- must <EVENT class="REPORTING" eid="e12">report</EVENT> their income to the taxation authorities.
+
+Contributions to endowment insurance, medical insurance, unemployment insurance and housing accumulation fund <EVENT class="OCCURRENCE" eid="e13">paid</EVENT> by companies or individuals are not <EVENT class="OCCURRENCE" eid="e14">counted</EVENT> as yearly income.
+
+An official with the State Administration of Taxation <EVENT class="REPORTING" eid="e15">said</EVENT> many high income individuals in China <EVENT class="I_STATE" eid="e16">obtain</EVENT> income through different channels, some of which are not made public. This <EVENT class="OCCURRENCE" eid="e18">creates</EVENT> difficulties for the tax authorities and <EVENT class="OCCURRENCE" eid="e19">leaves</EVENT> space for loopholes.
+
+This is the first time that the State Administration of Taxation has <EVENT class="OCCURRENCE" eid="e20">required</EVENT> high-income earners to <EVENT class="REPORTING" eid="e21">report</EVENT> their earnings. However, their taxes will <EVENT class="ASPECTUAL" eid="e22">continue</EVENT> to be <EVENT class="OCCURRENCE" eid="e23">deducted</EVENT> at source by employers.
+
+High income earners will be <EVENT class="I_STATE" eid="e24">subject</EVENT> to fines <EVENT class="OCCURRENCE" eid="e25">ranging</EVENT> from 2,000 to 10,000 yuan if they <EVENT class="OCCURRENCE" eid="e26">fail</EVENT> to <EVENT class="REPORTING" eid="e27">report</EVENT> their income by <TIMEX3 type="DATE" value="2006-11-09" tid="t3">the 31 March deadline</TIMEX3>, and those who <EVENT class="REPORTING" eid="e28">file</EVENT> false reports will <EVENT class="I_ACTION" eid="e29">face</EVENT> fines of up to 50,000 yuan.
+
+The new regulation will <EVENT class="OCCURRENCE" eid="e30">improve</EVENT> tax collection among high income individuals and <EVENT class="I_ACTION" eid="e31">help</EVENT> <EVENT class="OCCURRENCE" eid="e32">narrow</EVENT> the gap between the rich and the poor, the official <EVENT class="REPORTING" eid="e33">said</EVENT>.
+
+A study <EVENT class="OCCURRENCE" eid="e34">shows</EVENT> China's Gini Coefficient, a measure of income inequality, has <EVENT class="OCCURRENCE" eid="e35">reached</EVENT> 0.46, <EVENT class="OCCURRENCE" eid="e36">reflecting</EVENT> a big and <EVENT class="OCCURRENCE" eid="e37">expanding</EVENT> wealth gap.
+
+In another <EVENT class="OCCURRENCE" eid="e38">move</EVENT> to <EVENT class="OCCURRENCE" eid="e39">reduce</EVENT> the country's widening income gap, China's legislature, the Standing Committee of the National People's Congress (NPC), <EVENT class="OCCURRENCE" eid="e41">doubled</EVENT> the personal income tax exemption threshold in <TIMEX3 type="DATE" value="2005" tid="t4">late 2005</TIMEX3> to 1,600 yuan <TIMEX3 type="DURATION" value="P1M" tid="t5">a month</TIMEX3>. This <EVENT class="OCCURRENCE" eid="e42">halved</EVENT> the number of people required to <EVENT class="OCCURRENCE" eid="e44">pay</EVENT> tax.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei34" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei29" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei41" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei42" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei30" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei41" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei6" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei39" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei38" relatedToEventInstance="ei41" relType="INCLUDES" />
+<TLINK lid="l56" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei27" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l58" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

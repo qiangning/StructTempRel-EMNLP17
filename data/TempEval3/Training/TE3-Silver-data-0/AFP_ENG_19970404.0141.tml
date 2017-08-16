@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970404.0141</DOCID>
+
+<DCT>SEOUL, <TIMEX3 tid="t0" type="TIME" value="1997-04-04" temporalFunction="false" functionInDocument="CREATION_TIME">April 4 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Sou Korea's dependence on foreign loans at 16-year high</TITLE>
+
+
+<TEXT>
+
+The share of foreign debt in South Korean companies' total liabilities <EVENT class="OCCURRENCE" eid="e1">soared</EVENT> to a 16-year high of 10.2 percent <TIMEX3 type="DATE" value="1996" tid="t2">last year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">reflecting</EVENT> a credit <EVENT class="OCCURRENCE" eid="e3">squeeze</EVENT> here, the Bank of Korea (BOK) <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-04" tid="t3">Friday</TIMEX3>.
+
+The overseas debt <EVENT class="OCCURRENCE" eid="e5">totalled</EVENT> 12.1 trillion won (13.6 billion dollars) in <TIMEX3 type="DATE" value="1996" tid="t4">1996</TIMEX3>, compared with 8.4 trillion won in <TIMEX3 type="DATE" value="1995" tid="t5">1995</TIMEX3> when the ratio <EVENT class="STATE" eid="e8">stood</EVENT> at 8.4 percent of the total.
+
+Slowing exports and a slump in domestic sales that aggravated credit conditions were <EVENT class="I_ACTION" eid="e11">blamed</EVENT> for the <EVENT class="OCCURRENCE" eid="e12">increase</EVENT> in the foreign debt ratio, a bank official <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The central bank <EVENT class="REPORTING" eid="e14">said</EVENT> in a statement the companies' total liabilities <EVENT class="OCCURRENCE" eid="e15">rose</EVENT> 18.2 percent from a year before to 118.2 trillion <EVENT class="OCCURRENCE" eid="e16">won</EVENT> <TIMEX3 type="DATE" value="1996" tid="t7">last year</TIMEX3>, following a 12.3 percent <EVENT class="OCCURRENCE" eid="e18">expansion</EVENT> in <TIMEX3 type="DATE" value="1995" tid="t8">1995</TIMEX3>.
+
+South Korean firms <EVENT class="OCCURRENCE" eid="e19">took</EVENT> out 37 trillion won, or 31.3 percent of the total liabilities, from local financial institutions in <TIMEX3 type="DATE" value="1996" tid="t9">1996</TIMEX3>, while <EVENT class="OCCURRENCE" eid="e21">raising</EVENT> funds totalling 55.6 trillion won through <EVENT class="OCCURRENCE" eid="e23">issuing</EVENT> corporate bonds and stocks, the bank <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+<TIMEX3 type="DATE" value="1997-W14" tid="t10">Earlier this week</TIMEX3>, the finance and economy ministry <EVENT class="REPORTING" eid="e25">said</EVENT> it would <EVENT class="OCCURRENCE" eid="e26">ease</EVENT> regulations <EVENT class="OCCURRENCE" eid="e27">governing</EVENT> the inflow of foreign funds and its heavily protected bond market to <EVENT class="OCCURRENCE" eid="e29">stabilize</EVENT> the ailing capital market here.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

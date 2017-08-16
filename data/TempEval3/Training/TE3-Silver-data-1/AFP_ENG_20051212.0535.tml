@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051212.0535</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2005-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2005</TIMEX3>, 2005</DCT>
+
+<TITLE>'Brokeback Mountain' sweeps film critics awards</TITLE>
+
+
+<TEXT>
+
+Taiwanese director Ang Lee's gay cowboy movie "Brokeback Mountain" <EVENT class="OCCURRENCE" eid="e1">swept</EVENT> the New York Film Critics Circle on <TIMEX3 type="DATE" value="2005-12-12" tid="t1">Monday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">increasing</EVENT> the Oscar buzz surrounding the recent release.
+
+The film was <EVENT class="OCCURRENCE" eid="e4">voted</EVENT> best picture of 2005, while Lee <EVENT class="OCCURRENCE" eid="e5">took</EVENT> the best director prize and Heath Ledger was <EVENT class="OCCURRENCE" eid="e6">named</EVENT> best actor.
+
+The best actress award <EVENT class="OCCURRENCE" eid="e7">went</EVENT> to Reese Witherspoon for her portrayal of the wife of Johnny Cash in the biopic of the legendary singer's life, "<EVENT class="OCCURRENCE" eid="e8">Walk</EVENT> The Line."
+
+Based on a short story by novelist Annie Proulx, "Brokeback Mountain" <EVENT class="OCCURRENCE" eid="e9">chronicles</EVENT> the gay romance between cowboys -- <EVENT class="OCCURRENCE" eid="e10">played</EVENT> by Ledger and Jake Gyllenhaal -- who meet while <EVENT class="OCCURRENCE" eid="e12">working</EVENT> on a ranch in <TIMEX3 type="DATE" value="1963" tid="t3">1963</TIMEX3>.
+
+The film has <EVENT class="OCCURRENCE" eid="e13">emerged</EVENT> as the critics' Oscar favourite with the Los Angeles Film Critics Association <EVENT class="OCCURRENCE" eid="e14">voting</EVENT> it best picture at <TIMEX3 type="DATE" value="2005-W49-WE" tid="t4">the weekend</TIMEX3>, with another best director nod for Lee.
+
+The movie is sure to <EVENT class="OCCURRENCE" eid="e15">feature</EVENT> when <EVENT class="OCCURRENCE" eid="e16">nominations</EVENT> are <EVENT class="REPORTING" eid="e17">announced</EVENT> <TIMEX3 type="DATE" value="2005-12-13" tid="t5">Tuesday</TIMEX3> for the Golden Globes, which are <EVENT class="PERCEPTION" eid="e18">seen</EVENT> as a potential bellwether for films which could <EVENT class="OCCURRENCE" eid="e19">dominate</EVENT> the Academy Awards.
+
+The National Board of Review of Motion Pictures <EVENT class="OCCURRENCE" eid="e20">named</EVENT> "Good Night and Good Luck" its best film of <TIMEX3 type="DURATION" value="P1Y" tid="t6">the year</TIMEX3>, but also <EVENT class="OCCURRENCE" eid="e21">gave</EVENT> "Brokeback Mountain" a nod by <EVENT class="OCCURRENCE" eid="e22">naming</EVENT> Lee best director.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

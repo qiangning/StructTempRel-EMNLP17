@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051123.0221</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Schroeder resigns from German parliament</TITLE>
+
+
+<TEXT>
+
+Former German chancellor Gerhard Schroeder <EVENT class="OCCURRENCE" eid="e1">resigned</EVENT> <TIMEX3 type="DATE" value="2005-11-23" tid="t1">Wednesday</TIMEX3> from the parliament, one day after he
+
+<EVENT class="OCCURRENCE" eid="e2">transferred</EVENT> power to his successor Angela Merkel.
+
+Schroeder, 61, <EVENT class="OCCURRENCE" eid="e3">signed</EVENT> the <EVENT class="OCCURRENCE" eid="e4">resignation</EVENT> in the office of the speaker of parliament, Norbert Lammert. Clemens Bollen, a Social Democrat, will <EVENT class="OCCURRENCE" eid="e5">move</EVENT> into the Bundestag after Schroeder <EVENT class="OCCURRENCE" eid="e6">relinquished</EVENT> his seat.
+
+Schroeder was first <EVENT class="OCCURRENCE" eid="e7">elected</EVENT> to the Bundestag in <TIMEX3 type="DATE" value="1980" tid="t3">1980</TIMEX3> and <EVENT class="STATE" eid="e8">became</EVENT>
+
+governor in Lower Saxony a decade later. He <EVENT class="OCCURRENCE" eid="e9">defeated</EVENT> conservative chancellor Helmut Kohl and <EVENT class="OCCURRENCE" eid="e10">went</EVENT> into office in <TIMEX3 type="DATE" value="1998" tid="t4">1998</TIMEX3>.
+
+On <TIMEX3 type="DATE" value="2005-11-22" tid="t5">Tuesday</TIMEX3>, Merkel was <EVENT class="REPORTING" eid="e11">sworn</EVENT> in as the head of the grand coalition government <EVENT class="OCCURRENCE" eid="e12">formed</EVENT> by Merkel's Christian Democrats and the Social Democrats.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970417.0576</DOCID>
+
+<DCT>KISANGANI, Zaire, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>UNHCR delays repatriation of refugees until Saturday</TITLE>
+
+
+<TEXT>
+
+The UN refugee agency on <TIMEX3 type="DATE" value="1997-04-17" tid="t1">Thursday</TIMEX3> <EVENT class="REPORTING" eid="e1">said</EVENT> it was <EVENT class="OCCURRENCE" eid="e2">putting</EVENT> off the <EVENT class="ASPECTUAL" eid="e3">start</EVENT> of repatriation operations for Rwandan Hutu refugees in eastern Zaire until <TIMEX3 type="DATE" value="1997-04-12" tid="t2">Saturday</TIMEX3>.
+
+The UN High Commissioner for Refugees earlier <EVENT class="REPORTING" eid="e4">announced</EVENT> that the <EVENT class="OCCURRENCE" eid="e5">airlift</EVENT> from Kisangani to Rwanda via Goma was <EVENT class="I_ACTION" eid="e6">scheduled</EVENT> to <EVENT class="ASPECTUAL" eid="e7">begin</EVENT> <TIMEX3 type="DATE" value="1997-04-11" tid="t3">Friday</TIMEX3> with 80 refugee children from the Biaro camp, which is free of the cholera <EVENT class="OCCURRENCE" eid="e8">epidemic</EVENT> reportedly <EVENT class="OCCURRENCE" eid="e9">flaring</EVENT> in the nearby Kasese camp.
+
+UNHCR spokesman Paul Stromberg <EVENT class="REPORTING" eid="e10">told</EVENT> AFP in rebel-held Kisangani that the governor of the Upper Zaire region <EVENT class="I_STATE" eid="e11">feared</EVENT> the <EVENT class="OCCURRENCE" eid="e12">epidemic</EVENT> could <EVENT class="OCCURRENCE" eid="e13">spread</EVENT> outside the camp.
+
+"We had a two-hour <EVENT class="OCCURRENCE" eid="e15">meeting</EVENT> with the governor, during which we <EVENT class="I_ACTION" eid="e16">tried</EVENT> to <EVENT class="I_ACTION" eid="e17">explain</EVENT> our point of view," Stromberg <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+"By <EVENT class="OCCURRENCE" eid="e19">transporting</EVENT> people in good health, there would be no risk of disease <EVENT class="OCCURRENCE" eid="e20">spreading</EVENT>," he <EVENT class="REPORTING" eid="e21">said</EVENT>. "But by <EVENT class="I_ACTION" eid="e22">delaying</EVENT> their <EVENT class="OCCURRENCE" eid="e23">departure</EVENT>, they would <EVENT class="STATE" eid="e24">remain</EVENT> in a haven of cholera."
+
+"There will be a <EVENT class="OCCURRENCE" eid="e25">meeting</EVENT> on <TIMEX3 type="DATE" value="1997-04-18" tid="t5">Friday</TIMEX3> between health experts. They should <EVENT class="OCCURRENCE" eid="e26">find</EVENT> a consensus. We are <EVENT class="STATE" eid="e27">optimistic</EVENT>, and have <EVENT class="OCCURRENCE" eid="e28">postponed</EVENT> the <EVENT class="OCCURRENCE" eid="e29">operation</EVENT> by <TIMEX3 type="DURATION" value="P1D" tid="t7">a day</TIMEX3>," Stromberg <EVENT class="REPORTING" eid="e30">said</EVENT>.
+
+At Kasese, 303 cases of cholera have been <EVENT class="I_ACTION" eid="e31">recorded</EVENT> in <TIMEX3 type="DATE" value="P10D" tid="t8">the last 10 days</TIMEX3>, and 19 people have <EVENT class="OCCURRENCE" eid="e32">died</EVENT>, while 42 have been <EVENT class="OCCURRENCE" eid="e33">treated</EVENT> and <EVENT class="OCCURRENCE" eid="e34">released</EVENT> from hospital, the UNHCR has <EVENT class="REPORTING" eid="e35">reported</EVENT>.
+
+Some 700 children without adult company have been <EVENT class="OCCURRENCE" eid="e36">registered</EVENT> among the refugees in the camps, but UNHCR <EVENT class="OCCURRENCE" eid="e37">puts</EVENT> their true figure closer to 4,000.
+
+Up to 100,000 refugees are <EVENT class="OCCURRENCE" eid="e38">staying</EVENT> at the two camps.
+
+The Zairean rebel alliance, which <EVENT class="OCCURRENCE" eid="e39">seized</EVENT> Kisangani <TIMEX3 type="DATE" value="1997-03" tid="t9">a month ago</TIMEX3>, on <TIMEX3 type="DATE" value="1997-04-16" tid="t10">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e40">gave</EVENT> the go-ahead for their <EVENT class="OCCURRENCE" eid="e41">repatriation</EVENT>, which could <EVENT class="OCCURRENCE" eid="e42">take</EVENT> two to <TIMEX3 type="DURATION" value="P3M" tid="t11">three months</TIMEX3>.
+
+The UN agency <EVENT class="STATE" eid="e43">has</EVENT> three Russian Ilyushin transport planes and one Hercules C-130 at its disposal, but must <EVENT class="OCCURRENCE" eid="e45">use</EVENT> the smaller, local airstrip because the international runway had been <EVENT class="OCCURRENCE" eid="e46">mined</EVENT> by <EVENT class="OCCURRENCE" eid="e47">retreating</EVENT> Serb mercenaries <EVENT class="OCCURRENCE" eid="e48">fighting</EVENT> on behalf of the Zairean government.
+
+Despite the obstacles, the UNHCR <EVENT class="I_STATE" eid="e49">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e50">repatriate</EVENT> more than 1,000 refugees a day once the <EVENT class="OCCURRENCE" eid="e51">operation</EVENT> gets underway.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei49" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei38" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei39" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei25" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei40" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei49" relatedToEventInstance="ei50" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei31" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei42" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei39" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei49" relatedToEventInstance="ei51" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei43" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l44" eventInstanceID="ei43" relatedToEventInstance="ei49" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei43" relatedToEventInstance="ei48" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei43" relatedToEventInstance="ei47" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei43" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei40" relatedToEventInstance="ei43" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei43" relatedToEventInstance="ei46" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei32" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l58" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l59" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l60" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l61" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l62" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l63" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l64" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l65" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l66" eventInstanceID="ei10" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l67" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l68" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l69" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="INCLUDES" />
+<TLINK lid="l70" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l71" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l72" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l73" eventInstanceID="ei29" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

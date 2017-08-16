@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0055</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tornado kills 9 in Hokkaido of northern Japan</TITLE>
+
+
+<TEXT>
+
+A tornado <EVENT class="OCCURRENCE" eid="e1">hit</EVENT> eastern Hokkaido town of Saroma <TIMEX3 type="TIME" value="2006-10-31TAF" tid="t1">Tuesday afternoon</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">killing</EVENT> at least nine people and <EVENT class="OCCURRENCE" eid="e3">injuring</EVENT> 10 others at a tunnel construction site, Kyodo News <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+About 20 people were <EVENT class="OCCURRENCE" eid="e5">buried</EVENT> under collapsed prefabricated houses at the work site, police and firefighters <EVENT class="REPORTING" eid="e6">said</EVENT>, <EVENT class="OCCURRENCE" eid="e7">adding</EVENT> that at least six other people are <EVENT class="OCCURRENCE" eid="e8">missing</EVENT>.
+
+Some 10 buildings <EVENT class="OCCURRENCE" eid="e9">collapsed</EVENT> in the town when the tornado <EVENT class="OCCURRENCE" eid="e10">took</EVENT> place at 1 p.m., and electricity to part of the town and to the neighboring city of Kitami was <EVENT class="OCCURRENCE" eid="e11">cut</EVENT> off, local officials <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+Prime Minister Shinzo Abe's official residence has <EVENT class="OCCURRENCE" eid="e13">set</EVENT> up a liaison office at its crisis management center to <EVENT class="OCCURRENCE" eid="e15">deal</EVENT> with the <EVENT class="OCCURRENCE" eid="e16">accident</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

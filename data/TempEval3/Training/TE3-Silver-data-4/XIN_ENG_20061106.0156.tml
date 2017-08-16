@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0156</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>talks begin</TITLE>
+
+
+<TEXT>
+
+Japanese Foreign Minister Taro Aso and <EVENT class="OCCURRENCE" eid="e1">visiting</EVENT> senior U.S. diplomats <EVENT class="I_ACTION" eid="e2">agreed</EVENT> on <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3> that the Democratic People's Republic of Korea (DPRK) should <EVENT class="ASPECTUAL" eid="e3">abandon</EVENT> all nuclear programs in line with U.N. resolutions and that U.N. and Japanese <EVENT class="OCCURRENCE" eid="e4">sanctions</EVENT> would <EVENT class="STATE" eid="e5">remain</EVENT> in place even after the <EVENT class="OCCURRENCE" eid="e6">meeting</EVENT> <EVENT class="ASPECTUAL" eid="e7">started</EVENT>.
+
+The <EVENT class="I_STATE" eid="e8">agreement</EVENT> was <EVENT class="OCCURRENCE" eid="e9">reached</EVENT> at a <EVENT class="OCCURRENCE" eid="e10">meeting</EVENT> between Nicholas Burns, who is U.S. Undersecretary of State for Political Affairs, Robert Joseph, the Undersecretary of State for Arms Control and International Security, and Aso.
+
+Japan and the United States are in agreement that Security Council Resolution 1718 "must be fully and effectively <EVENT class="OCCURRENCE" eid="e11">implemented</EVENT>" until the DPRK "<EVENT class="OCCURRENCE" eid="e12">meets</EVENT> all of the demands of the Security Council," Joseph was <EVENT class="OCCURRENCE" eid="e13">quoted</EVENT> as <EVENT class="REPORTING" eid="e14">saying</EVENT> by Kyodo News.
+
+Aso <EVENT class="REPORTING" eid="e15">said</EVENT> the two nations <EVENT class="I_ACTION" eid="e16">agreed</EVENT> that they would not <EVENT class="OCCURRENCE" eid="e17">accept</EVENT> the DPRK as "a nuclear state" and that sanctions in line with the <EVENT class="OCCURRENCE" eid="e18">resolution</EVENT> as well as Japan's own sanctions "would not be <EVENT class="OCCURRENCE" eid="e19">relaxed</EVENT>" just because the six-party <EVENT class="OCCURRENCE" eid="e20">talks</EVENT> were being <EVENT class="OCCURRENCE" eid="e21">held</EVENT>.
+
+The foreign minister <EVENT class="REPORTING" eid="e22">said</EVENT> he would <EVENT class="OCCURRENCE" eid="e23">propose</EVENT> <EVENT class="OCCURRENCE" eid="e24">holding</EVENT> five-nation <EVENT class="OCCURRENCE" eid="e25">talks</EVENT> with his counterparts from the United States, South Korea, China and Russia to <EVENT class="OCCURRENCE" eid="e26">discuss</EVENT> the DPRK's nuclear program on the sidelines of the Asia-Pacific Economic Cooperation forum <EVENT class="OCCURRENCE" eid="e27">summit</EVENT> in Vietnam's Hanoi <TIMEX3 type="DATE" value="2006-W46" tid="t3">next week</TIMEX3>.
+
+The DPRK nuclear test <TIMEX3 type="DATE" value="2006-10" tid="t4">early last month</TIMEX3> <EVENT class="OCCURRENCE" eid="e28">sparked</EVENT> U.N. condemnations and <EVENT class="OCCURRENCE" eid="e29">sanctions</EVENT>. Japan had <EVENT class="OCCURRENCE" eid="e30">imposed</EVENT> its own sweeping <EVENT class="OCCURRENCE" eid="e31">sanctions</EVENT> before the nuclear test.
+
+Pyongyang <EVENT class="I_ACTION" eid="e32">agreed</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t5">Nov. 1</TIMEX3> to <EVENT class="OCCURRENCE" eid="e33">return</EVENT> the negotiation table on the premise that the issue of <EVENT class="OCCURRENCE" eid="e34">lifting</EVENT> U.S. financial <EVENT class="OCCURRENCE" eid="e35">sanctions</EVENT> against the DPRK would be <EVENT class="OCCURRENCE" eid="e36">discussed</EVENT> and <EVENT class="OCCURRENCE" eid="e37">settled</EVENT> within the framework of the six-party <EVENT class="OCCURRENCE" eid="e38">talks</EVENT>.
+
+Joseph and Burns also <EVENT class="OCCURRENCE" eid="e39">met</EVENT> with Japanese Defense Agency chief Fumio Kyuma. Joseph was also <EVENT class="OCCURRENCE" eid="e40">quoted</EVENT> as <EVENT class="REPORTING" eid="e41">saying</EVENT> during the <EVENT class="OCCURRENCE" eid="e42">meeting</EVENT> that trilateral <EVENT class="OCCURRENCE" eid="e43">cooperation</EVENT> between Australia, Japan, the United States is necessary in operational and intelligence matters.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei28" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei32" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei39" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l41" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei2" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei40" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei32" relatedToEventInstance="ei37" relType="IS_INCLUDED" />
+<TLINK lid="l52" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="IS_INCLUDED" />
+<TLINK lid="l53" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

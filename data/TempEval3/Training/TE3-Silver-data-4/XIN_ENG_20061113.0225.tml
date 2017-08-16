@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0225</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China Netcom and Spanish Telefonica form joint venture for PCCW</TITLE>
+
+
+<TEXT>
+
+China Netcom Group Corp <EVENT class="REPORTING" eid="e1">announced</EVENT> on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3> an <EVENT class="I_STATE" eid="e2">agreement</EVENT> with Spain's Telefonica SA to <EVENT class="OCCURRENCE" eid="e3">form</EVENT> a joint venture which will hold controlling shares in PCCW, a Hong Kong-based phone operator.
+
+Telefonica will <EVENT class="OCCURRENCE" eid="e5">purchase</EVENT> an eight percent stake in PCCW which would <EVENT class="OCCURRENCE" eid="e6">increase</EVENT> the shares of the joint <EVENT class="OCCURRENCE" eid="e7">venture</EVENT> in PCCW to 27.94 percent, <EVENT class="REPORTING" eid="e8">said</EVENT> China Netcom Group in a press <EVENT class="OCCURRENCE" eid="e9">release</EVENT>.
+
+China Netcom Group, Telefonica and PCCW have <EVENT class="OCCURRENCE" eid="e10">signed</EVENT> a strategic alliance which will <EVENT class="ASPECTUAL" eid="e11">enable</EVENT> the three companies to fully <EVENT class="OCCURRENCE" eid="e12">cooperate</EVENT> in mobile services and voice communication.
+
+China Netcom Group <EVENT class="REPORTING" eid="e13">said</EVENT> that Telefonica was a well-known international telecom operator and its <EVENT class="OCCURRENCE" eid="e14">entry</EVENT> into PCCW would <EVENT class="I_ACTION" eid="e15">help</EVENT> to <EVENT class="OCCURRENCE" eid="e16">enhance</EVENT> the value of PCCW and <EVENT class="OCCURRENCE" eid="e17">guarantee</EVENT> better returns to the shareholders.
+
+China Netcom Group <EVENT class="OCCURRENCE" eid="e18">acquired</EVENT> a 20 percent stake in the enlarged share capital of Hong Kong-listed PCCW <TIMEX3 type="DATE" value="2005" tid="t2">last year</TIMEX3> for one billion U.S. dollars, at 5.90 HK dollars per share.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

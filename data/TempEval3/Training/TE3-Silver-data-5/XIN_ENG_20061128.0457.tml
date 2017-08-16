@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0457</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tokyo stocks open higher</TITLE>
+
+
+<TEXT>
+
+Tokyo stocks <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> sharply higher almost across the board <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> on optimism about the Japanese economy after the government <EVENT class="REPORTING" eid="e2">reported</EVENT> surprisingly strong industrial <EVENT class="OCCURRENCE" eid="e3">production</EVENT> in <TIMEX3 type="DATE" value="2006-10" tid="t2">October</TIMEX3>.
+
+In <TIMEX3 type="DURATION" value="PT15M" tid="t3">the first 15 minutes</TIMEX3> of trading, the 225-issue Nikkei Stock Average <EVENT class="OCCURRENCE" eid="e4">rose</EVENT> 157.11 points, or 0.99 percent, to 16,012.37.
+
+The broader Tokyo Stock Price Index of all First Section issues on the Tokyo Stock Exchange <EVENT class="OCCURRENCE" eid="e5">gained</EVENT> 14.56 points, or 0.94 percent, to 1,569.67. The Second Section also <EVENT class="OCCURRENCE" eid="e6">moved</EVENT> higher.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

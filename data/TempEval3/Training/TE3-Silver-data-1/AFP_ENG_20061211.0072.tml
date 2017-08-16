@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0072</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="2006-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Israel downplays chance of conflict with Syria</TITLE>
+
+
+<TEXT>
+
+Israeli officials <EVENT class="OCCURRENCE" eid="e1">downplayed</EVENT> the chance of armed <EVENT class="OCCURRENCE" eid="e2">conflict</EVENT> with Syria <TIMEX3 type="DATE" value="2006-12-11" tid="t1">Monday</TIMEX3>, a day after a senior intelligence officer <EVENT class="REPORTING" eid="e3">said</EVENT> Damascus was <EVENT class="OCCURRENCE" eid="e4">preparing</EVENT> for <EVENT class="OCCURRENCE" eid="e5">war</EVENT> with the Jewish state.
+
+"Syria is <EVENT class="OCCURRENCE" eid="e6">constructing</EVENT> military apparatus to <EVENT class="I_ACTION" eid="e7">try</EVENT> and <EVENT class="I_STATE" eid="e8">counter</EVENT> the supremacy of (Israeli) air, ground and naval forces, but nothing <EVENT class="I_ACTION" eid="e9">indicates</EVENT> that it <EVENT class="I_STATE" eid="e10">intends</EVENT> to <EVENT class="OCCURRENCE" eid="e11">attack</EVENT> us," Deputy Defense Minister Ephraim Sneh <EVENT class="REPORTING" eid="e12">told</EVENT> public radio.
+
+The chief of parliament's influential foreign affairs and defense committee, Tsahi Hanegbi, <EVENT class="REPORTING" eid="e13">told</EVENT> the radio: "No one in Israel <EVENT class="STATE" eid="e14">has</EVENT> precise information on Syria's intentions and we are <EVENT class="OCCURRENCE" eid="e15">examining</EVENT> all possibilities.
+
+"The army <EVENT class="OCCURRENCE" eid="e16">takes</EVENT> into account these <EVENT class="I_STATE" eid="e17">estimates</EVENT> and <EVENT class="OCCURRENCE" eid="e18">adapts</EVENT> them on the ground," he <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+On <TIMEX3 type="DATE" value="2006-12-10" tid="t2">Sunday</TIMEX3>, General Yossi Beidetz, the head of the military intelligence research division, <EVENT class="REPORTING" eid="e20">told</EVENT> a cabinet <EVENT class="OCCURRENCE" eid="e21">meeting</EVENT> that Syrian President Bashar al-Assad was "<EVENT class="OCCURRENCE" eid="e22">preparing</EVENT> his forces for a military <EVENT class="OCCURRENCE" eid="e23">conflict</EVENT>" with Israel.
+
+"Syria has <EVENT class="OCCURRENCE" eid="e24">accelerated</EVENT> the production of long-range missiles and has <EVENT class="OCCURRENCE" eid="e25">deployed</EVENT> anti-tank rockets on its border with Israel," a senior intelligence official <EVENT class="OCCURRENCE" eid="e26">quoted</EVENT> Beidetz as <EVENT class="REPORTING" eid="e27">saying</EVENT>, <EVENT class="OCCURRENCE" eid="e28">referring</EVENT> to the armistice line on the occupied Golan Heights.
+
+In a later statement, a spokesman <EVENT class="REPORTING" eid="e29">said</EVENT>: "The army does not have any information <EVENT class="OCCURRENCE" eid="e30">indicating</EVENT> offensive intentions (by Syria) on the border."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+
+
+
+
+</TimeML>

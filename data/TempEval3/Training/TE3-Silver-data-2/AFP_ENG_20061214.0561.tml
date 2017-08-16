@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061214.0561</DOCID>
+
+<DCT>JOHANNESBURG, <TIMEX3 tid="t0" type="TIME" value="2006-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>South African cricket championship scores</TITLE>
+
+
+<TEXT>
+
+Scores after first day of South African four-day cricket championship <EVENT class="OCCURRENCE" eid="e1">matches</EVENT> on <TIMEX3 type="DATE" value="2006-12-21" tid="t3">Thursday</TIMEX3>:
+
+At Newlands, Cape Town
+
+Cape Cobras v Highveld Lions
+
+Lions 287-3 in 94 overs (N.McKenzie 135, J.Ontong 120 no; M.Zondeki 2-31)
+
+At Goodyear Park, Bloemfontein
+
+Free State Eagles v KwaZulu-Natal Dolphins
+
+Eagles 262-3 in 90.1 overs (H.Dippenaar 71 no, M. van Wyk 57 no)
+
+At SuperSport Park, Centurion
+
+Northern Titans <EVENT class="OCCURRENCE" eid="e2">v</EVENT> Eastern Cape Warriors
+
+Warriors 268-8 in 85 overs (M.Goodwin 77, A.Jacobs 70; J.Morkel 4-47)
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

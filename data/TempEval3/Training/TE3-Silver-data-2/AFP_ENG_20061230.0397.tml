@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061230.0397</DOCID>
+
+<DCT>LOS ANGELES, <TIMEX3 tid="t0" type="TIME" value="2006-12-30" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 30 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Schwarzenegger leaves hospital after surgery on broken leg</TITLE>
+
+
+<TEXT>
+
+California Governor Arnold Schwarzenegger was <EVENT class="OCCURRENCE" eid="e1">released</EVENT> from the hospital here <TIMEX3 type="DATE" value="2006-12-30" tid="t1">Saturday</TIMEX3>, following successful surgery on his right leg to <EVENT class="OCCURRENCE" eid="e3">fix</EVENT> a broken bone.
+
+The Hollywood action-hero-turned-politician <EVENT class="OCCURRENCE" eid="e4">fractured</EVENT> his right femur on <TIMEX3 type="DATE" value="2006-12-23" tid="t2">December 23</TIMEX3> while <EVENT class="OCCURRENCE" eid="e5">skiing</EVENT> in Sun Valley, Idaho, and <EVENT class="OCCURRENCE" eid="e6">underwent</EVENT> a 90-minute <EVENT class="OCCURRENCE" eid="e7">operation</EVENT> on <TIMEX3 type="DATE" value="2006-12-26" tid="t3">December 26</TIMEX3> to <EVENT class="OCCURRENCE" eid="e8">knit</EVENT> the broken bones back together.
+
+"His femur is <EVENT class="ASPECTUAL" eid="e9">beginning</EVENT> to <EVENT class="OCCURRENCE" eid="e10">mend</EVENT> nicely and I <EVENT class="I_STATE" eid="e11">expect</EVENT> him to have a full and speedy recovery from this injury," Doctor Kevin Ehrhart, Schwarzenegger's orthopedic surgeon, <EVENT class="REPORTING" eid="e15">said</EVENT> in a statement <TIMEX3 type="DATE" value="2006-12-30" tid="t4">Saturday</TIMEX3>.
+
+He <EVENT class="OCCURRENCE" eid="e16">added</EVENT> that fractures of that kind usually <EVENT class="OCCURRENCE" eid="e17">take</EVENT> about <TIMEX3 type="DURATION" value="P8W" tid="t6">eight weeks</TIMEX3> to completely <EVENT class="OCCURRENCE" eid="e18">heal</EVENT>.
+
+Schwarzenegger <EVENT class="REPORTING" eid="e19">said</EVENT> in a statement that he <EVENT class="OCCURRENCE" eid="e20">felt</EVENT> "fantastic to <EVENT class="OCCURRENCE" eid="e21">return</EVENT> home <TIMEX3 type="DATE" value="2006-12-30" tid="t7">today</TIMEX3> as my family <EVENT class="OCCURRENCE" eid="e22">prepares</EVENT> to <EVENT class="OCCURRENCE" eid="e23">celebrate</EVENT> the New Year together."
+
+He <EVENT class="REPORTING" eid="e24">said</EVENT> he was <EVENT class="PERCEPTION" eid="e25">looking</EVENT> forward to <EVENT class="ASPECTUAL" eid="e26">beginning</EVENT> 2007 with his formal <EVENT class="OCCURRENCE" eid="e27">inauguration</EVENT>, his State of the State Address, and the <EVENT class="OCCURRENCE" eid="e28">presentation</EVENT> of a state budget proposal.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="AFTER" />
+
+
+
+
+</TimeML>

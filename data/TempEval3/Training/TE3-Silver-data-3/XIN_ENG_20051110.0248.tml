@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0248</DOCID>
+
+<DCT>JOHANNESBURG, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Southern Africa to draft plan against bird flu</TITLE>
+
+
+<TEXT>
+
+Although there is no immediate threat from avian influenza in Southern Africa, countries in the region will <EVENT class="OCCURRENCE" eid="e1">set</EVENT> up a regional plan on <EVENT class="OCCURRENCE" eid="e2">dealing</EVENT> with the contagious disease, officials <EVENT class="REPORTING" eid="e4">said</EVENT> here on <TIMEX3 type="DATE" value="2005-11-10" tid="t1">Thursday</TIMEX3>.
+
+South African Health Minister Manto Tshabalala-Msimang <EVENT class="REPORTING" eid="e5">confirmed</EVENT> that a committee had been <EVENT class="OCCURRENCE" eid="e6">mandated</EVENT> to <EVENT class="I_ACTION" eid="e7">establish</EVENT> a plan for 14 member states of the Southern African Development Community (SADC).
+
+Although the flu has not <EVENT class="OCCURRENCE" eid="e9">broken</EVENT> out in the region, there was concern that wild birds, which are the main carriers of the virus, were <EVENT class="OCCURRENCE" eid="e10">migrating</EVENT> to the sub-continent for <TIMEX3 type="DATE" value="2005-SU" tid="t2">summer</TIMEX3>.
+
+After a <EVENT class="OCCURRENCE" eid="e11">meeting</EVENT> of the SADC health ministers in Johannesburg, Tshabalala-Msimang <EVENT class="REPORTING" eid="e12">said</EVENT> people in the region, especially the elderly, should have flu vaccinations because if they were <EVENT class="OCCURRENCE" eid="e13">infected</EVENT> with avian flu, it would be severe.
+
+African countries have been <EVENT class="I_ACTION" eid="e14">warned</EVENT> of the bird flu <EVENT class="OCCURRENCE" eid="e15">given</EVENT> their fragile public health systems have already been heavily <EVENT class="OCCURRENCE" eid="e16">burdened</EVENT> by other diseases including HIV/AIDS and malaria, as well as poverty and staff shortage.
+
+Bird flu has <EVENT class="OCCURRENCE" eid="e18">aroused</EVENT> extraordinary concerns around the world, especially in Asia and Europe, since more than 60 people have been <EVENT class="OCCURRENCE" eid="e19">killed</EVENT> and scientists <EVENT class="I_STATE" eid="e20">fear</EVENT> that the virus could be more deadly if it <EVENT class="OCCURRENCE" eid="e21">mutates</EVENT> to <EVENT class="OCCURRENCE" eid="e22">become</EVENT> transferable between humans.
+
+A South African newspaper <EVENT class="REPORTING" eid="e23">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-10" tid="t3">Thursday</TIMEX3> that migrant bird droppings <EVENT class="OCCURRENCE" eid="e24">collected</EVENT> at the Durban harbor <TIMEX3 type="DATE" value="2005-10" tid="t4">last month</TIMEX3> <EVENT class="OCCURRENCE" eid="e25">tested</EVENT> negative for avian flu.
+
+So far about 4,300 samples have been <EVENT class="OCCURRENCE" eid="e26">collected</EVENT>, including 67 from migratory birds <EVENT class="OCCURRENCE" eid="e27">captured</EVENT> in Durban harbor. All the samples <EVENT class="OCCURRENCE" eid="e28">examined</EVENT> have been negative, KwaZulu-Natal provincial agricultural ministerial spokesman Vusi Zuma <EVENT class="REPORTING" eid="e29">told</EVENT> the witness.
+
+He <EVENT class="REPORTING" eid="e30">said</EVENT> the department would <EVENT class="ASPECTUAL" eid="e31">continue</EVENT> its <EVENT class="OCCURRENCE" eid="e32">surveillance</EVENT>, <EVENT class="OCCURRENCE" eid="e33">focusing</EVENT> on indigenous and commercial poultry and in some cases migratory birds.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970406.0012</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-06" temporalFunction="false" functionInDocument="CREATION_TIME">April 6 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Ford, Mazda unifying parts purchases: report</TITLE>
+
+
+<TEXT>
+
+Mazda Motor Corp. of Japan and Ford Motor Co. of the United States <EVENT class="I_STATE" eid="e1">plan</EVENT> to <EVENT class="OCCURRENCE" eid="e2">unify</EVENT> their parts procurement systems in order to <EVENT class="OCCURRENCE" eid="e3">reduce</EVENT> production costs, the Nihon Keizai Shimbun <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-06" tid="t1">Sunday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e5">move</EVENT> <EVENT class="OCCURRENCE" eid="e6">follows</EVENT> the two companies' earlier accord to <EVENT class="OCCURRENCE" eid="e7">share</EVENT> basic designs of motor vehicles, the leading economic daily <EVENT class="REPORTING" eid="e8">said</EVENT>. The <EVENT class="OCCURRENCE" eid="e9">move</EVENT> may be <EVENT class="OCCURRENCE" eid="e10">implemented</EVENT> by <TIMEX3 type="DATE" value="2002" tid="t2">2002</TIMEX3>, the report <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+The automakers' business links have <EVENT class="OCCURRENCE" eid="e12">grown</EVENT> since Ford <EVENT class="OCCURRENCE" eid="e13">took</EVENT> effective control of Mazda by <EVENT class="OCCURRENCE" eid="e14">raising</EVENT> its equity stake from 24.4 percent to 33.4 percent in <TIMEX3 type="DATE" value="1996-05" tid="t3">May last year</TIMEX3>.
+
+Under Japanese law, if Ford were to <EVENT class="OCCURRENCE" eid="e15">increase</EVENT> its stake in Mazda beyond this level it would have been <EVENT class="OCCURRENCE" eid="e16">obliged</EVENT> to <EVENT class="ASPECTUAL" eid="e17">launch</EVENT> a full takeover bid.
+
+The two companies will <EVENT class="OCCURRENCE" eid="e19">select</EVENT> parts suppliers on the basis of international competitiveness, with no preferential treatment given to traditional parts makers in Mazda's "keiretsu" corporate group, the daily <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+Supplier candidates among Japanese firms include car electronic parts maker Denso Corp. and oil seal producer NOK Corp., it <EVENT class="REPORTING" eid="e21">said</EVENT>. Both suppliers have capital ties with Japan's auto giant Toyota Motor Corp.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+
+
+
+
+</TimeML>

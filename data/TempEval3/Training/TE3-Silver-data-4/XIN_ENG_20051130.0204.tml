@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051130.0204</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Newcastle's Nigerian defender Babayaro banned for three games</TITLE>
+
+
+<TEXT>
+
+Newcastle United's Nigerian defender Celestine Babayaro was <EVENT class="OCCURRENCE" eid="e1">banned</EVENT> for three games on <TIMEX3 type="DATE" value="2005-11-30" tid="t1">Wednesday</TIMEX3> for a <EVENT class="OCCURRENCE" eid="e2">brawl</EVENT> with Everton's Australian midfielder Tim Cahill.
+
+Both players were <EVENT class="OCCURRENCE" eid="e3">charged</EVENT> with the same <EVENT class="OCCURRENCE" eid="e4">offence</EVENT> on <TIMEX3 type="DATE" value="2005-11-30" tid="t2">Wednesday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e5">given</EVENT> until <TIMEX3 type="DATE" value="1800" tid="t3">1800 GMT</TIMEX3> to <EVENT class="OCCURRENCE" eid="e6">respond</EVENT> by the Football Association. Babayaro <EVENT class="OCCURRENCE" eid="e7">admitted</EVENT> the <EVENT class="OCCURRENCE" eid="e8">charge</EVENT> shortly afterwards.
+
+The cases were due to be <EVENT class="PERCEPTION" eid="e9">heard</EVENT> by a disciplinary commission on <TIMEX3 type="DATE" value="2005-11-24" tid="t4">Thursday</TIMEX3>.
+
+The pair <EVENT class="OCCURRENCE" eid="e10">appeared</EVENT> to <EVENT class="OCCURRENCE" eid="e11">lash</EVENT> out after <EVENT class="OCCURRENCE" eid="e12">tangling</EVENT> in Everton's 1-0 Premier League victory at Goodison Park on <TIMEX3 type="DATE" value="2005-12-04" tid="t5">Sunday</TIMEX3>. Referee Howard Webb, who had not initially <EVENT class="PERCEPTION" eid="e13">seen</EVENT> the entire incident, did not book either player.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0010</DOCID>
+
+<DCT>YUANPING, Shanxi, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China coal mine</TITLE>
+
+
+<TEXT>
+
+Rescuers on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3> were still <EVENT class="OCCURRENCE" eid="e1">searching</EVENT> for the 30 miners <EVENT class="STATE" eid="e2">trapped</EVENT> in a coal mine <EVENT class="OCCURRENCE" eid="e3">explosion</EVENT> which had <EVENT class="I_ACTION" eid="e4">claimed</EVENT> 17 lives in north China's Shanxi Province on <TIMEX3 type="DATE" value="2006-11-05" tid="t2">Sunday</TIMEX3>.
+
+About 90 rescuers in eight teams <EVENT class="OCCURRENCE" eid="e5">went</EVENT> down more than 300 meters to <EVENT class="OCCURRENCE" eid="e6">search</EVENT> for the trapped miners, while others were busy <EVENT class="OCCURRENCE" eid="e7">moving</EVENT> exhaust fans, cables, timber and other materials into the mine.
+
+Officials with the rescue headquarters <EVENT class="REPORTING" eid="e8">said</EVENT> the <EVENT class="OCCURRENCE" eid="e9">resumption</EVENT> of ventilation and power supply is vital for rescue operation.
+
+Initial investigations <EVENT class="REPORTING" eid="e11">suggest</EVENT> that human errors were <EVENT class="I_ACTION" eid="e12">blamed</EVENT> for the fatal accident.
+
+The mine should have been <EVENT class="OCCURRENCE" eid="e14">evacuated</EVENT> since gas had <EVENT class="OCCURRENCE" eid="e15">accumulated</EVENT> to a dangerous level on <TIMEX3 type="DATE" value="2006-11-05TMO" tid="t3">Sunday morning</TIMEX3> after exhaust fans <EVENT class="ASPECTUAL" eid="e16">stopped</EVENT> <EVENT class="OCCURRENCE" eid="e17">working</EVENT> due to power <EVENT class="OCCURRENCE" eid="e18">failure</EVENT>. However, power supply <EVENT class="ASPECTUAL" eid="e19">resumed</EVENT> without safety measures and <EVENT class="OCCURRENCE" eid="e20">caused</EVENT> the <EVENT class="OCCURRENCE" eid="e21">explosion</EVENT>.
+
+<EVENT class="REPORTING" eid="e22">According</EVENT> to the rescue headquarters, 393 workers were <EVENT class="OCCURRENCE" eid="e23">working</EVENT> in the mine when the <EVENT class="OCCURRENCE" eid="e24">blast</EVENT> <EVENT class="OCCURRENCE" eid="e25">took</EVENT> place, and 346 miners <EVENT class="OCCURRENCE" eid="e26">escaped</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e27">accident</EVENT> <EVENT class="OCCURRENCE" eid="e28">occurred</EVENT> at <TIMEX3 type="TIME" value="2006-11-06" tid="t4">11 a.m.</TIMEX3> <TIMEX3 type="DATE" value="2006-11-05" tid="t5">Sunday</TIMEX3> in the Jiaojiazhai Coal Mine of Xuangang Company under Datong Coal Mine Group, in Xinzhou, a central-north city of Shanxi Province.
+
+All the victims are miners of Datong Coal Mine Group.
+
+The Shanxi government on <TIMEX3 type="DATE" value="2006-11-06" tid="t6">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e29">ordered</EVENT> all the coal mines in the coal-rich province to <EVENT class="OCCURRENCE" eid="e30">operate</EVENT> in accord with work safety regulations, <EVENT class="REPORTING" eid="e31">saying</EVENT> any one who <EVENT class="OCCURRENCE" eid="e32">violate</EVENT> regulations will be <EVENT class="OCCURRENCE" eid="e33">punished</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei29" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei28" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,15 @@
+
+General procedure:
+- byte align the source to correct errors during annotation
+- load into gate annotation diff
+- read the documents and sanity check entity annotations, looking for missing ones and removing generics
+- do event merge
+- do timex merge
+- check all DCT links (if dct = a day, avoid "today X said_e1" "e1 before dct")
+- check all timex links and make sure every timex is linked, if possible
+- check paragraphs, finding main events linked to dct and check relation between subevents and main events
+- validate with Hector's TimeML-validator
+- load into CAVaT and check for consistency, using inconsistency discovery points as start point on search for wrong orderings, amending/removing tlinks along the way
+- re-validate
+- commit
+

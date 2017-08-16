@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0483</DOCID>
+
+<DCT>RIO DE JANEIRO, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Sao Paulo presents lowest unemployment rate in October</TITLE>
+
+
+<TEXT>
+
+Brazil's largest metropolitan region Sao Paulo <EVENT class="OCCURRENCE" eid="e1">registered</EVENT> its lowest unemployment rate in <TIMEX3 type="DATE" value="2006-10" tid="t1">October</TIMEX3> since <TIMEX3 type="DATE" value="1996" tid="t2">1996</TIMEX3>, a monthly Employment and Unemployment Survey (PED) <EVENT class="REPORTING" eid="e2">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-28" tid="t3">Tuesday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e3">survey</EVENT> was <EVENT class="OCCURRENCE" eid="e4">carried</EVENT> out by Sao Paulo state's research institute Seade and the Inter-Union Department of Statistics and Social-Economic Studies.
+
+The current unemployment rate was 14.6 percent, against 16.9 percent in <TIMEX3 type="DATE" value="2005-10" tid="t4">October, 2005</TIMEX3>. Unemployment has been in a falling trend since <TIMEX3 type="DATE" value="2006-06" tid="t6">June this year</TIMEX3>. In <TIMEX3 type="DATE" value="2006-09" tid="t7">September</TIMEX3>, the PED <EVENT class="OCCURRENCE" eid="e5">released</EVENT> an jobless rate of 15.3 percent.
+
+Around 94,000 job positions were <EVENT class="OCCURRENCE" eid="e6">created</EVENT> in <TIMEX3 type="DATE" value="2006-10" tid="t8">October, 2006</TIMEX3>. A total of 67,000 citizens <EVENT class="OCCURRENCE" eid="e7">found</EVENT> work, which <EVENT class="OCCURRENCE" eid="e8">brought</EVENT> the number of unemployed in Sao Paulo down to 1.47 million workers, while 27,000 people <EVENT class="OCCURRENCE" eid="e9">entered</EVENT> the region's labor market.
+
+The survey <EVENT class="OCCURRENCE" eid="e10">showed</EVENT> that the positive results were closely <EVENT class="STATE" eid="e11">related</EVENT> to the performance in the service sector, which <EVENT class="OCCURRENCE" eid="e13">provided</EVENT> 50 percent of occupations in the metro region, and <EVENT class="OCCURRENCE" eid="e14">created</EVENT> 68,000 positions in <TIMEX3 type="DATE" value="2006-10" tid="t10">October</TIMEX3>, up 1.5 percent from <TIMEX3 type="DATE" value="2006-09" tid="t11">September</TIMEX3>.
+
+The PED <EVENT class="REPORTING" eid="e15">said</EVENT> local industry <EVENT class="OCCURRENCE" eid="e16">created</EVENT> 10,000 jobs, while the retail market <EVENT class="OCCURRENCE" eid="e17">contributed</EVENT> 23,000, <EVENT class="OCCURRENCE" eid="e18">caused</EVENT> by the <EVENT class="OCCURRENCE" eid="e19">rise</EVENT> in sales as the year-end holiday approaches.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000014" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei1000001" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei1000014" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1000014" relatedToTime="t11" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061218.0057</DOCID>
+
+<DCT>OSLO, <TIMEX3 tid="t0" type="TIME" value="2006-12-18" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 18 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS production levels, quotes, background ///</TITLE>
+
+
+<TEXT>
+
+The Norwegian oil company Statoil is to <EVENT class="OCCURRENCE" eid="e1">take</EVENT> over the oil and gas activities of Norsk Hydro and <EVENT class="OCCURRENCE" eid="e3">create</EVENT> the largest offshore production group, the two groups <EVENT class="REPORTING" eid="e4">said</EVENT> on <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3>.
+
+The new company will be 62.5 percent state-owned and <EVENT class="OCCURRENCE" eid="e5">given</EVENT> a new name, which was not <EVENT class="OCCURRENCE" eid="e6">disclosed</EVENT>.
+
+Both companies' boards as well as the government have <EVENT class="OCCURRENCE" eid="e7">approved</EVENT> the <EVENT class="OCCURRENCE" eid="e8">takeover</EVENT>, which is <EVENT class="I_STATE" eid="e9">expected</EVENT> to be <EVENT class="ASPECTUAL" eid="e10">completed</EVENT> by <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">the third quarter of 2007</TIMEX3>.
+
+The merged entity will have a combined <EVENT class="OCCURRENCE" eid="e12">production</EVENT> of 1.9 million barrels per day in <TIMEX3 type="DATE" value="2007" tid="t3">2007</TIMEX3> and proven oil and gas reserves of 6.3 billion barrels of oil equivalents.
+
+"This is the <EVENT class="ASPECTUAL" eid="e13">start</EVENT> of a new era. We are <EVENT class="OCCURRENCE" eid="e14">creating</EVENT> a global energy company and <EVENT class="OCCURRENCE" eid="e15">strengthening</EVENT> Norway's oil and gas industry," Prime Minister Jens Stoltenberg <EVENT class="REPORTING" eid="e16">said</EVENT> in a statement.
+
+"The government <EVENT class="PERCEPTION" eid="e17">sees</EVENT> the recommended <EVENT class="OCCURRENCE" eid="e19">merger</EVENT> as industrially and strategically well <EVENT class="OCCURRENCE" eid="e20">founded</EVENT>," he <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+The state is <EVENT class="I_STATE" eid="e22">expected</EVENT> to eventually <EVENT class="OCCURRENCE" eid="e23">raise</EVENT> its stake to 67 percent.
+
+Norsk Hydro will <EVENT class="ASPECTUAL" eid="e24">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e25">operate</EVENT> as an aluminium company under its existing name.
+
+Norway is the world's third largest oil exporter, behind Russia and Saudi Arabia.
+
+phy/po/wai
+
+"By combining forces, the new company will be a highly competent and financially strong Norwegian-based energy champion, well <EVENT class="STATE" eid="e26">positioned</EVENT> to <EVENT class="OCCURRENCE" eid="e27">ensure</EVENT> continued domestic excellence and <EVENT class="OCCURRENCE" eid="e29">pursue</EVENT> international business opportunities for long-term growth," <EVENT class="REPORTING" eid="e31">said</EVENT> Jan Reinaas and Jannik Lindbaek, the chairmen of the Board of Directors of Hydro and Statoil, respectively, in a joint statement. "The industry <EVENT class="I_STATE" eid="e32">faces</EVENT> an increasingly challenging international landscape. To <EVENT class="OCCURRENCE" eid="e33">merge</EVENT> <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e34">makes</EVENT> perfect sense."
+
+Hydro will <EVENT class="ASPECTUAL" eid="e35">continue</EVENT> as a leading, <EVENT class="OCCURRENCE" eid="e37">focused</EVENT> global aluminium company.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei32" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei33" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei33" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

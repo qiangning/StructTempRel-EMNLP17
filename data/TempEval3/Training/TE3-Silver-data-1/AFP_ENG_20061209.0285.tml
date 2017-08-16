@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061209.0285</DOCID>
+
+<DCT>RIYADH, <TIMEX3 tid="t0" type="TIME" value="2006-12-09" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 9 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>URGENT  Arab world waiting to explode: Saudi king</TITLE>
+
+
+<TEXT>
+
+Saudi King Abdullah <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> the annual <EVENT class="OCCURRENCE" eid="e2">summit</EVENT> of Gulf leaders <TIMEX3 type="DATE" value="2006-12-09" tid="t1">Saturday</TIMEX3> with a <EVENT class="OCCURRENCE" eid="e3">warning</EVENT> that the Arab world was like a powder keg <EVENT class="OCCURRENCE" eid="e4">waiting</EVENT> to <EVENT class="OCCURRENCE" eid="e5">explode</EVENT>, <EVENT class="REPORTING" eid="e6">citing</EVENT> the situation in the Palestinian territories, Iraq and Lebanon.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

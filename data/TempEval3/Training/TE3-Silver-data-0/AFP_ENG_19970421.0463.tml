@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0463</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Bardot slams Moscow "massacre"</TITLE>
+
+
+<TEXT>
+
+Former film star Brigitte Bardot on <TIMEX3 type="DATE" value="1997-04-21" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">attacked</EVENT> city fathers in Moscow over what she <EVENT class="I_ACTION" eid="e2">called</EVENT> the "<EVENT class="OCCURRENCE" eid="e3">massacre</EVENT>" of stray animals in the Russian capital ahead of celebrations for its <TIMEX3 type="DATE" value="PXX" tid="t2">850th birthday</TIMEX3>.
+
+In an open letter to Moscow mayor Yuri Luzhkov she <EVENT class="REPORTING" eid="e4">said</EVENT> she was "shocked and <EVENT class="OCCURRENCE" eid="e6">horrified</EVENT>" at the <EVENT class="OCCURRENCE" eid="e7">killings</EVENT> of animals in a clean-up of the streets ahead of the <EVENT class="OCCURRENCE" eid="e8">celebrations</EVENT> in <TIMEX3 type="DATE" value="1996-09" tid="t3">September</TIMEX3>.
+
+"The millions <EVENT class="OCCURRENCE" eid="e9">spent</EVENT> in particular on poison for animals .. could be <EVENT class="OCCURRENCE" eid="e10">used</EVENT> to <EVENT class="I_ACTION" eid="e11">help</EVENT> less well off people who make <EVENT class="OCCURRENCE" eid="e12">sacrifices</EVENT> every day," <EVENT class="REPORTING" eid="e13">said</EVENT> the former screen idol <EVENT class="OCCURRENCE" eid="e14">turned</EVENT> animal rights activist.
+
+She <EVENT class="REPORTING" eid="e15">called</EVENT> on the Moscow mayor to <EVENT class="ASPECTUAL" eid="e16">launch</EVENT> a program of sterilization for animals instead of <EVENT class="OCCURRENCE" eid="e17">killing</EVENT> them "to <EVENT class="OCCURRENCE" eid="e18">make</EVENT> your city's name shine when it <EVENT class="OCCURRENCE" eid="e19">celebrates</EVENT> in (<TIMEX3 type="DATE" value="1997-04-21" tid="t5">the anniversary) September</TIMEX3>."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

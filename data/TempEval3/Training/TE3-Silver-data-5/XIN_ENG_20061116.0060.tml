@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0060</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. to continue assistance to Nepal after guerrilla joins gov't: official</TITLE>
+
+
+<TEXT>
+
+The United States (U.S.) Thursday <EVENT class="REPORTING" eid="e1">said</EVENT> that it will be <EVENT class="ASPECTUAL" eid="e2">continuing</EVENT> its <EVENT class="OCCURRENCE" eid="e3">assistance</EVENT> to <EVENT class="OCCURRENCE" eid="e4">Nepal</EVENT> even after the guerrilla <EVENT class="OCCURRENCE" eid="e5">joins</EVENT> the interim government.
+
+U.S. Assistant Secretary of State for South and Central Asian Affairs Richard A. Boucher, who <EVENT class="OCCURRENCE" eid="e6">arrived</EVENT> in Kathmandu <TIMEX3 type="DATE" value="2006-11-15" tid="t2">Wednesday</TIMEX3> on a three-day <EVENT class="OCCURRENCE" eid="e7">visit</EVENT>, <EVENT class="OCCURRENCE" eid="e8">made</EVENT> the assurance during a <EVENT class="OCCURRENCE" eid="e9">meeting</EVENT> with Prime Minister Girija Prasad Koirala and Speaker of the House of Representatives Subash Chandra Nemwang.
+
+The senior U.S. official <EVENT class="OCCURRENCE" eid="e10">made</EVENT> the comments in a bid to <EVENT class="OCCURRENCE" eid="e11">quell</EVENT> all misapprehensions regarding the <EVENT class="OCCURRENCE" eid="e12">continuation</EVENT> of U.S. assistance after the guerrillas -- which the U.S. <EVENT class="STATE" eid="e13">had</EVENT> previously terrorist- tagged -- <EVENT class="OCCURRENCE" eid="e14">join</EVENT> the Nepal government.
+
+Making a brief statement to media persons after the <EVENT class="OCCURRENCE" eid="e16">meeting</EVENT> with Koirala, Boucher <EVENT class="REPORTING" eid="e17">said</EVENT>, "The U.S. is ready to <EVENT class="ASPECTUAL" eid="e18">continue</EVENT> its <EVENT class="OCCURRENCE" eid="e19">assistance</EVENT> to Nepal for the welfare of the Nepali people."
+
+The senior U.S. official <EVENT class="OCCURRENCE" eid="e20">discussed</EVENT> the on-going peace process and the overall Nepalese political situation besides issues of U.S. <EVENT class="OCCURRENCE" eid="e21">assistance</EVENT> with Koirala.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0451</DOCID>
+
+<DCT>MEXICO CITY, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Stocks close higher in Argentina, Brazil, lower in Mexico</TITLE>
+
+
+<TEXT>
+
+Latin America's three major stock markets <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> mixed on <TIMEX3 type="DATE" value="2006-11-28" tid="t1">Tuesday</TIMEX3>.
+
+The Buenos Aires stock market <EVENT class="OCCURRENCE" eid="e3">closed</EVENT> with the Merval index up 0.81 percent at 1,907.57 points. The trade volume was 16.451 million dollars.
+
+In Sao Paulo, Latin America's biggest bourse, the leading Bovespa index <EVENT class="OCCURRENCE" eid="e4">closed</EVENT> at 41,043 points, up 0.31 percent. The trade volume was 983 million dollars.
+
+Mexico City's IPC stock index <EVENT class="OCCURRENCE" eid="e5">drooped</EVENT> by 0.4 percent to <EVENT class="OCCURRENCE" eid="e6">close</EVENT> at 24,344.95 points. A total of 140.8 million shares were <EVENT class="OCCURRENCE" eid="e7">traded</EVENT> at 398.9 million U.S. dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0147</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mechanical failure suspends Hong Kong's unique Peak Tram service</TITLE>
+
+
+<TEXT>
+
+A mechanical failure <EVENT class="OCCURRENCE" eid="e1">struck</EVENT> Hong Kong's landmark Peak Tram during rush tourist hours <TIMEX3 type="DATE" value="2006-11-04" tid="t2">Saturday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">bringing</EVENT> the service to suspension and upsetting hundreds of travelers.
+
+The accident <EVENT class="OCCURRENCE" eid="e3">occurred</EVENT> about <TIMEX3 type="TIME" value="2006-11-04" tid="t3">10:00 a.m.</TIMEX3> (0200 GMT) <TIMEX3 type="DATE" value="2006-11-04" tid="t4">Saturday</TIMEX3> when about 100 tourists <EVENT class="OCCURRENCE" eid="e4">rode</EVENT> the centenarian tram from the mid-levels in Central District to the 500-meter height Victoria Peak.
+
+The trapped tourists had to <EVENT class="OCCURRENCE" eid="e5">walk</EVENT> from the mountainside to the tram's starting terminal after it <EVENT class="OCCURRENCE" eid="e7">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e8">restart</EVENT>. No one was <EVENT class="OCCURRENCE" eid="e9">hurt</EVENT>.
+
+It <EVENT class="OCCURRENCE" eid="e10">took</EVENT> engineers six hours to <EVENT class="OCCURRENCE" eid="e11">fix</EVENT> the tram system and the Peak Tram company <EVENT class="ASPECTUAL" eid="e12">resumed</EVENT> <EVENT class="OCCURRENCE" eid="e13">service</EVENT> at about <TIMEX3 type="TIME" value="2006-11-04" tid="t6">4:20 p.m.</TIMEX3> (0820 GMT).
+
+Transport authority <EVENT class="OCCURRENCE" eid="e14">organized</EVENT> extra buses to <EVENT class="I_ACTION" eid="e15">help</EVENT> tourists <EVENT class="OCCURRENCE" eid="e16">climb</EVENT> to the peak for a bird's-eye sightseeing of the Victoria Harbor and entire Hong Kong.
+
+The transport authority <EVENT class="OCCURRENCE" eid="e18">demanded</EVENT> the Peak Tram company to <EVENT class="OCCURRENCE" eid="e19">submit</EVENT> a report on the accident.
+
+<EVENT class="OCCURRENCE" eid="e22">Built</EVENT> in <TIMEX3 type="DATE" value="1888" tid="t7">1888</TIMEX3>, the Peak Tram was one of Hong Kong's must-see tourist areas for its picturesque landscape and unique angel of view.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

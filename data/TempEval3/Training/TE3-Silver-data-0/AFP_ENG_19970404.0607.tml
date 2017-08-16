@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970404.0607</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="1997-04-04" temporalFunction="false" functionInDocument="CREATION_TIME">April 4 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Albright meets with three leaders of Serbian opposition</TITLE>
+
+
+<TEXT>
+
+Secretary of State Madeleine Albright on <TIMEX3 type="DATE" value="1997-04-04" tid="t1">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">met</EVENT> with three leaders of the Serbian opposition, in a further US <EVENT class="OCCURRENCE" eid="e2">effort</EVENT> to <EVENT class="OCCURRENCE" eid="e3">distance</EVENT> itself from Serbian President Slobodan Milosevic.
+
+"The United States <EVENT class="OCCURRENCE" eid="e4">supports</EVENT> the <EVENT class="OCCURRENCE" eid="e5">efforts</EVENT> of the Zajedno coalition and the other democratic forces in Serbia to <EVENT class="OCCURRENCE" eid="e6">lead</EVENT> Serbia out of the dead end it <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">currently</TIMEX3> <EVENT class="OCCURRENCE" eid="e7">finds</EVENT> itself in and to <EVENT class="ASPECTUAL" eid="e8">begin</EVENT> the process of <EVENT class="OCCURRENCE" eid="e9">developing</EVENT> a modern European country," State Department spokesman Nicholas Burns <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+Burns <EVENT class="REPORTING" eid="e11">said</EVENT> the <EVENT class="OCCURRENCE" eid="e12">meeting</EVENT> was <EVENT class="I_ACTION" eid="e13">intended</EVENT> "to <EVENT class="I_ACTION" eid="e14">underscore</EVENT> the very strong <EVENT class="OCCURRENCE" eid="e15">support</EVENT> that the United States gives to democratic <EVENT class="OCCURRENCE" eid="e17">change</EVENT> in Serbia."
+
+Albright <EVENT class="OCCURRENCE" eid="e18">met</EVENT> with the three members of the opposition Zajedno coalition, Vuk Draskovic, Zoran Djindjic and Vesna Pesic.
+
+It was the first time the leaders had <EVENT class="OCCURRENCE" eid="e20">met</EVENT> with State Department officials since recent political turmoil <EVENT class="OCCURRENCE" eid="e21">broke</EVENT> out in Serbia.
+
+The high-profile US support also <EVENT class="OCCURRENCE" eid="e22">comes</EVENT> at a crucial time when Serbia prepares for key legislative and presidential <EVENT class="OCCURRENCE" eid="e24">elections</EVENT> at <TIMEX3 type="DATE" value="1997-04-04" tid="t4">the end of the year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

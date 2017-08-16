@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0302</DOCID>
+
+<DCT>OTTAWA, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Canadian PM says Quebec "nation within Canada"</TITLE>
+
+
+<TEXT>
+
+Canadian Prime Minister Stephen Harper <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> he would <EVENT class="OCCURRENCE" eid="e2">introduce</EVENT> a motion <EVENT class="OCCURRENCE" eid="e3">recognizing</EVENT> that "Quebecers form a nation within a united Canada."
+
+"Our position is clear. Do the Quebecois <EVENT class="OCCURRENCE" eid="e5">form</EVENT> a nation within Canada? The answer is yes. Do the Quebecois <EVENT class="OCCURRENCE" eid="e6">form</EVENT> an independent nation? The answer is no and the answer will always be no," Harper <EVENT class="REPORTING" eid="e7">told</EVENT> the House of Commons on <TIMEX3 type="DATE" value="2006-11-22" tid="t2">Wednesday</TIMEX3>.
+
+Harper's motion was <EVENT class="OCCURRENCE" eid="e8">prompted</EVENT> by a Bloc Quebecois motion to be <EVENT class="OCCURRENCE" eid="e9">debated</EVENT> <TIMEX3 type="DATE" value="2006-11-16" tid="t3">Thursday</TIMEX3>. It <EVENT class="I_ACTION" eid="e10">calls</EVENT> for Quebec to be <EVENT class="OCCURRENCE" eid="e11">recognized</EVENT> as a nation but does not <EVENT class="OCCURRENCE" eid="e12">include</EVENT> the words "in Canada."
+
+Harper <EVENT class="REPORTING" eid="e13">said</EVENT> the issue of Quebec's nationhood should not be <EVENT class="OCCURRENCE" eid="e14">decided</EVENT> by the federal government but by the Quebec legislation. However, he <EVENT class="REPORTING" eid="e15">said</EVENT> the Bloc has <EVENT class="OCCURRENCE" eid="e16">forced</EVENT> the government to <EVENT class="OCCURRENCE" eid="e17">take</EVENT> a position.
+
+The Bloc motion, which will be <EVENT class="OCCURRENCE" eid="e18">debated</EVENT> in the House of Commons on <TIMEX3 type="DATE" value="2006-11-23" tid="t4">Thursday</TIMEX3>, <EVENT class="REPORTING" eid="e19">states</EVENT> simply: "That this House <EVENT class="OCCURRENCE" eid="e20">recognizes</EVENT> that Quebecers <EVENT class="OCCURRENCE" eid="e21">form</EVENT> a nation."
+
+Francophone Quebec has previously <EVENT class="OCCURRENCE" eid="e22">held</EVENT> two <EVENT class="OCCURRENCE" eid="e23">referendums</EVENT> on separation, in <TIMEX3 type="DATE" value="1980" tid="t5">1980</TIMEX3> and <TIMEX3 type="DATE" value="1995" tid="t6">1995</TIMEX3>, but <EVENT class="OCCURRENCE" eid="e24">rejected</EVENT> the idea.
+
+The word "nation" is often used in Quebec to <EVENT class="REPORTING" eid="e26">describe</EVENT> the province as a distinct cultural entity, even by anti-separatist politicians such as former Premier Jean Charest.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei24" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

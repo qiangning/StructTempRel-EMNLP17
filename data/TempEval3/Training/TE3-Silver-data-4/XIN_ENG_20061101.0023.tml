@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0023</DOCID>
+
+<DCT>DHAKA, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st Ld: At least 16 people killed in bus accident in Bangladesh</TITLE>
+
+
+<TEXT>
+
+At least 16 people were <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> and 62 others <EVENT class="OCCURRENCE" eid="e2">injured</EVENT> when two passenger buses <EVENT class="OCCURRENCE" eid="e3">collided</EVENT> head on in Bangladesh's northwestern Sirajganj district <TIMEX3 type="DATE" value="2006-11-01" tid="t1">Wednesday</TIMEX3>, police <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Primary report <EVENT class="REPORTING" eid="e5">said</EVENT> the accident <EVENT class="OCCURRENCE" eid="e6">occurred</EVENT> when a bus from capital Dhaka <EVENT class="OCCURRENCE" eid="e7">lost</EVENT> control and <EVENT class="OCCURRENCE" eid="e8">crushed</EVENT> into another bus at about <TIMEX3 type="DATE" value="2006-11-01T15:00Z" tid="t2">11:15 am local time (5:15 GMT</TIMEX3>). Local people <EVENT class="REPORTING" eid="e9">said</EVENT> the casualty figure may <EVENT class="OCCURRENCE" eid="e10">go</EVENT> up as conditions of some of the injured were <EVENT class="STATE" eid="e11">critical</EVENT>.
+
+The injured passengers were <EVENT class="OCCURRENCE" eid="e12">rushed</EVENT> to different hospitals and clinics nearby.
+
+Police <EVENT class="REPORTING" eid="e13">said</EVENT> most passengers of the two buses were <EVENT class="OCCURRENCE" eid="e14">returning</EVENT> to their work places after Muslim's Eid festival and subsequent political agitation that <EVENT class="OCCURRENCE" eid="e15">disrupted</EVENT> communications late <TIMEX3 type="DATE" value="2006-10" tid="t3">last month</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e16">accident</EVENT> on highway is a regular feature in the country where bus drivers do not <EVENT class="OCCURRENCE" eid="e18">take</EVENT> much care of traffic rule while the traffic department does not <EVENT class="OCCURRENCE" eid="e19">monitor</EVENT> the speed limit of vehicles on roads.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0647</DOCID>
+
+<DCT>BRUSSELS, <TIMEX3 tid="t0" type="TIME" value="2005-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 15 , 2005</TIMEX3></DCT>
+
+<TITLE>///</TITLE>
+
+
+<TEXT>
+
+EU leaders <EVENT class="I_ACTION" eid="e1">agreed</EVENT> <TIMEX3 type="DATE" value="2005-12-15" tid="t1">Thursday</TIMEX3> on the urgent need for a budget <EVENT class="OCCURRENCE" eid="e2">deal</EVENT>, British Prime Minister Tony Blair <EVENT class="REPORTING" eid="e3">said</EVENT> after a first day of negotiations on the issue dividing the bloc.
+
+"We're <EVENT class="REPORTING" eid="e6">talking</EVENT> about money, we're <EVENT class="REPORTING" eid="e7">talking</EVENT> about very serious issues for a lot of countries and it's going to be a difficult and tough negotiation," Blair <EVENT class="REPORTING" eid="e8">said</EVENT> after <EVENT class="OCCURRENCE" eid="e9">chairing</EVENT> a first round of <EVENT class="OCCURRENCE" eid="e10">talks</EVENT> at a two-day <EVENT class="OCCURRENCE" eid="e11">summit</EVENT>.
+
+"I <EVENT class="I_STATE" eid="e12">think</EVENT> that everybody <EVENT class="OCCURRENCE" eid="e13">realises</EVENT> that if we are going to <EVENT class="OCCURRENCE" eid="e14">do</EVENT> a deal on the budget, it's <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3>," he <EVENT class="OCCURRENCE" eid="e15">added</EVENT>.
+
+Wrangling over the EU's budget <EVENT class="OCCURRENCE" eid="e17">broke</EVENT> off late <TIMEX3 type="DATE" value="2005-12-15" tid="t6">Thursday</TIMEX3> with European leaders eagerly awaiting fresh proposals from the EU's British <EVENT class="OCCURRENCE" eid="e18">presidency</EVENT> to <EVENT class="OCCURRENCE" eid="e19">break</EVENT> the gridlock.
+
+Blair <EVENT class="I_ACTION" eid="e20">indicated</EVENT> that Britain would <EVENT class="OCCURRENCE" eid="e21">present</EVENT> a set of fresh proposals, so long as there was a point in <EVENT class="OCCURRENCE" eid="e22">doing</EVENT> so.
+
+"Obviously we have <EVENT class="I_STATE" eid="e23">anticipated</EVENT> <EVENT class="OCCURRENCE" eid="e24">doing</EVENT> that and <EVENT class="REPORTING" eid="e25">said</EVENT> to people that we will, but there's got to be a basis for agreement otherwise there's no point in <EVENT class="OCCURRENCE" eid="e27">putting</EVENT> forward proposals."
+
+Leaders had what some have <EVENT class="REPORTING" eid="e28">called</EVENT> a "blunt" <EVENT class="OCCURRENCE" eid="e29">discussions</EVENT> over Britain's existing proposals on <TIMEX3 type="DATE" value="2005-12-15" tid="t7">Thursday</TIMEX3>, even though they did not <EVENT class="OCCURRENCE" eid="e30">get</EVENT> into nitty-gritty <EVENT class="OCCURRENCE" eid="e31">haggling</EVENT> over concrete figures.
+
+A British source <EVENT class="REPORTING" eid="e32">said</EVENT>: "It was a pretty tough <EVENT class="OCCURRENCE" eid="e33">discussion</EVENT>. The good thing is that people <EVENT class="I_STATE" eid="e34">want</EVENT> to <EVENT class="OCCURRENCE" eid="e35">do</EVENT> a deal at this <EVENT class="OCCURRENCE" eid="e36">summit</EVENT>," <EVENT class="REPORTING" eid="e37">said</EVENT> a British source, <EVENT class="OCCURRENCE" eid="e38">speaking</EVENT> on condition of anonymity.
+
+Blair is under particularly fierce pressure to <EVENT class="OCCURRENCE" eid="e39">come</EVENT> up with new proposals that would <EVENT class="OCCURRENCE" eid="e40">cut</EVENT> down Britain's jealously guarded annual rebate budget contributions.
+
+But the British leaders is <EVENT class="OCCURRENCE" eid="e41">refusing</EVENT> to <EVENT class="OCCURRENCE" eid="e42">give</EVENT> ground without guarantees notably on reforms to the EU's long-disputed farm subsidy system, of which France is the main beneficiary.
+
+"It's <EVENT class="I_ACTION" eid="e43">looking</EVENT> difficult but not impossible," <EVENT class="REPORTING" eid="e44">said</EVENT> the British source, <EVENT class="OCCURRENCE" eid="e45">adding</EVENT>: "There isn't an awful lot of room to <EVENT class="OCCURRENCE" eid="e46">play</EVENT> with."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei41" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei34" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei39" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei34" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei29" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei44" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei44" relatedToEventInstance="ei46" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l52" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0616</DOCID>
+
+<DCT>INDIANAPOLIS, Indiana, <TIMEX3 tid="t0" type="TIME" value="2006-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Pacers banish Jackson for bad conduct</TITLE>
+
+
+<TEXT>
+
+Stephen Jackson was <EVENT class="ASPECTUAL" eid="e1">suspended</EVENT> by the Indiana Pacers for <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e2">game</EVENT> at Chicago after a heated exchange with coach Rick Carlisle, the National Basketball Association club <EVENT class="REPORTING" eid="e3">announced</EVENT> <TIMEX3 type="DATE" value="2006-12-11" tid="t2">Monday</TIMEX3>.
+
+The veteran guard's banishment <EVENT class="OCCURRENCE" eid="e4">came</EVENT> for conduct detrimental to the team in a 107-105 <EVENT class="OCCURRENCE" eid="e5">loss</EVENT> <TIMEX3 type="DATE" value="2006-12-09" tid="t4">Saturday</TIMEX3> at Cleveland. He was <EVENT class="OCCURRENCE" eid="e6">replaced</EVENT> by Darrell Armstrong 2:46 before the end of the first half and <EVENT class="I_ACTION" eid="e7">let</EVENT> Carlisle <EVENT class="I_STATE" eid="e8">know</EVENT> he was <EVENT class="I_STATE" eid="e9">unhappy</EVENT> about it.
+
+"I <EVENT class="OCCURRENCE" eid="e10">substituted</EVENT> for (Jackson) and he <EVENT class="OCCURRENCE" eid="e11">came</EVENT> to the bench and an exchange <EVENT class="OCCURRENCE" eid="e12">ensued</EVENT> that I <EVENT class="OCCURRENCE" eid="e13">felt</EVENT> was inappropriate, detrimental to the team, so I <EVENT class="OCCURRENCE" eid="e14">made</EVENT> a <EVENT class="OCCURRENCE" eid="e15">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e16">remove</EVENT> him from the bench," Carlisle <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+"As of right <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3>, this is a one-game situation. I <EVENT class="I_STATE" eid="e18">expect</EVENT> that this is an <EVENT class="OCCURRENCE" eid="e19">incident</EVENT> that is <EVENT class="OCCURRENCE" eid="e20">isolated</EVENT> and will be <EVENT class="OCCURRENCE" eid="e21">dealt</EVENT> with as such."
+
+Notorious for his role in the <EVENT class="OCCURRENCE" eid="e22">riot</EVENT> at <TIMEX3 type="DATE" value="2006-12-11T02:00" tid="t7">Detroit two years ago</TIMEX3>, Jackson was <EVENT class="OCCURRENCE" eid="e23">arrested</EVENT> for allegedly <EVENT class="OCCURRENCE" eid="e24">firing</EVENT> a gun outside an Indianapolis strip club in <TIMEX3 type="DATE" value="2006-10" tid="t8">October</TIMEX3>.
+
+Jackson is <EVENT class="OCCURRENCE" eid="e25">averaging</EVENT> 12.3 points and 3.4 <EVENT class="I_ACTION" eid="e26">assists</EVENT> in 22 games with the Pacers this season, his third with the team.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

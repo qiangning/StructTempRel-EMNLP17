@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970414.0479</DOCID>
+
+<DCT>ADDIS ABABA, <TIMEX3 tid="t0" type="TIME" value="1997-04-14" temporalFunction="false" functionInDocument="CREATION_TIME">April 14 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Supermarket hit in new Ethiopia bomb attack</TITLE>
+
+
+<TEXT>
+
+Unidentified attackers <EVENT class="OCCURRENCE" eid="e1">exploded</EVENT> a device in a supermarket in central Addis Ababa on <TIMEX3 type="DATE" value="1997-04-14" tid="t1">Monday</TIMEX3>, the third such <EVENT class="OCCURRENCE" eid="e2">attack</EVENT> in the Ethiopian capital in <TIMEX3 type="DURATION" value="P3D" tid="t2">three days</TIMEX3>, witnesses <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+An unspecified number of injured were <EVENT class="OCCURRENCE" eid="e4">taken</EVENT> to hospital as police <EVENT class="OCCURRENCE" eid="e5">cordoned</EVENT> off the area following the <EVENT class="OCCURRENCE" eid="e6">blast</EVENT> in the large Le Tana supermarket which <EVENT class="OCCURRENCE" eid="e7">went</EVENT> off at around 5:00 p.m. (1400 GMT).
+
+It was not immediately known if there were any <EVENT class="OCCURRENCE" eid="e8">deaths</EVENT>.
+
+On <TIMEX3 type="DATE" value="1997-04-12" tid="t5">Saturday</TIMEX3>, an Ethiopian barmaid was <EVENT class="OCCURRENCE" eid="e9">killed</EVENT> and 42 other people <EVENT class="OCCURRENCE" eid="e10">injured</EVENT>, including four Britons and two French nationals, when attackers <EVENT class="OCCURRENCE" eid="e11">threw</EVENT> grenades into two restaurants.
+
+Those <EVENT class="OCCURRENCE" eid="e12">attacks</EVENT> have not yet been <EVENT class="REPORTING" eid="e13">claimed</EVENT>.
+
+In <TIMEX3 type="DURATION" value="1996-01" tid="t6">January last year</TIMEX3>, three people were <EVENT class="OCCURRENCE" eid="e14">killed</EVENT> and some 20 others <EVENT class="OCCURRENCE" eid="e15">injured</EVENT> when a bomb <EVENT class="OCCURRENCE" eid="e16">exploded</EVENT> in the capital's luxury Ghion hotel.
+
+That <EVENT class="OCCURRENCE" eid="e17">attack</EVENT> was <EVENT class="REPORTING" eid="e18">claimed</EVENT> by Al-Itihad Al-Islam, a group of ethnic Somalis <EVENT class="OCCURRENCE" eid="e19">fighting</EVENT> for the independence of Ethiopia's southeastern Ogaden region.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IAFTER" />
+<TLINK lid="l30" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+
+
+
+
+</TimeML>

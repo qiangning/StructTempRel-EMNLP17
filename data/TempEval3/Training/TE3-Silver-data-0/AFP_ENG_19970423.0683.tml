@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970423.0683</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-24" temporalFunction="false" functionInDocument="CREATION_TIME">April 24 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>US regrets alleged assault of Japanese woman by US officer in Okinawa</TITLE>
+
+
+<TEXT>
+
+The US Air Force on <TIMEX3 type="DATE" value="1997-04-24" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">expressed</EVENT> "sincere regrets" about the alleged <EVENT class="OCCURRENCE" eid="e2">assault</EVENT> of a 28-year-old local woman in Okinawa by a US servicemen who has been <EVENT class="OCCURRENCE" eid="e3">arrested</EVENT> <TIMEX3 type="DATE" value="1997-W17" tid="t2">this week</TIMEX3>.
+
+Japanese police <EVENT class="REPORTING" eid="e4">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-23" tid="t3">Wednesday</TIMEX3> that Air Force sergeant Danny Matlock, <EVENT class="OCCURRENCE" eid="e5">stationed</EVENT> at the Kadena base on the southern Japanese island, had been <EVENT class="OCCURRENCE" eid="e6">arrested</EVENT> for the Monday <EVENT class="OCCURRENCE" eid="e7">attack</EVENT>.
+
+"The commander of the 353rd SOG (Special Operations Group) <EVENT class="OCCURRENCE" eid="e8">expressed</EVENT> his sincere regrets about this <EVENT class="OCCURRENCE" eid="e9">incident</EVENT>," the US Air Force <EVENT class="REPORTING" eid="e10">said</EVENT> in a statement.
+
+The statement was <EVENT class="OCCURRENCE" eid="e11">issued</EVENT> hours before Japanese Prime Minister Ryutaro Hashimoto's scheduled <EVENT class="OCCURRENCE" eid="e12">departure</EVENT> for the United States, where he will <EVENT class="OCCURRENCE" eid="e13">hold</EVENT> a <EVENT class="OCCURRENCE" eid="e14">summit</EVENT> with President Bill Clinton in Washington on <TIMEX3 type="DATE" value="1997-04-25" tid="t5">Friday</TIMEX3>.
+
+"The Air Force Office of Special Investigations and base officials are <EVENT class="OCCURRENCE" eid="e15">assisting</EVENT> in the <EVENT class="OCCURRENCE" eid="e16">investigation</EVENT> with the Okinawa City Police," the statement <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+No further details are available, it <EVENT class="REPORTING" eid="e18">said</EVENT>, <EVENT class="OCCURRENCE" eid="e19">adding</EVENT>: "The <EVENT class="OCCURRENCE" eid="e20">incident</EVENT> is still under investigation."
+
+The Jiji Press news agency <EVENT class="REPORTING" eid="e21">said</EVENT> he was <EVENT class="I_ACTION" eid="e22">alleged</EVENT> to have <EVENT class="OCCURRENCE" eid="e23">entered</EVENT> the woman's room through a second-floor window and <EVENT class="OCCURRENCE" eid="e24">assaulted</EVENT> her but <EVENT class="OCCURRENCE" eid="e25">escaped</EVENT> when she <EVENT class="OCCURRENCE" eid="e26">screamed</EVENT>.
+
+The rape of a 12-year-old girl by three US servicemen <EVENT class="OCCURRENCE" eid="e27">triggered</EVENT> anti- US base <EVENT class="OCCURRENCE" eid="e28">protests</EVENT> on the island in <TIMEX3 type="DATE" value="1995" tid="t6">1995</TIMEX3>, <EVENT class="I_ACTION" eid="e29">leading</EVENT> to a US pledge <TIMEX3 type="DATE" value="1996" tid="t7">last year</TIMEX3> to <EVENT class="OCCURRENCE" eid="e30">return</EVENT> some 20 percent of Okinawan land used by the US military.
+
+The US forces in Japan also <EVENT class="I_ACTION" eid="e31">vowed</EVENT> to <EVENT class="OCCURRENCE" eid="e32">tighten</EVENT> discipline among its personnel <EVENT class="OCCURRENCE" eid="e33">following</EVENT> the rape.
+
+The southern island prefecture is home to more than half of the 47,000 American troops in Japan and also accounts for about 75 percent of US military facilities on the entire archipelago.
+
+Japanese parliament <EVENT class="OCCURRENCE" eid="e35">passed</EVENT> legislation <TIMEX3 type="DATE" value="1997-W16" tid="t8">last week</TIMEX3> <EVENT class="OCCURRENCE" eid="e36">allowing</EVENT> the US military to <EVENT class="OCCURRENCE" eid="e37">keep</EVENT> <EVENT class="OCCURRENCE" eid="e38">using</EVENT> land in Okinawa despite <EVENT class="OCCURRENCE" eid="e39">protest</EVENT> from landowners and their supporters.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei35" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei31" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei35" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei30" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei29" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+
+
+
+
+</TimeML>

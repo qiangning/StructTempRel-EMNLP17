@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970413.0423</DOCID>
+
+<DCT>ZAGREB, <TIMEX3 tid="t0" type="TIME" value="1997-04-13" temporalFunction="false" functionInDocument="CREATION_TIME">April 13 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Croatian ruling party wins 35 percent in capital: preliminary results</TITLE>
+
+
+<TEXT>
+
+The <EVENT class="OCCURRENCE" eid="e1">ruling</EVENT> Croatian Democratic Union (HDZ) has <EVENT class="OCCURRENCE" eid="e2">won</EVENT> 35.94 percent in the <EVENT class="OCCURRENCE" eid="e3">elections</EVENT> for Zagreb city council, a key battlefield with the <EVENT class="OCCURRENCE" eid="e4">opposition</EVENT>, according to preliminary results <EVENT class="REPORTING" eid="e5">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-07" tid="t1">early Monday</TIMEX3>.
+
+The figures were slightly down from its share of the <EVENT class="OCCURRENCE" eid="e6">vote</EVENT> after local <EVENT class="OCCURRENCE" eid="e7">elections</EVENT> in <TIMEX3 type="DATE" value="1995" tid="t2">1995</TIMEX3> when it <EVENT class="OCCURRENCE" eid="e8">won</EVENT> 36.55 percent.
+
+Electoral commission chairman Ivan Mrkonjic <EVENT class="REPORTING" eid="e9">said</EVENT> that with about half the votes <EVENT class="OCCURRENCE" eid="e10">counted</EVENT>, the opposition Social Democratic Party (SDP) in coalition with the tiny Croatian People's Party (HNS) had <EVENT class="OCCURRENCE" eid="e11">won</EVENT> 23.87 percent, a small <EVENT class="OCCURRENCE" eid="e12">rise</EVENT> on <TIMEX3 type="DATE" value="1995" tid="t3">1995</TIMEX3>.
+
+The Croatian Social and Liberal Party (HSLS) had <EVENT class="OCCURRENCE" eid="e13">won</EVENT> 12.24 percent, as against 12.87 percent it <EVENT class="OCCURRENCE" eid="e14">won</EVENT> <TIMEX3 type="DATE" value="1995" tid="t4">two years ago</TIMEX3>.
+
+In <EVENT class="OCCURRENCE" eid="e15">elections</EVENT> in <TIMEX3 type="DATE" value="1995" tid="t5">1995</TIMEX3>, the opposition <EVENT class="OCCURRENCE" eid="e16">won</EVENT> control of the city council after which Tudjman four times <EVENT class="OCCURRENCE" eid="e17">vetoed</EVENT> their choice of mayor, <EVENT class="OCCURRENCE" eid="e18">drawing</EVENT> international condemnation.
+
+Final results for the local, regional and upper house <EVENT class="OCCURRENCE" eid="e19">polls</EVENT> were <EVENT class="I_STATE" eid="e20">expected</EVENT> <TIMEX3 type="DATE" value="1997-04-13" tid="t6">Monday or Tuesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

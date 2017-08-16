@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061219.0256</DOCID>
+
+<DCT>BISHKEK, <TIMEX3 tid="t0" type="TIME" value="2006-12-19" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 19 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS details, quotes, background ///</TITLE>
+
+
+<TEXT>
+
+Kyrgyzstan's Prime Minister Felix Kulov and the entire government of the Central Asian republic <EVENT class="OCCURRENCE" eid="e1">tendered</EVENT> their resignation <TIMEX3 type="DATE" value="2006-12-19" tid="t1">Tuesday</TIMEX3> in line with a new constitution that requires formation of a fresh cabinet.
+
+"<TIMEX3 type="DATE" value="2006-12-19" tid="t2">Today</TIMEX3>, I <EVENT class="OCCURRENCE" eid="e4">tendered</EVENT> my <EVENT class="OCCURRENCE" eid="e5">resignation</EVENT> to the president," Kulov <EVENT class="REPORTING" eid="e6">said</EVENT> in a national radio <EVENT class="OCCURRENCE" eid="e7">interview</EVENT>. "In that way we <EVENT class="I_STATE" eid="e8">want</EVENT> to <EVENT class="OCCURRENCE" eid="e9">set</EVENT> the conditions for the full-blooded <EVENT class="OCCURRENCE" eid="e11">work</EVENT> of the new constitution."
+
+The constitution was <EVENT class="OCCURRENCE" eid="e12">signed</EVENT> <TIMEX3 type="DATE" value="2006-11-09" tid="t3">November 9</TIMEX3>, significantly <EVENT class="OCCURRENCE" eid="e13">reducing</EVENT> the powers of President Kurmanbek Bakiyev. Under the new basic law, parliament, not the president will <EVENT class="OCCURRENCE" eid="e14">appoint</EVENT> the next premier and government.
+
+Kyrgyzstan, an impoverished but strategically located republic that <EVENT class="OCCURRENCE" eid="e16">hosts</EVENT> both Russian and US air bases, has been <EVENT class="OCCURRENCE" eid="e17">struggling</EVENT> to <EVENT class="OCCURRENCE" eid="e18">stabilise</EVENT> since longtime president Askar Akayev was <EVENT class="OCCURRENCE" eid="e19">overthrown</EVENT> in a street revolt in <TIMEX3 type="DATE" value="2005-03" tid="t4">March 2005</TIMEX3>.
+
+The country has been <EVENT class="STATE" eid="e20">plagued</EVENT> by political unrest, contract <EVENT class="OCCURRENCE" eid="e21">killings</EVENT> and organised crime.
+
+In <TIMEX3 type="DATE" value="2006-11" tid="t5">November</TIMEX3>, opposition demonstrators <EVENT class="OCCURRENCE" eid="e23">spent</EVENT> <TIMEX3 type="DURATION" value="P1W" tid="t6">a week</TIMEX3> <EVENT class="OCCURRENCE" eid="e24">camped</EVENT> out in the main square of Bishkek <EVENT class="OCCURRENCE" eid="e25">demanding</EVENT> constitutional reform.
+
+After an <EVENT class="OCCURRENCE" eid="e26">outbreak</EVENT> of violence, Bakiyev finally <EVENT class="OCCURRENCE" eid="e28">gave</EVENT> in, <EVENT class="OCCURRENCE" eid="e29">signing</EVENT> the new constitution in what he <EVENT class="REPORTING" eid="e30">said</EVENT> was "one more step towards democracy."
+
+The new constitution <EVENT class="OCCURRENCE" eid="e31">limits</EVENT> the president's powers to <EVENT class="OCCURRENCE" eid="e32">dissolve</EVENT> parliament and also <EVENT class="OCCURRENCE" eid="e33">gives</EVENT> the legislature the right to <EVENT class="OCCURRENCE" eid="e34">appoint</EVENT> the government.
+
+Kulov has been prime minister since the <EVENT class="OCCURRENCE" eid="e35">revolution</EVENT>, but his reappointment is not <EVENT class="OCCURRENCE" eid="e36">guaranteed</EVENT> in the deeply divided parliament.
+
+In <TIMEX3 type="DATE" value="2006-05" tid="t7">May 2006</TIMEX3>, Kulov's government <EVENT class="OCCURRENCE" eid="e37">tendered</EVENT> its resignation, but this was not <EVENT class="OCCURRENCE" eid="e39">accepted</EVENT> by Bakiyev.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei37" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei36" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+
+
+
+
+</TimeML>

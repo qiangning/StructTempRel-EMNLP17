@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061130.0231</DOCID>
+
+<DCT>ADDIS ABABA, <TIMEX3 tid="t0" type="TIME" value="2006-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Writethru: Ethiopian parliament authorizes "all necessary" steps against Somalia's UIC</TITLE>
+
+
+<TEXT>
+
+Ethiopia's parliament on <TIMEX3 type="DATE" value="2006-11-30" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">adopted</EVENT> a <EVENT class="OCCURRENCE" eid="e2">resolution</EVENT> authorizing Prime Minister Meles Zenawi-led government to <EVENT class="OCCURRENCE" eid="e4">take</EVENT> "all necessary" steps against the Union of Islamic Courts (UIC) in neighboring Somalia.
+
+"Parliament hereby <EVENT class="I_STATE" eid="e5">authorizes</EVENT> the government to <EVENT class="OCCURRENCE" eid="e6">take</EVENT> all necessary and legal steps to <EVENT class="OCCURRENCE" eid="e7">stave</EVENT> off a declaration of holy war and <EVENT class="OCCURRENCE" eid="e9">invasion</EVENT> by the Union of Islamic Courts against the country," <EVENT class="REPORTING" eid="e10">said</EVENT> the resolution.
+
+"The parliament <EVENT class="I_STATE" eid="e12">believes</EVENT> there is a clear and present danger to our country," it <EVENT class="REPORTING" eid="e13">said</EVENT>. However, it <EVENT class="OCCURRENCE" eid="e14">stressed</EVENT> parliament would <EVENT class="I_STATE" eid="e15">prefer</EVENT> dialogue and peace.
+
+The resolution also <EVENT class="I_ACTION" eid="e16">accused</EVENT> the UIC of "<EVENT class="OCCURRENCE" eid="e17">training</EVENT>, <EVENT class="OCCURRENCE" eid="e18">sheltering</EVENT> and <EVENT class="OCCURRENCE" eid="e19">arming</EVENT> Ethiopian groups that are <EVENT class="I_ACTION" eid="e20">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e21">overthrow</EVENT> the government."
+
+The resolution was <EVENT class="OCCURRENCE" eid="e22">adopted</EVENT> by a 311 to 99 vote with 16 abstentions.
+
+Meles <EVENT class="REPORTING" eid="e23">told</EVENT> foreign journalists on <TIMEX3 type="DATE" value="2006-11-25" tid="t2">Saturday</TIMEX3> that his country would not <EVENT class="OCCURRENCE" eid="e24">wait</EVENT> for foreign <EVENT class="OCCURRENCE" eid="e25">approval</EVENT> to <EVENT class="OCCURRENCE" eid="e26">attack</EVENT> the UIC in Somalia.
+
+"We <EVENT class="OCCURRENCE" eid="e27">respect</EVENT> their views but because it <EVENT class="STATE" eid="e28">is</EVENT> our country which is being <EVENT class="OCCURRENCE" eid="e29">attacked</EVENT>, naturally we do not <EVENT class="I_ACTION" eid="e30">seek</EVENT> any light -- green, red, amber -- from anyone to <EVENT class="OCCURRENCE" eid="e31">protect</EVENT> ourselves," he <EVENT class="REPORTING" eid="e32">said</EVENT>.
+
+The UIC has <EVENT class="OCCURRENCE" eid="e33">seized</EVENT> Somalia's capital of Mogadishu controlled most of southern and central Somalia.
+
+Somalia has been without a functioning central authority since the <TIMEX3 type="DATE" value="1991" tid="t3">1991</TIMEX3> ousting of strongman Mohamed Siad Barre and the two-year- old transitional government has been unable to <EVENT class="REPORTING" eid="e38">assert</EVENT> control.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei38" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei33" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

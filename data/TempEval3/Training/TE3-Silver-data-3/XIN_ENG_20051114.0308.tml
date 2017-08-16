@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051114.0308</DOCID>
+
+<DCT>SOFIA, <TIMEX3 tid="t0" type="TIME" value="2005-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Bulgaria informs allies over Iraq withdrawal plans</TITLE>
+
+
+<TEXT>
+
+The Bulgarian battalion in Iraq will <EVENT class="ASPECTUAL" eid="e1">begin</EVENT> its <EVENT class="OCCURRENCE" eid="e2">withdrawal</EVENT> right after Iraqi parliamentary <EVENT class="OCCURRENCE" eid="e3">elections</EVENT> planned for <TIMEX3 type="DATE" value="2004-12-15" tid="t1">Dec. 15</TIMEX3>, the press office of the Bulgarian Defense Ministry has <EVENT class="REPORTING" eid="e5">announced</EVENT>.
+
+The office <EVENT class="OCCURRENCE" eid="e6">released</EVENT> a piece of news that the country's Defense Minister Vesselin Bliznakov had <EVENT class="OCCURRENCE" eid="e7">sent</EVENT> a letter to the allies in " Central-South" Iraq under Polish command thus officially <EVENT class="REPORTING" eid="e8">informing</EVENT> them of Sofia's plans for <EVENT class="OCCURRENCE" eid="e9">withdrawal</EVENT>.
+
+In the letter Minister Bliznakov also <EVENT class="REPORTING" eid="e10">informed</EVENT> the partners that the Bulgarian Parliament has <EVENT class="I_STATE" eid="e11">authorized</EVENT> Council of Ministers to <EVENT class="OCCURRENCE" eid="e12">negotiate</EVENT> the "appropriate forms" in future participation in the coalition under the UN solutions and EU and US position on Iraq.
+
+The biggest local newspaper "TRUD" <EVENT class="OCCURRENCE" eid="e13">revealed</EVENT> earlier that the Bulgarian government is <EVENT class="I_STATE" eid="e14">planning</EVENT> to <EVENT class="OCCURRENCE" eid="e15">resend</EVENT> to Iraq a team of 300 soldiers for non-military task.
+
+The National Assembly (Parliament) of Bulgaria <EVENT class="OCCURRENCE" eid="e16">approved</EVENT> in <TIMEX3 type="DATE" value="2005-05" tid="t2">May</TIMEX3> a government plan to <EVENT class="OCCURRENCE" eid="e17">withdraw</EVENT> the country's 400 troops in Diwaniya, Iraq by <TIMEX3 type="DATE" value="2005-11-14" tid="t3">the end of the year</TIMEX3> after a long mandate of <TIMEX3 type="DURATION" value="P2Y" tid="t4">more than 2 years</TIMEX3>. Thirteen Bulgarian soldiers have already <EVENT class="OCCURRENCE" eid="e18">died</EVENT> there by <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

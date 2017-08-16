@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0077</DOCID>
+
+<DCT>KAMPALA, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Uganda to seal potholes in capital city</TITLE>
+
+
+<TEXT>
+
+The local authority of Uganda's capital city of Kampala has <EVENT class="OCCURRENCE" eid="e1">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e2">release</EVENT> 7,000 U.S. dollars <TIMEX3 type="SET" value="P1W" tid="t1">every week</TIMEX3> to <EVENT class="OCCURRENCE" eid="e3">seal</EVENT> potholes in the city centre.
+
+The acting town clerk of Kampala City Council (KCC) Ruth Kijjambu was <EVENT class="OCCURRENCE" eid="e5">quoted</EVENT> by New Vision on <TIMEX3 type="DATE" value="2006-11-07" tid="t2">Tuesday</TIMEX3> as <EVENT class="REPORTING" eid="e6">saying</EVENT> the KCC engineering department would <EVENT class="OCCURRENCE" eid="e7">carry</EVENT> out the <EVENT class="OCCURRENCE" eid="e8">works</EVENT> "as long as funds are available."
+
+She <EVENT class="REPORTING" eid="e9">said</EVENT> major roads like Jinja Road, which have gigantic potholes, would be <EVENT class="I_STATE" eid="e10">considered</EVENT> first.
+
+"We have <EVENT class="OCCURRENCE" eid="e11">decided</EVENT> to <EVENT class="STATE" eid="e12">have</EVENT> a weekly <EVENT class="OCCURRENCE" eid="e13">monitoring</EVENT> of potholes to <EVENT class="I_ACTION" eid="e14">avoid</EVENT> their accumulation and enlargement," Kijjambu <EVENT class="REPORTING" eid="e15">said</EVENT>. KCC <EVENT class="OCCURRENCE" eid="e16">budgeted</EVENT> over 1 million dollar to <EVENT class="OCCURRENCE" eid="e17">repair</EVENT> its broken-down roads.
+
+<TIMEX3 type="DATE" value="2006-W44" tid="t3">Last week</TIMEX3>, KCC <EVENT class="ASPECTUAL" eid="e18">started</EVENT> <EVENT class="OCCURRENCE" eid="e19">sealing</EVENT> the pothole at Old Port Bell Road, which <TIMEX3 type="DATE" value="PAST_REF" tid="t4">recently</TIMEX3> <EVENT class="OCCURRENCE" eid="e20">felled</EVENT> at least three heavy trucks in <TIMEX3 type="DURATION" value="P1W" tid="t5">one week</TIMEX3>.
+
+Meanwhile, Kampala mayor Nasser Sebaggala <EVENT class="REPORTING" eid="e21">said</EVENT> negotiations were <EVENT class="OCCURRENCE" eid="e23">going</EVENT> on with the Chinese government to <EVENT class="OCCURRENCE" eid="e24">supply</EVENT> KCC with road construction equipment worth 10 million dollars through a long- term loan.
+
+Sebaggala <EVENT class="REPORTING" eid="e25">said</EVENT> the city council <EVENT class="I_STATE" eid="e26">expects</EVENT> 35 million U.S. dollars from the World Bank, part of which would be <EVENT class="OCCURRENCE" eid="e27">used</EVENT> on road repairs.
+
+He <EVENT class="REPORTING" eid="e28">said</EVENT> the central government also <EVENT class="I_ACTION" eid="e29">promised</EVENT> to <EVENT class="OCCURRENCE" eid="e30">repair</EVENT> some of the roads in preparations for the Commonwealth <EVENT class="OCCURRENCE" eid="e31">summit</EVENT> in <TIMEX3 type="DATE" value="2007-11" tid="t6">November next year</TIMEX3>.
+
+"If we <EVENT class="OCCURRENCE" eid="e32">succeed</EVENT> with the funding, we <EVENT class="I_STATE" eid="e33">hope</EVENT> we shall not <EVENT class="OCCURRENCE" eid="e34">fail</EVENT> to <EVENT class="OCCURRENCE" eid="e35">do</EVENT> away with the potholes, and <EVENT class="OCCURRENCE" eid="e36">improve</EVENT> on the traffic flow," he <EVENT class="REPORTING" eid="e38">said</EVENT>.
+
+Due to lack of financial <EVENT class="OCCURRENCE" eid="e39">support</EVENT> in maintenance and repair, most of the major roads in and outside of Kampala city were <EVENT class="OCCURRENCE" eid="e42">damaged</EVENT> with potholes, which considerably <EVENT class="I_STATE" eid="e43">constrained</EVENT> the traffic flow in the country.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei32" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToEventInstance="ei38" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei33" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei38" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei39" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l51" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+
+
+
+
+</TimeML>

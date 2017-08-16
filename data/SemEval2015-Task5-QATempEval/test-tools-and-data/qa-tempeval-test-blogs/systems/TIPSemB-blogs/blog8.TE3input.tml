@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>2337816.male.23.Communications-Media.Sagittarius.xml</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2004-05-13" temporalFunction="false" functionInDocument="CREATION_TIME">13,May,2004</TIMEX3></DCT>
+<TEXT>
+Tick Tock... Well I'm pretty much all set for this Saturday's exam...at least that's how I <EVENT class="PERCEPTION" eid="e1">see</EVENT> it... Already <EVENT class="OCCURRENCE" eid="e2">done</EVENT> my pre-exam ritual of <EVENT class="PERCEPTION" eid="e3">watching</EVENT> a movie...Caught Kill Bill Vol.2 with Clarisse...after that the usual <EVENT class="REPORTING" eid="e4">talk</EVENT> about her favorite topic...her visions of my <TIMEX3 type="DATE" value="FUTURE_REF" tid="t1">future</TIMEX3> life with Rina... I <EVENT class="OCCURRENCE" eid="e5">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e6">entertain</EVENT> her 'visions'...but then again she's the one who <EVENT class="OCCURRENCE" eid="e7">introduced</EVENT> us in the first place... So I <EVENT class="I_STATE" eid="e8">think</EVENT> if we really <EVENT class="OCCURRENCE" eid="e9">hook</EVENT> up in the end then she'll <EVENT class="PERCEPTION" eid="e10">see</EVENT> that her match-making venture did bear fruit in the end... I've one more day to <EVENT class="OCCURRENCE" eid="e11">go</EVENT> before I fully <EVENT class="OCCURRENCE" eid="e12">get</EVENT> the books out of my way... <EVENT class="OCCURRENCE" eid="e13">Remember</EVENT> I do not <EVENT class="ASPECTUAL" eid="e14">open</EVENT> my textbooks on exam eve... Maybe I'll <EVENT class="OCCURRENCE" eid="e15">sneak</EVENT> a peak tomorrow...it's <TIMEX3 type="DATE" value="2004-05-20" tid="t2">Thursday</TIMEX3>...just to <EVENT class="OCCURRENCE" eid="e16">clarify</EVENT> some of the things that have yet to be fully <EVENT class="STATE" eid="e17">understood</EVENT>... Of course I have some doubts about my study and pre-exam rituals...but then again there's always the case of the pre-exam jitters <EVENT class="OCCURRENCE" eid="e18">setting</EVENT> in... Well as I always <EVENT class="REPORTING" eid="e19">say</EVENT>... Whateva Floats Your Boat... 
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t1" />
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t2" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l4" relType="INCLUDES" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei1" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei1" />
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei4" relatedToEventInstance="ei1" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei1" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei1" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei1" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei1" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei1" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei1" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei11" relatedToEventInstance="ei1" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei1" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei1" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei14" relatedToEventInstance="ei1" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei1" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei1" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei1" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei1" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei1" />
+</TimeML>

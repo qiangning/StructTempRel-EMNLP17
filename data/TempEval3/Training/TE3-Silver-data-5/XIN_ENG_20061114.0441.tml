@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0441</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chain stores investigated for selling toxic clothes</TITLE>
+
+
+<TEXT>
+
+Beijing consumer watchdogs are <EVENT class="I_ACTION" eid="e1">investigating</EVENT> how Wal-Mart, Carrefour and other leading chain stores <EVENT class="OCCURRENCE" eid="e2">came</EVENT> to be <EVENT class="OCCURRENCE" eid="e3">selling</EVENT> clothes containing cancer-causing chemicals.
+
+Twenty-eight brands of clothes <EVENT class="OCCURRENCE" eid="e4">failed</EVENT> inspections by the Beijing Industry and Commerce Administration (BICA), and four brands were <EVENT class="OCCURRENCE" eid="e6">found</EVENT> to <EVENT class="OCCURRENCE" eid="e7">contain</EVENT> excessive levels of toxic aromatic ammine or formaldehyde.
+
+The four brands were "Ming-Langdike" <EVENT class="OCCURRENCE" eid="e8">skirts</EVENT> (size 11) made by the Guangzhou Disheng company, "Pusheng" blouses (155/80A) by the Shanghai Pusheng, "Jeanberger" trousers (170/80A) by the Shenzhen Zhonghang and "Hafulu" trousers (size 23) by the Guangdong Hafulu.
+
+The full list of failed items has been <EVENT class="OCCURRENCE" eid="e10">published</EVENT> on the BICA website.
+
+Experts <EVENT class="REPORTING" eid="e11">said</EVENT> aromatic ammine and formaldehyde were both carcinogenic substances. The former is <EVENT class="OCCURRENCE" eid="e12">banned</EVENT> in many other countries as a dye and the latter should be <EVENT class="OCCURRENCE" eid="e13">cleaned</EVENT> from end products.
+
+The BICA <EVENT class="REPORTING" eid="e14">said</EVENT> it <EVENT class="OCCURRENCE" eid="e15">seized</EVENT> all failed clothes from the stores, and both the producers and sellers would <EVENT class="OCCURRENCE" eid="e17">face</EVENT> prosecution.
+
+"They could be <EVENT class="OCCURRENCE" eid="e18">fined</EVENT> up to three times the revenue they <EVENT class="OCCURRENCE" eid="e19">got</EVENT> from <EVENT class="OCCURRENCE" eid="e20">selling</EVENT> the goods," an official with the administration <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+"The problematic trousers are no longer <EVENT class="OCCURRENCE" eid="e22">sold</EVENT> in our stores," a Wal-Mart representative <EVENT class="REPORTING" eid="e23">said</EVENT>, <EVENT class="OCCURRENCE" eid="e24">adding</EVENT> he was <EVENT class="STATE" eid="e25">unaware</EVENT> of the <EVENT class="OCCURRENCE" eid="e26">investigation</EVENT>.
+
+Carrefour's Fangyuan chain store, Lotus Liuliqiao chain store and Wangfujing Women's Collection were also <EVENT class="OCCURRENCE" eid="e27">listed</EVENT> for selling clothes that <EVENT class="OCCURRENCE" eid="e28">failed</EVENT> inspections.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei14" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

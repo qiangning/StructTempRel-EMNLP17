@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051126.0121</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="2005-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Some 2.8 tons of drugs seized in southeastern Iran in three days</TITLE>
+
+
+<TEXT>
+
+Iranian anti-drug police have <EVENT class="OCCURRENCE" eid="e1">seized</EVENT> some 2.8 tons of illicit drugs in the southeastern city of Zahedan during <TIMEX3 type="DURATION" value="P3D" tid="t1">the past three days</TIMEX3>, the official IRNA news agency <EVENT class="REPORTING" eid="e2">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-26" tid="t2">Saturday</TIMEX3>.
+
+The massive haul, including 2,000 kg of opium, 400 kg of hashish, 400 kg of heroin and some narcotics, were <EVENT class="OCCURRENCE" eid="e4">seized</EVENT> when police <EVENT class="OCCURRENCE" eid="e5">searched</EVENT> suspected vehicles in the city during a drug- busting operation, a police officer was <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> by the IRNA as <EVENT class="REPORTING" eid="e8">saying</EVENT>.
+
+Over 100 weapons were also <EVENT class="OCCURRENCE" eid="e9">confiscated</EVENT> during the <EVENT class="OCCURRENCE" eid="e10">operation</EVENT> and 39 drug traffickers <EVENT class="OCCURRENCE" eid="e11">arrested</EVENT>, the officer <EVENT class="OCCURRENCE" eid="e12">added</EVENT>.
+
+Zahedan is the capital city of the Sistan-Baluchestan province, which <EVENT class="OCCURRENCE" eid="e13">shares</EVENT> a 1,100-km border with Pakistan and Afghanistan.
+
+Drug addiction and transportation has been a serious social problem in Iran, a country sitting in the crossroad linking drug <EVENT class="OCCURRENCE" eid="e15">producing</EVENT> Afghanistan and Pakistan and markets in the Persian Gulf states, central Asia, western Europe and other regions.
+
+<EVENT class="REPORTING" eid="e16">According</EVENT> to official statistics, there are at least 2 million drug addicts in Iran.
+
+The country also accounts for 80 percent of the opium and 90 percent of the morphine <EVENT class="OCCURRENCE" eid="e18">intercepted</EVENT> worldwide, <EVENT class="REPORTING" eid="e19">according</EVENT> to the International Narcotics Control Board.
+
+The Islamic Republic <EVENT class="OCCURRENCE" eid="e20">spends</EVENT> 5 billion US dollars annually on anti-drug programs, and over 3,100 police have <EVENT class="OCCURRENCE" eid="e21">lost</EVENT> their lives in clashes with drug smugglers during <TIMEX3 type="DURATION" value="2005-11-26T02:00" tid="t3">the past two decades</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

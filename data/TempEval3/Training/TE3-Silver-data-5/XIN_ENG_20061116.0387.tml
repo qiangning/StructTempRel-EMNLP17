@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0387</DOCID>
+
+<DCT>QUITO, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Ecuador begins WTO process against EU over banana tariff</TITLE>
+
+
+<TEXT>
+
+The Ecuadorian government on <TIMEX3 type="DATE" value="2006-11-16" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">sent</EVENT> a letter to the World Trade Organization (WTO) to <EVENT class="I_ACTION" eid="e2">appeal</EVENT> against the European Union's tariff on imported bananas.
+
+The letter <EVENT class="REPORTING" eid="e3">said</EVENT> the EU tariff of 176 euros per ton, which <EVENT class="OCCURRENCE" eid="e4">took</EVENT> effect on <TIMEX3 type="DATE" value="2006-01-01" tid="t2">Jan. 1</TIMEX3>, had <EVENT class="OCCURRENCE" eid="e5">reduced</EVENT> Ecuador's market share in Europe by 6.4 percent, though the total tonnage of bananas has <EVENT class="OCCURRENCE" eid="e6">increased</EVENT>.
+
+The letter is the first step of an arbitration <EVENT class="STATE" eid="e7">process</EVENT>. WTO procedures usually <EVENT class="OCCURRENCE" eid="e8">give</EVENT> two conflicting sides <TIMEX3 type="DURATION" value="P2M" tid="t3">two months</TIMEX3> to <EVENT class="OCCURRENCE" eid="e9">reach</EVENT> a <EVENT class="OCCURRENCE" eid="e10">compromise</EVENT> before a group of referees are <EVENT class="I_STATE" eid="e11">authorized</EVENT> to <EVENT class="OCCURRENCE" eid="e12">arbitrate</EVENT>.
+
+The EU has already <EVENT class="OCCURRENCE" eid="e13">reduced</EVENT> its tariffs from the initial 230 dollars per ton when <EVENT class="OCCURRENCE" eid="e14">faced</EVENT> with similar arbitrage processes.
+
+According to statistics of Ecuador's central bank, the world's largest banana exporter <EVENT class="OCCURRENCE" eid="e16">sold</EVENT> bananas worth nearly 1.1 billion dollars to Europe in <TIMEX3 type="DATE" value="2005" tid="t4">2005</TIMEX3>, up 6 percent from <TIMEX3 type="DATE" value="2004" tid="t5">the previous year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000016" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1000016" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei1000016" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

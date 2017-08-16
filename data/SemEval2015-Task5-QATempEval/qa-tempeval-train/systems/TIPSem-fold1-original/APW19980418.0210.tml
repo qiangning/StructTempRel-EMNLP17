@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>APW19980418.0210</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-04-18T06:07:00" temporalFunction="false" functionInDocument="CREATION_TIME">04/18/1998 06:07:00</TIMEX3></DCT>
+
+<EXTRAINFO>
+APW19980418.0210 NEWS STORY 04/18/1998 06:07:00
+w1416 Cx1f wstmr i Cx13 Cx11 BC-Hungary-Astronaut 04-18 0248
+BC-Hungary-Astronaut
+First and only Hungarian astronaut moving to the United States
+</EXTRAINFO>
+
+
+
+<TEXT>
+BUDAPEST, Hungary (AP)_ Tired of being <EVENT class="OCCURRENCE" eid="e1">sidelined</EVENT>, Hungarian astronaut Bertalan Farkas is <EVENT class="OCCURRENCE" eid="e2">leaving</EVENT> for the United States to <EVENT class="ASPECTUAL" eid="e3">start</EVENT> a new career, he <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1998-04-18" tid="t1">Saturday</TIMEX3>. ``Being 48 is too early to be <EVENT class="OCCURRENCE" eid="e5">retired</EVENT>,'' a fit-looking Farkas <EVENT class="REPORTING" eid="e6">said</EVENT> on state TV's morning talk show. With American astronaut Jon McBride, Farkas <EVENT class="OCCURRENCE" eid="e7">set</EVENT> up an American-Hungarian joint venture called <TIMEX3 type="DATE" value="1980" tid="t2">Orion 1980</TIMEX3>, <EVENT class="OCCURRENCE" eid="e9">manufacturing</EVENT> space-travel related technology. Farkas will <EVENT class="OCCURRENCE" eid="e10">move</EVENT> to the company's U.S. headquarters. Farkas, an air force captain, was <EVENT class="OCCURRENCE" eid="e11">sent</EVENT> into space on board the Soyuz 36 on <TIMEX3 type="DATE" value="1980-05-26" tid="t3">May 26, 1980</TIMEX3>. He <EVENT class="OCCURRENCE" eid="e12">spent</EVENT> six days aboard the Salyut 6 spacecraft with three Soviet astronauts, Valery Kubasov, Leonid Popov and Valery Riumin. McBride, 54, of Lewisburg, West Virginia, was part of a seven-member crew aboard the Orbiter Challenger in <TIMEX3 type="DATE" value="1984-10" tid="t6">October 1984</TIMEX3> and later <EVENT class="OCCURRENCE" eid="e14">served</EVENT> as assistant administrator for congressional relations for NASA. Farkas <EVENT class="OCCURRENCE" eid="e15">expressed</EVENT> the hope he one day <EVENT class="OCCURRENCE" eid="e16">follow</EVENT> in the <EVENT class="OCCURRENCE" eid="e17">footsteps</EVENT> of fellow astronaut John Glenn, who at 77 is about to <EVENT class="OCCURRENCE" eid="e18">go</EVENT> into space again. On <TIMEX3 type="DATE" value="1995-05-22" tid="t8">May 22, 1995</TIMEX3>, Farkas was <EVENT class="OCCURRENCE" eid="e19">made</EVENT> a brigadier general, and <TIMEX3 type="DATE" value="1999" tid="t10">the following year</TIMEX3> he was <EVENT class="OCCURRENCE" eid="e20">appointed</EVENT> military attache at the Hungarian embassy in Washington. However, <EVENT class="REPORTING" eid="e21">cited</EVENT> by District of Columbia traffic police in <TIMEX3 type="DATE" value="1997-12" tid="t11">December</TIMEX3> for <EVENT class="OCCURRENCE" eid="e22">driving</EVENT> under the influence of alcohol, Farkas was <EVENT class="OCCURRENCE" eid="e24">ordered</EVENT> home and retired. (ab/dc)
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t1" />
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei4" />
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" />
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t2" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei7" relatedToEventInstance="ei9" />
+<TLINK lid="l13" relType="AFTER" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei10" />
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t3" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei11" relatedToEventInstance="ei12" />
+<TLINK lid="l20" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t6" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei14" />
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l24" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei16" />
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei17" />
+<TLINK lid="l27" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei18" />
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t8" />
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t10" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei19" />
+<TLINK lid="l32" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei20" />
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t11" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei24" />
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei24" />
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei24" />
+<LASTEXTRAINFO>
+(PROFILE (WS SL:BC-Hungary-Astronaut; CT:i; (REG:EURO;) (REG:BRIT;) (REG:SCAN;) (REG:ENGL;) (LANG:ENGLISH;)) )
+AP-NY-04-18-98 0607EDT
+</LASTEXTRAINFO>
+</TimeML>
+

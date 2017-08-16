@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051105.0104</DOCID>
+
+<DCT>BAKU, <TIMEX3 tid="t0" type="TIME" value="2005-11-05" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 5 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Azerbaijan starts parliamentary elections amid opposition protests</TITLE>
+
+
+<TEXT>
+
+Some 4.66 million registered voters in Azerbaijan <TIMEX3 type="DATE" value="2005-11-05" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">went</EVENT> to the polls amid opposition <EVENT class="OCCURRENCE" eid="e2">protests</EVENT>.
+
+The oppositions <EVENT class="REPORTING" eid="e4">said</EVENT> the elections to <EVENT class="I_ACTION" eid="e6">choose</EVENT> the 125-seat Milli Majlis, or national assembly, have been <EVENT class="OCCURRENCE" eid="e7">marked</EVENT> by "harassment" as a leading opposition party's campaign leader has been <EVENT class="OCCURRENCE" eid="e8">kept</EVENT> under <EVENT class="OCCURRENCE" eid="e9">arrest</EVENT> for <TIMEX3 type="DATE" value="P3D" tid="t2">a third day</TIMEX3>.
+
+Faramaz Javadov, campaign manager for the Democratic Party, was reportedly <EVENT class="OCCURRENCE" eid="e10">arrested</EVENT> in a <EVENT class="OCCURRENCE" eid="e11">raid</EVENT> on the party's election headquarters on <TIMEX3 type="TIME" value="2005-11-03TEV" tid="t3">Thursday evening</TIMEX3>.
+
+Opposition parties of the country, including Javadov's Democratic Party, which are <EVENT class="OCCURRENCE" eid="e12">united</EVENT> in the the Azadlyq (Freedom) Bloc, have <EVENT class="I_ACTION" eid="e13">promised</EVENT> <EVENT class="OCCURRENCE" eid="e14">demonstrations</EVENT> if any <EVENT class="OCCURRENCE" eid="e15">fraud</EVENT> is <EVENT class="OCCURRENCE" eid="e16">detected</EVENT>.
+
+<EVENT class="I_ACTION" eid="e17">Pledging</EVENT> a fair and transparent <EVENT class="OCCURRENCE" eid="e18">vote</EVENT>, an Interior Ministry spokesman <EVENT class="REPORTING" eid="e19">said</EVENT> Javadov was <EVENT class="OCCURRENCE" eid="e20">arrested</EVENT> when police were <EVENT class="OCCURRENCE" eid="e21">searching</EVENT> his offices after a tip-off about illegal weapons.
+
+"Faramaz Javadov <EVENT class="OCCURRENCE" eid="e23">put</EVENT> up resistance and he was therefore <EVENT class="OCCURRENCE" eid="e24">arrested</EVENT> for <EVENT class="OCCURRENCE" eid="e25">obstructing</EVENT> police." <EVENT class="REPORTING" eid="e26">said</EVENT> the spokesman.
+
+The government of President Ilham Aliyev has <EVENT class="OCCURRENCE" eid="e27">introduced</EVENT> a package of anti-fraud measures, including <EVENT class="STATE" eid="e28">applying</EVENT> special ink on voters' fingers to <EVENT class="I_ACTION" eid="e29">prevent</EVENT> multiple <EVENT class="OCCURRENCE" eid="e30">voting</EVENT> in the <EVENT class="OCCURRENCE" eid="e31">elections</EVENT> which have <EVENT class="OCCURRENCE" eid="e32">drawn</EVENT> much attention from western countries.
+
+Meanwhile, the voting process in the oil-rich nation of eight million people will also be <EVENT class="PERCEPTION" eid="e33">watched</EVENT> by about 2,000 Azeri monitors, as well as 1,291 foreign observers.
+
+The polls will be <EVENT class="OCCURRENCE" eid="e34">closed</EVENT> at 1500 GMT and preliminary results are <EVENT class="I_STATE" eid="e36">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e37">come</EVENT> out within <TIMEX3 type="DURATION" value="PT24H" tid="t5">24 hours</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei34" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei33" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei37" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei19" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

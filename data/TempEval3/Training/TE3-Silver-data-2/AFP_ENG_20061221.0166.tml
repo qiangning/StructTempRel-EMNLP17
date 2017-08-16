@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061221.0166</DOCID>
+
+<DCT>ORDUBAD, Azerbaijan, <TIMEX3 tid="t0" type="TIME" value="2006-12-21" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 21 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Azerbaijan to meet Gazprom over gas price hike</TITLE>
+
+
+<TEXT>
+
+Azerbaijani officials are to <EVENT class="OCCURRENCE" eid="e1">hold</EVENT> <EVENT class="OCCURRENCE" eid="e2">talks</EVENT> <TIMEX3 type="DATE" value="2006-12-22" tid="t1">Friday</TIMEX3> with Russian gas giant Gazprom over an <EVENT class="OCCURRENCE" eid="e3">increase</EVENT> in Russian gas export prices, the head of Azerbaijan's state oil company <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-12-21" tid="t2">Thursday</TIMEX3>.
+
+"<EVENT class="OCCURRENCE" eid="e5">Talks</EVENT> between Azerbaijani government representatives and Gazprom on the issues of the price and volume of delivery of gas will <EVENT class="ASPECTUAL" eid="e6">begin</EVENT> in Moscow <TIMEX3 type="DATE" value="2006-12-22" tid="t3">tomorrow</TIMEX3>," Rovnag Abdullayev, head of Azerbaijan's state oil company SOCAR <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+Russia's state gas monopoly Gazprom <EVENT class="I_STATE" eid="e8">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e9">increase</EVENT> the price for gas <EVENT class="OCCURRENCE" eid="e10">sold</EVENT> to Azerbaijan from 110 dollars per 1,000 cubic meters to 230 dollars as part of a series of price <EVENT class="OCCURRENCE" eid="e11">hikes</EVENT> for former Soviet republics.
+
+It also <EVENT class="I_STATE" eid="e12">wants</EVENT> to more that <EVENT class="OCCURRENCE" eid="e13">halve</EVENT> its annual <EVENT class="OCCURRENCE" eid="e14">deliveries</EVENT> of some four billion cubic meters to Azerbaijan, potentially <EVENT class="OCCURRENCE" eid="e15">creating</EVENT> a shortage of the fuel in the Caspian state, which <EVENT class="STATE" eid="e17">has</EVENT> major oil and gas reserves of its own, but <EVENT class="OCCURRENCE" eid="e18">suffers</EVENT> from poor infrastructure.
+
+"Azerbaijani consumers will not be <EVENT class="OCCURRENCE" eid="e19">left</EVENT> without gas," Abdullayev <EVENT class="REPORTING" eid="e20">told</EVENT> journalists during a <EVENT class="OCCURRENCE" eid="e21">visit</EVENT> to Azerbaijan's Nakhchivan region.
+
+Azerbaijan has <EVENT class="OCCURRENCE" eid="e22">reacted</EVENT> to Gazprom's demands by <EVENT class="I_ACTION" eid="e23">threatening</EVENT> to <EVENT class="OCCURRENCE" eid="e24">cut</EVENT> exports of its own oil through Russian territory, in a <EVENT class="OCCURRENCE" eid="e25">move</EVENT> that would <EVENT class="I_STATE" eid="e26">deprive</EVENT> Russia of lucrative transit fees.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

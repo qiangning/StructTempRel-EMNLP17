@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0021</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>New tropical depression threatens northern Philippines</TITLE>
+
+
+<TEXT>
+
+<TIMEX3 type="DURATION" value="P1W" tid="t1">A week</TIMEX3> after typhoon Cimaron <EVENT class="OCCURRENCE" eid="e1">lashed</EVENT> the Philippines, a new tropical depression is <EVENT class="OCCURRENCE" eid="e2">closing</EVENT> in northern Luzon, the state weather bureau <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-09" tid="t2">Thursday</TIMEX3>.
+
+The Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) <EVENT class="REPORTING" eid="e4">said</EVENT> that as of 10 a.m., tropical depression "Queenie" was <EVENT class="I_ACTION" eid="e5">estimated</EVENT> at 1,040 kilometers east of northern Luzon, with maximum sustained winds of 55 kilometers per hour (kph) near the center.
+
+PAGASA <EVENT class="REPORTING" eid="e6">said</EVENT> Queenie was <EVENT class="OCCURRENCE" eid="e7">moving</EVENT> west at 19 kph and was <EVENT class="I_STATE" eid="e8">expected</EVENT> to be 700 kilometers east southeast of northern Luzon by <TIMEX3 type="DATE" value="2006-11-03TMO" tid="t4">Friday morning</TIMEX3>; 330 kilometers east southeast of northern Luzon <TIMEX3 type="DATE" value="2006-11-04TMO" tid="t5">Saturday morning</TIMEX3>; and in the vicinity of Aparri, Cagayan by <TIMEX3 type="DATE" value="2006-11-05TMO" tid="t6">Sunday morning</TIMEX3>.
+
+Cagayan province was among the hardest-hit areas when Cimaron <EVENT class="OCCURRENCE" eid="e9">lashed</EVENT> Luzon <TIMEX3 type="DATE" value="2006-W44" tid="t7">last week</TIMEX3>.
+
+But PAGASA <EVENT class="REPORTING" eid="e10">said</EVENT> Queenie is not <EVENT class="STATE" eid="e11">likely</EVENT> to <EVENT class="STATE" eid="e12">affect</EVENT> any part of the country within <TIMEX3 type="DURATION" value="PT24H" tid="t8">the next 24 hours</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000008" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000009" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei1000008" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei1000009" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1000008" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1000009" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

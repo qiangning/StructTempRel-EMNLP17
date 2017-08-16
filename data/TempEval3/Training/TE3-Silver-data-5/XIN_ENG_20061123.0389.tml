@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0389</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nepali gov't constitutes a peace fund</TITLE>
+
+
+<TEXT>
+
+The Nepali government has <EVENT class="STATE" eid="e1">constituted</EVENT> a peace fund to <EVENT class="OCCURRENCE" eid="e2">generate</EVENT> resources from internal and external <EVENT class="OCCURRENCE" eid="e3">assistance</EVENT> to <EVENT class="OCCURRENCE" eid="e4">move</EVENT> ahead the ongoing peace process in the country, local Kantipur daily <EVENT class="REPORTING" eid="e5">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3>.
+
+"The <EVENT class="OCCURRENCE" eid="e6">meeting</EVENT> of Council of Ministers on <TIMEX3 type="DATE" value="2006-11-21" tid="t2">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e7">decided</EVENT> in this regard," the daily <EVENT class="REPORTING" eid="e8">reported</EVENT> <EVENT class="OCCURRENCE" eid="e9">referring</EVENT> to an official at the Ministry of Finance.
+
+"The government <EVENT class="I_STATE" eid="e10">needs</EVENT> 85,714 million U.S. dollars immediately, the source said."We <EVENT class="OCCURRENCE" eid="e12">aim</EVENT> to <EVENT class="OCCURRENCE" eid="e13">generate</EVENT> that much amount through the peace fund," the official <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+As per plan, the works including physical infrastructure <EVENT class="OCCURRENCE" eid="e15">development</EVENT>, election to constituent assembly, rehabilitation, employment and security of displaced people will be <EVENT class="OCCURRENCE" eid="e16">carried</EVENT> out through this fund.
+
+"We are <EVENT class="I_STATE" eid="e17">planning</EVENT> to <EVENT class="OCCURRENCE" eid="e18">request</EVENT> internal and external donors soon to <EVENT class="I_ACTION" eid="e19">assist</EVENT> for the fund," the official <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+The government has <EVENT class="OCCURRENCE" eid="e21">put</EVENT> 1.4 million dollars as seed money in the fund.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+
+
+
+
+</TimeML>

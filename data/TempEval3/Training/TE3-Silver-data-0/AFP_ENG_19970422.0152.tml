@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970422.0152</DOCID>
+
+<DCT>BONN, <TIMEX3 tid="t0" type="TIME" value="1997-04-22" temporalFunction="false" functionInDocument="CREATION_TIME">April 22 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENT German growth of 2.25-2.75 percent seen in 1997-98</TITLE>
+
+
+<TEXT>
+
+The German economy will <EVENT class="OCCURRENCE" eid="e1">grow</EVENT> by 2.25 percent in <TIMEX3 type="DATE" value="1997" tid="t1">1997</TIMEX3> and 2.75 percent <TIMEX3 type="DATE" value="1998" tid="t2">next year</TIMEX3>, the country's six leading economic institutes <EVENT class="REPORTING" eid="e2">said</EVENT> in their spring report <EVENT class="OCCURRENCE" eid="e3">published</EVENT> <TIMEX3 type="DATE" value="1997-04-22" tid="t3">Tuesday</TIMEX3>.
+
+The institutes' prediction is in line with government estimates.
+
+Germany's gross domestic product (GDP) <EVENT class="OCCURRENCE" eid="e4">grew</EVENT> by 1.4 percent in <TIMEX3 type="DATE" value="1996" tid="t4">1996</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei1000001" relType="BEFORE" />
+
+
+
+
+</TimeML>

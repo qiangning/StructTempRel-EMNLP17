@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0302</DOCID>
+
+<DCT>NICOSIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Cyprus expresses deep concern over increasing violence in Gaza</TITLE>
+
+
+<TEXT>
+
+The Cypriot government <EVENT class="OCCURRENCE" eid="e1">expressed</EVENT> its deep concern on <TIMEX3 type="DATE" value="2006-11-09" tid="t1">Thursday</TIMEX3> over the increasing <EVENT class="OCCURRENCE" eid="e3">violence</EVENT> in Gaza Strip after the <EVENT class="OCCURRENCE" eid="e4">killing</EVENT> of more than 60 Palestinians by Israeli troops.
+
+"The Government of the Republic of Cyprus is deeply concerned with the increased <EVENT class="OCCURRENCE" eid="e7">violence</EVENT> in Gaza," the Cypriot Foreign Ministry <EVENT class="REPORTING" eid="e8">said</EVENT> in a statement.
+
+"The indiscriminate Israeli military <EVENT class="OCCURRENCE" eid="e9">strike</EVENT> on civilian targets which <EVENT class="OCCURRENCE" eid="e10">resulted</EVENT> in the <EVENT class="OCCURRENCE" eid="e11">loss</EVENT> of several lives including women and children is against international humanitarian law and cannot be justified," the ministry <EVENT class="OCCURRENCE" eid="e13">added</EVENT>.
+
+The Cypriot government <EVENT class="REPORTING" eid="e14">called</EVENT> on both parties to <EVENT class="OCCURRENCE" eid="e15">refrain</EVENT> and <EVENT class="OCCURRENCE" eid="e16">adopt</EVENT> a spirit of moderation and responsibility, <EVENT class="OCCURRENCE" eid="e17">underlining</EVENT> that violence would further <EVENT class="OCCURRENCE" eid="e18">impede</EVENT> the efforts over <EVENT class="OCCURRENCE" eid="e19">restarting</EVENT> the peace <EVENT class="STATE" eid="e20">process</EVENT>.
+
+On <TIMEX3 type="DATE" value="2006-11-01" tid="t2">Nov. 1</TIMEX3>, Israel <EVENT class="OCCURRENCE" eid="e21">launched</EVENT> a large-scale military <EVENT class="OCCURRENCE" eid="e22">operation</EVENT>, dubbed "Autumn Clouds" in northern Gaza Strip with the aim of stemming rocket <EVENT class="OCCURRENCE" eid="e23">attacks</EVENT> on southern Israel from the Palestinian side. More than 60 Palestinians were <EVENT class="OCCURRENCE" eid="e24">killed</EVENT> and more than 250 others <EVENT class="OCCURRENCE" eid="e25">wounded</EVENT> during the Israeli <EVENT class="OCCURRENCE" eid="e26">operation</EVENT>.
+
+Only <TIMEX3 type="DURATION" value="P1D" tid="t3">one day</TIMEX3> after Israel <EVENT class="REPORTING" eid="e27">announced</EVENT> the end of the <EVENT class="OCCURRENCE" eid="e28">operation</EVENT>, the Israeli tank shells <EVENT class="OCCURRENCE" eid="e29">struck</EVENT> houses in the northern Gaza town of Beit Hanoun on <TIMEX3 type="DATE" value="2006-11-08" tid="t4">Wednesday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e30">killing</EVENT> at least 18 civilians and <EVENT class="OCCURRENCE" eid="e31">wounding</EVENT> dozens of others.
+
+The <EVENT class="OCCURRENCE" eid="e32">attack</EVENT> was the deadliest on Palestinian civilians in <TIMEX3 type="DURATION" value="PAST_REF" tid="t5">the past several years</TIMEX3>, <EVENT class="OCCURRENCE" eid="e33">prompting</EVENT> a wave of strong <EVENT class="OCCURRENCE" eid="e34">censure</EVENT> across the Arab world and the international community.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei33" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei27" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei30" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+
+
+
+
+</TimeML>

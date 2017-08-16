@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0236</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. House Republicans elect leadership</TITLE>
+
+
+<TEXT>
+
+U.S. House Republicans <EVENT class="OCCURRENCE" eid="e1">elected</EVENT> Representative John Boehner of Ohio as the minority leader for the new Congress that <EVENT class="OCCURRENCE" eid="e2">convenes</EVENT> in <TIMEX3 type="DATE" value="2007-01" tid="t1">early January 2007</TIMEX3>.
+
+Boehner, who <EVENT class="OCCURRENCE" eid="e3">succeeded</EVENT> Tom DeLay of Texas as the House majority leader in <TIMEX3 type="DATE" value="2006-02" tid="t2">February</TIMEX3>, <EVENT class="OCCURRENCE" eid="e4">defeated</EVENT> Representative Mike Pence of Indiana in a <EVENT class="OCCURRENCE" eid="e5">vote</EVENT> of 168-27. Texas Representative Joe Barton <EVENT class="OCCURRENCE" eid="e6">got</EVENT> only one vote.
+
+Boehner, currently the majority leader, would <EVENT class="OCCURRENCE" eid="e8">become</EVENT> the top Republican in the House, after the Republican Party <EVENT class="OCCURRENCE" eid="e9">lost</EVENT> control of the House in <TIMEX3 type="DATE" value="2006-W45" tid="t3">last week</TIMEX3>'s elections and would <EVENT class="OCCURRENCE" eid="e11">become</EVENT> the minority leader in <TIMEX3 type="DATE" value="2006-11-17" tid="t4">the 110th Congress</TIMEX3>.
+
+Republican House Speaker Dennis Hastert <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">currently</TIMEX3> <EVENT class="STATE" eid="e12">holds</EVENT> the top party post in the House, but he <EVENT class="I_ACTION" eid="e13">indicated</EVENT> he would not <EVENT class="I_ACTION" eid="e14">seek</EVENT> the top post after the party's defeat in the elections.
+
+Representative Roy Blunt of Missouri, currently the House majority whip, was <EVENT class="OCCURRENCE" eid="e16">competing</EVENT> with John Shadegg of Arizona for the No. 2 party post in House as minority whip.
+
+Democrats <EVENT class="OCCURRENCE" eid="e17">elected</EVENT> their House leadership on <TIMEX3 type="DATE" value="2006-11-16" tid="t6">Thursday</TIMEX3>. Nancy Pelosi of California was <EVENT class="OCCURRENCE" eid="e18">selected</EVENT> as the speaker-elect, the first woman to <EVENT class="STATE" eid="e20">become</EVENT> U.S. House speaker, and Steny Hoyer of Maryland was <EVENT class="I_ACTION" eid="e21">chosen</EVENT> as the majority leader-elect.
+
+Democrats <EVENT class="OCCURRENCE" eid="e22">won</EVENT> control of both the House and the Senate in the <TIMEX3 type="DATE" value="2006-11-07" tid="t7">Nov. 7</TIMEX3> legislative elections, the first time in a dozen years.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

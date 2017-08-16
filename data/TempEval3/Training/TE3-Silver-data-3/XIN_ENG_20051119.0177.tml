@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051119.0177</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2005-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chechen PM recovers from kidney operation: report</TITLE>
+
+
+<TEXT>
+
+Chechen Prime Minister Sergei Abramov, who <EVENT class="OCCURRENCE" eid="e1">underwent</EVENT> a kidney surgery after a car <EVENT class="OCCURRENCE" eid="e2">accident</EVENT> <TIMEX3 type="DATE" value="2005-11-17" tid="t1">two days ago</TIMEX3>, is in normal condition and "feels well", the Interfax news agency <EVENT class="OCCURRENCE" eid="e4">quoted</EVENT> his aide as <EVENT class="REPORTING" eid="e5">reporting</EVENT> on <TIMEX3 type="DATE" value="2005-11-26" tid="t2">Saturday</TIMEX3>.
+
+"No one has any doubt any more that the <EVENT class="OCCURRENCE" eid="e6">operation</EVENT> was <EVENT class="STATE" eid="e7">successful</EVENT>. Abramov feels well. However, the doctors have <EVENT class="OCCURRENCE" eid="e8">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e9">ban</EVENT> access to his room to any outsiders" except his wife and aide, Abramov's aide Tamerlan Mingayev <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+<EVENT class="REPORTING" eid="e11">According</EVENT> to the aide, for <TIMEX3 type="DURATION" value="PT24H" tid="t3">the past 24 hours</TIMEX3> dozens of people, including the prime minister's friends, colleagues and representatives of the Chechen government, the Federation Council, the State Duma and other bodies, have <EVENT class="OCCURRENCE" eid="e12">come</EVENT> to the hospital, <EVENT class="OCCURRENCE" eid="e13">wishing</EVENT> to <EVENT class="PERCEPTION" eid="e14">see</EVENT> Abramov and to <EVENT class="OCCURRENCE" eid="e15">ask</EVENT> about his health.
+
+"Abramov is already <EVENT class="I_ACTION" eid="e16">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e17">sit</EVENT> up in bed," Mingayev <EVENT class="REPORTING" eid="e18">said</EVENT>. Abramov didn't <EVENT class="OCCURRENCE" eid="e19">hit</EVENT> his head during the accident and didn't <EVENT class="OCCURRENCE" eid="e20">suffer</EVENT> any cranial or brain injury. He can <EVENT class="I_ACTION" eid="e22">cope</EVENT> with everything else, the aide was <EVENT class="OCCURRENCE" eid="e23">quoted</EVENT> as <EVENT class="REPORTING" eid="e24">saying</EVENT>.
+
+In an earlier <EVENT class="OCCURRENCE" eid="e25">interview</EVENT> with Interfax, Chechen Health Minister Shakhid Akhmadov, who had <EVENT class="OCCURRENCE" eid="e26">arrived</EVENT> at the Central Clinic Hospital, also <EVENT class="REPORTING" eid="e27">said</EVENT> the surgery had been <EVENT class="STATE" eid="e28">successful</EVENT> and that Abramov was out of danger.
+
+The Chechen prime minister was seriously <EVENT class="OCCURRENCE" eid="e29">injured</EVENT> in a traffic <EVENT class="OCCURRENCE" eid="e30">accident</EVENT> in Moscow on <TIMEX3 type="TIME" value="2005-11-17TEV" tid="t4">Thursday evening</TIMEX3>. The accident <EVENT class="OCCURRENCE" eid="e32">occured</EVENT> when the car, in which Abramov was <EVENT class="OCCURRENCE" eid="e33">riding</EVENT> on his way to the airport for a <EVENT class="OCCURRENCE" eid="e34">flight</EVENT> to Chechnya, <EVENT class="OCCURRENCE" eid="e35">collided</EVENT> with a truck.
+
+A spokesman for the Chechen <EVENT class="OCCURRENCE" eid="e36">administration</EVENT> in Moscow, Ziyad Sabsabi, <EVENT class="OCCURRENCE" eid="e37">ruled</EVENT> out the possibility of an assassination <EVENT class="I_ACTION" eid="e38">attempt</EVENT> on Abramov, the Interfax news agency <EVENT class="REPORTING" eid="e39">reported</EVENT>.
+
+The Chechen republic is <EVENT class="I_STATE" eid="e40">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e41">hold</EVENT> a parliamentary <EVENT class="OCCURRENCE" eid="e42">elections</EVENT> on <TIMEX3 type="DATE" value="2004-11-27" tid="t5">November 27</TIMEX3>. Abramov was <EVENT class="OCCURRENCE" eid="e43">appointed</EVENT> prime minister of the Russian republic in <TIMEX3 type="DATE" value="2004-03" tid="t6">March 2004</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="ADJECTIVE" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei39" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei40" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei43" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei29" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="INCLUDES" />
+<TLINK lid="l43" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei11" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l51" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei32" relatedToEventInstance="ei39" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="SIMULTANEOUS" />
+<TLINK lid="l57" eventInstanceID="ei42" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l58" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="IAFTER" />
+<TLINK lid="l59" eventInstanceID="ei30" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

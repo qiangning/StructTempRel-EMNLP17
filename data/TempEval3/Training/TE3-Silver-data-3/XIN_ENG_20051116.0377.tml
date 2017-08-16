@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0377</DOCID>
+
+<DCT>MADRID, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Spanish coast guards arrest 36 illegal immigrants off Spanish coast</TITLE>
+
+
+<TEXT>
+
+The Spanish coast guards on <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> 36 illegal immigrants, including three women and two minors, on a boat off the coast of Granada in southeast Spain, local media <EVENT class="REPORTING" eid="e2">reported</EVENT>.
+
+One of the children was <EVENT class="OCCURRENCE" eid="e3">suffering</EVENT> from severe hypothermia and was <EVENT class="OCCURRENCE" eid="e4">taken</EVENT> to hospital in Granadan town Motril. The rest of the detainees were <EVENT class="OCCURRENCE" eid="e5">taken</EVENT> to a police reception center in Motril, where they would <EVENT class="OCCURRENCE" eid="e6">receive</EVENT> humanitarian aid from the Red Cross Organization.
+
+The coast guards have <EVENT class="OCCURRENCE" eid="e7">arrested</EVENT> 2,669 undocumented immigrants off the coast of Granada so far <TIMEX3 type="DATE" value="2005" tid="t2">this year</TIMEX3>. In <TIMEX3 type="DATE" value="2004-11" tid="t3">November</TIMEX3> alone, the coast guards have already <EVENT class="OCCURRENCE" eid="e8">detained</EVENT> 201 immigrants, the majority of whom <EVENT class="OCCURRENCE" eid="e9">came</EVENT> from Africa to <EVENT class="I_ACTION" eid="e10">seek</EVENT> a better life in Spain.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

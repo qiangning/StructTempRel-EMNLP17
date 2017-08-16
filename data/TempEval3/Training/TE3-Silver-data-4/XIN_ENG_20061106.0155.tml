@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0155</DOCID>
+
+<DCT>ATHENS, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>NATO military drill begins in Greece</TITLE>
+
+
+<TEXT>
+
+A military exercise <EVENT class="ASPECTUAL" eid="e1">started</EVENT> in northern Greece on <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3>, which was part of a North Atlantic Treaty Organization (NATO) Deployable Corps-Greece headquarters training program.
+
+The drill, code-named Gordian Knot '06, under NATO auspices, includes the partial <EVENT class="OCCURRENCE" eid="e2">deployment</EVENT> of the Headquarters in northern Greece and will <EVENT class="OCCURRENCE" eid="e3">run</EVENT> through <TIMEX3 type="DATE" value="2006-11-15" tid="t2">Nov. 15</TIMEX3>, the ANA news agency <EVENT class="REPORTING" eid="e4">reported</EVENT>.
+
+The program includes the <EVENT class="OCCURRENCE" eid="e6">movement</EVENT> of Greek and Allied forces on land, sea and air with the <EVENT class="OCCURRENCE" eid="e7">use</EVENT> of appropriate means and vehicles.
+
+Heavy artillery <EVENT class="OCCURRENCE" eid="e8">shooting</EVENT> will <EVENT class="OCCURRENCE" eid="e9">take</EVENT> place on <TIMEX3 type="DATE" value="2006-11-15" tid="t3">Nov. 15</TIMEX3>, <EVENT class="REPORTING" eid="e10">according</EVENT> to military sources.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

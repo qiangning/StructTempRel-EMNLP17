@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>1926378.female.24.indUnk.Aries.xml</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2003-10-07" temporalFunction="false" functionInDocument="CREATION_TIME">07,October,2003</TIMEX3></DCT>
+<TEXT>
+I <EVENT class="REPORTING" eid="e1">told</EVENT> Alison this story earlier in <TIMEX3 type="DATE" value="2003-10-07" tid="t1">the week</TIMEX3> and she <EVENT class="I_ACTION" eid="e2">asked</EVENT> me to <EVENT class="OCCURRENCE" eid="e3">put</EVENT> it up on the site. It is about a weirdo of a little boy that was <EVENT class="OCCURRENCE" eid="e4">coming</EVENT> to the education program at my work. His name, which could be the best part here, is Gockberk. He is from Turkey. And, <EVENT class="OCCURRENCE" eid="e5">mind</EVENT> you, he is not a cute Gockberk. The kid has a freakishly huge head and he NEVER stops <EVENT class="OCCURRENCE" eid="e6">crying</EVENT>. <TIMEX3 type="DURATION" value="P1D" tid="t2">One day</TIMEX3>, I was <EVENT class="OCCURRENCE" eid="e7">roped</EVENT> into <EVENT class="I_ACTION" eid="e8">holding</EVENT> him after he had been <EVENT class="OCCURRENCE" eid="e9">crying</EVENT> for <TIMEX3 type="DURATION" value="2003-10-07" tid="t3">maybe 30 minutes</TIMEX3>. I <EVENT class="OCCURRENCE" eid="e10">noticed</EVENT> that the poor Gock was <EVENT class="OCCURRENCE" eid="e11">dressed</EVENT> in a onesie (the baby underwear that <EVENT class="OCCURRENCE" eid="e12">snaps</EVENT> down below), corduroy pants, a heavy dress shirt, and a woolen vest in an 85 degree room. He was all sweaty and uncomfortable looking, so I <EVENT class="OCCURRENCE" eid="e13">took</EVENT> off his vest. He <EVENT class="ASPECTUAL" eid="e14">stopped</EVENT> <EVENT class="OCCURRENCE" eid="e15">crying</EVENT> almost immediately. Just when I was <EVENT class="I_ACTION" eid="e16">beginning</EVENT> to have some fondness for his large Turkish cranium, his mom <EVENT class="OCCURRENCE" eid="e17">came</EVENT> in the room and basically <EVENT class="OCCURRENCE" eid="e18">bitched</EVENT> me out in Turkish for <EVENT class="OCCURRENCE" eid="e19">removing</EVENT> the precious vest. Well! Poor Gocky had to <EVENT class="OCCURRENCE" eid="e20">wear</EVENT> the thing for the rest of the day and pretty much <EVENT class="OCCURRENCE" eid="e21">cried</EVENT> for the remainder of the day. None of the kids <EVENT class="I_STATE" eid="e22">like</EVENT> him because he never <EVENT class="OCCURRENCE" eid="e23">shuts</EVENT> up and he is the only Turkish one in the group. After that, he only <EVENT class="OCCURRENCE" eid="e24">came</EVENT> back once and I <EVENT class="I_STATE" eid="e25">think</EVENT> his mom <EVENT class="OCCURRENCE" eid="e26">requested</EVENT> that I not be <EVENT class="I_STATE" eid="e27">allowed</EVENT> to <EVENT class="PERCEPTION" eid="e28">watch</EVENT> him. I just <EVENT class="I_STATE" eid="e29">like</EVENT> his name. Also, there is this crazy show on the WB <EVENT class="OCCURRENCE" eid="e30">called</EVENT> urlLink The BeastMaster . Matt and I were <EVENT class="PERCEPTION" eid="e31">watching</EVENT> it this weekend when there was nothing else on tv. It <EVENT class="OCCURRENCE" eid="e32">made</EVENT> us <EVENT class="OCCURRENCE" eid="e33">laugh</EVENT> but it was really some Tarzan-esque type of show. Check out the site -- this guy is a real hottie!
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25"  eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26"  eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27"  eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei28"  eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29"  eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30"  eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31"  eventID="e31" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32"  eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33"  eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" relType="SIMULTANEOUS" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t1" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l10" relType="INCLUDES" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei5" />
+<TLINK lid="l12" relType="INCLUDES" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" />
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t2" />
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l18" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei8" />
+<TLINK lid="l19" relType="AFTER" eventInstanceID="ei7" relatedToEventInstance="ei9" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei10" />
+<TLINK lid="l22" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei12" />
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei13" />
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l27" relType="AFTER" eventInstanceID="ei13" relatedToEventInstance="ei15" />
+<TLINK lid="l28" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l30" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei16" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei17" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei18" />
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei19" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l35" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei20" />
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei21" />
+<TLINK lid="l37" relType="INCLUDES" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei22" />
+<TLINK lid="l39" relType="AFTER" eventInstanceID="ei22" relatedToEventInstance="ei23" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei24" />
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei25" />
+<TLINK lid="l43" relType="AFTER" eventInstanceID="ei24" relatedToEventInstance="ei26" />
+<TLINK lid="l44" relType="AFTER" eventInstanceID="ei24" relatedToEventInstance="ei27" />
+<TLINK lid="l45" relType="AFTER" eventInstanceID="ei24" relatedToEventInstance="ei28" />
+<TLINK lid="l46" relType="INCLUDES" eventInstanceID="ei29" relatedToTime="t0" />
+<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei29" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei30" relatedToTime="t0" />
+<TLINK lid="l49" relType="BEFORE" eventInstanceID="ei29" relatedToEventInstance="ei30" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei31" relatedToTime="t0" />
+<TLINK lid="l51" relType="BEFORE" eventInstanceID="ei30" relatedToEventInstance="ei31" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei32" relatedToTime="t0" />
+<TLINK lid="l53" relType="SIMULTANEOUS" eventInstanceID="ei31" relatedToEventInstance="ei32" />
+<TLINK lid="l54" relType="SIMULTANEOUS" eventInstanceID="ei32" relatedToEventInstance="ei33" />
+
+</TimeML>
+

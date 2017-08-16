@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0394</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>years</TITLE>
+
+
+<TEXT>
+
+China will <EVENT class="OCCURRENCE" eid="e1">train</EVENT> 15,000 African professionals, <EVENT class="OCCURRENCE" eid="e2">send</EVENT> 100 senior agricultural experts to Africa, and <EVENT class="OCCURRENCE" eid="e3">set</EVENT> up 10 special agricultural technology demonstration centers in Africa in <TIMEX3 type="DURATION" value="P3Y" tid="t1">the next three years</TIMEX3>.
+
+Chinese President Hu Jintao <EVENT class="OCCURRENCE" eid="e4">made</EVENT> the remarks here <TIMEX3 type="DATE" value="2006-11-04" tid="t2">Saturday</TIMEX3> when <EVENT class="I_ACTION" eid="e5">addressing</EVENT> the opening <EVENT class="OCCURRENCE" eid="e6">ceremony</EVENT> of the Beijing Summit of the Forum on China-Africa Cooperation.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

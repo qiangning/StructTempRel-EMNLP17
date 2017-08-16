@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0072</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Dollar steady in Tokyo despite strong Japanese GDP</TITLE>
+
+
+<TEXT>
+
+The US dollar <EVENT class="OCCURRENCE" eid="e1">dipped</EVENT> against the yen <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3> in Tokyo, but its losses were slight <EVENT class="I_STATE" eid="e3">considering</EVENT> a Japanese government report <EVENT class="REPORTING" eid="e5">saying</EVENT> the country's economy <EVENT class="OCCURRENCE" eid="e6">grew</EVENT> more than <EVENT class="I_STATE" eid="e7">expected</EVENT> in <TIMEX3 type="DATE" value="2005-11-11" tid="t2">the July-September period</TIMEX3>.
+
+At 5 p.m. (0800 GMT), the dollar <EVENT class="OCCURRENCE" eid="e8">traded</EVENT> at 117.81-83 yen, compared with <TIMEX3 type="DATE" value="2005-11-10" tid="t4">Thursday</TIMEX3>'s 5 p.m. quotes of 118.15-25 yen in New York and 117.64-66 yen in Tokyo.
+
+The dollar <EVENT class="OCCURRENCE" eid="e9">moved</EVENT> between 117.65 yen and 118.19 yen during the day, most frequently <EVENT class="OCCURRENCE" eid="e10">trading</EVENT> at 117.75 yen.
+
+The euro was <EVENT class="OCCURRENCE" eid="e11">quoted</EVENT> at 1.1700-1702 dollar and 137.84-88 yen, against <TIMEX3 type="DATE" value="2005-11-10" tid="t6">Thursday</TIMEX3>'s 5 p.m. quotes of 1.1682-1692 dollar and 138.08- 18 yen in New York and 1.1767-1769 dollar and 138.43-47 yen in Tokyo.
+
+The dollar <EVENT class="OCCURRENCE" eid="e12">weakened</EVENT> slightly against the yen after the report <EVENT class="OCCURRENCE" eid="e13">showed</EVENT> early in <TIMEX3 type="TIME" value="2005-11-11TMO" tid="t9">the morning</TIMEX3> that Japan's economy <EVENT class="OCCURRENCE" eid="e14">grew</EVENT> at an annualized rate of 1.7 percent in <TIMEX3 type="DATE" value="2005-Q3" tid="t10">the third quarter</TIMEX3>, <EVENT class="OCCURRENCE" eid="e15">beating</EVENT> a consensus market <EVENT class="OCCURRENCE" eid="e16">forecast</EVENT> of 1.1 percent.
+
+But dealers <EVENT class="REPORTING" eid="e17">said</EVENT> yen buying <EVENT class="PERCEPTION" eid="e18">seen</EVENT> in response to the GDP data was not more than position-squaring following overnight solid <EVENT class="OCCURRENCE" eid="e19">gains</EVENT> for the dollar.
+
+Dealers <EVENT class="I_STATE" eid="e20">believe</EVENT> demand for the dollar is highly likely to <EVENT class="OCCURRENCE" eid="e21">persist</EVENT> as the currency has <EVENT class="OCCURRENCE" eid="e22">attracted</EVENT> bargain hunters even with few fresh buying incentives.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+
+
+
+
+</TimeML>

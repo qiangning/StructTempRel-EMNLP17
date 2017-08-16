@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0358</DOCID>
+
+<DCT>GAZA, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st Lead: Two Italians released shortly after abduction in Gaza</TITLE>
+
+
+<TEXT>
+
+Two Italians <EVENT class="OCCURRENCE" eid="e1">working</EVENT> for International Committee of the Red Cross (ICRC) were <EVENT class="OCCURRENCE" eid="e2">released</EVENT> unharmed on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> midnight shortly after their <EVENT class="OCCURRENCE" eid="e3">kidnapping</EVENT> in Gaza earlier in the day, Palestinian security officials <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+The officials <EVENT class="REPORTING" eid="e5">said</EVENT> that the kidnappers had <EVENT class="OCCURRENCE" eid="e6">run</EVENT> away after they <EVENT class="OCCURRENCE" eid="e7">dropped</EVENT> the two hostages, a male and a female, near a police station in central Gaza Strip.
+
+"Then the two <EVENT class="OCCURRENCE" eid="e8">walked</EVENT> towards the police station," they <EVENT class="REPORTING" eid="e9">said</EVENT>, <EVENT class="OCCURRENCE" eid="e10">adding</EVENT> that security members who <EVENT class="OCCURRENCE" eid="e11">arrived</EVENT> the scene shortly after <EVENT class="OCCURRENCE" eid="e12">receiving</EVENT> the report from the police station have <EVENT class="OCCURRENCE" eid="e13">taken</EVENT> the two to a hotel in Gaza.
+
+However, the kidnappers' identity is still unknown as no one had <EVENT class="REPORTING" eid="e15">claimed</EVENT> responsibility for the abduction, <EVENT class="REPORTING" eid="e17">said</EVENT> the officials.
+
+For fear of more such <EVENT class="OCCURRENCE" eid="e18">abduction</EVENT> of its members, the local Red Cross office <EVENT class="REPORTING" eid="e19">announced</EVENT> to <EVENT class="OCCURRENCE" eid="e20">suspend</EVENT> its activities in the area shortly before their release.
+
+The two Italians were <EVENT class="OCCURRENCE" eid="e21">abducted</EVENT> by unknown militants in an area between the towns of Khan Younis and Deir el-Ballah in the afternoon.
+
+The <EVENT class="OCCURRENCE" eid="e22">kidnapping</EVENT> was the latest in a spate of abductions of foreigners and journalists in Gaza in <TIMEX3 type="DURATION" value="PXM" tid="t3">recent months</TIMEX3>.
+
+In <TIMEX3 type="DATE" value="2006-10" tid="t4">October</TIMEX3>, two Spanish citizens, one was the photographer of the Associated Press and the other <EVENT class="OCCURRENCE" eid="e24">works</EVENT> for a humanitarian organization, were also abducted. They were <EVENT class="OCCURRENCE" eid="e26">freed</EVENT> shortly after the <EVENT class="OCCURRENCE" eid="e27">abduction</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

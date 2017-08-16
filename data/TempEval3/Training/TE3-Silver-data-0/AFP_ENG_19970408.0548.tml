@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970408.0548</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="1997-04-08" temporalFunction="false" functionInDocument="CREATION_TIME">April 8 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Jose Luis Yulo elected as Philippine Stock Exchange president (new series)</TITLE>
+
+
+<TEXT>
+
+Jose Luis Yulo, who <EVENT class="OCCURRENCE" eid="e1">runs</EVENT> a state trading firm, has been <EVENT class="OCCURRENCE" eid="e2">elected</EVENT> the new president of the Philippine Stock Exchange, the bourse <EVENT class="REPORTING" eid="e3">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-08" tid="t1">Tuesday</TIMEX3>.
+
+The choice of Yulo, a non-broker and president of the Philippine International Trading Corp. (PITC), would <EVENT class="OCCURRENCE" eid="e4">ensure</EVENT> that the bourse "<EVENT class="ASPECTUAL" eid="e5">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e6">maintain</EVENT> and <EVENT class="OCCURRENCE" eid="e7">improve</EVENT> its high standards of efficiency and integrity," a bourse statement <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+The PITC is the government's trading arm with the socialist bloc which includes Iraq, Libya, North Korea and several other countries.
+
+Yulo <EVENT class="OCCURRENCE" eid="e9">replaces</EVENT> Vitaliano Nanagas, who <EVENT class="OCCURRENCE" eid="e10">resigned</EVENT> after a <TIMEX3 type="DURATION" value="1997-04-08" tid="t2">few months</TIMEX3> on the job when some owner-brokers <EVENT class="I_ACTION" eid="e11">resisted</EVENT> his <EVENT class="OCCURRENCE" eid="e12">effort</EVENT> at reforms.
+
+Yulo, who <EVENT class="OCCURRENCE" eid="e13">turned</EVENT> the PITC from near bankruptcy in <TIMEX3 type="DATE" value="1990" tid="t3">1990</TIMEX3> to profitability in <TIMEX3 type="DATE" value="1996" tid="t4">1996</TIMEX3>, was a former president of the Philippine Chamber of Commerce and Industry. He was <EVENT class="OCCURRENCE" eid="e14">educated</EVENT> at the University of the Philippines, Stanford Advance Management College and the Colegio de San Juan de Letran.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000013" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToEventInstance="ei1000013" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1000013" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

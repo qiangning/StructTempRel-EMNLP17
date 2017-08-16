@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0730</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Hong Kong gold opens higher</TITLE>
+
+
+<TEXT>
+
+Hong Kong gold prices <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> higher <TIMEX3 type="DATE" value="2006-12-12" tid="t1">Tuesday</TIMEX3> at 629.00-629.50 US dollars an ounce, up from <TIMEX3 type="DATE" value="2006-12-11" tid="t2">Monday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e2">close</EVENT> of 628.40-628.90 dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

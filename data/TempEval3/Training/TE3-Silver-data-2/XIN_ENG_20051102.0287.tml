@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0287</DOCID>
+
+<DCT>BELGRADE, Serbia-Montenegro, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>UN, NATO play down threat of paramilitary groups in Kosovo</TITLE>
+
+
+<TEXT>
+
+UN and NATO officials <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-02" tid="t1">Wednesday</TIMEX3> that paramilitary groups could not <EVENT class="OCCURRENCE" eid="e2">undermine</EVENT> the security situation in Kosovo as the UN-administered province is to <EVENT class="ASPECTUAL" eid="e3">open</EVENT> future status <EVENT class="OCCURRENCE" eid="e4">talks</EVENT>, <EVENT class="REPORTING" eid="e5">said</EVENT> reports <EVENT class="OCCURRENCE" eid="e6">reaching</EVENT> here from Pristina.
+
+Spokesman of the UN mission in Kosovo (UNMIK) Neeraj Singh <EVENT class="REPORTING" eid="e7">said</EVENT> that the threatening statement <EVENT class="OCCURRENCE" eid="e9">issued</EVENT> by the self-styled Army for Kosovo Independence would be a daily occurrence during the forthcoming status <EVENT class="OCCURRENCE" eid="e10">talks</EVENT>, the official Tanjug news agency <EVENT class="REPORTING" eid="e11">reported</EVENT>.
+
+Regardless of threats and other forms of pressure, the Kosovo status will not be <EVENT class="OCCURRENCE" eid="e12">decided</EVENT> in the streets or on the Internet, Singh <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+UN Secretary-General Kofi Annan on <TIMEX3 type="DATE" value="2005-11-08" tid="t2">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e14">appointed</EVENT> former Finnish president Martti Ahtisaari as UN envoy for Kosovo status <EVENT class="OCCURRENCE" eid="e15">talks</EVENT>, <EVENT class="OCCURRENCE" eid="e16">paving</EVENT> the way for the <EVENT class="OCCURRENCE" eid="e17">talks</EVENT> to be <EVENT class="OCCURRENCE" eid="e18">opened</EVENT> by <TIMEX3 type="DATE" value="2005-11-02" tid="t3">the year's end</TIMEX3>.
+
+However, the <EVENT class="OCCURRENCE" eid="e19">talks</EVENT> have been <EVENT class="OCCURRENCE" eid="e20">overshadowed</EVENT> by the fears that extremists could <EVENT class="OCCURRENCE" eid="e21">use</EVENT> violence to <EVENT class="OCCURRENCE" eid="e23">protest</EVENT> the <EVENT class="OCCURRENCE" eid="e24">outcome</EVENT> for the ethnically-divided province.
+
+Kosovo's Albanian majority <EVENT class="OCCURRENCE" eid="e25">demands</EVENT> for an independent state, while its Serb minority and Belgrade officials <EVENT class="I_STATE" eid="e26">want</EVENT> the province remains part of Serbia.
+
+NATO-led peacekeeping force (KFOR) spokesman Pio Sabetta <EVENT class="OCCURRENCE" eid="e27">rejected</EVENT> any possibility that paramilitary groups might <EVENT class="OCCURRENCE" eid="e28">endanger</EVENT> security in Kosovo.
+
+He <EVENT class="REPORTING" eid="e29">told</EVENT> the press in Pristina that KFOR, UNMIK and Kosovo Police Service were <EVENT class="I_ACTION" eid="e30">investigating</EVENT> uniformed persons who have been <EVENT class="PERCEPTION" eid="e31">observed</EVENT> in the province <TIMEX3 type="DATE" value="PAST_REF" tid="t4">recently</TIMEX3>.
+
+<TIMEX3 type="DATE" value="2005-W43" tid="t5">Last week</TIMEX3> KFOR <EVENT class="OCCURRENCE" eid="e32">held</EVENT> an exercise to <EVENT class="OCCURRENCE" eid="e33">demonstrate</EVENT> NATO troops' ability to <EVENT class="OCCURRENCE" eid="e34">deal</EVENT> quickly with potential violence or other security threats in the province.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei32" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l37" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="INCLUDES" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l41" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei31" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="INCLUDES" />
+
+
+
+
+</TimeML>

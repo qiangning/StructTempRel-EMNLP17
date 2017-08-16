@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0266</DOCID>
+
+<DCT>BRUSSELS, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Over 2 million problem drug users in EU: report</TITLE>
+
+
+<TEXT>
+
+There are up to 2.1 million problem drug users in the European Union (EU) <TIMEX3 type="DATE" value="2005-11-24" tid="t1">today</TIMEX3>, of whom over 1 million are likely to be drug injectors, <EVENT class="REPORTING" eid="e1">said</EVENT> Europe's drugs monitoring center on <TIMEX3 type="DATE" value="2005-11-24" tid="t2">Thursday</TIMEX3>.
+
+Around 9 million Europeans, or three percent of all adults, have <EVENT class="OCCURRENCE" eid="e2">used</EVENT> cocaine at some stage in their lives. Some 2.6 million adults in the EU have <EVENT class="OCCURRENCE" eid="e3">used</EVENT> ecstasy recently, <EVENT class="REPORTING" eid="e4">said</EVENT> the European Monitoring Center for Drugs and Drugs Addiction in its 2005 report.
+
+Over 62 million Europeans, or over 20 percent of all adults, have ever <EVENT class="I_ACTION" eid="e6">tried</EVENT> cannabis and around 20 million -- six percent of all adults -- have <EVENT class="OCCURRENCE" eid="e7">used</EVENT> it in <TIMEX3 type="DURATION" value="P12M" tid="t5">the last 12 months</TIMEX3>, <EVENT class="REPORTING" eid="e8">said</EVENT> the report.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1000001" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

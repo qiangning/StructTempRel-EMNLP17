@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>CNN_20130322_248</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="2013-03-22" temporalFunction="false" functionInDocument="CREATION_TIME">March 22, 2013</TIMEX3></DCT>
+
+<TITLE>FAA to close 149 regional airport control towers, spare 40 others</TITLE>
+
+
+
+<TEXT>
+
+The FAA on <TIMEX3 type="DATE" value="2013-03-22" tid="t1">Friday</TIMEX3> <EVENT class="REPORTING" eid="e1">announced</EVENT> it will <EVENT class="OCCURRENCE" eid="e2">close</EVENT> 149 regional airport control towers because of forced spending <EVENT class="OCCURRENCE" eid="e3">cuts</EVENT> -- <EVENT class="OCCURRENCE" eid="e4">sparing</EVENT> 40 others that the FAA had been <EVENT class="I_STATE" eid="e5">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e6">shutter</EVENT>.
+
+A <TIMEX3 type="DURATION" value="P4W" tid="t2">four-week</TIMEX3>, phased <EVENT class="OCCURRENCE" eid="e7">closure</EVENT> of the 149 control towers will <EVENT class="ASPECTUAL" eid="e8">begin</EVENT> on <TIMEX3 type="DATE" value="2013-04-07" tid="t3">April 7</TIMEX3>, the FAA <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The FAA had been <EVENT class="I_STATE" eid="e10">expected</EVENT> to <EVENT class="REPORTING" eid="e11">announce</EVENT> the <EVENT class="OCCURRENCE" eid="e12">closure</EVENT> of 189 low- or moderate-volume towers <EVENT eid="e13" class="STATE">staffed</EVENT> by contractors. Before <TIMEX3 type="DATE" value="2013-03-22" tid="t4">Friday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e14">announcement</EVENT>, it <EVENT class="REPORTING" eid="e15">said</EVENT> it would <EVENT class="I_STATE" eid="e16">consider</EVENT> <EVENT class="ASPECTUAL" eid="e17">keeping</EVENT> a tower open if the airport <EVENT class="I_ACTION" eid="e18">convinces</EVENT> the agency it is in the "national interest" to do so.
+
+By congressional mandate, the FAA must <EVENT class="OCCURRENCE" eid="e19">cut</EVENT> nearly $600 million from its nearly $48 billion budget <TIMEX3 type="DATE" value="2013" mod="APPROX" tid="t5">this fiscal year</TIMEX3>. Because the majority of its 47,000 employees are air traffic controllers, it is impossible to <EVENT class="OCCURRENCE" eid="e20">cut</EVENT> its budget without <EVENT class="OCCURRENCE" eid="e21">affecting</EVENT> controllers, the agency <EVENT class="REPORTING" eid="e22">says</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="INFINITIVE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="NOUN" tense="NONE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="INFINITIVE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="NOUN" tense="NONE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="NOUN" tense="NONE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="NONE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PRESPART" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" modality="MUST"/>
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="INFINITIVE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PRESPART" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l5" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t3" />
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei9" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei9" />
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei8" relatedToEventInstance="ei9" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei12" />
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToTime="t4" />
+
+<TLINK lid="l19" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei16" />
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t5" />
+<TLINK lid="l27" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei22" />
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei22" />
+
+
+
+<TLINK lid="l100" relType="SIMULTANEOUS" timeID="t0" relatedToTime="t1" />
+<TLINK lid="l101" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei9" />
+<TLINK lid="l102" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei10" />
+<TLINK lid="l103" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToTime="t2" />
+<TLINK lid="l104" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei14" />
+<TLINK lid="l105" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l106" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l107" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+<TLINK lid="l108" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l109" relType="SIMULTANEOUS" timeID="t0" relatedToTime="t4" />
+<TLINK lid="l110" relType="AFTER" eventInstanceID="ei17" relatedToEventInstance="ei18" />
+<TLINK lid="l111" relType="INCLUDES" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l112" relType="IS_INCLUDED" timeID="t0" relatedToTime="t5" />
+<TLINK lid="l113" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" />
+<TLINK lid="l114" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToEventInstance="ei13" />
+</TimeML>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061218.0172</DOCID>
+
+<DCT>VIENNA, <TIMEX3 tid="t0" type="TIME" value="2006-12-18" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 18 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Muslims face discrimination in Europe: report</TITLE>
+
+
+<TEXT>
+
+Muslims in Europe <EVENT class="I_STATE" eid="e1">face</EVENT> discrimination in education, employment and housing and are often victims of verbal abuse and physical <EVENT class="OCCURRENCE" eid="e3">attacks</EVENT>, a monitoring group <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3>.
+
+"The report <EVENT class="OCCURRENCE" eid="e6">makes</EVENT> it clear that Muslims... frequently <EVENT class="OCCURRENCE" eid="e7">suffer</EVENT> different forms of discrimination which <EVENT class="OCCURRENCE" eid="e8">reduce</EVENT> their employment opportunities, and <EVENT class="STATE" eid="e9">affect</EVENT> their educational achievement," the director of the European Monitoring Centre on Racism and Xenophobia (EUMC) <EVENT class="REPORTING" eid="e10">said</EVENT> in a statement.
+
+The "Muslims in the European Union: Discrimination and Islamophobia" report, <EVENT class="OCCURRENCE" eid="e12">published</EVENT> on <TIMEX3 type="DATE" value="2006-12-18" tid="t2">Monday</TIMEX3>, <EVENT class="REPORTING" eid="e13">said</EVENT> incidents against Muslims were "under-documented and under-reported" and <EVENT class="REPORTING" eid="e14">called</EVENT> on European Union countries to <EVENT class="OCCURRENCE" eid="e15">improve</EVENT> their methods for <EVENT class="REPORTING" eid="e16">reporting</EVENT> racist crimes.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

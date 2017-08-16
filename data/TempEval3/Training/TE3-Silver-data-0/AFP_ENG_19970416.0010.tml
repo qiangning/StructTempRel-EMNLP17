@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970416.0010</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="1997-04-16" temporalFunction="false" functionInDocument="CREATION_TIME">April 16 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Japan's Nomura to lead manage one billion dollar fund raising effort</TITLE>
+
+
+<TEXT>
+
+MIF Asia Ltd., the financing arm of Japanese trading giant Marubeni Corp., has <EVENT class="OCCURRENCE" eid="e1">mandated</EVENT> Nomura Singapore Ltd. to <EVENT class="OCCURRENCE" eid="e2">lead-manage</EVENT> its one- billion-US-dollar fund raising program here.
+
+The program <EVENT class="I_ACTION" eid="e3">allows</EVENT> MIF Asia to <EVENT class="OCCURRENCE" eid="e4">issue</EVENT> fixed and floating notes of different maturities -- with different coupon rates -- up to a total of one billion dollars, <EVENT class="REPORTING" eid="e7">according</EVENT> to a statement from MIF Asia <EVENT class="OCCURRENCE" eid="e9">received</EVENT> here <TIMEX3 type="DATE" value="1997-04-16" tid="t1">Wednesday</TIMEX3>.
+
+MIF Asia has <EVENT class="OCCURRENCE" eid="e10">received</EVENT> in-principle <EVENT class="OCCURRENCE" eid="e11">approval</EVENT> to <EVENT class="OCCURRENCE" eid="e12">list</EVENT> the notes <EVENT class="OCCURRENCE" eid="e13">issued</EVENT> under the program on the Stock Exchange of Singapore. Subscribers to the notes are <EVENT class="I_STATE" eid="e14">expected</EVENT> to be investors, mainly financial institutions and fund managers, from Asia.
+
+The statement <EVENT class="REPORTING" eid="e15">said</EVENT> MIF Asia, incorporated in Singapore in <TIMEX3 type="DATE" value="1995" tid="t2">1995</TIMEX3> and <EVENT class="OCCURRENCE" eid="e17">registered</EVENT> in Hong Kong as an overseas company in <TIMEX3 type="DATE" value="1997-04-16" tid="t3">the same year</TIMEX3>, would <EVENT class="OCCURRENCE" eid="e18">use</EVENT> the funds <EVENT class="OCCURRENCE" eid="e19">raised</EVENT> for its non-Singapore-dollar-denominated financial activities.
+
+Marubeni <EVENT class="OCCURRENCE" eid="e20">set</EVENT> up MIF Asia as part of its global financial network to <EVENT class="OCCURRENCE" eid="e21">integrate</EVENT> the four major financial markets of Japan, the United States, Europe and Asia.
+
+MIF Asia <EVENT class="OCCURRENCE" eid="e22">provides</EVENT> financial services to Marubeni's subsidiaries and affiliates in Asia and conducts investment-related activities such as portfolio investments in Asian money and capital markets.
+
+Apart from Nomura Singapore, there are 14 other dealers for the note program.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1000017" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

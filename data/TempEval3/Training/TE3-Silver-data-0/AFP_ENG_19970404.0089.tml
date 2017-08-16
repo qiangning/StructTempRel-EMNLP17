@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970404.0089</DOCID>
+
+<DCT>PAPEETE, <TIMEX3 tid="t0" type="TIME" value="1997-04-04" temporalFunction="false" functionInDocument="CREATION_TIME">April 4 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Black pearl is jewel in the Polynesian crown</TITLE>
+
+
+<TEXT>
+
+Exports of French Polynesian black pearls <EVENT class="OCCURRENCE" eid="e2">rose</EVENT> 46 percent in <TIMEX3 type="DATE" value="1996" tid="t1">1996</TIMEX3> against the previous to <EVENT class="OCCURRENCE" eid="e3">become</EVENT> the jewel of the French territory's economy, officials <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-04" tid="t2">Friday</TIMEX3>.
+
+The 750 million francs (135 million dollars) <EVENT class="OCCURRENCE" eid="e5">earned</EVENT> from the pearls <EVENT class="OCCURRENCE" eid="e6">made</EVENT> up 90 percent of the value of French Polynesia's exports, <EVENT class="REPORTING" eid="e7">according</EVENT> to the territorial economy minister, Georges Puchon.
+
+He <EVENT class="OCCURRENCE" eid="e8">added</EVENT> that a <EVENT class="OCCURRENCE" eid="e9">tripling</EVENT> of the pearl industry exports in <TIMEX3 type="DURATION" value="P10Y" tid="t3">the next 10 years</TIMEX3> could <EVENT class="OCCURRENCE" eid="e10">bring</EVENT> the trade account into surplus. The territory <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">currently</TIMEX3> <EVENT class="STATE" eid="e11">exports</EVENT> about 850 million francs worth of goods but imports around five billion francs of goods.
+
+Japan takes around two thirds of the pearls, with the United States, Hong Kong and Singapore the other main markets.
+
+Some 87,000 black pearls from the Tuamotu and Gambier islands were to be <EVENT class="OCCURRENCE" eid="e14">put</EVENT> on show in Papeete on <TIMEX3 type="DATE" value="1997-04-04" tid="t5">Friday</TIMEX3> and Saturday before being <EVENT class="OCCURRENCE" eid="e15">auctioned</EVENT>. Around 145 lots will be <EVENT class="OCCURRENCE" eid="e16">offered</EVENT> to around 50 foreign wholesalers and jewelers and 30 local buyers.
+
+Producers <EVENT class="I_STATE" eid="e17">hope</EVENT> to <EVENT class="OCCURRENCE" eid="e18">make</EVENT> 35 million francs from the <EVENT class="OCCURRENCE" eid="e19">auction</EVENT>, against 17 million francs <TIMEX3 type="DATE" value="1996" tid="t7">last year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="INCLUDES" />
+
+
+
+
+</TimeML>

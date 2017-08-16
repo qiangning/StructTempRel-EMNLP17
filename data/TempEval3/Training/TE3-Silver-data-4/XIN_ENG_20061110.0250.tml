@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0250</DOCID>
+
+<DCT>NAIROBI, <TIMEX3 tid="t0" type="TIME" value="2006-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>FIFA probes Kenyan referees list</TITLE>
+
+
+<TEXT>
+
+World <EVENT class="OCCURRENCE" eid="e1">football</EVENT> governing body FIFA has <EVENT class="ASPECTUAL" eid="e2">suspended</EVENT> a list of international referees <EVENT class="OCCURRENCE" eid="e3">submitted</EVENT> by Kenya <TIMEX3 type="DATE" value="2006-10" tid="t1">last month</TIMEX3> after allegations of graft in their recruitment and <EVENT class="OCCURRENCE" eid="e4">ordered</EVENT> immediate investigations.
+
+In a letter to Kenya Football Federation (KFF), FIFA deputy general secretary Michael Schallhart <EVENT class="REPORTING" eid="e6">said</EVENT> the football world governing body had <EVENT class="OCCURRENCE" eid="e7">launched</EVENT> immediate probe into the exercise.
+
+"The FIFA Referees Committee has <EVENT class="OCCURRENCE" eid="e9">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e10">suspend</EVENT> the lists of nominations <EVENT class="OCCURRENCE" eid="e11">submitted</EVENT> by Kenya Football Federation (KFF) until further notice," Schallart <EVENT class="REPORTING" eid="e12">said</EVENT> in a letter to KFF.
+
+An <EVENT class="OCCURRENCE" eid="e13">investigation</EVENT> has been <EVENT class="ASPECTUAL" eid="e14">started</EVENT>. The graft allegations were <EVENT class="OCCURRENCE" eid="e15">revealed</EVENT> <TIMEX3 type="DATE" value="2006-10" tid="t2">last month</TIMEX3> by Kenya Football Referees Association secretary-general G.M.T. Ottieno, a <TIMEX3 type="DATE" value="P1W" tid="t3">week</TIMEX3> after FIFA <EVENT class="ASPECTUAL" eid="e16">suspended</EVENT> the east African nation from international competition indefinitely.
+
+The government <EVENT class="OCCURRENCE" eid="e17">dissolved</EVENT> <TIMEX3 type="DURATION" value="2006-11-10T10:00" tid="t4">the federation 10 days</TIMEX3> later and <EVENT class="OCCURRENCE" eid="e18">set</EVENT> up a caretaker committee to <EVENT class="OCCURRENCE" eid="e19">run</EVENT> the sport. FIFA has also <EVENT class="OCCURRENCE" eid="e20">dismissed</EVENT> the caretaker committee <EVENT class="OCCURRENCE" eid="e21">appointed</EVENT> by the government <TIMEX3 type="DATE" value="2006-W44" tid="t5">last week</TIMEX3> to <EVENT class="OCCURRENCE" eid="e22">oversee</EVENT> the running of the <EVENT class="OCCURRENCE" eid="e24">football</EVENT>.
+
+The world's soccer governing body indefinitely <EVENT class="ASPECTUAL" eid="e25">suspended</EVENT> Kenya from international competition on <TIMEX3 type="DATE" value="2006-10-24" tid="t6">October 24</TIMEX3> for <EVENT class="I_ACTION" eid="e26">failing</EVENT> to <EVENT class="OCCURRENCE" eid="e27">respect</EVENT> <EVENT class="OCCURRENCE" eid="e28">signed</EVENT> agreements and for recurrent problems in the KFF.
+
+While <EVENT class="OCCURRENCE" eid="e29">dissolving</EVENT> the federation, Sports Minister Maina Kamanda <EVENT class="REPORTING" eid="e30">said</EVENT> he was <EVENT class="I_ACTION" eid="e31">compelled</EVENT> to <EVENT class="OCCURRENCE" eid="e32">take</EVENT> the radical <EVENT class="OCCURRENCE" eid="e33">action</EVENT> to <EVENT class="OCCURRENCE" eid="e34">restore</EVENT> order and normalcy in the management of football.
+
+The seven man committee which comprises former lawmakers, journalists and sports administrators will <EVENT class="OCCURRENCE" eid="e35">oversee</EVENT> the country's football "re-birth".
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l44" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061118.0155</DOCID>
+
+<DCT>AMMAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Jordanian FM, Russian envoy discuss Palestinian issue</TITLE>
+
+
+<TEXT>
+
+Jordanian Foreign Minister Abdul Ilah al-Khatib <EVENT class="OCCURRENCE" eid="e1">held</EVENT> <EVENT class="OCCURRENCE" eid="e2">talks</EVENT> on <TIMEX3 type="DATE" value="2006-11-18" tid="t1">Saturday</TIMEX3> with <EVENT class="OCCURRENCE" eid="e3">visiting</EVENT> Russian Deputy Foreign Minister Alexander Sultanov, <EVENT class="OCCURRENCE" eid="e4">stressing</EVENT> the importance of <EVENT class="OCCURRENCE" eid="e5">supporting</EVENT> efforts to <EVENT class="OCCURRENCE" eid="e6">settle</EVENT> the Palestinian issue, the official Petra news agency <EVENT class="REPORTING" eid="e7">reported</EVENT>.
+
+Al-Khatib <EVENT class="I_ACTION" eid="e8">urged</EVENT> the International Quartet on the Middle East, which groups the United Nations, the United States, Russia and the European Union, to <EVENT class="OCCURRENCE" eid="e9">make</EVENT> more <EVENT class="OCCURRENCE" eid="e10">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e11">achieve</EVENT> a just and lasting peace in the region.
+
+He <EVENT class="OCCURRENCE" eid="e12">expressed</EVENT> his appreciation for the expected <EVENT class="OCCURRENCE" eid="e13">visit</EVENT> of Russian President Vladimir Putin to Jordan <TIMEX3 type="DATE" value="2007-02" tid="t2">next February</TIMEX3>.
+
+During the <EVENT class="OCCURRENCE" eid="e14">meeting</EVENT>, Sultanov <EVENT class="REPORTING" eid="e15">talked</EVENT> about Putin's <EVENT class="OCCURRENCE" eid="e16">initiative</EVENT> to <EVENT class="OCCURRENCE" eid="e17">hold</EVENT> an international conference to <EVENT class="OCCURRENCE" eid="e19">settle</EVENT> the Palestinian issue.
+
+Al-Khatib <EVENT class="REPORTING" eid="e20">said</EVENT> Jordan had a positive view on the initiative and an <EVENT class="OCCURRENCE" eid="e22">initiative</EVENT> <EVENT class="REPORTING" eid="e23">announced</EVENT> by France, Spain and Italy.
+
+"Such initiatives <EVENT class="OCCURRENCE" eid="e24">reflect</EVENT> the world's interest in the situation in the region and the willingness of the international community to <EVENT class="OCCURRENCE" eid="e25">contribute</EVENT> to <EVENT class="OCCURRENCE" eid="e26">finding</EVENT> a just and comprehensive solution for the Palestinian cause," <EVENT class="REPORTING" eid="e27">said</EVENT> al-Khatib.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

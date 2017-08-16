@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0128</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>friendship</TITLE>
+
+
+<TEXT>
+
+A performing gala themed on "Ode to Friendship" was <EVENT class="OCCURRENCE" eid="e2">staged</EVENT> here <TIMEX3 type="TIME" value="2006-10-28TEV" tid="t1">Saturday evening</TIMEX3> to <EVENT class="I_ACTION" eid="e3">mark</EVENT> the Beijing Summit of Forum on China-Africa Cooperation (FOCAC) and <EVENT class="I_STATE" eid="e4">facilitate</EVENT> cultural exchanges.
+
+In one hour and a half, performers <EVENT class="OCCURRENCE" eid="e5">serve</EVENT> up a real feast to both eyes and ears for state and government leaders and high- ranking officials from more than 40 African countries, who are here for the two-day landmark gathering.
+
+From traditional Peking opera, upbeat tropical dance and <EVENT class="OCCURRENCE" eid="e7">drum</EVENT> to acrobatics, African and Chinese artists <EVENT class="OCCURRENCE" eid="e8">demonstrated</EVENT> their exquisite skills and profound culture.
+
+The <EVENT class="OCCURRENCE" eid="e9">summit</EVENT>, themed on "friendship, peace, cooperation and development", is <EVENT class="OCCURRENCE" eid="e12">regarded</EVENT> as the largest diplomatic event ever <EVENT class="OCCURRENCE" eid="e13">held</EVENT> between China and Africa.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0003</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Paddy production to decrease in Nepal</TITLE>
+
+
+<TEXT>
+
+The paddy <EVENT class="OCCURRENCE" eid="e1">production</EVENT> in Nepal is <EVENT class="I_STATE" eid="e2">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e3">decrease</EVENT> by around nine percent <TIMEX3 type="DATE" value="2006" tid="t1">this year</TIMEX3> due to drought during the period of plantation, local Nepal Samacharpatra <TIMEX3 type="DATE" value="P1D" tid="t2">daily</TIMEX3> <EVENT class="REPORTING" eid="e4">reported</EVENT> here on <TIMEX3 type="DATE" value="2006-11-27" tid="t3">Monday</TIMEX3>.
+
+The paddy <EVENT class="OCCURRENCE" eid="e5">production</EVENT> will <EVENT class="OCCURRENCE" eid="e6">decrease</EVENT> by 8.9 percent as per the field survey <EVENT class="OCCURRENCE" eid="e7">carried</EVENT> out by officials at the Ministry of Agriculture and Cooperative (MoAC) and World Food Organization ( WFO), the vernacular newspaper <EVENT class="REPORTING" eid="e8">reported</EVENT> <EVENT class="OCCURRENCE" eid="e9">quoting</EVENT> MoAC sources.
+
+"The production will <EVENT class="OCCURRENCE" eid="e10">decrease</EVENT> by more than 500,000 metric tons in <TIMEX3 type="DATE" value="2006" tid="t4">the fiscal year 2006/07</TIMEX3> against total production of 4.2 million tons in <TIMEX3 type="DATE" value="2005" tid="t5">the year</TIMEX3> 2005/06," MoAC sources <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+The MoAC and WFO team had <EVENT class="OCCURRENCE" eid="e12">visited</EVENT> various places of the country and <EVENT class="OCCURRENCE" eid="e13">met</EVENT> government officials, political parties, farmers and officials <EVENT class="OCCURRENCE" eid="e14">working</EVENT> on natural <EVENT class="OCCURRENCE" eid="e15">calamities</EVENT> to <EVENT class="OCCURRENCE" eid="e16">acquire</EVENT> the information regarding paddy production.
+
+Ganesh Kumar K.C., secretary at the MoAC, <EVENT class="REPORTING" eid="e17">said</EVENT> that the ministry would <EVENT class="REPORTING" eid="e18">talk</EVENT> with the donor agencies to <EVENT class="OCCURRENCE" eid="e19">save</EVENT> the country from possible food <EVENT class="OCCURRENCE" eid="e20">crisis</EVENT> due to lack of adequate food security.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+
+
+
+
+</TimeML>

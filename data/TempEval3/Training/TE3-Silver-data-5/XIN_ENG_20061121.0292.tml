@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0292</DOCID>
+
+<DCT>NAIROBI, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>UN envoy calls on donors to help flood-hit Somalis</TITLE>
+
+
+<TEXT>
+
+The United Nations envoy for Somalia on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> <EVENT class="REPORTING" eid="e1">called</EVENT> on the international community to <EVENT class="OCCURRENCE" eid="e2">respond</EVENT> generously to the needs of Somali communities affected by <EVENT class="OCCURRENCE" eid="e4">rising</EVENT> flood waters.
+
+In a statement <EVENT class="OCCURRENCE" eid="e5">issued</EVENT> in Nairobi, UN Secretary-General's Special Representative for Somalia Francois Lonseny Fall <EVENT class="REPORTING" eid="e6">said</EVENT> during his <EVENT class="OCCURRENCE" eid="e7">visit</EVENT> to Baidoa on <TIMEX3 type="DATE" value="2006-11-20" tid="t2">Monday</TIMEX3>, Somali leaders <EVENT class="OCCURRENCE" eid="e8">expressed</EVENT> concerns that too little relief was being <EVENT class="OCCURRENCE" eid="e9">offered</EVENT> to people in dire need.
+
+"It was also clear to me that the extent of flooding is beyond anything <EVENT class="PERCEPTION" eid="e12">seen</EVENT> in Somalia in <TIMEX3 type="DURATION" value="2006-11-21" tid="t3">many years</TIMEX3>," Fall <EVENT class="REPORTING" eid="e13">said</EVENT> in the statement <EVENT class="OCCURRENCE" eid="e14">issued</EVENT> after his <EVENT class="OCCURRENCE" eid="e15">visit</EVENT> to the flood-hit Horn of African nation.
+
+In <TIMEX3 type="DURATION" value="P6W" tid="t4">the past six weeks</TIMEX3>, most parts of the country have already <EVENT class="OCCURRENCE" eid="e16">received</EVENT> more than 300 percent of their normal rainfall. UN agencies and non-governmental organizations are <EVENT class="OCCURRENCE" eid="e17">delivering</EVENT> food relief, shelter materials and other emergency support, but more will be <EVENT class="I_STATE" eid="e18">needed</EVENT>.
+
+The UN <EVENT class="I_STATE" eid="e19">estimates</EVENT> that about 1.1 million in southern Somalia are already <EVENT class="I_ACTION" eid="e20">facing</EVENT> a humanitarian emergency and the rainy season will still <EVENT class="OCCURRENCE" eid="e21">last</EVENT> several weeks.
+
+Fall <EVENT class="OCCURRENCE" eid="e22">flew</EVENT> to Baidoa on <TIMEX3 type="DATE" value="2006-11-20" tid="t5">Monday</TIMEX3> to <EVENT class="REPORTING" eid="e23">emphasize</EVENT> the need for Somalia 's Transitional Federal Institutions (TFIs) to remain united.
+
+He <EVENT class="I_ACTION" eid="e26">sought</EVENT> assurances from President Abdullahi Yusuf Ahmed and Prime Minister Ali Mohamed Gedi that they were <EVENT class="I_STATE" eid="e27">committed</EVENT> to the unity of the TFIs and a <EVENT class="OCCURRENCE" eid="e28">resumption</EVENT> of dialogues with the Islamic Courts following the postponement of the third round of the Khartoum peace <EVENT class="OCCURRENCE" eid="e29">talks</EVENT> early <TIMEX3 type="DATE" value="2006-11" tid="t6">this month</TIMEX3>.
+
+The UN envoy was <EVENT class="OCCURRENCE" eid="e30">accompanied</EVENT> to Baidoa by several representatives from the International Advisory Contact Group for Somalia, which was <EVENT class="OCCURRENCE" eid="e31">set</EVENT> up earlier <TIMEX3 type="DATE" value="2006" tid="t7">this year</TIMEX3> to <EVENT class="I_ACTION" eid="e32">assist</EVENT> the peace process.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei31" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei29" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+
+
+
+
+</TimeML>

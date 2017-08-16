@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>APW19980820.1428</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-08-20" temporalFunction="false" functionInDocument="CREATION_TIME">1998-08-20</TIMEX3></DCT>
+
+<TITLE>New Zealand expresses understanding over U.S. missile attacks</TITLE>
+
+
+<EXTRAINFO>
+APW19980820.1428 
+ NEWS STORY 
+ 08/20/1998 22:52:00
+w2161 &amp;Cx1f; wstm-
+u i &amp;Cx13;  &amp;Cx11;  BC-NewZealand-US-Bombing     08-20 0203
+BC-New Zealand-US-Bombings
+New Zealand expresses understanding over U.S. missile attacks
+</EXTRAINFO>
+
+
+
+
+<TEXT>
+
+WELLINGTON, New Zealand (AP) _
+
+The United States had the right to <EVENT class="OCCURRENCE" eid="e2">defend</EVENT> its citizens against terrorist <EVENT class="OCCURRENCE" eid="e3">actions</EVENT>, New Zealand <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1998-08-14" tid="t1">Friday</TIMEX3> in response to U.S. missile <EVENT class="OCCURRENCE" eid="e5">attacks</EVENT> on alleged terrorist sites in Sudan and Afghanistan.
+
+Foreign Minister Don McKinnon <EVENT class="REPORTING" eid="e6">said</EVENT> that terrorist <EVENT class="OCCURRENCE" eid="e7">bombings</EVENT> this month of U.S. embassies in Nairobi, Kenya and Dar es Salaam, Tanzania, ``<EVENT class="OCCURRENCE" eid="e8">show</EVENT> that terrorism is an indiscriminate killer of innocent people.''
+
+Retaliating <TIMEX3 type="DURATION" value="P13D" tid="t3">13 days</TIMEX3> after the deadly embassy <EVENT class="OCCURRENCE" eid="e10">bombings</EVENT> in East Africa, U.S. forces <TIMEX3 type="DATE" value="1998-08-20" tid="t4">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e11">launched</EVENT> cruise missile <EVENT class="OCCURRENCE" eid="e12">strikes</EVENT> against alleged terrorist camps in Afghanistan and a chemical plant in Sudan.
+
+``Countries have the right to <EVENT class="OCCURRENCE" eid="e13">defend</EVENT> themselves and their citizens against terrorism and New Zealand appreciates and <EVENT class="I_STATE" eid="e15">understands</EVENT> the steps the United States has <EVENT class="OCCURRENCE" eid="e16">taken</EVENT>,'' McKinnon <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+The embassy <EVENT class="OCCURRENCE" eid="e18">bombings</EVENT>, on <TIMEX3 type="DATE" value="1998-08-07" tid="t5">Aug. 7</TIMEX3>, <EVENT class="OCCURRENCE" eid="e19">killed</EVENT> 247 people in Kenya and 10 in Tanzania. More than 5,500 people were <EVENT class="OCCURRENCE" eid="e20">injured</EVENT>, mostly Kenyans.
+
+McKinnon's spokeswoman <EVENT class="REPORTING" eid="e21">said</EVENT> the United States had ``very good intelligence'' <EVENT class="OCCURRENCE" eid="e22">linking</EVENT> the sites <EVENT class="OCCURRENCE" eid="e23">struck</EVENT> overnight with the embassy <EVENT class="OCCURRENCE" eid="e24">attacks</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+<EXTRAINFO>
+(PROFILE (WS SL:BC-New Zealand-US-Bombings; CT:i; (REG:EURO;) (REG:BRIT;) (REG:SCAN;) (REG:MEST;) (REG:AFRI;) (REG:INDI;) (REG:ENGL;) (LANG:ENGLISH;)) )
+AP-NY-08-20-98 2252EDT
+</EXTRAINFO>
+
+<TLINK lid="l1" relType="BEFORE" timeID="t5" relatedToTime="t1" />
+<TLINK lid="l2" relType="BEFORE" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l3" relType="SIMULTANEOUS" timeID="t0" relatedToTime="t4" />
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t1" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei4" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei5" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei8" />
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t3" />
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t4" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei11" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei11" relatedToEventInstance="ei12" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l24" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei17" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei17" />
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei17" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei17" />
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToTime="t5" />
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l30" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei18" />
+<TLINK lid="l31" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToEventInstance="ei19" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei20" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l35" relType="SIMULTANEOUS" eventInstanceID="ei20" relatedToEventInstance="ei21" />
+<TLINK lid="l36" relType="AFTER" eventInstanceID="ei21" relatedToEventInstance="ei22" />
+<TLINK lid="l37" relType="AFTER" eventInstanceID="ei21" relatedToEventInstance="ei23" />
+<TLINK lid="l38" relType="AFTER" eventInstanceID="ei21" relatedToEventInstance="ei24" />
+
+</TimeML>
+
+

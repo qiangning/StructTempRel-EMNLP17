@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0222</DOCID>
+
+<DCT>KUWAIT CITY, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Kuwait stock exchange index down</TITLE>
+
+
+<TEXT>
+
+Kuwait Stock Exchange index <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> at 11,777.6 points on <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3>, 77.9 points down from <TIMEX3 type="DATE" value="2005-11-15" tid="t2">Tuesday</TIMEX3>'s finish.
+
+The turnover was 188 million Kuwaiti dinars (639.2 million US dollars) as 329 million shares were <EVENT class="OCCURRENCE" eid="e3">traded</EVENT> in 13,385 deals.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l4" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="AFTER" />
+
+
+
+
+</TimeML>

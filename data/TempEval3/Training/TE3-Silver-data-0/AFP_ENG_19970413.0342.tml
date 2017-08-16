@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970413.0342</DOCID>
+
+<DCT>BOGOTA, <TIMEX3 tid="t0" type="TIME" value="1997-04-13" temporalFunction="false" functionInDocument="CREATION_TIME">April 13 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENT Hostage release under way in Colombian prison seige</TITLE>
+
+
+<TEXT>
+
+The 11 hostages who have been <EVENT class="OCCURRENCE" eid="e1">held</EVENT> by rioting inmates in a prison in Valledupar, Colombia, since <TIMEX3 type="DATE" value="1997-04-03" tid="t1">April 3</TIMEX3> were <EVENT class="OCCURRENCE" eid="e2">released</EVENT> <TIMEX3 type="DATE" value="1997-04-13" tid="t2">Sunday</TIMEX3> under a <EVENT class="OCCURRENCE" eid="e3">deal</EVENT> <EVENT class="OCCURRENCE" eid="e4">negotiated</EVENT> with the prisoners.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

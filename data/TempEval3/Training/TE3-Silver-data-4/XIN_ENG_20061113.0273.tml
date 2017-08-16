@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0273</DOCID>
+
+<DCT>ISLAMABAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-12" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 12 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Dengue death toll rises to 41 in Pakistan</TITLE>
+
+
+<TEXT>
+
+Pakistani Health Ministry Monday <EVENT class="REPORTING" eid="e1">said</EVENT> mosquito-borne dengue fever so far has <EVENT class="OCCURRENCE" eid="e2">caused</EVENT> 41 deaths across the country since early <TIMEX3 tid="t2" type="DATE" value="2006-10">October</TIMEX3> and the patients <EVENT class="OCCURRENCE" eid="e3">declared</EVENT> positive for dengue virus <EVENT class="OCCURRENCE" eid="e4">reached</EVENT> 1,576.
+
+As many as 4,397 patients with symptoms similar to dengue fever have been <EVENT class="OCCURRENCE" eid="e5">admitted</EVENT> to hospitals across Pakistan till <TIMEX3 type="DATE" value="2006-11-06TEV" tid="t3">Monday evening</TIMEX3>, <EVENT class="REPORTING" eid="e6">said</EVENT> the health ministry, <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> by the state-run Associated Press of Pakistan (APP).
+
+Among the 41 deaths, 39 are from south province Sindh and two others from North West Frontier Province, <EVENT class="REPORTING" eid="e8">said</EVENT> the APP.
+
+A total of 664 patients with suspected dengue fever symptoms have so far been <EVENT class="OCCURRENCE" eid="e9">admitted</EVENT> to hospitals in federal capital Islamabad and the garrison city Rawlapindi, where positive cases of dengue virus <EVENT class="I_STATE" eid="e10">stands</EVENT> at 247, it <EVENT class="OCCURRENCE" eid="e11">added</EVENT>.
+
+Dengue fever is an acute, infectious tropical disease <EVENT class="OCCURRENCE" eid="e13">caused</EVENT> by an arbovirus <EVENT class="OCCURRENCE" eid="e14">transmitted</EVENT> by mosquitoes, and <EVENT class="OCCURRENCE" eid="e15">characterized</EVENT> by high fever, rash, headache, and severe muscle and joint pain, according to experts of the disease.
+
+Authorities have <EVENT class="OCCURRENCE" eid="e16">launched</EVENT> a nationwide campaign to <EVENT class="OCCURRENCE" eid="e18">create</EVENT> public awareness about the disease, and local government bodies have been <EVENT class="OCCURRENCE" eid="e20">directed</EVENT> to <EVENT class="OCCURRENCE" eid="e21">take</EVENT> precautionary measures to <EVENT class="I_ACTION" eid="e22">avoid</EVENT> spread of the virus, like spraying mosquitocide, the APP <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

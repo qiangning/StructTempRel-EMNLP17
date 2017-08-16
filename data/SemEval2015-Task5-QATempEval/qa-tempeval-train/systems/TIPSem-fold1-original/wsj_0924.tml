@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0924</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891026-0134 = 891026 891026-0134.
+Dominion Textile Rights Plan 10/26/89 WALL STREET JOURNAL (J) T.DTX EARNINGS (ERN) MONTREAL
+</EXTRAINFO>
+
+
+
+<TEXT>
+Dominion Textile Inc. holders <EVENT class="OCCURRENCE" eid="e1">adopted</EVENT> a shareholder-rights plan at the annual <EVENT class="OCCURRENCE" eid="e2">meeting</EVENT>.
+
+The so-called poison pill <EVENT class="OCCURRENCE" eid="e3">took</EVENT> effect <TIMEX3 type="DATE" value="1989-08-09" tid="t1">Aug. 9</TIMEX3> pending <EVENT class="OCCURRENCE" eid="e4">ratification</EVENT> by holders. Rights attached to the company's common shares were <EVENT class="OCCURRENCE" eid="e6">issued</EVENT> that are <EVENT class="ASPECTUAL" eid="e7">triggered</EVENT> if a hostile bidder <EVENT class="OCCURRENCE" eid="e8">acquires</EVENT> more than 20% of the shares outstanding. Once <EVENT class="ASPECTUAL" eid="e9">triggered</EVENT>, the rights <EVENT class="OCCURRENCE" eid="e10">allow</EVENT> holders to <EVENT class="OCCURRENCE" eid="e11">buy</EVENT> additional shares at 50% of the then current market price or, at the board's discretion, to <EVENT class="OCCURRENCE" eid="e12">receive</EVENT> securities or assets.
+
+Separately, Dominion Textile <EVENT class="OCCURRENCE" eid="e13">posted</EVENT> net income of 4.7 million Canadian dollars ($4 million), or 12 Canadian cents a share, for <TIMEX3 type="DATE" value="1989-10-26" tid="t3">the fiscal-first quarter</TIMEX3> ended <TIMEX3 type="DATE" value="1989-09-30" tid="t4">Sept. 30</TIMEX3>. The company <EVENT class="STATE" eid="e16">had</EVENT> a net <EVENT class="OCCURRENCE" eid="e17">loss</EVENT> of C$2.3 million, or 14 Canadian cents a share, <TIMEX3 type="DATE" value="1988" tid="t5">a year ago</TIMEX3>. Sales were C$348.2 million compared with C$307.2 <TIMEX3 type="DATE" value="1988" tid="t6">a year earlier</TIMEX3>.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000013"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t1" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei6" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei8" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei10" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei12" />
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToTime="t3" />
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei1000013" relatedToTime="t4" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei13" />
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei13" relatedToEventInstance="ei1000013" />
+<TLINK lid="l21" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t5" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei16" />
+<TLINK lid="l24" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei17" />
+</TimeML>
+

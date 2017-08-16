@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061204.0140</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-04" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 4 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Oil prices fall, though Brent crude holds above 64 dollars</TITLE>
+
+
+<TEXT>
+
+World oil prices <EVENT class="OCCURRENCE" eid="e1">dropped</EVENT> on <TIMEX3 type="DATE" value="2006-12-04" tid="t1">Monday</TIMEX3> after <EVENT class="OCCURRENCE" eid="e2">striking</EVENT> two-month high points the previous week on supply concerns.
+
+In London, Brent North Sea crude for <TIMEX3 type="DATE" value="2006-01" tid="t4">January</TIMEX3> delivery <EVENT class="OCCURRENCE" eid="e3">slid</EVENT> 52 cents to 64.10 dollars in electronic trading.
+
+New York's main contract, light sweet crude for delivery in <TIMEX3 type="DATE" value="2006-01" tid="t5">January</TIMEX3>, <EVENT class="OCCURRENCE" eid="e4">lost</EVENT> 45 cents to 62.98 dollars per barrel in electronic <EVENT class="OCCURRENCE" eid="e5">deals</EVENT> before the official <EVENT class="OCCURRENCE" eid="e6">opening</EVENT> of the US market.
+
+World oil prices had <EVENT class="OCCURRENCE" eid="e7">risen</EVENT> sharply <TIMEX3 type="DATE" value="2006-W48" tid="t6">last week</TIMEX3>, mainly <EVENT class="OCCURRENCE" eid="e8">owing</EVENT> to data that <EVENT class="OCCURRENCE" eid="e9">revealed</EVENT> <EVENT class="OCCURRENCE" eid="e10">falls</EVENT> in US energy stocks and expectations that the Organization of Petroleum Exporting Countries will <EVENT class="OCCURRENCE" eid="e11">decide</EVENT> later <TIMEX3 type="DATE" value="2006-12" tid="t7">this month</TIMEX3> to <EVENT class="OCCURRENCE" eid="e12">cut</EVENT> further its oil output.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,743 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DCT><TIMEX3 tid="t0" type="TIME" value="2014-08-22" temporalFunction="false" functionInDocument="CREATION_TIME">2014</TIMEX3></DCT>
+
+<TEXT>
+World War I (WWI or WW1 or World War One), also known as the First World War or the Great War, was a global <EVENT class="OCCURRENCE" eid="e1">war</EVENT> <EVENT class="OCCURRENCE" eid="e2">centred</EVENT> in Europe that <EVENT class="OCCURRENCE" eid="e3">began</EVENT> on <TIMEX3 type="DATE" value="1914-07-28" tid="t1">28 July 1914</TIMEX3> and <EVENT class="OCCURRENCE" eid="e4">lasted</EVENT> until <TIMEX3 type="DATE" value="1918-11-11" tid="t2">11 November 1918</TIMEX3>. More than 9 million combatants and 7 million civilians <EVENT class="OCCURRENCE" eid="e5">died</EVENT> as a result of the <EVENT class="OCCURRENCE" eid="e6">war</EVENT>, a casualty rate <EVENT class="OCCURRENCE" eid="e7">exacerbated</EVENT> by the belligerents' technological and industrial sophistication, and tactical stalemate. It was one of the deadliest conflicts in history, <EVENT class="OCCURRENCE" eid="e8">paving</EVENT> the way for major political <EVENT class="OCCURRENCE" eid="e9">changes</EVENT>, including <EVENT class="OCCURRENCE" eid="e10">revolutions</EVENT> in many of the nations <EVENT class="OCCURRENCE" eid="e11">involved</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e12">war</EVENT> <EVENT class="OCCURRENCE" eid="e13">drew</EVENT> in all the world's economic great powers, which were <EVENT class="OCCURRENCE" eid="e14">assembled</EVENT> in two opposing alliances: the Allies (based on the Triple Entente of the United Kingdom, France and the Russian Empire) and the Central Powers of Germany and Austria-Hungary. Although Italy had also been a member of the Triple Alliance alongside Germany and Austria-Hungary, it did not <EVENT class="OCCURRENCE" eid="e15">join</EVENT> the Central Powers, as Austria-Hungary had <EVENT class="OCCURRENCE" eid="e16">taken</EVENT> the <EVENT class="OCCURRENCE" eid="e17">offensive</EVENT> against the terms of the alliance. These alliances were <EVENT class="OCCURRENCE" eid="e18">reorganised</EVENT> and <EVENT class="OCCURRENCE" eid="e19">expanded</EVENT> as more nations <EVENT class="OCCURRENCE" eid="e20">entered</EVENT> the <EVENT class="OCCURRENCE" eid="e21">war</EVENT>: Italy, Japan and the United States <EVENT class="OCCURRENCE" eid="e22">joined</EVENT> the Allies, and the Ottoman Empire and Bulgaria the Central Powers. Ultimately, more than 70 million military personnel, including 60 million Europeans, were <EVENT class="OCCURRENCE" eid="e23">mobilised</EVENT> in one of the largest wars in history.
+
+Although a <EVENT class="OCCURRENCE" eid="e24">resurgence</EVENT> of imperialism was an underlying cause, the immediate trigger for war was the <TIMEX3 type="DATE" value="1914-06-28" tid="t3">28 June 1914</TIMEX3> <EVENT class="OCCURRENCE" eid="e25">assassination</EVENT> of Archduke Franz Ferdinand of Austria, heir to the throne of Austria-Hungary, by Yugoslav nationalist Gavrilo Princip in Sarajevo. This <EVENT class="OCCURRENCE" eid="e26">set</EVENT> off a diplomatic <EVENT class="OCCURRENCE" eid="e27">crisis</EVENT> when Austria-Hungary <EVENT class="OCCURRENCE" eid="e28">delivered</EVENT> an ultimatum to the Kingdom of Serbia, and international alliances <EVENT class="OCCURRENCE" eid="e29">formed</EVENT> over <TIMEX3 type="DATE" value="2014-08-22" tid="t4">the previous decades</TIMEX3> were <EVENT class="OCCURRENCE" eid="e30">invoked</EVENT>. Within <TIMEX3 type="DATE" value="PXW" tid="t5">weeks</TIMEX3>, the major powers were at war and the <EVENT class="OCCURRENCE" eid="e31">conflict</EVENT> soon <EVENT class="OCCURRENCE" eid="e32">spread</EVENT> around the world.
+
+On <TIMEX3 type="DATE" value="2014-07-28" tid="t6">28 July</TIMEX3>, the Austro-Hungarians <EVENT class="OCCURRENCE" eid="e33">fired</EVENT> the first shots in preparation for the <EVENT class="OCCURRENCE" eid="e34">invasion</EVENT> of Serbia. As Russia <EVENT class="OCCURRENCE" eid="e35">mobilised</EVENT>, Germany <EVENT class="OCCURRENCE" eid="e36">invaded</EVENT> neutral Belgium and Luxembourg before <EVENT class="OCCURRENCE" eid="e37">moving</EVENT> towards France, <EVENT class="I_ACTION" eid="e38">leading</EVENT> Britain to <EVENT class="REPORTING" eid="e39">declare</EVENT> <EVENT class="OCCURRENCE" eid="e40">war</EVENT> on Germany. After the German march on Paris was <EVENT class="ASPECTUAL" eid="e41">halted</EVENT>, what <EVENT class="STATE" eid="e42">became</EVENT> known as the Western Front <EVENT class="OCCURRENCE" eid="e43">settled</EVENT> into a <EVENT class="OCCURRENCE" eid="e44">battle</EVENT> of attrition, with a trench line that would <EVENT class="OCCURRENCE" eid="e45">change</EVENT> little until <TIMEX3 type="DATE" value="1917" tid="t7">1917</TIMEX3>. Meanwhile, on the Eastern Front, the Russian army was <EVENT class="STATE" eid="e46">successful</EVENT> against the Austro-Hungarians, but was <EVENT class="ASPECTUAL" eid="e47">stopped</EVENT> in its <EVENT class="OCCURRENCE" eid="e48">invasion</EVENT> of East Prussia by the Germans. In <TIMEX3 type="DATE" value="1914-11" tid="t8">November 1914</TIMEX3>, the Ottoman Empire <EVENT class="OCCURRENCE" eid="e49">joined</EVENT> the <EVENT class="OCCURRENCE" eid="e50">war</EVENT>, <EVENT class="ASPECTUAL" eid="e51">opening</EVENT> fronts in the Caucasus, Mesopotamia and the Sinai. Italy and Bulgaria <EVENT class="OCCURRENCE" eid="e52">went</EVENT> to <EVENT class="OCCURRENCE" eid="e53">war</EVENT> in <TIMEX3 type="DATE" value="1915" tid="t9">1915</TIMEX3>, Romania in <TIMEX3 type="DATE" value="1916" tid="t10">1916</TIMEX3>, and the United States in <TIMEX3 type="DATE" value="1917" tid="t11">1917</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e54">war</EVENT> <EVENT class="OCCURRENCE" eid="e55">approached</EVENT> a <EVENT class="OCCURRENCE" eid="e56">resolution</EVENT> after the Russian government <EVENT class="OCCURRENCE" eid="e57">collapsed</EVENT> in <TIMEX3 type="DATE" value="1917-03" tid="t12">March 1917</TIMEX3>, and a subsequent <EVENT class="OCCURRENCE" eid="e58">revolution</EVENT> in <TIMEX3 type="DATE" value="2013-11" tid="t13">November</TIMEX3> <EVENT class="OCCURRENCE" eid="e59">brought</EVENT> the Russians to terms with the Central Powers. On <TIMEX3 type="DATE" value="1918-11-04" tid="t14">4 November 1918</TIMEX3>, the Austro-Hungarian empire <EVENT class="I_ACTION" eid="e60">agreed</EVENT> to an armistice. After a <TIMEX3 type="DATE" value="1918" tid="t15">1918</TIMEX3> German <EVENT class="OCCURRENCE" eid="e61">offensive</EVENT> along the western front, the Allies <EVENT class="OCCURRENCE" eid="e62">drove</EVENT> back the Germans in a series of successful offensives and <EVENT class="ASPECTUAL" eid="e63">began</EVENT> <EVENT class="OCCURRENCE" eid="e64">entering</EVENT> the trenches. Germany, which <EVENT class="STATE" eid="e65">had</EVENT> its own trouble with revolutionaries, <EVENT class="I_ACTION" eid="e66">agreed</EVENT> to an armistice on <TIMEX3 type="DATE" value="1918-11-11" tid="t16">11 November 1918</TIMEX3>, <EVENT class="ASPECTUAL" eid="e67">ending</EVENT> the <EVENT class="OCCURRENCE" eid="e68">war</EVENT> in victory for the Allies.
+
+By the end of the <EVENT class="OCCURRENCE" eid="e69">war</EVENT>, four major imperial powers - the German, Russian, Austro-Hungarian and Ottoman empires - <EVENT class="OCCURRENCE" eid="e70">ceased</EVENT> to <EVENT class="OCCURRENCE" eid="e71">exist</EVENT>. The successor states of the former two <EVENT class="OCCURRENCE" eid="e72">lost</EVENT> substantial territory, while the latter two were <EVENT class="OCCURRENCE" eid="e73">dismantled</EVENT>. The maps of Europe and Southwest Asia were redrawn, with several independent nations <EVENT class="OCCURRENCE" eid="e74">restored</EVENT> or <EVENT class="OCCURRENCE" eid="e75">created</EVENT>. The League of Nations was <EVENT class="OCCURRENCE" eid="e76">formed</EVENT> with the aim of <EVENT class="I_ACTION" eid="e77">preventing</EVENT> any repetition of such an appalling <EVENT class="OCCURRENCE" eid="e78">conflict</EVENT>. This aim, however, <EVENT class="OCCURRENCE" eid="e79">failed</EVENT> with weakened states, renewed European nationalism and the German feeling of humiliation contributing to the <EVENT class="OCCURRENCE" eid="e80">rise</EVENT> of fascism. All of these conditions eventually <EVENT class="OCCURRENCE" eid="e81">led</EVENT> to World War II.
+
+
+Background.
+
+Political and military alliances.
+
+In <TIMEX3 type="DATE" value="19" tid="t17">the 19th century</TIMEX3>, the major European powers had <EVENT class="OCCURRENCE" eid="e82">gone</EVENT> to great lengths to <EVENT class="OCCURRENCE" eid="e83">maintain</EVENT> a balance of power throughout Europe, <EVENT class="OCCURRENCE" eid="e84">resulting</EVENT> in the existence of a complex network of political and military alliances throughout the continent by <TIMEX3 type="DATE" value="1900" tid="t18">1900</TIMEX3>. These had <EVENT class="ASPECTUAL" eid="e85">started</EVENT> in <TIMEX3 type="DATE" value="1815" tid="t19">1815</TIMEX3>, with the Holy Alliance between Prussia, Russia, and Austria. Then, in <TIMEX3 type="DATE" value="1873-10" tid="t20">October 1873</TIMEX3>, German Chancellor Otto von Bismarck <EVENT class="OCCURRENCE" eid="e86">negotiated</EVENT> the League of the Three Emperors between the monarchs of Austria-Hungary, Russia and Germany. This <EVENT class="I_STATE" eid="e87">agreement</EVENT> <EVENT class="OCCURRENCE" eid="e88">failed</EVENT> because Austria-Hungary and Russia could not <EVENT class="I_ACTION" eid="e89">agree</EVENT> over Balkan policy, <EVENT class="OCCURRENCE" eid="e90">leaving</EVENT> Germany and Austria-Hungary in an alliance <EVENT class="OCCURRENCE" eid="e91">formed</EVENT> in <TIMEX3 type="DATE" value="1879" tid="t21">1879</TIMEX3>, <EVENT class="I_ACTION" eid="e92">called</EVENT> the Dual Alliance. This was <EVENT class="PERCEPTION" eid="e93">seen</EVENT> as a method of <EVENT class="I_STATE" eid="e94">countering</EVENT> Russian influence in the Balkans as the Ottoman Empire <EVENT class="ASPECTUAL" eid="e95">continued</EVENT> to <EVENT class="OCCURRENCE" eid="e96">weaken</EVENT>. In <TIMEX3 type="DATE" value="1882" tid="t22">1882</TIMEX3>, this alliance was <EVENT class="OCCURRENCE" eid="e97">expanded</EVENT> to include Italy in what <EVENT class="STATE" eid="e98">became</EVENT> the Triple Alliance. In <TIMEX3 type="DATE" value="1904" tid="t23">1904</TIMEX3>, Britain <EVENT class="OCCURRENCE" eid="e99">signed</EVENT> a series of agreements with France, the Entente Cordiale, and in <TIMEX3 type="DATE" value="1907" tid="t24">1907</TIMEX3>, Britain and Russia <EVENT class="OCCURRENCE" eid="e100">signed</EVENT> the Anglo-Russian Convention.
+
+Arms race.
+
+German industrial and economic power had <EVENT class="OCCURRENCE" eid="e101">grown</EVENT> greatly after <EVENT class="OCCURRENCE" eid="e102">unification</EVENT> and the foundation of the Empire in <TIMEX3 type="DATE" value="1871" tid="t25">1871</TIMEX3> following the Franco-Prussian War. Between <TIMEX3 type="DATE" value="1908" tid="t26">1908</TIMEX3> and <TIMEX3 type="DATE" value="1913" tid="t27">1913</TIMEX3>, the military <EVENT class="OCCURRENCE" eid="e103">spending</EVENT> of the European powers <EVENT class="OCCURRENCE" eid="e104">increased</EVENT> by 50%.
+
+Conflicts in the Balkans. Austria-Hungary <EVENT class="OCCURRENCE" eid="e105">precipitated</EVENT> the Bosnian <EVENT class="OCCURRENCE" eid="e106">crisis</EVENT> of 1908 - 1909 by officially <EVENT class="OCCURRENCE" eid="e107">annexing</EVENT> the former Ottoman territory of Bosnia and Herzegovina, which it had <EVENT class="OCCURRENCE" eid="e108">occupied</EVENT> since <TIMEX3 type="DATE" value="1878" tid="t28">1878</TIMEX3>.
+
+Prelude.
+
+Sarajevo <EVENT class="OCCURRENCE" eid="e109">assassination</EVENT>.
+
+On <TIMEX3 type="DATE" value="1914-06-28" tid="t29">28 June 1914</TIMEX3>, Austrian Archduke Franz Ferdinand <EVENT class="OCCURRENCE" eid="e110">visited</EVENT> the Bosnian capital, Sarajevo. A group of six assassins (Cvjetko Popovic, Gavrilo Princip, Muhamed Mehmedbasic, Nedeljko Cabrinovic, Trifko Grabez, Vaso Cubrilovic) from the nationalist group Mlada Bosna, <EVENT class="OCCURRENCE" eid="e111">supplied</EVENT> by the Black Hand, had <EVENT class="OCCURRENCE" eid="e112">gathered</EVENT> on the street where the Archduke's <EVENT class="OCCURRENCE" eid="e113">motorcade</EVENT> would <EVENT class="OCCURRENCE" eid="e114">pass</EVENT>. Cabrinovic <EVENT class="OCCURRENCE" eid="e115">threw</EVENT> a grenade at the car, but <EVENT class="OCCURRENCE" eid="e116">missed</EVENT>. It <EVENT class="OCCURRENCE" eid="e117">injured</EVENT> some people nearby, and Franz Ferdinand's <EVENT class="OCCURRENCE" eid="e118">convoy</EVENT> could <EVENT class="OCCURRENCE" eid="e119">carry</EVENT> on. The other assassins <EVENT class="OCCURRENCE" eid="e120">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e121">act</EVENT> as the cars <EVENT class="OCCURRENCE" eid="e122">drove</EVENT> past them quickly. About <TIMEX3 type="DURATION" value="PT1H" tid="t30">an hour</TIMEX3> later, when Franz Ferdinand was <EVENT class="OCCURRENCE" eid="e123">returning</EVENT> from a <EVENT class="OCCURRENCE" eid="e124">visit</EVENT> at the Sarajevo Hospital, the convoy <EVENT class="OCCURRENCE" eid="e125">took</EVENT> a wrong turn into a street where, by coincidence, Princip <EVENT class="OCCURRENCE" eid="e126">stood</EVENT>. With a pistol, Princip <EVENT class="OCCURRENCE" eid="e127">shot</EVENT> and <EVENT class="OCCURRENCE" eid="e128">killed</EVENT> Franz Ferdinand and his wife Sophie. The reaction among the people in Austria was mild, almost indifferent. As historian Zbynek Zeman later <EVENT class="REPORTING" eid="e129">wrote</EVENT>, "the event almost <EVENT class="OCCURRENCE" eid="e130">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e131">make</EVENT> any impression whatsoever. On <TIMEX3 type="DATE" value="2014-08-17" tid="t31">Sunday</TIMEX3> and <TIMEX3 type="DATE" value="2014-08-18" tid="t32">Monday</TIMEX3> [<TIMEX3 type="DATE" value="2014-06-28" tid="t33">June 28</TIMEX3> and <TIMEX3 type="DATE" value="1929" tid="t34">29</TIMEX3>], the crowds in Vienna <EVENT class="PERCEPTION" eid="e132">listened</EVENT> to music and drank wine, as if nothing had <EVENT class="OCCURRENCE" eid="e133">happened</EVENT>."
+
+Escalation of violence in Bosnia and Herzegovina.
+
+However, in Sarajevo itself, Austrian authorities <EVENT class="OCCURRENCE" eid="e134">encouraged</EVENT> <EVENT class="OCCURRENCE" eid="e135">violence</EVENT> against the Serb residents, which <EVENT class="OCCURRENCE" eid="e136">resulted</EVENT> in the Anti-Serb riots of Sarajevo, in which Croats and Bosnian Muslims <EVENT class="OCCURRENCE" eid="e137">killed</EVENT> two ethnic Serbs and <EVENT class="OCCURRENCE" eid="e138">damaged</EVENT> numerous Serb-owned buildings. The events have been <EVENT class="REPORTING" eid="e139">described</EVENT> as having the characteristics of a <EVENT class="OCCURRENCE" eid="e140">pogrom</EVENT>. Writer Ivo Andric <EVENT class="OCCURRENCE" eid="e141">referred</EVENT> to the <EVENT class="OCCURRENCE" eid="e142">violence</EVENT> as the "Sarajevo frenzy of hate." Violent <EVENT class="OCCURRENCE" eid="e143">actions</EVENT> against ethnic Serbs were <EVENT class="OCCURRENCE" eid="e144">organized</EVENT> not only in Sarajevo, but also in many other large Austro-Hungarian cities in modern-day Croatia and Bosnia and Herzegovina. Austro-Hungarian authorities in Bosnia and Herzegovina <EVENT class="OCCURRENCE" eid="e145">imprisoned</EVENT> and <EVENT class="OCCURRENCE" eid="e146">extradited</EVENT> approximately 5,500 prominent Serbs, 700 to 2,200 of whom <EVENT class="OCCURRENCE" eid="e147">died</EVENT> in prison. 460 Serbs were <EVENT class="OCCURRENCE" eid="e148">sentenced</EVENT> to death and a predominantly Muslim special militia known as the Schutzkorps was <EVENT class="OCCURRENCE" eid="e149">established</EVENT> and <EVENT class="OCCURRENCE" eid="e150">carried</EVENT> out the <EVENT class="OCCURRENCE" eid="e151">persecution</EVENT> of Serbs.
+
+July Crisis.
+
+The assassination <EVENT class="OCCURRENCE" eid="e152">led</EVENT> to a month of diplomatic manoeuvring between Austria-Hungary, Germany, Russia, France, and Britain which was <EVENT class="I_ACTION" eid="e153">called</EVENT> the July Crisis. <EVENT class="I_STATE" eid="e154">Believing</EVENT> correctly that Serbian officials (especially the officers of the Black Hand) were <EVENT class="OCCURRENCE" eid="e155">involved</EVENT> in the plot, and <EVENT class="I_STATE" eid="e156">wanting</EVENT> to finally <EVENT class="ASPECTUAL" eid="e157">end</EVENT> Serbian <EVENT class="OCCURRENCE" eid="e158">interference</EVENT> in Bosnia, Austria-Hungary <EVENT class="OCCURRENCE" eid="e159">delivered</EVENT> to Serbia on <TIMEX3 type="DATE" value="2014-08-22" tid="t35">23 July the July Ultimatum</TIMEX3>, a series of ten demands that were intentionally made unacceptable to <EVENT class="OCCURRENCE" eid="e160">provoke</EVENT> a <EVENT class="OCCURRENCE" eid="e161">war</EVENT> with Serbia. <TIMEX3 type="DATE" value="2014-08-23" tid="t36">The next day</TIMEX3>, after the Council of Ministers held under the chairmanship of the Tsar at Krasnoe Selo, Russia <EVENT class="OCCURRENCE" eid="e162">ordered</EVENT> general <EVENT class="OCCURRENCE" eid="e163">mobilization</EVENT> for Odessa, Kiev, Kazan and Moscow military districts and fleets of the Baltic and the Black Sea. She also <EVENT class="I_ACTION" eid="e164">asked</EVENT> for other regions to <EVENT class="OCCURRENCE" eid="e165">accelerate</EVENT> <EVENT class="OCCURRENCE" eid="e166">preparations</EVENT> for general <EVENT class="OCCURRENCE" eid="e167">mobilization</EVENT>. Serbia <EVENT class="OCCURRENCE" eid="e168">decreed</EVENT> general <EVENT class="OCCURRENCE" eid="e169">mobilization</EVENT> on <TIMEX3 type="DATE" value="1925" tid="t37">25</TIMEX3> and at night, <EVENT class="REPORTING" eid="e170">declared</EVENT> that they <EVENT class="OCCURRENCE" eid="e171">accept</EVENT> all the terms of the ultimatum, except the one <EVENT class="REPORTING" eid="e172">claiming</EVENT> that Austrian investigators <EVENT class="OCCURRENCE" eid="e173">visit</EVENT> the country. Following this, Austria <EVENT class="OCCURRENCE" eid="e174">broke</EVENT> off diplomatic relations with Serbia, and the next day <EVENT class="OCCURRENCE" eid="e175">ordered</EVENT> a partial <EVENT class="OCCURRENCE" eid="e176">mobilization</EVENT> against this country for <TIMEX3 type="DURATION" value="P28D" tid="t38">the 28th day</TIMEX3>, the <EVENT class="OCCURRENCE" eid="e177">refusal</EVENT> to <EVENT class="OCCURRENCE" eid="e178">approve</EVENT> its ultimatum five days earlier, she <EVENT class="REPORTING" eid="e179">declared</EVENT> <EVENT class="OCCURRENCE" eid="e180">war</EVENT> on Serbia.
+
+On <TIMEX3 type="DATE" value="2015-07-29" tid="t39">29 July</TIMEX3>, Russia, unwilling to <EVENT class="OCCURRENCE" eid="e181">allow</EVENT> Austria-Hungary to <EVENT class="OCCURRENCE" eid="e182">eliminate</EVENT> its influence in the Balkans, and in support of its longtime Serb protege, unilaterally <EVENT class="REPORTING" eid="e183">declared</EVENT> - outside the conciliation procedure <EVENT class="OCCURRENCE" eid="e184">provided</EVENT> by the Franco-Russian military <EVENT class="I_STATE" eid="e185">agreements</EVENT> - partial mobilization against Austria-Hungary. Chancellor Bethmann-Hollweg was then <EVENT class="OCCURRENCE" eid="e186">allowed</EVENT> until <TIMEX3 type="DATE" value="1931" tid="t40">31st</TIMEX3> for an appropriate response. On <TIMEX3 type="DATE" value="1930" tid="t41">30th</TIMEX3>, Russia <EVENT class="OCCURRENCE" eid="e187">ordered</EVENT> general <EVENT class="OCCURRENCE" eid="e188">mobilization</EVENT> against Germany. In response, the <TIMEX3 type="DATE" value="2014-08-23" tid="t42">following day</TIMEX3>, Germany <EVENT class="REPORTING" eid="e189">declared</EVENT> a "state of danger of war." This also <EVENT class="OCCURRENCE" eid="e190">led</EVENT> to the general <EVENT class="OCCURRENCE" eid="e191">mobilization</EVENT> in Austria on <TIMEX3 type="DATE" value="2014-08-04" tid="t43">August 4</TIMEX3>. Indeed, Kaiser Wilhelm II <EVENT class="I_ACTION" eid="e192">asked</EVENT> his cousin Tsar Nicolas II to <EVENT class="OCCURRENCE" eid="e193">suspend</EVENT> the Russian general <EVENT class="OCCURRENCE" eid="e194">mobilization</EVENT>. When he <EVENT class="OCCURRENCE" eid="e195">refused</EVENT>, Germany <EVENT class="OCCURRENCE" eid="e196">issued</EVENT> an ultimatum <EVENT class="OCCURRENCE" eid="e197">demanding</EVENT> the <EVENT class="OCCURRENCE" eid="e198">arrest</EVENT> of its mobilization and commitment not to <EVENT class="OCCURRENCE" eid="e199">support</EVENT> Serbia. Another was <EVENT class="OCCURRENCE" eid="e200">sent</EVENT> to France, <EVENT class="OCCURRENCE" eid="e201">asking</EVENT> her not to <EVENT class="OCCURRENCE" eid="e202">support</EVENT> Russia if it were to <EVENT class="OCCURRENCE" eid="e203">come</EVENT> to the defense of Serbia. On <TIMEX3 type="DATE" value="2014-08-01" tid="t44">August 1</TIMEX3>, after the Russian response, Germany <EVENT class="OCCURRENCE" eid="e204">mobilized</EVENT> and <EVENT class="REPORTING" eid="e205">declared</EVENT> <EVENT class="OCCURRENCE" eid="e206">war</EVENT> on Russia.
+
+The German government <EVENT class="OCCURRENCE" eid="e207">issued</EVENT> demands that France remain neutral as they had to <EVENT class="OCCURRENCE" eid="e208">decide</EVENT> which deployment <EVENT class="I_STATE" eid="e209">plan</EVENT> to <EVENT class="I_ACTION" eid="e210">implement</EVENT>, it being difficult if not impossible to <EVENT class="OCCURRENCE" eid="e211">change</EVENT> the deployment part-way through it. Aufmarsch II West would <EVENT class="OCCURRENCE" eid="e212">deploy</EVENT> 80% of the army in the west, and Aufmarsch I Ost and Aufmarsch II Ost would <EVENT class="OCCURRENCE" eid="e213">deploy</EVENT> 40% in the east as this was the maximum that East Prussia's railway infrastructure could <EVENT class="OCCURRENCE" eid="e214">support</EVENT>. The French did not <EVENT class="OCCURRENCE" eid="e215">respond</EVENT> but <EVENT class="OCCURRENCE" eid="e216">sent</EVENT> a mixed message by <EVENT class="OCCURRENCE" eid="e217">ordering</EVENT> their troops to <EVENT class="OCCURRENCE" eid="e218">withdraw</EVENT> 10 km (6 mi) from the border to <EVENT class="I_ACTION" eid="e219">avoid</EVENT> any incidents while <EVENT class="OCCURRENCE" eid="e220">ordering</EVENT> the <EVENT class="OCCURRENCE" eid="e221">mobilisation</EVENT> of her reserves. Germany <EVENT class="OCCURRENCE" eid="e222">responded</EVENT> by <EVENT class="OCCURRENCE" eid="e223">mobilising</EVENT> its own reserves and <EVENT class="OCCURRENCE" eid="e224">implementing</EVENT> Aufmarsch II West. Germany <EVENT class="OCCURRENCE" eid="e225">attacked</EVENT> Luxembourg on <TIMEX3 type="DATE" value="2014-08-02" tid="t45">2 August</TIMEX3> and on <TIMEX3 type="DATE" value="2014-08-03" tid="t46">3 August</TIMEX3> <EVENT class="REPORTING" eid="e226">declared</EVENT> <EVENT class="OCCURRENCE" eid="e227">war</EVENT> on France. On <TIMEX3 type="DATE" value="2014-08-04" tid="t47">4 August</TIMEX3>, after Belgium <EVENT class="OCCURRENCE" eid="e228">refused</EVENT> to <EVENT class="I_ACTION" eid="e229">permit</EVENT> German troops to <EVENT class="OCCURRENCE" eid="e230">cross</EVENT> its borders into France, Germany <EVENT class="REPORTING" eid="e231">declared</EVENT> <EVENT class="OCCURRENCE" eid="e232">war</EVENT> on Belgium as well. Britain <EVENT class="REPORTING" eid="e233">declared</EVENT> <EVENT class="OCCURRENCE" eid="e234">war</EVENT> on Germany on <TIMEX3 type="DATE" value="1914-08-04" tid="t48">4 August 1914</TIMEX3>, <EVENT class="OCCURRENCE" eid="e235">following</EVENT> an "unsatisfactory reply" to the British <EVENT class="OCCURRENCE" eid="e236">ultimatum</EVENT> that Belgium must be <EVENT class="OCCURRENCE" eid="e237">kept</EVENT> neutral.
+
+Formal end of the <EVENT class="OCCURRENCE" eid="e238">war</EVENT>.
+
+A formal state of war between the two sides <EVENT class="OCCURRENCE" eid="e239">persisted</EVENT> for <TIMEX3 type="DURATION" value="2014-08-22T07:00" tid="t49">another seven months</TIMEX3>, until the <EVENT class="OCCURRENCE" eid="e240">signing</EVENT> of the Treaty of Versailles with Germany on <TIMEX3 type="DATE" value="1919-06-28" tid="t50">28 June 1919</TIMEX3>. However, the American public <EVENT class="OCCURRENCE" eid="e241">opposed</EVENT> ratification of the treaty, mainly because of the League of Nations the treaty <EVENT class="OCCURRENCE" eid="e242">created</EVENT>. The United States did not formally <EVENT class="ASPECTUAL" eid="e243">end</EVENT> its <EVENT class="OCCURRENCE" eid="e244">involvement</EVENT> in the <EVENT class="OCCURRENCE" eid="e245">war</EVENT> until the Knox - Porter Resolution was <EVENT class="OCCURRENCE" eid="e246">signed</EVENT> on <TIMEX3 type="DATE" value="1921-07-02" tid="t51">2 July 1921</TIMEX3> by President Warren G. Harding. For the United Kingdom and the British Empire, the state of war <EVENT class="OCCURRENCE" eid="e247">ceased</EVENT> under the provisions of the Termination of the Present War (Definition) Act 1918 with respect to:
+
+After the <EVENT class="OCCURRENCE" eid="e248">Treaty</EVENT> of Versailles, treaties with Austria, Hungary, Bulgaria, and the Ottoman Empire were <EVENT class="OCCURRENCE" eid="e249">signed</EVENT>. However, the <EVENT class="OCCURRENCE" eid="e250">negotiation</EVENT> of the latter treaty with the Ottoman Empire was <EVENT class="OCCURRENCE" eid="e251">followed</EVENT> by strife (the Turkish War of Independence), and a final peace treaty between the Allied Powers and the country that would shortly <EVENT class="OCCURRENCE" eid="e252">become</EVENT> the Republic of Turkey was not <EVENT class="OCCURRENCE" eid="e253">signed</EVENT> until <TIMEX3 type="DATE" value="1923-07-24" tid="t52">24 July 1923</TIMEX3>, at Lausanne.
+
+Some war memorials <EVENT class="OCCURRENCE" eid="e254">date</EVENT> the end of the <EVENT class="OCCURRENCE" eid="e255">war</EVENT> as being when the Versailles Treaty was <EVENT class="OCCURRENCE" eid="e256">signed</EVENT> in 1919, which was when many of the troops <EVENT class="STATE" eid="e257">serving</EVENT> abroad finally <EVENT class="OCCURRENCE" eid="e258">returned</EVENT> to their home countries; by contrast, most commemorations of the war's end <EVENT class="OCCURRENCE" eid="e259">concentrate</EVENT> on the armistice of <TIMEX3 type="DATE" value="1918-11-11" tid="t53">11 November 1918</TIMEX3>. Legally, the formal peace treaties were not complete until the last, the Treaty of Lausanne, was <EVENT class="OCCURRENCE" eid="e260">signed</EVENT>. Under its terms, the Allied forces <EVENT class="OCCURRENCE" eid="e261">divested</EVENT> Constantinople on <TIMEX3 type="DATE" value="1923-08-23" tid="t54">23 August 1923</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25"  eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26"  eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27"  eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28"  eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29"  eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30"  eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31"  eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32"  eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33"  eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34"  eventID="e34" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35"  eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36"  eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37"  eventID="e37" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38"  eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei39"  eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40"  eventID="e40" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41"  eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42"  eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43"  eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44"  eventID="e44" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45"  eventID="e45" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei46"  eventID="e46" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47"  eventID="e47" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48"  eventID="e48" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49"  eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50"  eventID="e50" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51"  eventID="e51" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52"  eventID="e52" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei53"  eventID="e53" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei54"  eventID="e54" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei55"  eventID="e55" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei56"  eventID="e56" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei57"  eventID="e57" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei58"  eventID="e58" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei59"  eventID="e59" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei60"  eventID="e60" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei61"  eventID="e61" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei62"  eventID="e62" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei63"  eventID="e63" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei64"  eventID="e64" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei65"  eventID="e65" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei66"  eventID="e66" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei67"  eventID="e67" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei68"  eventID="e68" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei69"  eventID="e69" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei70"  eventID="e70" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei71"  eventID="e71" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei72"  eventID="e72" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei73"  eventID="e73" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei74"  eventID="e74" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei75"  eventID="e75" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei76"  eventID="e76" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei77"  eventID="e77" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei78"  eventID="e78" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei79"  eventID="e79" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei80"  eventID="e80" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei81"  eventID="e81" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei82"  eventID="e82" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei83"  eventID="e83" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei84"  eventID="e84" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei85"  eventID="e85" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei86"  eventID="e86" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei87"  eventID="e87" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei88"  eventID="e88" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei89"  eventID="e89" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei90"  eventID="e90" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei91"  eventID="e91" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei92"  eventID="e92" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei93"  eventID="e93" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei94"  eventID="e94" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei95"  eventID="e95" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei96"  eventID="e96" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei97"  eventID="e97" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei98"  eventID="e98" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei99"  eventID="e99" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei100"  eventID="e100" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei101"  eventID="e101" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei102"  eventID="e102" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei103"  eventID="e103" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei104"  eventID="e104" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei105"  eventID="e105" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei106"  eventID="e106" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei107"  eventID="e107" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei108"  eventID="e108" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei109"  eventID="e109" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei110"  eventID="e110" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei111"  eventID="e111" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei112"  eventID="e112" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei113"  eventID="e113" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei114"  eventID="e114" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei115"  eventID="e115" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei116"  eventID="e116" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei117"  eventID="e117" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei118"  eventID="e118" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei119"  eventID="e119" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei120"  eventID="e120" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei121"  eventID="e121" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei122"  eventID="e122" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei123"  eventID="e123" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei124"  eventID="e124" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei125"  eventID="e125" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei126"  eventID="e126" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei127"  eventID="e127" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei128"  eventID="e128" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei129"  eventID="e129" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei130"  eventID="e130" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei131"  eventID="e131" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei132"  eventID="e132" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei133"  eventID="e133" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei134"  eventID="e134" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei135"  eventID="e135" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei136"  eventID="e136" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei137"  eventID="e137" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei138"  eventID="e138" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei139"  eventID="e139" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei140"  eventID="e140" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei141"  eventID="e141" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei142"  eventID="e142" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei143"  eventID="e143" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei144"  eventID="e144" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei145"  eventID="e145" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei146"  eventID="e146" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei147"  eventID="e147" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei148"  eventID="e148" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei149"  eventID="e149" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei150"  eventID="e150" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei151"  eventID="e151" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei152"  eventID="e152" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei153"  eventID="e153" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei154"  eventID="e154" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei155"  eventID="e155" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei156"  eventID="e156" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei157"  eventID="e157" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei158"  eventID="e158" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei159"  eventID="e159" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei160"  eventID="e160" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei161"  eventID="e161" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei162"  eventID="e162" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei163"  eventID="e163" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei164"  eventID="e164" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei165"  eventID="e165" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei166"  eventID="e166" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei167"  eventID="e167" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei168"  eventID="e168" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei169"  eventID="e169" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei170"  eventID="e170" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei171"  eventID="e171" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei172"  eventID="e172" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei173"  eventID="e173" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei174"  eventID="e174" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei175"  eventID="e175" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei176"  eventID="e176" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei177"  eventID="e177" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei178"  eventID="e178" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei179"  eventID="e179" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei180"  eventID="e180" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei181"  eventID="e181" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei182"  eventID="e182" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei183"  eventID="e183" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei184"  eventID="e184" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei185"  eventID="e185" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei186"  eventID="e186" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei187"  eventID="e187" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei188"  eventID="e188" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei189"  eventID="e189" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei190"  eventID="e190" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei191"  eventID="e191" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei192"  eventID="e192" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei193"  eventID="e193" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei194"  eventID="e194" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei195"  eventID="e195" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei196"  eventID="e196" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei197"  eventID="e197" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei198"  eventID="e198" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei199"  eventID="e199" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei200"  eventID="e200" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei201"  eventID="e201" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei202"  eventID="e202" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei203"  eventID="e203" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei204"  eventID="e204" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei205"  eventID="e205" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei206"  eventID="e206" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei207"  eventID="e207" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei208"  eventID="e208" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei209"  eventID="e209" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei210"  eventID="e210" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei211"  eventID="e211" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei212"  eventID="e212" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei213"  eventID="e213" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei214"  eventID="e214" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei215"  eventID="e215" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei216"  eventID="e216" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei217"  eventID="e217" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei218"  eventID="e218" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei219"  eventID="e219" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei220"  eventID="e220" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei221"  eventID="e221" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei222"  eventID="e222" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei223"  eventID="e223" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei224"  eventID="e224" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei225"  eventID="e225" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei226"  eventID="e226" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei227"  eventID="e227" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei228"  eventID="e228" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei229"  eventID="e229" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei230"  eventID="e230" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei231"  eventID="e231" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei232"  eventID="e232" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei233"  eventID="e233" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei234"  eventID="e234" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei235"  eventID="e235" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei236"  eventID="e236" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei237"  eventID="e237" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei238"  eventID="e238" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei239"  eventID="e239" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei240"  eventID="e240" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei241"  eventID="e241" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei242"  eventID="e242" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei243"  eventID="e243" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei244"  eventID="e244" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei245"  eventID="e245" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei246"  eventID="e246" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei247"  eventID="e247" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei248"  eventID="e248" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei249"  eventID="e249" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei250"  eventID="e250" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei251"  eventID="e251" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei252"  eventID="e252" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei253"  eventID="e253" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei254"  eventID="e254" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei255"  eventID="e255" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei256"  eventID="e256" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei257"  eventID="e257" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei258"  eventID="e258" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei259"  eventID="e259" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei260"  eventID="e260" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei261"  eventID="e261" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000053"  eventID="e53" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000054"  eventID="e53" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000103"  eventID="e103" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000132"  eventID="e132" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000133"  eventID="e132" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000134"  eventID="e132" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000226"  eventID="e226" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t1" />
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t2" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei1" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei1" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei1" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei5" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei5" />
+<TLINK lid="l11" relType="INCLUDES" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei5" relatedToEventInstance="ei8" />
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei9" relatedToEventInstance="ei8" />
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei10" relatedToEventInstance="ei8" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei11" relatedToEventInstance="ei8" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei8" relatedToEventInstance="ei12" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei12" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei14" relatedToEventInstance="ei12" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l21" relType="INCLUDES" eventInstanceID="ei12" relatedToEventInstance="ei15" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei15" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei15" />
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei22" />
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei22" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei22" />
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei22" />
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei22" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei23" />
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei25" relatedToTime="t3" />
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei25" relatedToTime="t0" />
+<TLINK lid="l34" relType="SIMULTANEOUS" eventInstanceID="ei23" relatedToEventInstance="ei25" />
+<TLINK lid="l35" relType="AFTER" eventInstanceID="ei24" relatedToEventInstance="ei25" />
+<TLINK lid="l36" relType="IS_INCLUDED" eventInstanceID="ei29" relatedToTime="t4" />
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei26" relatedToTime="t0" />
+<TLINK lid="l38" relType="SIMULTANEOUS" eventInstanceID="ei25" relatedToEventInstance="ei26" />
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei26" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei28" relatedToEventInstance="ei26" />
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei29" relatedToEventInstance="ei26" />
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei30" relatedToEventInstance="ei26" />
+<TLINK lid="l43" relType="IS_INCLUDED" eventInstanceID="ei31" relatedToTime="t5" />
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei31" relatedToTime="t0" />
+<TLINK lid="l45" relType="SIMULTANEOUS" eventInstanceID="ei26" relatedToEventInstance="ei31" />
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei32" relatedToEventInstance="ei31" />
+<TLINK lid="l47" relType="IS_INCLUDED" eventInstanceID="ei33" relatedToTime="t6" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei33" relatedToTime="t0" />
+<TLINK lid="l49" relType="SIMULTANEOUS" eventInstanceID="ei31" relatedToEventInstance="ei33" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei34" relatedToEventInstance="ei33" />
+<TLINK lid="l51" relType="AFTER" eventInstanceID="ei39" relatedToTime="t0" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei36" relatedToTime="t0" />
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei33" relatedToEventInstance="ei36" />
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei35" relatedToEventInstance="ei36" />
+<TLINK lid="l55" relType="AFTER" eventInstanceID="ei37" relatedToEventInstance="ei36" />
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei38" relatedToEventInstance="ei36" />
+<TLINK lid="l57" relType="AFTER" eventInstanceID="ei39" relatedToEventInstance="ei36" />
+<TLINK lid="l58" relType="BEFORE" eventInstanceID="ei40" relatedToEventInstance="ei36" />
+<TLINK lid="l59" relType="IS_INCLUDED" eventInstanceID="ei45" relatedToTime="t7" />
+<TLINK lid="l60" relType="BEFORE" eventInstanceID="ei42" relatedToTime="t0" />
+<TLINK lid="l61" relType="BEFORE" eventInstanceID="ei36" relatedToEventInstance="ei42" />
+<TLINK lid="l62" relType="BEFORE" eventInstanceID="ei41" relatedToEventInstance="ei42" />
+<TLINK lid="l63" relType="BEFORE" eventInstanceID="ei43" relatedToEventInstance="ei42" />
+<TLINK lid="l64" relType="BEFORE" eventInstanceID="ei44" relatedToEventInstance="ei42" />
+<TLINK lid="l65" relType="BEFORE" eventInstanceID="ei45" relatedToEventInstance="ei42" />
+<TLINK lid="l66" relType="BEFORE" eventInstanceID="ei46" relatedToTime="t0" />
+<TLINK lid="l67" relType="SIMULTANEOUS" eventInstanceID="ei42" relatedToEventInstance="ei46" />
+<TLINK lid="l68" relType="SIMULTANEOUS" eventInstanceID="ei47" relatedToEventInstance="ei46" />
+<TLINK lid="l69" relType="BEFORE" eventInstanceID="ei48" relatedToEventInstance="ei46" />
+<TLINK lid="l70" relType="IS_INCLUDED" eventInstanceID="ei49" relatedToTime="t8" />
+<TLINK lid="l71" relType="BEFORE" eventInstanceID="ei49" relatedToTime="t0" />
+<TLINK lid="l72" relType="SIMULTANEOUS" eventInstanceID="ei46" relatedToEventInstance="ei49" />
+<TLINK lid="l73" relType="BEFORE" eventInstanceID="ei50" relatedToEventInstance="ei49" />
+<TLINK lid="l74" relType="BEFORE" eventInstanceID="ei51" relatedToEventInstance="ei49" />
+<TLINK lid="l75" relType="IS_INCLUDED" eventInstanceID="ei53" relatedToTime="t9" />
+<TLINK lid="l76" relType="IS_INCLUDED" eventInstanceID="ei1000053" relatedToTime="t10" />
+<TLINK lid="l77" relType="IS_INCLUDED" eventInstanceID="ei1000054" relatedToTime="t11" />
+<TLINK lid="l78" relType="BEFORE" eventInstanceID="ei52" relatedToTime="t0" />
+<TLINK lid="l79" relType="BEFORE" eventInstanceID="ei49" relatedToEventInstance="ei52" />
+<TLINK lid="l80" relType="BEFORE" eventInstanceID="ei53" relatedToEventInstance="ei52" />
+<TLINK lid="l81" relType="BEFORE" eventInstanceID="ei1000053" relatedToEventInstance="ei52" />
+<TLINK lid="l82" relType="BEFORE" eventInstanceID="ei1000054" relatedToEventInstance="ei52" />
+<TLINK lid="l83" relType="IS_INCLUDED" eventInstanceID="ei57" relatedToTime="t12" />
+<TLINK lid="l84" relType="IS_INCLUDED" eventInstanceID="ei58" relatedToTime="t13" />
+<TLINK lid="l85" relType="BEFORE" eventInstanceID="ei54" relatedToTime="t0" />
+<TLINK lid="l86" relType="SIMULTANEOUS" eventInstanceID="ei52" relatedToEventInstance="ei54" />
+<TLINK lid="l87" relType="BEFORE" eventInstanceID="ei55" relatedToEventInstance="ei54" />
+<TLINK lid="l88" relType="INCLUDES" eventInstanceID="ei56" relatedToEventInstance="ei54" />
+<TLINK lid="l89" relType="BEFORE" eventInstanceID="ei57" relatedToEventInstance="ei54" />
+<TLINK lid="l90" relType="BEFORE" eventInstanceID="ei58" relatedToEventInstance="ei54" />
+<TLINK lid="l91" relType="BEFORE" eventInstanceID="ei59" relatedToEventInstance="ei54" />
+<TLINK lid="l92" relType="IS_INCLUDED" eventInstanceID="ei60" relatedToTime="t14" />
+<TLINK lid="l93" relType="BEFORE" eventInstanceID="ei60" relatedToTime="t0" />
+<TLINK lid="l94" relType="INCLUDES" eventInstanceID="ei54" relatedToEventInstance="ei60" />
+<TLINK lid="l95" relType="IS_INCLUDED" eventInstanceID="ei61" relatedToTime="t15" />
+<TLINK lid="l96" relType="BEFORE" eventInstanceID="ei62" relatedToTime="t0" />
+<TLINK lid="l97" relType="AFTER" eventInstanceID="ei60" relatedToEventInstance="ei62" />
+<TLINK lid="l98" relType="BEFORE" eventInstanceID="ei61" relatedToEventInstance="ei62" />
+<TLINK lid="l99" relType="BEFORE" eventInstanceID="ei63" relatedToEventInstance="ei62" />
+<TLINK lid="l100" relType="BEFORE" eventInstanceID="ei64" relatedToEventInstance="ei62" />
+<TLINK lid="l101" relType="IS_INCLUDED" eventInstanceID="ei67" relatedToTime="t16" />
+<TLINK lid="l102" relType="BEFORE" eventInstanceID="ei66" relatedToTime="t0" />
+<TLINK lid="l103" relType="BEFORE" eventInstanceID="ei62" relatedToEventInstance="ei66" />
+<TLINK lid="l104" relType="SIMULTANEOUS" eventInstanceID="ei65" relatedToEventInstance="ei66" />
+<TLINK lid="l105" relType="INCLUDES" eventInstanceID="ei67" relatedToEventInstance="ei66" />
+<TLINK lid="l106" relType="INCLUDES" eventInstanceID="ei68" relatedToEventInstance="ei66" />
+<TLINK lid="l107" relType="BEFORE" eventInstanceID="ei70" relatedToTime="t0" />
+<TLINK lid="l108" relType="SIMULTANEOUS" eventInstanceID="ei66" relatedToEventInstance="ei70" />
+<TLINK lid="l109" relType="BEFORE" eventInstanceID="ei69" relatedToEventInstance="ei70" />
+<TLINK lid="l110" relType="BEFORE" eventInstanceID="ei71" relatedToEventInstance="ei70" />
+<TLINK lid="l111" relType="BEFORE" eventInstanceID="ei72" relatedToTime="t0" />
+<TLINK lid="l112" relType="BEFORE" eventInstanceID="ei70" relatedToEventInstance="ei72" />
+<TLINK lid="l113" relType="BEFORE" eventInstanceID="ei73" relatedToEventInstance="ei72" />
+<TLINK lid="l114" relType="BEFORE" eventInstanceID="ei74" relatedToTime="t0" />
+<TLINK lid="l115" relType="SIMULTANEOUS" eventInstanceID="ei72" relatedToEventInstance="ei74" />
+<TLINK lid="l116" relType="BEFORE" eventInstanceID="ei75" relatedToEventInstance="ei74" />
+<TLINK lid="l117" relType="BEFORE" eventInstanceID="ei76" relatedToTime="t0" />
+<TLINK lid="l118" relType="BEFORE" eventInstanceID="ei74" relatedToEventInstance="ei76" />
+<TLINK lid="l119" relType="BEFORE" eventInstanceID="ei77" relatedToEventInstance="ei76" />
+<TLINK lid="l120" relType="BEFORE" eventInstanceID="ei78" relatedToEventInstance="ei76" />
+<TLINK lid="l121" relType="BEFORE" eventInstanceID="ei79" relatedToTime="t0" />
+<TLINK lid="l122" relType="BEFORE" eventInstanceID="ei76" relatedToEventInstance="ei79" />
+<TLINK lid="l123" relType="BEFORE" eventInstanceID="ei80" relatedToEventInstance="ei79" />
+<TLINK lid="l124" relType="BEFORE" eventInstanceID="ei81" relatedToTime="t0" />
+<TLINK lid="l125" relType="BEFORE" eventInstanceID="ei79" relatedToEventInstance="ei81" />
+<TLINK lid="l126" relType="IS_INCLUDED" eventInstanceID="ei82" relatedToTime="t17" />
+<TLINK lid="l127" relType="IS_INCLUDED" eventInstanceID="ei84" relatedToTime="t18" />
+<TLINK lid="l128" relType="BEFORE" eventInstanceID="ei82" relatedToTime="t0" />
+<TLINK lid="l129" relType="AFTER" eventInstanceID="ei81" relatedToEventInstance="ei82" />
+<TLINK lid="l130" relType="AFTER" eventInstanceID="ei83" relatedToEventInstance="ei82" />
+<TLINK lid="l131" relType="AFTER" eventInstanceID="ei84" relatedToEventInstance="ei82" />
+<TLINK lid="l132" relType="IS_INCLUDED" eventInstanceID="ei85" relatedToTime="t19" />
+<TLINK lid="l133" relType="BEFORE" eventInstanceID="ei85" relatedToTime="t0" />
+<TLINK lid="l134" relType="BEFORE" eventInstanceID="ei82" relatedToEventInstance="ei85" />
+<TLINK lid="l135" relType="IS_INCLUDED" eventInstanceID="ei86" relatedToTime="t20" />
+<TLINK lid="l136" relType="BEFORE" eventInstanceID="ei86" relatedToTime="t0" />
+<TLINK lid="l137" relType="BEFORE" eventInstanceID="ei85" relatedToEventInstance="ei86" />
+<TLINK lid="l138" relType="IS_INCLUDED" eventInstanceID="ei91" relatedToTime="t21" />
+<TLINK lid="l139" relType="BEFORE" eventInstanceID="ei87" relatedToTime="t0" />
+<TLINK lid="l140" relType="SIMULTANEOUS" eventInstanceID="ei86" relatedToEventInstance="ei87" />
+<TLINK lid="l141" relType="AFTER" eventInstanceID="ei88" relatedToEventInstance="ei87" />
+<TLINK lid="l142" relType="AFTER" eventInstanceID="ei89" relatedToEventInstance="ei87" />
+<TLINK lid="l143" relType="AFTER" eventInstanceID="ei90" relatedToEventInstance="ei87" />
+<TLINK lid="l144" relType="AFTER" eventInstanceID="ei91" relatedToEventInstance="ei87" />
+<TLINK lid="l145" relType="AFTER" eventInstanceID="ei92" relatedToEventInstance="ei87" />
+<TLINK lid="l146" relType="BEFORE" eventInstanceID="ei93" relatedToTime="t0" />
+<TLINK lid="l147" relType="AFTER" eventInstanceID="ei87" relatedToEventInstance="ei93" />
+<TLINK lid="l148" relType="BEFORE" eventInstanceID="ei94" relatedToEventInstance="ei93" />
+<TLINK lid="l149" relType="BEFORE" eventInstanceID="ei95" relatedToEventInstance="ei93" />
+<TLINK lid="l150" relType="BEFORE" eventInstanceID="ei96" relatedToEventInstance="ei93" />
+<TLINK lid="l151" relType="IS_INCLUDED" eventInstanceID="ei97" relatedToTime="t22" />
+<TLINK lid="l152" relType="BEFORE" eventInstanceID="ei97" relatedToTime="t0" />
+<TLINK lid="l153" relType="BEFORE" eventInstanceID="ei93" relatedToEventInstance="ei97" />
+<TLINK lid="l154" relType="BEFORE" eventInstanceID="ei98" relatedToEventInstance="ei97" />
+<TLINK lid="l155" relType="IS_INCLUDED" eventInstanceID="ei99" relatedToTime="t23" />
+<TLINK lid="l156" relType="IS_INCLUDED" eventInstanceID="ei100" relatedToTime="t24" />
+<TLINK lid="l157" relType="IS_INCLUDED" eventInstanceID="ei99" relatedToTime="t0" />
+<TLINK lid="l158" relType="SIMULTANEOUS" eventInstanceID="ei97" relatedToEventInstance="ei99" />
+<TLINK lid="l159" relType="BEFORE" eventInstanceID="ei100" relatedToEventInstance="ei99" />
+<TLINK lid="l160" relType="IS_INCLUDED" eventInstanceID="ei102" relatedToTime="t25" />
+<TLINK lid="l161" relType="BEFORE" eventInstanceID="ei101" relatedToTime="t0" />
+<TLINK lid="l162" relType="AFTER" eventInstanceID="ei99" relatedToEventInstance="ei101" />
+<TLINK lid="l163" relType="BEFORE" eventInstanceID="ei102" relatedToEventInstance="ei101" />
+<TLINK lid="l164" relType="IS_INCLUDED" eventInstanceID="ei103" relatedToTime="t26" />
+<TLINK lid="l165" relType="IS_INCLUDED" eventInstanceID="ei1000103" relatedToTime="t27" />
+<TLINK lid="l166" relType="BEFORE" eventInstanceID="ei104" relatedToTime="t0" />
+<TLINK lid="l167" relType="BEFORE" eventInstanceID="ei101" relatedToEventInstance="ei104" />
+<TLINK lid="l168" relType="BEFORE" eventInstanceID="ei103" relatedToEventInstance="ei104" />
+<TLINK lid="l169" relType="BEFORE" eventInstanceID="ei1000103" relatedToEventInstance="ei104" />
+<TLINK lid="l170" relType="IS_INCLUDED" eventInstanceID="ei108" relatedToTime="t28" />
+<TLINK lid="l171" relType="BEFORE" eventInstanceID="ei105" relatedToTime="t0" />
+<TLINK lid="l172" relType="BEFORE" eventInstanceID="ei104" relatedToEventInstance="ei105" />
+<TLINK lid="l173" relType="BEFORE" eventInstanceID="ei106" relatedToEventInstance="ei105" />
+<TLINK lid="l174" relType="BEFORE" eventInstanceID="ei107" relatedToEventInstance="ei105" />
+<TLINK lid="l175" relType="BEFORE" eventInstanceID="ei108" relatedToEventInstance="ei105" />
+<TLINK lid="l176" relType="INCLUDES" eventInstanceID="ei109" relatedToTime="t0" />
+<TLINK lid="l177" relType="SIMULTANEOUS" eventInstanceID="ei105" relatedToEventInstance="ei109" />
+<TLINK lid="l178" relType="IS_INCLUDED" eventInstanceID="ei110" relatedToTime="t29" />
+<TLINK lid="l179" relType="BEFORE" eventInstanceID="ei110" relatedToTime="t0" />
+<TLINK lid="l180" relType="SIMULTANEOUS" eventInstanceID="ei109" relatedToEventInstance="ei110" />
+<TLINK lid="l181" relType="BEFORE" eventInstanceID="ei111" relatedToTime="t0" />
+<TLINK lid="l182" relType="BEFORE" eventInstanceID="ei110" relatedToEventInstance="ei111" />
+<TLINK lid="l183" relType="BEFORE" eventInstanceID="ei112" relatedToEventInstance="ei111" />
+<TLINK lid="l184" relType="AFTER" eventInstanceID="ei113" relatedToEventInstance="ei111" />
+<TLINK lid="l185" relType="AFTER" eventInstanceID="ei114" relatedToEventInstance="ei111" />
+<TLINK lid="l186" relType="BEFORE" eventInstanceID="ei115" relatedToTime="t0" />
+<TLINK lid="l187" relType="BEFORE" eventInstanceID="ei111" relatedToEventInstance="ei115" />
+<TLINK lid="l188" relType="BEFORE" eventInstanceID="ei116" relatedToEventInstance="ei115" />
+<TLINK lid="l189" relType="BEFORE" eventInstanceID="ei117" relatedToTime="t0" />
+<TLINK lid="l190" relType="BEFORE" eventInstanceID="ei115" relatedToEventInstance="ei117" />
+<TLINK lid="l191" relType="IBEFORE" eventInstanceID="ei118" relatedToEventInstance="ei117" />
+<TLINK lid="l192" relType="SIMULTANEOUS" eventInstanceID="ei119" relatedToEventInstance="ei117" />
+<TLINK lid="l193" relType="BEFORE" eventInstanceID="ei120" relatedToTime="t0" />
+<TLINK lid="l194" relType="BEFORE" eventInstanceID="ei117" relatedToEventInstance="ei120" />
+<TLINK lid="l195" relType="BEFORE" eventInstanceID="ei121" relatedToEventInstance="ei120" />
+<TLINK lid="l196" relType="BEFORE" eventInstanceID="ei122" relatedToEventInstance="ei120" />
+<TLINK lid="l197" relType="IS_INCLUDED" eventInstanceID="ei123" relatedToTime="t30" />
+<TLINK lid="l198" relType="BEFORE" eventInstanceID="ei125" relatedToTime="t0" />
+<TLINK lid="l199" relType="BEFORE" eventInstanceID="ei120" relatedToEventInstance="ei125" />
+<TLINK lid="l200" relType="BEFORE" eventInstanceID="ei123" relatedToEventInstance="ei125" />
+<TLINK lid="l201" relType="BEFORE" eventInstanceID="ei124" relatedToEventInstance="ei125" />
+<TLINK lid="l202" relType="BEFORE" eventInstanceID="ei126" relatedToEventInstance="ei125" />
+<TLINK lid="l203" relType="BEFORE" eventInstanceID="ei127" relatedToTime="t0" />
+<TLINK lid="l204" relType="BEFORE" eventInstanceID="ei125" relatedToEventInstance="ei127" />
+<TLINK lid="l205" relType="SIMULTANEOUS" eventInstanceID="ei128" relatedToEventInstance="ei127" />
+<TLINK lid="l206" relType="BEFORE" eventInstanceID="ei129" relatedToTime="t0" />
+<TLINK lid="l207" relType="BEFORE" eventInstanceID="ei127" relatedToEventInstance="ei129" />
+<TLINK lid="l208" relType="BEFORE" eventInstanceID="ei130" relatedToEventInstance="ei129" />
+<TLINK lid="l209" relType="BEFORE" eventInstanceID="ei131" relatedToEventInstance="ei129" />
+<TLINK lid="l210" relType="IS_INCLUDED" eventInstanceID="ei132" relatedToTime="t31" />
+<TLINK lid="l211" relType="IS_INCLUDED" eventInstanceID="ei1000132" relatedToTime="t32" />
+<TLINK lid="l212" relType="IS_INCLUDED" eventInstanceID="ei1000133" relatedToTime="t33" />
+<TLINK lid="l213" relType="IS_INCLUDED" eventInstanceID="ei1000134" relatedToTime="t34" />
+<TLINK lid="l214" relType="IS_INCLUDED" eventInstanceID="ei132" relatedToTime="t0" />
+<TLINK lid="l215" relType="BEFORE" eventInstanceID="ei129" relatedToEventInstance="ei132" />
+<TLINK lid="l216" relType="BEFORE" eventInstanceID="ei133" relatedToEventInstance="ei132" />
+<TLINK lid="l217" relType="SIMULTANEOUS" eventInstanceID="ei1000132" relatedToEventInstance="ei132" />
+<TLINK lid="l218" relType="SIMULTANEOUS" eventInstanceID="ei1000133" relatedToEventInstance="ei132" />
+<TLINK lid="l219" relType="SIMULTANEOUS" eventInstanceID="ei1000134" relatedToEventInstance="ei132" />
+<TLINK lid="l220" relType="BEFORE" eventInstanceID="ei134" relatedToTime="t0" />
+<TLINK lid="l221" relType="BEFORE" eventInstanceID="ei132" relatedToEventInstance="ei134" />
+<TLINK lid="l222" relType="BEFORE" eventInstanceID="ei135" relatedToEventInstance="ei134" />
+<TLINK lid="l223" relType="BEFORE" eventInstanceID="ei136" relatedToEventInstance="ei134" />
+<TLINK lid="l224" relType="SIMULTANEOUS" eventInstanceID="ei137" relatedToEventInstance="ei134" />
+<TLINK lid="l225" relType="BEFORE" eventInstanceID="ei138" relatedToEventInstance="ei134" />
+<TLINK lid="l226" relType="BEFORE" eventInstanceID="ei139" relatedToTime="t0" />
+<TLINK lid="l227" relType="BEFORE" eventInstanceID="ei134" relatedToEventInstance="ei139" />
+<TLINK lid="l228" relType="BEFORE" eventInstanceID="ei140" relatedToEventInstance="ei139" />
+<TLINK lid="l229" relType="BEFORE" eventInstanceID="ei141" relatedToTime="t0" />
+<TLINK lid="l230" relType="AFTER" eventInstanceID="ei139" relatedToEventInstance="ei141" />
+<TLINK lid="l231" relType="BEFORE" eventInstanceID="ei142" relatedToEventInstance="ei141" />
+<TLINK lid="l232" relType="BEFORE" eventInstanceID="ei143" relatedToTime="t0" />
+<TLINK lid="l233" relType="SIMULTANEOUS" eventInstanceID="ei141" relatedToEventInstance="ei143" />
+<TLINK lid="l234" relType="BEFORE" eventInstanceID="ei144" relatedToEventInstance="ei143" />
+<TLINK lid="l235" relType="INCLUDES" eventInstanceID="ei150" relatedToTime="t0" />
+<TLINK lid="l236" relType="INCLUDES" eventInstanceID="ei143" relatedToEventInstance="ei150" />
+<TLINK lid="l237" relType="BEFORE" eventInstanceID="ei145" relatedToEventInstance="ei150" />
+<TLINK lid="l238" relType="BEFORE" eventInstanceID="ei146" relatedToEventInstance="ei150" />
+<TLINK lid="l239" relType="BEFORE" eventInstanceID="ei147" relatedToEventInstance="ei150" />
+<TLINK lid="l240" relType="BEFORE" eventInstanceID="ei148" relatedToEventInstance="ei150" />
+<TLINK lid="l241" relType="AFTER" eventInstanceID="ei149" relatedToEventInstance="ei150" />
+<TLINK lid="l242" relType="BEFORE" eventInstanceID="ei151" relatedToEventInstance="ei150" />
+<TLINK lid="l243" relType="BEFORE" eventInstanceID="ei152" relatedToTime="t0" />
+<TLINK lid="l244" relType="BEFORE" eventInstanceID="ei150" relatedToEventInstance="ei152" />
+<TLINK lid="l245" relType="SIMULTANEOUS" eventInstanceID="ei153" relatedToEventInstance="ei152" />
+<TLINK lid="l246" relType="IS_INCLUDED" eventInstanceID="ei160" relatedToTime="t35" />
+<TLINK lid="l247" relType="BEFORE" eventInstanceID="ei159" relatedToTime="t0" />
+<TLINK lid="l248" relType="BEFORE" eventInstanceID="ei152" relatedToEventInstance="ei159" />
+<TLINK lid="l249" relType="BEFORE" eventInstanceID="ei154" relatedToEventInstance="ei159" />
+<TLINK lid="l250" relType="BEFORE" eventInstanceID="ei155" relatedToEventInstance="ei159" />
+<TLINK lid="l251" relType="BEFORE" eventInstanceID="ei156" relatedToEventInstance="ei159" />
+<TLINK lid="l252" relType="AFTER" eventInstanceID="ei157" relatedToEventInstance="ei159" />
+<TLINK lid="l253" relType="BEFORE" eventInstanceID="ei158" relatedToEventInstance="ei159" />
+<TLINK lid="l254" relType="BEFORE" eventInstanceID="ei160" relatedToEventInstance="ei159" />
+<TLINK lid="l255" relType="BEFORE" eventInstanceID="ei161" relatedToEventInstance="ei159" />
+<TLINK lid="l256" relType="IS_INCLUDED" eventInstanceID="ei162" relatedToTime="t36" />
+<TLINK lid="l257" relType="BEFORE" eventInstanceID="ei162" relatedToTime="t0" />
+<TLINK lid="l258" relType="BEFORE" eventInstanceID="ei159" relatedToEventInstance="ei162" />
+<TLINK lid="l259" relType="BEFORE" eventInstanceID="ei163" relatedToEventInstance="ei162" />
+<TLINK lid="l260" relType="BEFORE" eventInstanceID="ei164" relatedToTime="t0" />
+<TLINK lid="l261" relType="BEFORE" eventInstanceID="ei162" relatedToEventInstance="ei164" />
+<TLINK lid="l262" relType="BEFORE" eventInstanceID="ei165" relatedToEventInstance="ei164" />
+<TLINK lid="l263" relType="BEFORE" eventInstanceID="ei166" relatedToEventInstance="ei164" />
+<TLINK lid="l264" relType="BEFORE" eventInstanceID="ei167" relatedToEventInstance="ei164" />
+<TLINK lid="l265" relType="IS_INCLUDED" eventInstanceID="ei169" relatedToTime="t37" />
+<TLINK lid="l266" relType="BEFORE" eventInstanceID="ei170" relatedToTime="t0" />
+<TLINK lid="l267" relType="INCLUDES" eventInstanceID="ei172" relatedToTime="t0" />
+<TLINK lid="l268" relType="BEFORE" eventInstanceID="ei168" relatedToTime="t0" />
+<TLINK lid="l269" relType="BEFORE" eventInstanceID="ei164" relatedToEventInstance="ei168" />
+<TLINK lid="l270" relType="BEFORE" eventInstanceID="ei169" relatedToEventInstance="ei168" />
+<TLINK lid="l271" relType="BEFORE" eventInstanceID="ei170" relatedToEventInstance="ei168" />
+<TLINK lid="l272" relType="BEFORE" eventInstanceID="ei171" relatedToEventInstance="ei168" />
+<TLINK lid="l273" relType="AFTER" eventInstanceID="ei172" relatedToEventInstance="ei168" />
+<TLINK lid="l274" relType="BEFORE" eventInstanceID="ei173" relatedToEventInstance="ei168" />
+<TLINK lid="l275" relType="IS_INCLUDED" eventInstanceID="ei176" relatedToTime="t38" />
+<TLINK lid="l276" relType="BEFORE" eventInstanceID="ei179" relatedToTime="t0" />
+<TLINK lid="l277" relType="BEFORE" eventInstanceID="ei168" relatedToEventInstance="ei179" />
+<TLINK lid="l278" relType="BEFORE" eventInstanceID="ei174" relatedToEventInstance="ei179" />
+<TLINK lid="l279" relType="BEFORE" eventInstanceID="ei175" relatedToEventInstance="ei179" />
+<TLINK lid="l280" relType="INCLUDES" eventInstanceID="ei176" relatedToEventInstance="ei179" />
+<TLINK lid="l281" relType="BEFORE" eventInstanceID="ei177" relatedToEventInstance="ei179" />
+<TLINK lid="l282" relType="BEFORE" eventInstanceID="ei178" relatedToEventInstance="ei179" />
+<TLINK lid="l283" relType="BEFORE" eventInstanceID="ei180" relatedToEventInstance="ei179" />
+<TLINK lid="l284" relType="IS_INCLUDED" eventInstanceID="ei181" relatedToTime="t39" />
+<TLINK lid="l285" relType="BEFORE" eventInstanceID="ei183" relatedToTime="t0" />
+<TLINK lid="l286" relType="INCLUDES" eventInstanceID="ei182" relatedToTime="t0" />
+<TLINK lid="l287" relType="INCLUDES" eventInstanceID="ei179" relatedToEventInstance="ei182" />
+<TLINK lid="l288" relType="BEFORE" eventInstanceID="ei181" relatedToEventInstance="ei182" />
+<TLINK lid="l289" relType="BEFORE" eventInstanceID="ei183" relatedToEventInstance="ei182" />
+<TLINK lid="l290" relType="BEFORE" eventInstanceID="ei184" relatedToEventInstance="ei182" />
+<TLINK lid="l291" relType="BEFORE" eventInstanceID="ei185" relatedToEventInstance="ei182" />
+<TLINK lid="l292" relType="IS_INCLUDED" eventInstanceID="ei186" relatedToTime="t40" />
+<TLINK lid="l293" relType="BEFORE" eventInstanceID="ei186" relatedToTime="t0" />
+<TLINK lid="l294" relType="BEFORE" eventInstanceID="ei182" relatedToEventInstance="ei186" />
+<TLINK lid="l295" relType="IS_INCLUDED" eventInstanceID="ei187" relatedToTime="t41" />
+<TLINK lid="l296" relType="BEFORE" eventInstanceID="ei187" relatedToTime="t0" />
+<TLINK lid="l297" relType="BEFORE" eventInstanceID="ei186" relatedToEventInstance="ei187" />
+<TLINK lid="l298" relType="BEFORE" eventInstanceID="ei188" relatedToEventInstance="ei187" />
+<TLINK lid="l299" relType="IS_INCLUDED" eventInstanceID="ei189" relatedToTime="t42" />
+<TLINK lid="l300" relType="BEFORE" eventInstanceID="ei189" relatedToTime="t0" />
+<TLINK lid="l301" relType="BEFORE" eventInstanceID="ei187" relatedToEventInstance="ei189" />
+<TLINK lid="l302" relType="IS_INCLUDED" eventInstanceID="ei191" relatedToTime="t43" />
+<TLINK lid="l303" relType="BEFORE" eventInstanceID="ei190" relatedToTime="t0" />
+<TLINK lid="l304" relType="AFTER" eventInstanceID="ei189" relatedToEventInstance="ei190" />
+<TLINK lid="l305" relType="SIMULTANEOUS" eventInstanceID="ei191" relatedToEventInstance="ei190" />
+<TLINK lid="l306" relType="BEFORE" eventInstanceID="ei192" relatedToTime="t0" />
+<TLINK lid="l307" relType="BEFORE" eventInstanceID="ei190" relatedToEventInstance="ei192" />
+<TLINK lid="l308" relType="BEFORE" eventInstanceID="ei193" relatedToEventInstance="ei192" />
+<TLINK lid="l309" relType="BEFORE" eventInstanceID="ei194" relatedToEventInstance="ei192" />
+<TLINK lid="l310" relType="BEFORE" eventInstanceID="ei196" relatedToTime="t0" />
+<TLINK lid="l311" relType="BEFORE" eventInstanceID="ei192" relatedToEventInstance="ei196" />
+<TLINK lid="l312" relType="BEFORE" eventInstanceID="ei195" relatedToEventInstance="ei196" />
+<TLINK lid="l313" relType="BEFORE" eventInstanceID="ei197" relatedToEventInstance="ei196" />
+<TLINK lid="l314" relType="BEFORE" eventInstanceID="ei198" relatedToEventInstance="ei196" />
+<TLINK lid="l315" relType="AFTER" eventInstanceID="ei199" relatedToEventInstance="ei196" />
+<TLINK lid="l316" relType="BEFORE" eventInstanceID="ei200" relatedToTime="t0" />
+<TLINK lid="l317" relType="BEFORE" eventInstanceID="ei196" relatedToEventInstance="ei200" />
+<TLINK lid="l318" relType="BEFORE" eventInstanceID="ei201" relatedToEventInstance="ei200" />
+<TLINK lid="l319" relType="BEFORE" eventInstanceID="ei202" relatedToEventInstance="ei200" />
+<TLINK lid="l320" relType="BEFORE" eventInstanceID="ei203" relatedToEventInstance="ei200" />
+<TLINK lid="l321" relType="IS_INCLUDED" eventInstanceID="ei204" relatedToTime="t44" />
+<TLINK lid="l322" relType="BEFORE" eventInstanceID="ei205" relatedToTime="t0" />
+<TLINK lid="l323" relType="BEFORE" eventInstanceID="ei204" relatedToTime="t0" />
+<TLINK lid="l324" relType="BEFORE" eventInstanceID="ei200" relatedToEventInstance="ei204" />
+<TLINK lid="l325" relType="SIMULTANEOUS" eventInstanceID="ei205" relatedToEventInstance="ei204" />
+<TLINK lid="l326" relType="BEFORE" eventInstanceID="ei206" relatedToEventInstance="ei204" />
+<TLINK lid="l327" relType="BEFORE" eventInstanceID="ei207" relatedToTime="t0" />
+<TLINK lid="l328" relType="BEFORE" eventInstanceID="ei204" relatedToEventInstance="ei207" />
+<TLINK lid="l329" relType="BEFORE" eventInstanceID="ei208" relatedToEventInstance="ei207" />
+<TLINK lid="l330" relType="BEFORE" eventInstanceID="ei209" relatedToEventInstance="ei207" />
+<TLINK lid="l331" relType="BEFORE" eventInstanceID="ei210" relatedToEventInstance="ei207" />
+<TLINK lid="l332" relType="AFTER" eventInstanceID="ei211" relatedToEventInstance="ei207" />
+<TLINK lid="l333" relType="AFTER" eventInstanceID="ei212" relatedToTime="t0" />
+<TLINK lid="l334" relType="BEFORE" eventInstanceID="ei207" relatedToEventInstance="ei212" />
+<TLINK lid="l335" relType="BEFORE" eventInstanceID="ei213" relatedToEventInstance="ei212" />
+<TLINK lid="l336" relType="BEFORE" eventInstanceID="ei214" relatedToEventInstance="ei212" />
+<TLINK lid="l337" relType="BEFORE" eventInstanceID="ei216" relatedToTime="t0" />
+<TLINK lid="l338" relType="BEFORE" eventInstanceID="ei212" relatedToEventInstance="ei216" />
+<TLINK lid="l339" relType="BEFORE" eventInstanceID="ei215" relatedToEventInstance="ei216" />
+<TLINK lid="l340" relType="BEFORE" eventInstanceID="ei217" relatedToEventInstance="ei216" />
+<TLINK lid="l341" relType="BEFORE" eventInstanceID="ei218" relatedToEventInstance="ei216" />
+<TLINK lid="l342" relType="BEFORE" eventInstanceID="ei219" relatedToEventInstance="ei216" />
+<TLINK lid="l343" relType="BEFORE" eventInstanceID="ei220" relatedToEventInstance="ei216" />
+<TLINK lid="l344" relType="BEFORE" eventInstanceID="ei221" relatedToEventInstance="ei216" />
+<TLINK lid="l345" relType="BEFORE" eventInstanceID="ei222" relatedToTime="t0" />
+<TLINK lid="l346" relType="BEFORE" eventInstanceID="ei216" relatedToEventInstance="ei222" />
+<TLINK lid="l347" relType="BEFORE" eventInstanceID="ei223" relatedToEventInstance="ei222" />
+<TLINK lid="l348" relType="BEFORE" eventInstanceID="ei224" relatedToEventInstance="ei222" />
+<TLINK lid="l349" relType="IS_INCLUDED" eventInstanceID="ei226" relatedToTime="t45" />
+<TLINK lid="l350" relType="IS_INCLUDED" eventInstanceID="ei1000226" relatedToTime="t46" />
+<TLINK lid="l351" relType="BEFORE" eventInstanceID="ei226" relatedToTime="t0" />
+<TLINK lid="l352" relType="BEFORE" eventInstanceID="ei1000226" relatedToTime="t0" />
+<TLINK lid="l353" relType="BEFORE" eventInstanceID="ei225" relatedToTime="t0" />
+<TLINK lid="l354" relType="SIMULTANEOUS" eventInstanceID="ei222" relatedToEventInstance="ei225" />
+<TLINK lid="l355" relType="INCLUDES" eventInstanceID="ei226" relatedToEventInstance="ei225" />
+<TLINK lid="l356" relType="INCLUDES" eventInstanceID="ei227" relatedToEventInstance="ei225" />
+<TLINK lid="l357" relType="INCLUDES" eventInstanceID="ei1000226" relatedToEventInstance="ei225" />
+<TLINK lid="l358" relType="IS_INCLUDED" eventInstanceID="ei228" relatedToTime="t47" />
+<TLINK lid="l359" relType="BEFORE" eventInstanceID="ei231" relatedToTime="t0" />
+<TLINK lid="l360" relType="BEFORE" eventInstanceID="ei225" relatedToEventInstance="ei231" />
+<TLINK lid="l361" relType="BEFORE" eventInstanceID="ei228" relatedToEventInstance="ei231" />
+<TLINK lid="l362" relType="BEFORE" eventInstanceID="ei229" relatedToEventInstance="ei231" />
+<TLINK lid="l363" relType="BEFORE" eventInstanceID="ei230" relatedToEventInstance="ei231" />
+<TLINK lid="l364" relType="BEFORE" eventInstanceID="ei232" relatedToEventInstance="ei231" />
+<TLINK lid="l365" relType="IS_INCLUDED" eventInstanceID="ei234" relatedToTime="t48" />
+<TLINK lid="l366" relType="BEFORE" eventInstanceID="ei233" relatedToTime="t0" />
+<TLINK lid="l367" relType="INCLUDES" eventInstanceID="ei231" relatedToEventInstance="ei233" />
+<TLINK lid="l368" relType="BEFORE" eventInstanceID="ei234" relatedToEventInstance="ei233" />
+<TLINK lid="l369" relType="BEFORE" eventInstanceID="ei235" relatedToEventInstance="ei233" />
+<TLINK lid="l370" relType="INCLUDES" eventInstanceID="ei236" relatedToEventInstance="ei233" />
+<TLINK lid="l371" relType="BEFORE" eventInstanceID="ei237" relatedToEventInstance="ei233" />
+<TLINK lid="l372" relType="INCLUDES" eventInstanceID="ei238" relatedToTime="t0" />
+<TLINK lid="l373" relType="SIMULTANEOUS" eventInstanceID="ei233" relatedToEventInstance="ei238" />
+<TLINK lid="l374" relType="IS_INCLUDED" eventInstanceID="ei239" relatedToTime="t49" />
+<TLINK lid="l375" relType="IS_INCLUDED" eventInstanceID="ei240" relatedToTime="t50" />
+<TLINK lid="l376" relType="BEFORE" eventInstanceID="ei239" relatedToTime="t0" />
+<TLINK lid="l377" relType="INCLUDES" eventInstanceID="ei238" relatedToEventInstance="ei239" />
+<TLINK lid="l378" relType="BEFORE" eventInstanceID="ei240" relatedToEventInstance="ei239" />
+<TLINK lid="l379" relType="BEFORE" eventInstanceID="ei241" relatedToTime="t0" />
+<TLINK lid="l380" relType="BEFORE" eventInstanceID="ei239" relatedToEventInstance="ei241" />
+<TLINK lid="l381" relType="BEFORE" eventInstanceID="ei242" relatedToEventInstance="ei241" />
+<TLINK lid="l382" relType="IS_INCLUDED" eventInstanceID="ei246" relatedToTime="t51" />
+<TLINK lid="l383" relType="IS_INCLUDED" eventInstanceID="ei246" relatedToTime="t0" />
+<TLINK lid="l384" relType="SIMULTANEOUS" eventInstanceID="ei241" relatedToEventInstance="ei246" />
+<TLINK lid="l385" relType="AFTER" eventInstanceID="ei243" relatedToEventInstance="ei246" />
+<TLINK lid="l386" relType="BEFORE" eventInstanceID="ei244" relatedToEventInstance="ei246" />
+<TLINK lid="l387" relType="BEFORE" eventInstanceID="ei245" relatedToEventInstance="ei246" />
+<TLINK lid="l388" relType="BEFORE" eventInstanceID="ei247" relatedToTime="t0" />
+<TLINK lid="l389" relType="BEFORE" eventInstanceID="ei246" relatedToEventInstance="ei247" />
+<TLINK lid="l390" relType="IS_INCLUDED" eventInstanceID="ei249" relatedToTime="t0" />
+<TLINK lid="l391" relType="SIMULTANEOUS" eventInstanceID="ei247" relatedToEventInstance="ei249" />
+<TLINK lid="l392" relType="BEFORE" eventInstanceID="ei248" relatedToEventInstance="ei249" />
+<TLINK lid="l393" relType="IS_INCLUDED" eventInstanceID="ei253" relatedToTime="t52" />
+<TLINK lid="l394" relType="BEFORE" eventInstanceID="ei250" relatedToTime="t0" />
+<TLINK lid="l395" relType="SIMULTANEOUS" eventInstanceID="ei249" relatedToEventInstance="ei250" />
+<TLINK lid="l396" relType="BEFORE" eventInstanceID="ei251" relatedToEventInstance="ei250" />
+<TLINK lid="l397" relType="BEFORE" eventInstanceID="ei252" relatedToEventInstance="ei250" />
+<TLINK lid="l398" relType="BEFORE" eventInstanceID="ei253" relatedToEventInstance="ei250" />
+<TLINK lid="l399" relType="IS_INCLUDED" eventInstanceID="ei259" relatedToTime="t53" />
+<TLINK lid="l400" relType="INCLUDES" eventInstanceID="ei254" relatedToTime="t0" />
+<TLINK lid="l401" relType="BEFORE" eventInstanceID="ei250" relatedToEventInstance="ei254" />
+<TLINK lid="l402" relType="BEFORE" eventInstanceID="ei255" relatedToEventInstance="ei254" />
+<TLINK lid="l403" relType="BEFORE" eventInstanceID="ei256" relatedToEventInstance="ei254" />
+<TLINK lid="l404" relType="BEFORE" eventInstanceID="ei257" relatedToEventInstance="ei254" />
+<TLINK lid="l405" relType="BEFORE" eventInstanceID="ei258" relatedToEventInstance="ei254" />
+<TLINK lid="l406" relType="BEFORE" eventInstanceID="ei259" relatedToEventInstance="ei254" />
+<TLINK lid="l407" relType="IS_INCLUDED" eventInstanceID="ei260" relatedToTime="t0" />
+<TLINK lid="l408" relType="SIMULTANEOUS" eventInstanceID="ei254" relatedToEventInstance="ei260" />
+<TLINK lid="l409" relType="IS_INCLUDED" eventInstanceID="ei261" relatedToTime="t54" />
+<TLINK lid="l410" relType="BEFORE" eventInstanceID="ei261" relatedToTime="t0" />
+<TLINK lid="l411" relType="BEFORE" eventInstanceID="ei260" relatedToEventInstance="ei261" />
+
+</TimeML>
+

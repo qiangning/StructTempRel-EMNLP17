@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051216.0013</DOCID>
+
+<DCT>SYDNEY, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>= (PICTURE) =</TITLE>
+
+
+<TEXT>
+
+Hollywood star Cate Blanchett <EVENT class="OCCURRENCE" eid="e1">led</EVENT> a group of Australian celebrities in a Sydney beach <EVENT class="OCCURRENCE" eid="e2">ceremony</EVENT> <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3> to <EVENT class="I_ACTION" eid="e3">appeal</EVENT> for calm after race <EVENT class="OCCURRENCE" eid="e4">riots</EVENT> <TIMEX3 type="DATE" value="2005-W50" tid="t2">this week</TIMEX3>.
+
+The Oscar-winning Australian actress <EVENT class="OCCURRENCE" eid="e5">turned</EVENT> out at upmarket Coogee Beach with other actors and musicians to <EVENT class="I_ACTION" eid="e6">urge</EVENT> racial tolerance after mobs of whites <EVENT class="OCCURRENCE" eid="e7">attacked</EVENT> Arab-Australians on a beach <TIMEX3 type="DATE" value="2005-12-11" tid="t3">last Sunday</TIMEX3>.
+
+"It's actually very clear and simple," <EVENT class="REPORTING" eid="e8">said</EVENT> Blanchett, <EVENT class="OCCURRENCE" eid="e9">dressed</EVENT> casually in a sun-hat, jacket and designer jeans in front of a banner <EVENT class="OCCURRENCE" eid="e10">calling</EVENT> for a "<EVENT class="OCCURRENCE" eid="e11">wave</EVENT> of tolerance" to sweep Australia.
+
+"Violence and racism are bad. Whenever they <EVENT class="OCCURRENCE" eid="e13">occur</EVENT> they are to be <EVENT class="OCCURRENCE" eid="e14">condemned</EVENT> (and) we should not <EVENT class="OCCURRENCE" eid="e15">turn</EVENT> a blind eye to them.
+
+"It's about respect. Respect for others, respect for the rights of others and respect of the rights of everyone to <EVENT class="OCCURRENCE" eid="e16">go</EVENT> about their lives in a peaceful way."
+
+The group with Blanchett, who <EVENT class="OCCURRENCE" eid="e17">won</EVENT> best supporting actress Oscar for her portrayal of Katharine Hepburn in the 2004 film The Aviator with Leonardo DiCaprio, included former Midnight Oil rock star <EVENT class="OCCURRENCE" eid="e18">turned</EVENT> politician Peter Garrett.
+
+Garrett, now a member of parliament for the opposition Labor Party, <EVENT class="REPORTING" eid="e19">said</EVENT> the group was <EVENT class="OCCURRENCE" eid="e20">delivering</EVENT> a message about "the unacceptability of violence (and) the necessity for us to <EVENT class="STATE" eid="e21">embrace</EVENT> respect and tolerance".
+
+The <EVENT class="OCCURRENCE" eid="e22">appeal</EVENT> was <EVENT class="OCCURRENCE" eid="e23">sparked</EVENT> by fears that new clashes could <EVENT class="OCCURRENCE" eid="e24">erupt</EVENT> on Sydney beaches <TIMEX3 type="DATE" value="2005-W50-WE" tid="t6">this weekend</TIMEX3>.
+
+Dozens of people were <EVENT class="OCCURRENCE" eid="e25">injured</EVENT> and <EVENT class="OCCURRENCE" eid="e26">arrested</EVENT> in the <EVENT class="OCCURRENCE" eid="e27">violence</EVENT>, in which white mobs <EVENT class="OCCURRENCE" eid="e28">set</EVENT> out to "<EVENT class="OCCURRENCE" eid="e29">reclaim</EVENT> the beach" from groups of Lebanese-Australians <EVENT class="I_ACTION" eid="e30">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e31">intimidating</EVENT> other beachgoers with boorish behaviour at weekends.
+
+Groups of mainly ethnic-Lebanese men then <EVENT class="OCCURRENCE" eid="e32">launched</EVENT> a wave of revenge <EVENT class="OCCURRENCE" eid="e33">attacks</EVENT>, and thousands of police will patrol trouble <EVENT class="PERCEPTION" eid="e34">spots</EVENT> this weekend in an <EVENT class="I_ACTION" eid="e35">attempt</EVENT> to <EVENT class="I_ACTION" eid="e36">prevent</EVENT> a repeat performance.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="IAFTER" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="AFTER" />
+
+
+
+
+</TimeML>

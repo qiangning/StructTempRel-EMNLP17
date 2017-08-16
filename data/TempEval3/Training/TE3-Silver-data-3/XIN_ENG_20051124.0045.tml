@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0045</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tokyo stocks end higher</TITLE>
+
+
+<TEXT>
+
+Japan's benchmark Nikkei stock index <EVENT class="OCCURRENCE" eid="e1">advanced</EVENT> for the sixth straight <EVENT class="OCCURRENCE" eid="e2">trading</EVENT> of gain <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3> to <EVENT class="ASPECTUAL" eid="e3">renew</EVENT> an almost five-year high as high-tech issues <EVENT class="OCCURRENCE" eid="e4">drew</EVENT> <EVENT class="OCCURRENCE" eid="e5">buying</EVENT> in tandem with their US counterparts' gains overnight.
+
+The 225-issue Nikkei Stock Average <EVENT class="OCCURRENCE" eid="e6">rose</EVENT> 34.26 points, or 0.23 percent, from <TIMEX3 type="DATE" value="2005-11-22" tid="t3">Tuesday</TIMEX3> to 14,742.58 for its highest closing since <TIMEX3 type="DATE" value="2000-12-14" tid="t4">Dec. 14, 2000</TIMEX3>. The Japanese financial markets were <EVENT class="OCCURRENCE" eid="e7">closed</EVENT> <TIMEX3 type="DATE" value="2005-11-23" tid="t5">Wednesday</TIMEX3> for a national holiday.
+
+The Tokyo Stock Price Index of all First Section issues on the Tokyo Stock Exchange <EVENT class="OCCURRENCE" eid="e9">fell</EVENT> 8.90 points, or 0.58 percent, to 1,517. 64, <EVENT class="OCCURRENCE" eid="e10">extending</EVENT> its losing streak to three trading days.
+
+Advantest <EVENT class="OCCURRENCE" eid="e11">jumped</EVENT> 990 yen to 10,870 yen, <EVENT class="ASPECTUAL" eid="e12">ending</EVENT> above the 10,000 yen threshold for the first time in about <TIMEX3 type="DURATION" value="2005-11-24" tid="t7">three and a half years</TIMEX3>.
+
+Major gainers were chemical, glass, textile, land transport and energy-related issues.
+
+Retreating issues <EVENT class="OCCURRENCE" eid="e14">outnumbered</EVENT> advancing ones 1,116 to 469, with 76 shares <EVENT class="ASPECTUAL" eid="e16">ending</EVENT> unchanged.
+
+Trading volume on the TSE's main section <EVENT class="OCCURRENCE" eid="e17">came</EVENT> to 2,322.16 million shares against <TIMEX3 type="DATE" value="2005-11-22" tid="t8">Tuesday</TIMEX3>'s 2,082.78 million shares.
+
+Specialized nickel processor S-Science was the day's volume leader, down 7 yen to 67 yen.
+
+Softbank was the most heavily traded issue by value. It <EVENT class="OCCURRENCE" eid="e18">gained</EVENT> 200 yen to 8,880 yen.
+
+The TSE's Second Section index <EVENT class="OCCURRENCE" eid="e19">rose</EVENT> 18.97 points, or 0.42 percent, to 4,568.25 on a volume of 180.88 million shares. In Osaka, the near-term December Nikkei 225 index futures contract was up 10 points to 14,710.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000006" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei1000006" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei1000006" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0017</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mongolian PM refutes reports on receiving refugees from DPRK</TITLE>
+
+
+<TEXT>
+
+Mongolian Prime Minister Miegombyn Enkhbold on <TIMEX3 type="DATE" value="2006-11-23" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">refuted</EVENT> news reports <EVENT class="REPORTING" eid="e2">claiming</EVENT> that Mongolia was <EVENT class="OCCURRENCE" eid="e3">setting</EVENT> up refugee camps for people from the Democratic People's Republic of Korea (DPRK).
+
+"There are some news reports or <EVENT class="OCCURRENCE" eid="e4">rumors</EVENT> that Mongolia is <EVENT class="OCCURRENCE" eid="e5">preparing</EVENT> to <EVENT class="OCCURRENCE" eid="e6">receive</EVENT> refugees or <EVENT class="OCCURRENCE" eid="e7">setting</EVENT> up refugee camps in Mongolia, but these reports are groundless," Enkhbold <EVENT class="REPORTING" eid="e8">told</EVENT> reporters at the Mongolian Embassy in Beijing.
+
+Mongolia and the DPRK <EVENT class="STATE" eid="e9">have</EVENT> longstanding relations and Mongolia has always <EVENT class="OCCURRENCE" eid="e10">supported</EVENT> a nuclear weapon-free Korean Peninsula, Enkhbold <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+"Our position is to <EVENT class="OCCURRENCE" eid="e12">solve</EVENT> the nuclear issue through political dialogue and cooperation," the prime minister <EVENT class="REPORTING" eid="e14">said</EVENT>. "The Mongolian government is willing to <EVENT class="I_ACTION" eid="e15">implement</EVENT> the UN <EVENT class="OCCURRENCE" eid="e16">resolution</EVENT> on Korean nuclear issue."
+
+"We <EVENT class="I_STATE" eid="e17">hope</EVENT> for the <EVENT class="OCCURRENCE" eid="e18">success</EVENT> of the six-party <EVENT class="OCCURRENCE" eid="e19">talks</EVENT> and we <EVENT class="OCCURRENCE" eid="e20">support</EVENT> the initiatives and activities of the six parties," Enkhbold <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+As part of the UN refugee commission, Mongolia will <EVENT class="OCCURRENCE" eid="e23">treat</EVENT> refugees from a humanitarian point of view, he <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

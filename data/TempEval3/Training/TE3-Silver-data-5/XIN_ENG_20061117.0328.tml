@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0328</DOCID>
+
+<DCT>GUADALAJARA, Mexico, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mexican Espinosa makes to diving Grand Prix final</TITLE>
+
+
+<TEXT>
+
+Mexican diver Paola Espinosa <EVENT class="OCCURRENCE" eid="e1">reached</EVENT> the final of the 10-meter board in the 2006 Diving Grand Prix, by <EVENT class="OCCURRENCE" eid="e2">scoring</EVENT> 363.1 points from five rounds on <TIMEX3 type="DATE" value="2006-11-24" tid="t2">Friday</TIMEX3>, <EVENT class="I_ACTION" eid="e3">beating</EVENT> nearest rival, China's Chen Ruolin by 37 points.
+
+Some 50 athletes <EVENT class="I_STATE" eid="e4">qualified</EVENT> for the competition, which <EVENT class="OCCURRENCE" eid="e6">runs</EVENT> until <TIMEX3 type="DATE" value="2006-W45-WE" tid="t3">this weekend</TIMEX3>, in Guadalajara, capital of the western Mexico state of Jalisco, run by the International Swimming Federation.
+
+Espinosa, <EVENT class="OCCURRENCE" eid="e8">trained</EVENT> by China's Ma Jin, will <EVENT class="OCCURRENCE" eid="e9">challenge</EVENT> China's Tong Jia and Russia's Olva Vintoniak on <TIMEX3 type="DATE" value="2006-11-24TNI" tid="t4">Friday night</TIMEX3>.
+
+Espinosa <EVENT class="OCCURRENCE" eid="e10">came</EVENT> fifth in the Athens Olympic Games, in both the three-meter board and the 10-meter <EVENT class="OCCURRENCE" eid="e11">synchronized</EVENT> platform.
+
+It is the fifth time that the competition has been <EVENT class="OCCURRENCE" eid="e13">held</EVENT> in Mexico. Athletes of 12 teams are <EVENT class="OCCURRENCE" eid="e14">taking</EVENT> part in , including Mexico, U.S., Russia, Cuba, Brazil and Venezuela.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0205</DOCID>
+
+<DCT>NANCHANG, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>areas</TITLE>
+
+
+<TEXT>
+
+More than 10,000 soldiers have been <EVENT class="OCCURRENCE" eid="e1">mobilized</EVENT> and at least one million yuan (about 123,000 US dollars) will be <EVENT class="OCCURRENCE" eid="e2">allocated</EVENT> in the disaster relief in central China's quake-hit areas, <EVENT class="REPORTING" eid="e3">said</EVENT> the sources with the provincial governments of Jiangxi and Hubei on <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3>.
+
+The Jiangxi provincial government <EVENT class="REPORTING" eid="e4">said</EVENT> it was <EVENT class="ASPECTUAL" eid="e5">launching</EVENT> its emergency plan shortly after the quake <EVENT class="OCCURRENCE" eid="e6">struck</EVENT> and <EVENT class="OCCURRENCE" eid="e7">mobilized</EVENT> more than 10,000 soldiers and militia members to <EVENT class="I_ACTION" eid="e8">help</EVENT> <EVENT class="OCCURRENCE" eid="e9">restore</EVENT> the normal order of life and production in Jiujiang.
+
+As of <TIMEX3 type="TIME" value="2005-11-21TEV" tid="t2">Monday evening</TIMEX3>, the rescuers have <EVENT class="OCCURRENCE" eid="e10">found</EVENT> and <EVENT class="OCCURRENCE" eid="e11">saved</EVENT> more than 200 people who were <EVENT class="STATE" eid="e12">trapped</EVENT> in the collapsed buildings.
+
+Meanwhile, more than 50,000 people who were <EVENT class="OCCURRENCE" eid="e13">affected</EVENT> by the disaster have been <EVENT class="OCCURRENCE" eid="e14">relocated</EVENT> by the local government.
+
+In the nearby Hubei Province, which was also partially <EVENT class="OCCURRENCE" eid="e15">hit</EVENT> by the <EVENT class="OCCURRENCE" eid="e16">earthquake</EVENT>, the provincial government <EVENT class="OCCURRENCE" eid="e17">decides</EVENT> to <EVENT class="OCCURRENCE" eid="e18">allocate</EVENT> at least one million yuan (about 123,000 US dollars) to <EVENT class="OCCURRENCE" eid="e19">give</EVENT> free medical treatment to people who were <EVENT class="OCCURRENCE" eid="e20">injured</EVENT> in the quake.
+
+The provincial government <EVENT class="OCCURRENCE" eid="e21">held</EVENT> a special <EVENT class="OCCURRENCE" eid="e22">conference</EVENT> on <TIMEX3 type="DATE" value="2005-11-28" tid="t3">Monday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e23">strengthen</EVENT> the disaster relief work, <EVENT class="OCCURRENCE" eid="e24">adding</EVENT> that an earthquake prevention and disaster relief responsibility system will immediately <EVENT class="OCCURRENCE" eid="e25">take</EVENT> effect in Hubei.
+
+The majority of the schools in the quake-hit areas <EVENT class="ASPECTUAL" eid="e26">resumed</EVENT> class <TIMEX3 type="DATE" value="2005-11-28" tid="t4">Monday</TIMEX3>, which unanimously <EVENT class="OCCURRENCE" eid="e27">gave</EVENT> the students lessons concerning earthquake and the survival skills.
+
+To further <EVENT class="OCCURRENCE" eid="e28">monitor</EVENT> the Jiujiang earthquake, the China Seismological Bureau <EVENT class="OCCURRENCE" eid="e29">organized</EVENT> a panel <EVENT class="OCCURRENCE" eid="e30">composed</EVENT> of more than 50 seismologists, to head toward the two provinces.
+
+The experts will <EVENT class="OCCURRENCE" eid="e32">carry</EVENT> out field <EVENT class="OCCURRENCE" eid="e33">inspections</EVENT> and <EVENT class="OCCURRENCE" eid="e34">set</EVENT> up 11 seismographs in both Jiangxi and Hubei for earthquake prevention and study.
+
+An earthquake measuring 5.7 on the Richter scale <EVENT class="OCCURRENCE" eid="e36">jolted</EVENT> the city of Jiujiang, Jiangxi Province, on <TIMEX3 type="DATE" value="2005-11-26" tid="t5">Saturday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e37">leaving</EVENT> at least 14 dead.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei32" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei37" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0327</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nigerian government promotes agriculture in north</TITLE>
+
+
+<TEXT>
+
+The Nigerian government <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> measures to <EVENT class="OCCURRENCE" eid="e2">promote</EVENT> agricultural production in the country's vast north, a senior official has <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Nigerian Agriculture and Rural Development Minister Adamu Bello <EVENT class="REPORTING" eid="e4">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Tuesday</TIMEX3> that the government had <EVENT class="OCCURRENCE" eid="e5">approved</EVENT> run-off water harvesting projects for irrigation and cattle <EVENT class="OCCURRENCE" eid="e6">rearing</EVENT> in northern states of Sokoto, Jigawa and Yobe.
+
+The projects were <EVENT class="STATE" eid="e7">funded</EVENT> from the debt relief gains under the Millennium Development Goals, he <EVENT class="REPORTING" eid="e8">said</EVENT>, <EVENT class="OCCURRENCE" eid="e9">adding</EVENT> that the run-off water harvesting structures would <EVENT class="OCCURRENCE" eid="e10">bring</EVENT> about 40 million cubic meters of flood water for irrigation and domestic <EVENT class="OCCURRENCE" eid="e11">use</EVENT>.
+
+The minister <EVENT class="REPORTING" eid="e12">explained</EVENT> that the projects would <EVENT class="OCCURRENCE" eid="e13">encourage</EVENT> the production of meat, milk and cheese as well as <EVENT class="OCCURRENCE" eid="e15">increase</EVENT> farmers' income and <EVENT class="I_STATE" eid="e16">minimize</EVENT> poverty in the benefiting states.
+
+The federal government was <EVENT class="OCCURRENCE" eid="e17">working</EVENT> toward <EVENT class="I_ACTION" eid="e18">addressing</EVENT> the threats of environmental degradation and other severe stress <EVENT class="I_ACTION" eid="e19">facing</EVENT> the country's land and water resources, he <EVENT class="OCCURRENCE" eid="e20">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

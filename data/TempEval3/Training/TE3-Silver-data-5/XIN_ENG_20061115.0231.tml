@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0231</DOCID>
+
+<DCT>LANZHOU, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Rising</EVENT> temperatures have <EVENT class="OCCURRENCE" eid="e2">exacerbated</EVENT> <EVENT class="OCCURRENCE" eid="e3">shrinkage</EVENT> of glaciers in western China in <TIMEX3 type="DURATION" value="P50Y" tid="t1">the past 50 years</TIMEX3>, Chinese scientists have <EVENT class="OCCURRENCE" eid="e4">found</EVENT>.
+
+China's glaciers are mainly <EVENT class="OCCURRENCE" eid="e5">distributed</EVENT> on the Qinghai-Tibet Plateau and neighboring areas. These areas <EVENT class="OCCURRENCE" eid="e6">boast</EVENT> 46,377 glaciers.
+
+About 82 percent of the glaciers in west China have been <EVENT class="OCCURRENCE" eid="e7">shrinking</EVENT> in <TIMEX3 type="DURATION" value="P50Y" tid="t2">the past 50 years</TIMEX3> as the temperature <EVENT class="OCCURRENCE" eid="e8">rose</EVENT> by 0.2 degrees Celsius per <TIMEX3 type="DURATION" value="P10Y" tid="t3">10 years</TIMEX3>, <EVENT class="REPORTING" eid="e9">according</EVENT> to the research results <EVENT class="OCCURRENCE" eid="e10">published</EVENT> by the Cold and Dry Zone Environment and Engineering Research Institute under the Chinese Academy of Sciences.
+
+Scientists with the institute <EVENT class="OCCURRENCE" eid="e11">selected</EVENT> 5,000 glaciers in the region and <EVENT class="OCCURRENCE" eid="e12">used</EVENT> remote sensing and geographic information system methods to <EVENT class="OCCURRENCE" eid="e13">monitor</EVENT> their <EVENT class="OCCURRENCE" eid="e14">changes</EVENT> in <TIMEX3 type="DURATION" value="P50Y" tid="t4">the past 50 years</TIMEX3>, <EVENT class="REPORTING" eid="e15">said</EVENT> Liu Shiyin, an expert with the institute, who <EVENT class="OCCURRENCE" eid="e16">participated</EVENT> in the monitoring program.
+
+The 5,000 glaciers account for one-fourth of the total acreage of glaciers in western China.
+
+Liu <EVENT class="REPORTING" eid="e17">said</EVENT> only a small number of glaciers were <EVENT class="OCCURRENCE" eid="e18">expanding</EVENT> and about 82 percent of the monitored glaciers <EVENT class="OCCURRENCE" eid="e19">shrank</EVENT> by 4.5 percent in <TIMEX3 type="DURATION" value="P50Y" tid="t5">the past 50 years</TIMEX3>.
+
+Glaciers in the central and northwestern parts of the Qinghai-Tibet Plateau <EVENT class="OCCURRENCE" eid="e20">shrank</EVENT> slowly and those in the neighboring areas were <EVENT class="OCCURRENCE" eid="e21">shrinking</EVENT> faster, Liu <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+Liu <EVENT class="REPORTING" eid="e23">said</EVENT>, 95 percent of the 170 glaciers on the northwestern slope of the Qilian Mountains have <EVENT class="OCCURRENCE" eid="e24">shrunk</EVENT> by 4.9 meters <TIMEX3 type="SET" value="P1Y" tid="t6">each year</TIMEX3> on average, and only 10 glaciers <EVENT class="OCCURRENCE" eid="e25">expanded</EVENT> during <TIMEX3 type="DATE" value="1956" tid="t7">the 1956-2000 period</TIMEX3>.
+
+Almost all the glaciers on the northern slope of and 69 percent of glaciers on the southern slope the Tianshan Mountains, northwest China's Xinjiang Uygur Autonomous Region, are <EVENT class="OCCURRENCE" eid="e26">receding</EVENT>, and the glacier acreage <EVENT class="OCCURRENCE" eid="e27">shrank</EVENT> by 10 percent on the Pamirs in <TIMEX3 type="DURATION" value="P50Y" tid="t8">the past 50 years</TIMEX3>.
+
+Glaciers on the northern slopes of the Kunlun Mountains and the Himalayas were also <EVENT class="OCCURRENCE" eid="e28">shrinking</EVENT>, Liu <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+Monitoring results show that water <EVENT class="OCCURRENCE" eid="e31">flow</EVENT> in some rivers in northwest China's dry regions has been <EVENT class="OCCURRENCE" eid="e32">increasing</EVENT>, a result possibly <EVENT class="OCCURRENCE" eid="e33">brought</EVENT> about by melting glaciers, Liu <EVENT class="REPORTING" eid="e35">said</EVENT>.
+
+However, Liu <EVENT class="I_ACTION" eid="e36">warned</EVENT>, if glaciers <EVENT class="ASPECTUAL" eid="e37">continued</EVENT> to <EVENT class="OCCURRENCE" eid="e38">melt</EVENT> fastly, water sources for local rivers would <EVENT class="OCCURRENCE" eid="e39">reduce</EVENT> and that would <EVENT class="OCCURRENCE" eid="e40">impose</EVENT> serious <EVENT class="OCCURRENCE" eid="e41">impact</EVENT> on local production and the life of local people.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei39" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei29" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l50" eventInstanceID="ei31" relatedToEventInstance="ei35" relType="INCLUDES" />
+<TLINK lid="l51" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei39" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

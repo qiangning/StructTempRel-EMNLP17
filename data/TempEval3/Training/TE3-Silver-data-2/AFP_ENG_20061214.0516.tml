@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061214.0516</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS background, explanation of contract ///</TITLE>
+
+
+<TEXT>
+
+Russia has <EVENT class="OCCURRENCE" eid="e1">given</EVENT> the go-ahead to <EVENT class="OCCURRENCE" eid="e2">increased</EVENT> <EVENT class="OCCURRENCE" eid="e3">spending</EVENT> for the Sakhalin-1 oil and gas project <EVENT class="OCCURRENCE" eid="e4">led</EVENT> by US oil giant ExxonMobil to a total of to 19.3 billion dollars (14.7 billion euros), the Russian energy ministry <EVENT class="REPORTING" eid="e5">said</EVENT> on <TIMEX3 type="DATE" value="2006-12-14" tid="t1">Thursday</TIMEX3>.
+
+The original budget was for 12.8 billion dollars but extra costs <EVENT class="OCCURRENCE" eid="e6">amounted</EVENT> to 6.5 billion dollars because of <EVENT class="OCCURRENCE" eid="e7">work</EVENT> on the Chayvo reserves in the northeastern part of the island of Sakhalin in far eastern Russia, the ministry <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+The private consortium operating the project in far eastern Russia must <EVENT class="OCCURRENCE" eid="e10">consult</EVENT> with the Russian government about project budgets under terms of a production sharing agreement (PSA) that <EVENT class="I_ACTION" eid="e11">governs</EVENT> the project.
+
+The Russian state only <EVENT class="OCCURRENCE" eid="e12">receives</EVENT> a share of profits from the project once the participating companies, which include Russian, Chinese and Indian energy firms, have <EVENT class="OCCURRENCE" eid="e13">recouped</EVENT> their <EVENT class="OCCURRENCE" eid="e14">investment</EVENT>.
+
+"The work programme and the <EVENT class="I_STATE" eid="e15">estimate</EVENT> of the expenses for extraction and management of <TIMEX3 type="DATE" value="2006-12" tid="t2">December 2006</TIMEX3> has been <EVENT class="OCCURRENCE" eid="e16">approved</EVENT>," the ministry <EVENT class="REPORTING" eid="e17">said</EVENT> in a statement.
+
+Sakhalin-2, another project on the island that is <EVENT class="OCCURRENCE" eid="e18">operated</EVENT> by Anglo-Dutch energy giant Shell, <EVENT class="OCCURRENCE" eid="e19">ran</EVENT> into trouble with the Russian government when it <EVENT class="OCCURRENCE" eid="e20">increased</EVENT> budget costs from 10 to 20 billion dollars in <TIMEX3 type="DATE" value="2005" tid="t3">2005</TIMEX3>.
+
+Sakhalin-2 also <EVENT class="OCCURRENCE" eid="e21">operates</EVENT> under a PSA with the Russian state.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+
+
+
+
+</TimeML>

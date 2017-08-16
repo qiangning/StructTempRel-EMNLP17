@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0240</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. wholesale prices drop by 1.6 percent in October</TITLE>
+
+
+<TEXT>
+
+Wholesale prices in the United States <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> by 1.6 percent in <TIMEX3 type="DATE" value="2006-10" tid="t1">October</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">tying</EVENT> with the record <EVENT class="OCCURRENCE" eid="e3">decline</EVENT> <EVENT class="OCCURRENCE" eid="e4">set</EVENT> in <TIMEX3 type="DATE" value="2001" tid="t2">the same month of 2001</TIMEX3>, the Labor Department <EVENT class="REPORTING" eid="e5">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-14" tid="t3">Tuesday</TIMEX3>.
+
+The big <EVENT class="OCCURRENCE" eid="e6">drop</EVENT> in wholesale prices, a gauge of inflation at the factory gate, <EVENT class="OCCURRENCE" eid="e7">followed</EVENT> a 1.3 percent <EVENT class="OCCURRENCE" eid="e8">fall</EVENT> in <TIMEX3 type="DATE" value="2006-09" tid="t4">September</TIMEX3> and was sharper than the 0.5 percent <EVENT class="OCCURRENCE" eid="e10">decline</EVENT> <EVENT class="I_STATE" eid="e11">expected</EVENT> by analysts.
+
+Just as in <TIMEX3 type="DATE" value="2006-09" tid="t5">September</TIMEX3>, the big <EVENT class="OCCURRENCE" eid="e12">drop</EVENT> in <TIMEX3 type="DATE" value="2006-10" tid="t6">October</TIMEX3> was <EVENT class="OCCURRENCE" eid="e13">led</EVENT> by <EVENT class="OCCURRENCE" eid="e14">falling</EVENT> energy prices.
+
+The core inflation at the wholesale level, which excludes volatile energy and food, <EVENT class="OCCURRENCE" eid="e15">dropped</EVENT> by 0.9 percent in <TIMEX3 type="DATE" value="2006-10" tid="t7">October</TIMEX3>, <EVENT class="OCCURRENCE" eid="e16">marking</EVENT> the biggest monthly fall in <TIMEX3 type="DURATION" value="P13Y" tid="t8">13 years</TIMEX3>.
+
+The 0.9 percent <EVENT class="OCCURRENCE" eid="e17">drop</EVENT> in core inflation <EVENT class="OCCURRENCE" eid="e18">followed</EVENT> an <EVENT class="OCCURRENCE" eid="e19">increase</EVENT> of 0.6 percent in <TIMEX3 type="DATE" value="2006-09" tid="t9">September</TIMEX3>, and <EVENT class="OCCURRENCE" eid="e20">reflected</EVENT> big <EVENT class="OCCURRENCE" eid="e21">declines</EVENT> in prices for new cars and sport utility vehicles.
+
+While <EVENT class="OCCURRENCE" eid="e22">excluding</EVENT> new car prices, core inflation would have <EVENT class="OCCURRENCE" eid="e23">risen</EVENT> by 0.1 percent in <TIMEX3 type="DATE" value="2006-10" tid="t10">October</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e24">retreat</EVENT> in core inflation was a welcome <EVENT class="OCCURRENCE" eid="e25">development</EVENT> because it <EVENT class="I_STATE" eid="e26">means</EVENT> inflation pressures are <EVENT class="OCCURRENCE" eid="e27">easing</EVENT>. Policymakers at the Federal Reserve are <EVENT class="I_STATE" eid="e28">hoping</EVENT> that the slowing economy can <EVENT class="I_ACTION" eid="e29">help</EVENT> <EVENT class="OCCURRENCE" eid="e30">keep</EVENT> inflation in control, according to analysts.
+
+The U.S. economy <EVENT class="OCCURRENCE" eid="e31">grew</EVENT> at an annual rate of 1.6 percent in <TIMEX3 type="DATE" value="2006-Q3" tid="t11">the third quarter</TIMEX3>, compared to a rate of 2.6 percent in <TIMEX3 type="DATE" value="P2Q" tid="t12">the second quarter</TIMEX3> and a brisk 5.6 percent rate in <TIMEX3 type="DURATION" value="P3M" tid="t13">the first three months</TIMEX3> of <TIMEX3 type="DATE" value="2006" tid="t14">this year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000031" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000012" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei31" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei31" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei19" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei1000031" relatedToTime="t14" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei25" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei12" relatedToEventInstance="ei1000012" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei1000012" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l51" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l52" eventInstanceID="ei31" relatedToEventInstance="ei1000031" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970428.0360</DOCID>
+
+<DCT>BRATISLAVA, <TIMEX3 tid="t0" type="TIME" value="1997-04-28" temporalFunction="false" functionInDocument="CREATION_TIME">April 28 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Economic, trade links top agenda as Russian PM visits Slovakia</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Visiting</EVENT> Russian Prime Minister Viktor Chernomyrdin <EVENT class="OCCURRENCE" eid="e2">gave</EVENT> a thinly veiled warning to Slovakia on <TIMEX3 type="DATE" value="1997-04-28" tid="t1">Monday</TIMEX3> that its <EVENT class="OCCURRENCE" eid="e4">drive</EVENT> towards NATO membership could <EVENT class="STATE" eid="e5">affect</EVENT> its relations with Moscow.
+
+<EVENT class="REPORTING" eid="e6">According</EVENT> to the spokesman of Slovakian President Michal Kovac, with whom Chernomyrdin <EVENT class="OCCURRENCE" eid="e7">met</EVENT>, the Russian premier <EVENT class="REPORTING" eid="e8">said</EVENT> that former Warsaw Pact states <EVENT class="I_ACTION" eid="e9">seeking</EVENT> NATO membership "<EVENT class="OCCURRENCE" eid="e10">risked</EVENT> <EVENT class="OCCURRENCE" eid="e11">affecting</EVENT> their relations" with Moscow.
+
+Slovakia, itself a former Warsaw Pact member, is the central European country with which Moscow enjoys the best relations. However, its readiness to <EVENT class="I_ACTION" eid="e13">seek</EVENT> membership of the North Atlantic Treaty Organisation is <EVENT class="OCCURRENCE" eid="e14">worrying</EVENT> the Russians who <EVENT class="STATE" eid="e15">remain</EVENT> strongly opposed to NATO <EVENT class="OCCURRENCE" eid="e17">expansion</EVENT>.
+
+Kovac <EVENT class="REPORTING" eid="e18">said</EVENT> that Slovakia's desire to <EVENT class="OCCURRENCE" eid="e19">join</EVENT> NATO, which is <EVENT class="OCCURRENCE" eid="e20">favoured</EVENT> by the government and will be <EVENT class="OCCURRENCE" eid="e21">put</EVENT> to voters in a <EVENT class="OCCURRENCE" eid="e22">referendum</EVENT> in <TIMEX3 type="DATE" value="1997-05" tid="t2">May</TIMEX3>, was not "<EVENT class="OCCURRENCE" eid="e23">directed</EVENT> against Russia" nor <EVENT class="OCCURRENCE" eid="e24">motivated</EVENT> by a "threat" from the east.
+
+The two men <EVENT class="OCCURRENCE" eid="e25">met</EVENT> during Chernomrydin's 48-hour <EVENT class="OCCURRENCE" eid="e26">visit</EVENT> to Bratislava which will <EVENT class="OCCURRENCE" eid="e27">coincide</EVENT> with the signature of a dozen commercial and military accords on <TIMEX3 type="DATE" value="1997-04-29" tid="t4">Tuesday</TIMEX3>.
+
+The Russian premier has frequently <EVENT class="REPORTING" eid="e28">voiced</EVENT> Moscow's <EVENT class="OCCURRENCE" eid="e29">opposition</EVENT> to NATO's eastward expansion, most recently during a <EVENT class="OCCURRENCE" eid="e30">visit</EVENT> to the neighbouring Czech Republic <TIMEX3 type="DATE" value="1997-W17" tid="t5">last week</TIMEX3>.
+
+The Czech Republic is <EVENT class="I_STATE" eid="e31">expected</EVENT> to <EVENT class="STATE" eid="e32">be</EVENT> among the first former Warsaw Pact states to be <EVENT class="OCCURRENCE" eid="e34">offered</EVENT> membership at a NATO <EVENT class="OCCURRENCE" eid="e35">summit</EVENT> in <TIMEX3 type="DATE" value="1996-07" tid="t6">July</TIMEX3>.
+
+The 12 accords due to be <EVENT class="OCCURRENCE" eid="e36">signed</EVENT> Tuesday <EVENT class="OCCURRENCE" eid="e37">cover</EVENT> a long-term gas contract for Slovakia, barter arrangements and permission for Bratislava to <EVENT class="OCCURRENCE" eid="e38">use</EVENT> Russian military technology.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei36" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei31" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei35" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei22" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+
+
+
+
+</TimeML>

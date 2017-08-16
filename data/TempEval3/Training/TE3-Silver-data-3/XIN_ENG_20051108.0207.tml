@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0207</DOCID>
+
+<DCT>GAZA, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Palestinians slam Israeli call to end UN mandate in Gaza</TITLE>
+
+
+<TEXT>
+
+Senior Palestinian officials on <TIMEX3 type="DATE" value="2005-11-08" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">slammed</EVENT> an Israeli call to <EVENT class="OCCURRENCE" eid="e3">suspend</EVENT> <EVENT class="OCCURRENCE" eid="e4">activities</EVENT> of the United Nations Relief and Works Agency (UNRWA) in the Gaza Strip.
+
+Hatem Abdel Qader, a Palestinian legislator, <EVENT class="REPORTING" eid="e5">told</EVENT> reporters that Israel <EVENT class="I_ACTION" eid="e6">attempts</EVENT> to <EVENT class="ASPECTUAL" eid="e7">end</EVENT> the UNRWA's mandate to <EVENT class="OCCURRENCE" eid="e8">remove</EVENT> the issue of refugees and their right of return.
+
+He <EVENT class="REPORTING" eid="e9">said</EVENT> the international community should <EVENT class="OCCURRENCE" eid="e10">pay</EVENT> close attention to the issue of Palestinian refugees and <EVENT class="OCCURRENCE" eid="e11">work</EVENT> to <EVENT class="OCCURRENCE" eid="e12">alleviate</EVENT> their sufferings.
+
+Israeli Foreign Minister Silvan Shalom <EVENT class="OCCURRENCE" eid="e13">called</EVENT> on the UNRWA to <EVENT class="OCCURRENCE" eid="e14">transfer</EVENT> its mandate to the Palestinian National Authority and <EVENT class="ASPECTUAL" eid="e15">end</EVENT> its activities in the Gaza Strip.
+
+Meanwhile, Sami Mushasha, a spokesperson for the UNRWA in Jerusalem, <EVENT class="REPORTING" eid="e16">said</EVENT> Shalom's <EVENT class="OCCURRENCE" eid="e17">request</EVENT> was a personal one and the UNRWA has <EVENT class="OCCURRENCE" eid="e18">rejected</EVENT> his <EVENT class="OCCURRENCE" eid="e19">request</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

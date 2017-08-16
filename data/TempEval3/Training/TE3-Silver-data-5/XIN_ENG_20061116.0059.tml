@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0059</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. soldier killed in Baghdad</TITLE>
+
+
+<TEXT>
+
+One U.S. soldier was <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> in a small arms fire in Baghdad on <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Tuesday</TIMEX3>, the U.S. military <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2006-11-16" tid="t2">Thursday</TIMEX3> in a statement.
+
+<EVENT class="REPORTING" eid="e3">According</EVENT> to the statement, the latest <EVENT class="OCCURRENCE" eid="e4">killing</EVENT> <EVENT class="OCCURRENCE" eid="e5">bring</EVENT> the number of U.S. soldiers <EVENT class="OCCURRENCE" eid="e6">killed</EVENT> on <TIMEX3 type="DATE" value="2006-11-14" tid="t3">Tuesday</TIMEX3> to seven.
+
+Late on <TIMEX3 type="DATE" value="2006-11-15" tid="t4">Wednesday</TIMEX3> the military <EVENT class="REPORTING" eid="e7">said</EVENT> that two U.S. soldiers were <EVENT class="OCCURRENCE" eid="e8">killed</EVENT> at approximately <TIMEX3 type="TIME" value="2006-11-16" tid="t5">11:30 p.m.</TIMEX3> (0830 GMT) on <TIMEX3 type="DATE" value="2006-11-14" tid="t6">Tuesday</TIMEX3> when their vehicle was <EVENT class="OCCURRENCE" eid="e9">struck</EVENT> by a roadside bomb in northwest of Baghdad.
+
+Before that, four more soldiers, including three marines, were <EVENT class="OCCURRENCE" eid="e10">killed</EVENT> in Iraq's western Anbar province, <EVENT class="REPORTING" eid="e11">said</EVENT> the military.
+
+Since the <EVENT class="OCCURRENCE" eid="e12">U.S.-led</EVENT> <EVENT class="OCCURRENCE" eid="e13">war</EVENT> in Iraq <EVENT class="OCCURRENCE" eid="e14">broke</EVENT> out in <TIMEX3 type="DATE" value="2003-03" tid="t7">March 2003</TIMEX3>, more than 2,850 U.S. soldiers have been <EVENT class="OCCURRENCE" eid="e15">killed</EVENT> in the war-torn country, according to media count.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1000002" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="IBEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

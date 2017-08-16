@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061204.0442</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-12-04" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 4 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Russia hopes next US ambassador to UN less 'severe'</TITLE>
+
+
+<TEXT>
+
+Russia <EVENT class="I_STATE" eid="e1">hopes</EVENT> that the next US ambassador to the United Nations will be less "severe" than outgoing envoy John Bolton, a ministry of foreign affairs spokesman <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2006-12-04" tid="t1">Monday</TIMEX3>.
+
+Bolton, whose resignation was <EVENT class="REPORTING" eid="e4">announced</EVENT> by a White House spokeswoman, "was a very strong professional, although on a series of issues, including problems of UN reform, he <EVENT class="OCCURRENCE" eid="e7">supported</EVENT> extremely severe views," the spokesman was <EVENT class="OCCURRENCE" eid="e8">quoted</EVENT> as <EVENT class="REPORTING" eid="e9">saying</EVENT> by RIA Novosti.
+
+"We would <EVENT class="I_STATE" eid="e10">like</EVENT> to <EVENT class="OCCURRENCE" eid="e11">express</EVENT> the hope that his successor will be able to <EVENT class="I_ACTION" eid="e12">overcome</EVENT> excessive severity in his approach, and at the same time <EVENT class="OCCURRENCE" eid="e13">preserve</EVENT> and <EVENT class="OCCURRENCE" eid="e14">develop</EVENT> the positive experience of our cooperation," he <EVENT class="OCCURRENCE" eid="e17">added</EVENT>.
+
+US President George W. Bush <EVENT class="OCCURRENCE" eid="e18">appointed</EVENT> the controversial, tough-talking Bolton in <TIMEX3 type="DATE" value="2005-08" tid="t2">August 2005</TIMEX3> in the face of stiff Democratic opposition.
+
+It was unclear when Bush would <EVENT class="REPORTING" eid="e20">announce</EVENT> his choice for a successor to Bolton, who will <EVENT class="OCCURRENCE" eid="e21">leave</EVENT> his post at <TIMEX3 type="DATE" value="2006-12-04" tid="t3">the end of the year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051118.0065</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="2005-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>threat: report</TITLE>
+
+
+<TEXT>
+
+The Erez <EVENT class="OCCURRENCE" eid="e1">crossing</EVENT> on the Gaza- Israel border was partly <EVENT class="OCCURRENCE" eid="e2">closed</EVENT> <TIMEX3 type="DATE" value="2005-11-11TMO" tid="t1">Friday morning</TIMEX3> due to a possible terror threat, Israeli daily newspaper Ha'aretz <EVENT class="REPORTING" eid="e3">reported</EVENT>.
+
+The border <EVENT class="OCCURRENCE" eid="e4">crossing</EVENT>, which was the main exit for people in Gaza, was totally <EVENT class="OCCURRENCE" eid="e6">closed</EVENT> before dawn <TIMEX3 type="DATE" value="2005-11-18" tid="t2">Friday</TIMEX3>, but was partly <EVENT class="OCCURRENCE" eid="e7">reopened</EVENT> in <TIMEX3 type="DATE" value="2005-11-18" tid="t3">the morning time</TIMEX3>, <EVENT class="REPORTING" eid="e8">said</EVENT> the report.
+
+Earlier, the Israel Radio <EVENT class="REPORTING" eid="e10">reported</EVENT> that intelligence information <EVENT class="I_ACTION" eid="e11">indicates</EVENT> that a terror organization was <EVENT class="OCCURRENCE" eid="e12">planning</EVENT> to <EVENT class="OCCURRENCE" eid="e13">carry</EVENT> out an <EVENT class="OCCURRENCE" eid="e14">attack</EVENT> at the Erez terminal.
+
+Humanitarian cases and VIPs will be <EVENT class="I_ACTION" eid="e15">allowed</EVENT> to <EVENT class="OCCURRENCE" eid="e16">cross</EVENT> the border <TIMEX3 type="DATE" value="2005-11-18" tid="t4">Friday</TIMEX3>, the radio <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+<TIMEX3 type="DATE" value="2005-W46" tid="t5">Earlier this week</TIMEX3>, US Secretary of State Condoleezza Rice <EVENT class="OCCURRENCE" eid="e18">extended</EVENT> her <EVENT class="OCCURRENCE" eid="e19">stay</EVENT> in the Middle East to broker a Gaza border deal.
+
+The Rafah border <EVENT class="OCCURRENCE" eid="e21">crossing</EVENT> is <EVENT class="OCCURRENCE" eid="e22">slated</EVENT> to <EVENT class="ASPECTUAL" eid="e23">open</EVENT> on <TIMEX3 type="DATE" value="2004-11-25" tid="t6">Nov. 25</TIMEX3>, when European inspectors are <EVENT class="OCCURRENCE" eid="e24">set</EVENT> to <EVENT class="OCCURRENCE" eid="e25">arrive</EVENT> to <EVENT class="OCCURRENCE" eid="e26">monitor</EVENT> compliance with the border agreements.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

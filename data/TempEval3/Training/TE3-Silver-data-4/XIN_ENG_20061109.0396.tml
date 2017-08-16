@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0396</DOCID>
+
+<DCT>ATHENS, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Report sees rise in domestic demand, investments in Greece</TITLE>
+
+
+<TEXT>
+
+The economic climate in Greece has <EVENT class="OCCURRENCE" eid="e1">returned</EVENT> to a growth course similar to that of the EU-25, while the Greek economy significantly <EVENT class="OCCURRENCE" eid="e2">reduced</EVENT> a "shortfall of optimism" that <EVENT class="OCCURRENCE" eid="e3">prevailed</EVENT> after the Athens 2004 Olympic Games, a report <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Economic <EVENT class="OCCURRENCE" eid="e5">growth</EVENT> is <EVENT class="I_STATE" eid="e6">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e7">exceed</EVENT> 3.4 percent <TIMEX3 type="DATE" value="2006" tid="t1">this year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e8">boosted</EVENT> by domestic demand and rising investments, <EVENT class="REPORTING" eid="e10">said</EVENT> the report <EVENT class="OCCURRENCE" eid="e11">issued</EVENT> on <TIMEX3 type="DATE" value="2006-11-09" tid="t2">Thursday</TIMEX3> by the Institute for Economic and Industrial Research (IOBE).
+
+It <EVENT class="I_ACTION" eid="e12">attributed</EVENT> the <EVENT class="OCCURRENCE" eid="e13">rising</EVENT> consumption to an expanding consumer credit and <EVENT class="OCCURRENCE" eid="e15">stressed</EVENT> that the increasing investments <EVENT class="OCCURRENCE" eid="e17">reflected</EVENT> an improving business climate and a <EVENT class="OCCURRENCE" eid="e18">recovery</EVENT> in public investments. The economic sentiment index <EVENT class="OCCURRENCE" eid="e19">kept</EVENT> <EVENT class="OCCURRENCE" eid="e20">rising</EVENT> for <TIMEX3 type="DURATION" value="P12M" tid="t3">the last 12 months</TIMEX3>.
+
+Consumers, however, <EVENT class="STATE" eid="e21">remained</EVENT> gloomy over economic <EVENT class="OCCURRENCE" eid="e22">developments</EVENT>, the report <EVENT class="REPORTING" eid="e23">said</EVENT>. The consumer sentiment index was the third lowest in the EU-25 and the lowest in the Eurozone, a trend <EVENT class="OCCURRENCE" eid="e24">prevailing</EVENT> for <TIMEX3 type="DURATION" value="P15Y" tid="t4">the last 15 years</TIMEX3> even in rapid growth periods for the Greek economy.
+
+It <EVENT class="OCCURRENCE" eid="e25">underlined</EVENT> a systematic difference between real economic development and how consumers <EVENT class="I_STATE" eid="e26">viewed</EVENT> them, the IOBE report <EVENT class="REPORTING" eid="e27">said</EVENT>.
+
+The report also <EVENT class="I_ACTION" eid="e29">blamed</EVENT> the out-of-date laws and regulations, and as for the new legislative initiative, it <EVENT class="STATE" eid="e30">remained</EVENT> uncontrolled as far as its <EVENT class="OCCURRENCE" eid="e31">impact</EVENT> on the economy was <EVENT class="OCCURRENCE" eid="e32">concerned</EVENT>.
+
+The report <EVENT class="REPORTING" eid="e33">said</EVENT> <EVENT class="OCCURRENCE" eid="e34">spending</EVENT> on the country's social insurance system would <EVENT class="OCCURRENCE" eid="e35">grow</EVENT> rapidly in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t5">the future</TIMEX3>, <EVENT class="I_ACTION" eid="e36">warning</EVENT> that if the problem was not timely <EVENT class="OCCURRENCE" eid="e37">dealt</EVENT> with, it could <EVENT class="OCCURRENCE" eid="e38">undermine</EVENT> <EVENT class="OCCURRENCE" eid="e39">efforts</EVENT> for a sustainable <EVENT class="OCCURRENCE" eid="e40">reduction</EVENT> of public <EVENT class="OCCURRENCE" eid="e41">spending</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei33" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei35" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei33" relatedToEventInstance="ei38" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="INCLUDES" />
+<TLINK lid="l42" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei33" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei33" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

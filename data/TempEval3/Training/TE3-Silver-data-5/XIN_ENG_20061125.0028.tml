@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061125.0028</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Iraq makes second stage of 15th ASIAD soccer with Jordan, Syria and Kyrgyzstan</TITLE>
+
+
+<TEXT>
+
+Jordan <EVENT class="OCCURRENCE" eid="e1">slashed</EVENT> a pounding 13-0 victory over Macao of China and Iraq <EVENT class="OCCURRENCE" eid="e3">drew</EVENT> 0-0 with Syria here <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> in the final preliminary round of the soccer tournament in the Doha Asian Games.
+
+Iraq and Jordan, with seven and five points respectively, have <EVENT class="STATE" eid="e4">become</EVENT> the winners of two groups to qualify for <TIMEX3 type="DATE" value="2006-11-25" tid="t2">the next stage</TIMEX3>.
+
+Syria, together with Kyrgyzstan which <EVENT class="OCCURRENCE" eid="e6">tied</EVENT> with Tajikistan 2-2 earlier on <TIMEX3 type="DATE" value="2006-12-01" tid="t3">Friday</TIMEX3>, is also able to <EVENT class="OCCURRENCE" eid="e8">stay</EVENT> in Doha as runner-up of Gruop B.
+
+<EVENT class="REPORTING" eid="e9">According</EVENT> to the newest rule <EVENT class="OCCURRENCE" eid="e10">issued</EVENT> by the Asian Games organizer,the runners-up are to <EVENT class="OCCURRENCE" eid="e11">take</EVENT> the berths of the next round in the tournament because Turkmenistan and Yemen had <EVENT class="OCCURRENCE" eid="e13">withdrawn</EVENT> from the Games.
+
+Despite <EVENT class="ASPECTUAL" eid="e14">finishing</EVENT> on the same points with Jordan and Kyrgyzstan in Group A, Tajikistan <EVENT class="OCCURRENCE" eid="e15">fall</EVENT> out on goal difference due to Kyrgyzstan's three-goal superiority.
+
+However, as the best third-placer, the middle Asian side still <EVENT class="PERCEPTION" eid="e16">saw</EVENT> a <EVENT class="OCCURRENCE" eid="e17">glimpse</EVENT> of hope if Iran was <EVENT class="OCCURRENCE" eid="e18">banned</EVENT> from the <EVENT class="OCCURRENCE" eid="e19">game</EVENT>.
+
+<EVENT class="REPORTING" eid="e20">According</EVENT> to news <EVENT class="OCCURRENCE" eid="e21">reaching</EVENT> here, the Federation of International Football Association (FIFA) <EVENT class="REPORTING" eid="e22">announced</EVENT> a <EVENT class="OCCURRENCE" eid="e23">decision</EVENT> earlier to <EVENT class="OCCURRENCE" eid="e24">suspend</EVENT> the Iran Association from all international games.
+
+Till <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3>, no official advice has been <EVENT class="OCCURRENCE" eid="e25">received</EVENT> from the Asian Football Conference about Iran's <EVENT class="OCCURRENCE" eid="e26">suspension</EVENT> or what changes would be <EVENT class="OCCURRENCE" eid="e28">made</EVENT> to competition, <EVENT class="REPORTING" eid="e29">said</EVENT> the official website of the 15th Asian Games.
+
+In another uneventful <EVENT class="OCCURRENCE" eid="e30">game</EVENT> in Group A, Singapore <EVENT class="OCCURRENCE" eid="e31">drew</EVENT> with Indonesia 1-1 and both were <EVENT class="OCCURRENCE" eid="e32">eliminated</EVENT> <EVENT class="OCCURRENCE" eid="e33">form</EVENT> the competition.
+
+The eight teams must <EVENT class="OCCURRENCE" eid="e35">play</EVENT> this preliminary round because they had not <EVENT class="OCCURRENCE" eid="e36">competed</EVENT> in the 2002 Asian Games soccer tournament.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei25" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei31" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

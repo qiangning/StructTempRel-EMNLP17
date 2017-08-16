@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0369</DOCID>
+
+<DCT>MEXICO CITY, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>DEMOCRATS WIN CONTROL OF SENATE: AP</TITLE>
+
+
+<TEXT>
+
+DEMOCRATS <EVENT class="OCCURRENCE" eid="e1">WIN</EVENT> CONTROL OF SENATE: AP
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0308</DOCID>
+
+<DCT>SANTIAGO, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chile rejoins CAN after 30 years</TITLE>
+
+
+<TEXT>
+
+Chile on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">rejoined</EVENT> the Andean Community of Nations (CAN) <TIMEX3 type="DURATION" value="2006-11-24" tid="t2">some 30 years</TIMEX3> after its 1976 exit, although it still <EVENT class="STATE" eid="e2">remains</EVENT> an associate rather than a full member at the moment.
+
+Chile's foreign minister, Alejandro Foxley, <EVENT class="REPORTING" eid="e3">said</EVENT> his country will <EVENT class="OCCURRENCE" eid="e4">work</EVENT> hard for regional integration.
+
+The foreign ministers of the CAN nations, Bolivia, Ecuador, Peru and Colombia, <EVENT class="I_ACTION" eid="e6">agreed</EVENT> on Chile's <EVENT class="OCCURRENCE" eid="e7">reentry</EVENT> into the group, at the sidelines of the third foreign ministers' <EVENT class="OCCURRENCE" eid="e8">meeting</EVENT> of the Community of South American Nations in Chile's capital Santiago.
+
+A CAN committee will <EVENT class="OCCURRENCE" eid="e9">decide</EVENT> in <TIMEX3 type="DURATION" value="P180D" tid="t4">180 days</TIMEX3> exactly how Chile will <EVENT class="OCCURRENCE" eid="e10">take</EVENT> part in the Andean Integration System's bodies and institutions.
+
+Chile was a founder member of CAN but <EVENT class="OCCURRENCE" eid="e11">left</EVENT> it in <TIMEX3 type="DATE" value="1976" tid="t5">1976</TIMEX3> following a <EVENT class="OCCURRENCE" eid="e12">squabble</EVENT> over foreign investment law provisions.
+
+Venezuela <EVENT class="OCCURRENCE" eid="e13">left</EVENT> CAN at <TIMEX3 tid="t6" type="DATE" value="2006">the beginning of this year</TIMEX3> in order to be <EVENT class="I_STATE" eid="e14">qualified</EVENT> as a full member of the trading block, Common Market of the South (Mercosur). All CAN members, including Chile, are associate members of Mercosur.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

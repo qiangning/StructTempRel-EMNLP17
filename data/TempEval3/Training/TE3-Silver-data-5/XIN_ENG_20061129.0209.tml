@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0209</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Injured Roslin to miss Doha's Asiad</TITLE>
+
+
+<TEXT>
+
+Malaysian shuttler Roslin Hashim was <EVENT class="REPORTING" eid="e1">confirmed</EVENT> here on <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">miss</EVENT> the upcoming Asia Games <EVENT class="OCCURRENCE" eid="e3">slated</EVENT> here for <TIMEX3 type="DATE" value="2006-11-29" tid="t2">Dec. 1-15</TIMEX3> due to an elbow <EVENT class="OCCURRENCE" eid="e4">injury</EVENT>.
+
+Roslin is <EVENT class="OCCURRENCE" eid="e5">nursing</EVENT> an elbow injury <EVENT class="OCCURRENCE" eid="e6">sustained</EVENT> at the Holland Open <TIMEX3 type="DATE" value="2006-W46" tid="t3">two weeks ago</TIMEX3> and he will be <EVENT class="OCCURRENCE" eid="e7">replaced</EVENT> by Wong Choon Han for the men's singles event, Abdullah Sani Karim, chef de mission of the Malaysian delegation <EVENT class="REPORTING" eid="e8">told</EVENT> Xinhua by telephone.
+
+Malaysia king Sultan Mizan Zainal Abidin, who was <EVENT class="OCCURRENCE" eid="e9">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e10">compete</EVENT> in the equestrian event of the Doha Asiad, also <EVENT class="OCCURRENCE" eid="e11">quit</EVENT> the Games due to a royal <EVENT class="OCCURRENCE" eid="e12">ceremony</EVENT> at home.
+
+Sultan Mizan will be <EVENT class="OCCURRENCE" eid="e13">coronated</EVENT> as the 13th Yang di-Pertuan Agong on <TIMEX3 type="DATE" value="2006-12-13" tid="t4">Dec. 13</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

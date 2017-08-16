@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0089</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>WAC takes China's trademark office to court</TITLE>
+
+
+<TEXT>
+
+The Washington Apple Commission (WAC) has <EVENT class="OCCURRENCE" eid="e1">taken</EVENT> the Chinese Trademark Review and Adjudication Board to court after its <EVENT class="OCCURRENCE" eid="e3">application</EVENT> to <EVENT class="OCCURRENCE" eid="e4">register</EVENT> a trademark was <EVENT class="OCCURRENCE" eid="e5">rejected</EVENT>.
+
+The application was <EVENT class="OCCURRENCE" eid="e6">rejected</EVENT> because the trademark <EVENT class="OCCURRENCE" eid="e7">contains</EVENT> the word Washington, the capital of the United States.
+
+But WAC <EVENT class="REPORTING" eid="e8">said</EVENT> Washington is also a person's name and, historically <EVENT class="OCCURRENCE" eid="e9">speaking</EVENT>, was <EVENT class="OCCURRENCE" eid="e10">used</EVENT> earlier as a personal name than as a geographical name.
+
+According to Chinese trademark law, well-known foreign geographical names must not be <EVENT class="OCCURRENCE" eid="e12">used</EVENT> as trademarks, but exceptions can be <EVENT class="OCCURRENCE" eid="e13">made</EVENT> for geographical names that have other meanings.
+
+The Trademark Review and Adjudication Board, which is responsible for handling trademark <EVENT class="OCCURRENCE" eid="e15">disputes</EVENT>, <EVENT class="REPORTING" eid="e16">claimed</EVENT> Washington is better known in China as the capital of the U.S. than as a person's name, and so cannot be <EVENT class="I_STATE" eid="e17">considered</EVENT> an exception.
+
+WAC <EVENT class="REPORTING" eid="e18">said</EVENT> its trademark, which has already been <EVENT class="OCCURRENCE" eid="e19">registered</EVENT> in the United States, is <EVENT class="STATE" eid="e20">known</EVENT> the world over and that it <EVENT class="STATE" eid="e21">has</EVENT> no intention of <EVENT class="OCCURRENCE" eid="e22">monopolizing</EVENT> the geographical name. It <EVENT class="OCCURRENCE" eid="e23">contends</EVENT> that the trademark will not have a negative <EVENT class="OCCURRENCE" eid="e25">impact</EVENT> on competition.
+
+Washington State is one of the major apple-producing areas in the U.S.
+
+The Intermediate People's Court has not yet <EVENT class="OCCURRENCE" eid="e26">handed</EVENT> down its <EVENT class="OCCURRENCE" eid="e27">decision</EVENT> on the case.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

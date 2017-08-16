@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061120.0215</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-11-20" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 20 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. stocks trade higher</TITLE>
+
+
+<TEXT>
+
+U.S. stocks <EVENT class="OCCURRENCE" eid="e1">traded</EVENT> higher on <TIMEX3 type="DATE" value="2006-11-20" tid="t1">Monday</TIMEX3>, after U.S. leading indicators of economic activity <EVENT class="OCCURRENCE" eid="e3">increased</EVENT> 0.2 percent in <TIMEX3 type="DATE" value="2006-10" tid="t2">October</TIMEX3>.
+
+In the midday <EVENT class="OCCURRENCE" eid="e4">trading</EVENT>, the Dow Jones Industrial Average was up 3.70, to 12,346.26. The Standard &amp; Poor's 500 index <EVENT class="OCCURRENCE" eid="e5">gained</EVENT> 2.19 to 1,403.39, and the Nasdaq composite index <EVENT class="OCCURRENCE" eid="e6">climbed</EVENT> 7.44 to 2,453.30.
+
+The Conference Board <EVENT class="REPORTING" eid="e7">said</EVENT> <TIMEX3 type="DATE" value="2006-11-20" tid="t3">Monday</TIMEX3> that leading indicators of the U.S. economic activity <EVENT class="OCCURRENCE" eid="e9">increased</EVENT> 0.2 percent in <TIMEX3 type="DATE" value="2006-10" tid="t4">October</TIMEX3>, <EVENT class="I_ACTION" eid="e10">suggesting</EVENT> slow <EVENT class="OCCURRENCE" eid="e11">growth</EVENT> will <EVENT class="ASPECTUAL" eid="e12">continue</EVENT> through <TIMEX3 type="DATE" value="2006-11-20" tid="t5">the winter and into the spring</TIMEX3>.
+
+"The <EVENT class="OCCURRENCE" eid="e13">impact</EVENT> of a slower housing market on consumers and slower profit <EVENT class="OCCURRENCE" eid="e14">growth</EVENT> on business isn't completely <EVENT class="OCCURRENCE" eid="e15">offset</EVENT> by lower gas prices and a rising stock market," <EVENT class="REPORTING" eid="e17">said</EVENT> Ken Goldstein, labor economist at the Conference Board.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061230.0002</DOCID>
+
+<DCT>SYDNEY, <TIMEX3 tid="t0" type="TIME" value="2006-12-30" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 30 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS quotes, details ///</TITLE>
+
+
+<TEXT>
+
+Australia, which opposes capital punishment, <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2006-12-30" tid="t1">Saturday</TIMEX3> it <EVENT class="OCCURRENCE" eid="e3">respected</EVENT> Iraq's <EVENT class="OCCURRENCE" eid="e4">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e5">execute</EVENT> former dictator Saddam Hussein, <EVENT class="OCCURRENCE" eid="e6">calling</EVENT> it a "significant moment" for the war-torn country.
+
+"No matter what one might <EVENT class="I_STATE" eid="e8">think</EVENT> about the death penalty, and the government of Iraq is <EVENT class="I_STATE" eid="e9">aware</EVENT> of the Australian government's position on capital punishment, we must also <EVENT class="OCCURRENCE" eid="e11">respect</EVENT> the right of sovereign states to <EVENT class="OCCURRENCE" eid="e12">pass</EVENT> judgement relating to crimes <EVENT class="I_STATE" eid="e13">committed</EVENT> against their people, within their jurisdictions," Foreign Minister Alexander Downer <EVENT class="REPORTING" eid="e14">said</EVENT> in a statement.
+
+"He has been <EVENT class="OCCURRENCE" eid="e15">brought</EVENT> to justice, following a <EVENT class="STATE" eid="e17">process</EVENT> of fair trial and <EVENT class="OCCURRENCE" eid="e18">appeal</EVENT>, something he <EVENT class="OCCURRENCE" eid="e19">denied</EVENT> to countless thousands of victims of his regime."
+
+Australia <EVENT class="OCCURRENCE" eid="e20">contributed</EVENT> troops to the US-led <EVENT class="OCCURRENCE" eid="e21">invasion</EVENT> of Iraq in <TIMEX3 type="DATE" value="2003" tid="t2">2003</TIMEX3>, which <EVENT class="OCCURRENCE" eid="e22">led</EVENT> to the ouster of Saddam. It still <EVENT class="STATE" eid="e23">has</EVENT> about 1,300 troops involved in operations in the area.
+
+Downer <EVENT class="REPORTING" eid="e25">said</EVENT> it was a credit to the people of Iraq that Saddam has been <EVENT class="OCCURRENCE" eid="e26">granted</EVENT> a fair <EVENT class="OCCURRENCE" eid="e27">trial</EVENT> for crimes against humanity involving the <EVENT class="OCCURRENCE" eid="e29">execution</EVENT> in 1982 of 148 Shiite men and boys in the village of Dujail.
+
+"The people of Iraq <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> <EVENT class="I_STATE" eid="e30">know</EVENT> that their brutal dictator will never <EVENT class="OCCURRENCE" eid="e31">come</EVENT> back to <EVENT class="OCCURRENCE" eid="e32">lead</EVENT> them," the foreign minister <EVENT class="REPORTING" eid="e33">said</EVENT>.
+
+"While many will <EVENT class="ASPECTUAL" eid="e34">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e35">grieve</EVENT> over their personal <EVENT class="OCCURRENCE" eid="e36">loss</EVENT> under his rule, his death <EVENT class="OCCURRENCE" eid="e38">marks</EVENT> an important step in <EVENT class="OCCURRENCE" eid="e39">consigning</EVENT> his tyrannical regime to the judgement of history and <EVENT class="OCCURRENCE" eid="e40">pursuing</EVENT> a process of <EVENT class="OCCURRENCE" eid="e41">reconciliation</EVENT> <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3> and in the future."
+
+The Australian government, along with its coalition allies, would <EVENT class="ASPECTUAL" eid="e42">continue</EVENT> to "<EVENT class="OCCURRENCE" eid="e43">support</EVENT> the struggle of the vast majority of Iraq's people to <EVENT class="OCCURRENCE" eid="e45">preserve</EVENT> and <EVENT class="OCCURRENCE" eid="e46">build</EVENT> upon the progress which has been <EVENT class="OCCURRENCE" eid="e47">achieved</EVENT>, where even the cruellest of dictators can be <EVENT class="I_ACTION" eid="e48">tried</EVENT> and <EVENT class="OCCURRENCE" eid="e49">brought</EVENT> to justice", <EVENT class="REPORTING" eid="e50">said</EVENT> Downer.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei50" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei30" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei45" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei47" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei42" relatedToEventInstance="ei50" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei46" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei48" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei49" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei43" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei38" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei25" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei41" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970425.0290</DOCID>
+
+<DCT>TIRANA, <TIMEX3 tid="t0" type="TIME" value="1997-04-25" temporalFunction="false" functionInDocument="CREATION_TIME">April 25 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Albania's central bank gets new governor</TITLE>
+
+
+<TEXT>
+
+Albanian President Sali Berisha on <TIMEX3 type="DATE" value="1997-04-25" tid="t1">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">appointed</EVENT> a new head for the country's central bank, which has been without a governor for <TIMEX3 type="DURATION" value="P2M" tid="t2">two months</TIMEX3>, a presidential spokesman <EVENT class="REPORTING" eid="e2">told</EVENT> AFP.
+
+Qamil Tusha, 40, will <EVENT class="OCCURRENCE" eid="e3">replace</EVENT> Kristaq Luniku, who <EVENT class="OCCURRENCE" eid="e4">left</EVENT> Albania <TIMEX3 type="DATE" value="1997-02" tid="t3">two months ago</TIMEX3> for the United States, a Tusha aide <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+Tusha was previously deputy director of the Albanian Trade Bank, a state institution. According to opposition Socialist newspapers, Tusha is a close associate of Berisha.
+
+Luniku, 35, had <EVENT class="I_ACTION" eid="e7">warned</EVENT> of the dangers of pyramid schemes -- the bogus savings schemes whose collapse <EVENT class="OCCURRENCE" eid="e8">sparked</EVENT> widespread unrest in <TIMEX3 type="DATE" value="1997-01" tid="t4">January</TIMEX3> that <EVENT class="OCCURRENCE" eid="e9">developed</EVENT> into a full-scale <EVENT class="OCCURRENCE" eid="e10">insurgency</EVENT>.
+
+<EVENT class="REPORTING" eid="e11">According</EVENT> to the Albanian press, he <EVENT class="OCCURRENCE" eid="e12">went</EVENT> to the United States to <EVENT class="OCCURRENCE" eid="e13">take</EVENT> up a post as adviser to the International Monetary Fund and the World Bank.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

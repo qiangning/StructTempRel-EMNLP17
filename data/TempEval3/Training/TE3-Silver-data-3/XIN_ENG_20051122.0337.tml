@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0337</DOCID>
+
+<DCT>BRASILIA, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Brazil to provide free AIDS tests to the poor in 2006</TITLE>
+
+
+<TEXT>
+
+Brazil's Health Ministry will <EVENT class="OCCURRENCE" eid="e1">provide</EVENT> 50,000 free AIDS tests to pregnant women and adolescents in the poorest region in <TIMEX3 type="DATE" value="2006" tid="t1">2006</TIMEX3>, officials <EVENT class="REPORTING" eid="e2">said</EVENT> here <TIMEX3 type="DATE" value="2005-11-22" tid="t2">Tuesday</TIMEX3>.
+
+The tests will be <EVENT class="OCCURRENCE" eid="e3">sponsored</EVENT> by the United Nations Children Fund (UNICEF).
+
+<TIMEX3 type="DATE" value="2004" tid="t3">Last year</TIMEX3>, the country <EVENT class="OCCURRENCE" eid="e4">tested</EVENT> 75 percent of pregnant women for HIV, the virus which causes AIDS. The tests <TIMEX3 type="DATE" value="2006" tid="t4">next year</TIMEX3> will <EVENT class="OCCURRENCE" eid="e6">cover</EVENT> the majority of the remaining 25 percent.
+
+"In spite of the alarming numbers, the policies to <EVENT class="OCCURRENCE" eid="e8">combat</EVENT> the epidemic haven't <EVENT class="OCCURRENCE" eid="e9">given</EVENT> priority to children. Children are rarely <EVENT class="REPORTING" eid="e10">mentioned</EVENT> when AIDS is <EVENT class="OCCURRENCE" eid="e11">discussed</EVENT>," UNICEF Representative Marie Pierre Poirier <EVENT class="REPORTING" eid="e12">told</EVENT> reporters.
+
+Early <EVENT class="OCCURRENCE" eid="e13">diagnosis</EVENT> of HIV could <EVENT class="I_ACTION" eid="e14">prevent</EVENT> 99 percent of transmissions from mother to baby, <EVENT class="REPORTING" eid="e16">said</EVENT> the health ministry.
+
+A United Nations report <EVENT class="OCCURRENCE" eid="e17">published</EVENT> on <TIMEX3 type="DATE" value="2005-11-21" tid="t5">Monday</TIMEX3> <EVENT class="REPORTING" eid="e18">said</EVENT> that around 600,000 of Brazil's 183 million citizens (or around 0.3 percent) <EVENT class="OCCURRENCE" eid="e19">suffer</EVENT> from HIV.
+
+UNICEF is also <EVENT class="OCCURRENCE" eid="e20">campaigning</EVENT> to <EVENT class="OCCURRENCE" eid="e21">provide</EVENT> AIDS education and <EVENT class="OCCURRENCE" eid="e22">expand</EVENT> access to anti-AIDS drugs in Bolivia, Cape Verde, Guinea Bissau, Paraguay, Sao Tome and Principe, and East Timor.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1000002" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

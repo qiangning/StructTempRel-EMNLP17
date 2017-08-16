@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0024</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>first photography auction</TITLE>
+
+
+<TEXT>
+
+The iconic photograph of China's most prestigious charity program - Project Hope - was the most expensive picture <EVENT class="OCCURRENCE" eid="e1">sold</EVENT> at China's first photography auction <EVENT class="OCCURRENCE" eid="e2">held</EVENT> in Beijing on <TIMEX3 type="DATE" value="2006-11-23" tid="t1">Thursday</TIMEX3>.
+
+The 1991 photograph, popularly known as Big Eyes, <EVENT class="OCCURRENCE" eid="e3">captures</EVENT> the innocent eyes of a girl and is <EVENT class="OCCURRENCE" eid="e4">credited</EVENT> with <EVENT class="I_ACTION" eid="e5">persuading</EVENT> millions of Chinese to <EVENT class="OCCURRENCE" eid="e6">donate</EVENT> to Project Hope which <EVENT class="I_ACTION" eid="e7">helps</EVENT> school drop-outs in rural areas to <EVENT class="OCCURRENCE" eid="e9">return</EVENT> to class.
+
+Bidding on the 51 cm by 34.8 cm photograph by Xie Hailong <EVENT class="OCCURRENCE" eid="e10">opened</EVENT> at 240,000 yuan (30,000 U.S. dollars). It finally <EVENT class="OCCURRENCE" eid="e11">sold</EVENT> for 308,000 yuan (38,500 U.S. dollars), the highest price <EVENT class="OCCURRENCE" eid="e12">paid</EVENT> at the Beijing auction, where more than 130 photographs were <EVENT class="OCCURRENCE" eid="e14">sold</EVENT>.
+
+Xie <EVENT class="REPORTING" eid="e15">said</EVENT> he would <EVENT class="OCCURRENCE" eid="e16">donate</EVENT> the proceeds to <EVENT class="I_ACTION" eid="e17">help</EVENT> <EVENT class="OCCURRENCE" eid="e18">pay</EVENT> for the <EVENT class="OCCURRENCE" eid="e19">construction</EVENT> of a Project Hope primary school in Tibet.
+
+Many of the other photographs <EVENT class="OCCURRENCE" eid="e20">sold</EVENT> for 10 times more than their reserve prices.
+
+"Photographs worth collecting should be of special significance and be a record of history," <EVENT class="REPORTING" eid="e21">said</EVENT> Xu Jianing, an official with the auction house -- Huachen Auctions.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0271</DOCID>
+
+<DCT>AMMAN, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Urgent: King Abdullah says Jordan won't be blackmailed</TITLE>
+
+
+<TEXT>
+
+Jordan's King Abdullah II <EVENT class="REPORTING" eid="e1">said</EVENT> in a televised <EVENT class="OCCURRENCE" eid="e2">speech</EVENT> <TIMEX3 type="TIME" value="2005-11-03TEV" tid="t1">Thursday evening</TIMEX3> that his kingdom will not be " <EVENT class="OCCURRENCE" eid="e3">blackmailed</EVENT>" by terrorism after three deadly <EVENT class="OCCURRENCE" eid="e4">bombings</EVENT> <EVENT class="OCCURRENCE" eid="e5">ripped</EVENT> through three hotels in downtown Amman <TIMEX3 type="DATE" value="2005-11-09TNI" tid="t2">Wednesday night</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970408.0230</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="1997-04-08" temporalFunction="false" functionInDocument="CREATION_TIME">April 8 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Jakarta shares close 0.2 percent higher</TITLE>
+
+
+<TEXT>
+
+Jakarta shares <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> 0.2 percent higher <TIMEX3 type="DATE" value="1997-04-08" tid="t1">Tuesday</TIMEX3> on the back of late interest in bank stocks and selective third-liners, with the broader market mostly sidelined, dealers <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+"I <EVENT class="I_STATE" eid="e4">think</EVENT> the news that BNI has <EVENT class="OCCURRENCE" eid="e5">cut</EVENT> its deposit rates by 0.5 percent <EVENT class="OCCURRENCE" eid="e6">attracted</EVENT> some interest in it, as well as some of the other banks," Usaha Bersama Sekuritas institutional sales manager Alastair Bruce <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+The Jakarta Stock Exchange composite index <EVENT class="OCCURRENCE" eid="e8">closed</EVENT> up 1.58 points at 638.22.
+
+Estimated turnover was 181.4 million shares worth an estimated 354 billion rupiah (146.2 million dollars).
+
+Dealers <EVENT class="REPORTING" eid="e10">said</EVENT> volumes were <EVENT class="OCCURRENCE" eid="e11">dominated</EVENT> by speculative <EVENT class="OCCURRENCE" eid="e12">buying</EVENT> in third- line Bank Pikko and BNI.
+
+Bruce <EVENT class="REPORTING" eid="e13">said</EVENT> although the "braver investors" may <EVENT class="OCCURRENCE" eid="e14">wish</EVENT> to <EVENT class="OCCURRENCE" eid="e15">beat</EVENT> an "inevitable rush into the market, post-elections," most are being very cautious.
+
+He <EVENT class="REPORTING" eid="e17">said</EVENT> continued news of riots in Pekalongan, Central Java province, "<EVENT class="PERCEPTION" eid="e19">looks</EVENT> bad" and "<EVENT class="OCCURRENCE" eid="e20">makes</EVENT> people <EVENT class="OCCURRENCE" eid="e21">extrapolate</EVENT> on the likelihood of it <EVENT class="OCCURRENCE" eid="e22">happening</EVENT> in Jakarta."
+
+A dealer with a European brokerage <EVENT class="REPORTING" eid="e23">said</EVENT> the market was partly <EVENT class="OCCURRENCE" eid="e24">supported</EVENT> by <EVENT class="OCCURRENCE" eid="e25">buying</EVENT> in Telkom early on and then by banks. But <EVENT class="OCCURRENCE" eid="e26">excluding</EVENT> two <EVENT class="OCCURRENCE" eid="e27">crossings</EVENT> in Matahari and Bimantara, volumes were otherwise very thin, he <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+Telkom <EVENT class="OCCURRENCE" eid="e29">closed</EVENT> unchanged at 3,575 rupiah, while Indosat was down 75 rupiah at 6,350 rupiah.
+
+BNI <EVENT class="OCCURRENCE" eid="e30">closed</EVENT> up 50 rupiah at 1,350 rupiah, BII was 50 rupiah higher at 1,754 rupiah and BDNI <EVENT class="OCCURRENCE" eid="e31">gained</EVENT> 100 rupiah to 2,225 rupiah.
+
+Bank Pikko was up 2,700 rupiah at 4,000 rupiah before dealing was <EVENT class="ASPECTUAL" eid="e33">suspended</EVENT> at 2:24 pm.
+
+Dealers <EVENT class="REPORTING" eid="e34">said</EVENT> the sharp <EVENT class="OCCURRENCE" eid="e35">gain</EVENT> in the stock <EVENT class="STATE" eid="e36">remains</EVENT> unexplained, although there has been a <EVENT class="OCCURRENCE" eid="e37">rumour</EVENT> that a "prominent businessman" is <EVENT class="I_ACTION" eid="e38">seeking</EVENT> an interest in the company.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

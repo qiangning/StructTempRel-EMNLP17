@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0228</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>governments</TITLE>
+
+
+<TEXT>
+
+Environmental law <EVENT class="OCCURRENCE" eid="e1">enforcement</EVENT> has <EVENT class="OCCURRENCE" eid="e2">hit</EVENT> obstacles in parts of China and certain local government officials have been half-hearted in <EVENT class="OCCURRENCE" eid="e3">dealing</EVENT> with pollution, <EVENT class="REPORTING" eid="e4">said</EVENT> a Chinese environmental official on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3>.
+
+Some large state-owned companies and listed companies <EVENT class="OCCURRENCE" eid="e5">ignored</EVENT> environmental rules and local governments <EVENT class="OCCURRENCE" eid="e6">disregarded</EVENT> initiatives to <EVENT class="OCCURRENCE" eid="e7">rectify</EVENT> their performance, <EVENT class="REPORTING" eid="e9">said</EVENT> Lu Xinyuan, chief of the environmental supervision bureau of the State Environmental Protection Administration (SEPA).
+
+Lu <EVENT class="REPORTING" eid="e10">cited</EVENT> a case in Liupanshui city, in southwest China's Guizhou Province, where a vice mayor was <EVENT class="OCCURRENCE" eid="e11">held</EVENT> responsible for making false environmental reports to inspectors from State Council departments.
+
+On <TIMEX3 type="DATE" value="2006-09-22" tid="t2">Sept. 22</TIMEX3>, the vice mayor <EVENT class="REPORTING" eid="e13">told</EVENT> the inspection team "there are no coal chemical companies in the city", when more than 30 coke chemical or other chemical companies were <EVENT class="OCCURRENCE" eid="e14">operating</EVENT> in Liupanshui.
+
+Lu <EVENT class="REPORTING" eid="e15">said</EVENT> the vice mayor <EVENT class="OCCURRENCE" eid="e16">broke</EVENT> the Law on Civil Servants which <EVENT class="I_ACTION" eid="e17">forbids</EVENT> public servants from making false reports.
+
+Environmental problems were also striking industrial parks. Most of the 20 industrial parks <EVENT class="OCCURRENCE" eid="e20">inspected</EVENT> had <EVENT class="OCCURRENCE" eid="e21">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e22">carry</EVENT> out environmental assessments before construction.
+
+Central departments would <EVENT class="OCCURRENCE" eid="e24">send</EVENT> more inspectors <TIMEX3 type="DATE" value="2006-11" tid="t3">this month</TIMEX3> to <EVENT class="I_ACTION" eid="e25">investigate</EVENT> local environmental protection, but Lu <EVENT class="OCCURRENCE" eid="e26">declined</EVENT> to <EVENT class="OCCURRENCE" eid="e27">identify</EVENT> the areas to be <EVENT class="I_ACTION" eid="e28">investigated</EVENT>.
+
+Major industrial pollutants <EVENT class="OCCURRENCE" eid="e29">climbed</EVENT> in <TIMEX3 type="DURATION" value="P9M" tid="t4">the first nine months</TIMEX3> compared with the same period <TIMEX3 type="DATE" value="2005" tid="t5">last year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e30">driven</EVENT> by fast economic growth and high emissions of sulfur dioxide, figures from the SEPA <EVENT class="OCCURRENCE" eid="e32">showed</EVENT>.
+
+Twelve billion tons of wastewater was <EVENT class="OCCURRENCE" eid="e33">discharged</EVENT> in <TIMEX3 type="DURATION" value="P9M" tid="t6">the first nine months</TIMEX3>, up 2.4 percent from the same period <TIMEX3 type="DATE" value="2005" tid="t7">last year</TIMEX3>, while sulfur dioxide emissions were up 4.2 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei33" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei33" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei29" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

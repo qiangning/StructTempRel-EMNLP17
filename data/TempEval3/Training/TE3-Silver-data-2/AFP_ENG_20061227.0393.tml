@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061227.0393</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2006-12-27" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 27 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>The AFP world news agenda at 2100 GMT</TITLE>
+
+
+<TEXT>
+
+What's <EVENT class="OCCURRENCE" eid="e1">coming</EVENT> up around the world:
+
++ Ethiopian, Somali troops near capital
+
++ Iraq <EVENT class="OCCURRENCE" eid="e2">prepares</EVENT> for rapid Saddam execution
+
++ Israel to <EVENT class="ASPECTUAL" eid="e3">resume</EVENT> Gaza <EVENT class="OCCURRENCE" eid="e4">strikes</EVENT>
+
+-- TOP STORIES --
+
+MOGADISHU: Covering developments after Ethiopian troops backing government forces <EVENT class="OCCURRENCE" eid="e6">ousted</EVENT> Islamist fighters from a key southern town and <EVENT class="OCCURRENCE" eid="e7">moved</EVENT> closer to the capital, amid <EVENT class="OCCURRENCE" eid="e8">calls</EVENT> from African and Arab nations that they <EVENT class="OCCURRENCE" eid="e9">withdraw</EVENT>. (SOMALIA-UNREST-ETHIOPIA)
+
+BAGHDAD: <EVENT class="REPORTING" eid="e10">Reporting</EVENT> as Iraqis brace for the <EVENT class="OCCURRENCE" eid="e12">execution</EVENT> of former dictator Saddam Hussein and a possible <EVENT class="OCCURRENCE" eid="e13">backlash</EVENT> from his supporters, amid controversy over the US detention of Iranian agents. (IRAQ)
+
+JERUSALEM: Reaction to Israeli Prime Minister Ehud Olmert's <EVENT class="OCCURRENCE" eid="e15">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e16">order</EVENT> resumption of <EVENT class="OCCURRENCE" eid="e18">strikes</EVENT> against rocket-firing militants in Gaza after a Palestinian rocket <EVENT class="OCCURRENCE" eid="e19">wounded</EVENT> two Israeli teenagers. (MIDEAST-CONFLICT-GAZA-CEASEFIRE)
+
+-- OTHER AGENDA ITEMS --
+
+CRAWFORD, Texas: <EVENT class="REPORTING" eid="e20">Reporting</EVENT> as President George W. Bush <EVENT class="I_ACTION" eid="e21">welcomes</EVENT> his top aides to his Texas ranch for final consultations on his planned strategy <EVENT class="OCCURRENCE" eid="e23">change</EVENT> in Iraq. (US-IRAQ-BUSH)
+
+HONG KONG: Covering developments after Internet and phone services were <EVENT class="OCCURRENCE" eid="e25">disrupted</EVENT> across much of Asia after an <EVENT class="OCCURRENCE" eid="e26">earthquake</EVENT> <EVENT class="OCCURRENCE" eid="e27">damaged</EVENT> undersea cables, <EVENT class="OCCURRENCE" eid="e28">leaving</EVENT> the region in a virtual blackout. (ASIA-QUAKE-INTERNET)
+
+JAKARTA: Reporting from Aceh on relief and rescue efforts after flash floods and landslides on Sumatra island which have <EVENT class="OCCURRENCE" eid="e31">killed</EVENT> more than 100 people and <EVENT class="OCCURRENCE" eid="e32">forced</EVENT> more than 400,000 to <EVENT class="OCCURRENCE" eid="e33">flee</EVENT> their homes. (WEATHER-INDONESIA-FLOODS)
+
+MINA, Saudi Arabia: Around two million Muslim faithful converge on Mina near Mecca to <EVENT class="ASPECTUAL" eid="e35">begin</EVENT> the annual hajj <EVENT class="OCCURRENCE" eid="e36">pilgrimage</EVENT>. (SAUDI-RELIGION-ISLAM-HAJJ)
+
+MOSCOW: <EVENT class="REPORTING" eid="e37">Reporting</EVENT> as Russia and Belarus have just <TIMEX3 type="DURATION" value="P4D" tid="t1">four days</TIMEX3> to <EVENT class="I_ACTION" eid="e38">agree</EVENT> on a price for natural gas <EVENT class="STATE" eid="e39">exports</EVENT> before Russian giant Gazprom <EVENT class="OCCURRENCE" eid="e40">cuts</EVENT> off supplies to the ex-Soviet republic, with a possible knock-on effect for western Europe. (BELARUS-RUSSIA-ENERGY-GAS-DIPLOMACY-COMPANY-GAZPROM)
+
+NEW YORK: <EVENT class="OCCURRENCE" eid="e41">Covering</EVENT> as mourners <EVENT class="OCCURRENCE" eid="e42">gather</EVENT> to <EVENT class="OCCURRENCE" eid="e43">pay</EVENT> their respects to late soul legend James Brown, who will <EVENT class="OCCURRENCE" eid="e44">lie</EVENT> in state at Harlem's Apollo Theater from 1800 GMT. (AFPENTERTAINMENT-MUSIC-US-BROWN)
+
+TEHRAN: Following developments after Iran's parliament <EVENT class="OCCURRENCE" eid="e46">approves</EVENT> a bill obliging the government to "<EVENT class="OCCURRENCE" eid="e48">revise</EVENT> its <EVENT class="OCCURRENCE" eid="e49">cooperation</EVENT>" with the UN nuclear watchdog in retaliation for sanctions <EVENT class="OCCURRENCE" eid="e50">imposed</EVENT> on Tehran. (IRAN-NUCLEAR-POLITICS-IAEA)
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei38" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei37" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei46" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei46" relatedToEventInstance="ei48" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei46" relatedToEventInstance="ei50" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei42" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei37" relatedToEventInstance="ei41" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei41" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei41" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei37" relatedToEventInstance="ei40" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei46" relatedToEventInstance="ei49" relType="AFTER" />
+
+
+
+
+</TimeML>

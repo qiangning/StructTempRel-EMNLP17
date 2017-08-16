@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061130.0382</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Metro train kills one, injures another in Washington area</TITLE>
+
+
+<TEXT>
+
+A Metro train <EVENT class="OCCURRENCE" eid="e1">struck</EVENT> two employees <EVENT class="OCCURRENCE" eid="e2">working</EVENT> on the track near the U.S. capital, Washington, D.C., on <TIMEX3 type="DATE" value="2006-11-30" tid="t1">Thursday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">killing</EVENT> one and critically <EVENT class="OCCURRENCE" eid="e4">injuring</EVENT> another, officials <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+The workers, both men, were <EVENT class="OCCURRENCE" eid="e6">walking</EVENT> the tracks <EVENT class="OCCURRENCE" eid="e8">doing</EVENT> routine inspections when the accident <EVENT class="OCCURRENCE" eid="e9">took</EVENT> place in <TIMEX3 type="TIME" value="2006-11-30TMO" tid="t2">the morning</TIMEX3>.
+
+They were <EVENT class="OCCURRENCE" eid="e10">hit</EVENT> by an empty four-car train from Huntington to the Alexandria rail yard, which was near the Eisenhower Station, in Alexandria, Virginia, Metro spokeswoman Cathy Asato <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+A section of the Yellow Line was <EVENT class="OCCURRENCE" eid="e12">shut</EVENT> down following the <EVENT class="OCCURRENCE" eid="e13">accident</EVENT>, and shuttle buses were <EVENT class="OCCURRENCE" eid="e14">used</EVENT> to <EVENT class="OCCURRENCE" eid="e15">transport</EVENT> passengers in several stations. Officials <EVENT class="REPORTING" eid="e16">said</EVENT> the <EVENT class="OCCURRENCE" eid="e17">accident</EVENT> was under investigation.
+
+<TIMEX3 type="DATE" value="2006-11-30" tid="t3">Thursday</TIMEX3>'s <EVENT class="STATE" eid="e18">fatality</EVENT> was the 14th for the Metrorail system in its 30-year history and the third serious one involving Metro trains and its workers, media reports <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+Also on <TIMEX3 type="DATE" value="2006-11-30" tid="t5">Thursday</TIMEX3>, two freight trains <EVENT class="OCCURRENCE" eid="e21">derailed</EVENT> in North Baltimore, a small town in Ohio. One of the trains <EVENT class="OCCURRENCE" eid="e22">derailed</EVENT>, <EVENT class="OCCURRENCE" eid="e23">sending</EVENT> wreckage into another train nearby knocking some of its cars off the track.
+
+It was not <EVENT class="STATE" eid="e25">known</EVENT> immediately how many people were <EVENT class="OCCURRENCE" eid="e26">injured</EVENT> in the accident and what <EVENT class="OCCURRENCE" eid="e27">caused</EVENT> the first train to <EVENT class="OCCURRENCE" eid="e28">derail</EVENT>, reports <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="INCLUDES" />
+
+
+
+
+</TimeML>

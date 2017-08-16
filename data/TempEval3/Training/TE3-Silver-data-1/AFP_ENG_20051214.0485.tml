@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051214.0485</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2005</TIMEX3></DCT>
+
+<TITLE>=(PICTURE)=</TITLE>
+
+
+<TEXT>
+
+London mayor Ken Livingstone never <EVENT class="I_ACTION" eid="e1">meant</EVENT> to <EVENT class="OCCURRENCE" eid="e2">offend</EVENT> Jewish people by <EVENT class="OCCURRENCE" eid="e3">comparing</EVENT> a Jewish reporter to a Nazi concentration guard, his lawyer <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-12-14" tid="t1">Wednesday</TIMEX3>.
+
+His remarks to a journalist from London's Evening Standard newspaper were instead <EVENT class="OCCURRENCE" eid="e6">triggered</EVENT> by his dislike of Associated Newspapers, which <EVENT class="STATE" eid="e7">owns</EVENT> the title and its national sister paper the Daily Mail, and its alleged support for anti-Semitism, lawyer Tony Child <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+The anti-Semitism <EVENT class="REPORTING" eid="e9">claims</EVENT> -- made by Livingstone during a <TIMEX3 type="DATE" value="2005-02-22" tid="t2">February 22</TIMEX3> <EVENT class="OCCURRENCE" eid="e10">response</EVENT> to the <EVENT class="OCCURRENCE" eid="e11">controversy</EVENT> -- <EVENT class="OCCURRENCE" eid="e12">refer</EVENT> to a leaving party <EVENT class="OCCURRENCE" eid="e13">thrown</EVENT> for an outgoing Daily Mail editor in which some guests were reportedly <EVENT class="OCCURRENCE" eid="e14">dressed</EVENT> as Nazis.
+
+He also <EVENT class="OCCURRENCE" eid="e15">referred</EVENT> to the Daily Mail's support for facism and its opposition to <EVENT class="OCCURRENCE" eid="e16">allowing</EVENT> Jews <EVENT class="OCCURRENCE" eid="e17">fleeing</EVENT> European pogroms to <EVENT class="OCCURRENCE" eid="e18">come</EVENT> to Britain in <TIMEX3 type="DATE" value="193" tid="t3">the 1930s</TIMEX3>.
+
+"What Mr. Livingstone was <EVENT class="OCCURRENCE" eid="e19">doing</EVENT> when he <EVENT class="OCCURRENCE" eid="e20">made</EVENT> the statement which has <EVENT class="OCCURRENCE" eid="e21">led</EVENT> to this <EVENT class="OCCURRENCE" eid="e22">hearing</EVENT> is to <EVENT class="OCCURRENCE" eid="e23">reflect</EVENT> his long-held and, it's <EVENT class="OCCURRENCE" eid="e24">accepted</EVENT>, honestly held political view of the Mail group," Child <EVENT class="REPORTING" eid="e26">told</EVENT> a disciplinary <EVENT class="OCCURRENCE" eid="e27">hearing</EVENT> in central London.
+
+"An apology may be <EVENT class="STATE" eid="e28">relevant</EVENT> to <EVENT class="OCCURRENCE" eid="e29">mitigation</EVENT>, but a lack of an apology cannot <EVENT class="I_ACTION" eid="e30">determine</EVENT> liability."
+
+Livingstone, who <EVENT class="STATE" eid="e31">was</EVENT> not at <TIMEX3 type="DATE" value="2005-12-14" tid="t4">Wednesday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e32">hearing</EVENT>, is <EVENT class="I_ACTION" eid="e33">facing</EVENT> charges that he <EVENT class="OCCURRENCE" eid="e34">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e35">treat</EVENT> others with respect or had <EVENT class="OCCURRENCE" eid="e36">brought</EVENT> his office into disrepute.
+
+If <EVENT class="OCCURRENCE" eid="e37">found</EVENT> guilty, he could be <EVENT class="OCCURRENCE" eid="e38">banned</EVENT> from office for <TIMEX3 type="DURATION" value="P5Y" tid="t5">five years</TIMEX3>, <EVENT class="OCCURRENCE" eid="e39">ordered</EVENT> to <EVENT class="OCCURRENCE" eid="e40">make</EVENT> an apology, <EVENT class="ASPECTUAL" eid="e41">suspended</EVENT>, made to <EVENT class="OCCURRENCE" eid="e43">undergo</EVENT> training or be <EVENT class="OCCURRENCE" eid="e44">censured</EVENT>.
+
+When Evening Standard reporter Oliver Finegold <EVENT class="OCCURRENCE" eid="e45">approached</EVENT> Livingstone at a public function in <TIMEX3 type="DATE" value="2005-02" tid="t6">February</TIMEX3>, the mayor <EVENT class="I_ACTION" eid="e46">asked</EVENT> him whether he had ever been a "German war criminal".
+
+On <EVENT class="OCCURRENCE" eid="e48">hearing</EVENT> that Finegold was Jewish, Livingstone <EVENT class="OCCURRENCE" eid="e49">likened</EVENT> him to a Nazi concentration camp guard.
+
+The publicised remarks <EVENT class="OCCURRENCE" eid="e50">led</EVENT> to calls from Jewish groups, concentration camp survivors and politicians, including Prime Minister Tony Blair, for an apology, but none has been forthcoming.
+
+Despite once <EVENT class="STATE" eid="e51">being</EVENT> the newspaper's restaurant critic, there is no love <EVENT class="OCCURRENCE" eid="e52">lost</EVENT> between Livingstone and the Evening Standard, which the mayor <EVENT class="I_STATE" eid="e53">believes</EVENT> has <EVENT class="OCCURRENCE" eid="e54">waged</EVENT> a lengthy hate <EVENT class="OCCURRENCE" eid="e55">campaign</EVENT> against him.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei55" eventID="e55" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei54" eventID="e54" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei53" eventID="e53" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52" eventID="e52" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei49" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei50" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei32" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei46" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei46" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei37" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei49" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei39" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei52" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei37" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei37" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei33" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei19" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei37" relatedToEventInstance="ei46" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei37" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei45" relatedToEventInstance="ei46" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei46" relatedToEventInstance="ei49" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei48" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei51" relatedToEventInstance="ei55" relType="SIMULTANEOUS" />
+<TLINK lid="l53" eventInstanceID="ei51" relatedToEventInstance="ei54" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei51" relatedToEventInstance="ei52" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei51" relatedToEventInstance="ei53" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei50" relatedToEventInstance="ei51" relType="BEFORE" />
+<TLINK lid="l57" eventInstanceID="ei51" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l58" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l59" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l60" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l61" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l62" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l63" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l64" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l65" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

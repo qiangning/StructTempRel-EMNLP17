@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061214.0663</DOCID>
+
+<DCT>BRASILIA, <TIMEX3 tid="t0" type="TIME" value="2006-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>=(PICTURE)=</TITLE>
+
+
+<TEXT>
+
+Brazil and Russia <EVENT class="I_ACTION" eid="e1">agreed</EVENT> <TIMEX3 type="DATE" value="2006-12-21" tid="t1">Thursday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">develop</EVENT> <EVENT class="OCCURRENCE" eid="e3">cooperation</EVENT> in military, trade, space and energy affairs during a <EVENT class="OCCURRENCE" eid="e4">visit</EVENT> by Russia's Foreign Minister Sergei Lavrov, officials <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+Reporters <EVENT class="OCCURRENCE" eid="e6">peppered</EVENT> Lavrov and his Brazilian counterpart, Celso Amorim, with questions about a proposed <EVENT class="OCCURRENCE" eid="e8">purchase</EVENT> of Russian-made military helicopters at a joint news <EVENT class="OCCURRENCE" eid="e9">conference</EVENT>.
+
+Amorim would only <EVENT class="REPORTING" eid="e10">say</EVENT> there had been a <EVENT class="OCCURRENCE" eid="e11">discussion</EVENT> of whether the helicopters would be <EVENT class="OCCURRENCE" eid="e12">bought</EVENT> already <EVENT class="OCCURRENCE" eid="e13">assembled</EVENT> or be <EVENT class="OCCURRENCE" eid="e14">assembled</EVENT> in Brazil, and whether they would have Brazilian components.
+
+The newspaper Folha de Sao Paulo <EVENT class="REPORTING" eid="e16">reported</EVENT> <TIMEX3 type="DATE" value="2006-W49" tid="t2">last week</TIMEX3> that the deal involves 30 Russian military <EVENT class="OCCURRENCE" eid="e19">attack</EVENT> and transport helicopters, worth 400 million dollars and <EVENT class="OCCURRENCE" eid="e20">sought</EVENT> by the Brazilian government to <EVENT class="OCCURRENCE" eid="e21">fight</EVENT> smuggling and drug trafficking.
+
+Russia <TIMEX3 type="DATE" value="PAST_REF" tid="t3">recently</TIMEX3> <EVENT class="OCCURRENCE" eid="e22">sold</EVENT> arms and aircraft to Venezuela, but Lavrov <EVENT class="OCCURRENCE" eid="e23">denied</EVENT> that his country was <EVENT class="OCCURRENCE" eid="e24">pursuing</EVENT> a <EVENT class="OCCURRENCE" eid="e25">career</EVENT> as a weapons supplier in Latin America.
+
+"We are not <EVENT class="OCCURRENCE" eid="e26">selling</EVENT> them to any country that violates international laws," Lavrov <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+The top diplomats of the two resource-rich countries also <EVENT class="OCCURRENCE" eid="e29">discussed</EVENT> biofuels, an area of expertise for Brazil, and <EVENT class="OCCURRENCE" eid="e30">signed</EVENT> an agreement to <EVENT class="OCCURRENCE" eid="e31">protect</EVENT> technology in their planned <EVENT class="OCCURRENCE" eid="e32">cooperation</EVENT> in space projects.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0438</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nepal to host Himalaya tourism meeting in December</TITLE>
+
+
+<TEXT>
+
+The Nepali secretary for culture, tourism and civil aviation Madhav Prasad Ghimire has <EVENT class="OCCURRENCE" eid="e1">kicked</EVENT> off <EVENT class="OCCURRENCE" eid="e2">preparations</EVENT> for the forthcoming Himalaya Tourism Conference 2006 on <TIMEX3 type="DATE" value="2006-11-28" tid="t2">December 11-12</TIMEX3> in Kathmandu.
+
+<EVENT class="OCCURRENCE" eid="e3">Organized</EVENT> by the Nepal Mountaineering Association in collaboration with the Nepal Tourism Board, International Center for Integrated Mountain Development, World Wildlife Fund, Nepal and Himalaya Environmental Trust, the international event will <EVENT class="OCCURRENCE" eid="e4">coincide</EVENT> with the <EVENT class="OCCURRENCE" eid="e5">celebration</EVENT> of the golden jubilee of the first ascent of Mt. Manaslu and Mt. Lhotse, a leading newspaper, The Himalayan Times, <EVENT class="REPORTING" eid="e6">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-28" tid="t3">Tuesday</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e7">According</EVENT> to Ghimire, with the peace <EVENT class="STATE" eid="e8">process</EVENT> in place, it was important to <EVENT class="REPORTING" eid="e9">inform</EVENT> the international community that Nepal was a safe destination to <EVENT class="OCCURRENCE" eid="e10">travel</EVENT>.
+
+<EVENT class="REPORTING" eid="e11">Outlining</EVENT> the main objectives of the <EVENT class="OCCURRENCE" eid="e12">conference</EVENT>, he <EVENT class="REPORTING" eid="e13">told</EVENT> reporters on <TIMEX3 type="DATE" value="2006-11-27" tid="t4">Monday</TIMEX3> that it was firstly to <EVENT class="OCCURRENCE" eid="e14">revive</EVENT> and <EVENT class="OCCURRENCE" eid="e15">promote</EVENT> mountain <EVENT class="OCCURRENCE" eid="e16">tourism</EVENT> in the country and secondly, to <EVENT class="OCCURRENCE" eid="e17">discuss</EVENT> ways to <EVENT class="OCCURRENCE" eid="e18">reduce</EVENT> the negative impact of tourism on the environment and <EVENT class="OCCURRENCE" eid="e19">preserve</EVENT> the mountain culture.
+
+The third main objective was to <EVENT class="OCCURRENCE" eid="e20">extend</EVENT> the benefits of tourism which was <EVENT class="OCCURRENCE" eid="e21">confined</EVENT> to urban areas to <EVENT class="OCCURRENCE" eid="e22">seep</EVENT> down to rural areas as well.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

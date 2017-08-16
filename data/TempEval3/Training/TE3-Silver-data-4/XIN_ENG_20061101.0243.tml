@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0243</DOCID>
+
+<DCT>JINAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Cambodian Prime Minister Hun Sen visits east China</TITLE>
+
+
+<TEXT>
+
+Cambodian Prime Minister Hun Sen on <TIMEX3 type="DATE" value="2006-11-01" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">visited</EVENT> east China's Shandong Province.
+
+He <EVENT class="REPORTING" eid="e2">said</EVENT> it is great to <EVENT class="OCCURRENCE" eid="e3">pay</EVENT> a <EVENT class="OCCURRENCE" eid="e4">visit</EVENT> to the hometown of Confucius and he would <EVENT class="I_STATE" eid="e5">like</EVENT> to <EVENT class="PERCEPTION" eid="e6">see</EVENT> more enterprises from the province to <EVENT class="OCCURRENCE" eid="e7">invest</EVENT> in Cambodia.
+
+Hun Sen <EVENT class="OCCURRENCE" eid="e8">made</EVENT> the remarks in a <EVENT class="OCCURRENCE" eid="e10">meeting</EVENT> with Zhang Gaoli, head of the Shandong provincial committee of the Communist Party of China.
+
+Hun Sen <EVENT class="REPORTING" eid="e11">said</EVENT> Shandong is the home to many great philosophers, mentors and strategists in ancient times and is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">now</TIMEX3> home to lots of big business tycoons.
+
+Cambodia is <EVENT class="I_ACTION" eid="e12">looking</EVENT> forward to their <EVENT class="OCCURRENCE" eid="e13">investment</EVENT>, he <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+Zhang <EVENT class="REPORTING" eid="e15">said</EVENT> Cambodia has <EVENT class="OCCURRENCE" eid="e16">developed</EVENT> rapidly under the leadership of Hun Sen.
+
+Hun Sen <EVENT class="OCCURRENCE" eid="e17">visited</EVENT> the memorial temple, mansion and cemetery of Confucius in Qufu, a central city in Shandong and an agricultural hi-tech zone in Jinan, capital of Shandong.
+
+The Cambodian prime minister <EVENT class="OCCURRENCE" eid="e18">arrived</EVENT> in Shandong on <TIMEX3 type="DATE" value="2006-10-31" tid="t3">Tuesday</TIMEX3> after a commemorative <EVENT class="OCCURRENCE" eid="e19">summit</EVENT> on the 15th <EVENT class="OCCURRENCE" eid="e20">anniversary</EVENT> of China-ASEAN dialogue relations in Nanning, capital of south China's Guangxi Zhuang Autonomous Region.
+
+He will <EVENT class="OCCURRENCE" eid="e21">leave</EVENT> here on <TIMEX3 type="DATE" value="2006-11-02" tid="t4">Thursday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

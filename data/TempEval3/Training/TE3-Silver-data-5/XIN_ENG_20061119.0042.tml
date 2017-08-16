@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0042</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>2nd Ld Writethru: Russia, US sign agreement on WTO deal in Vietnam</TITLE>
+
+
+<TEXT>
+
+Russia and the United States <TIMEX3 type="DATE" value="2006-11-19" tid="t1">Sunday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">signed</EVENT> a bilateral <EVENT class="OCCURRENCE" eid="e2">agreement</EVENT> on Russia's <EVENT class="OCCURRENCE" eid="e3">accession</EVENT> to the World Trade Organization (WTO) on the sidelines of the ongoing Asia- Pacific Economic Cooperation (APEC) Economic Leaders' Meeting in Hanoi.
+
+The agreement was <EVENT class="OCCURRENCE" eid="e5">signed</EVENT> by U.S. Trade Representative Susan Schwab and Russian Minister of Trade and Economic Development German Gref.
+
+Describing the <EVENT class="I_STATE" eid="e6">agreement</EVENT> as an important milestone in Russia's <EVENT class="OCCURRENCE" eid="e7">bid</EVENT> to <EVENT class="OCCURRENCE" eid="e8">join</EVENT> the WTO, Schwab <EVENT class="REPORTING" eid="e9">said</EVENT> the document <EVENT class="OCCURRENCE" eid="e10">signed</EVENT> will be <EVENT class="OCCURRENCE" eid="e11">presented</EVENT> to Russian President Vladimir Putin and U.S. President George W. Bush, who were here <EVENT class="OCCURRENCE" eid="e13">attending</EVENT> the APEC leaders' <EVENT class="OCCURRENCE" eid="e14">meeting</EVENT>.
+
+"I'm <EVENT class="I_STATE" eid="e15">pleased</EVENT> that we have <EVENT class="I_ACTION" eid="e16">concluded</EVENT> this important <EVENT class="I_STATE" eid="e17">agreement</EVENT> with Russia's WTO accession <EVENT class="OCCURRENCE" eid="e18">negotiations</EVENT>. This is a strong and far- reaching agreement that <EVENT class="OCCURRENCE" eid="e19">meets</EVENT> the high standards of President Bush 's market-opening trade agenda and <EVENT class="OCCURRENCE" eid="e20">moves</EVENT> Russia closer to full integration into the global, rules-based trading system," Schwab <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

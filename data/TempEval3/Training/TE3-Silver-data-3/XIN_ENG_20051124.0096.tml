@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0096</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese NPC vice-chairman meets Togolese guests</TITLE>
+
+
+<TEXT>
+
+China <EVENT class="OCCURRENCE" eid="e1">appreciates</EVENT> Togo's support to the one-China policy as well as the human rights issue, <EVENT class="REPORTING" eid="e2">said</EVENT> Xu Jialu, vice-chairman of the Standing Committee of China's National People's Congress (NPC), here <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+In a <EVENT class="OCCURRENCE" eid="e3">meeting</EVENT> with Kpatcha Gnassingbe, minister delegate in the Presidency in charge of Defence and Veterans, Xu <EVENT class="REPORTING" eid="e4">said</EVENT> China and Togo <EVENT class="STATE" eid="e5">enjoy</EVENT> profound friendship and fruitful <EVENT class="OCCURRENCE" eid="e6">cooperation</EVENT> in various fields.
+
+China is ready to further <EVENT class="I_ACTION" eid="e7">enhance</EVENT> friendly <EVENT class="OCCURRENCE" eid="e8">cooperation</EVENT> with Togo in various fields, <EVENT class="REPORTING" eid="e9">said</EVENT> Xu.
+
+Kpatcha <EVENT class="REPORTING" eid="e10">said</EVENT> Togo values the relations with China, and will, as always, <EVENT class="OCCURRENCE" eid="e12">support</EVENT> China in the Taiwan issue and other international and regional affairs.
+
+Kpatcha <EVENT class="I_STATE" eid="e13">hoped</EVENT> that his <EVENT class="OCCURRENCE" eid="e14">visit</EVENT> would be conducive to <EVENT class="OCCURRENCE" eid="e15">promoting</EVENT> exchanges and <EVENT class="OCCURRENCE" eid="e16">cooperation</EVENT> between the two nations, in a <EVENT class="OCCURRENCE" eid="e17">bid</EVENT> to <EVENT class="OCCURRENCE" eid="e18">push</EVENT> forward the Togo-China friendly ties.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+
+
+
+
+</TimeML>

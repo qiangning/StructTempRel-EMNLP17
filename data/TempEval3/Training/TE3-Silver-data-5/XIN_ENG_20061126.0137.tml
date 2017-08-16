@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061126.0137</DOCID>
+
+<DCT>NICOSIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>deadlock</TITLE>
+
+
+<TEXT>
+
+Cyprus' Foreign Minister George Lillikas <EVENT class="OCCURRENCE" eid="e1">left</EVENT> for Finland on <TIMEX3 type="DATE" value="2006-11-26" tid="t1">Sunday</TIMEX3> for <EVENT class="OCCURRENCE" eid="e2">negotiations</EVENT> on Turkey's EU entry bid but <EVENT class="REPORTING" eid="e3">said</EVENT> he was not <EVENT class="STATE" eid="e4">optimistic</EVENT> about the <EVENT class="OCCURRENCE" eid="e5">outcome</EVENT> concerning Cyprus issue.
+
+"We are <EVENT class="OCCURRENCE" eid="e6">going</EVENT> with readiness, good will and positive spirit," Lillikas <EVENT class="REPORTING" eid="e7">told</EVENT> Cyprus News Agency (CNA) at Larnaca airport, <EVENT class="OCCURRENCE" eid="e8">adding</EVENT> that the information they <EVENT class="OCCURRENCE" eid="e9">got</EVENT> from different sources didn't <EVENT class="OCCURRENCE" eid="e10">show</EVENT> any optimism.
+
+Turkey, <EVENT class="OCCURRENCE" eid="e11">aspiring</EVENT> to <EVENT class="OCCURRENCE" eid="e12">become</EVENT> an EU member, <EVENT class="OCCURRENCE" eid="e13">refuses</EVENT> to <EVENT class="I_ACTION" eid="e14">implement</EVENT> the EU-Turkey Customs Union Protocol by <EVENT class="OCCURRENCE" eid="e15">opening</EVENT> its ports and airports to Cypriot vessels and aircraft.
+
+As the holder of the EU rotating presidency, Finland is <EVENT class="ASPECTUAL" eid="e17">launching</EVENT> a last-ditch initiative to <EVENT class="I_ACTION" eid="e18">avert</EVENT> a possible EU-Turkey <EVENT class="OCCURRENCE" eid="e19">crisis</EVENT> regarding its EU <EVENT class="OCCURRENCE" eid="e20">course</EVENT>.
+
+Finland's Foreign Minister Erkki Tuomioja has <EVENT class="I_ACTION" eid="e21">invited</EVENT> his Turkish and Cypriot counterparts to the Finnish city of Tampere, to <EVENT class="OCCURRENCE" eid="e22">work</EVENT> out a possible solution at the sideline of the Euro- Mediterranean Conference.
+
+Cyprus has been <EVENT class="OCCURRENCE" eid="e23">divided</EVENT> since <TIMEX3 type="DATE" value="1974" tid="t2">1974</TIMEX3> when Turkey militarily <EVENT class="OCCURRENCE" eid="e24">intervened</EVENT> and <EVENT class="OCCURRENCE" eid="e25">occupied</EVENT> the north of Cyprus following a <EVENT class="OCCURRENCE" eid="e26">coup</EVENT> by a group of Greek officers.
+
+In <TIMEX3 type="DATE" value="2004" tid="t3">2004</TIMEX3>, the internationally-recognized Republic of Cyprus <EVENT class="OCCURRENCE" eid="e27">entered</EVENT> the EU in the name of the whole island and <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> has <EVENT class="OCCURRENCE" eid="e29">EU</EVENT> veto powers over its rival Turkey.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+
+
+
+
+</TimeML>

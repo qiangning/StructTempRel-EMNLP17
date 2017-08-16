@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061205.0070</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-12-05" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 5 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Russian ex-PM suffering 'unknown' illness</TITLE>
+
+
+<TEXT>
+
+Russian doctors <EVENT class="OCCURRENCE" eid="e1">treating</EVENT> former prime minister Yegor Gaidar have <EVENT class="OCCURRENCE" eid="e2">detected</EVENT> symptoms that "do not <EVENT class="OCCURRENCE" eid="e3">correspond</EVENT> to any known illness" but cannot <EVENT class="REPORTING" eid="e4">say</EVENT> for sure that he was a victim of poisoning, Gaidar's office <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="2006-12-05" tid="t1">Tuesday</TIMEX3>.
+
+"The sudden <EVENT class="OCCURRENCE" eid="e6">development</EVENT> of the illness, the multi-faceted nature of the symptoms... do not <EVENT class="OCCURRENCE" eid="e7">correspond</EVENT> to any known illness," although "doctors cannot unequivocally diagnose poisoning," the office <EVENT class="REPORTING" eid="e9">said</EVENT> in a statement.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

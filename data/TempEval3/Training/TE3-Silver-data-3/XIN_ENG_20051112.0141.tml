@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051112.0141</DOCID>
+
+<DCT>BINH DUONG, Vietnam, <TIMEX3 tid="t0" type="TIME" value="2005-11-12" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 12 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Dong Tam Long An Tile, Binh Duong from Vietnam enter soccer final</TITLE>
+
+
+<TEXT>
+
+Vietnam's Dong Tam Long An Tile <EVENT class="OCCURRENCE" eid="e1">downed</EVENT> Singapore's Tamin Rovers 2-0 here <TIMEX3 type="DATE" value="2005-11-19" tid="t1">Saturday</TIMEX3>, while hosts Binh Duong <EVENT class="OCCURRENCE" eid="e2">beat</EVENT> Da Nang 8-7 at the <EVENT class="OCCURRENCE" eid="e3">semifinals</EVENT> of the International Binh Duong Television Cup.
+
+Local half-backer Ly Lam Huy and Brazilian striker Antonio of Dong Tam Long An Tile, <EVENT class="OCCURRENCE" eid="e4">defending</EVENT> champion of Vietnam's professional league, <EVENT class="OCCURRENCE" eid="e5">scored</EVENT> one apiece in <TIMEX3 type="DATE" value="2005-11-12" tid="t2">the 74th and 84th minute</TIMEX3>, respectively, <EVENT class="OCCURRENCE" eid="e6">offering</EVENT> their team a final <EVENT class="OCCURRENCE" eid="e7">triumph</EVENT> of 2-0 over Tamin Rovers, <EVENT class="OCCURRENCE" eid="e8">defending</EVENT> champion of the Singapore league.
+
+Binh Duong from Vietnam's southern Binh Duong province had a hard-earnt <EVENT class="OCCURRENCE" eid="e10">victory</EVENT> over Da Nang from the country's central Da Nang city with the final score being <EVENT class="OCCURRENCE" eid="e11">determined</EVENT> by penalty shots. They <EVENT class="OCCURRENCE" eid="e12">tied</EVENT> a draw of 2-2 after full time with the first goal <EVENT class="OCCURRENCE" eid="e13">scored</EVENT> by a Da Nang striker in the 25th minute, the equalized goal in the 32nd minute, the third by Binh Duong in the 41st minute, and the fourth by Da Nang in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">the 75th minute</TIMEX3>.
+
+With penalty <EVENT class="OCCURRENCE" eid="e14">kicks</EVENT>, Binh Duong <EVENT class="OCCURRENCE" eid="e15">took</EVENT> the lead of 6-5, <EVENT class="OCCURRENCE" eid="e16">grabbing</EVENT> the rights to <EVENT class="OCCURRENCE" eid="e17">clash</EVENT> with Dong Tam Long An Tile in the final <EVENT class="OCCURRENCE" eid="e18">game</EVENT> on <TIMEX3 type="DATE" value="2005-11-14" tid="t4">Monday</TIMEX3>.
+
+The International Binh Duong Television Cup, <EVENT class="OCCURRENCE" eid="e19">taking</EVENT> place from <TIMEX3 type="DATE" value="2005-11-05" tid="t5">Nov. 5</TIMEX3> to 14, <EVENT class="OCCURRENCE" eid="e20">features</EVENT> eight teams from China, Thailand, South Korea, Singapore and Vietnam. The champions will <EVENT class="OCCURRENCE" eid="e21">get</EVENT> a cash prize of 20,000 US dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

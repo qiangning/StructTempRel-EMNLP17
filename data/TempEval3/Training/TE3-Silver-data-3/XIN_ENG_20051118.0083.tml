@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051118.0083</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Dollar stays at lower 119 yen level in Tokyo</TITLE>
+
+
+<TEXT>
+
+The US dollar <EVENT class="OCCURRENCE" eid="e1">inched</EVENT> up to the lower 119 yen level <TIMEX3 type="DATE" value="2005-11-18" tid="t1">Friday</TIMEX3> in Tokyo, as market players <EVENT class="OCCURRENCE" eid="e2">sold</EVENT> the yen following the <EVENT class="OCCURRENCE" eid="e3">announcement</EVENT> by the Bank of Japan that it is <EVENT class="OCCURRENCE" eid="e4">maintaining</EVENT> its super-loose monetary policy.
+
+At 5 p.m., the dollar was <EVENT class="OCCURRENCE" eid="e5">quoted</EVENT> at 119.22-24 yen, up from <TIMEX3 type="DATE" value="2005-11-17" tid="t3">Thursday</TIMEX3>'s 5 p.m. quotes of 118.76-86 yen in New York and 118.98- 119.00 yen in Tokyo.
+
+It <EVENT class="OCCURRENCE" eid="e6">moved</EVENT> between 118.70 yen and 119.29 yen during <TIMEX3 type="DATE" value="2005-11-18" tid="t4">the day</TIMEX3>, <EVENT class="OCCURRENCE" eid="e7">trading</EVENT> most frequently at 118.90 yen.
+
+The euro was <EVENT class="OCCURRENCE" eid="e8">quoted</EVENT> at 1.1712-1714 dollars and 139.63-67 yen against <TIMEX3 type="DATE" value="2005-11-17" tid="t6">Thursday</TIMEX3>'s 5 p.m. quotes of 1.1743-1753 dollars and 139.59- 69 yen in New York and 1.1654-1656 dollars and 138.66-70 yen in Tokyo.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061125.0052</DOCID>
+
+<DCT>DAR ES SALAAM, <TIMEX3 tid="t0" type="TIME" value="2006-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Zanzibar attracts more investment this year</TITLE>
+
+
+<TEXT>
+
+The Indian Ocean archipelago of Zanzibar has <EVENT class="PERCEPTION" eid="e1">witnessed</EVENT> <EVENT class="OCCURRENCE" eid="e2">increased</EVENT> <EVENT class="OCCURRENCE" eid="e3">investment</EVENT> as both foreign and local investors have <EVENT class="OCCURRENCE" eid="e4">enhanced</EVENT> their inputs in <TIMEX3 type="DURATION" value="P10M" tid="t1">the first 10 months</TIMEX3> of <TIMEX3 type="DATE" value="2006" tid="t2">this year</TIMEX3>.
+
+Thirty-one investment <EVENT class="OCCURRENCE" eid="e5">projects</EVENT> worth 93 million U.S. dollars have been <EVENT class="OCCURRENCE" eid="e6">registered</EVENT> with the Zanzibar Investment Promotion Agency (ZIPA), <EVENT class="REPORTING" eid="e7">according</EVENT> to reports <EVENT class="OCCURRENCE" eid="e8">reaching</EVENT> here on <TIMEX3 type="DATE" value="2006-12-02" tid="t3">Saturday</TIMEX3>.
+
+ZIPA Director Salum Khmis Nassor <EVENT class="REPORTING" eid="e9">said</EVENT> 21 of the investment projects had been <EVENT class="OCCURRENCE" eid="e10">signed</EVENT> up by companies from such countries as Belgium, Britain, Kenya, Norway and South Africa while the remaining 10 investment projects had been <EVENT class="OCCURRENCE" eid="e11">signed</EVENT> by local investors from mainland Tanzania and from the isles.
+
+The new investment projects cover areas including agriculture, fisheries, industries, tourism and air and marine transport.
+
+Tourist hotels and restaurants <EVENT class="OCCURRENCE" eid="e13">drew</EVENT> the largest share of investment with 71 million dollars followed by industries (2.79 million dollars), air and marine transport (2.78 million dollars), fisheries (1.41 million dollars) and agriculture (910,004 dollars).
+
+ZIPA is a government agency <EVENT class="OCCURRENCE" eid="e15">specializing</EVENT> in <EVENT class="OCCURRENCE" eid="e16">promoting</EVENT> foreign and local <EVENT class="OCCURRENCE" eid="e17">investment</EVENT> in the <EVENT class="OCCURRENCE" eid="e18">development</EVENT> of the Indian Ocean archipelago.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

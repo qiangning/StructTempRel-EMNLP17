@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0125</DOCID>
+
+<DCT>GAZA, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hamas threats to attack U.S. targets in the Middle East</TITLE>
+
+
+<TEXT>
+
+The Islamic Resistance Movement (Hamas)
+
+on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> <EVENT class="I_ACTION" eid="e1">urged</EVENT>, for the first time, to <EVENT class="OCCURRENCE" eid="e2">attack</EVENT> American targets and interests in the Middle East.
+
+The threat <EVENT class="OCCURRENCE" eid="e3">came</EVENT> in a statement <EVENT class="OCCURRENCE" eid="e4">released</EVENT> by al-Qassam Brigades, a military wing of Hamas, <EVENT class="OCCURRENCE" eid="e5">following</EVENT> the <EVENT class="OCCURRENCE" eid="e6">death</EVENT> of 19 Palestinians in Israeli artillery <EVENT class="OCCURRENCE" eid="e7">shelling</EVENT> in northern Gaza Strip town of Beit Hanoun in the day.
+
+"America <EVENT class="OCCURRENCE" eid="e8">provides</EVENT> political and logistical cover for the crimes
+
+<EVENT class="I_STATE" eid="e10">committed</EVENT> by the Zionist occupation and it must be <EVENT class="I_ACTION" eid="e12">blamed</EVENT> on Beit Hanoun massacres prior to the <EVENT class="OCCURRENCE" eid="e14">occupation</EVENT>," <EVENT class="REPORTING" eid="e15">said</EVENT> the statement.
+
+It <EVENT class="REPORTING" eid="e16">called</EVENT> on Arab and Muslims to "<EVENT class="OCCURRENCE" eid="e17">teach</EVENT> the American enemy unmerciful lessons they will not <EVENT class="OCCURRENCE" eid="e18">forget</EVENT>."
+
+In the past, Hamas, which <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> <EVENT class="I_ACTION" eid="e19">leads</EVENT> the government, has <EVENT class="REPORTING" eid="e20">said</EVENT> that their <EVENT class="OCCURRENCE" eid="e21">battle</EVENT> was only with Israel and their borders are inside Israel and the Palestinian territories.
+
+In the meantime, al-Qassam brigades also <EVENT class="I_ACTION" eid="e22">vowed</EVENT> to <EVENT class="OCCURRENCE" eid="e23">respond</EVENT> to the <EVENT class="OCCURRENCE" eid="e24">killings</EVENT> in Beit Hanoun.
+
+<TIMEX3 type="DATE" value="2006-11-08" tid="t5">Wednesday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e25">strikes</EVENT> <EVENT class="OCCURRENCE" eid="e26">came</EVENT> after <TIMEX3 type="DURATION" value="PT24H" tid="t6">24 hours</TIMEX3> of the Israeli <EVENT class="OCCURRENCE" eid="e27">withdrawal</EVENT> from the town. Over <TIMEX3 type="DURATION" value="2006-W44" tid="t7">the past week</TIMEX3>, more than 63 Palestinians have been <EVENT class="OCCURRENCE" eid="e28">killed</EVENT> so far in Israeli incursion in Beit Hanoun.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei28" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0135</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hong Kong shares close lower - Nov. 24</TITLE>
+
+
+<TEXT>
+
+Hong Kong shares <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> from the record high <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> with the benchmark Hang Seng Index <EVENT class="OCCURRENCE" eid="e2">fell</EVENT> 5.02 points, or 0.03 percent, to 19,260.30 after <EVENT class="OCCURRENCE" eid="e3">trading</EVENT> between 19,195.90 and the record intraday high of 19,315.73 during the <EVENT class="OCCURRENCE" eid="e4">session</EVENT>.
+
+A pullback of Hong Kong property shares <EVENT class="OCCURRENCE" eid="e5">led</EVENT> the city's stock market slightly lower <TIMEX3 type="DATE" value="2006-11-24" tid="t3">Friday</TIMEX3> after the index <EVENT class="OCCURRENCE" eid="e6">hit</EVENT> a record intraday high, but traders <EVENT class="REPORTING" eid="e7">said</EVENT> the market was likely <EVENT class="OCCURRENCE" eid="e8">taking</EVENT> a pause before <EVENT class="ASPECTUAL" eid="e10">continuing</EVENT> to <EVENT class="OCCURRENCE" eid="e11">rise</EVENT>.
+
+Cheung Kong <EVENT class="ASPECTUAL" eid="e12">finished</EVENT> 1.2 percent lower at 94.15 Hong Kong dollars, Hang Lung Properties <EVENT class="OCCURRENCE" eid="e13">fell</EVENT> 1 percent to 17.30 Hong Kong dollars, while Sun Hung Kai Properties was down 1 percent at 90.60 Hong Kong dollars.
+
+China Merchants Bank was down 2.8 percent at 15.38 Hong Kong dollars, and China Construction Bank <EVENT class="OCCURRENCE" eid="e14">fell</EVENT> 1.9 percent to 4.21 Hong Kong dollars.
+
+But Hong Kong banks with <EVENT class="OCCURRENCE" eid="e15">increasing</EVENT> China exposure shone. Bank of East Asia <EVENT class="OCCURRENCE" eid="e17">climbed</EVENT> 3.8 percent to 43.65 Hong Kong dollars, and was the top blue-chip gainer.
+
+Orient Overseas <EVENT class="ASPECTUAL" eid="e18">ended</EVENT> 22 percent higher at 45.20 Hong Kong dollars after <EVENT class="OCCURRENCE" eid="e19">hitting</EVENT> an intraday record high of 46.00 Hong Kong dollars, on the <EVENT class="OCCURRENCE" eid="e20">sale</EVENT> of ports in North America and expectations that investors will <EVENT class="OCCURRENCE" eid="e21">receive</EVENT> a special dividend.
+
+The finance sub-index <EVENT class="OCCURRENCE" eid="e22">rose</EVENT> 95.63 points or 0.30 percent to 31, 863.41.
+
+Among local banks, Bank of East Asia <EVENT class="OCCURRENCE" eid="e23">rose</EVENT> 3.8 percent to 43.65 Hong Kong dollars, while BOC Hong Kong <EVENT class="OCCURRENCE" eid="e24">soared</EVENT> 2.71 percent to 18.94 Hong Kong dollars.
+
+HSBC was up 0.07 percent at 146.10 Hong Kong dollars and Hang Seng Bank was down 0.1 percent at 103.30 Hong Kong dollars.
+
+The properties sub-index <EVENT class="OCCURRENCE" eid="e25">plunged</EVENT> 194.42 points or 0.86 percent at 22,347.68.
+
+The commerce and industry sub-index <EVENT class="OCCURRENCE" eid="e26">went</EVENT> down 4.09 points or 0.04 percent to 10,124.27.
+
+New World Development was down 0.81 percent at 14.74 Hong Kong dollars, while Wharf Holdings was down 0.73 Hong Kong dollars at 27.2 Hong Kong dollars.
+
+China Mobile <EVENT class="OCCURRENCE" eid="e27">dropped</EVENT> 0.29 percent to 67.8 Hong Kong dollars. China Unicom <EVENT class="OCCURRENCE" eid="e28">rose</EVENT> 3.52 percent to 9.11 Hong Kong dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0274</DOCID>
+
+<DCT>UNITED NATIONS, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>UN chief hails resumption of peace talks on conflict in Sudan's Darfur region</TITLE>
+
+
+<TEXT>
+
+UN Secretary-General Kofi Annan on <TIMEX3 type="DATE" value="2005-11-29" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">welcomed</EVENT> the <EVENT class="OCCURRENCE" eid="e2">resumption</EVENT> of peace <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> in Nigeria between the Sudanese government and rebel groups in western Sudan' s Darfur region.
+
+With the <EVENT class="OCCURRENCE" eid="e4">mediation</EVENT> of the African Union, Khartoum and the two rebel groups -- the Sudan Liberation Movement and the Justice and Equality Movement -- <EVENT class="ASPECTUAL" eid="e5">started</EVENT> the long-delayed seventh round of peace <EVENT class="OCCURRENCE" eid="e6">talks</EVENT> in the Nigerian capital of Abuja earlier in the day.
+
+"The secretary-general strongly <EVENT class="OCCURRENCE" eid="e7">appeals</EVENT> to the parties to the Abuja peace process ... to immediately <EVENT class="ASPECTUAL" eid="e8">stop</EVENT> all <EVENT class="OCCURRENCE" eid="e9">violence</EVENT> and atrocities on the ground," <EVENT class="REPORTING" eid="e10">said</EVENT> a statement <EVENT class="OCCURRENCE" eid="e11">issued</EVENT> by UN spokesman Stephanie Dujarric.
+
+"He <EVENT class="OCCURRENCE" eid="e12">calls</EVENT> on the parties to <EVENT class="OCCURRENCE" eid="e13">negotiate</EVENT> a just and comprehensive peace <EVENT class="I_STATE" eid="e14">agreement</EVENT>. Individual leaders will be <EVENT class="OCCURRENCE" eid="e15">judged</EVENT> on their immediate action to <EVENT class="ASPECTUAL" eid="e16">stop</EVENT> the <EVENT class="OCCURRENCE" eid="e17">bloodshed</EVENT> in Darfur," the statement <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+The secretary-general <EVENT class="I_ACTION" eid="e19">urged</EVENT> the parties to the <EVENT class="OCCURRENCE" eid="e20">conflict</EVENT> and all other armed groups in Darfur to <EVENT class="OCCURRENCE" eid="e21">cooperate</EVENT> fully with the African Union Mission in Sudan and with the United Nations Mission in Sudan.
+
+Annan also <EVENT class="I_ACTION" eid="e22">appealed</EVENT> to donors to <EVENT class="ASPECTUAL" eid="e23">continue</EVENT> <EVENT class="OCCURRENCE" eid="e24">supporting</EVENT> both the crucial <EVENT class="OCCURRENCE" eid="e25">work</EVENT> of the AU mission in this long suffering region and critical humanitarian <EVENT class="OCCURRENCE" eid="e26">assistance</EVENT> for millions of war-affected civilians in Darfur, the statement <EVENT class="REPORTING" eid="e27">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+
+
+
+
+</TimeML>

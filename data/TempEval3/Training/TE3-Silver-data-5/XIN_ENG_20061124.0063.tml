@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0063</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Dollar hits 2-month low in lower 116 yen level in Tokyo</TITLE>
+
+
+<TEXT>
+
+The U.S. dollar <EVENT class="OCCURRENCE" eid="e1">hit</EVENT> a two-month low in the lower 116 yen level <TIMEX3 type="DATE" value="2006-11-24" tid="t2">Friday</TIMEX3> in Tokyo as concern among market participants on the outlook of the U.S. economy <EVENT class="STATE" eid="e2">weighed</EVENT> on the U.S. currency.
+
+At 5 p.m., the dollar was <EVENT class="OCCURRENCE" eid="e3">quoted</EVENT> at 116.32-35 yen, compared with <TIMEX3 type="DATE" value="2006-11-23" tid="t4">Thursday</TIMEX3>'s 4 p.m. quote of 116.10-20 yen in London.
+
+It <EVENT class="OCCURRENCE" eid="e4">moved</EVENT> between 116.18 yen, its lowest level in Tokyo since <TIMEX3 type="DATE" value="2006-09-25" tid="t5">Sept. 25</TIMEX3>, and 116.49 yen during the day, most frequently at 116.40 yen.
+
+Both U.S. and Japanese financial markets were <EVENT class="OCCURRENCE" eid="e5">closed</EVENT> <TIMEX3 type="DATE" value="2006-11-23" tid="t6">Thursday</TIMEX3> for holidays.
+
+The euro was <EVENT class="OCCURRENCE" eid="e6">quoted</EVENT> at 1.2969-2972 dollars and 150.88-92 yen against <TIMEX3 type="DATE" value="2006-11-23" tid="t8">Thursday</TIMEX3>'s 4 p.m. quotes of 1.2945-2955 dollars and 150.35- 40 yen in London.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t8" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

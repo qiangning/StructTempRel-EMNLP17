@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0046</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>flu</TITLE>
+
+
+<TEXT>
+
+The Chinese mainland <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3> it has <EVENT class="OCCURRENCE" eid="e2">kept</EVENT> up and will <EVENT class="OCCURRENCE" eid="e3">go</EVENT> on with its information exchange and <EVENT class="OCCURRENCE" eid="e4">communication</EVENT> with Taiwan on bird flu pandemic.
+
+"So far <TIMEX3 type="DATE" value="2005" tid="t2">this year</TIMEX3>, the mainland-based Cross-Strait Agricultural Exchange Association has <EVENT class="OCCURRENCE" eid="e5">briefed</EVENT> relevant groups in Taiwan on the situation of bird flu epidemic 15 times," <EVENT class="REPORTING" eid="e6">said</EVENT> Li Weiyi, spokesman for the Taiwan Affairs Office of the State Council, at a routine press <EVENT class="OCCURRENCE" eid="e7">conference</EVENT>.
+
+Meanwhile, the relevant parties of the mainland side have <EVENT class="OCCURRENCE" eid="e8">worked</EVENT> in coordination with the Secretariat of the World Health Organization (WHO) to <EVENT class="OCCURRENCE" eid="e9">invite</EVENT> two experts from Taiwan to an international <EVENT class="OCCURRENCE" eid="e10">conference</EVENT> on bird flu <EVENT class="OCCURRENCE" eid="e11">held</EVENT> by the WHO in Geneva on <TIMEX3 type="DATE" value="2005-10-07" tid="t3">Oct. 7</TIMEX3>, <EVENT class="REPORTING" eid="e12">said</EVENT> Li.
+
+The relevant parties in the Chinese mainland and Taiwan will <EVENT class="ASPECTUAL" eid="e13">continue</EVENT> with such exchanges and cooperation, Li <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

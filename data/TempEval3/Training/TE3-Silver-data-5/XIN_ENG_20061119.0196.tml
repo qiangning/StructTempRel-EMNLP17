@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0196</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Italian lower house approves govt's 2007 budget</TITLE>
+
+
+<TEXT>
+
+Italian lower house on <TIMEX3 type="DATE" value="2006-11-19" tid="t1">Sunday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> the government's planned 2007 budget, which included heavily <EVENT class="OCCURRENCE" eid="e2">protested</EVENT> tax increases and spending cuts.
+
+The budget, which <EVENT class="PERCEPTION" eid="e3">suggested</EVENT> 15 billion euros of spending cuts, <EVENT class="OCCURRENCE" eid="e4">passed</EVENT> by 311 votes to 251, <TIMEX3 type="DURATION" value="P1D" tid="t3">one day</TIMEX3> after the government <EVENT class="OCCURRENCE" eid="e5">won</EVENT> a confidence <EVENT class="OCCURRENCE" eid="e6">vote</EVENT> on a series of measures tied to the budget, which must be <EVENT class="OCCURRENCE" eid="e8">approved</EVENT> by the Senate before <TIMEX3 type="DATE" value="2006-11-19" tid="t4">the end of the year</TIMEX3>.
+
+Italian Premier Romano Prodi, who narrowly <EVENT class="OCCURRENCE" eid="e9">beat</EVENT> former premier Silvio Berlusconi in <TIMEX3 type="DATE" value="2006-04" tid="t5">April</TIMEX3>'s general <EVENT class="OCCURRENCE" eid="e10">election</EVENT>, has been <EVENT class="OCCURRENCE" eid="e11">struggling</EVENT> to <EVENT class="OCCURRENCE" eid="e12">gain</EVENT> support among some of its allies for the budget, which is <EVENT class="I_STATE" eid="e13">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e14">promoting</EVENT> growth and <EVENT class="OCCURRENCE" eid="e15">bringing</EVENT> the Italian deficit to within 3 percent of GDP by <TIMEX3 type="DATE" value="2007" tid="t6">next year</TIMEX3> to <EVENT class="OCCURRENCE" eid="e16">meet</EVENT> Rome's EU commitments.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

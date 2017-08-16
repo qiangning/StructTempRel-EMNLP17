@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970407.0054</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-07" temporalFunction="false" functionInDocument="CREATION_TIME">April 7 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Food for India's poor fed to cows: report</TITLE>
+
+
+<TEXT>
+
+A retired Indian police officer has been <EVENT class="OCCURRENCE" eid="e1">caught</EVENT> <EVENT class="OCCURRENCE" eid="e2">feeding</EVENT> free food <EVENT class="OCCURRENCE" eid="e3">provided</EVENT> by the government for the rural poor to his cows, a newspaper <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-07" tid="t1">Monday</TIMEX3>.
+
+Government officials in the eastern state of Bihar <EVENT class="OCCURRENCE" eid="e5">made</EVENT> the <EVENT class="OCCURRENCE" eid="e6">discovery</EVENT> when they <EVENT class="OCCURRENCE" eid="e7">paid</EVENT> a surprise <EVENT class="OCCURRENCE" eid="e8">visit</EVENT> to the officer's village, The Statesman <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+Lakhan Lal Mishra, a voluntary activist, was <EVENT class="OCCURRENCE" eid="e10">quoted</EVENT> as <EVENT class="REPORTING" eid="e11">saying</EVENT> food <EVENT class="I_ACTION" eid="e12">intended</EVENT> for village children and pregnant women was being <EVENT class="OCCURRENCE" eid="e13">sold</EVENT> illegally.
+
+"We do not <EVENT class="I_STATE" eid="e14">like</EVENT> this kind of misuse," one official <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

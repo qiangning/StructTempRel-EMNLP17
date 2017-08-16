@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061213.0676</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2006-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Weapons buyback massively cut gun deaths: Australian study</TITLE>
+
+
+<TEXT>
+
+A weapons <EVENT class="OCCURRENCE" eid="e1">buyback</EVENT> in Australia dramatically <EVENT class="ASPECTUAL" eid="e2">ended</EVENT> gun <EVENT class="OCCURRENCE" eid="e3">massacres</EVENT> and sharply <EVENT class="OCCURRENCE" eid="e4">reduced</EVENT> the number of firearms deaths overall, a study <EVENT class="OCCURRENCE" eid="e5">published</EVENT> on <TIMEX3 type="DATE" value="2006-12-14" tid="t1">Thursday</TIMEX3> <EVENT class="REPORTING" eid="e6">says</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e7">initiative</EVENT> was <EVENT class="OCCURRENCE" eid="e8">launched</EVENT> in <TIMEX3 type="DATE" value="1996" tid="t2">1996</TIMEX3>, within days of a <EVENT class="OCCURRENCE" eid="e9">massacre</EVENT> of 35 people in Port Arthur, Tasmania, by a gunman using semi-automatic weapons.
+
+Under the new law, the federal government <EVENT class="OCCURRENCE" eid="e10">banned</EVENT> semi-automatics and pump-action rifles and shotguns and <EVENT class="OCCURRENCE" eid="e11">offered</EVENT> to <EVENT class="OCCURRENCE" eid="e12">buy</EVENT> these weapons from gunowners, <EVENT class="OCCURRENCE" eid="e13">using</EVENT> a levy on income tax.
+
+Tens of thousands of gunowners also voluntarily <EVENT class="OCCURRENCE" eid="e14">surrendered</EVENT> non-prohibited weapons, without compensation.
+
+In all, more than 700,000 guns were <EVENT class="OCCURRENCE" eid="e15">destroyed</EVENT> in a country with a population of 12 million adults.
+
+<EVENT class="OCCURRENCE" eid="e16">Looking</EVENT> back at the effects that this measure has <EVENT class="STATE" eid="e17">had</EVENT> over <TIMEX3 type="DATE" value="2006-12-14" tid="t3">the past decade</TIMEX3>, Australian public-health experts <EVENT class="REPORTING" eid="e18">say</EVENT> the benefits have been enormous.
+
+In <TIMEX3 type="DURATION" value="PRESENT_REF" tid="t4">the 18 years</TIMEX3> prior to the Port Arthur massacre, Australia <EVENT class="OCCURRENCE" eid="e20">experienced</EVENT> 13 mass <EVENT class="OCCURRENCE" eid="e21">shootings</EVENT>; there has been none since then, they <EVENT class="REPORTING" eid="e23">say</EVENT>.
+
+The rate of homicides, suicides and fatal accidents involving firearms had been <EVENT class="OCCURRENCE" eid="e24">declining</EVENT> in <TIMEX3 type="DURATION" value="PRESENT_REF" tid="t5">the 18 years</TIMEX3> <EVENT class="OCCURRENCE" eid="e25">preceding</EVENT> the new gun law.
+
+After that, the decline <EVENT class="OCCURRENCE" eid="e27">doubled</EVENT>, with the biggest fall occurring among the <EVENT class="OCCURRENCE" eid="e28">tally</EVENT> of suicides.
+
+"<EVENT class="OCCURRENCE" eid="e29">Removing</EVENT> large numbers of firearms from a community can be <EVENT class="OCCURRENCE" eid="e30">associated</EVENT> with a sudden and ongoing <EVENT class="OCCURRENCE" eid="e31">decline</EVENT> in mass <EVENT class="OCCURRENCE" eid="e32">shootings</EVENT> and accelerating <EVENT class="OCCURRENCE" eid="e34">declines</EVENT> in total firearm-related <EVENT class="OCCURRENCE" eid="e35">deaths</EVENT>, firearm homicides and firearm suicides," <EVENT class="REPORTING" eid="e36">says</EVENT> the paper.
+
+It <EVENT class="OCCURRENCE" eid="e37">appears</EVENT> in Injury Prevention, a journal of the British Medical Association (BMA). Lead author is Simon Chapman, a professor at the School of Public Health at the University of Sydney.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="OTHER" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei37" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei29" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei27" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei30" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei31" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei25" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l49" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

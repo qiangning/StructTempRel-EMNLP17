@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0154</DOCID>
+
+<DCT>TAIPEI, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Taiwan to start first ever "three-in-one" election to saving money</TITLE>
+
+
+<TEXT>
+
+The "Central Election Commission" of the Taiwan authorities on <TIMEX3 type="DATE" value="2005-11-22" tid="t1">Tuesday</TIMEX3> <EVENT class="REPORTING" eid="e2">announced</EVENT> a candidate list for the island's <EVENT class="OCCURRENCE" eid="e3">election</EVENT> of county heads, county councilors and village heads.
+
+It is the first time for the island to <EVENT class="OCCURRENCE" eid="e4">put</EVENT> the election of county heads, county councilors and village heads in one election.
+
+The election will be <EVENT class="OCCURRENCE" eid="e5">held</EVENT> in <TIMEX3 type="DATE" value="2005-12" tid="t2">December</TIMEX3>.
+
+The so called "three-in-one" <EVENT class="OCCURRENCE" eid="e6">election</EVENT> <EVENT class="OCCURRENCE" eid="e7">aims</EVENT> to <EVENT class="OCCURRENCE" eid="e8">economize</EVENT> election costs, <EVENT class="REPORTING" eid="e9">according</EVENT> to the Taiwan authorities.
+
+Statistics <EVENT class="OCCURRENCE" eid="e10">offered</EVENT> by the "Central Election Commission" <EVENT class="OCCURRENCE" eid="e11">showed</EVENT> that the Taiwan authorities <EVENT class="OCCURRENCE" eid="e12">spent</EVENT> more than 13.1 billion New Taiwan dollars (409 million US dollars) <EVENT class="OCCURRENCE" eid="e13">holding</EVENT> a total of 21 elections over <TIMEX3 type="DURATION" value="P10Y" tid="t3">the past ten years</TIMEX3>.
+
+Although three elections <EVENT class="OCCURRENCE" eid="e15">integrated</EVENT> in one, the island's election atmosphere is still crazy. News of the <EVENT class="OCCURRENCE" eid="e16">election</EVENT>, candidate introductions and election analysis are frequently <EVENT class="PERCEPTION" eid="e17">seen</EVENT> on local newspapers and TV programs. Candidates' photos and posters with their competition slogans were <EVENT class="OCCURRENCE" eid="e18">put</EVENT> up along the streets.
+
+There are also reports of corruption. At present, 12 candidates are <EVENT class="OCCURRENCE" eid="e19">sued</EVENT> for being <EVENT class="I_STATE" eid="e20">suspected</EVENT> of <EVENT class="OCCURRENCE" eid="e21">taking</EVENT> bribes for more votes.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0215</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>nuke program</TITLE>
+
+
+<TEXT>
+
+Iranian President Mahmoud Ahmadinejad <EVENT class="I_ACTION" eid="e1">vowed</EVENT> on <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Tuesday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">install</EVENT> up to 60,000 centrifuges ultimately to <EVENT class="OCCURRENCE" eid="e3">enrich</EVENT> uranium.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

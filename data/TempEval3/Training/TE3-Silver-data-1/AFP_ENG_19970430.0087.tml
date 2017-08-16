@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970430.0087</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="1997-04-30" temporalFunction="false" functionInDocument="CREATION_TIME">April 30 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Iran halts dialogue on human rights, terrorism, arms with EU</TITLE>
+
+
+<TEXT>
+
+Iran has <EVENT class="OCCURRENCE" eid="e1">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e2">halt</EVENT> <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> with the EU on human rights, terrorism and arms control in retaliation for Europe's <EVENT class="OCCURRENCE" eid="e4">suspension</EVENT> of a "critical dialogue," the foreign ministry <EVENT class="REPORTING" eid="e6">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-30" tid="t1">Wednesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+
+
+
+
+</TimeML>

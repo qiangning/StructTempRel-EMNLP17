@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051126.0037</DOCID>
+
+<DCT>CAIRO, <TIMEX3 tid="t0" type="TIME" value="2005-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 26 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Xinhua Mideast news advisory -- Nov. 26</TITLE>
+
+
+<TEXT>
+
+The following major international news stories from the Middle East region are <EVENT class="I_STATE" eid="e1">scheduled</EVENT> to be <EVENT class="OCCURRENCE" eid="e2">covered</EVENT> or <EVENT class="OCCURRENCE" eid="e3">pursued</EVENT> by Xinhua News Agency on <TIMEX3 type="DATE" value="2005-11-26" tid="t1">Saturday</TIMEX3>.
+
+-- NATO parliamentary forum on the Greater Middle East <EVENT class="ASPECTUAL" eid="e4">opens</EVENT> in Doha <TIMEX3 type="DATE" value="2005-12-03" tid="t2">Saturday</TIMEX3>. It is to <EVENT class="OCCURRENCE" eid="e5">run</EVENT> for <TIMEX3 type="DURATION" value="P2D" tid="t3">two</TIMEX3> days.
+
+-- Lebanese Prime Minister Fouad Seniora <EVENT class="OCCURRENCE" eid="e6">arrives</EVENT> in Amman to <EVENT class="OCCURRENCE" eid="e7">preside</EVENT> over the Jordanian-Lebanese joint committee <EVENT class="OCCURRENCE" eid="e8">meetings</EVENT> with his Jordanian counterpart Adnan Badran. He will also <EVENT class="OCCURRENCE" eid="e9">hold</EVENT> <EVENT class="OCCURRENCE" eid="e10">talks</EVENT> with top Jordanian officials on regional and international issues of common concern and bilateral relations.
+
+-- Some 242 candidates in 68 constituencies in Egypt's nine governorates are <EVENT class="OCCURRENCE" eid="e11">competing</EVENT> in the run-offs of the second phase of parliamentary elections.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

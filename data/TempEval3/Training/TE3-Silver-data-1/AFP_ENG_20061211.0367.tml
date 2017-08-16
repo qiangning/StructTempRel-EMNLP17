@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0367</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Hammers sack Pardew</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Struggling</EVENT> English Premiership side West Ham on <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e2">sacked</EVENT> manager Alan Pardew.
+
+The club are in 18th place in the Premiership after <TIMEX3 type="DATE" value="2006-12-16" tid="t2">Saturday</TIMEX3>'s 4-0 <EVENT class="OCCURRENCE" eid="e3">thrashing</EVENT> at Bolton with only three points <EVENT class="OCCURRENCE" eid="e4">separating</EVENT> them from bottom club Watford.
+
+The Hammers have <EVENT class="OCCURRENCE" eid="e5">lost</EVENT> five of their last six Premiership games including both <EVENT class="OCCURRENCE" eid="e6">matches</EVENT> since Icelandic businessman Eggert Magnusson <EVENT class="PERCEPTION" eid="e7">became</EVENT> chairman <TIMEX3 type="DATE" value="2006-W49" tid="t3">a week ago</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970403.0007</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="1997-04-03" temporalFunction="false" functionInDocument="CREATION_TIME">April 3 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Beijing reins in arbitrary fees to attract foreign investment</TITLE>
+
+
+<TEXT>
+
+China's capital city has <EVENT class="OCCURRENCE" eid="e1">introduced</EVENT> a "card" system to <EVENT class="OCCURRENCE" eid="e2">protect</EVENT> foreign investors from officials' arbitrary illegal fees, mayor Lu Yucheng was <EVENT class="OCCURRENCE" eid="e3">quoted</EVENT> as <EVENT class="REPORTING" eid="e4">saying</EVENT> <TIMEX3 type="DATE" value="1997-04-10" tid="t1">Thursday</TIMEX3>.
+
+The cards, <EVENT class="OCCURRENCE" eid="e5">issued</EVENT> to foreign-funded enterprises, <EVENT class="OCCURRENCE" eid="e6">identify</EVENT> a limited list of officially-sacntioned fees and <EVENT class="OCCURRENCE" eid="e7">give</EVENT> firms the right to <EVENT class="OCCURRENCE" eid="e8">refuse</EVENT> to <EVENT class="OCCURRENCE" eid="e9">pay</EVENT> any charge not <EVENT class="REPORTING" eid="e10">cited</EVENT>, he <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+Only three bodies in the city -- the municipal government, the municipal bureau of finance and the municipal bureau of price -- are <EVENT class="OCCURRENCE" eid="e12">authorised</EVENT> to <EVENT class="I_ACTION" eid="e13">establish</EVENT> new fees, the report <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+Investors in China have long <EVENT class="I_ACTION" eid="e15">complained</EVENT> of cost overruns <EVENT class="OCCURRENCE" eid="e16">caused</EVENT> by local officials' legion unpredictable fees.
+
+Though government policy has <EVENT class="I_ACTION" eid="e17">sought</EVENT> to <EVENT class="OCCURRENCE" eid="e18">attract</EVENT> investment, the practices of corrupt individual administrators and departments often <EVENT class="OCCURRENCE" eid="e19">undermine</EVENT> the effort.
+
+Three centres have been <EVENT class="OCCURRENCE" eid="e21">set</EVENT> up in the city to <EVENT class="OCCURRENCE" eid="e22">receive</EVENT> foreign investors' complaints, Lu <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+
+
+
+
+</TimeML>

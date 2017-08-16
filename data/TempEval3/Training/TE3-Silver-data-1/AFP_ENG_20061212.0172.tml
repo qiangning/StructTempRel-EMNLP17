@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061212.0172</DOCID>
+
+<DCT>RIYADH, <TIMEX3 tid="t0" type="TIME" value="2006-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Saudi beheaded for murder</TITLE>
+
+
+<TEXT>
+
+A Saudi man <EVENT class="OCCURRENCE" eid="e1">convicted</EVENT> of murder was <EVENT class="OCCURRENCE" eid="e2">beheaded</EVENT> by the sword on <TIMEX3 type="DATE" value="2006-12-12" tid="t1">Tuesday</TIMEX3> in the capital of the Gulf Arab monarchy, the interior ministry <EVENT class="REPORTING" eid="e3">announced</EVENT>.
+
+The ministry, in a statement <EVENT class="OCCURRENCE" eid="e4">carried</EVENT> by state news agency SPA, <EVENT class="REPORTING" eid="e5">said</EVENT> Mosfer bin Mubrak al-Qahtani had <EVENT class="OCCURRENCE" eid="e6">shot</EVENT> dead a fellow Saudi, <EVENT class="OCCURRENCE" eid="e7">wounded</EVENT> a number of other people, and damaged homes and cars.
+
+The <EVENT class="OCCURRENCE" eid="e8">beheading</EVENT> in Riyadh <EVENT class="OCCURRENCE" eid="e9">brings</EVENT> to at least 36 the number of executions in Saudi Arabia this year. At least 83 were <EVENT class="OCCURRENCE" eid="e11">put</EVENT> to <EVENT class="OCCURRENCE" eid="e12">death</EVENT> in <TIMEX3 type="DATE" value="2005" tid="t3">2005</TIMEX3> and 35 the year before.
+
+Executions are generally <EVENT class="OCCURRENCE" eid="e13">carried</EVENT> out in public in the oil-rich kingdom, which applies a strict form of Islamic law. The death penalty is <EVENT class="OCCURRENCE" eid="e14">applied</EVENT> for murder, rape, apostasy, armed robbery and drug trafficking.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

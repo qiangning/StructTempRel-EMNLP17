@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970411.0435</DOCID>
+
+<DCT>KINSHASA, <TIMEX3 tid="t0" type="TIME" value="1997-04-11" temporalFunction="false" functionInDocument="CREATION_TIME">April 11 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENT Zairean premier forms government</TITLE>
+
+
+<TEXT>
+
+Zairean Prime Minister General Likulia Bolongo on <TIMEX3 type="DATE" value="1997-04-11" tid="t1">Friday</TIMEX3> <EVENT class="REPORTING" eid="e1">announced</EVENT> the formation of a "national salvation" government which includes two generals.
+
+Generals were <EVENT class="OCCURRENCE" eid="e3">appointed</EVENT> to the posts of interior and defense minister while former foreign minister Gerard Kamanda Wa Kamanda was <EVENT class="OCCURRENCE" eid="e5">reappointed</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

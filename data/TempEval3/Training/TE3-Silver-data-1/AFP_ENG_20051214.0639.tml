@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051214.0639</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2005-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 15 , 2005</TIMEX3></DCT>
+
+<TITLE>Japanese shares open lower</TITLE>
+
+
+<TEXT>
+
+Japanese share prices <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> lower <TIMEX3 type="DATE" value="2005-12-15" tid="t1">Thursday</TIMEX3>, with the benchmark Nikkei-225 index down 88.31 points, or 0.57 percent, to 15,376.27 in the first minutes of trading.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

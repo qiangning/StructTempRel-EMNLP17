@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051207.0368</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2005-12-07" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 7 , 2005</TIMEX3></DCT>
+
+<TITLE>ATTENTION - ADDS comment, background ///</TITLE>
+
+
+<TEXT>
+
+French Prime Minister Dominique de Villepin <EVENT class="REPORTING" eid="e1">told</EVENT> the French parliament on <TIMEX3 type="DATE" value="2005-12-07" tid="t1">Wednesday</TIMEX3> that "the (French) government <EVENT class="I_STATE" eid="e2">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e3">get</EVENT> an overall agreement on reduced rates of VAT (sales tax)" in the European Union.
+
+EU finance ministers, <EVENT class="OCCURRENCE" eid="e5">meeting</EVENT> in Brussels on <TIMEX3 type="DATE" value="2005-12-13" tid="t2">Tuesday</TIMEX3>, had <EVENT class="OCCURRENCE" eid="e6">failed</EVENT> to <EVENT class="I_ACTION" eid="e7">agree</EVENT> on a list of services to <EVENT class="OCCURRENCE" eid="e8">benefit</EVENT> from an exceptionally low sales tax.
+
+France is <EVENT class="I_ACTION" eid="e9">seeking</EVENT> to <EVENT class="OCCURRENCE" eid="e10">reduce</EVENT> sales tax on hotels and restaurants to 5.5 percent from the current 19.6 percent.
+
+<EVENT class="OCCURRENCE" eid="e11">Referring</EVENT> to promises made to <EVENT class="OCCURRENCE" eid="e12">reduce</EVENT> the tax burden on restaurants and hotels, Villepin <EVENT class="REPORTING" eid="e13">told</EVENT> the French National Assembly (parliament): "A commitment was <EVENT class="OCCURRENCE" eid="e14">taken</EVENT> by the president of the Republic by my predecessor (Jean-Pierre Raffarin) and I will <EVENT class="OCCURRENCE" eid="e15">fight</EVENT> to <EVENT class="OCCURRENCE" eid="e16">ensure</EVENT> it is <EVENT class="I_ACTION" eid="e17">honoured</EVENT>."
+
+He <EVENT class="OCCURRENCE" eid="e18">added</EVENT>: "The (French) government <EVENT class="I_STATE" eid="e19">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e20">get</EVENT> an overall <EVENT class="OCCURRENCE" eid="e21">agreement</EVENT> on reduced rates of VAT because it is for us about <EVENT class="OCCURRENCE" eid="e22">creating</EVENT> jobs and <EVENT class="OCCURRENCE" eid="e23">defending</EVENT> the purchasing power of French people."
+
+The issue of VAT tax harmonisation is to be <EVENT class="OCCURRENCE" eid="e24">discussed</EVENT> by European heads of state during a <EVENT class="OCCURRENCE" eid="e25">summit</EVENT> on <TIMEX3 type="DATE" value="2005-12-07" tid="t3">December 15-16</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei25" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

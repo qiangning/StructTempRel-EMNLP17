@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0400</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 15 , 2005</TIMEX3></DCT>
+
+<TITLE>US industrial output up 0.7 percent</TITLE>
+
+
+<TEXT>
+
+US industrial output <EVENT class="OCCURRENCE" eid="e1">expanded</EVENT> by 0.7 percent in <TIMEX3 type="DATE" value="2005-11" tid="t1">November</TIMEX3> over <TIMEX3 type="DATE" value="P1M" tid="t2">the month</TIMEX3> before as the energy industry <EVENT class="OCCURRENCE" eid="e2">rebounded</EVENT> from damaging hurricanes, the Federal Reserve <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-12-15" tid="t3">Thursday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e4">increase</EVENT> was just ahead of analysts' <EVENT class="I_STATE" eid="e5">forecast</EVENT> for a <EVENT class="OCCURRENCE" eid="e6">rise</EVENT> in production of 0.5 percent, and <EVENT class="OCCURRENCE" eid="e7">compared</EVENT> with an upwardly revised <EVENT class="OCCURRENCE" eid="e8">gain</EVENT> of 1.3 percent in <TIMEX3 type="DATE" value="2005-10" tid="t4">October</TIMEX3>.
+
+"Further recoveries in petrochemical and energy-related industries affected by the hurricanes again <EVENT class="OCCURRENCE" eid="e10">contributed</EVENT> significantly to the <EVENT class="OCCURRENCE" eid="e11">increase</EVENT> in output in <TIMEX3 type="DATE" value="2005-11" tid="t5">November</TIMEX3>," the Fed <EVENT class="REPORTING" eid="e12">said</EVENT> in a statement.
+
+Powerful hurricanes in <TIMEX3 type="DATE" value="2005-12-15" tid="t7">late August</TIMEX3> and September <EVENT class="OCCURRENCE" eid="e13">played</EVENT> <EVENT class="OCCURRENCE" eid="e14">havoc</EVENT> with US oil drilling and refining activities in the Gulf of Mexico and on the southern coast.
+
+Manufacturing output <EVENT class="OCCURRENCE" eid="e15">rose</EVENT> 0.3 percent in <TIMEX3 type="DATE" value="2005-11" tid="t9">November</TIMEX3>, the Fed <EVENT class="REPORTING" eid="e16">said</EVENT>. Output at mines <EVENT class="OCCURRENCE" eid="e17">surged</EVENT> 4.8 percent in <TIMEX3 type="DATE" value="2005-11" tid="t10">November</TIMEX3> after <EVENT class="OCCURRENCE" eid="e18">falling</EVENT> in <TIMEX3 type="DURATION" value="2005-12-15T04:00" tid="t11">the previous four months</TIMEX3>, while production at utilities was up 0.3 percent.
+
+Output of consumer goods <EVENT class="OCCURRENCE" eid="e19">fell</EVENT> 0.8 percent but <EVENT class="OCCURRENCE" eid="e20">construction</EVENT> was up 0.5 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000018" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei1000018" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1000018" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

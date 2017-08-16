@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0432</DOCID>
+
+<DCT>SHENYANG, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Colliery flood traps 8 in northeast China</TITLE>
+
+
+<TEXT>
+
+Eight people were trapped when a colliery was <EVENT class="OCCURRENCE" eid="e2">flooded</EVENT> in northeast China's Liaoning Province, the local government <EVENT class="REPORTING" eid="e3">confirmed</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Tuesday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e4">accident</EVENT> was <EVENT class="REPORTING" eid="e5">reported</EVENT> at the Dahenan Colliery in Huazi Township in Dengta, a city about 50 kilometers south of the provincial capital Shenyang.
+
+A spokesman of the provincial work safety administration <EVENT class="REPORTING" eid="e6">said</EVENT> reports of the flood were <EVENT class="OCCURRENCE" eid="e7">received</EVENT> at <TIMEX3 type="DATE" value="2006-11-14" tid="t2">11:30 a.m.</TIMEX3> and it was not clear whether the victims were still alive.
+
+He did not <EVENT class="OCCURRENCE" eid="e10">give</EVENT> the exact time of the <EVENT class="OCCURRENCE" eid="e11">accident</EVENT>.
+
+Rescue work is underway and a team of reporters from Xinhua's Liaoning provincial bureau are on their way to the site.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0341</DOCID>
+
+<DCT>SANTIAGO, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chile reaffirms sovereignty over disputed sea territories</TITLE>
+
+
+<TEXT>
+
+Chile <EVENT class="OCCURRENCE" eid="e1">reiterated</EVENT> <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Thursday</TIMEX3> it will <EVENT class="ASPECTUAL" eid="e2">continue</EVENT> <EVENT class="OCCURRENCE" eid="e3">exercising</EVENT> sovereignty and jurisdiction over a disputed area in the Pacific Ocean, <EVENT class="OCCURRENCE" eid="e4">defying</EVENT> a recent bill <EVENT class="OCCURRENCE" eid="e5">approved</EVENT> by Peru's Congress that <EVENT class="I_STATE" eid="e6">seeks</EVENT> to <EVENT class="OCCURRENCE" eid="e7">redraw</EVENT> maritime borders between the two countries.
+
+"I've just <EVENT class="OCCURRENCE" eid="e8">handed</EVENT> over to the Peruvian Ambassador to Chile a diplomatic note of our country," <EVENT class="REPORTING" eid="e10">said</EVENT> Chilean Foreign Minister Ignacio Walker ahead of a cabinet <EVENT class="OCCURRENCE" eid="e11">meeting</EVENT>.
+
+The note <EVENT class="OCCURRENCE" eid="e12">reiterated</EVENT> "what already is <EVENT class="STATE" eid="e13">known</EVENT> to all, in the sense that we will strictly <EVENT class="OCCURRENCE" eid="e14">abide</EVENT> by international law, exercising sovereignty and jurisdiction over what is Chilean territory," <EVENT class="REPORTING" eid="e15">said</EVENT> the minister.
+
+<TIMEX3 type="DATE" value="2005-11-03" tid="t2">Earlier Thursday</TIMEX3>, the Peruvian Congress <EVENT class="OCCURRENCE" eid="e16">approved</EVENT> a bill that claims sovereignty over a sea area covering 35,000 square kilometers of the Pacific Ocean along the South American coastline, which <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">currently</TIMEX3> belongs to Chile.
+
+From <TIMEX3 type="DATE" value="1879" tid="t4">1879</TIMEX3> to 1883, Chile <EVENT class="OCCURRENCE" eid="e18">fought</EVENT> the <EVENT class="OCCURRENCE" eid="e19">War</EVENT> of Pacific against Peru and Bolivia, <EVENT class="OCCURRENCE" eid="e20">winning</EVENT> Bolivia's only sea outlet Antofagasta.
+
+<EVENT class="REPORTING" eid="e22">According</EVENT> to the Chilean government, Chile's border with Peru was already <EVENT class="I_ACTION" eid="e23">resolved</EVENT> in the <TIMEX3 type="DATE" value="1952" tid="t5">1952</TIMEX3> and 1954 treaties. But Peru <EVENT class="REPORTING" eid="e24">claimed</EVENT> that it never <EVENT class="OCCURRENCE" eid="e25">signed</EVENT> any maritime demarcation pact with Chile. Relations between the two countries have been <EVENT class="OCCURRENCE" eid="e26">strained</EVENT> recently due to the sea border <EVENT class="OCCURRENCE" eid="e28">dispute</EVENT>.
+
+On <TIMEX3 type="DATE" value="2005-11-02" tid="t8">Wednesday</TIMEX3>, Chilean President Ricardo Lagos <EVENT class="OCCURRENCE" eid="e29">reaffirmed</EVENT> that "Chile will <EVENT class="ASPECTUAL" eid="e30">continue</EVENT> <EVENT class="REPORTING" eid="e31">claiming</EVENT> sovereignty over its maritime territory."
+
+Following the <EVENT class="OCCURRENCE" eid="e32">decision</EVENT> by the Peruvian Congress on <TIMEX3 type="DATE" value="2005-11-10" tid="t9">Thursday</TIMEX3>, security has been <EVENT class="OCCURRENCE" eid="e33">tightened</EVENT> around the premises of the Peruvian Embassy in Santiago.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei29" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei32" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

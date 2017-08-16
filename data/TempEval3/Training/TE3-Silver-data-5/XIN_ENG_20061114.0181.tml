@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0181</DOCID>
+
+<DCT>KABUL, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Afghan army kills 1 insurgent, captures 6</TITLE>
+
+
+<TEXT>
+
+Troops of Afghanistan National Army (ANA) <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> one suspected militant and <EVENT class="OCCURRENCE" eid="e2">arrested</EVENT> six others in the restive southern region, a press release of the Afghan Defense Ministry <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Tuesday</TIMEX3>.
+
+"Personnel of ANA <EVENT class="OCCURRENCE" eid="e5">killed</EVENT> one rebel in Sangin district of Helmand province on <TIMEX3 type="DATE" value="2006-11-12" tid="t2">Sunday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e6">arrested</EVENT> four others while two more rebels were <EVENT class="OCCURRENCE" eid="e7">captured</EVENT> in Trinkot, the provincial capital of Uruzgan on <TIMEX3 type="DATE" value="2006-11-14" tid="t4">the same day</TIMEX3>," the press release <EVENT class="OCCURRENCE" eid="e8">added</EVENT>.
+
+However, it <EVENT class="OCCURRENCE" eid="e9">declined</EVENT> to <EVENT class="REPORTING" eid="e10">say</EVENT> if there were any casualties on ANA 's side.
+
+Insurgency and continued <EVENT class="OCCURRENCE" eid="e12">violence</EVENT> in Afghanistan have <EVENT class="REPORTING" eid="e13">claimed</EVENT> the lives of 3,700 people including civilians since <TIMEX3 type="DATE" value="2006-01" tid="t5">January 2006</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+
+
+
+
+</TimeML>

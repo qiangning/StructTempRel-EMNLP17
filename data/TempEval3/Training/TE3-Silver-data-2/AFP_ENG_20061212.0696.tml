@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061212.0696</DOCID>
+
+<DCT>NANTES, France, <TIMEX3 tid="t0" type="TIME" value="2006-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Nantes make Barthez an offer</TITLE>
+
+
+<TEXT>
+
+Fabien Barthez, last <EVENT class="PERCEPTION" eid="e1">seen</EVENT> on a football pitch keeping goal for France in the World Cup final in Berlin in <TIMEX3 type="DATE" value="2006-07" tid="t1">July</TIMEX3>, has reportedly been <EVENT class="OCCURRENCE" eid="e2">offered</EVENT> a contract with French side Nantes.
+
+Barthez, out of contract with Marseille since <TIMEX3 type="DATE" value="2006-12-12" tid="t2">the end of last season</TIMEX3>, is <EVENT class="I_STATE" eid="e3">wanted</EVENT> by Nantes to <EVENT class="OCCURRENCE" eid="e4">replace</EVENT> Serb keeper Vladamir Stojkovic, who is keen to <EVENT class="OCCURRENCE" eid="e5">leave</EVENT>.
+
+<EVENT class="REPORTING" eid="e6">According</EVENT> to France Inter radio Barthez' lawyers will <EVENT class="OCCURRENCE" eid="e7">study</EVENT> the <EVENT class="OCCURRENCE" eid="e8">deal</EVENT> which is for <TIMEX3 type="DURATION" value="2006-12-12" tid="t3">an initial six months</TIMEX3> with an option of a <TIMEX3 type="DURATION" value="P2Y" tid="t4">two year</TIMEX3> extension, on <TIMEX3 type="DATE" value="2006-12-13" tid="t5">Wednesday</TIMEX3>.
+
+Nantes manager Georges Eo <EVENT class="OCCURRENCE" eid="e9">revealed</EVENT> at the <EVENT class="ASPECTUAL" eid="e10">start</EVENT> of <TIMEX3 type="DATE" value="2006-12-12" tid="t6">the week</TIMEX3> that he had been in contact with the 1998 World Cup winner.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000008" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei1000008" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1000008" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

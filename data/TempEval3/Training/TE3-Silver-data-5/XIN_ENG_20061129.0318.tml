@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0318</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>It will be very difficult for us: Qatari tennis coach</TITLE>
+
+
+<TEXT>
+
+Qatari tennis team will <EVENT class="I_ACTION" eid="e1">face</EVENT> an uphill <EVENT class="OCCURRENCE" eid="e2">battle</EVENT> but never <EVENT class="OCCURRENCE" eid="e3">give</EVENT> up easily at the upcoming Asiad tennis tournament, <EVENT class="REPORTING" eid="e4">said</EVENT> Qatar's Portuguese tennis coach Luis de Sousa on <TIMEX3 type="DATE" value="2006-11-28" tid="t1">Tuesday</TIMEX3>.
+
+"It will be very difficult for us. The team is very young. We <EVENT class="STATE" eid="e5">have</EVENT> three players under <TIMEX3 type="DATE" value="1916" tid="t2">16</TIMEX3>. Our goal is to <EVENT class="OCCURRENCE" eid="e6">represent</EVENT> Qatar and to <EVENT class="I_ACTION" eid="e7">dignify</EVENT> the name," Sousa <EVENT class="REPORTING" eid="e8">said</EVENT> after the team had a training session at the Khalifa Tennis Courts.
+
+"We have two teenage players who <EVENT class="OCCURRENCE" eid="e11">live</EVENT> in Barcelona and <EVENT class="OCCURRENCE" eid="e12">go</EVENT> to the tennis academy. The other two boys <EVENT class="OCCURRENCE" eid="e13">went</EVENT> to Spain <TIMEX3 type="DATE" value="2006-W45" tid="t3">three weeks ago</TIMEX3> for preparation.
+
+"The surface at Khalifa Courts is perfect for us because we <EVENT class="OCCURRENCE" eid="e14">train</EVENT> here practically every day."
+
+The 15th Doha Asian Games tennis tournament will be <EVENT class="OCCURRENCE" eid="e15">held</EVENT> from <TIMEX3 type="DATE" value="2006-11-29T04:00" tid="t5">December 4 to 14</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

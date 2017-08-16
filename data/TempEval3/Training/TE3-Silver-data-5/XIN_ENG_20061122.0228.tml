@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0228</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Uzbekistan pulls out of inaugural Asian Hopman Cup in India</TITLE>
+
+
+<TEXT>
+
+Uzbekistan have <EVENT class="OCCURRENCE" eid="e1">withdrawn</EVENT> from the inaugural Asian Hopman Cup in India to <EVENT class="OCCURRENCE" eid="e2">focus</EVENT> on the 15th Asian Games, the organisers <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-22" tid="t1">Wednesday</TIMEX3>.
+
+Philippines have <EVENT class="OCCURRENCE" eid="e4">replaced</EVENT> Uzbekistan in the mixed team event <EVENT class="ASPECTUAL" eid="e5">starting</EVENT> on <TIMEX3 type="DATE" value="2006-11-23" tid="t2">Thursday</TIMEX3> whose winners <EVENT class="I_STATE" eid="e6">qualify</EVENT> for the Hopman Cup to be <EVENT class="OCCURRENCE" eid="e7">held</EVENT> in Perth, Australia from <TIMEX3 type="DATE" value="2005-12-30" tid="t3">Dec. 30</TIMEX3>.
+
+Hosts India, China and Japan have been <EVENT class="OCCURRENCE" eid="e8">drawn</EVENT> in Group A and Chinese Taipei, Thailand and Philippines in Group B.
+
+The two group winners will <EVENT class="OCCURRENCE" eid="e9">meet</EVENT> in <TIMEX3 type="DATE" value="2006-11-26" tid="t4">Sunday</TIMEX3>'s final.
+
+Indian Davis Cup captain Leander Paes had already <EVENT class="OCCURRENCE" eid="e10">pulled</EVENT> out to <EVENT class="OCCURRENCE" eid="e11">recover</EVENT> from a finger injury before the Asian Games being <EVENT class="OCCURRENCE" eid="e13">held</EVENT> in Doha, Qatar from <TIMEX3 type="DATE" value="2006-12-01" tid="t5">Dec. 1</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

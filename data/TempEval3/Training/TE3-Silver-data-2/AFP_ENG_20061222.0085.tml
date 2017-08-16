@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061222.0085</DOCID>
+
+<DCT>KATHMANDU, Nepal, <TIMEX3 tid="t0" type="TIME" value="2006-12-22" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 22 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Nepal to recruit ex-Gurkhas for initial arms monitoring</TITLE>
+
+
+<TEXT>
+
+Nepal's government and Maoist rebels have <EVENT class="I_ACTION" eid="e1">agreed</EVENT> for former Gurkha soldiers to <EVENT class="OCCURRENCE" eid="e2">monitor</EVENT> a ceasefire in the Himalayan nation until the <EVENT class="OCCURRENCE" eid="e3">arrival</EVENT> of a full United Nations team, officials <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-12-22" tid="t1">Friday</TIMEX3>.
+
+"The <EVENT class="OCCURRENCE" eid="e5">meeting</EVENT> between the government, the UN and the Maoists on <TIMEX3 type="TIME" value="2006-12-21TEV" tid="t2">Thursday evening</TIMEX3> <EVENT class="I_ACTION" eid="e6">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e7">deploy</EVENT> ex-Gurkha soldiers to <EVENT class="ASPECTUAL" eid="e8">begin</EVENT> the registration and verification of arms and armies," Maoist negotiator Dinanath Sharma <EVENT class="REPORTING" eid="e9">told</EVENT> AFP.
+
+"The retired soldiers will be <EVENT class="I_ACTION" eid="e10">assisting</EVENT> in the arms management until the full UN monitoring mission <EVENT class="OCCURRENCE" eid="e11">arrives</EVENT> in Nepal," <EVENT class="REPORTING" eid="e12">said</EVENT> Sharma.
+
+Under a peace <EVENT class="OCCURRENCE" eid="e13">deal</EVENT> <EVENT class="I_ACTION" eid="e14">agreed</EVENT> <TIMEX3 type="DATE" value="2006-11" tid="t3">last month</TIMEX3> that <EVENT class="ASPECTUAL" eid="e15">ended</EVENT> a decade of civil <EVENT class="OCCURRENCE" eid="e16">war</EVENT>, the government <EVENT class="I_ACTION" eid="e17">agreed</EVENT> to <EVENT class="I_ACTION" eid="e18">let</EVENT> the Maoists <EVENT class="OCCURRENCE" eid="e19">enter</EVENT> parliament and government in return for <EVENT class="OCCURRENCE" eid="e20">placing</EVENT> their arms and fighters in camps under UN supervision.
+
+But UN monitors are not <EVENT class="OCCURRENCE" eid="e22">slated</EVENT> to <EVENT class="ASPECTUAL" eid="e23">start</EVENT> <EVENT class="OCCURRENCE" eid="e24">arriving</EVENT> in Nepal before <TIMEX3 type="DATE" value="2007-01" tid="t4">next month</TIMEX3>, and will not immediately have the capacity to <EVENT class="OCCURRENCE" eid="e26">cover</EVENT> all the rebel camps.
+
+Gurkha soldiers -- from special regiments of Nepali soldiers in the Indian and British armies -- have a long history of UN peacekeeping missions.
+
+Sharma <EVENT class="REPORTING" eid="e28">said</EVENT> that a total of 111 ex-Gurkha servicemen who have <EVENT class="OCCURRENCE" eid="e29">retired</EVENT> from the British and Indian armies in <TIMEX3 type="DURATION" value="P3Y" tid="t5">the past three years</TIMEX3> would be <EVENT class="OCCURRENCE" eid="e30">recruited</EVENT>.
+
+<TIMEX3 type="DATE" value="2006-W51" tid="t6">Earlier this week</TIMEX3> Ian Martin, the UN chief's personal representative to the peace process, <EVENT class="REPORTING" eid="e31">said</EVENT> that formation of a Gurkha interim task force would <EVENT class="OCCURRENCE" eid="e32">make</EVENT> it possible for the early <EVENT class="ASPECTUAL" eid="e33">start</EVENT> of the arms and armies verification process while UN monitoring strength was <EVENT class="OCCURRENCE" eid="e34">built</EVENT> up.
+
+Martin <EVENT class="REPORTING" eid="e35">said</EVENT> that an initial party of 35 UN monitors would <EVENT class="OCCURRENCE" eid="e36">arrive</EVENT> by mid-January 2007.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei31" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei31" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="INCLUDES" />
+<TLINK lid="l36" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

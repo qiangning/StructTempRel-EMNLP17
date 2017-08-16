@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051203.0162</DOCID>
+
+<DCT>BRATISLAVA, <TIMEX3 tid="t0" type="TIME" value="2005-12-03" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 3 , 2005</TIMEX3></DCT>
+
+<TITLE>Hrbaty replaces Beck in Slovak doubles</TITLE>
+
+
+<TEXT>
+
+Slovak Dominik Hrbaty has <EVENT class="OCCURRENCE" eid="e1">replaced</EVENT> Karol Beck in <EVENT class="OCCURRENCE" eid="e2">doubles</EVENT> for <TIMEX3 type="DATE" value="2005-12-10" tid="t1">Saturday</TIMEX3>'s rubber against Croatia at the Davis Cup final.
+
+Officials <EVENT class="REPORTING" eid="e3">announced</EVENT> the expected <EVENT class="OCCURRENCE" eid="e4">change</EVENT>, which will <EVENT class="OCCURRENCE" eid="e5">send</EVENT> Hrbaty into the match alongside teammate Michael Mertinak. Croatia will <EVENT class="OCCURRENCE" eid="e7">field</EVENT> Mario Ancic and Ivan Ljubicic in a tie which stands level at 1-1.
+
+Beck had also been <EVENT class="OCCURRENCE" eid="e8">replaced</EVENT> by veteran Karol Kucera in <TIMEX3 type="DATE" value="2005-12-02" tid="t2">Friday</TIMEX3>'s opening singles tie.
+
+He had been <EVENT class="OCCURRENCE" eid="e10">suffering</EVENT> with a left knee injury during the closing stages of the ATP season, and is also the subject of unconfirmed reports of a positive <EVENT class="OCCURRENCE" eid="e12">test</EVENT> for a banned substance at his country's Davis Cup quarter-final victory over Argentina in <TIMEX3 type="DATE" value="2005-09" tid="t3">September</TIMEX3>.
+
+Ljubicic <EVENT class="OCCURRENCE" eid="e13">stormed</EVENT> past Kucera 6-3, 6-4, 6-3 to <EVENT class="OCCURRENCE" eid="e14">put</EVENT> the visitors into early command <TIMEX3 type="DATE" value="2005-12-09" tid="t5">Friday</TIMEX3> before Hrbaty <EVENT class="OCCURRENCE" eid="e15">levelled</EVENT> for the hosts with a 7-6 (7-4), 6-3, 6-7 (4-7), 6-4 <EVENT class="OCCURRENCE" eid="e16">victory</EVENT> over Ancic.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

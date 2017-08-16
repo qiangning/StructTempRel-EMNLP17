@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051119.0158</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>New guidelines on public toilet unveiled in Singapore</TITLE>
+
+
+<TEXT>
+
+Singapore women will <EVENT class="OCCURRENCE" eid="e1">benefit</EVENT> from the new guidelines on public toilet <EVENT class="OCCURRENCE" eid="e2">unveiled</EVENT> by the National Environment Agency, Channel NewsAsia <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="TIME" value="2005-11-12TNI" tid="t1">Saturday night</TIMEX3>.
+
+Under the new guidelines, there will be five toilet cubicles for women in medium-sized establishments such as bars, <EVENT class="OCCURRENCE" eid="e4">equaling</EVENT> the total number of urinals and cubicles for men.
+
+Women will <EVENT class="STATE" eid="e5">have</EVENT> more toilet cubicles than men <EVENT class="OCCURRENCE" eid="e6">do</EVENT> in such places as convention halls and cinemas where a large number of people tend to <EVENT class="OCCURRENCE" eid="e7">use</EVENT> toilets concurrently in certain periods of time.
+
+The new guidelines, as part of Singapore's celebration of the World Toilet Day on <TIMEX3 type="DATE" value="2005-11-26" tid="t2">Saturday</TIMEX3>, are <EVENT class="I_STATE" eid="e9">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e10">change</EVENT> the situation of insufficient female toilets in some facilities in the city state.
+
+In late <TIMEX3 type="DATE" value="2005-08" tid="t3">August this year</TIMEX3>, Singapore <EVENT class="REPORTING" eid="e11">announced</EVENT> the <EVENT class="OCCURRENCE" eid="e12">set</EVENT> up of the world's first Toilet College, which <EVENT class="I_STATE" eid="e13">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e14">offer</EVENT> <EVENT class="OCCURRENCE" eid="e15">courses</EVENT> like ecological sanitation, restroom maintenance, as well as toilet design and architecture.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

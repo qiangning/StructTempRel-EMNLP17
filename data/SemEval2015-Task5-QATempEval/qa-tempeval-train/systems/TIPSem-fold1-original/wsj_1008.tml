@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_1008</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891026-0048 = 891026 891026-0048.
+Business Brief -- Lawrence Insurance Group Inc.: @ Houston Reinsurance Firm @ Is Acquired for $28 Million 10/26/89 WALL STREET JOURNAL (J) LWR TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+</EXTRAINFO>
+
+
+
+<TEXT>
+Lawrence Insurance Group Inc. <EVENT class="REPORTING" eid="e1">said</EVENT> it <EVENT class="OCCURRENCE" eid="e2">acquired</EVENT> United Republic Reinsurance Co., a Houston property and casualty reinsurance company, from United Savings Association of Texas for $28 million.
+
+Lawrence Insurance also <EVENT class="OCCURRENCE" eid="e3">sold</EVENT> 3.2 million of its shares for $7.125 each to its parent, Lawrence Group Inc. Lawrence Insurance, based in Albany, N.Y., <EVENT class="I_STATE" eid="e4">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e5">use</EVENT> the $22.5 million in proceeds to <EVENT class="I_ACTION" eid="e6">help</EVENT> <EVENT class="OCCURRENCE" eid="e7">finance</EVENT> the <EVENT class="OCCURRENCE" eid="e8">acquisition</EVENT> of United Republic.
+
+By <EVENT class="OCCURRENCE" eid="e9">acquiring</EVENT> the shares, Lawrence Group <EVENT class="OCCURRENCE" eid="e11">increased</EVENT> its stake in Lawrence Insurance to 93.2% from 91.2%. Lawrence Insurance <EVENT class="OCCURRENCE" eid="e12">underwrites</EVENT> mostly primary insurance, a company spokesman <EVENT class="REPORTING" eid="e13">said</EVENT>. A reinsurance company effectively <EVENT class="OCCURRENCE" eid="e14">insures</EVENT> insurance companies that wish to <EVENT class="OCCURRENCE" eid="e15">spread</EVENT> the risk of a particular policy.
+
+Lawrence Group also owns Lawrence Agency Corp., Schenectady, N.Y., an insurance agency and brokerage.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l5" relType="INCLUDES" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei5" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei7" />
+<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei8" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei11" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei11" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei13" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei13" />
+<TLINK lid="l17" relType="INCLUDES" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei14" />
+<TLINK lid="l19" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+</TimeML>
+

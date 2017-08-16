@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061216.0296</DOCID>
+
+<DCT>JOHANNESBURG, <TIMEX3 tid="t0" type="TIME" value="2006-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>South African cricket championship scores</TITLE>
+
+
+<TEXT>
+
+Scores after <TIMEX3 type="DATE" value="P3D" tid="t1">third day</TIMEX3> of South African four-day cricket championship <EVENT class="OCCURRENCE" eid="e1">matches</EVENT> on <TIMEX3 type="DATE" value="2006-12-23" tid="t3">Saturday</TIMEX3>:
+
+At Newlands, Cape Town
+
+Cape Cobras v Highveld Lions
+
+Lions 508 in 155.5 overs (J.Ontong 155, N.McKenzie 135, V. van Jaarsveld 54; M.Zondeki 4-82). Cobras 215 in 57.4 overs (R.Kleinveldt 63; C.Henderson 6-87, F. de Wet 3-57) and 128 in 33.1 overs (B.Hector 36; T.Henderson 5-37, C.Henderson 4-40)
+
+Lions <EVENT class="OCCURRENCE" eid="e2">win</EVENT> by innings and 165 runs
+
+At Goodyear Park, Bloemfontein
+
+Free State Eagles v KwaZulu-Natal Dolphins
+
+Eagles 500-5 dec in 147 overs (H.Dippenaar 132, M. van Wyk 88, N.Boje 80 no). Dolphins 170 in 53 overs (A.Amla 45; R.McLaren 5-57, D. du Preez 3-41) and 211 in 69.4 overs (J.Kent 52, D.Brown 51 no; McLaren 4-59, W.Deacon 3-35)
+
+Eagles <EVENT class="OCCURRENCE" eid="e4">win</EVENT> by innings and 119 runs
+
+At SuperSport Park, Centurion
+
+Northern Titans <EVENT class="OCCURRENCE" eid="e6">v</EVENT> Eastern Cape Warriors
+
+Warriors 348 in 113 overs (M.Goodwin 77, L.Meyer 72 no, A.Jacobs 70; J.Morkel 4-59) and 105 in 31 overs (A.Thomas 5-50, M.Morkel 3-23). Titans 195 in 40.4 overs (J.Kemp 100 no; L.Tsotsobe 5-45) and 261-6 in 69.5 overs (F. du Plessis 103, M. van Jaarsveld 52; J.Botha 3-60)
+
+Titans <EVENT class="OCCURRENCE" eid="e7">win</EVENT> by four wickets
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

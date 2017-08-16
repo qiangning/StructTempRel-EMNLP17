@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061204.0685</DOCID>
+
+<DCT>HAMBURG, Germany, <TIMEX3 tid="t0" type="TIME" value="2006-12-05" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 5 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>CSKA look to slip past hapless Hamburg</TITLE>
+
+
+<TEXT>
+
+Goal-shy CSKA Moscow's Champions League fate is out of their hands as they <EVENT class="OCCURRENCE" eid="e1">head</EVENT> into <TIMEX3 type="DATE" value="2006-12-06" tid="t1">Wednesday</TIMEX3>'s group G match against SV Hamburg.
+
+CSKA, who have <EVENT class="OCCURRENCE" eid="e3">scored</EVENT> just two goals in their five games, are two points behind Arsenal and FC Porto, who <EVENT class="OCCURRENCE" eid="e4">defeated</EVENT> them 2-0 in their last match, and the 2005 UEFA Cup champions must <EVENT class="OCCURRENCE" eid="e6">defeat</EVENT> German side Hamburg to <EVENT class="STATE" eid="e7">have</EVENT> any chance of <EVENT class="OCCURRENCE" eid="e8">reaching</EVENT> <TIMEX3 type="DATE" value="2006-12-05T16:00" tid="t4">the last 16</TIMEX3>.
+
+If CSKA <EVENT class="OCCURRENCE" eid="e9">win</EVENT> and there is a winner in the Arsenal and Porto <EVENT class="OCCURRENCE" eid="e10">match</EVENT> the Russians will <EVENT class="OCCURRENCE" eid="e11">progress</EVENT> but a draw in the other match in Portugal will <EVENT class="PERCEPTION" eid="e13">see</EVENT> them <EVENT class="OCCURRENCE" eid="e14">eliminated</EVENT>.
+
+For 1983 European champions Hamburg pride is at stake after five straight defeats in Europe's flagship competition.
+
+Hamburg are in this competition for the first time since <TIMEX3 type="DATE" value="2001" tid="t6">2001</TIMEX3> after <EVENT class="ASPECTUAL" eid="e17">finishing</EVENT> third in the Bundesliga last season but it has been an immediately forgettable <EVENT class="OCCURRENCE" eid="e18">campaign</EVENT>.
+
+Along with Levski Sofia, the Germans, second from bottom of the Bundesliga, are the only team yet to <EVENT class="OCCURRENCE" eid="e19">register</EVENT> a point in this season's Champions League.
+
+"We <EVENT class="I_STATE" eid="e20">know</EVENT> it has been a disappointing season but all we can <EVENT class="OCCURRENCE" eid="e21">do</EVENT> is <EVENT class="I_ACTION" eid="e22">try</EVENT> to <EVENT class="OCCURRENCE" eid="e23">make</EVENT> things better from now on," <EVENT class="REPORTING" eid="e24">said</EVENT> Hamburg coach Thomas Doll.
+
+"My future has been <EVENT class="REPORTING" eid="e25">talked</EVENT> about for <TIMEX3 type="DURATION" value="PXW" tid="t8">the past few weeks</TIMEX3> so I do not <EVENT class="I_STATE" eid="e26">think</EVENT> I <EVENT class="I_STATE" eid="e27">need</EVENT> to <EVENT class="OCCURRENCE" eid="e28">add</EVENT> anything else."
+
+If Hamburg, who have <EVENT class="OCCURRENCE" eid="e29">won</EVENT> just once in <TIMEX3 type="DATE" value="1915" tid="t9">15</TIMEX3> league <EVENT class="OCCURRENCE" eid="e30">matches</EVENT>, <EVENT class="OCCURRENCE" eid="e31">fail</EVENT> to <EVENT class="OCCURRENCE" eid="e32">get</EVENT> even a draw against CSKA they will <EVENT class="OCCURRENCE" eid="e34">become</EVENT> only the seventh team in Champions League history to <EVENT class="ASPECTUAL" eid="e35">end</EVENT> up without a point in the group stage.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei34" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei30" relatedToTime="t9" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

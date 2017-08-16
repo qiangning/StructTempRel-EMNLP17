@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051112.0050</DOCID>
+
+<DCT>TAIYUAN, <TIMEX3 tid="t0" type="TIME" value="2005-11-12" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 12 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>sustainable economy</TITLE>
+
+
+<TEXT>
+
+Chinese Vice-Premier Zeng Peiyan <EVENT class="I_ACTION" eid="e1">urged</EVENT> China's major coal-producing province of Shanxi to <EVENT class="OCCURRENCE" eid="e2">turn</EVENT> its economy to a sustainable development track.
+
+During his <EVENT class="OCCURRENCE" eid="e4">inspection</EVENT> of the province from <TIMEX3 type="DATE" value="2005-11-10" tid="t1">Thursday</TIMEX3> through <TIMEX3 type="DATE" value="2005-11-11" tid="t2">Friday</TIMEX3>, Zeng <EVENT class="OCCURRENCE" eid="e5">expressed</EVENT> his appreciation of Shanxi's <EVENT class="OCCURRENCE" eid="e6">contribution</EVENT> to China's economic achievements and <EVENT class="I_ACTION" eid="e7">urged</EVENT> the province to <EVENT class="OCCURRENCE" eid="e8">develop</EVENT> a recycling economy.
+
+Zeng <EVENT class="OCCURRENCE" eid="e9">stressed</EVENT> that Shanxi, which boasts rich resources and favourable industry infrastructure, should <EVENT class="OCCURRENCE" eid="e11">speed</EVENT> up industrial restructuring in accordance with the requirement of <EVENT class="OCCURRENCE" eid="e12">building</EVENT> a resource efficient and environment-friendly society.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000004" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei1000004" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei1000004" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

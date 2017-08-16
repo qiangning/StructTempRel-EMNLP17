@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061229.0325</DOCID>
+
+<DCT>NAIVASHA, Kenya, <TIMEX3 tid="t0" type="TIME" value="2006-12-29" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 29 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Trial for renowned environmentalist's murder opens in Kenya</TITLE>
+
+
+<TEXT>
+
+The murder <EVENT class="OCCURRENCE" eid="e1">trial</EVENT> of four suspects <EVENT class="I_ACTION" eid="e2">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e3">killing</EVENT> a world-renowned British environmentalist and wildlife filmmaker in her bed in Kenya <TIMEX3 type="DATE" value="2006" tid="t1">earlier this year</TIMEX3> <EVENT class="OCCURRENCE" eid="e4">opened</EVENT> in Naivasha on <TIMEX3 type="DATE" value="2006-12-29" tid="t2">Friday</TIMEX3>.
+
+David Chege, Joseph Ndung'u, Philip Mutuku and Allan Githenji <EVENT class="I_STATE" eid="e5">face</EVENT> charges of <EVENT class="OCCURRENCE" eid="e6">murdering</EVENT> and <EVENT class="I_ACTION" eid="e7">attempting</EVENT> to <EVENT class="OCCURRENCE" eid="e8">rob</EVENT> Joan Wells Root, 69, the daughter of a colonial-era British settler, in the Kenyan Rift Valley where she was <EVENT class="OCCURRENCE" eid="e9">raised</EVENT> and <EVENT class="OCCURRENCE" eid="e10">lived</EVENT> for <TIMEX3 type="DURATION" value="2006-12-29" tid="t3">many years</TIMEX3> <EVENT class="OCCURRENCE" eid="e11">promoting</EVENT> environmental causes.
+
+The guardsman on duty during the <TIMEX3 type="DATE" value="2006-01-13" tid="t4">January 13</TIMEX3> <EVENT class="OCCURRENCE" eid="e13">incident</EVENT> in Naivasha, 90 kilometers (55 miles) northwest of Nairobi, <EVENT class="REPORTING" eid="e14">told</EVENT> magistrate Nicholas Njagi that none of the men on trial were among those he <EVENT class="PERCEPTION" eid="e15">witnessed</EVENT> <EVENT class="OCCURRENCE" eid="e16">killing</EVENT> the filmmaker.
+
+<EVENT class="REPORTING" eid="e17">According</EVENT> to the guard, Abdi Aziz Diba, two men <EVENT class="OCCURRENCE" eid="e18">carrying</EVENT> a gun and a machete <EVENT class="OCCURRENCE" eid="e19">approached</EVENT> Root's home before midnight in an <EVENT class="I_ACTION" eid="e20">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e21">rob</EVENT> the daughter of coffee farmer and photo safari guide Edmund Thorpe of 57,500 US dollars (43,600 euros).
+
+Root was well known for her conservation efforts and <EVENT class="OCCURRENCE" eid="e23">kept</EVENT> several species of animals, including waterbucks, dik diks and birds, on her compound where hippos were <EVENT class="STATE" eid="e24">known</EVENT> to <EVENT class="OCCURRENCE" eid="e25">gather</EVENT>, residents <EVENT class="REPORTING" eid="e26">said</EVENT>.
+
+With her ex-husband, Alan, she <EVENT class="OCCURRENCE" eid="e27">made</EVENT> several acclaimed nature documentaries in <TIMEX3 type="DATE" value="196" tid="t5">the 1960s</TIMEX3>, 70s and 80s including "Balloon Safari", in which they <EVENT class="OCCURRENCE" eid="e28">used</EVENT> innovative aerial techniques to <EVENT class="OCCURRENCE" eid="e29">capture</EVENT> Kenya's stunning wildlife and landscape.
+
+Naivasha has been rife with animosity between foreign investors, mainly flower farmers, and the local population over access to resources, and has been the scene of several violent <EVENT class="OCCURRENCE" eid="e30">attacks</EVENT> on European residents, although Root's <EVENT class="OCCURRENCE" eid="e31">murder</EVENT> is the first in <TIMEX3 type="DURATION" value="PXM" tid="t6">several months</TIMEX3>.
+
+At least three other Europeans have been <EVENT class="OCCURRENCE" eid="e32">slain</EVENT> in violent robberies in the Rift Valley since <TIMEX3 type="DATE" value="2004-09" tid="t7">September 2004</TIMEX3>, <EVENT class="OCCURRENCE" eid="e33">prompting</EVENT> great unease and major security fears in the expatriate community.
+
+The magistrate <EVENT class="OCCURRENCE" eid="e34">adjourned</EVENT> the <EVENT class="OCCURRENCE" eid="e35">trial</EVENT> until <TIMEX3 type="DATE" value="2006-12-29T23:00" tid="t8">January 23 next year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000004" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei31" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei35" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei33" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1000004" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei17" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei27" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei4" relatedToEventInstance="ei1000004" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l48" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

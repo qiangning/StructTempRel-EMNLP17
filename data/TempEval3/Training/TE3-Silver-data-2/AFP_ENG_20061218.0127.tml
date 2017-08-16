@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061218.0127</DOCID>
+
+<DCT>FRANKFURT, <TIMEX3 tid="t0" type="TIME" value="2006-12-18" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 18 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>German government expresses confidence in Siemens directors</TITLE>
+
+
+<TEXT>
+
+German Economy Minister Michael Glos <EVENT class="REPORTING" eid="e1">said</EVENT> in a newspaper <EVENT class="OCCURRENCE" eid="e2">interview</EVENT> <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3> that he <EVENT class="STATE" eid="e3">had</EVENT> full confidence in the management of engineering giant Siemens, currently at the centre of a bribery and embezzlement probe.
+
+"I still <EVENT class="STATE" eid="e5">have</EVENT> every confidence in Siemens' management," Glos <EVENT class="REPORTING" eid="e6">told</EVENT> the daily Frankfurter Allgemeine Zeitung.
+
+But he <EVENT class="OCCURRENCE" eid="e7">added</EVENT>: "The case of Siemens is very unfortunate and clearly <EVENT class="OCCURRENCE" eid="e8">shows</EVENT> that many control instruments either weren't <EVENT class="OCCURRENCE" eid="e9">installed</EVENT> or didn't <EVENT class="OCCURRENCE" eid="e10">function</EVENT>."
+
+<TIMEX3 type="DATE" value="2006-11" tid="t3">Last month</TIMEX3>, prosecutors <EVENT class="OCCURRENCE" eid="e11">launched</EVENT> a massive <EVENT class="OCCURRENCE" eid="e12">probe</EVENT> at Siemens, <EVENT class="OCCURRENCE" eid="e13">raiding</EVENT> the offices and homes of a number of Siemens employees amid suspicions of embezzlement, bribery and tax evasion.
+
+Prosecutors <EVENT class="I_ACTION" eid="e14">allege</EVENT> that the employees concerned are <EVENT class="I_STATE" eid="e15">suspected</EVENT> of <EVENT class="OCCURRENCE" eid="e16">collaborating</EVENT> to <EVENT class="I_ACTION" eid="e17">open</EVENT> slush fund accounts abroad and of <EVENT class="OCCURRENCE" eid="e18">operating</EVENT> a system to <EVENT class="OCCURRENCE" eid="e19">embezzle</EVENT> company money.
+
+Prosecutors <EVENT class="OCCURRENCE" eid="e20">put</EVENT> the sum <EVENT class="OCCURRENCE" eid="e21">held</EVENT> in the accounts at 200 million euros (262 million dollars) and some of that money may have been <EVENT class="OCCURRENCE" eid="e22">used</EVENT> as bribes to <EVENT class="OCCURRENCE" eid="e23">obtain</EVENT> contracts abroad.
+
+A number of arrest warrants were <EVENT class="OCCURRENCE" eid="e24">issued</EVENT> against seven current and former employees, two of whom have since been <EVENT class="OCCURRENCE" eid="e25">released</EVENT>.
+
+<TIMEX3 type="DATE" value="2006-W50" tid="t5">Last week</TIMEX3>, the Munich prosecutor's office <EVENT class="REPORTING" eid="e26">announced</EVENT> that Thomas Ganswindt, former head of Siemens' information and communications unit, had been <EVENT class="OCCURRENCE" eid="e27">detained</EVENT> as part of the <EVENT class="OCCURRENCE" eid="e28">investigation</EVENT>.
+
+In a weekend newspaper interview, Siemens supervisory board chief Heinrich von Pierer <EVENT class="REPORTING" eid="e30">said</EVENT> he <EVENT class="STATE" eid="e31">had</EVENT> no intention of <EVENT class="OCCURRENCE" eid="e32">stepping</EVENT> down over the deepening <EVENT class="OCCURRENCE" eid="e34">scandal</EVENT>.
+
+"I will not <EVENT class="OCCURRENCE" eid="e35">resign</EVENT>. For me, the question doesn't <EVENT class="OCCURRENCE" eid="e36">arise</EVENT>, because I <EVENT class="STATE" eid="e37">have</EVENT> nothing to feel guilty about," von Pierer <EVENT class="REPORTING" eid="e38">told</EVENT> the Welt am Sonntag newspaper.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei35" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei36" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="AFTER" />
+
+
+
+
+</TimeML>

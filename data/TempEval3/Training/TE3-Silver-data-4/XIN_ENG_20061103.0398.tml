@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0398</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>for African Union</TITLE>
+
+
+<TEXT>
+
+China will <EVENT class="OCCURRENCE" eid="e1">build</EVENT> a conference center for the African Union to <EVENT class="OCCURRENCE" eid="e2">support</EVENT> African countries in their efforts to <EVENT class="OCCURRENCE" eid="e3">strengthen</EVENT> themselves through unity and <EVENT class="OCCURRENCE" eid="e4">support</EVENT> the process of African integration.
+
+Chinese President Hu Jintao <EVENT class="OCCURRENCE" eid="e6">made</EVENT> the remarks here <TIMEX3 type="DATE" value="2006-11-04" tid="t1">Saturday</TIMEX3> when <EVENT class="I_ACTION" eid="e7">addressing</EVENT> the opening <EVENT class="OCCURRENCE" eid="e8">ceremony</EVENT> of the Beijing Summit of the Forum on China-Africa Cooperation (FOCAC).
+
+"To <EVENT class="OCCURRENCE" eid="e9">strengthen</EVENT> unity and cooperation with Africa is a key principle guiding China's foreign policy. China will <EVENT class="ASPECTUAL" eid="e10">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e11">support</EVENT> Africa in <EVENT class="OCCURRENCE" eid="e12">implementing</EVENT> the new partnership for Africa's Development and in its <EVENT class="OCCURRENCE" eid="e13">effort</EVENT> to <EVENT class="OCCURRENCE" eid="e14">strengthen</EVENT> itself through unity, <EVENT class="OCCURRENCE" eid="e15">achieve</EVENT> peace and stability and economic revitalization in the region and <EVENT class="OCCURRENCE" eid="e16">raise</EVENT> its international standing," Hu <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+Forty-one heads of state or government and senior officials of 48 African countries that have diplomatic ties with China, including Prime Minister of Ethiopia which co-chairs FOCAC, Alpha Oumar Konare, chairman of the Commission of the African Union (AU) and representatives from regional and international organizations <EVENT class="OCCURRENCE" eid="e18">attended</EVENT> the landmark gathering highlighting "friendship, peace, cooperation and development".
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

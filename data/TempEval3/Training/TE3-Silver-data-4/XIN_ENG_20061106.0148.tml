@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0148</DOCID>
+
+<DCT>MANAGUA, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Preliminary results show leftist leader leads Nicaragua vote</TITLE>
+
+
+<TEXT>
+
+Leftist Sandinista leader Daniel Ortega, a U.S. Cold War foe, is <EVENT class="OCCURRENCE" eid="e1">heading</EVENT> for victory in Nicaragua's presidential elections, with a partial count on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e3">giving</EVENT> him a lead strong enough to <EVENT class="OCCURRENCE" eid="e4">return</EVENT> to power.
+
+With around 15 percent of polling stations <EVENT class="OCCURRENCE" eid="e5">counted</EVENT>, Ortega <EVENT class="STATE" eid="e6">had</EVENT> 40 percent of <TIMEX3 type="DATE" value="2006-11-12" tid="t2">Sunday</TIMEX3>'s votes, which would <EVENT class="OCCURRENCE" eid="e8">secure</EVENT> him a first-round <EVENT class="OCCURRENCE" eid="e9">win</EVENT>.
+
+Trailing behind was Eduardo Montealegre, of the Nicaraguan Liberal Alliance, who <EVENT class="OCCURRENCE" eid="e10">got</EVENT> about 33 percent of votes counted.
+
+Ortega needs at least 35 percent of the vote and an advantage of 5 percentage points over his closest rival to <EVENT class="I_ACTION" eid="e11">avoid</EVENT> a <EVENT class="OCCURRENCE" eid="e12">runoff</EVENT> in <TIMEX3 type="DATE" value="2006-12" tid="t3">December</TIMEX3>.
+
+The race, <TIMEX3 type="DURATION" value="P16Y" tid="t4">16 years</TIMEX3> after a <EVENT class="OCCURRENCE" eid="e14">U.S.-backed</EVENT> rebellion <EVENT class="I_ACTION" eid="e15">helped</EVENT> <EVENT class="OCCURRENCE" eid="e16">force</EVENT> him from office, was Ortega's fifth consecutive presidential campaign.
+
+Ortega's victory, if <EVENT class="REPORTING" eid="e17">confirmed</EVENT> by final results, would <EVENT class="OCCURRENCE" eid="e19">give</EVENT> Venezuelan President Hugo Chavez a strong ally in the region.
+
+Montealegre, who was Washington's favored candidate, <EVENT class="OCCURRENCE" eid="e20">refused</EVENT> to <EVENT class="I_ACTION" eid="e21">concede</EVENT> defeat and <EVENT class="I_ACTION" eid="e22">insisted</EVENT> he would <EVENT class="OCCURRENCE" eid="e23">force</EVENT> a runoff <EVENT class="OCCURRENCE" eid="e24">vote</EVENT> <TIMEX3 type="DATE" value="2006-12" tid="t5">next month</TIMEX3>.
+
+"In a democracy, that is unacceptable ... We are <EVENT class="OCCURRENCE" eid="e25">going</EVENT> to a second round," he <EVENT class="REPORTING" eid="e26">told</EVENT> supporters.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

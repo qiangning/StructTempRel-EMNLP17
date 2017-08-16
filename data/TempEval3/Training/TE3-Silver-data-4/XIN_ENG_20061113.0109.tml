@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0109</DOCID>
+
+<DCT>KUALA LUMPUR, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Malaysia's IPI up 3.6 pct in September</TITLE>
+
+
+<TEXT>
+
+Malaysia's Industrial Production Index (IPI) for <TIMEX3 type="DATE" value="2006-09" tid="t1">September</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> by 3.6 percent to 136.8 on a year-on-year basis, the Department of Statistics <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2006-11-13" tid="t3">Monday</TIMEX3>.
+
+The positive <EVENT class="OCCURRENCE" eid="e3">growth</EVENT> was <EVENT class="OCCURRENCE" eid="e4">driven</EVENT> by the <EVENT class="OCCURRENCE" eid="e5">increases</EVENT> in the manufacturing and electricity indices, which <EVENT class="OCCURRENCE" eid="e6">grew</EVENT> by 5.9 percent to 143.7 and by 4.2 percent to 154.3 respectively.
+
+The mining index, however, <EVENT class="OCCURRENCE" eid="e8">declined</EVENT> by 5 percent to 111.3, the department <EVENT class="REPORTING" eid="e9">said</EVENT> in a statement <EVENT class="OCCURRENCE" eid="e10">released</EVENT> here.
+
+Compared with <TIMEX3 type="DATE" value="2006-09" tid="t4">the previous month</TIMEX3>, IPI for <TIMEX3 type="DATE" value="2006-09" tid="t5">September</TIMEX3> <EVENT class="OCCURRENCE" eid="e11">decreased</EVENT> by 1 percent.
+
+The decrease was due to the lower indices in all sectors, with the electricity index down 3 percent, mining index down 2.7 percent and manufacturing index, down 0.4 percent.
+
+For <TIMEX3 type="DATE" value="2006-11-13" tid="t6">the third quarter this year</TIMEX3>, the IPI <EVENT class="OCCURRENCE" eid="e14">rose</EVENT> by 5 percent to 137.2 compared with the same period <TIMEX3 type="DATE" value="2005" tid="t7">last year</TIMEX3>.
+
+From <TIMEX3 type="DATE" value="2006-09" tid="t8">January to September 2006</TIMEX3>, the IPI <EVENT class="OCCURRENCE" eid="e15">surged</EVENT> by 5.6 percent to 133.7 as compared with the same period <TIMEX3 type="DATE" value="2005" tid="t10">last year</TIMEX3>.
+
+The IPI is the measure of the rate of change in the production of industrial commodities in real terms over time. These commodities are <EVENT class="I_STATE" eid="e18">obtained</EVENT> from the manufacturing, mining and electricity sectors.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000011" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000015" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000014" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1000015" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei1000015" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei1000014" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei1000014" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei1000011" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1000011" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051115.0291</DOCID>
+
+<DCT>ATHENS, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Greece rules out withdrawal from Afghanistan amid protests</TITLE>
+
+
+<TEXT>
+
+The Greek government <EVENT class="OCCURRENCE" eid="e1">ruled</EVENT> out on <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3> the <EVENT class="OCCURRENCE" eid="e2">withdrawal</EVENT> of its troops <EVENT class="OCCURRENCE" eid="e3">stationed</EVENT> in Afghanistan, <EVENT class="OCCURRENCE" eid="e4">noting</EVENT> that they were there at the <EVENT class="OCCURRENCE" eid="e6">request</EVENT> of the United Nations and that Greece "<EVENT class="STATE" eid="e7">has</EVENT> obligations that it must <EVENT class="OCCURRENCE" eid="e8">observe</EVENT>".
+
+Government spokesman Theodoros Roussopoulos <EVENT class="REPORTING" eid="e9">said</EVENT> that Greece had <EVENT class="OCCURRENCE" eid="e10">sent</EVENT> one company of 128 men from the army engineers' corps to <EVENT class="OCCURRENCE" eid="e11">support</EVENT> road building networks and <EVENT class="OCCURRENCE" eid="e12">provide</EVENT> humanitarian and public benefit services and, since <TIMEX3 type="DATE" value="2005-08" tid="t2">August this year</TIMEX3>, an additional 45 troops to <EVENT class="OCCURRENCE" eid="e13">provide</EVENT> services to the 291st mobile hospital.
+
+From <TIMEX3 type="DATE" value="2005-12-01" tid="t3">Dec. 1</TIMEX3>, meanwhile, another 44 Greek Air force officers will be <EVENT class="OCCURRENCE" eid="e14">sent</EVENT> to the area to <EVENT class="OCCURRENCE" eid="e15">take</EVENT> over the rotating <EVENT class="OCCURRENCE" eid="e17">command</EVENT> of Kabul airport.
+
+Also in the day, members of the "<EVENT class="OCCURRENCE" eid="e18">Stop</EVENT> the War" coalition <EVENT class="OCCURRENCE" eid="e19">held</EVENT> a <EVENT class="OCCURRENCE" eid="e20">protest</EVENT> outside the Greek defense ministry in Athens over the presence of Greek troops among the NATO mission in Afghanistan.
+
+The <EVENT class="OCCURRENCE" eid="e21">protest</EVENT> was <EVENT class="OCCURRENCE" eid="e22">organized</EVENT> only <TIMEX3 type="DURATION" value="P1D" tid="t4">one day</TIMEX3> after two Greek soldiers <EVENT class="OCCURRENCE" eid="e23">stationed</EVENT> in Afghanistan were <EVENT class="OCCURRENCE" eid="e24">injured</EVENT> during an <EVENT class="OCCURRENCE" eid="e25">attack</EVENT> on a Greek <EVENT class="OCCURRENCE" eid="e26">convoy</EVENT> outside Kabul.
+
+Alexandros Magakis, a former minister under main opposition PASOK, <EVENT class="REPORTING" eid="e27">told</EVENT> reporters that the injury of the two soldiers <EVENT class="OCCURRENCE" eid="e29">highlighted</EVENT> in the most dramatic way the dangers of <EVENT class="OCCURRENCE" eid="e30">escalating</EVENT> Greece's <EVENT class="OCCURRENCE" eid="e31">involvement</EVENT> in the US <EVENT class="OCCURRENCE" eid="e32">war</EVENT> on Afghanistan.
+
+One anti-war activist <EVENT class="I_ACTION" eid="e33">accused</EVENT> the Greek government of <EVENT class="OCCURRENCE" eid="e34">sending</EVENT> troops to Afghanistan, <EVENT class="REPORTING" eid="e35">saying</EVENT> that the government <EVENT class="OCCURRENCE" eid="e36">shared</EVENT> the guilt and responsibility for Bush's crimes.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

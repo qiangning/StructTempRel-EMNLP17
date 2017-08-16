@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970405.0039</DOCID>
+
+<DCT>BOMBAY, <TIMEX3 tid="t0" type="TIME" value="1997-04-05" temporalFunction="false" functionInDocument="CREATION_TIME">April 5 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Indian political crisis to make bourses cautious</TITLE>
+
+
+<TEXT>
+
+India's stock markets will <EVENT class="STATE" eid="e1">remain</EVENT> cautious next week, when the country's 10-month coalition government is to <EVENT class="STATE" eid="e2">face</EVENT> a crucial confidence vote in parliament, analysts <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-05" tid="t3">Saturday</TIMEX3>.
+
+On the Bombay Stock Exchange (BSE), India's oldest and largest, the barometer 30-share sensitive index <EVENT class="OCCURRENCE" eid="e4">shed</EVENT> 113.16 points or three percent during <TIMEX3 type="DURATION" value="P1W" tid="t4">a week</TIMEX3> of sharp swings, to <EVENT class="OCCURRENCE" eid="e6">close</EVENT> on <TIMEX3 type="DATE" value="1997-04-11" tid="t5">Friday</TIMEX3> at 3,550.37 points.
+
+The broadbased 100-share national index was down by 45.22 points or 2.85 percent and <EVENT class="OCCURRENCE" eid="e7">closed</EVENT> at 1,539.75 points.
+
+India was <EVENT class="OCCURRENCE" eid="e8">thrown</EVENT> into a political <EVENT class="OCCURRENCE" eid="e9">crisis</EVENT> <TIMEX3 type="DATE" value="1997-03-30" tid="t6">March 30</TIMEX3> when the Congress (I) party <EVENT class="OCCURRENCE" eid="e10">withdrew</EVENT> its parliamentary support to the United Front government <EVENT class="OCCURRENCE" eid="e11">led</EVENT> by Prime Minister H.D. Deve Gowda.
+
+Hit by the unexpected development, panicky Indian stock market speculators <EVENT class="OCCURRENCE" eid="e13">sold</EVENT> heavily the next day, <EVENT class="OCCURRENCE" eid="e14">pulling</EVENT> the BSE sensex down by more than eight percent in a single day.
+
+Prices <EVENT class="OCCURRENCE" eid="e15">recovered</EVENT> moderately during <TIMEX3 type="DATE" value="1997-04-05" tid="t8">the week</TIMEX3> as domestic and foreign institutional investors <EVENT class="OCCURRENCE" eid="e16">bought</EVENT> at low, attractive price levels.
+
+Analysts and stock brokers <EVENT class="REPORTING" eid="e17">said</EVENT> trading sentiment would be <EVENT class="STATE" eid="e18">cautious</EVENT> when the market <EVENT class="ASPECTUAL" eid="e19">opens</EVENT> <TIMEX3 type="DATE" value="1997-04-07" tid="t9">Monday</TIMEX3>.
+
+"Everybody will be <EVENT class="OCCURRENCE" eid="e20">waiting</EVENT> for the confidence <EVENT class="OCCURRENCE" eid="e21">vote</EVENT> on <TIMEX3 type="DATE" value="1997-04-11" tid="t10">Friday</TIMEX3>. The political situation is the key sentiment for the markets now," <EVENT class="REPORTING" eid="e22">said</EVENT> stock broker Ajit Ambani.
+
+Ambani <EVENT class="REPORTING" eid="e23">said</EVENT> no fresh buying support was <EVENT class="I_STATE" eid="e24">expected</EVENT>. "I do not <EVENT class="I_STATE" eid="e25">expect</EVENT> any big jump or fall in prices <TIMEX3 type="DATE" value="1997-W15" tid="t13">next week</TIMEX3>. Prices are likely to be at current levels," he <EVENT class="REPORTING" eid="e27">said</EVENT>.
+
+Average daily business volumes were up to 190 million dollars from 171 million dollars <TIMEX3 type="DATE" value="1997-W12" tid="t14">the previous week</TIMEX3>.
+
+In <EVENT class="OCCURRENCE" eid="e28">trading</EVENT>, the Associated Cement Co. <EVENT class="OCCURRENCE" eid="e29">lost</EVENT> 103.25 rupees to 1,367.75 rupees, Bombay Dyeing <EVENT class="OCCURRENCE" eid="e30">fell</EVENT> 10.50 rupees to 111.25 rupees, while Glaxo <EVENT class="OCCURRENCE" eid="e31">lost</EVENT> 3.75 rupees to 273.25 rupees.
+
+Reliance Industries <EVENT class="OCCURRENCE" eid="e32">fell</EVENT> 16.25 rupees to 268.75 rupees, State Bank of India <EVENT class="OCCURRENCE" eid="e33">fell</EVENT> 37.50 rupees to 271.50 rupees, Tata Engineering was down eight rupees to 367 rupees, and Tata Steel <EVENT class="OCCURRENCE" eid="e34">fell</EVENT> by 14 rupees to 163.75 rupees.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei19" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l37" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="INCLUDES" />
+<TLINK lid="l40" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="INCLUDES" />
+<TLINK lid="l41" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="INCLUDES" />
+<TLINK lid="l42" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="INCLUDES" />
+<TLINK lid="l43" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei21" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

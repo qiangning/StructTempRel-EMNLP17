@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970413.0115</DOCID>
+
+<DCT>SARAJEVO, <TIMEX3 tid="t0" type="TIME" value="1997-04-13" temporalFunction="false" functionInDocument="CREATION_TIME">April 13 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Pope to honour Turin firemen for Shroud rescue</TITLE>
+
+
+<TEXT>
+
+Pope John Paul II is to <EVENT class="OCCURRENCE" eid="e1">honour</EVENT> three Turin firemen who <EVENT class="OCCURRENCE" eid="e2">risked</EVENT> their lives to <EVENT class="OCCURRENCE" eid="e3">save</EVENT> the Shroud of Turin when a weekend fire <EVENT class="OCCURRENCE" eid="e4">ravaged</EVENT> the Italian city's cathedral, a Vatican spokesman <EVENT class="REPORTING" eid="e5">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-13" tid="t1">Sunday</TIMEX3>.
+
+The pontiff had <EVENT class="OCCURRENCE" eid="e6">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e7">honour</EVENT> the city's fire chief and two firemen on his <EVENT class="OCCURRENCE" eid="e8">return</EVENT> to Italy from Sarajevo, spokesman Joaquim Navarro <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The fire <TIMEX3 type="DATE" value="1997-04-12" tid="t2">Saturday</TIMEX3> partially <EVENT class="OCCURRENCE" eid="e10">destroyed</EVENT> the Guarini chapel which normally <EVENT class="OCCURRENCE" eid="e11">houses</EVENT> the Shroud, revered for centuries by Christians as the cloth which <EVENT class="OCCURRENCE" eid="e13">wrapped</EVENT> the body of Christ after the <EVENT class="OCCURRENCE" eid="e14">crucifixion</EVENT>.
+
+The linen cloth had been <EVENT class="OCCURRENCE" eid="e15">removed</EVENT> from the chapel while restoration work was in progress, and temporarily <EVENT class="OCCURRENCE" eid="e16">placed</EVENT> behind the nearby central altar in the St John the Baptist cathedral.
+
+Two firemen <EVENT class="OCCURRENCE" eid="e17">braved</EVENT> the inferno in the adjacent chapel to <EVENT class="OCCURRENCE" eid="e18">reach</EVENT> the relic, and <EVENT class="OCCURRENCE" eid="e19">used</EVENT> sledgehammers to <EVENT class="OCCURRENCE" eid="e20">smash</EVENT> a thick protective screen before <EVENT class="OCCURRENCE" eid="e21">carrying</EVENT> the priceless cloth from the cathedral, the spokesman <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+The pope, who <EVENT class="OCCURRENCE" eid="e23">held</EVENT> an open-air mass in Sarajevo's main football stadium <TIMEX3 type="DATE" value="1997-04-13" tid="t3">early Sunday</TIMEX3>, was to <EVENT class="OCCURRENCE" eid="e24">return</EVENT> to Italy in <TIMEX3 type="TIME" value="1997-04-13TEV" tid="t4">the evening</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

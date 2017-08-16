@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061112.0285</DOCID>
+
+<DCT>ISLAMABAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Pakistan's airports on "high vigilance" for terror threat</TITLE>
+
+
+<TEXT>
+
+Pakistan has <EVENT class="OCCURRENCE" eid="e1">placed</EVENT> two airports in southwest Balochistan province on red alert and the remaining 34 airports on the state of high vigilance following intelligence reports about threats of terrorist <EVENT class="OCCURRENCE" eid="e2">attacks</EVENT>, the local newspaper Dawn <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3>.
+
+The red alert <EVENT class="OCCURRENCE" eid="e4">put</EVENT> on the airports in the provincial capital Quetta and Gwadar <EVENT class="I_ACTION" eid="e5">indicates</EVENT> a high risk of terror <EVENT class="OCCURRENCE" eid="e6">attacks</EVENT>, a security source <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+The alert was <EVENT class="OCCURRENCE" eid="e8">raised</EVENT> to "red" after <TIMEX3 type="DATE" value="2006-W45" tid="t2">last week</TIMEX3>'s terrorist <EVENT class="OCCURRENCE" eid="e9">attack</EVENT> on an army training camp in Dargai which <EVENT class="OCCURRENCE" eid="e10">left</EVENT> 42 soldiers dead, <EVENT class="OCCURRENCE" eid="e11">sending</EVENT> a wave of panic throughout the country.
+
+A senior official of the Airport Security Force (ASF) <EVENT class="REPORTING" eid="e12">said</EVENT> the "high vigilance" level was between the levels of "red and high alert".
+
+Because of the state of "high vigilance", all <EVENT class="OCCURRENCE" eid="e13">passes</EVENT> have been <EVENT class="ASPECTUAL" eid="e14">canceled</EVENT> and security checks have been <EVENT class="OCCURRENCE" eid="e15">strengthened</EVENT> at all airports, including the Islamabad International Airport.
+
+Vehicles <EVENT class="OCCURRENCE" eid="e16">entering</EVENT> the airport's premises are being <EVENT class="OCCURRENCE" eid="e17">screened</EVENT> by security personnel and passengers and other people are being closely <EVENT class="PERCEPTION" eid="e18">watched</EVENT>.
+
+The high alert was <EVENT class="REPORTING" eid="e19">announced</EVENT> by the federal government following reports that five terrorists considered to be accomplices of the Dargai suicide bomber, were out to <EVENT class="OCCURRENCE" eid="e21">strike</EVENT> " somewhere in the country."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+
+
+
+
+</TimeML>

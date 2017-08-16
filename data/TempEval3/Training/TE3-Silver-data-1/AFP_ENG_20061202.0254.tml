@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061202.0254</DOCID>
+
+<DCT>VATICAN CITY, <TIMEX3 tid="t0" type="TIME" value="2006-12-02" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 2 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Pope distressed over 'unlawful' Chinese ordination</TITLE>
+
+
+<TEXT>
+
+Pope Benedict XVI <EVENT class="OCCURRENCE" eid="e1">learned</EVENT> with "deep distress" of the "unlawful" ordination of a Chinese bishop without papal <EVENT class="OCCURRENCE" eid="e2">approval</EVENT>, the Vatican <EVENT class="REPORTING" eid="e3">said</EVENT> in a statement on <TIMEX3 type="DATE" value="2006-12-02" tid="t1">Saturday</TIMEX3>.
+
+China's state-run Catholic Church on <TIMEX3 type="DATE" value="2006-11-30" tid="t2">Thursday</TIMEX3> ordained Wang Renlei, 36, as Bishop of Xuzhou in the eastern province of Jiangsu. He <EVENT class="STATE" eid="e5">became</EVENT> the fourth bishop <EVENT class="OCCURRENCE" eid="e6">ordained</EVENT> in China <TIMEX3 type="DATE" value="2006" tid="t3">this year</TIMEX3> without the <EVENT class="OCCURRENCE" eid="e7">blessing</EVENT> of the Vatican.
+
+The ordination "is the last of these unlawful ordinations of bishops which have been <EVENT class="OCCURRENCE" eid="e8">tormenting</EVENT> the Catholic Church in China for dozens of years", the Vatican's statement <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+"(They) <EVENT class="OCCURRENCE" eid="e10">create</EVENT> divisions within the diocesan community and trouble the religious sentiments of many priests and worshippers."
+
+These "extremely serious" <EVENT class="OCCURRENCE" eid="e11">acts</EVENT> are the consequence "of a vision of the Church which does not <EVENT class="OCCURRENCE" eid="e12">correspond</EVENT> to the Catholic doctrine and which is <EVENT class="STATE" eid="e13">opposed</EVENT> to the fundamental principles of its hierarchical structure", the statement <EVENT class="ASPECTUAL" eid="e14">continued</EVENT>.
+
+The ordination was <EVENT class="REPORTING" eid="e15">announced</EVENT> at the <EVENT class="OCCURRENCE" eid="e16">start</EVENT> of <TIMEX3 type="DATE" value="2006-12-02" tid="t4">the week</TIMEX3> by China's Catholic Church.
+
+The Vatican <EVENT class="I_ACTION" eid="e17">warned</EVENT> of severe <EVENT class="OCCURRENCE" eid="e18">sanctions</EVENT> in canonical law for such ordinations but did not <EVENT class="REPORTING" eid="e19">say</EVENT> whether Xuzhou's case <EVENT class="OCCURRENCE" eid="e20">fell</EVENT> into this category.
+
+It <EVENT class="OCCURRENCE" eid="e21">praised</EVENT> the majority of Chinese priests and believers for <EVENT class="OCCURRENCE" eid="e22">maintaining</EVENT> strong faith links with Rome.
+
+China's millions of Catholics are <EVENT class="OCCURRENCE" eid="e23">divided</EVENT> between a "patriotic" church, with around four million faithful, and a clandestine church following the Vatican, with around 10 million believers.
+
+The ordination of three Chinese bishops without Vatican <EVENT class="OCCURRENCE" eid="e25">approval</EVENT> in <TIMEX3 type="DATE" value="2006-SP" tid="t5">the spring</TIMEX3> <EVENT class="OCCURRENCE" eid="e26">led</EVENT> the pope to <EVENT class="OCCURRENCE" eid="e27">denounce</EVENT> a "serious violation of religious freedom". This was despite <EVENT class="OCCURRENCE" eid="e28">discussions</EVENT> between Beijing and the Vatican <EVENT class="I_ACTION" eid="e29">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e30">normalising</EVENT> bilateral relations, which were <EVENT class="OCCURRENCE" eid="e31">broken</EVENT> off in <TIMEX3 type="DATE" value="195" tid="t6">the early 1950s</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei31" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970417.0024</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>First Thai ambassdor to WTO dies</TITLE>
+
+
+<TEXT>
+
+The first Thai ambassdor to the World Trade Organization (WTO), Danai Tulalampa, has <EVENT class="OCCURRENCE" eid="e1">died</EVENT> of cancer, a foreign ministry official <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="1997-04-17" tid="t1">Thursday</TIMEX3>.
+
+Danai, 61, who <EVENT class="OCCURRENCE" eid="e3">died</EVENT> <TIMEX3 type="DATE" value="1997-04-14" tid="t2">Monday</TIMEX3>, was <EVENT class="OCCURRENCE" eid="e4">appointed</EVENT> in <TIMEX3 type="DATE" value="1995" tid="t3">early 1995</TIMEX3> as the first Thai ambassdor to the WTO, where he <EVENT class="OCCURRENCE" eid="e5">chaired</EVENT> the agriculture committee before <EVENT class="OCCURRENCE" eid="e7">retiring</EVENT> at age 60.
+
+Before <EVENT class="OCCURRENCE" eid="e8">working</EVENT> at the WTO, he <EVENT class="OCCURRENCE" eid="e9">held</EVENT> posts as deputy permanent secretary of the commerce ministry and director-general of the foreign ministry's economic department.
+
+He also <EVENT class="OCCURRENCE" eid="e11">served</EVENT> as ambassdor to Belgium and to the European Union for <TIMEX3 type="DURATION" value="P4Y" tid="t4">four years</TIMEX3> from <TIMEX3 type="DATE" value="1988" tid="t5">1988</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

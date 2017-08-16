@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0020</DOCID>
+
+<DCT>KARACHI, <TIMEX3 tid="t0" type="TIME" value="2005-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 15 , 2005</TIMEX3></DCT>
+
+<TITLE>England win toss, put Pakistan into bat in third one-dayer</TITLE>
+
+
+<TEXT>
+
+England captain Marcus Trescothick <EVENT class="OCCURRENCE" eid="e1">won</EVENT> his third consecutive <EVENT class="OCCURRENCE" eid="e2">toss</EVENT> and <EVENT class="OCCURRENCE" eid="e3">put</EVENT> Pakistan into bat in the third day-night limited overs international at the National stadium here on <TIMEX3 type="DATE" value="2005-12-15" tid="t1">Thursday</TIMEX3>.
+
+The series is <EVENT class="OCCURRENCE" eid="e4">levelled</EVENT> at 1-1 after England <EVENT class="OCCURRENCE" eid="e5">won</EVENT> the first match by 42 runs, while Pakistan <EVENT class="OCCURRENCE" eid="e7">won</EVENT> the second by seven wickets -- both <EVENT class="OCCURRENCE" eid="e8">played</EVENT> in Lahore.
+
+England <EVENT class="OCCURRENCE" eid="e9">lost</EVENT> batsman Kevin Pietersen <TIMEX3 type="DURATION" value="P2D" tid="t2">two days</TIMEX3> before the match when back and rib cage problems <EVENT class="OCCURRENCE" eid="e11">forced</EVENT> him to <EVENT class="OCCURRENCE" eid="e12">return</EVENT> home.
+
+His place was <EVENT class="OCCURRENCE" eid="e13">taken</EVENT> by Vikram Solanki, who was super-sub in <TIMEX3 type="DATE" value="2005-12-12" tid="t3">Monday</TIMEX3>'s second <EVENT class="OCCURRENCE" eid="e15">match</EVENT>.
+
+Pakistan <EVENT class="OCCURRENCE" eid="e16">included</EVENT> allrounder Shahid Afridi in place of leg-spinner Danish Kaneria from their line-up of the first two <EVENT class="OCCURRENCE" eid="e17">matches</EVENT>.
+
+Afridi <EVENT class="OCCURRENCE" eid="e18">served</EVENT> a ban of one Test and two one-day <EVENT class="OCCURRENCE" eid="e19">matches</EVENT> over <EVENT class="OCCURRENCE" eid="e20">damaging</EVENT> the pitch during the second <EVENT class="OCCURRENCE" eid="e21">Test</EVENT> at Faisalabad.
+
+England: Marcus Trescothick (capt), Andrew Strauss, Paul Collingwood, Andrew Flintoff, Vikram Solanki, Ian Blackwell, Geraint Jones, Matthew Prior, Steve Harmison, James Anderson, Liam Plunkett. Super-sub: Ian Bell
+
+Pakistan: Inzamam-ul-Haq (capt), Salman Butt, Shoaib Malik, Younis Khan, Mohammad Yousuf, Abdul Razzaq, Kamran Akmal, Mohammad Sami, Shahid Afridi, Shoaib Akhtar, Rana Naved-ul-Hasan. Super-sub: Yasir Arafat
+
+Umpires: Rudi Koertzen (RSA) and Tony Hill (NZL)
+
+TV umpire: Zameer Haider (PAK)
+
+Match referee: Jeff Crowe (NZL)
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

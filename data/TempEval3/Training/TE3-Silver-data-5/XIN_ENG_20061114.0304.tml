@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061114.0304</DOCID>
+
+<DCT>KUWAIT CITY, <TIMEX3 tid="t0" type="TIME" value="2006-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Kuwaiti crude oil prices end rising trend</TITLE>
+
+
+<TEXT>
+
+Kuwaiti crude oil prices have <EVENT class="PERCEPTION" eid="e1">seen</EVENT> a halt of <EVENT class="OCCURRENCE" eid="e3">rising</EVENT> trend by <EVENT class="OCCURRENCE" eid="e4">dropping</EVENT> to 53.62 U.S dollars per barrel (dpb) on <TIMEX3 type="DATE" value="2006-11-20" tid="t1">Monday</TIMEX3>, 93 cents lower than that of <TIMEX3 type="DATE" value="2006-11-10" tid="t2">last Friday</TIMEX3>, local media <EVENT class="REPORTING" eid="e5">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-14" tid="t3">Tuesday</TIMEX3>.
+
+Kuwaiti crude oil prices <EVENT class="OCCURRENCE" eid="e6">rose</EVENT> by <TIMEX3 type="DATE" value="1980" tid="t4">80</TIMEX3> and 96 cents per barrel on <TIMEX3 type="DATE" value="2006-11-13" tid="t5">last Monday</TIMEX3> and <TIMEX3 type="DATE" value="2006-11-14" tid="t6">Tuesday</TIMEX3>, or on Nov.6 and <TIMEX3 type="DATE" value="2006-11-07" tid="t7">Nov. 7</TIMEX3>, to <EVENT class="OCCURRENCE" eid="e7">reach</EVENT> 52.88 dpb and 53.84 dpb respectively.
+
+The rising trend <EVENT class="OCCURRENCE" eid="e9">emerged</EVENT> when the prices <EVENT class="OCCURRENCE" eid="e10">surged</EVENT> up by 59 cents to 54.55 dpb on <TIMEX3 type="DATE" value="2006-11-10" tid="t8">Friday</TIMEX3> from <TIMEX3 type="DATE" value="2006-11-09" tid="t9">Thursday</TIMEX3>'s 53.96 dpb.
+
+Local media <EVENT class="I_ACTION" eid="e11">attributed</EVENT> the week-long <EVENT class="OCCURRENCE" eid="e12">rising</EVENT> trend of oil prices to the effect of Kuwait's output slash which <EVENT class="ASPECTUAL" eid="e13">began</EVENT> on Nov.1.
+
+Global crude oil prices <EVENT class="OCCURRENCE" eid="e14">hovered</EVENT> below 59 dollars recently amid warm winter concern, which negatively <EVENT class="OCCURRENCE" eid="e15">affected</EVENT> the Kuwaiti prices, <EVENT class="REPORTING" eid="e16">said</EVENT> local analysts.
+
+With a self-boasted proven oil reserves of about 101.5 billion barrels, Kuwait <TIMEX3 type="DATE" value="PRESENT_REF" tid="t11">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e17">produces</EVENT> 2.3 million barrels of crude oil per day.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000010" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000006" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei1000006" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei1000010" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1000005" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei1000005" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei1000010" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1000006" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei1000005" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei6" relatedToEventInstance="ei1000007" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei1000007" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei7" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

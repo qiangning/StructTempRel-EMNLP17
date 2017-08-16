@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970425.0504</DOCID>
+
+<DCT>KINSHASA, <TIMEX3 tid="t0" type="TIME" value="1997-04-25" temporalFunction="false" functionInDocument="CREATION_TIME">April 25 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Zaire accuses Angola of attacking its territory</TITLE>
+
+
+<TEXT>
+
+The Zairean presidency <EVENT class="I_ACTION" eid="e1">accused</EVENT> Angolan troops of <EVENT class="OCCURRENCE" eid="e2">attacking</EVENT> its southwestern Bas-Zaire province, <EVENT class="OCCURRENCE" eid="e3">sending</EVENT> 1,400 troops to <EVENT class="OCCURRENCE" eid="e4">aid</EVENT> Zaireans rebels <EVENT class="OCCURRENCE" eid="e5">led</EVENT> by Laurent Kabila.
+
+In a statement <EVENT class="OCCURRENCE" eid="e6">broadcast</EVENT> on state radio the presidency <EVENT class="REPORTING" eid="e7">said</EVENT> the troops had <EVENT class="OCCURRENCE" eid="e8">crossed</EVENT> into the Yema municpality near the border with Angola.
+
+"<TIMEX3 type="DATE" value="1997-04-25" tid="t1">Today</TIMEX3>, everyone knows that Angolan troops are <EVENT class="OCCURRENCE" eid="e10">attacking</EVENT> Zaire for no reason and without <EVENT class="REPORTING" eid="e11">declaring</EVENT> war," the statement <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+Angolan troops were also in the area of Tshipaka, in Western Kasai province, a city some 650 kilometres (400 miles) southeast of the capital Kinshasa which Kabila's forces <EVENT class="REPORTING" eid="e14">said</EVENT> <TIMEX3 type="DATE" value="1997-04-23" tid="t2">Wednesday</TIMEX3> they had <EVENT class="OCCURRENCE" eid="e15">captured</EVENT>.
+
+<EVENT class="REPORTING" eid="e16">According</EVENT> to the presidency <EVENT class="OCCURRENCE" eid="e17">statement</EVENT> the Kinshasa authorities will <EVENT class="OCCURRENCE" eid="e18">raise</EVENT> the Angolan incursions with the United Nations, and <EVENT class="OCCURRENCE" eid="e20">ask</EVENT> UN envoy Alioune Blondin Beye to <EVENT class="OCCURRENCE" eid="e21">visit</EVENT> the zones currently <EVENT class="OCCURRENCE" eid="e22">occupied</EVENT> by Angolan forces.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

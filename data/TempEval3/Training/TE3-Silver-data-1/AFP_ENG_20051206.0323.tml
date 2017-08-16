@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0323</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2005-12-06" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 6 , 2005</TIMEX3></DCT>
+
+<TITLE>Wall Street rebounds as oil dips; Dow lifts 0.33 percent</TITLE>
+
+
+<TEXT>
+
+US stocks <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> higher <TIMEX3 type="DATE" value="2005-12-06" tid="t1">Tuesday</TIMEX3> as year-end rally sentiment <EVENT class="OCCURRENCE" eid="e2">returned</EVENT> after a pullback in crude oil futures.
+
+The Dow Jones Industrial Average <EVENT class="OCCURRENCE" eid="e4">rose</EVENT> 35.54 points (0.33 percent) to 10,870.55 and the Nasdaq composite <EVENT class="OCCURRENCE" eid="e5">pushed</EVENT> higher by 11.69 points (0.52 percent) to 2,269.33 in the first exchanges.
+
+On <TIMEX3 type="DATE" value="2005-12-05" tid="t2">Monday</TIMEX3>, the main indexes <EVENT class="ASPECTUAL" eid="e6">ended</EVENT> lower, <EVENT class="OCCURRENCE" eid="e7">hurt</EVENT> by a <EVENT class="OCCURRENCE" eid="e8">rise</EVENT> in oil prices and a <EVENT class="OCCURRENCE" eid="e9">jump</EVENT> in long-term interest rates. However, the stock market in general has been <EVENT class="OCCURRENCE" eid="e10">rallying</EVENT> during <TIMEX3 type="DURATION" value="P5W" tid="t3">the last five weeks</TIMEX3>, <EVENT class="OCCURRENCE" eid="e11">benefiting</EVENT> from data <EVENT class="I_ACTION" eid="e12">pointing</EVENT> to economic strength and oversold conditions.
+
+The positive trend was in force once again at <TIMEX3 type="DATE" value="2005-12-06" tid="t4">Tuesday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e14">opening</EVENT>.
+
+Steve Goldman, chief market strategist at Weeden and Co., <EVENT class="REPORTING" eid="e15">said</EVENT>, "There was some skittishness yesterday about oil and bond prices. But that has <EVENT class="OCCURRENCE" eid="e16">dissipated</EVENT> a bit. We still <EVENT class="STATE" eid="e17">have</EVENT> seasonal factors in the back of every trader's mind."
+
+Bob Dickey at RBC Dain Rauscher <EVENT class="REPORTING" eid="e18">said</EVENT> the market has <EVENT class="OCCURRENCE" eid="e19">held</EVENT> at key levels despite profit <EVENT class="OCCURRENCE" eid="e20">taking</EVENT> in recent sessions, <EVENT class="I_ACTION" eid="e22">suggesting</EVENT> the rally remains intact.
+
+"Any further dips in the market over the next few days are <EVENT class="REPORTING" eid="e26">regarded</EVENT> by us as being great buy points for the <EVENT class="OCCURRENCE" eid="e27">continuation</EVENT> of the year-end rally," he <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051130.0059</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="2005-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Israeli FM vows to rehabilitate Likud party</TITLE>
+
+
+<TEXT>
+
+Israeli Foreign Minister Silvan Shalom, who has <EVENT class="REPORTING" eid="e1">announced</EVENT> <EVENT class="OCCURRENCE" eid="e2">bid</EVENT> for the Likud party leadership, <EVENT class="OCCURRENCE" eid="e3">vowed</EVENT> on <TIMEX3 type="DATE" value="2005-11-30" tid="t1">Wednesday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e4">restore</EVENT> the Likud party to glory if he is <EVENT class="OCCURRENCE" eid="e5">elected</EVENT>, local newspaper Ha'aretz <EVENT class="REPORTING" eid="e6">reported</EVENT>.
+
+"The Likud is in crisis and we cannot sweep under the carpet," <EVENT class="REPORTING" eid="e9">said</EVENT> Shalom, <EVENT class="REPORTING" eid="e10">asserting</EVENT> that he is the only one who can <EVENT class="OCCURRENCE" eid="e11">rehabilitate</EVENT> the three-decade old party and <EVENT class="OCCURRENCE" eid="e12">win</EVENT> the March general <EVENT class="OCCURRENCE" eid="e13">elections</EVENT>.
+
+Shalom <EVENT class="OCCURRENCE" eid="e14">made</EVENT> his vow <TIMEX3 type="DURATION" value="P1D" tid="t3">one day</TIMEX3> after officially <EVENT class="ASPECTUAL" eid="e16">launching</EVENT> his <EVENT class="OCCURRENCE" eid="e17">bid</EVENT> for the Likud leadership, which was <EVENT class="OCCURRENCE" eid="e18">vacated</EVENT> after Israeli Prime Minister Ariel Sharon <EVENT class="OCCURRENCE" eid="e19">quit</EVENT> the party he <EVENT class="OCCURRENCE" eid="e20">co-founded</EVENT> and <EVENT class="OCCURRENCE" eid="e21">formed</EVENT> a new centrist party <EVENT class="OCCURRENCE" eid="e22">named</EVENT> Kadima (Forward) <TIMEX3 type="DATE" value="2005-W47" tid="t4">last week</TIMEX3>.
+
+"I <EVENT class="OCCURRENCE" eid="e23">call</EVENT> on the people in my party to <EVENT class="OCCURRENCE" eid="e24">stay</EVENT> in Likud and to <EVENT class="OCCURRENCE" eid="e25">vote</EVENT> for me in the primaries and to <EVENT class="OCCURRENCE" eid="e26">lead</EVENT> the state," <EVENT class="REPORTING" eid="e27">said</EVENT> Shalom, <EVENT class="OCCURRENCE" eid="e28">indicating</EVENT> that he would <EVENT class="OCCURRENCE" eid="e29">invite</EVENT> Sharon and the Labor party to <EVENT class="OCCURRENCE" eid="e30">join</EVENT> any government under his leadership.
+
+Besides Shalom, two other heavyweights, former premier Benjamin Netanyahu and Defense Minister Shaul Mofaz, are also <EVENT class="OCCURRENCE" eid="e31">vying</EVENT> for the <EVENT class="OCCURRENCE" eid="e32">chairmanship</EVENT>.
+
+<EVENT class="OCCURRENCE" eid="e33">Questioning</EVENT> Netanyahu's lead in the <EVENT class="OCCURRENCE" eid="e35">race</EVENT>, Shalom <EVENT class="REPORTING" eid="e36">said</EVENT> the former premier was <EVENT class="OCCURRENCE" eid="e37">defeated</EVENT> by Labor candidate Ehud Barak in the 1999 elections.
+
+Shalom <EVENT class="OCCURRENCE" eid="e39">called</EVENT> himself a centrist and stabilizing option, <EVENT class="REPORTING" eid="e40">saying</EVENT> that he had been behind much of the <EVENT class="OCCURRENCE" eid="e42">rehabilitation</EVENT> of the Likud after the <TIMEX3 type="DATE" value="1999" tid="t6">1999</TIMEX3> defeat.
+
+Israel will <EVENT class="OCCURRENCE" eid="e43">hold</EVENT> general <EVENT class="OCCURRENCE" eid="e44">elections</EVENT> on <TIMEX3 type="DATE" value="2006-03-28" tid="t7">March 28, 2006</TIMEX3>, in which three major parties, the center-right Likud, center-left Labor and Sharon's Kadima will <EVENT class="OCCURRENCE" eid="e45">compete</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei43" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei39" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei43" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei44" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei40" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei33" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="IS_INCLUDED" />
+<TLINK lid="l51" eventInstanceID="ei39" relatedToEventInstance="ei42" relType="AFTER" />
+
+
+
+
+</TimeML>

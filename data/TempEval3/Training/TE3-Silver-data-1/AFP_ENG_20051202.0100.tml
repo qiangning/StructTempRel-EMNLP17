@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051202.0100</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-12-02" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 2 , 2005</TIMEX3></DCT>
+
+<TITLE>Deadly bacteria spreading through US hospitals</TITLE>
+
+
+<TEXT>
+
+A lethal bacteria which surfaces in people being treated with antibiotics is <EVENT class="OCCURRENCE" eid="e2">spreading</EVENT> in North America and has <EVENT class="OCCURRENCE" eid="e3">grown</EVENT> resistant to drugs, <EVENT class="REPORTING" eid="e4">according</EVENT> to two studies <EVENT class="OCCURRENCE" eid="e5">published</EVENT> <TIMEX3 type="DATE" value="2005-12-02" tid="t1">Friday</TIMEX3> in the New England Journal of Medicine.
+
+According to one of the studies, a new, virulent and resistant <EVENT class="OCCURRENCE" eid="e8">strain</EVENT> of the bacteria Clostridium difficile <EVENT class="OCCURRENCE" eid="e9">broke</EVENT> out in eight US hospital centers between <TIMEX3 type="DATE" value="2000" tid="t2">2000</TIMEX3> and <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3>.
+
+Provoked by antibiotics inside the intestines of hospital patients, the bacteria <EVENT class="OCCURRENCE" eid="e10">showed</EVENT> an ability to <EVENT class="OCCURRENCE" eid="e11">mutate</EVENT> and <EVENT class="OCCURRENCE" eid="e12">increase</EVENT> its resistance to drugs, the report <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+Moreover, the bacteria, which <EVENT class="OCCURRENCE" eid="e14">infects</EVENT> the colon causing severe diarrhea and colitis, a severe inflammation of the intestine, has <EVENT class="ASPECTUAL" eid="e17">begun</EVENT> <EVENT class="I_ACTION" eid="e18">showing</EVENT> up in patients not <EVENT class="OCCURRENCE" eid="e19">taking</EVENT> antibiotics or <EVENT class="OCCURRENCE" eid="e20">visiting</EVENT> hospitals.
+
+Symptoms include watery, malodorous diarrhea and cramps.
+
+A second <EVENT class="OCCURRENCE" eid="e22">study</EVENT> of 1,703 patients in 12 hospitals in Quebec, Canada, <EVENT class="OCCURRENCE" eid="e23">demonstrated</EVENT> the lethality of the bacteria.
+
+Over <TIMEX3 type="DURATION" value="P13Y" tid="t4">13 years</TIMEX3> the incidence of the bacteria <EVENT class="OCCURRENCE" eid="e24">grew</EVENT> fourfold in Quebec, and in <TIMEX3 type="DATE" value="2004" tid="t5">2004</TIMEX3> it <EVENT class="OCCURRENCE" eid="e25">caused</EVENT> the <EVENT class="OCCURRENCE" eid="e26">deaths</EVENT> of 117 people in <TIMEX3 type="DATE" value="P1M" tid="t6">the first month</TIMEX3> after they were <EVENT class="OCCURRENCE" eid="e27">diagnosed</EVENT>. All of the victims were elderly.
+
+"Hospitals <EVENT class="I_STATE" eid="e28">need</EVENT> to be <EVENT class="OCCURRENCE" eid="e29">conducting</EVENT> surveillance and <EVENT class="OCCURRENCE" eid="e30">implementing</EVENT> control measures. And all of us <EVENT class="I_STATE" eid="e31">need</EVENT> to <EVENT class="OCCURRENCE" eid="e32">realize</EVENT> the risk of antibiotic use may be <EVENT class="OCCURRENCE" eid="e33">increasing</EVENT>," <EVENT class="I_ACTION" eid="e34">warned</EVENT> epidemiologist Clifford McDonald of the US Centers for Disiease Control.
+
+Scientists were <EVENT class="OCCURRENCE" eid="e35">concerned</EVENT> that Clostridium difficile -- so-named because of the <EVENT class="OCCURRENCE" eid="e37">difficulty</EVENT> in <EVENT class="OCCURRENCE" eid="e38">detecting</EVENT> it -- had <EVENT class="I_STATE" eid="e39">become</EVENT> very resistant to <EVENT class="OCCURRENCE" eid="e40">fluoroquinolone</EVENT> antibiotics usually <EVENT class="OCCURRENCE" eid="e41">used</EVENT> to <EVENT class="OCCURRENCE" eid="e42">treat</EVENT> such infections.
+
+"If this epidemic strain <EVENT class="ASPECTUAL" eid="e44">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e45">spread</EVENT> (...) it will be important either to <EVENT class="OCCURRENCE" eid="e46">reconsider</EVENT> the <EVENT class="OCCURRENCE" eid="e47">use</EVENT> of fluoroquinolones or to <EVENT class="OCCURRENCE" eid="e48">develop</EVENT> other innovative measures for <EVENT class="OCCURRENCE" eid="e49">controlling</EVENT> C. difficile-associated disease," <EVENT class="REPORTING" eid="e51">said</EVENT> McDonald.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000009" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei51" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei35" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei26" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei1000009" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei45" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei46" relatedToEventInstance="ei51" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei48" relatedToEventInstance="ei51" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei49" relatedToEventInstance="ei51" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei47" relatedToEventInstance="ei51" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei35" relatedToEventInstance="ei51" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei44" relatedToEventInstance="ei51" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei35" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei35" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei35" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei9" relatedToEventInstance="ei1000009" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l53" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l54" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+
+
+
+
+</TimeML>

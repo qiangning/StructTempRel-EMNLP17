@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970427.0116</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="1997-04-27" temporalFunction="false" functionInDocument="CREATION_TIME">April 27 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Air France Europe guarantees 60% of flights despite strike</TITLE>
+
+
+<TEXT>
+
+The management of Air France Europe <EVENT class="REPORTING" eid="e1">said</EVENT> it could <EVENT class="OCCURRENCE" eid="e2">guarantee</EVENT> 60 percent of flights <TIMEX3 type="DATE" value="1997-05-04" tid="t1">Sunday</TIMEX3>, despite a <EVENT class="OCCURRENCE" eid="e3">decision</EVENT> by pilots to <EVENT class="OCCURRENCE" eid="e4">extend</EVENT> a <EVENT class="OCCURRENCE" eid="e5">strike</EVENT> until <TIMEX3 type="DATE" value="1997-04-28" tid="t2">Monday</TIMEX3>.
+
+The most severe <EVENT class="OCCURRENCE" eid="e6">disruption</EVENT> was <EVENT class="I_STATE" eid="e7">expected</EVENT> on flights from Paris' Orly airport to the three main southern cities of Nice, Marseille and Toulouse.
+
+Almost all these flights were <EVENT class="ASPECTUAL" eid="e8">cancelled</EVENT> on <TIMEX3 type="DATE" value="1997-04-25" tid="t3">Friday</TIMEX3> and <TIMEX3 type="DATE" value="1997-04-26" tid="t4">Saturday</TIMEX3>, but AFE <EVENT class="REPORTING" eid="e9">said</EVENT> "some" would be <EVENT class="OCCURRENCE" eid="e10">running</EVENT> <TIMEX3 type="DATE" value="1997-05-04" tid="t5">Sunday</TIMEX3>.
+
+All flights from Paris' Charles de Gaulle airport would be <EVENT class="OCCURRENCE" eid="e11">running</EVENT> as usual, as well as flights between provincial towns.
+
+The <EVENT class="OCCURRENCE" eid="e12">strike</EVENT> was <EVENT class="OCCURRENCE" eid="e13">called</EVENT> in protest over the conditions of the carrier's <EVENT class="OCCURRENCE" eid="e14">merger</EVENT> with state-owned Air France.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei1000008" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1000008" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei1000008" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

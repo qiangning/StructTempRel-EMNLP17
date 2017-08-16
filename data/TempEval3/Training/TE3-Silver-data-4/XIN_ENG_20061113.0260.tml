@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0260</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>recommendations: Annan</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Visiting</EVENT> UN Secretary General Kofi Annan <EVENT class="OCCURRENCE" eid="e2">revealed</EVENT> <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3> that the world body had <EVENT class="OCCURRENCE" eid="e3">decided</EVENT> to <EVENT class="I_ACTION" eid="e4">establish</EVENT> a suitable mechanism for <EVENT class="OCCURRENCE" eid="e5">implementing</EVENT> the recommendations by the high-level group of the Alliance of Civilizations.
+
+Annan <EVENT class="OCCURRENCE" eid="e6">made</EVENT> the remarks at a joint news <EVENT class="OCCURRENCE" eid="e8">conference</EVENT> with Turkish Prime Minister Recep Tayyip Erdogan and Spain's Prime Minister Jose Luiz Rodriguez Zapatero after the alliance's high-level group <EVENT class="OCCURRENCE" eid="e9">meeting</EVENT> <EVENT class="OCCURRENCE" eid="e10">held</EVENT> in Istanbul, the largest city of Turkey.
+
+The alliance, <EVENT class="OCCURRENCE" eid="e11">launched</EVENT> in <TIMEX3 type="DATE" value="2005-11" tid="t2">November 2005</TIMEX3> by Spain and Turkey, <EVENT class="OCCURRENCE" eid="e12">aims</EVENT> to <EVENT class="OCCURRENCE" eid="e13">encourage</EVENT> dialogue between Western and Islamic societies.
+
+Annan <EVENT class="REPORTING" eid="e14">told</EVENT> the reporters that the Alliance of Civilizations could be <EVENT class="OCCURRENCE" eid="e15">activated</EVENT> as soon as the difficult situations in Afghanistan, Iraq and Palestine were <EVENT class="I_ACTION" eid="e16">resolved</EVENT>.
+
+Existing foreign troops in Iraq and Afghanistan would not <EVENT class="STATE" eid="e17">remain</EVENT> there forever, which would have to <EVENT class="OCCURRENCE" eid="e19">leave</EVENT> after a certain time, Annan <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+For his part, Zapatero <EVENT class="OCCURRENCE" eid="e21">highlighted</EVENT> significance of the <EVENT class="OCCURRENCE" eid="e22">meeting</EVENT> for both Muslim and Western worlds, <EVENT class="REPORTING" eid="e23">saying</EVENT> the <EVENT class="OCCURRENCE" eid="e24">participates</EVENT> had <EVENT class="OCCURRENCE" eid="e25">reached</EVENT> an important <EVENT class="I_STATE" eid="e26">agreement</EVENT> that everyone should be respectful to different religions by <EVENT class="REPORTING" eid="e27">acknowledging</EVENT> their importance and existence.
+
+"People from different cultures have <EVENT class="OCCURRENCE" eid="e28">waged</EVENT> a <EVENT class="OCCURRENCE" eid="e29">war</EVENT> against fanaticism and intolerance. We will <EVENT class="OCCURRENCE" eid="e30">fight</EVENT> against fanaticism and intolerance through tolerance and dialogue. We will <EVENT class="I_ACTION" eid="e32">prevent</EVENT> <EVENT class="OCCURRENCE" eid="e33">acts</EVENT> of fanatics," he <EVENT class="OCCURRENCE" eid="e34">vowed</EVENT>.
+
+Zapatero <EVENT class="OCCURRENCE" eid="e35">left</EVENT> Turkey after the press <EVENT class="OCCURRENCE" eid="e36">conference</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei32" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei21" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

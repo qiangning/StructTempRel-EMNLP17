@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051217.0353</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-12-18" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 18 , 2005</TIMEX3></DCT>
+
+<TITLE>England cricketer Gough bowled over by TV dance win</TITLE>
+
+
+<TEXT>
+
+Pace bowler Darren Gough has <EVENT class="OCCURRENCE" eid="e1">got</EVENT> England cricket back to winning ways -- but only by <EVENT class="OCCURRENCE" eid="e3">carrying</EVENT> off top prize on a television ballroom dancing talent contest.
+
+Gough, 35, who <EVENT class="OCCURRENCE" eid="e4">opted</EVENT> out of England's ongoing <EVENT class="OCCURRENCE" eid="e5">tour</EVENT> to Pakistan, <EVENT class="OCCURRENCE" eid="e6">danced</EVENT> his way to victory in BBC television's "Strictly Come Dancing", <EVENT class="OCCURRENCE" eid="e8">beating</EVENT> former 110 metres hurdles world record holder Colin Jackson into second place.
+
+The hugely popular <TIMEX3 type="DATE" value="2005-12-17" tid="t1">Saturday</TIMEX3> night variety <EVENT class="OCCURRENCE" eid="e9">show</EVENT> -- <TIMEX3 type="DATE" value="2004" tid="t2">last year</TIMEX3>'s final <EVENT class="OCCURRENCE" eid="e10">pulled</EVENT> in 10.6 million viewers -- has <EVENT class="I_ACTION" eid="e11">featured</EVENT> former sports stars, television news readers, actresses and celebrity chefs.
+
+Twelve celebrities with limited or no dance experience are <EVENT class="OCCURRENCE" eid="e13">taken</EVENT> through their paces by professional dancers before <EVENT class="OCCURRENCE" eid="e14">performing</EVENT> in front of a panel of experienced dance judges.
+
+A weekly public phone vote then <EVENT class="OCCURRENCE" eid="e15">decides</EVENT> who stays or <EVENT class="OCCURRENCE" eid="e17">goes</EVENT>.
+
+Gough, <EVENT class="OCCURRENCE" eid="e18">wearing</EVENT> a black shirt and trousers with silver sequinned braces rather than his customary cricket whites, <EVENT class="REPORTING" eid="e19">said</EVENT> he was <EVENT class="OCCURRENCE" eid="e20">delighted</EVENT> with the <EVENT class="OCCURRENCE" eid="e21">win</EVENT>, and <EVENT class="OCCURRENCE" eid="e22">praised</EVENT> his partner and teacher Lilia Kopylova.
+
+"I <EVENT class="I_STATE" eid="e23">thought</EVENT> I would be <EVENT class="REPORTING" eid="e24">saying</EVENT> <TIMEX3 type="DATE" value="2005-12-18T10:00" tid="t3">this 10 weeks ago</TIMEX3> but it has been an amazing <EVENT class="OCCURRENCE" eid="e25">journey</EVENT> for a guy who has never <EVENT class="OCCURRENCE" eid="e26">danced</EVENT>," he <EVENT class="REPORTING" eid="e27">said</EVENT>.
+
+"She (Lilia) has <EVENT class="OCCURRENCE" eid="e28">turned</EVENT> me into some sort of dancer. I cannot <EVENT class="I_STATE" eid="e29">believe</EVENT> I had the confidence to <EVENT class="OCCURRENCE" eid="e31">do</EVENT> that tonight. I could not have <EVENT class="OCCURRENCE" eid="e32">wished</EVENT> for a better partner."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000009" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToEventInstance="ei1000009" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei1000009" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

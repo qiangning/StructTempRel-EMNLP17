@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970414.0388</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="1997-04-14" temporalFunction="false" functionInDocument="CREATION_TIME">April 14 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Yeltsin sacks transport minister</TITLE>
+
+
+<TEXT>
+
+Russian President Boris Yeltsin on <TIMEX3 type="DATE" value="1997-04-14" tid="t1">Monday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">sacked</EVENT> his transport minister, Anatoly Zaitsev, the Interfax news agency <EVENT class="REPORTING" eid="e2">reported</EVENT>, <EVENT class="OCCURRENCE" eid="e3">quoting</EVENT> informed sources.
+
+Yeltsin <EVENT class="OCCURRENCE" eid="e5">issued</EVENT> a decree to <EVENT class="OCCURRENCE" eid="e6">fire</EVENT> Zaitsev, who had <EVENT class="OCCURRENCE" eid="e7">assumed</EVENT> the post in <TIMEX3 type="DATE" value="1996-08" tid="t2">August 1996</TIMEX3>. He is to be <EVENT class="OCCURRENCE" eid="e8">replaced</EVENT> by his deputy, Nikolai Aksenenko.
+
+Zaitsev, 57, is on the board of a company that <EVENT class="I_STATE" eid="e9">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e10">build</EVENT> a high- speed rail link between Moscow and Saint Petersburg, a multi-billion dollar project that has <EVENT class="OCCURRENCE" eid="e11">drawn</EVENT> wide <EVENT class="OCCURRENCE" eid="e12">criticism</EVENT> <TIMEX3 type="DURATION" value="P2Y" tid="t3">the past two years</TIMEX3>.
+
+Between <TIMEX3 type="DATE" value="1988" tid="t4">1988</TIMEX3> and <TIMEX3 type="DATE" value="1996" tid="t5">1996</TIMEX3>, Zaitsev <EVENT class="OCCURRENCE" eid="e13">ran</EVENT> the Oktiyabrskaya railway between the two cities.
+
+Also <TIMEX3 type="DATE" value="1997-04-14" tid="t6">Monday</TIMEX3>, Yeltsin <EVENT class="OCCURRENCE" eid="e14">accepted</EVENT> the <EVENT class="OCCURRENCE" eid="e15">resignation</EVENT>, <EVENT class="OCCURRENCE" eid="e16">tendered</EVENT> on <TIMEX3 type="DATE" value="1997-04-05" tid="t7">April 5</TIMEX3>, of the head of Russia's top tax authority, Vitaly Artyukhov, Interfax <EVENT class="REPORTING" eid="e17">quoted</EVENT> the same sources as <EVENT class="REPORTING" eid="e18">saying</EVENT>.
+
+Artyukhov had been in his post since <TIMEX3 type="DATE" value="1996-02" tid="t8">February 1996</TIMEX3>.
+
+Tax collection is a serious problem in Russia, where <TIMEX3 type="DATE" value="1996" tid="t9">last year</TIMEX3> only 60 percent of taxes <EVENT class="OCCURRENCE" eid="e19">owing</EVENT> were <EVENT class="OCCURRENCE" eid="e20">paid</EVENT>. So far <TIMEX3 type="DATE" value="1997" tid="t10">this year</TIMEX3> only 50 percent of tax targets have been <EVENT class="OCCURRENCE" eid="e21">achieved</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000013" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei1000013" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1000013" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0192</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Russia, Sri Lanka sign WTO accession deal</TITLE>
+
+
+<TEXT>
+
+Russia and Sri Lanka on <TIMEX3 type="DATE" value="2006-11-17" tid="t1">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">signed</EVENT> an agreement on the <EVENT class="OCCURRENCE" eid="e2">completion</EVENT> of bilateral <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> on Russia's <EVENT class="OCCURRENCE" eid="e4">entry</EVENT> into the World Trade Organization (WTO) in Sri Lanka's capital Colombo, Russian news agencies <EVENT class="REPORTING" eid="e5">reported</EVENT>.
+
+Russian Economic Development and Trade Minister German Gref and Sri Lankan Minister of Trade, Commerce and Consumer Affairs Jeyaraj Fernandopulle <EVENT class="OCCURRENCE" eid="e6">signed</EVENT> the document on behalf of the two sides, Russian WTO negotiator Andrei Kushnirenko was <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> as <EVENT class="REPORTING" eid="e8">saying</EVENT> by the Interfax news agency.
+
+Sri Lanka initially was a member of a working group on Russia's <EVENT class="OCCURRENCE" eid="e9">accession</EVENT> to the WTO. It was also one of a number of countries that did not <EVENT class="OCCURRENCE" eid="e10">make</EVENT> any demands on Russia and thus did not <EVENT class="OCCURRENCE" eid="e12">hold</EVENT> any bilateral <EVENT class="OCCURRENCE" eid="e13">negotiations</EVENT> earlier.
+
+As Russia's bilateral accession <EVENT class="OCCURRENCE" eid="e14">talks</EVENT> are <EVENT class="OCCURRENCE" eid="e15">coming</EVENT> to an end, Sri Lanka <EVENT class="OCCURRENCE" eid="e16">expressed</EVENT> the hope to <EVENT class="OCCURRENCE" eid="e17">conclude</EVENT> an appropriate agreement, mainly to <EVENT class="OCCURRENCE" eid="e18">strengthen</EVENT> the terms of tea exports, which accounts for 96 percent of the country's exports to Russia.
+
+Russia still has to <EVENT class="OCCURRENCE" eid="e20">sign</EVENT> bilateral protocols with the United States and Costa Rica, with whom the <EVENT class="OCCURRENCE" eid="e21">talks</EVENT> have been technically <EVENT class="I_ACTION" eid="e22">concluded</EVENT>.
+
+According to Russian presidential aide Sergei Prikhodko, Russia is <EVENT class="I_STATE" eid="e24">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e25">sign</EVENT> an agreement with the United States on its entry into the WTO on <TIMEX3 type="DATE" value="2006-11-12" tid="t2">Sunday</TIMEX3> in Vietnam's capital Haoni, where the 14th Asia-Pacific Economic Cooperation (APEC) Economic Leaders' Informal Meeting is <EVENT class="OCCURRENCE" eid="e28">held</EVENT> on <TIMEX3 type="DATE" value="2006-11-17" tid="t3">Nov. 18-19</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000028" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei24" relatedToEventInstance="ei1000028" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei1000028" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei28" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

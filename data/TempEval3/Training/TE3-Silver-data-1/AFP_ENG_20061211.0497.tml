@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061211.0497</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="2006-12-11" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 11 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Ahmadinejad government running out of cash</TITLE>
+
+
+<TEXT>
+
+President Mahmoud Ahmadinejad is to <EVENT class="OCCURRENCE" eid="e1">ask</EVENT> the Iranian parliament for a supplementary budget as his government's coffers will <EVENT class="OCCURRENCE" eid="e2">run</EVENT> <EVENT class="OCCURRENCE" eid="e3">empty</EVENT> <TIMEX3 type="DURATION" value="P3M" tid="t1">three months</TIMEX3> before <TIMEX3 type="DATE" value="2006-12-11" tid="t2">the end of the current Iranian fiscal year</TIMEX3>, the ISNA news agency <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="2006-12-11" tid="t3">Monday</TIMEX3>.
+
+"The budget <EVENT class="OCCURRENCE" eid="e5">allocated</EVENT> to the government will <EVENT class="OCCURRENCE" eid="e6">run</EVENT> out by <TIMEX3 type="DATE" value="2006-12-11" tid="t4">the end of (the Iranian month</TIMEX3> of) Azar (<TIMEX3 type="DATE" value="2006-12-22" tid="t5">December 22</TIMEX3>)," the agency <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> Ahmadinejad as <EVENT class="REPORTING" eid="e8">saying</EVENT>.
+
+"We are going to <EVENT class="OCCURRENCE" eid="e9">put</EVENT> forward a supplementary budget bill to <EVENT class="OCCURRENCE" eid="e10">cover</EVENT> the three remaining months (of the <TIMEX3 type="DATE" value="2006-12-11" tid="t6">Iranian year</TIMEX3>, <EVENT class="ASPECTUAL" eid="e11">ending</EVENT> on <TIMEX3 type="DATE" value="2007-03-20" tid="t7">March 20, 2007</TIMEX3>) and <TIMEX3 type="DURATION" value="P2M" tid="t8">the first two months</TIMEX3> of <TIMEX3 type="DATE" value="2007" tid="t9">next year</TIMEX3>.
+
+"This will be the fuel so that the government can <EVENT class="OCCURRENCE" eid="e12">operate</EVENT> in <TIMEX3 type="DURATION" value="P5M" tid="t10">the next five months</TIMEX3>," he <EVENT class="OCCURRENCE" eid="e13">added</EVENT>. The president did not <EVENT class="OCCURRENCE" eid="e14">give</EVENT> a reason for why the budget had <EVENT class="OCCURRENCE" eid="e15">run</EVENT> over.
+
+The 60-billion-dollar government budget, which is about one third of the national budget, <EVENT class="OCCURRENCE" eid="e16">finances</EVENT> the public sector and covers current expenditures as well as development plans.
+
+It is the first time in <TIMEX3 type="DURATION" value="PXY" tid="t11">years</TIMEX3> an Iranian government has <EVENT class="I_ACTION" eid="e18">asked</EVENT> parliament for such an additional sum.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000012" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000011" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToEventInstance="ei1000012" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei1000011" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1000011" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei1000012" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei18" relatedToTime="t11" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

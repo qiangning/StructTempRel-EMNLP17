@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051110.0027</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Construction Bank IPO rises to 9.23 bln US dollars</TITLE>
+
+
+<TEXT>
+
+The China Construction Bank Corporation (CCB) <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2005-11-10" tid="t1">Thursday</TIMEX3> its total initial public offering (IPO) <EVENT class="OCCURRENCE" eid="e3">increased</EVENT> to an equivalent of 9.23 billion US dollars after its sponsors <EVENT class="OCCURRENCE" eid="e4">issued</EVENT> an additional about 3.97 billion shares, the biggest-ever <EVENT class="OCCURRENCE" eid="e5">IPO</EVENT> of any bank.
+
+The bank <EVENT class="OCCURRENCE" eid="e6">issued</EVENT> a combined 30.5 billion shares, <EVENT class="OCCURRENCE" eid="e7">accounting</EVENT> for 13.5 percent of its enlarged equities, a bank spokesman <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+The CCB's IPO is also the biggest-ever of any Chinese enterprise and the biggest in global markets in <TIMEX3 type="DURATION" value="P5Y" tid="t2">more than five years</TIMEX3>.
+
+CCB <EVENT class="OCCURRENCE" eid="e9">took</EVENT> the lead among China's Big Four state banks to <EVENT class="OCCURRENCE" eid="e10">get</EVENT> listed in the Hong Kong stock exchange <TIMEX3 type="DATE" value="2005-W43" tid="t3">two weeks ago</TIMEX3>. It <EVENT class="OCCURRENCE" eid="e12">rose</EVENT> 4.3 percent to 2.45 Hong Kong dollars per share at <TIMEX3 type="DATE" value="2005-11-09" tid="t4">Wednesday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e13">closing</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0242</DOCID>
+
+<DCT>SOFIA, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Bulgaria sees bases deal with US next spring: defense chief</TITLE>
+
+
+<TEXT>
+
+Bulgaria <EVENT class="I_STATE" eid="e1">hopes</EVENT> to <EVENT class="OCCURRENCE" eid="e2">reach</EVENT> a deal with the United States on the <EVENT class="OCCURRENCE" eid="e4">deployment</EVENT> of US troops at Bulgaria's military bases by spring <TIMEX3 type="DATE" value="2006" tid="t1">next year</TIMEX3>, Bulgarian Defense Minister Vesselin Bliznakov <EVENT class="REPORTING" eid="e5">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-22" tid="t2">Tuesday</TIMEX3>.
+
+"I <EVENT class="I_STATE" eid="e6">hope</EVENT> all the details will be <EVENT class="I_ACTION" eid="e7">agreed</EVENT> and we can <EVENT class="STATE" eid="e8">have</EVENT> a deal maybe in <TIMEX3 type="DATE" value="2005-02" tid="t3">February</TIMEX3> or March," he <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+On <TIMEX3 type="DATE" value="2005-11-19" tid="t6">Saturday</TIMEX3>, Lyubomir Ivanov, Bulgaria's chief negotiator and ambassador to NATO, <EVENT class="REPORTING" eid="e11">said</EVENT> the two countries had <EVENT class="I_ACTION" eid="e12">agreed</EVENT> to jointly <EVENT class="OCCURRENCE" eid="e13">use</EVENT> the Novo Selo shooting range and the Bezmer airport, both in central Bulgaria.
+
+Washington <EVENT class="OCCURRENCE" eid="e15">aims</EVENT> to <EVENT class="OCCURRENCE" eid="e16">pull</EVENT> about 70,000 troops out of Germany and Asia in <TIMEX3 type="DATE" value="2005-11-22" tid="t7">the next decade</TIMEX3> and is <EVENT class="I_STATE" eid="e17">planning</EVENT> to <EVENT class="OCCURRENCE" eid="e18">create</EVENT> small, flexible bases in Eastern Europe.
+
+Bulgaria <EVENT class="OCCURRENCE" eid="e19">joined</EVENT> US-led NATO <TIMEX3 type="DATE" value="2004" tid="t8">last year</TIMEX3> along with six other Eastern European nations. The United States is also in <EVENT class="OCCURRENCE" eid="e20">talks</EVENT> with Romania over the <EVENT class="OCCURRENCE" eid="e21">use</EVENT> of its military bases.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1000005" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1000005" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei1000005" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

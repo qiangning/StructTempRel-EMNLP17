@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970417.0188</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Thai cabinet approves fiscal 1988 budget worth one trillion baht</TITLE>
+
+
+<TEXT>
+
+Thailand's cabinet <TIMEX3 type="DATE" value="1997-04-17" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> a draft budget for <TIMEX3 type="DATE" value="1998-09" tid="t2">the next fiscal year to September 1998</TIMEX3> worth 1,008 billion baht (38.7 billion dollars), a Budget Bureau official <EVENT class="REPORTING" eid="e2">said</EVENT>.
+
+The figure was up nine percent on <TIMEX3 type="DATE" value="1997" tid="t4">the current year</TIMEX3>'s budget of 925 billion baht and only 2.4 percent on the original allocation for <TIMEX3 type="DATE" value="1997" tid="t5">fiscal 1997</TIMEX3>, from which the cabinet <EVENT class="OCCURRENCE" eid="e3">approved</EVENT> cuts of 59 billion baht <TIMEX3 type="DATE" value="1997-03" tid="t6">last month</TIMEX3>.
+
+Investment expenditure <EVENT class="OCCURRENCE" eid="e4">accounted</EVENT> for 39 percent of the total fiscal 1998 budget, down from 42 percent <TIMEX3 type="DATE" value="1996" tid="t8">a year earlier</TIMEX3>, the official <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+Ministries will have to <EVENT class="OCCURRENCE" eid="e6">submit</EVENT> final spending plans to the cabinet for reconsideration on <TIMEX3 type="DATE" value="1996-05-21" tid="t9">May 21</TIMEX3>, he <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+Transport and Communications Minister Suwat Lippatapallop <EVENT class="REPORTING" eid="e10">said</EVENT> his ministry had been <EVENT class="OCCURRENCE" eid="e11">given</EVENT> a <TIMEX3 type="DATE" value="1998" tid="t10">1998</TIMEX3> budget of 100 billion baht, up 25 percent from the <TIMEX3 type="DATE" value="1997" tid="t11">current fiscal year</TIMEX3>.
+
+The ministry is <EVENT class="STATE" eid="e12">responsible</EVENT> for the Highways Department and several telecommunications projects.
+
+Budget Bureau director Seree Sukstaporn <EVENT class="REPORTING" eid="e13">said</EVENT> earlier that stable inflation was <EVENT class="I_STATE" eid="e15">forecast</EVENT> at around five percent in <TIMEX3 type="DATE" value="1998" tid="t12">1998</TIMEX3>, while the country's gross domestic product was <EVENT class="I_STATE" eid="e16">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e17">rise</EVENT> 6.7 to 6.8 percent to around five trillion baht.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000004" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei1000003" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei1000004" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei1000001" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei1000004" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei1000003" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToTime="t11" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

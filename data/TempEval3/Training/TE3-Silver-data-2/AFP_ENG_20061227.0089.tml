@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061227.0089</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="2006-12-27" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 27 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Israel PM orders resumption of Gaza strikes</TITLE>
+
+
+<TEXT>
+
+Israeli Prime Minister Ehud Olmert <EVENT class="OCCURRENCE" eid="e1">ordered</EVENT> the army <TIMEX3 type="DATE" value="2007-01-03" tid="t1">Wednesday</TIMEX3> to <EVENT class="ASPECTUAL" eid="e2">resume</EVENT> <EVENT class="OCCURRENCE" eid="e3">strikes</EVENT> on militants in Gaza after a rocket <EVENT class="OCCURRENCE" eid="e4">attack</EVENT> <EVENT class="OCCURRENCE" eid="e5">wounded</EVENT> two Israeli teenagers despite a month-long truce, his office <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+After <EVENT class="OCCURRENCE" eid="e7">meeting</EVENT> with his security officials, Olmert <EVENT class="OCCURRENCE" eid="e8">ordered</EVENT> the defense establishment "to <EVENT class="OCCURRENCE" eid="e9">act</EVENT> locally against Qassam rocket launching cells," <EVENT class="REPORTING" eid="e10">said</EVENT> the statement, <EVENT class="OCCURRENCE" eid="e11">referring</EVENT> to the homemade rockets <EVENT class="OCCURRENCE" eid="e12">fired</EVENT> by Palestinian militants in Gaza.
+
+"At the same time Israel will <EVENT class="ASPECTUAL" eid="e13">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e14">respect</EVENT> the ceasefire and work with the Palestinian Authority in order ... for them... to take immediate steps to <EVENT class="ASPECTUAL" eid="e16">stop</EVENT> the Qassam fire," it <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+The statement <EVENT class="I_STATE" eid="e18">seemed</EVENT> to <EVENT class="I_ACTION" eid="e19">indicate</EVENT> that Israel would not <EVENT class="ASPECTUAL" eid="e20">launch</EVENT> a ground <EVENT class="OCCURRENCE" eid="e21">operation</EVENT> in the Gaza Strip, but <EVENT class="OCCURRENCE" eid="e22">carry</EVENT> out air <EVENT class="OCCURRENCE" eid="e23">strikes</EVENT> against rocket launching cells, as <EVENT class="I_ACTION" eid="e24">called</EVENT> for by Defense Minister Amir Peretz.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

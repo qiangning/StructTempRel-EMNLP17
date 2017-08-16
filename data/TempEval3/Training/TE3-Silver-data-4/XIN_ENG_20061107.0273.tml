@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0273</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>KMT, PFP table anti-Chen bills for Friday's legislative session</TITLE>
+
+
+<TEXT>
+
+The Chinese Kuomintang Party (KMT) and the People First Party on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">put</EVENT> forward their own bills, respectively, for <TIMEX3 type="DATE" value="2006-11-03" tid="t2">Friday</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e2">session</EVENT> of Taiwan's "legislative yuan", to <EVENT class="OCCURRENCE" eid="e3">oust</EVENT> Chen Shui-bian who has been <EVENT class="OCCURRENCE" eid="e4">implicated</EVENT> in corruption, according to reports by Taiwan media.
+
+It has been the third such <EVENT class="OCCURRENCE" eid="e5">bill</EVENT> ever since Chen's family <EVENT class="OCCURRENCE" eid="e6">came</EVENT> under fire for alleged <EVENT class="OCCURRENCE" eid="e7">involvement</EVENT> in corruption <TIMEX3 type="DATE" value="2006" tid="t3">early this year</TIMEX3>.
+
+But the Democratic Progress Party (DPP) <EVENT class="REPORTING" eid="e8">said</EVENT> all its members will not <EVENT class="OCCURRENCE" eid="e9">participate</EVENT> in the legislative <EVENT class="OCCURRENCE" eid="e10">meeting</EVENT> to <EVENT class="OCCURRENCE" eid="e11">cast</EVENT> their votes, same to what it did during the two previous votings.
+
+The previous anti-Chen votings <EVENT class="OCCURRENCE" eid="e14">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e15">succeed</EVENT>, due to the <EVENT class="OCCURRENCE" eid="e16">opposition</EVENT> by the DPP and the <EVENT class="OCCURRENCE" eid="e17">abstaining</EVENT> by the Taiwan Solidarity Union (TSU).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

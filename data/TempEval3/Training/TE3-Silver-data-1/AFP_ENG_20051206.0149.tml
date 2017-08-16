@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0149</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="2005-12-06" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 6 , 2005</TIMEX3></DCT>
+
+<TITLE>level ///</TITLE>
+
+
+<TEXT>
+
+Schools in the Iranian capital were <EVENT class="OCCURRENCE" eid="e1">shut</EVENT> down and the sick or elderly <EVENT class="REPORTING" eid="e2">told</EVENT> to <EVENT class="OCCURRENCE" eid="e3">lock</EVENT> themselves indoors <TIMEX3 type="DATE" value="2005-12-13" tid="t1">Tuesday</TIMEX3> as the city <EVENT class="ASPECTUAL" eid="e4">continued</EVENT> to <EVENT class="OCCURRENCE" eid="e5">choke</EVENT> on a thick blanket of yellow-brown smog.
+
+Tehran's Air Quality Control Unit <EVENT class="REPORTING" eid="e6">said</EVENT> the Pollutant Standard Index (PSI) -- a standard measurement incorporating carbon monoxide, dust and other pollutants -- has <EVENT class="OCCURRENCE" eid="e7">hovered</EVENT> around the "very unhealthy" level of 160 for <TIMEX3 type="DURATION" value="PXD" tid="t2">several</TIMEX3> days.
+
+Such alerts are <EVENT class="OCCURRENCE" eid="e9">becoming</EVENT> <EVENT class="OCCURRENCE" eid="e10">increasing</EVENT> common, with increased traffic <EVENT class="OCCURRENCE" eid="e11">causing</EVENT> the sprawling city's air to be <EVENT class="OCCURRENCE" eid="e12">deemed</EVENT> unhealthy for <TIMEX3 type="DATE" value="2005-12-06" tid="t3">at least 100 days of the year</TIMEX3>. <TIMEX3 type="DATE" value="2005-W49" tid="t4">This week</TIMEX3> the situation is worse <EVENT class="STATE" eid="e13">due</EVENT> to a total lack of wind.
+
+"But you cannot just blame nature," Elmira Parto, a Tehran pollution official, <EVENT class="REPORTING" eid="e15">told</EVENT> AFP. "It is the cars that are the problem."
+
+Many of the two million plus vehicles in the city of 10 million are more than 20 years old and <EVENT class="OCCURRENCE" eid="e16">consume</EVENT> cheap subsidised petrol at an alarming rate. Private car ownership has also <EVENT class="OCCURRENCE" eid="e17">exploded</EVENT>, with the public transport system <EVENT class="I_ACTION" eid="e18">failing</EVENT> to <EVENT class="OCCURRENCE" eid="e19">provide</EVENT> adequate coverage.
+
+The government has <EVENT class="I_ACTION" eid="e20">proposed</EVENT> various steps to <EVENT class="OCCURRENCE" eid="e21">resolve</EVENT> the problem, such as <EVENT class="OCCURRENCE" eid="e22">phasing</EVENT> out the old cars and restricting vehicle <EVENT class="OCCURRENCE" eid="e24">use</EVENT> on <TIMEX3 type="DURATION" value="2005-12-06" tid="t5">certain days of the week</TIMEX3> -- but so far none have been effectively <EVENT class="OCCURRENCE" eid="e25">applied</EVENT>.
+
+"There's a huge demand for pain killers and anti-histamines at the moment. People are <EVENT class="OCCURRENCE" eid="e26">suffering</EVENT> from chronic headaches, allergies and nose irritation," <EVENT class="REPORTING" eid="e27">said</EVENT> Mahsa Vosouqi, a local pharmacist.
+
+Anti-asthmatic inhalers and face masks, <EVENT class="OCCURRENCE" eid="e28">manufactured</EVENT> locally and on open sale in most chemists, have also been <EVENT class="OCCURRENCE" eid="e30">selling</EVENT> out.
+
+And Tehran's Darabad hospital, which specialises in respiratory ailments, <EVENT class="REPORTING" eid="e32">said</EVENT> the number of <EVENT class="OCCURRENCE" eid="e33">visiting</EVENT> outpatients has <EVENT class="OCCURRENCE" eid="e34">tripled</EVENT> in <TIMEX3 type="DURATION" value="PXD" tid="t6">recent</TIMEX3> days.
+
+<EVENT class="REPORTING" eid="e35">According</EVENT> to a recent <EVENT class="OCCURRENCE" eid="e36">study</EVENT>, each resident of Tehran -- <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">now</TIMEX3> <EVENT class="I_STATE" eid="e37">considered</EVENT> one of the world's most polluted cities -- <EVENT class="OCCURRENCE" eid="e38">inhales</EVENT> an estimated 7.1 to 9.3 kilograms (15.6 to 20.5 pounds) of dust <TIMEX3 type="DURATION" value="P1Y" tid="t8">every year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei34" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei38" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei30" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l42" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="IS_INCLUDED" />
+<TLINK lid="l45" eventInstanceID="ei36" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

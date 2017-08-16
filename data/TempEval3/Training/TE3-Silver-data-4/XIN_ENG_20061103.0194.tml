@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0194</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Zambia gets loan from African Development Fund</TITLE>
+
+
+<TEXT>
+
+"In Zambia, there is a close correlation between infant mortality and access to potable water and sanitation services. Health statistics in Zambia <EVENT class="I_ACTION" eid="e2">indicate</EVENT> that diarrhea and other water- related diseases are <EVENT class="OCCURRENCE" eid="e3">ranked</EVENT> among the top common causes of outpatient care for all age groups because of poor hygiene and sanitation. During the first phase of the program (2006-2010), 2.1 million will be <EVENT class="OCCURRENCE" eid="e5">provided</EVENT> access to safe water and 2.3 million people to improved sanitation services," ADF, the soft loan arm of the African Development Bank (AfDB) <EVENT class="REPORTING" eid="e6">said</EVENT> in a statement.
+
+Since AfDB <EVENT class="ASPECTUAL" eid="e7">started</EVENT> <EVENT class="OCCURRENCE" eid="e8">working</EVENT> in Zambia in <TIMEX3 type="DATE" value="1971" tid="t2">1971</TIMEX3>, it has <EVENT class="OCCURRENCE" eid="e9">financed</EVENT> 11 operations in water supply and sanitation sector with a combined <EVENT class="STATE" eid="e10">worth</EVENT> of 137.6 million dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0210</DOCID>
+
+<DCT>HARBIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3>, (xinhua)</DCT>
+
+<TITLE>Harbin: main factories to operate normally in no-water period</TITLE>
+
+
+<TEXT>
+
+The main factories of Harbin, capital of northeast China's Heilongjiang Province, <EVENT class="I_ACTION" eid="e1">indicated</EVENT> that their normal operation will not be <EVENT class="OCCURRENCE" eid="e2">affected</EVENT> by the whole city's water supply cut-off on <TIMEX3 type="DATE" value="2005-11-29" tid="t1">Tuesday</TIMEX3>.
+
+The three most famous and old-line factories, Harbin Boiler Factory Co. Ltd., Harbin Electrical Machine Factory Co. Ltd and Harbin Steam Turbine Plant Co. Ltd., all <EVENT class="OCCURRENCE" eid="e3">expressed</EVENT> on <TIMEX3 type="DATE" value="2005-11-22" tid="t2">Tuesday</TIMEX3> they have <EVENT class="OCCURRENCE" eid="e4">taken</EVENT> effective measures to <EVENT class="OCCURRENCE" eid="e5">ensure</EVENT> their companies <EVENT class="OCCURRENCE" eid="e6">operate</EVENT> normally and safely.
+
+Tao Zhiyuan, vice-chairman of Harbin Steam Turbine Plant's information bureau, <EVENT class="REPORTING" eid="e7">said</EVENT> the company has <EVENT class="OCCURRENCE" eid="e8">mapped</EVENT> out a counterplan to <EVENT class="OCCURRENCE" eid="e9">guarantee</EVENT> water supply both for life and <EVENT class="OCCURRENCE" eid="e10">production</EVENT> during <TIMEX3 type="DATE" value="2005-11-22" tid="t3">the special period</TIMEX3>.
+
+So far, the factory has <EVENT class="OCCURRENCE" eid="e11">deposited</EVENT> 1,200 tons of water to <EVENT class="OCCURRENCE" eid="e12">ensure</EVENT> normal <EVENT class="OCCURRENCE" eid="e13">use</EVENT> for <TIMEX3 type="DURATION" value="2005-11-22" tid="t4">three or four</TIMEX3> days. Given the period be <EVENT class="OCCURRENCE" eid="e15">prolonged</EVENT>, Tao <EVENT class="REPORTING" eid="e16">said</EVENT>, the factory would <EVENT class="OCCURRENCE" eid="e17">utilize</EVENT> fire engines to <EVENT class="OCCURRENCE" eid="e18">collect</EVENT> water from other deep waterheads.
+
+Zhang Hui from Harbin Boiler Factory <EVENT class="REPORTING" eid="e19">said</EVENT> they will <EVENT class="OCCURRENCE" eid="e20">gather</EVENT> water from deep wells in the factory. Harbin Electrical Machine Factory will also <EVENT class="OCCURRENCE" eid="e21">take</EVENT> the same solution, sources with the factory <EVENT class="REPORTING" eid="e22">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-22" tid="t5">Tuesday</TIMEX3>.
+
+For fears that a chemical plant <EVENT class="OCCURRENCE" eid="e23">blast</EVENT> on <TIMEX3 type="DATE" value="2005-11-13" tid="t6">Nov. 13</TIMEX3> may have <EVENT class="OCCURRENCE" eid="e24">caused</EVENT> a <EVENT class="OCCURRENCE" eid="e25">leakage</EVENT> of poisonous substances into the Songhua River, which supplies water to Harbin, the municipality has <EVENT class="REPORTING" eid="e26">announced</EVENT> to <EVENT class="OCCURRENCE" eid="e27">cut</EVENT> off water supply to the urban areas at <TIMEX3 type="DURATION" value="2005-11-22" tid="t7">wee hours</TIMEX3> on <TIMEX3 type="DATE" value="2005-11-16" tid="t8">Wednesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000027" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei1000027" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei27" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei1000027" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+
+
+
+
+</TimeML>

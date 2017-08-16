@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0200</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China Enterprises Index close up -- Nov. 23</TITLE>
+
+
+<TEXT>
+
+Hang Seng China Enterprises Index <EVENT class="OCCURRENCE" eid="e1">slowed</EVENT> down its <EVENT class="OCCURRENCE" eid="e2">rising</EVENT> pace by up 12.84 points, or 0.15 percent, to <EVENT class="OCCURRENCE" eid="e3">close</EVENT> at 8,622.88 on <TIMEX3 type="DATE" value="2006-11-30" tid="t1">Thursday</TIMEX3>.
+
+The index, <EVENT class="OCCURRENCE" eid="e4">initiated</EVENT> in <TIMEX3 type="DATE" value="1994-08" tid="t2">August 1994</TIMEX3> and <EVENT class="OCCURRENCE" eid="e5">readjusted</EVENT> on <TIMEX3 type="DATE" value="2006-09-11" tid="t3">Sept. 11, 2006</TIMEX3>, <EVENT class="OCCURRENCE" eid="e6">tracks</EVENT> the overall performance of 37 Chinese mainland state-owned enterprises listed on the Hong Kong Stock Exchange.
+
+Hang Seng China-Affiliated Corporations Index <EVENT class="OCCURRENCE" eid="e8">rose</EVENT> 15.26 points, or 0.49 percent, to <EVENT class="OCCURRENCE" eid="e9">close</EVENT> at 3,146.13.
+
+The index <EVENT class="OCCURRENCE" eid="e10">tracks</EVENT> the performance of 31 locally listed companies with a significant equity interest held by entities in the Chinese mainland.
+
+Hang Seng Mainland Composite Index <EVENT class="OCCURRENCE" eid="e13">closed</EVENT> flat with 0.46 points up, or 0.02 percent, to <EVENT class="OCCURRENCE" eid="e14">close</EVENT> at 2,957.01.
+
+<EVENT class="OCCURRENCE" eid="e15">Introduced</EVENT> on <TIMEX3 type="DATE" value="2001-10-03" tid="t4">Oct. 3, 2001</TIMEX3> and <EVENT class="OCCURRENCE" eid="e16">readjusted</EVENT> on <TIMEX3 type="DATE" value="2006-09-11" tid="t6">Sept. 11, 2006</TIMEX3>, Hang Seng Mainland Composite Index <EVENT class="OCCURRENCE" eid="e17">gauges</EVENT> the performance of 103 Hong Kong-listed companies with principal places of business in Hong Kong and the Chinese mainland.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+
+
+
+
+</TimeML>

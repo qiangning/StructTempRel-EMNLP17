@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051101.0345</DOCID>
+
+<DCT>BEIRUT, <TIMEX3 tid="t0" type="TIME" value="2005-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>probe</TITLE>
+
+
+<TEXT>
+
+Lebanese leaders <EVENT class="OCCURRENCE" eid="e1">voiced</EVENT> more support on <TIMEX3 type="DATE" value="2005-11-01" tid="t1">Tuesday</TIMEX3> for a UN-backed <EVENT class="OCCURRENCE" eid="e2">probe</EVENT> into the <EVENT class="OCCURRENCE" eid="e3">assassination</EVENT> of former Prime Minister Rafiq Hariri.
+
+President Emile Lahoud <EVENT class="REPORTING" eid="e4">said</EVENT> in a statement that Resolution 1636 <EVENT class="OCCURRENCE" eid="e5">adopted</EVENT> by the UN Security Council on <TIMEX3 type="DATE" value="2005-10-31" tid="t3">Monday</TIMEX3> should <EVENT class="OCCURRENCE" eid="e6">aim</EVENT> to <EVENT class="OCCURRENCE" eid="e7">put</EVENT> to <EVENT class="OCCURRENCE" eid="e8">light</EVENT> all behind the <TIMEX3 type="DATE" value="2005-02-14" tid="t4">Feb. 14</TIMEX3> <EVENT class="OCCURRENCE" eid="e9">assassination</EVENT> of Hariri and 20 other victims.
+
+The perpetrators must be <EVENT class="OCCURRENCE" eid="e10">brought</EVENT> to justice after they were <EVENT class="OCCURRENCE" eid="e11">identified</EVENT> with full evidence within the framework of the UN <EVENT class="OCCURRENCE" eid="e12">resolution</EVENT>, <EVENT class="REPORTING" eid="e13">according</EVENT> to the statement.
+
+The resolution, co-sponsored by the United States, Britain and France, <EVENT class="OCCURRENCE" eid="e15">demands</EVENT> that Syria <EVENT class="OCCURRENCE" eid="e16">cooperate</EVENT> fully with UN investigators, <EVENT class="I_ACTION" eid="e17">warning</EVENT> that "further measures" are possible if Damascus does not <EVENT class="OCCURRENCE" eid="e18">give</EVENT> full assistance to the UN probe <EVENT class="OCCURRENCE" eid="e19">headed</EVENT> by German prosecutor Detlev Mehlis.
+
+Mehlis has <EVENT class="OCCURRENCE" eid="e20">hinted</EVENT> that Hariri could not have been <EVENT class="OCCURRENCE" eid="e21">killed</EVENT> without the complicity of top security officials of Syria and Lebanon.
+
+In response, Syria has <EVENT class="I_ACTION" eid="e22">pledged</EVENT> to <EVENT class="OCCURRENCE" eid="e23">cooperate</EVENT> with the UN inquiry while <EVENT class="OCCURRENCE" eid="e25">maintaining</EVENT> its innocence over the <EVENT class="OCCURRENCE" eid="e26">assassination</EVENT>.
+
+Lebanese Prime Minister Fouad Seniora, who had <EVENT class="I_ACTION" eid="e27">asked</EVENT> UN Secretary General Kofi Annan to <EVENT class="OCCURRENCE" eid="e28">prolong</EVENT> Mehlis' mission till <TIMEX3 type="DATE" value="2005-12-15" tid="t5">Dec. 15</TIMEX3>, <EVENT class="OCCURRENCE" eid="e29">met</EVENT> European Union (EU) diplomats here <TIMEX3 type="DATE" value="2005-11-01" tid="t6">Tuesday</TIMEX3> on the implementation of the UN resolution.
+
+British Ambassador to Lebanon James Watt, whose country is <EVENT class="OCCURRENCE" eid="e31">holding</EVENT> the rotating presidency of the EU, <EVENT class="REPORTING" eid="e34">told</EVENT> reporters after the <EVENT class="OCCURRENCE" eid="e35">meeting</EVENT> that the EU firmly <EVENT class="OCCURRENCE" eid="e36">supports</EVENT> the UN resolution and <EVENT class="OCCURRENCE" eid="e37">encourages</EVENT> the Lebanese government to <EVENT class="OCCURRENCE" eid="e38">take</EVENT> <EVENT class="OCCURRENCE" eid="e39">action</EVENT> in that aspect.
+
+Watt <EVENT class="PERCEPTION" eid="e40">saw</EVENT> UN-Lebanese cooperation <EVENT class="OCCURRENCE" eid="e42">strengthened</EVENT> under Resolution <TIMEX3 tid="t7" type="DATE" value="1636">1636</TIMEX3>, <EVENT class="REPORTING" eid="e43">saying</EVENT> that would <EVENT class="OCCURRENCE" eid="e44">create</EVENT> favorable conditions for the <EVENT class="OCCURRENCE" eid="e45">investigation</EVENT>.
+
+<EVENT class="OCCURRENCE" eid="e46">Vowing</EVENT> that the EU will <EVENT class="I_ACTION" eid="e47">help</EVENT> fully <EVENT class="OCCURRENCE" eid="e48">carry</EVENT> out the UN resolution, the ambassador <EVENT class="OCCURRENCE" eid="e50">renewed</EVENT> the <EVENT class="OCCURRENCE" eid="e51">demand</EVENT> for full <EVENT class="OCCURRENCE" eid="e52">cooperation</EVENT> from Syria in the international probe of the <EVENT class="OCCURRENCE" eid="e54">assassination</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei54" eventID="e54" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52" eventID="e52" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei40" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei50" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei40" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei40" relatedToEventInstance="ei45" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei40" relatedToEventInstance="ei44" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei42" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei34" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei29" relatedToEventInstance="ei34" relType="INCLUDES" />
+<TLINK lid="l39" eventInstanceID="ei34" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei22" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei29" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei28" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei50" relatedToEventInstance="ei54" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei48" relatedToEventInstance="ei50" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei47" relatedToEventInstance="ei50" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei46" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei50" relatedToEventInstance="ei52" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

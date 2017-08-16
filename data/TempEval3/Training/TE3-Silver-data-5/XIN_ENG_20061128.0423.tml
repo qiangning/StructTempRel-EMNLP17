@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0423</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Defense chief says Russia unable to influence NATO enlargement</TITLE>
+
+
+<TEXT>
+
+Russia is unable to <EVENT class="I_ACTION" eid="e1">influence</EVENT> the process of NATO enlargement, Defense Minister Sergei Ivanov <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-28" tid="t1">Tuesday</TIMEX3>.
+
+Ivanov's remarks <EVENT class="OCCURRENCE" eid="e3">came</EVENT> as leaders from 26 NATO member countries were <EVENT class="OCCURRENCE" eid="e4">meeting</EVENT> in Riga, Latvia, for a <EVENT class="OCCURRENCE" eid="e5">summit</EVENT> <EVENT class="OCCURRENCE" eid="e6">focused</EVENT> on its mission in Afghanistan and its future role. U.S. President George W. Bush <EVENT class="REPORTING" eid="e7">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-28" tid="t2">Tuesday</TIMEX3> the transatlantic military alliance's door <EVENT class="STATE" eid="e8">remains</EVENT> open to European countries.
+
+"We can <EVENT class="OCCURRENCE" eid="e9">take</EVENT> a critical posture and <EVENT class="REPORTING" eid="e10">say</EVENT> we <EVENT class="OCCURRENCE" eid="e11">disapprove</EVENT> of this or that country's <EVENT class="OCCURRENCE" eid="e12">admission</EVENT> to NATO, but I <EVENT class="I_STATE" eid="e13">believe</EVENT> it would be very wrong," Ivanov was <EVENT class="REPORTING" eid="e14">quoted</EVENT> by the Itar-Tass news agency as <EVENT class="REPORTING" eid="e15">telling</EVENT> students at St. Petersburg State University.
+
+"Each country is free to <EVENT class="OCCURRENCE" eid="e16">decide</EVENT> what bloc it should be a member of," Ivanov <EVENT class="REPORTING" eid="e17">said</EVENT>. "We have no intention of <EVENT class="OCCURRENCE" eid="e19">joining</EVENT> NATO," he <EVENT class="OCCURRENCE" eid="e20">added</EVENT>.
+
+NATO has <EVENT class="OCCURRENCE" eid="e21">recognized</EVENT> Albania, Croatia and Macedonia as formal aspirant countries. Georgia and Ukraine also <EVENT class="STATE" eid="e22">have</EVENT> intentions to <EVENT class="OCCURRENCE" eid="e23">join</EVENT>, but are in an earlier stage of the process. The three Baltic states -- Estonia, Latvia and Lithuania -- <EVENT class="OCCURRENCE" eid="e24">joined</EVENT> the alliance in <TIMEX3 type="DATE" value="2004" tid="t3">2004</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+
+
+
+
+</TimeML>

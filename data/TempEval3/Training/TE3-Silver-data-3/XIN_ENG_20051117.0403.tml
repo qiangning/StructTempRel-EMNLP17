@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0403</DOCID>
+
+<DCT>MEXICO CITY, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Scientists discover new gene linked with schizophrenia</TITLE>
+
+
+<TEXT>
+
+LOS ANGELES, <TIMEX3 type="DATE" value="2006-11-17" tid="t1">Nov. 17</TIMEX3> (Xinhua)-- A new gene has been <EVENT class="OCCURRENCE" eid="e1">identified</EVENT> to <EVENT class="OCCURRENCE" eid="e2">link</EVENT> with higher risk of schizophrenia and depression, scientists <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-17" tid="t2">Thursday</TIMEX3>.
+
+Schizophrenia and related mood disorders are <EVENT class="I_STATE" eid="e5">thought</EVENT> to <EVENT class="OCCURRENCE" eid="e6">arise</EVENT> from a combination of genetic and environmental factors, but researchers have had <EVENT class="STATE" eid="e7">difficulty</EVENT> identifying the specific genes <EVENT class="OCCURRENCE" eid="e9">involved</EVENT>.
+
+Earlier studies have <EVENT class="OCCURRENCE" eid="e10">found</EVENT> a gene <EVENT class="OCCURRENCE" eid="e11">called</EVENT> DISC1, <EVENT class="OCCURRENCE" eid="e12">operating</EVENT> in a way that may <EVENT class="OCCURRENCE" eid="e13">contribute</EVENT> to the disorder, may <EVENT class="OCCURRENCE" eid="e15">make</EVENT> people susceptible to schizophrenia. However, the function of its encoded protein has been unclear.
+
+The new research, <EVENT class="OCCURRENCE" eid="e16">appearing</EVENT> in the <TIMEX3 type="DATE" value="2005-11-18" tid="t3">Nov. 18</TIMEX3> issue of the journal Science, <EVENT class="OCCURRENCE" eid="e17">presented</EVENT> genetic and biochemical evidence <EVENT class="I_ACTION" eid="e18">suggesting</EVENT> that the DISC1 protein <EVENT class="OCCURRENCE" eid="e19">interacts</EVENT> with an enzyme called phosphodiesterase 4B (PDE4B), which in turn influences the <EVENT class="OCCURRENCE" eid="e22">activity</EVENT> of the signaling molecule cAMP.
+
+This signaling system has previously been <EVENT class="OCCURRENCE" eid="e23">implicated</EVENT> in learning, memory and mood in other experimental systems, which is consistent with the idea that alterations in the system may contribute to schizophrenia, <EVENT class="REPORTING" eid="e25">according</EVENT> to the researchers.
+
+Damage to the gene PDE4B is also <EVENT class="PERCEPTION" eid="e26">seen</EVENT> to <EVENT class="OCCURRENCE" eid="e27">increase</EVENT> the risk of <EVENT class="OCCURRENCE" eid="e28">developing</EVENT> mental illness. In addition, the researchers have <EVENT class="OCCURRENCE" eid="e29">discovered</EVENT> that DISC1 <EVENT class="OCCURRENCE" eid="e30">acts</EVENT> as a regulator for PDE4B, <EVENT class="OCCURRENCE" eid="e31">creating</EVENT> a 'pathway' between the two genes.
+
+"The new genetic <EVENT class="OCCURRENCE" eid="e32">link</EVENT> we have <EVENT class="OCCURRENCE" eid="e33">made</EVENT> to <EVENT class="OCCURRENCE" eid="e34">PDE4B</EVENT> and how that links back to DISC1 <EVENT class="OCCURRENCE" eid="e35">sheds</EVENT> much needed light on these debilitating disorders. It also <EVENT class="I_ACTION" eid="e38">suggests</EVENT> a new way of <EVENT class="I_STATE" eid="e39">thinking</EVENT> about <EVENT class="OCCURRENCE" eid="e40">developing</EVENT> better and effective medicines," <EVENT class="REPORTING" eid="e41">said</EVENT> David Porteous, a professor at the University of Edinburgh, Britain, who <EVENT class="OCCURRENCE" eid="e42">led</EVENT> the <EVENT class="OCCURRENCE" eid="e43">study</EVENT>.
+
+The new discovery may in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t4">the future</TIMEX3> <EVENT class="OCCURRENCE" eid="e44">lead</EVENT> to the eventual <EVENT class="OCCURRENCE" eid="e45">development</EVENT> of new drugs to <EVENT class="OCCURRENCE" eid="e46">treat</EVENT> mental health problems, the researchers <EVENT class="REPORTING" eid="e47">said</EVENT>.
+
+"Our insights into the important role that the proteins PDE4B and DISC1 may <EVENT class="OCCURRENCE" eid="e48">play</EVENT> in the mis-function of the brain that <EVENT class="I_ACTION" eid="e49">leads</EVENT> to schizophrenia will <EVENT class="OCCURRENCE" eid="e50">lead</EVENT> our thinking in the <EVENT class="OCCURRENCE" eid="e51">development</EVENT> of new treatments for this disorder," <EVENT class="REPORTING" eid="e53">said</EVENT> Peter Hutson, co-author of the study from the drug maker Merck Sharp &amp; Dohme.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei53" eventID="e53" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei53" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei47" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei38" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei25" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei38" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei45" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei48" relatedToEventInstance="ei53" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei32" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei32" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei38" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei46" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei44" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei47" relatedToEventInstance="ei53" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei50" relatedToEventInstance="ei53" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei49" relatedToEventInstance="ei53" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei51" relatedToEventInstance="ei53" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei44" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l54" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+
+
+
+
+</TimeML>

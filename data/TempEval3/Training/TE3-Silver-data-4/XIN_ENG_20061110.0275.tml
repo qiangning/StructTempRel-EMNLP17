@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0275</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Foreign capital encouraged to go west</TITLE>
+
+
+<TEXT>
+
+China <EVENT class="I_STATE" eid="e1">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e2">encourage</EVENT> about 10,000 foreign companies and eastern-based businesses to <EVENT class="OCCURRENCE" eid="e3">go</EVENT> west in <TIMEX3 type="DURATION" value="P3Y" tid="t1">the next three years</TIMEX3>, a Ministry of Commerce official <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+Li Zhiqun, director of the ministry's foreign investment management department <EVENT class="REPORTING" eid="e5">said</EVENT> the ministry would <EVENT class="OCCURRENCE" eid="e6">take</EVENT> measures to <EVENT class="OCCURRENCE" eid="e7">push</EVENT> forward the go-west <EVENT class="OCCURRENCE" eid="e8">campaign</EVENT>.
+
+The government would <EVENT class="OCCURRENCE" eid="e9">give</EVENT> strong support to development zones in central and west China as well as infrastructure construction, Li <EVENT class="REPORTING" eid="e11">told</EVENT> a recent forum in Beijing.
+
+He <EVENT class="REPORTING" eid="e12">said</EVENT> the government <EVENT class="I_STATE" eid="e13">hopes</EVENT> foreign investors to <EVENT class="OCCURRENCE" eid="e14">pour</EVENT> more funds into the high-tech, energy-saving and environmental protection sectors. Modern agriculture and services are also on the list.
+
+Multinational corporations are also <EVENT class="OCCURRENCE" eid="e16">encouraged</EVENT> to <EVENT class="OCCURRENCE" eid="e17">set</EVENT> up regional headquarters, research and development centers as well as training centers in west China.
+
+China has <EVENT class="STATE" eid="e18">been</EVENT> the largest recipient of foreign direct <EVENT class="OCCURRENCE" eid="e19">investment</EVENT> among the developing countries for <TIMEX3 type="DURATION" value="2006-11-11" tid="t2">15 straight years</TIMEX3>.
+
+Government statistics <EVENT class="OCCURRENCE" eid="e21">show</EVENT> that some 90 percent of the foreign investment enterprises are <EVENT class="OCCURRENCE" eid="e22">located</EVENT> in east China, which <EVENT class="OCCURRENCE" eid="e23">worsens</EVENT> the unbalanced <EVENT class="OCCURRENCE" eid="e24">development</EVENT> between the west and the east, analysts <EVENT class="REPORTING" eid="e25">say</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="OTHER" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

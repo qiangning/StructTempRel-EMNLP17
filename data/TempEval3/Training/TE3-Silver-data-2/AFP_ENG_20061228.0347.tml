@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061228.0347</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-28" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 28 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>European exchanges close mixed; London down 0.07 percent</TITLE>
+
+
+<TEXT>
+
+European stock exchanges <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> mixed on <TIMEX3 type="DATE" value="2006-12-28" tid="t1">Thursday</TIMEX3>, with the London FTSE 100 <EVENT class="ASPECTUAL" eid="e3">finishing</EVENT> down 0.07 percent at 6,240.90 points.
+
+In Paris the CAC 40 <EVENT class="OCCURRENCE" eid="e4">fell</EVENT> 0.12 percent to <EVENT class="ASPECTUAL" eid="e5">finish</EVENT> at 5,533.36, while in Frankfurt the Dax <EVENT class="OCCURRENCE" eid="e6">gained</EVENT> 0.04 percent to <EVENT class="OCCURRENCE" eid="e7">close</EVENT> at 6,611.81.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

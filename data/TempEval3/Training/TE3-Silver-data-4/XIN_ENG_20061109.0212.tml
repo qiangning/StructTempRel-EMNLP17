@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0212</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. trade deficit down in September</TITLE>
+
+
+<TEXT>
+
+The U.S. trade deficit <EVENT class="OCCURRENCE" eid="e1">declined</EVENT> by 6.8 percent to 64.3 billion U.S. dollars in <TIMEX3 type="DATE" value="2006-09" tid="t1">September</TIMEX3>, a Commerce Department report <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-09" tid="t2">Thursday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e3">drop</EVENT> of 4.7 billion dollars in <TIMEX3 type="DATE" value="2006-09" tid="t3">September</TIMEX3>, down from a revised record <EVENT class="I_STATE" eid="e4">estimate</EVENT> of 69 billion dollars in <TIMEX3 type="DATE" value="2006-08" tid="t4">August</TIMEX3>, was the biggest one-month <EVENT class="OCCURRENCE" eid="e5">decline</EVENT> since <TIMEX3 type="DATE" value="2001-02" tid="t6">February 2001</TIMEX3>.
+
+The report <EVENT class="REPORTING" eid="e6">said</EVENT> the sharp <EVENT class="OCCURRENCE" eid="e7">drop</EVENT> was due to the fact that oil import prices <EVENT class="OCCURRENCE" eid="e8">fell</EVENT> for the first time in <TIMEX3 type="DURATION" value="P5M" tid="t7">five months</TIMEX3> and U.S. exports <EVENT class="OCCURRENCE" eid="e9">edged</EVENT> higher to a new record.
+
+In <TIMEX3 type="DATE" value="2006-09" tid="t8">September</TIMEX3>, the goods and services deficit was down 0.7 billion dollars from <TIMEX3 type="DATE" value="2005-09" tid="t9">September 2005</TIMEX3>. Exports were up 16.8 billion, or 15.8 percent, to a record <EVENT class="I_STATE" eid="e11">estimate</EVENT> of 123.2 billion dollars.
+
+Meanwhile, U.S. imports in <TIMEX3 type="DATE" value="2006-09" tid="t10">September</TIMEX3> were up 16.2 billion dollars, or 9.4 percent, to 187.5 billion dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1000002" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

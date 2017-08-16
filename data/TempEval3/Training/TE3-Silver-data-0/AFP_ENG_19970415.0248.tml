@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970415.0248</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="1997-04-15" temporalFunction="false" functionInDocument="CREATION_TIME">April 15 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Rubber futures prices dip in Singapore</TITLE>
+
+
+<TEXT>
+
+Rubber futures in Singapore <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> lower <TIMEX3 type="DATE" value="1997-04-15" tid="t1">Tuesday</TIMEX3> on higher turnover, dealers <EVENT class="REPORTING" eid="e2">said</EVENT>.
+
+Volume for three of the four contracts traded on the Singapore Commodity Exchange Ltd. <EVENT class="OCCURRENCE" eid="e3">rose</EVENT> to 4,430 tonnes from 3,025 tonnes <TIMEX3 type="DURATION" value="P1D" tid="t2">a day earlier</TIMEX3>.
+
+August RSS 1 last <EVENT class="OCCURRENCE" eid="e4">traded</EVENT> at 165 Singapore cents, July RSS 3 at 114 US cents and October-December TSR20 (FOB) at 113 US cents, dealers <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+The TSR 20 contract was not <EVENT class="OCCURRENCE" eid="e6">traded</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+
+
+
+
+</TimeML>

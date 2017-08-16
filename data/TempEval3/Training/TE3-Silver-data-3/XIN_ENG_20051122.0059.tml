@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0059</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hushen index down -- Nov. 22</TITLE>
+
+
+<TEXT>
+
+The Hushen 300 Index reflecting the whole <EVENT class="OCCURRENCE" eid="e1">fluctuation</EVENT> of China's Shanghai and Shenzhen stock exchanges <EVENT class="OCCURRENCE" eid="e2">closed</EVENT> at 869.62 points on <TIMEX3 type="DATE" value="2005-11-22" tid="t1">Tuesday</TIMEX3>, down 14.25 points from the previous close.
+
+About one fifth of the total shares listed in the two markets have been <EVENT class="I_ACTION" eid="e4">chosen</EVENT> as samples of the Hushen 300 Index, <EVENT class="OCCURRENCE" eid="e5">accounting</EVENT> for 60 percent of the market value in China's stock market.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

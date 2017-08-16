@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0275</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Iran to cede state companies' shares to poor</TITLE>
+
+
+<TEXT>
+
+The Iranian government on <TIMEX3 type="DATE" value="2005-11-02" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> a <EVENT class="I_STATE" eid="e2">plan</EVENT> to <EVENT class="OCCURRENCE" eid="e3">cede</EVENT> shares of state-owned companies to the poor people, the official IRNA news agency <EVENT class="REPORTING" eid="e4">reported</EVENT>.
+
+The newly approved bylaw <EVENT class="I_ACTION" eid="e5">stated</EVENT> that the government would <EVENT class="OCCURRENCE" eid="e6">cede</EVENT> state-owned companies' stocks to the poor strata of the society and <EVENT class="OCCURRENCE" eid="e7">pay</EVENT> off the cost of the shares under a 20-year installment, the report <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+It <EVENT class="OCCURRENCE" eid="e9">added</EVENT> that the Ministry of Economic Affairs and Finance was <EVENT class="OCCURRENCE" eid="e10">assigned</EVENT> to <EVENT class="OCCURRENCE" eid="e11">draw</EVENT> up practical <EVENT class="OCCURRENCE" eid="e12">procedure</EVENT> for the <EVENT class="OCCURRENCE" eid="e13">ceding</EVENT>, while the Ministry of Welfare and Social Security would be responsible for <EVENT class="OCCURRENCE" eid="e15">identifying</EVENT> the beneficiaries in <TIMEX3 type="DURATION" value="P2M" tid="t3">two months</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e16">According</EVENT> to official statistics, nearly 15 percent of the Iranians live under the poverty line, but some unofficial estimates were <EVENT class="OCCURRENCE" eid="e18">fixed</EVENT> around 40 percent.
+
+Iranian President Mahmoud Ahmadinejad <EVENT class="I_ACTION" eid="e19">promised</EVENT> during his election <EVENT class="OCCURRENCE" eid="e20">campaign</EVENT> to <EVENT class="OCCURRENCE" eid="e21">improve</EVENT> social welfare to <EVENT class="OCCURRENCE" eid="e22">provide</EVENT> a better life for the poor, which greatly <EVENT class="OCCURRENCE" eid="e23">contributed</EVENT> to his <EVENT class="OCCURRENCE" eid="e24">win</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="AFTER" />
+
+
+
+
+</TimeML>

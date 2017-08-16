@@ -1,0 +1,7 @@
+RESULTS
+-------
+participant_system_name		quests	answrd	corr	inc	acc	prec	rec	f1
+human-fold1-original		79	34	29	5	0.37	0.85	0.43	0.57
+human-fold1-timlinks		79	41	36	5	0.46	0.88	0.52	0.65
+TIPSem-fold1-original		79	28	16	12	0.20	0.57	0.35	0.44
+TIPSem-fold1-with-timex		79	42	29	13	0.37	0.69	0.53	0.60

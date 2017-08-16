@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970412.0293</DOCID>
+
+<DCT>TEHRAN, <TIMEX3 tid="t0" type="TIME" value="1997-02-12" temporalFunction="false" functionInDocument="CREATION_TIME">Feb 12 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>13 drug traffickers hanged in Iran</TITLE>
+
+
+<TEXT>
+
+Thirteen drug traffickers, also <EVENT class="I_ACTION" eid="e1">accused</EVENT> of armed robbery and murder, have been simultaneously <EVENT class="OCCURRENCE" eid="e3">hanged</EVENT> in southeastern Iran, newspapers <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="1997-02-08" tid="t1">Saturday</TIMEX3>.
+
+The "international traffickers," all of them Iranian, had <EVENT class="OCCURRENCE" eid="e5">killed</EVENT> or <EVENT class="OCCURRENCE" eid="e6">wounded</EVENT> several policemen in clashes with security forces in Sistan- Baluchestan province bordering Afghanistan, the papers <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+They did not <EVENT class="REPORTING" eid="e8">say</EVENT> on which day the hangings <EVENT class="OCCURRENCE" eid="e9">took</EVENT> place.
+
+It was the highest number of people <EVENT class="OCCURRENCE" eid="e10">executed</EVENT> at the same time for <TIMEX3 type="DURATION" value="PXY" tid="t2">several years</TIMEX3>.
+
+In a separate incident, Iranian police <EVENT class="REPORTING" eid="e11">said</EVENT> <TIMEX3 type="DATE" value="1997-02-08" tid="t3">Saturday</TIMEX3> they had <EVENT class="OCCURRENCE" eid="e12">seized</EVENT> more than half a ton of opium <EVENT class="OCCURRENCE" eid="e13">hidden</EVENT> in cars in the northeastern towns of Torbat Jam and Tayyebad.
+
+The official IRNA news agency <EVENT class="REPORTING" eid="e14">said</EVENT> three grenades and an automatic rifle were also <EVENT class="OCCURRENCE" eid="e15">seized</EVENT> after routine checks.
+
+Iran is a transit route for drugs <EVENT class="OCCURRENCE" eid="e16">coming</EVENT> from Afghanistan and Pakistan destined for Europe.
+
+Iranian authorities have <EVENT class="OCCURRENCE" eid="e18">stepped</EVENT> up the <EVENT class="OCCURRENCE" eid="e19">fight</EVENT> against drug trafficking in <TIMEX3 type="DURATION" value="PXY" tid="t4">recent years</TIMEX3>, and anybody possessing more than 30 grammes of heroin or five kilos of opium <EVENT class="I_STATE" eid="e20">faces</EVENT> the death penalty.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

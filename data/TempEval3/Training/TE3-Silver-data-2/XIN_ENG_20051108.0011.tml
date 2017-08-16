@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0011</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2005-10-08" temporalFunction="false" functionInDocument="CREATION_TIME">Oct. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesia unhappy with China Open drawing</TITLE>
+
+
+<TEXT>
+
+The Indonesian squad <EVENT class="OCCURRENCE" eid="e1">questioned</EVENT> the recent <EVENT class="OCCURRENCE" eid="e2">drawing</EVENT> of the International Badminton Federation (IBF), which could <EVENT class="PERCEPTION" eid="e3">see</EVENT> early <EVENT class="OCCURRENCE" eid="e4">battles</EVENT> among Indonesian top shuttlers in the China Open badminton tournament, local media reports <EVENT class="REPORTING" eid="e6">said</EVENT> <TIMEX3 type="DATE" value="2005-10-04" tid="t1">Tuesday</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e7">According</EVENT> to the drawing, Indonesia's top duo Candra Wijaya/Sigit Budiarto could <EVENT class="OCCURRENCE" eid="e9">face</EVENT> compatriots Flandy Limpele/Eng Hian if both pairs <EVENT class="OCCURRENCE" eid="e10">made</EVENT> it to the second round, <EVENT class="REPORTING" eid="e11">said</EVENT> the Media Indonesia daily.
+
+The drawing, <EVENT class="OCCURRENCE" eid="e13">released</EVENT> in the IBF official website, may also <EVENT class="PERCEPTION" eid="e14">see</EVENT> all Indonesian affairs in the third round between Sony Dwi Kuncoro and Simon Santoso in men's singles and Markis Kido/Hendra Setiawan and Luluk Hadiyanto/Alven Yulianto in men's <EVENT class="OCCURRENCE" eid="e15">doubles</EVENT>.
+
+"We will <EVENT class="OCCURRENCE" eid="e16">send</EVENT> a letter to the IBF (to <EVENT class="OCCURRENCE" eid="e17">ask</EVENT>) why many our players <EVENT class="OCCURRENCE" eid="e18">meet</EVENT> in the early stages," head of Indonesian coaching team Rudy Hartono was <EVENT class="OCCURRENCE" eid="e19">quoted</EVENT> as <EVENT class="REPORTING" eid="e20">saying</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+
+
+
+
+</TimeML>

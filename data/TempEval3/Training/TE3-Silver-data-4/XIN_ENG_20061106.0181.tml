@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0181</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. urges six-party talks to resume as soon as possible</TITLE>
+
+
+<TEXT>
+
+The United States <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3> that it <EVENT class="I_STATE" eid="e2">hopes</EVENT> the six-party <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> <EVENT class="I_STATE" eid="e4">aimed</EVENT> at <EVENT class="I_ACTION" eid="e5">addressing</EVENT> the nuclear issue of the Democratic People's Republic of Korea (DPRK) could <EVENT class="ASPECTUAL" eid="e6">resume</EVENT> as soon as possible.
+
+"Certainly, we're <EVENT class="I_ACTION" eid="e7">looking</EVENT> forward to having those <EVENT class="OCCURRENCE" eid="e8">talks</EVENT> <EVENT class="OCCURRENCE" eid="e9">reconvene</EVENT> at the earliest possible date," State Department deputy spokesman Tom Casey <EVENT class="REPORTING" eid="e10">said</EVENT> at a <EVENT class="OCCURRENCE" eid="e11">briefing</EVENT>.
+
+However, "I don't <EVENT class="STATE" eid="e12">have</EVENT> a specific date yet to <EVENT class="OCCURRENCE" eid="e13">offer</EVENT> you," Casey <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+"I <EVENT class="I_STATE" eid="e15">think</EVENT> we're still <EVENT class="I_ACTION" eid="e16">looking</EVENT> to <EVENT class="PERCEPTION" eid="e17">see</EVENT> when that's going to be possible," Casey <EVENT class="OCCURRENCE" eid="e19">added</EVENT>.
+
+The DPRK <EVENT class="REPORTING" eid="e20">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t2">Nov. 1</TIMEX3> that it had <EVENT class="OCCURRENCE" eid="e21">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e22">return</EVENT> to the six-party <EVENT class="OCCURRENCE" eid="e23">talks</EVENT>, but did not <EVENT class="OCCURRENCE" eid="e24">offer</EVENT> a specific date.
+
+The six-party <EVENT class="OCCURRENCE" eid="e25">talks</EVENT>, which <EVENT class="I_STATE" eid="e26">involve</EVENT> the United States, the DPRK, China, Russia, South Korea and Japan, and are <EVENT class="I_STATE" eid="e27">aimed</EVENT> at <EVENT class="I_ACTION" eid="e28">persuading</EVENT> the DPRK to <EVENT class="OCCURRENCE" eid="e29">abandon</EVENT> its nuclear programs, have been <EVENT class="I_ACTION" eid="e30">stalled</EVENT> since <TIMEX3 type="DATE" value="2005-11" tid="t3">last November</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei30" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="INCLUDES" />
+
+
+
+
+</TimeML>

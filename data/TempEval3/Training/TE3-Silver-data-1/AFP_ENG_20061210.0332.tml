@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061210.0332</DOCID>
+
+<DCT>ALGIERS, <TIMEX3 tid="t0" type="TIME" value="2006-12-10" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 10 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>URGENT  Algerian attack on US buses leaves one dead</TITLE>
+
+
+<TEXT>
+
+One person was <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> and another <EVENT class="OCCURRENCE" eid="e2">injured</EVENT> <TIMEX3 type="DATE" value="2006-12-10" tid="t1">Sunday</TIMEX3> in an <EVENT class="OCCURRENCE" eid="e3">attack</EVENT> in Algeria on two buses <EVENT class="OCCURRENCE" eid="e4">carrying</EVENT> employees from a US company, witnesses <EVENT class="REPORTING" eid="e5">told</EVENT> AFP.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

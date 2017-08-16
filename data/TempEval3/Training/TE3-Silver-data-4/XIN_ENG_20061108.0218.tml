@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0218</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. stocks open lower</TITLE>
+
+
+<TEXT>
+
+U.S. stocks <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> lower on <TIMEX3 type="DATE" value="2006-11-08" tid="t1">Wednesday</TIMEX3> as America's midterm election results <EVENT class="STATE" eid="e2">became</EVENT> known.
+
+In the opening <EVENT class="OCCURRENCE" eid="e4">trading</EVENT>, the Dow Jones Industrial Average was down 15.80, to 12,140.97. The Standard &amp; Poor's 500 index <EVENT class="OCCURRENCE" eid="e5">lost</EVENT> 0.34 to 1,382.50, and the Nasdaq composite index <EVENT class="OCCURRENCE" eid="e6">fell</EVENT> 11.96 to 2,363.92.
+
+Crude oil prices <EVENT class="OCCURRENCE" eid="e7">rose</EVENT> slightly on <TIMEX3 type="DATE" value="2006-11-08" tid="t2">Wednesday</TIMEX3> amid supply concerns in Nigeria, the largest African oil producer.
+
+While the Democrats <EVENT class="OCCURRENCE" eid="e8">won</EVENT> control of the House of Representatives for the first time in <TIMEX3 type="DURATION" value="P12Y" tid="t3">12 years</TIMEX3> in <TIMEX3 type="DATE" value="2006-11-07" tid="t4">Tuesday</TIMEX3>'s mid-term legislative <EVENT class="OCCURRENCE" eid="e9">elections</EVENT>, the Senate race is still too close to <EVENT class="OCCURRENCE" eid="e12">call</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

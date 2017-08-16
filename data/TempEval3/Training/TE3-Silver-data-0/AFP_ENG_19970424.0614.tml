@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970424.0614</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-25" temporalFunction="false" functionInDocument="CREATION_TIME">April 25 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Mitsubushi to form auto metal sheet processing unit in Thailand</TITLE>
+
+
+<TEXT>
+
+Japanese trading house Mitsubishi Corp. <EVENT class="I_STATE" eid="e1">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e2">set</EVENT> up a joint venture in Thailand in <TIMEX3 type="DATE" value="1997-05" tid="t1">May</TIMEX3> to process and market auto metal sheets in the country, a company spokesman <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-25" tid="t2">Friday</TIMEX3>.
+
+MC Metal Service Asia Co Ltd., <EVENT class="OCCURRENCE" eid="e4">capitalised</EVENT> at 830 million yen (6.5 million dollars), will be <EVENT class="STATE" eid="e5">owned</EVENT> 51 percent by Mitsubishi and the remaining 49 percent by Thai MC Co. Ltd. an affiliate of the major trading company, the spokesman <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+Total investment in the venture is <EVENT class="I_STATE" eid="e7">estimated</EVENT> at 1.4 billion yen, including the <EVENT class="OCCURRENCE" eid="e8">construction</EVENT> of a plant near Bangkok, with production <EVENT class="ASPECTUAL" eid="e9">starting</EVENT> in <TIMEX3 type="DATE" value="1997-12" tid="t3">December</TIMEX3>, the spokesman <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+The new plant will <EVENT class="STATE" eid="e11">have</EVENT> annual capacity of 80,000 tonnes, equivalent to 400,000 passenger car units.
+
+The <EVENT class="OCCURRENCE" eid="e12">venture</EVENT> <EVENT class="I_STATE" eid="e13">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e14">sell</EVENT> the product to Thai production units of Japanese carmakers such as Toyota Motor Corp. and Nissan Motor Co. Ltd.
+
+It also <EVENT class="I_STATE" eid="e15">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e16">supply</EVENT> other carmakers which have plans to <EVENT class="ASPECTUAL" eid="e17">start</EVENT> <EVENT class="OCCURRENCE" eid="e18">operations</EVENT> in Thailand, including Ford Motor Co. and General Motors Corp., the spokesman <EVENT class="OCCURRENCE" eid="e19">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

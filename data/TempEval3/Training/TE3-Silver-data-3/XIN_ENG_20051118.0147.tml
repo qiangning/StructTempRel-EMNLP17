@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051118.0147</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China, U.S. agree to enhance cooperation in law enforcement effort</TITLE>
+
+
+<TEXT>
+
+China and the United States should <EVENT class="OCCURRENCE" eid="e1">promote</EVENT> bilateral <EVENT class="OCCURRENCE" eid="e2">cooperation</EVENT> between their law enforcement organs, a senior Communist Party of China (CPC) official <EVENT class="REPORTING" eid="e3">said</EVENT> here <TIMEX3 type="DATE" value="2005-11-18" tid="t1">Friday</TIMEX3>.
+
+"The Chinese government <EVENT class="I_STATE" eid="e4">hopes</EVENT> the two sides will <EVENT class="OCCURRENCE" eid="e5">make</EVENT> substantial progress in their cooperation of <EVENT class="OCCURRENCE" eid="e7">arresting</EVENT> and <EVENT class="OCCURRENCE" eid="e8">repatriating</EVENT> criminal suspects, anti-terrorism, and drug prohibition in a <EVENT class="OCCURRENCE" eid="e9">bid</EVENT> to <EVENT class="OCCURRENCE" eid="e10">promote</EVENT> constructive and cooperative relationship in <TIMEX3 type="DATE" value="21" tid="t2">the 21st century</TIMEX3>," <EVENT class="REPORTING" eid="e11">said</EVENT> Luo Gan, a member of the Standing Committee of the Political Bureau of the CPC Central Committee, during a <EVENT class="OCCURRENCE" eid="e12">meeting</EVENT> with Alberto Gonzales, attorney general of the US department of Justice.
+
+China and the U.S. have <EVENT class="OCCURRENCE" eid="e13">enjoyed</EVENT> effective cooperation and coordination with a frequent exchange of high-level contacts, he <EVENT class="REPORTING" eid="e15">said</EVENT>. US President George W. Bush will <EVENT class="ASPECTUAL" eid="e16">start</EVENT> his <EVENT class="OCCURRENCE" eid="e17">visit</EVENT> to China on <TIMEX3 type="DATE" value="2005-11-19" tid="t3">Nov.</TIMEX3> 19th.
+
+Bilateral <EVENT class="OCCURRENCE" eid="e18">cooperation</EVENT> between the two nations on anti-terrorism, law enforcement, non-proliferation, trade and economics, as well as on the Korean nuclear issue, <EVENT class="OCCURRENCE" eid="e19">conforms</EVENT> to the interests of both nations, and is conducive to <EVENT class="OCCURRENCE" eid="e20">safeguarding</EVENT> world peace, stability and <EVENT class="OCCURRENCE" eid="e21">development</EVENT> in the Asia-Pacific region and world at large, he <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+<EVENT class="I_ACTION" eid="e23">Calling</EVENT> the law enforcement <EVENT class="OCCURRENCE" eid="e24">cooperation</EVENT> as an important component part of Sino-US relations, Luo <EVENT class="REPORTING" eid="e25">said</EVENT> the Chinese government will <EVENT class="ASPECTUAL" eid="e26">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e27">give</EVENT> support to such <EVENT class="OCCURRENCE" eid="e28">cooperation</EVENT>.
+
+Gonzales <EVENT class="REPORTING" eid="e29">said</EVENT> the U.S. <EVENT class="OCCURRENCE" eid="e30">attaches</EVENT> great importance to its relations with China, and that the Department of Justice would <EVENT class="I_STATE" eid="e31">like</EVENT> to <EVENT class="OCCURRENCE" eid="e32">work</EVENT> with the Chinese Ministry of Public Security to <EVENT class="OCCURRENCE" eid="e33">push</EVENT> forward their cooperation in their law enforcement <EVENT class="OCCURRENCE" eid="e36">effort</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei29" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+
+
+
+
+</TimeML>

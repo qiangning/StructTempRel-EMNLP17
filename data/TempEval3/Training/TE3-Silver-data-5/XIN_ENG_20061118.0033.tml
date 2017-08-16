@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061118.0033</DOCID>
+
+<DCT>LUSAKA, <TIMEX3 tid="t0" type="TIME" value="2006-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Zambian oil refinery plant resumes production after maintenance</TITLE>
+
+
+<TEXT>
+
+Zambia's sole oil refinery plant has <EVENT class="ASPECTUAL" eid="e1">resumed</EVENT> its full <EVENT class="OCCURRENCE" eid="e2">production</EVENT> after a one-month <EVENT class="OCCURRENCE" eid="e3">shutdown</EVENT> for annual routine <EVENT class="OCCURRENCE" eid="e4">maintenance</EVENT>, Saturday Post <EVENT class="REPORTING" eid="e5">reported</EVENT>.
+
+The local newspaper <EVENT class="OCCURRENCE" eid="e6">quoted</EVENT> sources of Indeni refinery plant as <EVENT class="REPORTING" eid="e7">saying</EVENT>, "the plant <EVENT class="ASPECTUAL" eid="e8">resumed</EVENT> full production <TIMEX3 type="DATE" value="2006-W46" tid="t3">this week</TIMEX3>. Of course this was after the crude oil we were <EVENT class="OCCURRENCE" eid="e9">waiting</EVENT> for from Dar es Salaam, Tanzania, was fully <EVENT class="OCCURRENCE" eid="e10">stocked</EVENT>."
+
+Among the products it has <EVENT class="ASPECTUAL" eid="e11">begun</EVENT> <EVENT class="OCCURRENCE" eid="e12">supplying</EVENT> at the market are diesel, jet fuel, heavy fuel oil, petrol, liquefied petroleum gas and bitumen, <EVENT class="REPORTING" eid="e14">said</EVENT> the report.
+
+<TIMEX3 type="DATE" value="2006-10" tid="t4">Last month</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e16">shutdown</EVENT>, which was <EVENT class="OCCURRENCE" eid="e17">postponed</EVENT> twice, has been without <EVENT class="OCCURRENCE" eid="e18">incident</EVENT>. Indeni Managing Director Luis Urbano <EVENT class="REPORTING" eid="e19">said</EVENT> the country did not <EVENT class="OCCURRENCE" eid="e20">experience</EVENT> any <EVENT class="OCCURRENCE" eid="e21">disruption</EVENT> in fuel supplies.
+
+The country <EVENT class="OCCURRENCE" eid="e22">experienced</EVENT> a crippling fuel shortage <TIMEX3 type="DATE" value="2005" tid="t5">last year</TIMEX3> when the Zambian-French joint <EVENT class="OCCURRENCE" eid="e24">venture</EVENT> in Ndola, capital of Copperbelt province, was <EVENT class="OCCURRENCE" eid="e25">shut</EVENT> down for maintenance.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+
+
+
+
+</TimeML>

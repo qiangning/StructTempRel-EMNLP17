@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0126</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>French minister praises China's efforts to prevent bird flu</TITLE>
+
+
+<TEXT>
+
+China's <EVENT class="I_STATE" eid="e1">approach</EVENT> to its <EVENT class="OCCURRENCE" eid="e2">fight</EVENT> against the bird flu is "resolute and comprehensive", <EVENT class="REPORTING" eid="e3">said</EVENT> Xavier Bertrand, the French Minister of Health and Solidarity, Tuesday during his two-day <EVENT class="OCCURRENCE" eid="e4">visit</EVENT> to Shanghai.
+
+"The Chinese government has a very full, clear understanding on the importance of <EVENT class="OCCURRENCE" eid="e6">containing</EVENT> the pandemic and the general public here have not <EVENT class="REPORTING" eid="e7">shown</EVENT> an unnecessary sign of panic," Bertrand <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+He <EVENT class="REPORTING" eid="e9">said</EVENT> both Chinese and French governments have <EVENT class="OCCURRENCE" eid="e10">taken</EVENT> prudent measures in preventing bird flu, <EVENT class="OCCURRENCE" eid="e12">adding</EVENT> that China has <EVENT class="OCCURRENCE" eid="e13">made</EVENT> great <EVENT class="OCCURRENCE" eid="e14">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e15">share</EVENT> information with the rest of the world.
+
+Bertrand was <EVENT class="I_ACTION" eid="e16">invited</EVENT> by the Chinese Ministry of Health to <EVENT class="OCCURRENCE" eid="e17">kick</EVENT> off his first official <EVENT class="OCCURRENCE" eid="e18">visit</EVENT> to China on <TIMEX3 type="DATE" value="2005-11-21" tid="t3">Nov 21</TIMEX3>. During the two-day <EVENT class="OCCURRENCE" eid="e19">visit</EVENT>, he <EVENT class="OCCURRENCE" eid="e20">discussed</EVENT> a range of issues on the topic of bird flu prevention and control with his Chinese counterpart Gao Qiang.
+
+"China and France have a long history of cooperation in the medical field and the two sides will <EVENT class="ASPECTUAL" eid="e22">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e23">promote</EVENT> medical exchanges in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t5">the future</TIMEX3>," Bertrand <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

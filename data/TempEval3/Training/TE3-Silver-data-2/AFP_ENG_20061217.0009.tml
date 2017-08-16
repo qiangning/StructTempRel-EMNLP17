@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061217.0009</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Nuggets rout Knicks in brawl-marred game</TITLE>
+
+
+<TEXT>
+
+Carmelo Anthony <EVENT class="OCCURRENCE" eid="e1">scored</EVENT> 34 points before being <EVENT class="OCCURRENCE" eid="e2">ejected</EVENT> with nine other players for <EVENT class="OCCURRENCE" eid="e3">throwing</EVENT> a <EVENT class="OCCURRENCE" eid="e4">punch</EVENT> as the Denver Nuggets <EVENT class="OCCURRENCE" eid="e5">routed</EVENT> the New York Knicks, 123-100 in a <EVENT class="OCCURRENCE" eid="e6">game</EVENT> <EVENT class="OCCURRENCE" eid="e7">marred</EVENT> by a wild melee.
+
+Marcus Camby <EVENT class="STATE" eid="e8">had</EVENT> 24 points and nine rebounds for the Nuggets, who <EVENT class="OCCURRENCE" eid="e9">angered</EVENT> Knicks coach Isiah Thomas as they kept all their starters on the floor with the <EVENT class="OCCURRENCE" eid="e11">game</EVENT> in hand, which may have <EVENT class="OCCURRENCE" eid="e12">triggered</EVENT> the brawl.
+
+With the Denver leading, 117-100, with 1:29 remaining, New York rookie Mardy Collins <EVENT class="OCCURRENCE" eid="e15">tackled</EVENT> J.R. Smith as he was <EVENT class="I_ACTION" eid="e16">attempting</EVENT> a transition <EVENT class="OCCURRENCE" eid="e17">layup</EVENT>.
+
+Tempers <EVENT class="OCCURRENCE" eid="e18">flared</EVENT> and bodies <EVENT class="OCCURRENCE" eid="e19">careened</EVENT> into the first row of the stands underneath the Knicks' basket.
+
+Knicks guard Nate Robinson and Smith <EVENT class="OCCURRENCE" eid="e21">wrestled</EVENT>, while Knicks guard Jared Jeffries was being <EVENT class="OCCURRENCE" eid="e23">restrained</EVENT> by team security.
+
+As the situation was being <EVENT class="OCCURRENCE" eid="e24">sorted</EVENT> out, Anthony <EVENT class="OCCURRENCE" eid="e25">landed</EVENT> a <EVENT class="OCCURRENCE" eid="e26">punch</EVENT> on Collins. All 10 players on the court were <EVENT class="OCCURRENCE" eid="e27">ejected</EVENT>.
+
+There is some bad blood between the National Basketball Association teams. Thomas and Nuggets coach George Karl <EVENT class="STATE" eid="e29">had</EVENT> an argument during a summer league <EVENT class="OCCURRENCE" eid="e31">meeting</EVENT>.
+
+Before the <EVENT class="OCCURRENCE" eid="e32">fight</EVENT>, Anthony <EVENT class="STATE" eid="e33">had</EVENT> a remarkable game, <EVENT class="OCCURRENCE" eid="e34">demoralizing</EVENT> the Knicks with easy <EVENT class="OCCURRENCE" eid="e35">drives</EVENT> to the basket. He <EVENT class="OCCURRENCE" eid="e36">shot</EVENT> 15-of-29 from the floor.
+
+Stephon Marbury <EVENT class="OCCURRENCE" eid="e37">scored</EVENT> 31 points for New York, which <EVENT class="OCCURRENCE" eid="e38">shot</EVENT> 43 percent (41-of-95).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

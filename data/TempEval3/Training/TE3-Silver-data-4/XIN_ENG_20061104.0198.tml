@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0198</DOCID>
+
+<DCT>BUCHAREST, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Growing number of Israelis asking for Romanian citizenship: envoy</TITLE>
+
+
+<TEXT>
+
+There is a growing number of Israeli citizens who are <EVENT class="OCCURRENCE" eid="e1">asking</EVENT> for Romanian citizenship, the national Rompres news agency <EVENT class="REPORTING" eid="e2">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-04" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e3">quoting</EVENT> Romania' s Ambassador to Israel Mariana Stoica as <EVENT class="REPORTING" eid="e4">saying</EVENT>.
+
+<EVENT class="REPORTING" eid="e5">According</EVENT> to Stoica, the applicants are Jews <EVENT class="ASPECTUAL" eid="e6">originating</EVENT> from Romania who <EVENT class="OCCURRENCE" eid="e7">wish</EVENT> to re-acquire Romanian citizenship or second generation offspring of people born in Romania and who <EVENT class="OCCURRENCE" eid="e10">wish</EVENT> to <EVENT class="OCCURRENCE" eid="e11">get</EVENT> Romanian citizenship.
+
+The main motivation for this growing number of applications consists in Romania <EVENT class="OCCURRENCE" eid="e13">becoming</EVENT> European Union member state <EVENT class="ASPECTUAL" eid="e14">starting</EVENT> on <TIMEX3 type="DATE" value="2007-01-01" tid="t2">January 1, 2007</TIMEX3>, <EVENT class="OCCURRENCE" eid="e15">underlined</EVENT> the Romanian diplomat, <EVENT class="OCCURRENCE" eid="e16">adding</EVENT> that "This a sufficiently serious reason for them, to <EVENT class="OCCURRENCE" eid="e17">become</EVENT> citizens of an EU member country."
+
+On the other hand, she <EVENT class="I_ACTION" eid="e18">pointed</EVENT> out that "there is an enhanced interest in <EVENT class="OCCURRENCE" eid="e19">investing</EVENT> in Romania and, in this case, it is a very good idea to <EVENT class="OCCURRENCE" eid="e20">hold</EVENT> Romanian citizenship".
+
+"Third reason is that a great number of young people whose parents are of Romanian origin <EVENT class="OCCURRENCE" eid="e21">go</EVENT> to <EVENT class="OCCURRENCE" eid="e22">study</EVENT> in Romania, especially Medicine and Economics," <EVENT class="REPORTING" eid="e23">said</EVENT> the ambassador.
+
+<EVENT class="REPORTING" eid="e24">According</EVENT> to the latest population figures, more than 110,000 of Israel's six million residents are from Romania, those Romanian jews <EVENT class="OCCURRENCE" eid="e25">arrived</EVENT> in Israel mostly in <TIMEX3 type="DATE" value="1948" tid="t3">1948-1951</TIMEX3>. Dual nationality is <EVENT class="OCCURRENCE" eid="e26">allowed</EVENT> <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> in Romania as well as in Isreal.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei25" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+
+
+
+
+</TimeML>

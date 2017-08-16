@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0073</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Russia wants Georgia's "concrete deeds" to mend ties: FM</TITLE>
+
+
+<TEXT>
+
+Russian Foreign Minister Sergei Lavrov <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-04" tid="t1">Saturday</TIMEX3> that Georgia must <EVENT class="OCCURRENCE" eid="e2">back</EVENT> up its desire to <EVENT class="OCCURRENCE" eid="e3">mend</EVENT> relations with Russia with "concrete deeds."
+
+The Russian top diplomat <EVENT class="REPORTING" eid="e4">said</EVENT> Georgian Foreign Minister Gela Bezhuashvili <EVENT class="OCCURRENCE" eid="e5">spoke</EVENT> about Georgia's desire for normalization of relations with Russia at their <EVENT class="OCCURRENCE" eid="e7">meeting</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t2">Wednesday</TIMEX3>.
+
+"We <EVENT class="OCCURRENCE" eid="e8">accepted</EVENT> these assurances, as we already have for <TIMEX3 type="DURATION" value="P2Y" tid="t3">the past two years</TIMEX3>. But we <EVENT class="I_STATE" eid="e10">want</EVENT> to <EVENT class="PERCEPTION" eid="e11">see</EVENT> concrete deeds," Lavrov was <EVENT class="OCCURRENCE" eid="e12">quoted</EVENT> by the Interfax news agency as <EVENT class="REPORTING" eid="e13">saying</EVENT>.
+
+Bezhuashvili's <EVENT class="OCCURRENCE" eid="e14">meeting</EVENT> with Lavrov was <EVENT class="PERCEPTION" eid="e15">seen</EVENT> as a bid to <EVENT class="OCCURRENCE" eid="e16">mend</EVENT> ties that <EVENT class="OCCURRENCE" eid="e17">nose-dived</EVENT> in <TIMEX3 type="DATE" value="2006-11-04" tid="t4">late September</TIMEX3> after the Caucasus nation briefly <EVENT class="OCCURRENCE" eid="e18">detained</EVENT> four Russian officers on spying charges.
+
+Moscow, <EVENT class="OCCURRENCE" eid="e19">infuriated</EVENT> by the <EVENT class="OCCURRENCE" eid="e20">arrests</EVENT>, has <EVENT class="OCCURRENCE" eid="e21">imposed</EVENT> an economic <EVENT class="OCCURRENCE" eid="e22">blockade</EVENT> on Tbilisi by <EVENT class="OCCURRENCE" eid="e23">cutting</EVENT> transport and postal links, and has <EVENT class="OCCURRENCE" eid="e24">deported</EVENT> Georgians <EVENT class="I_ACTION" eid="e25">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e26">staying</EVENT> in Russia illegally.
+
+Ties between Moscow and Tbilisi have been <EVENT class="OCCURRENCE" eid="e27">strained</EVENT> by tensions over Georgia's breakaway regions of South Ossetia and Abkhazia and the country's bid to <EVENT class="OCCURRENCE" eid="e29">join</EVENT> NATO since President Mikhail Saakashvili <EVENT class="OCCURRENCE" eid="e30">came</EVENT> to power in <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei19" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

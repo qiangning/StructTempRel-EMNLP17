@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0181</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Thai deputy PM recommends actions against Thaksin over lottery</TITLE>
+
+
+<TEXT>
+
+Thailand's Deputy Prime Minister and Finance Minister Pridiyathorn Devakula Monday <EVENT class="I_ACTION" eid="e1">recommended</EVENT> legal <EVENT class="OCCURRENCE" eid="e2">actions</EVENT> against former prime Minister Thaksin Shinawatra, his Cabinet members and senior officials over the two and three- digit lottery.
+
+Pridiyathorn <EVENT class="I_ACTION" eid="e3">asked</EVENT> the National Counter Corruption Commission and the Assets Examination Committee to <EVENT class="OCCURRENCE" eid="e4">take</EVENT> the <EVENT class="OCCURRENCE" eid="e5">actions</EVENT> on ground that Thaksin and others had allegedly <EVENT class="I_STATE" eid="e6">committed</EVENT> malfeasance and negligence.
+
+The deputy premier <EVENT class="REPORTING" eid="e8">said</EVENT> at the press <EVENT class="OCCURRENCE" eid="e9">conference</EVENT> here that the Finance Ministry's reports are based on the Council of State's <EVENT class="OCCURRENCE" eid="e10">ruling</EVENT> on <TIMEX3 type="DATE" value="2007-11" tid="t2">November</TIMEX3> which <EVENT class="OCCURRENCE" eid="e11">ruled</EVENT> that the government's <EVENT class="OCCURRENCE" eid="e12">decision</EVENT> the two and three-digit lottery <EVENT class="OCCURRENCE" eid="e13">violates</EVENT> in <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3> the Government Lottery Act 1974.
+
+Pridiyathorn <EVENT class="REPORTING" eid="e14">said</EVENT> that the first group of those subject to the charges are senior officials at the Government Lottery Office.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

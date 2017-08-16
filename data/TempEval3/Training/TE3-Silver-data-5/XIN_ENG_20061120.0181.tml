@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061120.0181</DOCID>
+
+<DCT>TIRANA, <TIMEX3 tid="t0" type="TIME" value="2006-11-20" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 20 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Three released Guantanamo detainees arrive in Albania</TITLE>
+
+
+<TEXT>
+
+Three men <EVENT class="OCCURRENCE" eid="e1">released</EVENT> from Guantanamo Bay, the U.S. navy base in Cuba, have <EVENT class="OCCURRENCE" eid="e2">arrived</EVENT> in Albania, a government spokesman <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-20" tid="t1">Monday</TIMEX3>.
+
+"They have <EVENT class="OCCURRENCE" eid="e4">arrived</EVENT>, that is all," Neritan Sejamini <EVENT class="REPORTING" eid="e5">told</EVENT> reporters without <EVENT class="OCCURRENCE" eid="e6">revealing</EVENT> any other details.
+
+Albania <EVENT class="OCCURRENCE" eid="e7">admitted</EVENT> on <TIMEX3 type="DATE" value="2006-11-18" tid="t2">Saturday</TIMEX3> that it would <EVENT class="OCCURRENCE" eid="e8">take</EVENT> from the U.S. three detainees <EVENT class="OCCURRENCE" eid="e9">released</EVENT> from the controversial base which has been <EVENT class="OCCURRENCE" eid="e10">used</EVENT> to <EVENT class="OCCURRENCE" eid="e11">hold</EVENT> terror suspects.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061124.0070</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>chemical plant</TITLE>
+
+
+<TEXT>
+
+The State Council has <EVENT class="OCCURRENCE" eid="e1">named</EVENT> senior executives of China National Petroleum Corporation (CNPC) and environmental officials who were <EVENT class="STATE" eid="e2">responsible</EVENT> for the Songhua River pollution in northeast China's Jilin Province in <TIMEX3 type="DATE" value="2005-11" tid="t1">November last year</TIMEX3>.
+
+Duan Wende, deputy general manager of the state-owned CNPC and senior vice president of the New York and Hong Kong-listed PetroChina Company Limited, <EVENT class="OCCURRENCE" eid="e3">received</EVENT> a "demerit" on his personal record.
+
+Nine other executives, including Yu Li, board chairman and general manager of the Jilin branch of PetroChina, and Shen Dongming, head of the Shuangben Chemical Plant of the Jilin branch, <EVENT class="OCCURRENCE" eid="e4">received</EVENT> disciplinary punishments <EVENT class="OCCURRENCE" eid="e5">ranging</EVENT> from serious warnings to demotions and dismissal.
+
+Wang Liying, director of the Jilin provincial environmental protection department, <EVENT class="OCCURRENCE" eid="e8">received</EVENT> a "serious demerit" on his record. Wu Yang, director of Jinlin city environmental protection bureau, <EVENT class="OCCURRENCE" eid="e9">received</EVENT> an administrative <EVENT class="OCCURRENCE" eid="e10">warning</EVENT>.
+
+The nitrobenzene fractionating tower of a chemical plant of Jilin branch of PetroChina Company Limited, controlled by CNPC, <EVENT class="OCCURRENCE" eid="e11">exploded</EVENT> on <TIMEX3 type="DATE" value="2006-11-24T13:00" tid="t2">Nov. 13 last year</TIMEX3>. The <EVENT class="OCCURRENCE" eid="e12">accident</EVENT> <EVENT class="OCCURRENCE" eid="e13">killed</EVENT> eight people and <EVENT class="OCCURRENCE" eid="e14">injured</EVENT> 60 others and <EVENT class="OCCURRENCE" eid="e15">caused</EVENT> 69.08 million yuan of direct economic <EVENT class="OCCURRENCE" eid="e16">losses</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+
+
+
+
+</TimeML>

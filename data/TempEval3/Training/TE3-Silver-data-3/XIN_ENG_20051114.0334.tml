@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051114.0334</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Finland opens commercial mobile TV license for bidding</TITLE>
+
+
+<TEXT>
+
+HELSINKI, <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Nov. 14</TIMEX3> (Xinhua)-- The Finnish Ministry of Transport and Communications <EVENT class="REPORTING" eid="e1">announced</EVENT> on <TIMEX3 type="DATE" value="2005-11-14" tid="t2">Monday</TIMEX3> that it will <EVENT class="ASPECTUAL" eid="e2">start</EVENT> <EVENT class="I_ACTION" eid="e3">accepting</EVENT> applications for a license of commercial mobile TV license.
+
+Finland has thus <EVENT class="OCCURRENCE" eid="e4">become</EVENT> the first European country to <EVENT class="OCCURRENCE" eid="e5">issue</EVENT> a license for a commercial TV service for mobile phones.
+
+The service will be based on DVB-H (digital video broadcasting - handheld) transmission technology.
+
+Finland is one of many countries <EVENT class="OCCURRENCE" eid="e8">experimenting</EVENT> with TV on mobile phones. TV service for mobile phones has been <EVENT class="OCCURRENCE" eid="e9">tested</EVENT> <TIMEX3 type="DATE" value="2005-SP" tid="t3">last spring</TIMEX3> in a trial network in its capital, Helsinki. Around 500 people were <EVENT class="OCCURRENCE" eid="e10">involved</EVENT> in the test, which <EVENT class="OCCURRENCE" eid="e11">showed</EVENT> mobile TV was favorably <EVENT class="OCCURRENCE" eid="e12">received</EVENT>.
+
+Susanna Huovinen, the transport and Communications minister, <EVENT class="REPORTING" eid="e13">said</EVENT> that the government <EVENT class="I_STATE" eid="e14">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e15">promote</EVENT> the <EVENT class="OCCURRENCE" eid="e16">development</EVENT> of innovations, including mobile TV.
+
+The operating license will be <EVENT class="OCCURRENCE" eid="e17">awarded</EVENT> <TIMEX3 type="DATE" value="2006" tid="t4">early next year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1000001" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

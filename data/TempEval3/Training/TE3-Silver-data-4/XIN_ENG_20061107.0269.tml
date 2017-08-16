@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0269</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>German stocks end higher</TITLE>
+
+
+<TEXT>
+
+German stocks <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> higher on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> on the Frankfurt market.
+
+The 30-share benchmark DAX Index <EVENT class="OCCURRENCE" eid="e2">surged</EVENT> 0.49 percent or 31.31 points to 6,361.96.
+
+The MDAX index of medium-sized companies <EVENT class="OCCURRENCE" eid="e3">gained</EVENT> 0.16 percent or 14.17 points to 8,815.42.
+
+The TecDAX index of technologies and science firms <EVENT class="OCCURRENCE" eid="e4">rose</EVENT> 1.80 percent or 12.50 points to 705.24 points.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

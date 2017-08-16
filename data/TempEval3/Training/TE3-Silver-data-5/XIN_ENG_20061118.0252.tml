@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061118.0252</DOCID>
+
+<DCT>COLOMBO, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>11 killed, 17 injured in Sri Lanka road accident</TITLE>
+
+
+<TEXT>
+
+At least 11 people were <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> and 17 others were <EVENT class="OCCURRENCE" eid="e2">injured</EVENT> in a serious motor <EVENT class="OCCURRENCE" eid="e3">accident</EVENT> <TIMEX3 type="DATE" value="2006-11-18" tid="t1">Saturday</TIMEX3> in Sri Lanka's northwestern province, police <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-11-19" tid="t2">Sunday</TIMEX3>.
+
+A van and a bus <EVENT class="OCCURRENCE" eid="e5">collided</EVENT> head on <TIMEX3 type="TIME" value="2006-11-18TNI" tid="t3">Saturday night</TIMEX3> at Gokarella, 112 kms from the capital, the police <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+The passengers in the van were <EVENT class="OCCURRENCE" eid="e7">returning</EVENT> to the central province village of Kandalama when it was <EVENT class="OCCURRENCE" eid="e8">hit</EVENT> by the bus which was <EVENT class="OCCURRENCE" eid="e9">heading</EVENT> towards Colombo, the police <EVENT class="OCCURRENCE" eid="e10">added</EVENT>.
+
+The bus driver <EVENT class="REPORTING" eid="e11">told</EVENT> the police that he was <EVENT class="STATE" eid="e12">unable</EVENT> to <EVENT class="OCCURRENCE" eid="e13">control</EVENT> the bus while <EVENT class="OCCURRENCE" eid="e14">negotiating</EVENT> a <EVENT class="OCCURRENCE" eid="e15">bend</EVENT>.
+
+The injured were <EVENT class="OCCURRENCE" eid="e17">admitted</EVENT> to hospitals at Kurunegala, Dambulla and Galewela, while at least 2 of the critically injured were <EVENT class="OCCURRENCE" eid="e19">transported</EVENT> to the National Hospital in the capital.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

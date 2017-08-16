@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061125.0075</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>exam</TITLE>
+
+
+<TEXT>
+
+China <EVENT class="OCCURRENCE" eid="e1">ushered</EVENT> candidates into examination rooms on <TIMEX3 type="DATE" value="2006-11-25" tid="t1">Saturday</TIMEX3> as the national civil servant recruitment examination <EVENT class="OCCURRENCE" eid="e2">got</EVENT> underway, with on average 42 people <EVENT class="OCCURRENCE" eid="e3">competing</EVENT> for each government <EVENT class="OCCURRENCE" eid="e4">job</EVENT> in <TIMEX3 type="DATE" value="2007" tid="t2">2007</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e5">exam</EVENT> is <EVENT class="OCCURRENCE" eid="e6">held</EVENT> simultaneously in 31 provinces, municipalities and autonomous regions nationwide where more than 530,000 people will <EVENT class="OCCURRENCE" eid="e7">compete</EVENT> for about 12,700 jobs, <EVENT class="REPORTING" eid="e8">said</EVENT> a spokesman of the Ministry of Personnel, the exam organizer.
+
+The ministry <EVENT class="REPORTING" eid="e9">said</EVENT> the administrative aptitude test (AAT) in the morning is followed by an essay test in <TIMEX3 type="TIME" value="2006-11-25TAF" tid="t4">the afternoon</TIMEX3>.
+
+Nationwide, north China's Liaoning Province <EVENT class="STATE" eid="e11">has</EVENT> about 18,000 exam takers, the coastal province of Jiangsu <EVENT class="OCCURRENCE" eid="e12">registered</EVENT> 30,000, while the northwestern province of Shaanxi and the southern province of Guangdong have each <EVENT class="OCCURRENCE" eid="e13">enrolled</EVENT> about 40,000 people for the exam.
+
+Since <TIMEX3 type="DATE" value="1994" tid="t5">1994</TIMEX3>, China has <EVENT class="OCCURRENCE" eid="e14">organized</EVENT> 13 consecutive civil servant recruitment <EVENT class="OCCURRENCE" eid="e15">examinations</EVENT> for central and regional government bodies.
+
+Statistics <EVENT class="OCCURRENCE" eid="e16">show</EVENT> 4.13 million college students <EVENT class="OCCURRENCE" eid="e17">graduated</EVENT> <TIMEX3 type="DATE" value="2006-11-25" tid="t6">this year, three quarters</TIMEX3> of a million more than <TIMEX3 type="DATE" value="2005" tid="t7">last year</TIMEX3>. The number of college graduates in <TIMEX3 type="DATE" value="2007" tid="t8">2007</TIMEX3> will be close to 5 million.
+
+"The examination is popular because it <EVENT class="OCCURRENCE" eid="e19">provides</EVENT> a level playing field for those competing to <EVENT class="OCCURRENCE" eid="e21">become</EVENT> civil servants," <EVENT class="REPORTING" eid="e22">said</EVENT> Vice Minister of Personnel Yin Weimin.
+
+He <EVENT class="REPORTING" eid="e23">said</EVENT> the examination's popularity is also due to the prestige of civil servants and <EVENT class="OCCURRENCE" eid="e25">increasing</EVENT> competition on the job market.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1000017" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

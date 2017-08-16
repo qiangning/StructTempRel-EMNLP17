@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051216.0054</DOCID>
+
+<DCT>ISLAMABAD, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>Pakistan</TITLE>
+
+
+<TEXT>
+
+The World Bank has <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> a 400 million dollars emergency credit for Pakistan to <EVENT class="I_ACTION" eid="e2">help</EVENT> rehabilitation and reconstruction work in the country's quake-devastated regions, a bank statement <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3>.
+
+The is the second credit under a one billion-dollar <EVENT class="OCCURRENCE" eid="e4">assistance</EVENT> <EVENT class="REPORTING" eid="e5">announced</EVENT> by the Bank <EVENT class="OCCURRENCE" eid="e6">following</EVENT> the <TIMEX3 type="DATE" value="2005-10-08" tid="t2">October 8</TIMEX3> <EVENT class="OCCURRENCE" eid="e7">earthquake</EVENT> which <EVENT class="OCCURRENCE" eid="e8">killed</EVENT> more than 73,000 people and made some three million homeless mainly in the Pakistan zone of Kashmir.
+
+In <TIMEX3 type="DATE" value="2005-10" tid="t3">October</TIMEX3> the Bank's board <EVENT class="OCCURRENCE" eid="e9">approved</EVENT> the first credit of 475 million dollars.
+
+The statement <EVENT class="REPORTING" eid="e10">said</EVENT> the new package <EVENT class="OCCURRENCE" eid="e11">included</EVENT> 220 million dollars support for housing reconstruction, 85 million dollars each for livelihood support and import financing and 10 million dollars for capacity building.
+
+"This credit will <EVENT class="OCCURRENCE" eid="e12">allow</EVENT> people to <EVENT class="OCCURRENCE" eid="e13">put</EVENT> their lives and homes back together," the World Bank's Pakistan Director John Wall <EVENT class="REPORTING" eid="e14">said</EVENT> in the statement.
+
+He <EVENT class="REPORTING" eid="e15">said</EVENT> the poor people living in inaccessible mountain areas <EVENT class="OCCURRENCE" eid="e16">bore</EVENT> the brunt of the 7.6 magnitude quake losing family members, their homes, assets and <EVENT class="OCCURRENCE" eid="e18">work</EVENT>.  "This project will <EVENT class="OCCURRENCE" eid="e19">support</EVENT> these people <EVENT class="OCCURRENCE" eid="e20">rebuilding</EVENT> their houses and <EVENT class="OCCURRENCE" eid="e21">restore</EVENT> their livelihood through income transfer."
+
+The credit <EVENT class="OCCURRENCE" eid="e22">carries</EVENT> a 10-year grace period and <TIMEX3 type="DURATION" value="2005-12-16" tid="t5">a maturity of 35 years</TIMEX3>.
+
+The bank <EVENT class="REPORTING" eid="e23">said</EVENT> reconstruction in quake hit regions could <EVENT class="OCCURRENCE" eid="e25">take</EVENT> many years and it would <EVENT class="ASPECTUAL" eid="e26">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e27">provide</EVENT> assistance and support.
+
+Pakistan has <EVENT class="OCCURRENCE" eid="e28">received</EVENT> aid pledges of more than six billion dollars, of which two billion dollars is in the form of grants.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+
+
+
+
+</TimeML>

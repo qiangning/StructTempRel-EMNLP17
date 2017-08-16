@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051210.0151</DOCID>
+
+<DCT>CHENNAI, India, <TIMEX3 tid="t0" type="TIME" value="2005-12-10" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 10 , 2005</TIMEX3></DCT>
+
+<TITLE>= (PICTURES) =</TITLE>
+
+
+<TEXT>
+
+Jamie Dwyer <EVENT class="OCCURRENCE" eid="e1">scored</EVENT> two goals as Olympic gold medallists Australia <EVENT class="OCCURRENCE" eid="e2">opened</EVENT> their Champions Trophy campaign with a fluent 4-1 <EVENT class="OCCURRENCE" eid="e3">win</EVENT> over <EVENT class="OCCURRENCE" eid="e4">revamped</EVENT> Germany here on <TIMEX3 type="DATE" value="2005-12-10" tid="t1">Saturday</TIMEX3>.
+
+Dwyer, whose sudden-death goal against the Netherlands in Athens <TIMEX3 type="DATE" value="2004" tid="t2">last year</TIMEX3> <EVENT class="OCCURRENCE" eid="e5">gave</EVENT> Australia their first Olympic title, <EVENT class="ASPECTUAL" eid="e6">began</EVENT> the gold <EVENT class="OCCURRENCE" eid="e7">rush</EVENT> by <EVENT class="OCCURRENCE" eid="e8">flicking</EVENT> in a <EVENT class="OCCURRENCE" eid="e9">pass</EVENT> from the right in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">the 15th minute</TIMEX3>.
+
+Nathan Eglington <EVENT class="OCCURRENCE" eid="e10">broke</EVENT> through the middle in <TIMEX3 type="DURATION" value="PRESENT_REF" tid="t4">the 31st minute</TIMEX3> and <EVENT class="OCCURRENCE" eid="e11">scooped</EVENT> past German goalkeeper Ulrich Bubolz to <EVENT class="I_ACTION" eid="e12">help</EVENT> Australia <EVENT class="OCCURRENCE" eid="e13">go</EVENT> into half-time 2-0 ahead.
+
+Dwyer, the International Hockey Federation's reigning player of the year, <EVENT class="OCCURRENCE" eid="e15">made</EVENT> it 3-0 two minutes after the <EVENT class="OCCURRENCE" eid="e16">resumption</EVENT> when he <EVENT class="OCCURRENCE" eid="e17">deflected</EVENT> in a penalty corner <EVENT class="OCCURRENCE" eid="e18">hit</EVENT> by Luke Doerner.
+
+World Cup champions Germany, who are <EVENT class="OCCURRENCE" eid="e19">rebuilding</EVENT> after eight top players <EVENT class="OCCURRENCE" eid="e20">retired</EVENT> at the end of the Athens Olympics, could not <EVENT class="OCCURRENCE" eid="e21">contain</EVENT> the rampaging Aussies.
+
+Australia <EVENT class="OCCURRENCE" eid="e23">earned</EVENT> a penalty <EVENT class="OCCURRENCE" eid="e24">stroke</EVENT> in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">the 40th minute</TIMEX3> when Dwyer was <EVENT class="OCCURRENCE" eid="e25">stick-checked</EVENT> inside the circle and Brent Livermore coolly <EVENT class="OCCURRENCE" eid="e26">pushed</EVENT> home to <EVENT class="OCCURRENCE" eid="e27">make</EVENT> it 4-0.
+
+The young Germans were <EVENT class="OCCURRENCE" eid="e28">rewarded</EVENT> for a late <EVENT class="OCCURRENCE" eid="e29">assault</EVENT> on the Australian defence when Christopher Zeller <EVENT class="OCCURRENCE" eid="e30">scored</EVENT> a consolation goal for his side.
+
+"It's nice to <EVENT class="OCCURRENCE" eid="e31">return</EVENT> to the Champions Trophy with a win," <EVENT class="REPORTING" eid="e33">said</EVENT> Australian coach Barry Dancer, whose side <EVENT class="OCCURRENCE" eid="e34">missed</EVENT> <TIMEX3 type="DATE" value="2004" tid="t8">last year</TIMEX3>'s event in Lahore, Pakistan due to security concerns.
+
+"This is just the <EVENT class="ASPECTUAL" eid="e35">start</EVENT> we <EVENT class="I_STATE" eid="e36">needed</EVENT> because every point earned will <EVENT class="OCCURRENCE" eid="e38">count</EVENT> in the tournament," Dancer <EVENT class="REPORTING" eid="e40">said</EVENT>.
+
+"As Olympic champions we are one of the favoured sides to <EVENT class="OCCURRENCE" eid="e41">win</EVENT> the title and we are <EVENT class="OCCURRENCE" eid="e42">focused</EVENT> on that goal."
+
+German coach Bernhard Peters <EVENT class="I_ACTION" eid="e43">conceded</EVENT> the Aussies were too good.
+
+"Ours is a young team without much experience in world hockey so this was a good learning experience for all," he <EVENT class="REPORTING" eid="e44">said</EVENT>. "What we have <EVENT class="OCCURRENCE" eid="e45">learned</EVENT> here will <EVENT class="I_ACTION" eid="e46">help</EVENT> us in the remaining games."
+
+Defending champions Spain <EVENT class="OCCURRENCE" eid="e47">take</EVENT> on hosts India and the Netherlands <EVENT class="OCCURRENCE" eid="e48">clash</EVENT> with Pakistan in the remaining <EVENT class="OCCURRENCE" eid="e49">matches</EVENT> of the opening day in the elite six-nation event.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei36" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei34" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei45" relatedToEventInstance="ei46" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei33" relatedToEventInstance="ei40" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei35" relatedToEventInstance="ei40" relType="INCLUDES" />
+<TLINK lid="l46" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei46" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei48" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l49" eventInstanceID="ei48" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei47" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei28" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l58" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l59" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l60" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l61" eventInstanceID="ei25" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061205.0069</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2006-12-05" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 5 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>US demands custody of marine convicted in Philippines rape case</TITLE>
+
+
+<TEXT>
+
+The United States has <EVENT class="OCCURRENCE" eid="e1">demanded</EVENT> interim custody of a US marine <EVENT class="OCCURRENCE" eid="e2">sentenced</EVENT> to 40 years in jail for <EVENT class="OCCURRENCE" eid="e3">raping</EVENT> a Filipina woman, the Philippines foreign department <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3>.
+
+The US embassy in Manila <EVENT class="OCCURRENCE" eid="e5">filed</EVENT> a diplomatic note <EVENT class="OCCURRENCE" eid="e6">invoking</EVENT> the right of the US military authorities to <EVENT class="OCCURRENCE" eid="e7">exercise</EVENT> custody of the marine in <EVENT class="OCCURRENCE" eid="e8">keeping</EVENT> with the provisions of the <EVENT class="OCCURRENCE" eid="e9">Visiting</EVENT> Forces Agreement between the two countries.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

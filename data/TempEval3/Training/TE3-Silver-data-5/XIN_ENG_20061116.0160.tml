@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0160</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China catching up with leading countries in basic science research</TITLE>
+
+
+<TEXT>
+
+China is <EVENT class="I_ACTION" eid="e1">catching</EVENT> up with the forerunners in basic science research, with an increasing number of theses and journals <EVENT class="OCCURRENCE" eid="e3">complied</EVENT> by Chinese scientists being <EVENT class="OCCURRENCE" eid="e4">referenced</EVENT> by the Science Citation Index (SCI), <EVENT class="REPORTING" eid="e5">according</EVENT> to China's Ministry of Science and Technology (MOST).
+
+China was <EVENT class="OCCURRENCE" eid="e6">ranked</EVENT> fifth in the world in terms of the number of its journals <EVENT class="REPORTING" eid="e7">cited</EVENT> by the SCI in <TIMEX3 type="DATE" value="2004" tid="t1">2004</TIMEX3> and 2005, up from 15th place in <TIMEX3 type="DATE" value="1991" tid="t2">1991</TIMEX3>, MOST statistics <EVENT class="OCCURRENCE" eid="e8">showed</EVENT>.
+
+"The number of our theses and journals <EVENT class="REPORTING" eid="e9">cited</EVENT> by the SCI is an important indicator of the <EVENT class="OCCURRENCE" eid="e10">success</EVENT> of our research progress in basic science fields," <EVENT class="REPORTING" eid="e11">said</EVENT> Zhang Xianen, the director of MOST's scientific research department.
+
+"The greater number of Chinese scientists winning international prizes and occupying senior positions in major international research organizations also proves that China is <EVENT class="I_ACTION" eid="e15">catching</EVENT> up with leading countries in the field of science and technology," Zhang <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+In <TIMEX3 type="DURATION" value="P2Y" tid="t3">the last two years</TIMEX3>, 14 Chinese scientists have <EVENT class="OCCURRENCE" eid="e17">won</EVENT> international prizes including the Fresnel Prize <EVENT class="OCCURRENCE" eid="e18">awarded</EVENT> by the European Physical Society, and 40 Chinese have been <EVENT class="OCCURRENCE" eid="e19">granted</EVENT> memberships to international academic organizations and science academies of other countries, he <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+MOST statistics show that there were 115,400 basic science researchers in China in <TIMEX3 type="DATE" value="2005" tid="t4">2005</TIMEX3>, 46.5 percent higher than in <TIMEX3 type="DATE" value="2001" tid="t5">2001</TIMEX3>.
+
+The Chinese government has <EVENT class="I_ACTION" eid="e22">promised</EVENT> to <EVENT class="OCCURRENCE" eid="e23">increase</EVENT> the country's <EVENT class="OCCURRENCE" eid="e24">investment</EVENT> in basic science research in an <EVENT class="I_ACTION" eid="e25">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e26">build</EVENT> a "self-innovative" country.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei1000007" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei1000007" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

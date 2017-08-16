@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970402.0483</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="1997-04-02" temporalFunction="false" functionInDocument="CREATION_TIME">April 2 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENT Trading on CompuServe halted on Wall Street</TITLE>
+
+
+<TEXT>
+
+Wall Street <EVENT class="OCCURRENCE" eid="e1">trading</EVENT> on the computer online service CompuServe was <EVENT class="ASPECTUAL" eid="e2">suspended</EVENT> <TIMEX3 type="DATE" value="1997-04-02" tid="t1">Wednesday</TIMEX3> ahead of an expected <EVENT class="OCCURRENCE" eid="e3">announcement</EVENT> later in the day, a stock exchange spokesman <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051118.0151</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China expected to become second largest trade country by 2010</TITLE>
+
+
+<TEXT>
+
+China's foreign trade volume is <EVENT class="I_STATE" eid="e1">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e2">reach</EVENT> 2.5 trillion US dollars by <TIMEX3 type="DATE" value="2010" tid="t1">the year 2010</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">making</EVENT> it the second largest trade country in the world, <EVENT class="REPORTING" eid="e4">said</EVENT> Zhang Lichuan, director of the statistical division of the General Administration of Customs (GAC) here <TIMEX3 type="DATE" value="2005-11-18" tid="t2">Friday</TIMEX3>.
+
+If trade <EVENT class="ASPECTUAL" eid="e5">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e6">grow</EVENT> at the annual rate of 7 percent after <TIMEX3 type="DATE" value="2010" tid="t3">2010</TIMEX3>, the figure will hopefully <EVENT class="OCCURRENCE" eid="e7">rise</EVENT> to 5 trillion in <TIMEX3 type="DATE" value="2020" tid="t4">2020</TIMEX3>, 10 times that of <TIMEX3 type="DATE" value="2001" tid="t5">2001</TIMEX3>, <EVENT class="I_ACTION" eid="e8">predicted</EVENT> Zhang at an on-going international forum on productivity development in China.
+
+China's export already <EVENT class="OCCURRENCE" eid="e10">ranked</EVENT> third in the world by <TIMEX3 type="DATE" value="2004" tid="t6">the end of 2004</TIMEX3>. In <TIMEX3 type="DURATION" value="P15Y" tid="t7">the next 15 years</TIMEX3> foreign trade is to <EVENT class="OCCURRENCE" eid="e11">grow</EVENT> in a more favorable macroeconomic environment with the positive <EVENT class="OCCURRENCE" eid="e12">impact</EVENT> of China's <EVENT class="OCCURRENCE" eid="e13">entry</EVENT> into the WTO, she <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+China will <EVENT class="ASPECTUAL" eid="e15">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e16">attract</EVENT> foreign investments, and domestic enterprises will <EVENT class="I_ACTION" eid="e17">explore</EVENT> more opportunities for <EVENT class="OCCURRENCE" eid="e18">investing</EVENT> overseas in such areas as resource development, information transmission, and computer services, she <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+She also <EVENT class="OCCURRENCE" eid="e21">listed</EVENT> several unfavorable <EVENT class="OCCURRENCE" eid="e22">factors</EVENT>. Export <EVENT class="OCCURRENCE" eid="e24">growth</EVENT> may be <EVENT class="I_STATE" eid="e25">constrained</EVENT> by the <EVENT class="OCCURRENCE" eid="e26">slowdown</EVENT> of world economy and the possible stagnation of market expansion, and export tax rebate may further <EVENT class="OCCURRENCE" eid="e28">add</EVENT> to the country's fiscal burdens, she <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei21" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

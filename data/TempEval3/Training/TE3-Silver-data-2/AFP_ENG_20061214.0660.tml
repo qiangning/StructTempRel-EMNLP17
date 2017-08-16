@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061214.0660</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Wall Street notches fresh highs as economic concerns ease</TITLE>
+
+
+<TEXT>
+
+Wall Street's main indexes <EVENT class="OCCURRENCE" eid="e1">leapt</EVENT> to fresh highs <TIMEX3 type="DATE" value="2006-12-14" tid="t1">Thursday</TIMEX3> as investors <EVENT class="OCCURRENCE" eid="e2">appeared</EVENT> <EVENT class="OCCURRENCE" eid="e3">encouraged</EVENT> by the latest economic news and <EVENT class="OCCURRENCE" eid="e4">shook</EVENT> off a <EVENT class="OCCURRENCE" eid="e5">jump</EVENT> in oil prices.
+
+The Dow Jones Industrial Average <EVENT class="OCCURRENCE" eid="e6">notched</EVENT> a new all-time record <EVENT class="OCCURRENCE" eid="e7">closing</EVENT> high with a <EVENT class="OCCURRENCE" eid="e8">gain</EVENT> of 96.46 points (0.78 percent) to 12,413.96 at the closing bell.
+
+The tech-heavy Nasdaq composite meanwhile <EVENT class="OCCURRENCE" eid="e9">climbed</EVENT> 21.44 points (0.88 percent) to 2,453.85, its highest level since <TIMEX3 type="DATE" value="2001-02" tid="t2">February 2001</TIMEX3>. The Standard and Poor's 500 <EVENT class="OCCURRENCE" eid="e10">advanced</EVENT> 11.95 points (0.85 percent) to a preliminary <EVENT class="OCCURRENCE" eid="e11">close</EVENT> of 1,425.16, a new six-year high for the broad-market index.
+
+In economic news, the US Labor Department <EVENT class="REPORTING" eid="e12">reported</EVENT> weekly jobless claims <EVENT class="OCCURRENCE" eid="e13">fell</EVENT> 20,000 to 304,000 in <TIMEX3 type="DATE" value="2006-W49" tid="t4">the past week</TIMEX3>, the latest in a string of stronger-than-expected data.
+
+While this <EVENT class="OCCURRENCE" eid="e14">highlighted</EVENT> concerns about a tight labor market and inflation, it also <EVENT class="OCCURRENCE" eid="e16">suggested</EVENT> economic growth is not <EVENT class="OCCURRENCE" eid="e17">faltering</EVENT>.
+
+"The two straight weeks of nice declines <EVENT class="OCCURRENCE" eid="e19">reinforces</EVENT> the belief that companies are holding on to employees in anticipation of an economic rebound, despite recent numbers <EVENT class="I_ACTION" eid="e21">showing</EVENT> a <EVENT class="OCCURRENCE" eid="e22">slowdown</EVENT> in activity," <EVENT class="REPORTING" eid="e23">said</EVENT> John Wilson, equity strategist at Morgan Keegan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="NONE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

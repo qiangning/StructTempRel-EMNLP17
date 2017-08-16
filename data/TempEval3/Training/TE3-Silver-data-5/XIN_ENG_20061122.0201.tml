@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0201</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. stocks open mixed</TITLE>
+
+
+<TEXT>
+
+U.S. stocks <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> <EVENT class="OCCURRENCE" eid="e2">mixed</EVENT> on <TIMEX3 type="DATE" value="2006-11-22" tid="t1">Wednesday</TIMEX3> ahead of the <TIMEX3 type="DATE" value="2006-11-22" tid="t2">Thanksgiving holiday</TIMEX3>, as U.S. initial weekly jobless claims <EVENT class="OCCURRENCE" eid="e4">rose</EVENT> 12,000 to 321,000.
+
+In the opening <EVENT class="OCCURRENCE" eid="e5">trading</EVENT>, the Dow Jones Industrial Average was down 5.61, to 12,315.98. The Standard &amp; Poor's 500 index <EVENT class="OCCURRENCE" eid="e6">gained</EVENT> 0.53 to 1,403.34, and the Nasdaq composite index <EVENT class="OCCURRENCE" eid="e7">rose</EVENT> 7.82 to 2,462.66.
+
+Initial claims for state unemployment benefits <EVENT class="OCCURRENCE" eid="e8">rose</EVENT> to their highest level since <TIMEX3 type="DATE" value="2006-11-22" tid="t3">late October</TIMEX3>, <EVENT class="OCCURRENCE" eid="e9">climbing</EVENT> by 12,000 to 321,000, the Labor Department <EVENT class="REPORTING" eid="e10">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-22" tid="t4">Wednesday</TIMEX3>.
+
+Crude oil prices <EVENT class="OCCURRENCE" eid="e11">fell</EVENT> below 60 dollars on <TIMEX3 type="DATE" value="2006-11-22" tid="t5">Wednesday</TIMEX3> as concern over supply <EVENT class="OCCURRENCE" eid="e12">eased</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051107.0110</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>astronauts</TITLE>
+
+
+<TEXT>
+
+China's spacemen Yang Liwei, Fei Junlong and Nie Haisheng, together with another 11 Chinese astronauts, have <EVENT class="OCCURRENCE" eid="e1">enrolled</EVENT> in China's prestigious Tsinghua University as graduate students, China Central Television <EVENT class="REPORTING" eid="e2">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-07" tid="t1">Monday</TIMEX3>.
+
+Given permission by the Ministry of Education, the university's School of Aerospace has <EVENT class="OCCURRENCE" eid="e4">given</EVENT> the astronauts an <EVENT class="OCCURRENCE" eid="e5">offer</EVENT> of admission at a two-year program on astronautic engineering, <EVENT class="REPORTING" eid="e6">according</EVENT> to the report.
+
+Authorities <EVENT class="REPORTING" eid="e8">said</EVENT> the university will not <EVENT class="OCCURRENCE" eid="e9">compromise</EVENT> their graduating qualifications for astronaut's standing, <EVENT class="OCCURRENCE" eid="e10">noting</EVENT> that the astronauts must <EVENT class="OCCURRENCE" eid="e11">pass</EVENT> exams and oral <EVENT class="OCCURRENCE" eid="e12">defense</EVENT> to <EVENT class="OCCURRENCE" eid="e13">acquire</EVENT> degrees.
+
+The university will <EVENT class="OCCURRENCE" eid="e14">arrange</EVENT> an opening <EVENT class="OCCURRENCE" eid="e15">ceremony</EVENT> of the astronauts' graduate curriculum and <EVENT class="OCCURRENCE" eid="e16">release</EVENT> the specific courses of the program at the <EVENT class="OCCURRENCE" eid="e17">ceremony</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970414.0322</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-14" temporalFunction="false" functionInDocument="CREATION_TIME">April 14 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Factfile of leading candidates for Indian PM role</TITLE>
+
+
+<TEXT>
+
+<EVENT class="STATE" eid="e1">Leading</EVENT> United Front candidates for the role of India's 12th prime minister after the <EVENT class="OCCURRENCE" eid="e2">fall</EVENT> of H.D. Deve Gowda:
+
+G.K. MOOPANAR: Leader of the regional Tamil Manila Congress (TMC) party, one of the members of the ousted United Front government. Moopanar's party <EVENT class="STATE" eid="e3">has</EVENT> 20 members in parliament. A former Congress (I) veteran, known for long as the trouble shooter of former premier Indira Gandhi, he <EVENT class="OCCURRENCE" eid="e4">split</EVENT> from the Congress <TIMEX3 type="DATE" value="1996" tid="t1">last year</TIMEX3> and <EVENT class="OCCURRENCE" eid="e5">floated</EVENT> the TMC, whose power base is <EVENT class="OCCURRENCE" eid="e6">confined</EVENT> to the southern state of Tamil Nadu. He is <EVENT class="STATE" eid="e7">known</EVENT> to be close to most Congress leaders as well as Sonia Gandhi, widow of assassinated former premier Rajiv Gandhi. Speaks poor English and virtually no Hindi, the national language, and is at home only in Tamil. Has never <EVENT class="OCCURRENCE" eid="e9">held</EVENT> any government post.
+
+N. CHANDRABABU NAIDU: Chief minister of the southern state of Andhra Pradesh, the country's third most populous state, and leader of the regional Telugu Desam party, <EVENT class="OCCURRENCE" eid="e10">floated</EVENT> by his late father-in-law, N.T. Rama Rao. Naidu's party <EVENT class="STATE" eid="e11">has</EVENT> 17 members in parliament. Naidu was a key figure in the United Front coalition government's <EVENT class="OCCURRENCE" eid="e13">negotiations</EVENT> with the Congress after the Front was <EVENT class="OCCURRENCE" eid="e14">ousted</EVENT>. Naidu's party, which <EVENT class="OCCURRENCE" eid="e15">decimated</EVENT> the Congress in his home state <TIMEX3 type="DATE" value="1996" tid="t2">last year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e16">enjoys</EVENT> grass-root support across the coastal state. Naidu is <EVENT class="I_STATE" eid="e17">believed</EVENT> to nurse high political ambitions.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

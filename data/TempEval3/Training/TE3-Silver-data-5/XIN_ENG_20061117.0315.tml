@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0315</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>New York crude oil futures fall below 56 dollars</TITLE>
+
+
+<TEXT>
+
+New York crude oil futures <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> below 56 dollars <TIMEX3 type="DATE" value="2006-11-17" tid="t1">Friday</TIMEX3> as concern over supply <EVENT class="OCCURRENCE" eid="e2">eased</EVENT>.
+
+New York's main contract, light sweet crude for delivery in <TIMEX3 type="DATE" value="2006-12" tid="t2">December</TIMEX3>, which <EVENT class="OCCURRENCE" eid="e3">expired</EVENT> <TIMEX3 type="DATE" value="2006-11-17" tid="t3">Friday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e4">fell</EVENT> 45 cents to <EVENT class="OCCURRENCE" eid="e5">close</EVENT> at 55.81 dollars a barrel, the lowest settlement price since <TIMEX3 type="DATE" value="2005-06-15" tid="t4">June 15, 2005</TIMEX3>, after <EVENT class="OCCURRENCE" eid="e6">hitting</EVENT> 54.86 dollars.
+
+In London, Brent North Sea crude for delivery in <TIMEX3 type="DATE" value="2006-01" tid="t5">January</TIMEX3> <EVENT class="OCCURRENCE" eid="e7">gained</EVENT> 45 cents to <EVENT class="OCCURRENCE" eid="e8">settle</EVENT> at 58.99 dollars a barrel.
+
+This winter in northeast United States, the world's largest consumer of heating fuel, is warmer than normal till <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">now</TIMEX3>. Moreover, the weather in northeast would be warmer than normal from <TIMEX3 type="DATE" value="2006-12" tid="t8">December</TIMEX3> until <TIMEX3 type="DATE" value="2006-02" tid="t9">February</TIMEX3>, the U.S. National Weather Service <EVENT class="REPORTING" eid="e9">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-16" tid="t10">Thursday</TIMEX3>. The warmer winter could <EVENT class="OCCURRENCE" eid="e10">boost</EVENT> the distillate stockpiles and <EVENT class="OCCURRENCE" eid="e11">weaken</EVENT> the fuel prices.
+
+The Paris-based International Energy Agency <EVENT class="OCCURRENCE" eid="e12">lowered</EVENT> its <EVENT class="OCCURRENCE" eid="e13">forecast</EVENT> of oil product demand <EVENT class="OCCURRENCE" eid="e14">growth</EVENT> <TIMEX3 type="DATE" value="2006-11-10" tid="t11">last Friday</TIMEX3>. The global average daily <EVENT class="OCCURRENCE" eid="e15">demand</EVENT> in 2006 may <EVENT class="OCCURRENCE" eid="e16">reached</EVENT> 84.5 million barrels per day, an 1.1 percent <EVENT class="OCCURRENCE" eid="e17">increase</EVENT> on <TIMEX3 type="DATE" value="2004" tid="t13">the previous year</TIMEX3>, instead of its previous forecast of 1.2 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000010" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000009" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1000009" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1000003" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei1000009" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei1000003" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei1000010" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei1000010" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei9" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei1000009" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

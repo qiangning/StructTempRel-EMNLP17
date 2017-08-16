@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970402.0278</DOCID>
+
+<DCT>CAIRO, <TIMEX3 tid="t0" type="TIME" value="1997-04-02" temporalFunction="false" functionInDocument="CREATION_TIME">April 2 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Egypt, Pakistan discuss military cooperation</TITLE>
+
+
+<TEXT>
+
+A Pakistani military chief <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> here <TIMEX3 type="DATE" value="1997-04-02" tid="t1">Wednesday</TIMEX3> for <EVENT class="OCCURRENCE" eid="e2">talks</EVENT> on military <EVENT class="OCCURRENCE" eid="e3">cooperation</EVENT> with Egypt.
+
+Farooq Feroze Khan, chairman of Pakistan's joint chiefs of staff committee, <EVENT class="OCCURRENCE" eid="e4">went</EVENT> straight into <EVENT class="OCCURRENCE" eid="e5">talks</EVENT> with President Hosni Mubarak and <EVENT class="REPORTING" eid="e6">said</EVENT> he <EVENT class="I_ACTION" eid="e7">invited</EVENT> him to <EVENT class="OCCURRENCE" eid="e8">visit</EVENT> Pakistan.
+
+Khan also <EVENT class="REPORTING" eid="e9">told</EVENT> reporters he would <EVENT class="OCCURRENCE" eid="e10">meet</EVENT> later with his Egyptian counterpart Magdi Hatata to <EVENT class="OCCURRENCE" eid="e11">discuss</EVENT> military <EVENT class="OCCURRENCE" eid="e12">cooperation</EVENT> between the two countries.
+
+Egypt and Pakistan already <EVENT class="OCCURRENCE" eid="e13">cooperate</EVENT> in the <EVENT class="OCCURRENCE" eid="e14">fight</EVENT> against terrorism and <EVENT class="OCCURRENCE" eid="e15">signed</EVENT> an extradition treaty in <TIMEX3 type="DATE" value="1995" tid="t2">1995</TIMEX3>.
+
+Egyptian Interior Minister Hassan al-Alfi <EVENT class="REPORTING" eid="e16">said</EVENT> <TIMEX3 type="DATE" value="1997-04-01" tid="t3">Tuesday</TIMEX3> that Cairo is <EVENT class="I_ACTION" eid="e17">seeking</EVENT> the <EVENT class="OCCURRENCE" eid="e18">extradition</EVENT> of an Islamic militant <EVENT class="OCCURRENCE" eid="e19">arrested</EVENT> recently in Pakistan.
+
+<TIMEX3 type="DATE" value="1997-W13" tid="t5">Last week</TIMEX3>, sources close to security agencies in the Pakistani city of Peshawar <EVENT class="REPORTING" eid="e20">said</EVENT> they had <EVENT class="OCCURRENCE" eid="e21">arrested</EVENT> an Egyptian and six other foreigners <EVENT class="I_STATE" eid="e22">suspected</EVENT> of having links to Islamic extremists.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

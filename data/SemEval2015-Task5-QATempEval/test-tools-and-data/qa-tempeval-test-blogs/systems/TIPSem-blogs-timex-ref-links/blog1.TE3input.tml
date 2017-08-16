@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>112265.female.23.indUnk.Taurus.xml</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2000-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">15,December,2000</TIMEX3></DCT>
+<TEXT>
+So i <EVENT class="OCCURRENCE" eid="e1">went</EVENT> to ikea <TIMEX3 type="TIME" value="2000-12-14TNI" tid="t1">last night</TIMEX3>. <EVENT class="REPORTING" eid="e2">Talk</EVENT> about consumerism. I <EVENT class="OCCURRENCE" eid="e3">spent</EVENT> $165, and i'm sort of <EVENT class="OCCURRENCE" eid="e4">kicking</EVENT> myself. It's one of those things where you <EVENT class="OCCURRENCE" eid="e5">walk</EVENT> along and <EVENT class="OCCURRENCE" eid="e6">put</EVENT> stuff in the cart, <EVENT class="I_STATE" eid="e7">thinking</EVENT>, 'oh that is a good deal' or 'i should <EVENT class="OCCURRENCE" eid="e8">buy</EVENT> this for xxx'. Then when you <EVENT class="OCCURRENCE" eid="e9">get</EVENT> to the checkout, it's $165.87 and you <EVENT class="OCCURRENCE" eid="e10">go</EVENT> 'how did that happen?' i don't <EVENT class="I_STATE" eid="e11">know</EVENT>. I will <EVENT class="OCCURRENCE" eid="e12">admit</EVENT> i <EVENT class="I_STATE" eid="e13">like</EVENT> to <EVENT class="OCCURRENCE" eid="e14">shop</EVENT>, but i am <EVENT class="I_ACTION" eid="e15">torn</EVENT> about consumerism. It's bad. and that directly <EVENT class="OCCURRENCE" eid="e16">conflicts</EVENT> with my affinity for shopping. hm. What to <EVENT class="OCCURRENCE" eid="e17">do</EVENT>? I don't <EVENT class="I_STATE" eid="e18">know</EVENT>. Keep <EVENT class="OCCURRENCE" eid="e19">shopping</EVENT>? This whole website thing is my <EVENT class="I_ACTION" eid="e20">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e21">jump</EVENT> on the bandwagon. I'm just following suit -- many of my friends have already done this. So i <EVENT class="STATE" eid="e22">feel</EVENT> like sort of a copy cat. But it's fun anyway. Well, i have to <EVENT class="OCCURRENCE" eid="e23">go</EVENT> check on dinner. It's <EVENT class="OCCURRENCE" eid="e24">cooking</EVENT> (and probably burning) as i <EVENT class="OCCURRENCE" eid="e25">write</EVENT> this. I <EVENT class="OCCURRENCE" eid="e26">set</EVENT> off the smoke alarm <TIMEX3 type="DATE" value="2000-12-15TNI" tid="t2">the other night</TIMEX3>. I would <EVENT class="I_STATE" eid="e27">like</EVENT> to <EVENT class="I_STATE" eid="e28">think</EVENT> i'm domestic, but not really. I <EVENT class="OCCURRENCE" eid="e29">guess</EVENT> domesticity <EVENT class="OCCURRENCE" eid="e30">takes</EVENT> effort which i'm not willing to <EVENT class="OCCURRENCE" eid="e31">make</EVENT>. Adieu till later.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25"  eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26"  eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27"  eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei28"  eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29"  eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30"  eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31"  eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l2" relType="INCLUDES" timeID="t0" relatedToTime="t2" />
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei6" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" />
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l17" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei8" />
+<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei10" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l22" relType="AFTER" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei12" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei13" />
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei14" />
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei15" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l28" relType="SIMULTANEOUS" eventInstanceID="ei12" relatedToEventInstance="ei16" />
+<TLINK lid="l29" relType="INCLUDES" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei17" />
+<TLINK lid="l31" relType="INCLUDES" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei18" />
+<TLINK lid="l33" relType="INCLUDES" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l34" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToEventInstance="ei19" />
+<TLINK lid="l35" relType="INCLUDES" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l36" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei20" />
+<TLINK lid="l37" relType="AFTER" eventInstanceID="ei20" relatedToEventInstance="ei21" />
+<TLINK lid="l38" relType="INCLUDES" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l39" relType="SIMULTANEOUS" eventInstanceID="ei20" relatedToEventInstance="ei22" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l41" relType="AFTER" eventInstanceID="ei22" relatedToEventInstance="ei23" />
+<TLINK lid="l42" relType="INCLUDES" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l43" relType="AFTER" eventInstanceID="ei23" relatedToEventInstance="ei24" />
+<TLINK lid="l44" relType="AFTER" eventInstanceID="ei24" relatedToEventInstance="ei25" />
+<TLINK lid="l45" relType="IS_INCLUDED" eventInstanceID="ei26" relatedToTime="t2" />
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei26" relatedToTime="t0" />
+<TLINK lid="l47" relType="SIMULTANEOUS" eventInstanceID="ei24" relatedToEventInstance="ei26" />
+<TLINK lid="l48" relType="AFTER" eventInstanceID="ei27" relatedToTime="t0" />
+<TLINK lid="l49" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei27" />
+<TLINK lid="l50" relType="AFTER" eventInstanceID="ei27" relatedToEventInstance="ei28" />
+<TLINK lid="l51" relType="INCLUDES" eventInstanceID="ei29" relatedToTime="t0" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei29" />
+<TLINK lid="l53" relType="AFTER" eventInstanceID="ei29" relatedToEventInstance="ei30" />
+<TLINK lid="l54" relType="AFTER" eventInstanceID="ei29" relatedToEventInstance="ei31" />
+
+</TimeML>
+

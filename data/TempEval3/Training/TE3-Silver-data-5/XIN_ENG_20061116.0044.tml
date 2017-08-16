@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061116.0044</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2006-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>APEC ministers endorse Hanoi Action Plan for free trade, Investment</TITLE>
+
+
+<TEXT>
+
+Miniters and representatives of the Asia-Pacific Economic Cooperation (APEC) here <TIMEX3 type="DATE" value="2006-11-16" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">endorsed</EVENT> the Hanoi Action Plan for further free and open trade and investment.
+
+The plan was <EVENT class="OCCURRENCE" eid="e3">endorsed</EVENT> at the two-day ministerial <EVENT class="OCCURRENCE" eid="e4">meeting</EVENT> <EVENT class="OCCURRENCE" eid="e5">closed</EVENT> here <TIMEX3 type="TIME" value="2006-11-09TAF" tid="t3">Thursday afternoon</TIMEX3> at the newly built Hanoi National Convention Center, <EVENT class="REPORTING" eid="e6">announced</EVENT> the cochairman of the <EVENT class="OCCURRENCE" eid="e7">meeting</EVENT>, Vietnamese Deputy Prime Minister and Foreign Minister Pham Gia Khiem at a news <EVENT class="OCCURRENCE" eid="e8">briefing</EVENT> after the <EVENT class="OCCURRENCE" eid="e9">meeting</EVENT>.
+
+The document, <EVENT class="OCCURRENCE" eid="e10">initiated</EVENT> by APEC senior officials, together with others, will <EVENT class="OCCURRENCE" eid="e11">submit</EVENT> for approval to the APEC Economic Leaders' Meeting to be <EVENT class="OCCURRENCE" eid="e12">held</EVENT> here on <TIMEX3 type="DATE" value="2006-11-16" tid="t4">Nov. 18-19</TIMEX3>.
+
+The ministers and representatives at the <EVENT class="OCCURRENCE" eid="e13">meeting</EVENT> <EVENT class="OCCURRENCE" eid="e14">reaffirmed</EVENT> APEC's <EVENT class="OCCURRENCE" eid="e15">commitment</EVENT> to <EVENT class="OCCURRENCE" eid="e16">achieve</EVENT> the Bogor Goals in <TIMEX3 type="DATE" value="2010" tid="t5">2010/2020</TIMEX3> and <EVENT class="OCCURRENCE" eid="e17">recognized</EVENT> that the Bogor Goals <EVENT class="STATE" eid="e18">remain</EVENT> important for APEC <TIMEX3 type="DATE" value="2006-11-16" tid="t6">today</TIMEX3>'s fast <EVENT class="OCCURRENCE" eid="e19">changing</EVENT> trade and investment environment.
+
+They <EVENT class="OCCURRENCE" eid="e20">endorsed</EVENT> the Hanoi Action Plan to <EVENT class="I_ACTION" eid="e21">implement</EVENT> the Busan Roadmap, which was <EVENT class="I_ACTION" eid="e22">agreed</EVENT> in <TIMEX3 type="DATE" value="2005" tid="t7">2005</TIMEX3> to <EVENT class="OCCURRENCE" eid="e23">accelerate</EVENT> progress towards the Bogor Goals.
+
+Under the Plan, member economies of APEC will <EVENT class="OCCURRENCE" eid="e24">take</EVENT> concrete <EVENT class="OCCURRENCE" eid="e25">actions</EVENT> in five key areas, in particular, the support for the multilateral trading system and the promotion of high-quality regional trade arrangements and free trade agreements.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

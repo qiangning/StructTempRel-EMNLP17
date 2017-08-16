@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051126.0147</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2005-11-26" temporalFunction="false" functionInDocument="CREATION_TIME">Nov 26 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>1st lead: Earthquake shakes Turkey's Malatya province</TITLE>
+
+
+<TEXT>
+
+An earthquake with a magnitude of 5. 3 on the Richter scale <EVENT class="OCCURRENCE" eid="e1">shook</EVENT> Turkey's central province of Malatya on <TIMEX3 type="DATE" value="2005-11-26" tid="t1">Saturday</TIMEX3>.
+
+No casualty was <EVENT class="REPORTING" eid="e2">reported</EVENT>.
+
+Semi-official Anatolia News Agency <EVENT class="OCCURRENCE" eid="e3">quoted</EVENT> officials of an observatory center as <EVENT class="REPORTING" eid="e4">saying</EVENT> that the quake <EVENT class="OCCURRENCE" eid="e5">occurred</EVENT> at <TIMEX3 type="DATE" value="2005-11-26" tid="t2">17:56 p.m.</TIMEX3> (1556 GMT) and that the epicenter of the quake was at the Poturge town of Malatya.
+
+Malatya Governor Osman Derya Kadioglu was <EVENT class="OCCURRENCE" eid="e6">quoted</EVENT> as <EVENT class="REPORTING" eid="e7">saying</EVENT> that there were no reports of any casualties or <EVENT class="OCCURRENCE" eid="e8">damage</EVENT> after the quake which was <EVENT class="OCCURRENCE" eid="e10">felt</EVENT> in Malatya and surrounding provinces.
+
+Earthquakes are frequent in Turkey. A strong quake <EVENT class="OCCURRENCE" eid="e11">hit</EVENT> western Turkey in <TIMEX3 type="DATE" value="1999" tid="t4">1999</TIMEX3>, <EVENT class="OCCURRENCE" eid="e12">leaving</EVENT> more than 18,000 people dead.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

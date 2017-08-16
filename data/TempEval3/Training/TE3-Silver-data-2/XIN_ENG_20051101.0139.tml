@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051101.0139</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2005-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Four killed in armed clash in southeastern Turkey</TITLE>
+
+
+<TEXT>
+
+Two Turkish soldiers and a village guard were <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> and four soldiers <EVENT class="OCCURRENCE" eid="e2">wounded</EVENT> in a <EVENT class="OCCURRENCE" eid="e3">clash</EVENT> between the Turkish security forces and the members of the outlawed Kurdish Workers' Party (PKK) in southeastern Turkey, an official statement <EVENT class="REPORTING" eid="e5">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-01" tid="t1">Tuesday</TIMEX3>.
+
+One PKK member was also <EVENT class="OCCURRENCE" eid="e6">killed</EVENT> in the <EVENT class="OCCURRENCE" eid="e7">shootout</EVENT> on <TIMEX3 type="DATE" value="2005-10-31TNI" tid="t2">Monday night</TIMEX3> as the security forces <EVENT class="OCCURRENCE" eid="e8">realized</EVENT> that the PKK members were <EVENT class="I_ACTION" eid="e9">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e10">infiltrate</EVENT> in Uludere town in Sirnak province, Sirnak governor' s office <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+The PKK has <EVENT class="I_ACTION" eid="e12">intensified</EVENT> landmine and remote-control bomb <EVENT class="OCCURRENCE" eid="e14">attacks</EVENT> in Turkey over <TIMEX3 type="DURATION" value="PXM" tid="t3">the past few months</TIMEX3>.
+
+At least 200 Turkish soldiers have been reportedly <EVENT class="OCCURRENCE" eid="e15">killed</EVENT> in <EVENT class="OCCURRENCE" eid="e16">clashes</EVENT> with PKK <TIMEX3 type="DATE" value="2005" tid="t4">this year</TIMEX3>.
+
+More than 37,000 people have been <EVENT class="OCCURRENCE" eid="e17">killed</EVENT> since the rebel group <EVENT class="OCCURRENCE" eid="e18">took</EVENT> up arms against the government forces for an independent Kurdish state in the mainly Kurdish southeastern area in <TIMEX3 type="DATE" value="1984" tid="t5">1984</TIMEX3>.
+
+Violence <EVENT class="OCCURRENCE" eid="e19">resurged</EVENT> after the group <EVENT class="REPORTING" eid="e20">called</EVENT> off a unilateral five- <TIMEX3 type="DATE" value="P1Y" tid="t6">year</TIMEX3> ceasefire in <TIMEX3 type="DATE" value="2004" tid="t7">2004</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IAFTER" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

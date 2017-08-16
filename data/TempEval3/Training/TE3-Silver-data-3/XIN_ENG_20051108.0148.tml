@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0148</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese FM, commerce minister to attend APEC ministerial meeting</TITLE>
+
+
+<TEXT>
+
+Chinese Foreign Minister Li Zhaoxing and Commerce Minister Bo Xilai will <EVENT class="OCCURRENCE" eid="e1">attend</EVENT> the 17th APEC Ministerial <EVENT class="OCCURRENCE" eid="e2">Meeting</EVENT> from <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Nov. 15</TIMEX3> to 16 in Busan of the Republic of Korea (ROK), Foreign Ministry spokesman Liu Jianchao <EVENT class="REPORTING" eid="e3">announced</EVENT> here <TIMEX3 type="DATE" value="2005-11-08" tid="t2">Tuesday</TIMEX3>.
+
+The two ministers will <EVENT class="OCCURRENCE" eid="e4">make</EVENT> <EVENT class="OCCURRENCE" eid="e5">preparations</EVENT> for the 13th APEC Economic Leaders' Meeting which will be <EVENT class="OCCURRENCE" eid="e7">attended</EVENT> by Chinese President Hu Jintao after he <EVENT class="OCCURRENCE" eid="e8">concludes</EVENT> his state <EVENT class="OCCURRENCE" eid="e9">visit</EVENT> to Britain, Germany, Spain and the ROK.
+
+APEC, which <EVENT class="STATE" eid="e10">has</EVENT> 21 members, is the most important forum of economic <EVENT class="OCCURRENCE" eid="e11">cooperation</EVENT> in the Asian-Pacific region. <EVENT class="OCCURRENCE" eid="e12">Aiming</EVENT> to <EVENT class="OCCURRENCE" eid="e13">promote</EVENT> multilateral trade system and <EVENT class="OCCURRENCE" eid="e14">eliminate</EVENT> trade barriers within the region, APEC has <EVENT class="STATE" eid="e15">become</EVENT> an active force that <EVENT class="I_ACTION" eid="e16">helps</EVENT> make regional trade and investment more liberal and convenient, <EVENT class="OCCURRENCE" eid="e18">promote</EVENT> regional economic and technological cooperation and economic <EVENT class="OCCURRENCE" eid="e20">development</EVENT>.
+
+<EVENT class="REPORTING" eid="e21">According</EVENT> to Liu, the upcoming ministerial <EVENT class="OCCURRENCE" eid="e22">meeting</EVENT> will <EVENT class="OCCURRENCE" eid="e23">give</EVENT> priority to regional trade planning, economic and technological cooperation, trade and energy security, bird flu prevention and control, and anti-corruption.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

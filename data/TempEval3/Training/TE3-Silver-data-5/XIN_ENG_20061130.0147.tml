@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061130.0147</DOCID>
+
+<DCT>KUALA LUMPUR, <TIMEX3 tid="t0" type="TIME" value="2006-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Malaysia stock market stays firm with CI hitting new high</TITLE>
+
+
+<TEXT>
+
+The Malaysia stock market <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> broadly higher <TIMEX3 type="DATE" value="2006-11-30" tid="t1">Thursday</TIMEX3> on strong foreign <EVENT class="OCCURRENCE" eid="e2">buying</EVENT> in blue chips, <EVENT class="OCCURRENCE" eid="e3">pushing</EVENT> the Composite Index (CI) over the 1,080-level.
+
+At the <EVENT class="OCCURRENCE" eid="e4">closing</EVENT>, the 100-quality stock CI <EVENT class="OCCURRENCE" eid="e5">surged</EVENT> 16.06 points to 1,080.66, its best level since <TIMEX3 type="DATE" value="1997" tid="t2">1997</TIMEX3>. It <EVENT class="OCCURRENCE" eid="e6">opened</EVENT> higher by 1.25 points to 1,065.85 and <EVENT class="OCCURRENCE" eid="e7">reached</EVENT> an intraday high of 1,086.37.
+
+The Second Board Index <EVENT class="OCCURRENCE" eid="e8">went</EVENT> up one point to 91.56, the Industrial Index <EVENT class="OCCURRENCE" eid="e9">gained</EVENT> 27.10 points to 2,215.67 and the Mesdaq Index <EVENT class="OCCURRENCE" eid="e10">advanced</EVENT> 0.17 of a point to 118.12.
+
+Gainers <EVENT class="OCCURRENCE" eid="e11">led</EVENT> losers 594 to 264 while 298 counters <EVENT class="OCCURRENCE" eid="e12">traded</EVENT> unchanged.
+
+Volume <EVENT class="OCCURRENCE" eid="e13">increased</EVENT> to 1.58 billion shares valued at 2.77 billion ringgit (748.65 million U.S. dollars) from 977.02 million shares worth 1.70 billion ringgit (459.46 million U.S. dollars) on <TIMEX3 type="DATE" value="2006-11-29" tid="t4">Wednesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

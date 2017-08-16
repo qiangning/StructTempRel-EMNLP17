@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970409.0523</DOCID>
+
+<DCT>CAPE TOWN, South Africa, <TIMEX3 tid="t0" type="TIME" value="1997-04-09" temporalFunction="false" functionInDocument="CREATION_TIME">April 9 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Crayfish invade beaches of Northern Cape</TITLE>
+
+
+<TEXT>
+
+More than a thousand tonnes of crayfish have <EVENT class="OCCURRENCE" eid="e1">invaded</EVENT> Elands bay, some 200 kilometres (120 miles) north of Cape Town, since <TIMEX3 type="DATE" value="1997-W14-WE" tid="t1">the weekend</TIMEX3>, the second <EVENT class="OCCURRENCE" eid="e2">invasion</EVENT> in <TIMEX3 type="DURATION" value="P3W" tid="t2">three weeks</TIMEX3>.
+
+Police have been <EVENT class="OCCURRENCE" eid="e3">forced</EVENT> to <EVENT class="OCCURRENCE" eid="e4">set</EVENT> up barriers and <EVENT class="OCCURRENCE" eid="e5">scoop</EVENT> up the crayfish with excavators to <EVENT class="I_ACTION" eid="e6">prevent</EVENT> people from <EVENT class="OCCURRENCE" eid="e7">collecting</EVENT> the highly-sought after shellfish.
+
+The crayfish have been <EVENT class="OCCURRENCE" eid="e9">heading</EVENT> to the beaches to <EVENT class="OCCURRENCE" eid="e10">escape</EVENT> a toxic red <EVENT class="OCCURRENCE" eid="e11">tide</EVENT> -- a concentration of micro-organisms which depletes oxygen levels in the water.
+
+Thousands of people have <EVENT class="OCCURRENCE" eid="e12">flocked</EVENT> to the coast to <EVENT class="OCCURRENCE" eid="e13">collect</EVENT> the crustacea. However South African legislation <EVENT class="STATE" eid="e14">has</EVENT> strict fishing laws concerning the delicacy. Excepting those holding a special permit, the law <EVENT class="OCCURRENCE" eid="e18">limits</EVENT> fishermen to four crayfish per day during the fishing <TIMEX3 type="DATE" value="1997-04-09" tid="t3">season</TIMEX3>.
+
+Cape Attorney-General Frank Kahn <EVENT class="I_ACTION" eid="e19">warned</EVENT> on <TIMEX3 type="DATE" value="1997-04-08" tid="t4">Tuesday</TIMEX3> that people collecting crayfish without a <EVENT class="OCCURRENCE" eid="e21">permit</EVENT> or those <EVENT class="OCCURRENCE" eid="e22">caught</EVENT> in possession of more than four crayfish would be <EVENT class="OCCURRENCE" eid="e23">prosecuted</EVENT>, irrespective of whether the crayfish were <EVENT class="STATE" eid="e24">dead</EVENT> or alive.
+
+Residents in the surrounding areas have nevertheless <EVENT class="I_ACTION" eid="e25">asked</EVENT> permission to <EVENT class="OCCURRENCE" eid="e26">collect</EVENT> and <EVENT class="OCCURRENCE" eid="e27">sell</EVENT> the crayfish to <EVENT class="OCCURRENCE" eid="e28">raise</EVENT> funding to <EVENT class="OCCURRENCE" eid="e29">improve</EVENT> their communities.
+
+Even though the environmental affairs and tourism ministry <EVENT class="I_STATE" eid="e30">considered</EVENT> <EVENT class="OCCURRENCE" eid="e31">suspending</EVENT> the law, they <EVENT class="REPORTING" eid="e32">said</EVENT> it would be "irresponsible to <EVENT class="OCCURRENCE" eid="e33">allow</EVENT> communities to <EVENT class="OCCURRENCE" eid="e34">access</EVENT> to untested crayfish which may not be <EVENT class="OCCURRENCE" eid="e35">fit</EVENT> for consumption."
+
+Fishing authorities have <EVENT class="REPORTING" eid="e36">called</EVENT> the red tide an ecological disaster.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei25" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+
+
+
+
+</TimeML>

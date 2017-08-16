@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0286</DOCID>
+
+<DCT>NAIROBI, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>IOM to help internally displaced Sudanese return home</TITLE>
+
+
+<TEXT>
+
+The International Organization for Migration (IOM) <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> it had <EVENT class="ASPECTUAL" eid="e2">begun</EVENT> the <EVENT class="OCCURRENCE" eid="e3">registration</EVENT> of internally <EVENT class="OCCURRENCE" eid="e4">displaced</EVENT> Sudanese living in Khartoum who <EVENT class="I_STATE" eid="e5">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e6">return</EVENT> home after a peace agreement <EVENT class="ASPECTUAL" eid="e7">ended</EVENT> a 21-year-old civil <EVENT class="OCCURRENCE" eid="e8">war</EVENT> in the south.
+
+In a statement <EVENT class="OCCURRENCE" eid="e9">issued</EVENT> in Nairobi, the organization <EVENT class="REPORTING" eid="e10">said</EVENT> the registrations which will <EVENT class="ASPECTUAL" eid="e12">continue</EVENT> till <TIMEX3 type="DATE" value="2007-02" tid="t2">next February</TIMEX3>, will <EVENT class="OCCURRENCE" eid="e13">allow</EVENT> the first rounds of organized returns to communities in southern Sudan, most likely <TIMEX3 type="DATE" value="2007" tid="t3">next year</TIMEX3>.
+
+About 100,000 households with an average size of six people per family are <EVENT class="I_STATE" eid="e15">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e16">register</EVENT>.
+
+"As well as <EVENT class="OCCURRENCE" eid="e17">registering</EVENT> those IDPs (internally displaced persons) in Khartoum state who <EVENT class="I_STATE" eid="e18">want</EVENT> to <EVENT class="OCCURRENCE" eid="e19">return</EVENT> home, IOM is also <EVENT class="OCCURRENCE" eid="e20">providing</EVENT> information and material assistance to the displaced, including <EVENT class="I_STATE" eid="e21">facilitating</EVENT> transportation to destinations in the south, " it <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+"The Government of South Sudan and the United Nations have <EVENT class="I_ACTION" eid="e23">agreed</EVENT> that 150,000 people <EVENT class="OCCURRENCE" eid="e24">displaced</EVENT> in the north will be <EVENT class="OCCURRENCE" eid="e25">assisted</EVENT> through organized returns, with the IOM <EVENT class="I_STATE" eid="e26">facilitating</EVENT> the transportation of 35,000 people," it <EVENT class="OCCURRENCE" eid="e27">added</EVENT>.
+
+Another <EVENT class="REPORTING" eid="e28">estimated</EVENT> 48,000 southern Sudanese IDPs, currently in southern Darfur and other states, will be <EVENT class="OCCURRENCE" eid="e29">assisted</EVENT> to <EVENT class="OCCURRENCE" eid="e30">go</EVENT> back home by the IOM between <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> and <TIMEX3 type="DATE" value="2007-07" tid="t5">next July</TIMEX3>.
+
+An estimated 4 million Sudanese are still <EVENT class="OCCURRENCE" eid="e31">displaced</EVENT> within their country as a result of the <EVENT class="OCCURRENCE" eid="e32">conflict</EVENT> in the south.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei29" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

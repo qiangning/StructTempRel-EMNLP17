@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0150</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Swiss pharmaceutical giant to build research center in China</TITLE>
+
+
+<TEXT>
+
+Swiss pharmaceutical firm Novartis is to <EVENT class="OCCURRENCE" eid="e1">build</EVENT> a 100 million-U.S.-dollar research and development center in Shanghai, China, <EVENT class="OCCURRENCE" eid="e2">employing</EVENT> 400 scientists, Swiss Radio International (SRI) <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e4">investment</EVENT> <EVENT class="OCCURRENCE" eid="e5">aims</EVENT> to <EVENT class="OCCURRENCE" eid="e6">tap</EVENT> into the fast-growing Chinese pharmacy market, and to <EVENT class="OCCURRENCE" eid="e7">take</EVENT> advantage of China's low cost scientific talent, the report <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+A start-up <EVENT class="OCCURRENCE" eid="e9">operation</EVENT> is <EVENT class="I_STATE" eid="e10">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e11">open</EVENT> <TIMEX3 type="DATE" value="2007-05" tid="t2">next May</TIMEX3>, and construction <EVENT class="OCCURRENCE" eid="e12">work</EVENT> should <EVENT class="ASPECTUAL" eid="e13">begin</EVENT> in <TIMEX3 type="DATE" value="2006-07" tid="t3">July</TIMEX3>. The center's primary focus will be the causes of cancer endemic in Asia.
+
+"The level of scientific expertise in China is <EVENT class="OCCURRENCE" eid="e15">rising</EVENT> rapidly," Novartis CEO Daniel Vasella was <EVENT class="OCCURRENCE" eid="e16">quoted</EVENT> by SRI as <EVENT class="REPORTING" eid="e17">saying</EVENT>.
+
+"At the same time, the healthcare needs of the Chinese are <EVENT class="OCCURRENCE" eid="e18">growing</EVENT> -- primarily the result of urbanization, lifestyle <EVENT class="OCCURRENCE" eid="e19">changes</EVENT> and associated chronic diseases," he <EVENT class="OCCURRENCE" eid="e21">added</EVENT>.
+
+Specialists <EVENT class="REPORTING" eid="e22">say</EVENT> that as Chinese salaries and <EVENT class="OCCURRENCE" eid="e23">purchasing</EVENT> power <EVENT class="OCCURRENCE" eid="e24">rise</EVENT>, diseases such as hypertension and diabetes are <EVENT class="OCCURRENCE" eid="e26">appearing</EVENT> along with more sedentary lifestyles and richer diets.
+
+<EVENT class="OCCURRENCE" eid="e27">Sales</EVENT> of pharmaceuticals in China in 2010 are <EVENT class="I_STATE" eid="e28">expected</EVENT> to nearly <EVENT class="OCCURRENCE" eid="e29">double</EVENT> those of 2005, <EVENT class="OCCURRENCE" eid="e30">rising</EVENT> from 13 billion U.S. dollars to 25 billion U.S. dollars, <EVENT class="REPORTING" eid="e31">according</EVENT> to Boston Consultancy, an independent consulting group. The global market is worth 570 billion U.S. dollars.
+
+Novartis also <EVENT class="I_STATE" eid="e32">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e33">use</EVENT> the Shanghai center to <EVENT class="OCCURRENCE" eid="e34">combine</EVENT> modern drug <EVENT class="OCCURRENCE" eid="e35">discovery</EVENT> with traditional Chinese medicine, a <EVENT class="OCCURRENCE" eid="e36">move</EVENT> requiring local expertise, the report <EVENT class="REPORTING" eid="e38">said</EVENT>.
+
+In <TIMEX3 type="DATE" value="PAST_REF" tid="t6">the past</TIMEX3>, Western drugmakers had been wary of making investments in China because of perceived weaknesses in patent protection. But the situation has been <EVENT class="OCCURRENCE" eid="e39">improving</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei39" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei31" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei32" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei33" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei21" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+
+
+
+
+</TimeML>

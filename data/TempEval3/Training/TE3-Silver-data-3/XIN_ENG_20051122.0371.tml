@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0371</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>US seeks to update quarantine rules</TITLE>
+
+
+<TEXT>
+
+The United States Centers for Disease Control and Prevention (CDC) on <TIMEX3 type="DATE" value="2005-11-22" tid="t1">Tuesday</TIMEX3> <EVENT class="REPORTING" eid="e1">announced</EVENT> updates to <EVENT class="OCCURRENCE" eid="e2">quarantine</EVENT> regulations in order to better prepare for possible <EVENT class="OCCURRENCE" eid="e4">outbreaks</EVENT> of infectious diseases such as bird flu.
+
+The stricter regulations were <EVENT class="OCCURRENCE" eid="e5">proposed</EVENT> at a time when global concerns are <EVENT class="OCCURRENCE" eid="e6">increasing</EVENT> about a potential <EVENT class="OCCURRENCE" eid="e7">outbreak</EVENT> of a bird flu pandemic as the bird flu virus strain is <EVENT class="I_STATE" eid="e8">feared</EVENT> to <EVENT class="OCCURRENCE" eid="e9">mutate</EVENT> to <EVENT class="OCCURRENCE" eid="e10">become</EVENT> easily transmissible among humans quickly.
+
+This is the first substantial <EVENT class="OCCURRENCE" eid="e11">overhaul</EVENT> of federal quarantine rules in <TIMEX3 type="DURATION" value="P25Y" tid="t2">at least 25 years</TIMEX3>, officials <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+The rules <EVENT class="OCCURRENCE" eid="e13">focus</EVENT> on early discovery and control of infectious diseases that may result from international transportation and interstate movement.
+
+The rules include <EVENT class="OCCURRENCE" eid="e15">expanding</EVENT> the definition of ill passengers, <EVENT class="OCCURRENCE" eid="e17">allowing</EVENT> the CDC easier access to airline and ship passenger lists, and <EVENT class="I_STATE" eid="e19">facilitating</EVENT> the CDC ability to <EVENT class="OCCURRENCE" eid="e20">offer</EVENT> vaccinations and medical treatment to quarantined people.
+
+The <EVENT class="OCCURRENCE" eid="e22">changes</EVENT> are part of the CDC efforts to <EVENT class="OCCURRENCE" eid="e24">enhance</EVENT> its capacity to <EVENT class="OCCURRENCE" eid="e25">protect</EVENT> Americans from infectious agent from abroad. In <TIMEX3 type="DURATION" value="P18M" tid="t3">the past 18 months</TIMEX3>, the CDC has <EVENT class="OCCURRENCE" eid="e26">set</EVENT> up 10 new quarantine stations at airports, ship ports and land-border crossings. It originally <EVENT class="STATE" eid="e28">had</EVENT> only eight.
+
+The proposed regulations are open for public <EVENT class="OCCURRENCE" eid="e29">comment</EVENT> for <TIMEX3 type="DURATION" value="P2M" tid="t4">two months</TIMEX3> as of <TIMEX3 type="DATE" value="2005-11-30" tid="t5">Nov. 30</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei26" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei29" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei29" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

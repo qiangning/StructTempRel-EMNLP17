@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0658</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2005-12-15" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 15 , 2005</TIMEX3></DCT>
+
+<TITLE>China's Yao leads West vote getters for all-star game</TITLE>
+
+
+<TEXT>
+
+China's Yao Ming is the leading Western Conference vote-getter with 729,178 votes after the first returns of the 2006 NBA all-star balloting programme, <EVENT class="REPORTING" eid="e2">announced</EVENT> <TIMEX3 type="DATE" value="2005-12-15" tid="t2">Thursday</TIMEX3>.
+
+Tracy McGrady <EVENT class="I_ACTION" eid="e3">leads</EVENT> forwards in <EVENT class="OCCURRENCE" eid="e4">voting</EVENT> from fans around the world who are responsible for <EVENT class="OCCURRENCE" eid="e5">picking</EVENT> the starters for the 55th NBA All-Star Game, which will be <EVENT class="OCCURRENCE" eid="e6">played</EVENT> in Houston on <TIMEX3 type="DATE" value="2006-02-19" tid="t3">February 19</TIMEX3>.
+
+The Rockets (8-12) are in last place in the Southwest Division due in part to a back injury that has <EVENT class="OCCURRENCE" eid="e8">forced</EVENT> McGrady to <EVENT class="OCCURRENCE" eid="e9">miss</EVENT> eight games.
+
+Yao is a three-time All-Star <EVENT class="OCCURRENCE" eid="e10">averaging</EVENT> a career-high 19.5 points and 9.10 rebounds and McGrady is <EVENT class="OCCURRENCE" eid="e11">averaging</EVENT> 24.0 points, 7.3 rebounds and 4.7 <EVENT class="I_ACTION" eid="e12">assists</EVENT>.
+
+A five-time All-Star, McGrady has <EVENT class="OCCURRENCE" eid="e13">garnered</EVENT> 600,507 votes and is followed by Minnesota's Kevin Garnett with 469,497.
+
+Kobe Bryant of the Los Angeles Lakers is the top vote-getter among Western Conference guards with 664,744 with reigning league Most Valuable Player Steve Nash second with 562,846.
+
+Cleveland forward LeBron James is the leader among Eastern Conference players with 665,849 votes, 19,764 more than Miami Heat center Shaquille O'Neal.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

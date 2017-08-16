@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0283</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>US business inventories rise 0.5 percent in September</TITLE>
+
+
+<TEXT>
+
+Inventories <EVENT class="OCCURRENCE" eid="e1">held</EVENT> by US businesses on shelves and backlots <EVENT class="OCCURRENCE" eid="e2">increased</EVENT> by 0.5 percent in <TIMEX3 type="DATE" value="2005-09" tid="t1">September</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">marking</EVENT> the largest gain in <TIMEX3 type="DURATION" value="P8M" tid="t2">eight months</TIMEX3>, the Commerce Department <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-16" tid="t3">Wednesday</TIMEX3>.
+
+Data <EVENT class="OCCURRENCE" eid="e5">released</EVENT> by the department <EVENT class="OCCURRENCE" eid="e6">showed</EVENT> that business sales in <TIMEX3 type="DATE" value="2005-09" tid="t4">September</TIMEX3> <EVENT class="OCCURRENCE" eid="e7">totaled</EVENT> 1,021.6 billion dollars, up 0.6 percent from the previous month and up 7.8 percent from the same month <TIMEX3 type="DATE" value="2004" tid="t6">last year</TIMEX3>.
+
+Business inventories in <TIMEX3 type="DATE" value="2005-09" tid="t7">September</TIMEX3> were <EVENT class="I_ACTION" eid="e8">estimated</EVENT> at an end-of- month level of 1,282.1 billion dollars, up 0.5 percent from the previous month and up 4.3 percent from the same month <TIMEX3 type="DATE" value="2004" tid="t10">last year</TIMEX3>.
+
+The 0.5 percent <EVENT class="OCCURRENCE" eid="e9">gain</EVENT> in <TIMEX3 type="DATE" value="2005-09" tid="t11">September</TIMEX3>'s inventories was down slightly from an <EVENT class="OCCURRENCE" eid="e10">advance</EVENT> of 0.7 percent in <TIMEX3 type="DATE" value="2005-09" tid="t12">the previous month</TIMEX3>.
+
+Data also <EVENT class="OCCURRENCE" eid="e11">showed</EVENT> that the total business inventories-to-sales ratio based on seasonally adjusted data at the end of <TIMEX3 type="DATE" value="2005-09" tid="t13">September</TIMEX3> was 1.25.
+
+Economists <EVENT class="PERCEPTION" eid="e12">see</EVENT> <EVENT class="OCCURRENCE" eid="e13">rising</EVENT> inventories either as a sign of confidence in future demand or as a result of an unexpected <EVENT class="OCCURRENCE" eid="e15">decline</EVENT> in sales.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000008" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei1000008" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei1000008" relatedToTime="t10" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

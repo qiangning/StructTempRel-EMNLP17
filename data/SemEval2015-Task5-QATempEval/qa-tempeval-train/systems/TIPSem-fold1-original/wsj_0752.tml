@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0752</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891027-0143 = 891027 891027-0143.
+Dividend News: @ AEP Industries Inc. 10/27/89 WALL STREET JOURNAL (J) AEPI DIVIDENDS (DIV)
+</EXTRAINFO>
+
+
+
+<TEXT>
+AEP INDUSTRIES Inc. directors <EVENT class="I_STATE" eid="e1">authorized</EVENT> a 3-for-2 <EVENT class="OCCURRENCE" eid="e2">split</EVENT> of the common, payable <TIMEX3 type="DATE" value="1988-12-07" tid="t1">Dec. 7</TIMEX3> to stock of record <TIMEX3 type="DATE" value="1988-11-22" tid="t2">Nov. 22</TIMEX3>. The <EVENT class="OCCURRENCE" eid="e3">split</EVENT> was <EVENT class="OCCURRENCE" eid="e4">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e5">boosting</EVENT> the stock's liquidity, <EVENT class="REPORTING" eid="e6">said</EVENT> Brendan Barba, chairman of the Moonachie, N.J., maker of plastic film products. After the <EVENT class="OCCURRENCE" eid="e7">split</EVENT>, the company will <EVENT class="STATE" eid="e8">have</EVENT> more than 4.7 million shares outstanding. In national over-the-counter <EVENT class="OCCURRENCE" eid="e9">trading</EVENT> <TIMEX3 type="DATE" value="1989-10-26" tid="t3">yesterday</TIMEX3>, AEP shares <EVENT class="OCCURRENCE" eid="e10">closed</EVENT> at $21.25, down 50 cents.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002"  eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t1" />
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei1000002" relatedToTime="t2" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToEventInstance="ei1000002" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei6" />
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei6" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l13" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei8" />
+<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei10" />
+<TLINK lid="l17" relType="INCLUDES" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+</TimeML>
+

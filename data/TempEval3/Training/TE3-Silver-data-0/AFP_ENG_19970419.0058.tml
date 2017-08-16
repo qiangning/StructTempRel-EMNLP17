@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970419.0058</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="1997-04-19" temporalFunction="false" functionInDocument="CREATION_TIME">April 19 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Singaporean office project agreed in Ho Chi Minh City</TITLE>
+
+
+<TEXT>
+
+A Singaporean firm has <EVENT class="OCCURRENCE" eid="e1">signed</EVENT> a deal to <EVENT class="OCCURRENCE" eid="e3">build</EVENT> a 10 million-dollar office complex in Ho Chi Minh City, a report <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-19" tid="t1">Saturday</TIMEX3>.
+
+Yuan Cheny Singapore is to <EVENT class="OCCURRENCE" eid="e5">take</EVENT> a 70 percent stake in the joint venture project with the Transport Services 3 company, under Vietnam's Ministry of Transport, <EVENT class="OCCURRENCE" eid="e6">holding</EVENT> the balance, the Nguoi Lao Dong newspaper <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+The project is to <EVENT class="OCCURRENCE" eid="e8">build</EVENT> a 19-storey office block in central Ho Chi Minh City, due for <EVENT class="OCCURRENCE" eid="e9">completion</EVENT> in <TIMEX3 type="DATE" value="1999" tid="t2">1999</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

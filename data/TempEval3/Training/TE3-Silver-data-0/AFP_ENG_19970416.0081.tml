@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970416.0081</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="1997-04-16" temporalFunction="false" functionInDocument="CREATION_TIME">April 16 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Italian factory prices up 0.8 percent in February</TITLE>
+
+
+<TEXT>
+
+Italian factory prices <EVENT class="OCCURRENCE" eid="e1">edged</EVENT> up 0.8 percent in <TIMEX3 type="DATE" value="1997-04-16" tid="t1">February from 12 months earlier</TIMEX3>, the Italian statistics institute Istat <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="1997-04-16" tid="t3">Wednesday</TIMEX3>.
+
+Wholesale prises <EVENT class="OCCURRENCE" eid="e3">rose</EVENT> by only 0.5 percent from <TIMEX3 type="DATE" value="1996-02" tid="t4">February 1996</TIMEX3>, <EVENT class="REPORTING" eid="e4">confirming</EVENT> a downward trend in the country's inflation.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

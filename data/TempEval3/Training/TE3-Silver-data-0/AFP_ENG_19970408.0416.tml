@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970408.0416</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="1997-04-08" temporalFunction="false" functionInDocument="CREATION_TIME">April 8 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Net foreign investments in Philippines fall 34 percent</TITLE>
+
+
+<TEXT>
+
+Net foreign investments in the Philippines <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> 34.43 percent from <TIMEX3 type="DATE" value="1996" tid="t1">a year earlier</TIMEX3> to 1.055 billion dollars in <TIMEX3 type="DATE" value="1996" tid="t2">1996</TIMEX3>, figures from the Central Bank of the Philippines <EVENT class="OCCURRENCE" eid="e2">showed</EVENT> <TIMEX3 type="DATE" value="1997-04-08" tid="t3">Tuesday</TIMEX3>.
+
+Gross foreign investments <EVENT class="OCCURRENCE" eid="e3">rose</EVENT> 58.3 percent from <TIMEX3 type="DATE" value="1996" tid="t4">a year earlier</TIMEX3> to 9.414 billion dollars in <TIMEX3 type="DATE" value="1996" tid="t5">1996</TIMEX3>, but this was <EVENT class="OCCURRENCE" eid="e4">offset</EVENT> by the outflow of foreign investments which <EVENT class="OCCURRENCE" eid="e6">totalled</EVENT> 8.359 billion dollars, it <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+The difference <EVENT class="OCCURRENCE" eid="e8">accounted</EVENT> for the net figure.
+
+Foreign portfolio investments <EVENT class="OCCURRENCE" eid="e9">amounted</EVENT> to 8.006 billion dollars while direct equity investments were <EVENT class="OCCURRENCE" eid="e10">placed</EVENT> at 1.408 billion dollars, it <EVENT class="OCCURRENCE" eid="e11">added</EVENT>.
+
+Debt service payments <EVENT class="OCCURRENCE" eid="e12">rose</EVENT> 37.2 percent to 3.639 billion dollars in <TIMEX3 type="DATE" value="1996" tid="t6">1996</TIMEX3>, with 1.226 billion dollars <EVENT class="OCCURRENCE" eid="e13">going</EVENT> to the <EVENT class="OCCURRENCE" eid="e14">payment</EVENT> of international bonds which were <EVENT class="STATE" eid="e15">due</EVENT> <TIMEX3 type="DATE" value="1996" tid="t7">last year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1000002" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

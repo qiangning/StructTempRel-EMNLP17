@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061125.0136</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>PLA forces in HK conduct ninth routine rotation</TITLE>
+
+
+<TEXT>
+
+The Chinese People's Liberation Army (PLA) garrison troops in Hong Kong Special Administrative Region (HKSAR) <TIMEX3 type="DATE" value="2006-11-25" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">conducted</EVENT> its ninth troop <EVENT class="OCCURRENCE" eid="e2">rotation</EVENT> since it <EVENT class="OCCURRENCE" eid="e3">assumed</EVENT> Hong Kong's defense responsibility on <TIMEX3 type="DATE" value="1997-07-01" tid="t2">July 1, 1997</TIMEX3>.
+
+The annual <EVENT class="OCCURRENCE" eid="e4">rotation</EVENT> <EVENT class="ASPECTUAL" eid="e5">started</EVENT> at 00:00 <TIMEX3 type="DATE" value="2007-11-25" tid="t4">Nov. 25</TIMEX3> when a number of military vehicles of the ground troops <EVENT class="OCCURRENCE" eid="e6">rolled</EVENT> across the Lok Ma Chau checkpoint into Hong Kong under the escort of the Hong Kong police.
+
+Six military helicopters <EVENT class="OCCURRENCE" eid="e7">landed</EVENT> at the Skek Kong Barracks in <TIMEX3 type="TIME" value="2006-11-25TMO" tid="t5">the morning</TIMEX3>. The last part of the <EVENT class="OCCURRENCE" eid="e8">rotation</EVENT> was <EVENT class="OCCURRENCE" eid="e9">carried</EVENT> out at the Stonecutters Island Naval Base.
+
+The naval rotation <EVENT class="OCCURRENCE" eid="e11">involved</EVENT> a missile escort vessel, a landing ship.
+
+The annual <EVENT class="OCCURRENCE" eid="e12">rotation</EVENT> was <EVENT class="OCCURRENCE" eid="e13">conducted</EVENT> in accordance with the HKSAR Garrison Law of the People's Republic of China.
+
+The size of the forces <EVENT class="STATE" eid="e14">remained</EVENT> unchanged in both personnel and weaponry after the <EVENT class="OCCURRENCE" eid="e15">rotation</EVENT>, <EVENT class="REPORTING" eid="e16">said</EVENT> Lieutenant Colonel Cheng Dongfang, spokesman for the PLA garrison troops in Hong Kong.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

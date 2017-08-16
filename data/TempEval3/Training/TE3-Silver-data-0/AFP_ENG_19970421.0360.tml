@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0360</DOCID>
+
+<DCT>PERTH, Australia, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Former Australian health minister charged with perjury: report</TITLE>
+
+
+<TEXT>
+
+Former Australian health minister Carmen Lawrence has been <EVENT class="OCCURRENCE" eid="e1">charged</EVENT> with three counts of perjury, the Australian Broadcasting Corporation (ABC) <EVENT class="REPORTING" eid="e2">reported</EVENT> here <TIMEX3 type="DATE" value="1997-04-14TNI" tid="t1">Monday night</TIMEX3>.
+
+The charges <EVENT class="OCCURRENCE" eid="e3">arise</EVENT> out of evidence Lawrence, one of Australia's best known female politicians, <EVENT class="OCCURRENCE" eid="e4">gave</EVENT> to a royal commission examining the circumstances surrounding a controversial petition <EVENT class="OCCURRENCE" eid="e6">tabled</EVENT> in the Western Australian state parliament in <TIMEX3 type="DATE" value="1992" tid="t2">1992</TIMEX3>. Lawyer Penny Easton, who was <EVENT class="OCCURRENCE" eid="e7">named</EVENT> in the petition, <EVENT class="I_STATE" eid="e8">committed</EVENT> suicide <TIMEX3 type="DURATION" value="P4D" tid="t3">four days</TIMEX3> after it was <EVENT class="OCCURRENCE" eid="e10">tabled</EVENT>.
+
+Lawrence was <EVENT class="STATE" eid="e11">premier</EVENT> of the state before <EVENT class="OCCURRENCE" eid="e12">entering</EVENT> federal politics.
+
+The ABC <EVENT class="REPORTING" eid="e13">reported</EVENT> Lawrence was deeply distressed by the <EVENT class="OCCURRENCE" eid="e14">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e15">charge</EVENT> her and <EVENT class="OCCURRENCE" eid="e16">maintained</EVENT> she had done nothing wrong.
+
+It <EVENT class="REPORTING" eid="e17">quoted</EVENT> her as <EVENT class="REPORTING" eid="e18">saying</EVENT> that since she was innocent she had every confidence of being <EVENT class="OCCURRENCE" eid="e20">vindicated</EVENT> in court.
+
+Lawrence <EVENT class="REPORTING" eid="e21">said</EVENT> she would <EVENT class="I_STATE" eid="e22">stand</EVENT> down from her Labor Party's opposition front bench in Canberra but would not <EVENT class="OCCURRENCE" eid="e23">resign</EVENT> from parliament, it <EVENT class="OCCURRENCE" eid="e24">added</EVENT>.
+
+A Western Australian state member of parliament, John Halden, has also been <EVENT class="OCCURRENCE" eid="e25">charged</EVENT> with one count of perjury <EVENT class="OCCURRENCE" eid="e26">arising</EVENT> from the royal commission, the report <EVENT class="REPORTING" eid="e27">said</EVENT>.
+
+Lawrence and Halden will <EVENT class="OCCURRENCE" eid="e28">appear</EVENT> at the Perth Court of Petty Sessions <TIMEX3 type="DATE" value="1997-04-24" tid="t4">Thursday</TIMEX3>.
+
+It was not clear whether Lawrence had been <EVENT class="OCCURRENCE" eid="e30">arrested</EVENT> or <EVENT class="OCCURRENCE" eid="e31">charged</EVENT> by <EVENT class="OCCURRENCE" eid="e32">summons</EVENT> and no further details were immediately available.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei28" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

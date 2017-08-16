@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0090</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>UK medical device developer bases Asia-Pacific office in HK</TITLE>
+
+
+<TEXT>
+
+SunTech Medical Inc, one of the world leaders in blood pressure monitoring products and technology, <EVENT class="REPORTING" eid="e1">announced</EVENT> here <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3> the <EVENT class="OCCURRENCE" eid="e2">opening</EVENT> of its Hong Kong office.
+
+As SunTech's first Asian venture, the Hong Kong operation will be <EVENT class="STATE" eid="e4">responsible</EVENT> for <EVENT class="OCCURRENCE" eid="e5">providing</EVENT> a full range of sales and marketing support to its distributors throughout the Asia-Pacific region, <EVENT class="REPORTING" eid="e6">according</EVENT> to Anthony Nixon, the Regional Director of SunTech Medical in Hong Kong.
+
+"Sales operations associated with our medical devices have previously been <EVENT class="OCCURRENCE" eid="e7">based</EVENT> only in the UK and the United States. As our business <EVENT class="OCCURRENCE" eid="e8">grows</EVENT> in this region, it has <EVENT class="STATE" eid="e9">become</EVENT> strategically important to <EVENT class="I_ACTION" eid="e10">establish</EVENT> a base here in order to be immediately available and responsive to the needs of our customers, both in Hong Kong and the rest of this region," Anthony Nixon <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+<EVENT class="OCCURRENCE" eid="e12">Commenting</EVENT> on the choice of Hong Kong as its regional hub, Nixon <EVENT class="REPORTING" eid="e13">said</EVENT>, "We firmly <EVENT class="I_STATE" eid="e14">believe</EVENT> that Hong Kong is the epicenter for Asian market <EVENT class="OCCURRENCE" eid="e15">development</EVENT>. Chinese mainland's <EVENT class="OCCURRENCE" eid="e16">rise</EVENT> as a major consumer and manufacturer further <EVENT class="OCCURRENCE" eid="e17">prompted</EVENT> SunTech Medical to <EVENT class="OCCURRENCE" eid="e18">operate</EVENT> directly in this booming market. The business-friendly environment and the great ease of <EVENT class="OCCURRENCE" eid="e20">setting</EVENT> up and <EVENT class="OCCURRENCE" eid="e21">operating</EVENT> a business in Hong Kong are among the city's many advantages."
+
+<EVENT class="OCCURRENCE" eid="e22">Founded</EVENT> in <TIMEX3 type="DATE" value="1984" tid="t2">1984</TIMEX3>, SunTech Medical is a wholly owned subsidiary of SunTech Medical Group Limited which is a privately-owned British company. It <EVENT class="OCCURRENCE" eid="e23">develops</EVENT> and markets clinical grade blood pressure measurement devices and operates from bases in the Research Triangle Park, North Carolina and Oxford, UK.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

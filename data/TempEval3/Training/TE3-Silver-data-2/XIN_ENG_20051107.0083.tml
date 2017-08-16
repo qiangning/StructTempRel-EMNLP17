@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051107.0083</DOCID>
+
+<DCT>KUALA LUMPUR, <TIMEX3 tid="t0" type="TIME" value="2005-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Malaysia Stock Exchange sinks lower on selling pressure</TITLE>
+
+
+<TEXT>
+
+The Malaysia Stock Exchange <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> lower on further <EVENT class="OCCURRENCE" eid="e2">selling</EVENT> of some key bluechip shares on <TIMEX3 type="DATE" value="2005-11-07" tid="t1">Monday</TIMEX3>, the first day after a four-day festival holiday in the country.
+
+The benchmark Composite Index <EVENT class="OCCURRENCE" eid="e3">slipped</EVENT> 2.39 points throughout <TIMEX3 type="DATE" value="2005-11-07" tid="t3">the day</TIMEX3> to <EVENT class="ASPECTUAL" eid="e4">end</EVENT> at 911.53, the Emas Index <EVENT class="OCCURRENCE" eid="e5">eased</EVENT> 0.40 of a point to 207.80 and the Second Board Index <EVENT class="OCCURRENCE" eid="e6">declined</EVENT> 0.17 of a point to 84. 14.
+
+Losers <EVENT class="I_ACTION" eid="e7">beat</EVENT> gainers 343 to 303, 271 counters were unchanged, 408 counters <EVENT class="OCCURRENCE" eid="e9">untraded</EVENT> and 40 counters <EVENT class="ASPECTUAL" eid="e10">suspended</EVENT>.
+
+Turnover was higher at 330.52 million shares worth 920.62 million ringgit (245.50 million US dollars) from 226.08 million shares worth 548.59 million ringgit (146.29 million US dollars) <TIMEX3 type="DATE" value="2005-11-02" tid="t5">last Wednesday</TIMEX3>.
+
+Meanwhile, turnover on the Main Board <EVENT class="OCCURRENCE" eid="e11">rose</EVENT> to 257.10 million shares worth 885.14 million ringgit (236.04 million US dollars) from 171.59 million shares worth 523.36 million ringgit (139.56 million US dollars) <TIMEX3 type="DATE" value="2005-11-02" tid="t6">last Wednesday</TIMEX3>.
+
+The Second Board volume <EVENT class="OCCURRENCE" eid="e12">increased</EVENT> to 20.20 million shares worth 12.65 million ringgit (3.37 million US dollars) from 18.45 million shares worth 10.98 million (2.93 million US dollars).
+
+Volume on the Mesdaq market <EVENT class="OCCURRENCE" eid="e13">rose</EVENT> to 52.11 million shares worth 21.14 million ringgit (5.64 million US dollars) from 35.54 million shares from 13.68 million ringgit (3.65 million US dollars).
+
+Dealers <EVENT class="REPORTING" eid="e14">said</EVENT> the market <TIMEX3 type="DATE" value="2005-W45" tid="t7">this week</TIMEX3> will be cautious of <EVENT class="OCCURRENCE" eid="e16">developments</EVENT> in external factors such as the <EVENT class="OCCURRENCE" eid="e17">spread</EVENT> of the bird flu, and indications of funds <EVENT class="OCCURRENCE" eid="e18">flowing</EVENT> out of Asia with the <EVENT class="OCCURRENCE" eid="e19">hike</EVENT> in US interest rates.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

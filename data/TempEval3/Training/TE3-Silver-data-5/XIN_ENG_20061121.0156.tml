@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0156</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>British stocks trade higher at midday</TITLE>
+
+
+<TEXT>
+
+British stocks <EVENT class="OCCURRENCE" eid="e1">traded</EVENT> higher at midday on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> on the London Stock Exchange.
+
+The FTSE 100-share index was up 21.00 points, at 6,226.10 at noon.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

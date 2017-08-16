@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970424.0248</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="1997-04-24" temporalFunction="false" functionInDocument="CREATION_TIME">April 24 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Lumumba justifies foreign aid to Zaire rebels</TITLE>
+
+
+<TEXT>
+
+Francois Lumumba, the son of the late hero of Zairean independence, on <TIMEX3 type="DATE" value="1997-04-24" tid="t1">Thursday</TIMEX3> <EVENT class="REPORTING" eid="e1">said</EVENT> there was nothing wrong with foreign help to rebels <EVENT class="I_ACTION" eid="e2">seeking</EVENT> to <EVENT class="OCCURRENCE" eid="e3">oust</EVENT> President Mobutu Sese Seko.
+
+The son of Patrice Lumumba, the prime minister who was <EVENT class="OCCURRENCE" eid="e4">murdered</EVENT> in <TIMEX3 type="DATE" value="1961-02" tid="t2">February 1961</TIMEX3>, less than a year after independence, <EVENT class="OCCURRENCE" eid="e5">added</EVENT> in Geneva that he <EVENT class="I_STATE" eid="e6">planned</EVENT> to <EVENT class="OCCURRENCE" eid="e7">go</EVENT> to Goma in eastern Zaire for a <EVENT class="OCCURRENCE" eid="e8">meeting</EVENT> with rebel leader Laurent Kabila.
+
+Kabila's rebel alliance, in which Zairean Tutsis hold key posts, <EVENT class="OCCURRENCE" eid="e11">benefits</EVENT> from diplomatic support and facilities to <EVENT class="OCCURRENCE" eid="e12">ship</EVENT> in arms through Uganda, Sudan and Rwanda, Lumumba <EVENT class="REPORTING" eid="e13">told</EVENT> the press.
+
+"We don't have any complexes if people <EVENT class="OCCURRENCE" eid="e15">give</EVENT> us certain facilities to <EVENT class="ASPECTUAL" eid="e16">finish</EVENT> off the Mobutu regime," he <EVENT class="REPORTING" eid="e17">said</EVENT>. Mobutu has <EVENT class="OCCURRENCE" eid="e18">ruled</EVENT> Zaire for <TIMEX3 type="DURATION" value="P31Y" tid="t4">more than 31 years</TIMEX3> and was deeply <EVENT class="OCCURRENCE" eid="e19">implicated</EVENT> in <EVENT class="OCCURRENCE" eid="e20">events</EVENT> surrounding Lumumba's death and a foiled secession bid by the mineral-rich province of Katanga (now Shaba), which is once again in rebel hands.
+
+Lumumba, 45, was <EVENT class="OCCURRENCE" eid="e21">passing</EVENT> through Geneva after <EVENT class="OCCURRENCE" eid="e22">visiting</EVENT> Washington for <EVENT class="OCCURRENCE" eid="e23">talks</EVENT> with State Department officials and some 30 black American congressmen. He had <EVENT class="OCCURRENCE" eid="e24">lived</EVENT> in exile in Switzerland between <TIMEX3 type="DATE" value="1975" tid="t6">1975</TIMEX3> and <TIMEX3 type="DATE" value="1980" tid="t7">1980</TIMEX3>.
+
+The son of Patrice Lumumba, whose murder <EVENT class="OCCURRENCE" eid="e25">sparked</EVENT> outrage in much of Africa, <TIMEX3 type="DATE" value="PRESENT_REF" tid="t8">now</TIMEX3> lives in the Zairean capital Kinshasa and <EVENT class="I_STATE" eid="e26">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e27">return</EVENT> there after <EVENT class="OCCURRENCE" eid="e28">going</EVENT> to Goma on the eastern border with Rwanda.
+
+He <EVENT class="OCCURRENCE" eid="e30">heads</EVENT> the Lumumba National Congolese Movement (MNCL), which is not part of the rebel alliance, but is <EVENT class="I_STATE" eid="e31">prepared</EVENT> to <EVENT class="OCCURRENCE" eid="e32">work</EVENT> with it for the <EVENT class="OCCURRENCE" eid="e33">overthrow</EVENT> of Mobutu and to <EVENT class="OCCURRENCE" eid="e34">take</EVENT> part in a transitional government.
+
+Lumumba <EVENT class="REPORTING" eid="e35">said</EVENT> his party would <EVENT class="OCCURRENCE" eid="e36">put</EVENT> up a candidate in presidential elections that should <EVENT class="OCCURRENCE" eid="e38">follow</EVENT> the toppling of Mobutu, but the choice of candidate had not yet been <EVENT class="OCCURRENCE" eid="e40">made</EVENT>.
+
+He <EVENT class="REPORTING" eid="e41">claimed</EVENT> that the MNCL <EVENT class="STATE" eid="e42">had</EVENT> many supporters, some of whom were <EVENT class="OCCURRENCE" eid="e43">taking</EVENT> part in the armed <EVENT class="OCCURRENCE" eid="e44">uprising</EVENT>. He <EVENT class="OCCURRENCE" eid="e45">ruled</EVENT> out a transition government including the current head of state, <EVENT class="REPORTING" eid="e46">saying</EVENT> "<EVENT class="OCCURRENCE" eid="e47">Forget</EVENT> Mobutu."
+
+His father <EVENT class="REPORTING" eid="e48">called</EVENT> for help from the Soviet Union <EVENT class="OCCURRENCE" eid="e49">following</EVENT> the Katanga secession <EVENT class="OCCURRENCE" eid="e50">bid</EVENT> in <TIMEX3 type="DATE" value="1960" tid="t9">1960</TIMEX3>. <EVENT class="OCCURRENCE" eid="e51">Arrested</EVENT> by then Colonel Mobutu in <TIMEX3 type="DATE" value="1996-12" tid="t10">December</TIMEX3>, he <EVENT class="OCCURRENCE" eid="e52">died</EVENT> <TIMEX3 type="DURATION" value="P2M" tid="t11">two months</TIMEX3> later, allegedly in an <EVENT class="I_ACTION" eid="e53">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e54">escape</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei54" eventID="e54" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei53" eventID="e53" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52" eventID="e52" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei51" eventID="e51" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000024" eventID="e24" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei48" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei45" relatedToEventInstance="ei48" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei46" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei30" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei30" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei35" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei41" relatedToEventInstance="ei45" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei41" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei45" relatedToEventInstance="ei46" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei52" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei52" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei52" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei1000024" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei1000024" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei48" relatedToEventInstance="ei49" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei25" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei49" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei45" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei35" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l48" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l50" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l53" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l57" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l59" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l60" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l61" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l62" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l63" eventInstanceID="ei52" relatedToEventInstance="ei53" relType="AFTER" />
+<TLINK lid="l64" eventInstanceID="ei52" relatedToEventInstance="ei54" relType="AFTER" />
+<TLINK lid="l65" eventInstanceID="ei51" relatedToEventInstance="ei52" relType="BEFORE" />
+<TLINK lid="l66" eventInstanceID="ei48" relatedToEventInstance="ei52" relType="AFTER" />
+<TLINK lid="l67" eventInstanceID="ei48" relatedToEventInstance="ei50" relType="IS_INCLUDED" />
+<TLINK lid="l68" eventInstanceID="ei50" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l69" eventInstanceID="ei35" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l70" eventInstanceID="ei41" relatedToEventInstance="ei44" relType="AFTER" />
+
+
+
+
+</TimeML>

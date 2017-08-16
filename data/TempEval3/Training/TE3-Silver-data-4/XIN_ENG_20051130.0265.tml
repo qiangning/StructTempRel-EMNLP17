@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051130.0265</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2005-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Russian defense minister says CSTO expects cooperation with NATO</TITLE>
+
+
+<TEXT>
+
+The members of the Collective Security Treaty Organization (CSTO) <EVENT class="I_STATE" eid="e1">expect</EVENT> to <EVENT class="OCCURRENCE" eid="e2">cooperate</EVENT> with NATO in <EVENT class="OCCURRENCE" eid="e3">tackling</EVENT> common threats and challenges, Russian Defense Minister Sergei Ivanov <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-11-30" tid="t1">Wednesday</TIMEX3>.
+
+The CSTO has long been <EVENT class="STATE" eid="e5">interested</EVENT> in cooperation with NATO in <EVENT class="I_STATE" eid="e7">countering</EVENT> modern threats that both organizations <EVENT class="STATE" eid="e8">face</EVENT>, such as drug trafficking, Ivanov was <EVENT class="OCCURRENCE" eid="e9">quoted</EVENT> by the Itar-Tass news agency as <EVENT class="REPORTING" eid="e10">saying</EVENT> at a <EVENT class="OCCURRENCE" eid="e11">meeting</EVENT> of the group's defense ministers' <EVENT class="OCCURRENCE" eid="e12">meeting</EVENT> in Moscow.
+
+"We shall <EVENT class="OCCURRENCE" eid="e13">get</EVENT> nowhere by definition unless we <EVENT class="OCCURRENCE" eid="e14">take</EVENT> joint measures," Ivanov <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+The CSTO <EVENT class="OCCURRENCE" eid="e16">links</EVENT> Russia with Armenia, Belarus, Kazakhstan, Kyrgyzstan and Tajikistan.
+
+Russian Foreign Minister Sergei Lavrov would <EVENT class="OCCURRENCE" eid="e17">discuss</EVENT> <EVENT class="OCCURRENCE" eid="e18">cooperation</EVENT> with the Western alliance on behalf of the CSTO at a <EVENT class="OCCURRENCE" eid="e19">meeting</EVENT> of the Russia-NATO Council <TIMEX3 type="DATE" value="2005-W49" tid="t2">next week</TIMEX3>, Ivanov <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

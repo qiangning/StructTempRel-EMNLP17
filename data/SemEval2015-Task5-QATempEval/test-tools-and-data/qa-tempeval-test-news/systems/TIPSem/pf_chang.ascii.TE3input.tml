@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>P.F. Chang's security breach hits 33 restaurants, 8 in California</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2014-08-04T10:33" temporalFunction="false" functionInDocument="CREATION_TIME">August 4, 2014. 10:33</TIMEX3></DCT>
+
+<TEXT>
+P.F. Chang's China Bistro Inc. has <EVENT class="OCCURRENCE" eid="e1">provided</EVENT> new details about a security breach <EVENT class="OCCURRENCE" eid="e2">discovered</EVENT> in <TIMEX3 type="DATE" value="2014-06" tid="t1">June</TIMEX3>, <EVENT class="REPORTING" eid="e3">saying</EVENT> customer data may have been <EVENT class="OCCURRENCE" eid="e4">stolen</EVENT> from 33 restaurants in 16 states, including eight in California. 
+
+The restaurant chain <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="2014-08-04" tid="t2">Monday</TIMEX3> that credit card numbers, expiration dates and, in some cases, cardholder names were <EVENT class="OCCURRENCE" eid="e6">stolen</EVENT> over <TIMEX3 type="DURATION" value="P8M" tid="t3">eight months</TIMEX3>. However, the chain has not yet <EVENT class="OCCURRENCE" eid="e7">determined</EVENT> if "any specific cardholder's credit or debit card data was <EVENT class="OCCURRENCE" eid="e8">stolen</EVENT> by the intruder," <EVENT class="REPORTING" eid="e9">according</EVENT> to Chief Executive Rick Federico. 
+
+P.F. Chang's <EVENT class="REPORTING" eid="e10">confirmed</EVENT> the data <EVENT class="OCCURRENCE" eid="e11">breach</EVENT> <TIMEX3 type="DATE" value="2014-06-13" tid="t4">June 13</TIMEX3>, <TIMEX3 type="DURATION" value="P3D" tid="t5">three days</TIMEX3> after the U.S. Secret Service <EVENT class="OCCURRENCE" eid="e12">alerted</EVENT> the chain that its credit card processing systems may have been <EVENT class="OCCURRENCE" eid="e13">hacked</EVENT>. The company <EVENT class="REPORTING" eid="e14">said</EVENT> the <EVENT class="OCCURRENCE" eid="e15">breach</EVENT> <EVENT class="OCCURRENCE" eid="e16">occurred</EVENT> between <TIMEX3 type="DATE" value="2013-10-19" tid="t6">Oct. 19, 2013</TIMEX3>, and <TIMEX3 type="DATE" value="2014-06-11" tid="t7">June 11, 2014</TIMEX3>. 
+
+The <EVENT class="OCCURRENCE" eid="e17">intrusion</EVENT> was first <EVENT class="REPORTING" eid="e18">reported</EVENT> by security blogger Brian Krebs, who <EVENT class="REPORTING" eid="e19">said</EVENT> on his website that banks <EVENT class="REPORTING" eid="e20">reported</EVENT> data from thousands of customers had been <EVENT class="OCCURRENCE" eid="e21">pilfered</EVENT> from locations in Florida, Maryland, New Jersey, Pennsylvania, Nevada and North Carolina, and was being <EVENT class="OCCURRENCE" eid="e22">sold</EVENT> online. 
+
+Federico <EVENT class="REPORTING" eid="e23">said</EVENT> P.F. Chang's <EVENT class="OCCURRENCE" eid="e24">conducted</EVENT> an internal investigation with the <EVENT class="OCCURRENCE" eid="e25">help</EVENT> of forensic data experts, and <EVENT class="OCCURRENCE" eid="e26">determined</EVENT> the 33 locations affected and specific time frames the credit card processing system was <EVENT class="OCCURRENCE" eid="e27">compromised</EVENT> for each.
+
+He also <EVENT class="REPORTING" eid="e28">said</EVENT> the company has been <EVENT class="OCCURRENCE" eid="e29">processing</EVENT> card data securely since <TIMEX3 type="DATE" value="2014-06-11" tid="t8">June 11</TIMEX3>. 
+
+A list of all 33 locations, as well as the dates that cards may have been <EVENT class="OCCURRENCE" eid="e30">compromised</EVENT>, can be <EVENT class="OCCURRENCE" eid="e31">found</EVENT> at pfchangs.com/security.
+
+Copyright LA Times.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25"  eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26"  eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27"  eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28"  eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29"  eventID="e29" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30"  eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31"  eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000016"  eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t1" />
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei1" />
+<TLINK lid="l5" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei1" />
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei1" />
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t2" />
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t3" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei5" />
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei5" relatedToEventInstance="ei7" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei7" />
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei7" />
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t4" />
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t5" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei10" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei11" relatedToEventInstance="ei10" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei10" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei10" />
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t6" />
+<TLINK lid="l25" relType="IS_INCLUDED" eventInstanceID="ei1000016" relatedToTime="t7" />
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l27" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei14" />
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei14" />
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei14" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei1000016" relatedToEventInstance="ei14" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l35" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei17" />
+<TLINK lid="l36" relType="AFTER" eventInstanceID="ei18" relatedToEventInstance="ei17" />
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei17" />
+<TLINK lid="l38" relType="AFTER" eventInstanceID="ei20" relatedToEventInstance="ei17" />
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei17" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei22" relatedToEventInstance="ei17" />
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l42" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei23" />
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei23" />
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei25" relatedToEventInstance="ei23" />
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei23" />
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei23" />
+<TLINK lid="l47" relType="IS_INCLUDED" eventInstanceID="ei29" relatedToTime="t8" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei28" relatedToTime="t0" />
+<TLINK lid="l49" relType="SIMULTANEOUS" eventInstanceID="ei23" relatedToEventInstance="ei28" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei29" relatedToEventInstance="ei28" />
+<TLINK lid="l51" relType="BEFORE" eventInstanceID="ei31" relatedToTime="t0" />
+<TLINK lid="l52" relType="SIMULTANEOUS" eventInstanceID="ei28" relatedToEventInstance="ei31" />
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei30" relatedToEventInstance="ei31" />
+
+</TimeML>

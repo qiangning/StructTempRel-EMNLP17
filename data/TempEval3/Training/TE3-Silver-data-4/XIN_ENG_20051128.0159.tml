@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0159</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nuclear industry research base launched in Shanghai</TITLE>
+
+
+<TEXT>
+
+The China Nuclear Industry Group (CNIG) <EVENT class="OCCURRENCE" eid="e1">set</EVENT> up <TIMEX3 type="DATE" value="2005-11-27" tid="t1">Sunday</TIMEX3> a research base for nuclear power, instruments for civilian use, and military industry, in Shanghai, according to sources with CNIG.
+
+Located in Shanghai Caohejin high-tech development zone, the research base covers 21,000 square meters of floor space, and will <EVENT class="OCCURRENCE" eid="e5">combine</EVENT> the functions of management, service and trade.
+
+An official with CNIG <EVENT class="REPORTING" eid="e6">said</EVENT> that China's nuclear industry has <EVENT class="OCCURRENCE" eid="e7">embraced</EVENT> a crucial development opportunity, with nuclear power, nuclear fuel and nuclear applications to be the three pillars.
+
+By <TIMEX3 type="DATE" value="2020" tid="t2">the year 2020</TIMEX3>, the installed capacity of China's nuclear power is <EVENT class="I_STATE" eid="e8">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e9">reach</EVENT> 40 million kilowatts, <EVENT class="OCCURRENCE" eid="e10">accounting</EVENT> for 25 percent of the country's total.
+
+In the coming <TIMEX3 type="DURATION" value="P5Y" tid="t3">five years</TIMEX3>, the market scale for nuclear applications will <EVENT class="OCCURRENCE" eid="e12">reach</EVENT> 100 billion yuan (about 12.5 billion US dollars).
+
+Wang Shoujun, CNIG deputy general manager, <EVENT class="REPORTING" eid="e13">said</EVENT> that in <TIMEX3 type="DATE" value="2006" tid="t4">the 2006-2010 period</TIMEX3>, his group will <EVENT class="ASPECTUAL" eid="e14">complete</EVENT> integration and <EVENT class="OCCURRENCE" eid="e15">research</EVENT> of the meters <EVENT class="OCCURRENCE" eid="e16">matched</EVENT> with the nuclear industry to <EVENT class="OCCURRENCE" eid="e17">provide</EVENT> more home-made products for the country's nuclear power construction.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+
+
+
+
+</TimeML>

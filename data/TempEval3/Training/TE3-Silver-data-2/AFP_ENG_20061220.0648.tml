@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061220.0648</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-12-20" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 20 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Pakistani convicted in US for aiding Sikh militants in India</TITLE>
+
+
+<TEXT>
+
+A Pakistani man was <EVENT class="OCCURRENCE" eid="e1">convicted</EVENT> <TIMEX3 type="DATE" value="2006-12-27" tid="t1">Wednesday</TIMEX3> for <EVENT class="OCCURRENCE" eid="e2">providing</EVENT> financial support to a Sikh militant group in India and could <EVENT class="OCCURRENCE" eid="e3">face</EVENT> up to 45 years in prison.
+
+The federal jury in New York <EVENT class="OCCURRENCE" eid="e4">returned</EVENT> the <EVENT class="OCCURRENCE" eid="e5">verdict</EVENT> on Khalid Awan <EVENT class="OCCURRENCE" eid="e6">following</EVENT> <TIMEX3 type="DURATION" value="P2W" tid="t2">two weeks</TIMEX3> of <EVENT class="OCCURRENCE" eid="e7">trial</EVENT>, the US Department of Justice <EVENT class="REPORTING" eid="e8">said</EVENT> in a statement.
+
+Awan, who <EVENT class="OCCURRENCE" eid="e9">lives</EVENT> in New York, was <EVENT class="I_ACTION" eid="e10">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e11">providing</EVENT> money and financial services to the Khalistan Commando Force (KCF), a Sikh militant group <EVENT class="OCCURRENCE" eid="e12">fighting</EVENT> for a separate state in the Punjab region of India.
+
+The group is <EVENT class="OCCURRENCE" eid="e13">branded</EVENT> a terrorist organization by Washington.
+
+Held on federal credit card fraud charges, Awan reportedly <EVENT class="OCCURRENCE" eid="e14">made</EVENT> telephone calls to Paramjit Singh Panjwar, the KCF leader and one of 10 "most wanted fugitives" in India, the statement <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+"Awan <EVENT class="I_STATE" eid="e16">faces</EVENT> a maximum sentence of <TIMEX3 type="DURATION" value="P45Y" tid="t3">45 years</TIMEX3> in prison," it <EVENT class="REPORTING" eid="e17">said</EVENT>, ahead of the sentencing <EVENT class="PERCEPTION" eid="e18">scheduled</EVENT> on <TIMEX3 type="DATE" value="2007-03-07" tid="t4">March 7, 2007</TIMEX3>.
+
+Among evidence <EVENT class="OCCURRENCE" eid="e19">presented</EVENT> in court were <EVENT class="REPORTING" eid="e21">statements</EVENT> by Awan <EVENT class="OCCURRENCE" eid="e22">admitting</EVENT> that he <EVENT class="OCCURRENCE" eid="e23">sent</EVENT> hundreds of thousands of dollars to KCF.
+
+"The <EVENT class="OCCURRENCE" eid="e24">war</EVENT> on terror is a global <EVENT class="OCCURRENCE" eid="e25">battle</EVENT>," <EVENT class="REPORTING" eid="e26">said</EVENT> US attorney Mauskopf Mauskopf of the Eastern District of New York. "We will not <EVENT class="I_ACTION" eid="e27">permit</EVENT> individuals in our jurisdiction to <EVENT class="OCCURRENCE" eid="e28">finance</EVENT> terrorist groups responsible for murder and <EVENT class="OCCURRENCE" eid="e30">violence</EVENT> in any part of the world."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei27" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

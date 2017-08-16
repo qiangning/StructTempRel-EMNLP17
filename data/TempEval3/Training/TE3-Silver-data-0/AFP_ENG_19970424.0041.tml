@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970424.0041</DOCID>
+
+<DCT>ALGIERS, <TIMEX3 tid="t0" type="TIME" value="1997-04-24" temporalFunction="false" functionInDocument="CREATION_TIME">April 24 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>URGENT Paper reports new massacre of 42 people in Algeria</TITLE>
+
+
+<TEXT>
+
+A total 42 people were <EVENT class="OCCURRENCE" eid="e1">slain</EVENT> in a village in the Medea region south of the capital overnight <TIMEX3 type="DATE" value="1997-04-22" tid="t1">Tuesday</TIMEX3> to <TIMEX3 type="DATE" value="1997-04-23" tid="t2">Wednesday</TIMEX3>, the daily El Watan newspaper <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="1997-04-24" tid="t3">Thursday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000003" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1000002" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1000003" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1000003" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei1000003" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

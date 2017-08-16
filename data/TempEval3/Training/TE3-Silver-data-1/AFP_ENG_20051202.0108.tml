@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051202.0108</DOCID>
+
+<DCT>CHENNAI, India, <TIMEX3 tid="t0" type="TIME" value="2005-12-03" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 3 , 2005</TIMEX3></DCT>
+
+<TITLE>= (PICTURES) =</TITLE>
+
+
+<TEXT>
+
+Incessant rain and thundershowers <EVENT class="OCCURRENCE" eid="e1">wiped</EVENT> out the morning <EVENT class="OCCURRENCE" eid="e2">session</EVENT> of the second day's play in the first cricket Test between India and Sri Lanka on <TIMEX3 type="DATE" value="2005-12-03" tid="t2">Saturday</TIMEX3>.
+
+With the Chepauk outfield waterlogged and little chance of the sun <EVENT class="OCCURRENCE" eid="e3">breaking</EVENT> through to dry the ground, there was unlikely to be any play on <TIMEX3 type="DATE" value="P02:00D" tid="t3">the second day</TIMEX3> after the first day was <EVENT class="OCCURRENCE" eid="e5">washed</EVENT> out.
+
+Umpires Daryl Harper and Mark Benson may <EVENT class="OCCURRENCE" eid="e6">call</EVENT> off <EVENT class="OCCURRENCE" eid="e7">play</EVENT> during the scheduled lunch <EVENT class="OCCURRENCE" eid="e8">break</EVENT> at 11:30 am (0600 GMT) if the weather does not <EVENT class="OCCURRENCE" eid="e9">improve</EVENT>.
+
+Cyclone Baaz, which was <EVENT class="OCCURRENCE" eid="e10">hovering</EVENT> in the Bay of Bengal, <EVENT class="OCCURRENCE" eid="e11">weakened</EVENT> into a depression late on <TIMEX3 type="DATE" value="2005-12-02" tid="t4">Friday</TIMEX3> but <EVENT class="OCCURRENCE" eid="e12">brought</EVENT> rain through <TIMEX3 type="TIME" value="2005-12-03TNI" tid="t5">the night</TIMEX3> to <EVENT class="OCCURRENCE" eid="e13">leave</EVENT> this southern metropolis <EVENT class="OCCURRENCE" eid="e14">drenched</EVENT>.
+
+Bad weather has already <EVENT class="I_STATE" eid="e15">deprived</EVENT> Chennai of its <TIMEX3 type="DATE" value="2005-12-03" tid="t6">last</TIMEX3> three international <EVENT class="OCCURRENCE" eid="e16">matches</EVENT>.
+
+India's one-day internationals against New Zealand in <TIMEX3 type="DATE" value="2003" tid="t8">2003</TIMEX3> and South Africa <TIMEX3 type="DATE" value="2005-12-03" tid="t9">last fortnight</TIMEX3> were <EVENT class="OCCURRENCE" eid="e17">abandoned</EVENT> without a ball being <EVENT class="OCCURRENCE" eid="e18">bowled</EVENT>.
+
+The second <EVENT class="OCCURRENCE" eid="e19">Test</EVENT> against Australia in <TIMEX3 type="DATE" value="2004-10" tid="t10">October last year</TIMEX3> was <EVENT class="OCCURRENCE" eid="e20">drawn</EVENT> after the final day's play was <EVENT class="OCCURRENCE" eid="e21">washed</EVENT> out with India on the doorstep of victory.
+
+Local cricket officials, <EVENT class="I_STATE" eid="e22">fearing</EVENT> another rain-affected match, <EVENT class="I_ACTION" eid="e24">chose</EVENT> to <EVENT class="OCCURRENCE" eid="e25">sell</EVENT> only daily tickets for the Sri Lanka Test.
+
+The three-Test series is Sri Lanka's first on Indian soil in <TIMEX3 type="DURATION" value="P8Y" tid="t11">eight years</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1000017" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

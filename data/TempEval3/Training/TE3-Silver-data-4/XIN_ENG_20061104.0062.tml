@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0062</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>from post</TITLE>
+
+
+<TEXT>
+
+Yong Zhansheng has been <EVENT class="OCCURRENCE" eid="e1">ousted</EVENT> from his post as deputy procurator-general of Beijing Municipal People's Procuratorate for alleged "serious irregularities" of official disciplinary codes.
+
+Yong has been <EVENT class="OCCURRENCE" eid="e2">replaced</EVENT> by another person <EVENT class="OCCURRENCE" eid="e3">identified</EVENT> as Lu Xi, <EVENT class="REPORTING" eid="e4">according</EVENT> to a <EVENT class="OCCURRENCE" eid="e5">decision</EVENT> made at the 32nd <EVENT class="OCCURRENCE" eid="e6">meeting</EVENT> of the Standing Committee of the 12th Beijing Municipal People's Congress <EVENT class="OCCURRENCE" eid="e7">held</EVENT> on <TIMEX3 type="DATE" value="2006-11-03" tid="t1">Friday</TIMEX3>.
+
+Information from the congress <EVENT class="OCCURRENCE" eid="e8">gave</EVENT> no further details about the nature of Yong's alleged breach of discipline.
+
+Yong was formerly a member of the elite Party group of the Municipal People's Procuratorate and director of the political affairs section of the procuratorate. He was <EVENT class="OCCURRENCE" eid="e9">promoted</EVENT> to the post of deputy procurator-general in <TIMEX3 type="DATE" value="2003-07" tid="t2">July 2003</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

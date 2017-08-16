@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0070</DOCID>
+
+<DCT>COLOMBO, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Voting underway in Sri Lanka, turnout rates mixed</TITLE>
+
+
+<TEXT>
+
+Sri Lanka's presidential election <TIMEX3 type="DATE" value="2005-11-17" tid="t1">Thursday</TIMEX3> was <EVENT class="OCCURRENCE" eid="e1">marked</EVENT> by low polling in the Tamil minority north and eastern areas while high and brisk <EVENT class="OCCURRENCE" eid="e2">voting</EVENT> was <EVENT class="I_ACTION" eid="e3">recorded</EVENT> in the Sinhala majority <EVENT class="OCCURRENCE" eid="e4">dominated</EVENT> south, election officials and polls monitors <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+After <TIMEX3 type="DURATION" value="PT5H" tid="t2">five hours</TIMEX3> of voting, only 516 people had <EVENT class="OCCURRENCE" eid="e6">voted</EVENT> in the northern capital of Jaffna. The city was <EVENT class="PERCEPTION" eid="e7">observing</EVENT> a protest <EVENT class="OCCURRENCE" eid="e8">shutdown</EVENT> with less people <EVENT class="PERCEPTION" eid="e9">seen</EVENT> on the streets.
+
+There was no polling in the Tamil Tiger held areas with not a single voter <EVENT class="OCCURRENCE" eid="e11">turning</EVENT> out to <EVENT class="OCCURRENCE" eid="e12">vote</EVENT> in the polling stations, polls monitors <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The Liberation Tigers of Tamil Eelam (LTTE) <EVENT class="I_ACTION" eid="e14">urged</EVENT> the Tamil minority to <EVENT class="OCCURRENCE" eid="e15">stay</EVENT> away from the poll, <EVENT class="REPORTING" eid="e16">claiming</EVENT> that they had no faith in both leading candidates, the incumbent Prime Minister Mahinda Rajapakse and the opposition leader Ranil Wickremesinghe.
+
+In the eastern province, the polling has been good in the Muslim <EVENT class="OCCURRENCE" eid="e18">dominated</EVENT> pockets while the Tamil community was <EVENT class="I_ACTION" eid="e19">showing</EVENT> less enthusiasm, officials <EVENT class="OCCURRENCE" eid="e20">added</EVENT>.
+
+Two more <EVENT class="OCCURRENCE" eid="e21">explosions</EVENT> <EVENT class="OCCURRENCE" eid="e22">rocked</EVENT> the polling stations in the eastern Batticaloa town following two <EVENT class="OCCURRENCE" eid="e23">explosions</EVENT> on <TIMEX3 type="DATE" value="2005-11-16TNI" tid="t3">Wednesday night</TIMEX3>, police <EVENT class="REPORTING" eid="e24">said</EVENT>. At least two policemen were <EVENT class="OCCURRENCE" eid="e25">injured</EVENT> in the <EVENT class="OCCURRENCE" eid="e26">attacks</EVENT>.
+
+In the Muslim <EVENT class="OCCURRENCE" eid="e27">dominated</EVENT> town of Kalmunai, the opposition parties <EVENT class="I_ACTION" eid="e28">complained</EVENT> of intimidation of voters.
+
+In the rest of the country, in areas <EVENT class="OCCURRENCE" eid="e29">dominated</EVENT> by the Sinhala majority, over 50 percent polling had <EVENT class="OCCURRENCE" eid="e30">taken</EVENT> place on average by noon.
+
+Over 13.3 million Sri Lankans were <EVENT class="STATE" eid="e31">eligible</EVENT> to <EVENT class="OCCURRENCE" eid="e32">vote</EVENT> in the <EVENT class="OCCURRENCE" eid="e33">election</EVENT> to <EVENT class="OCCURRENCE" eid="e34">appoint</EVENT> a President for a six-year term.
+
+And 10,486 polling stations are open throughout the island from 07:00 to 16:00 local time (0100 to 1000 GMT).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="IAFTER" />
+<TLINK lid="l19" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

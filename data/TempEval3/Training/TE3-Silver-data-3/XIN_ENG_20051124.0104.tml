@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0104</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Taiwan share prices close down 0.19 percent -- Nov. 24</TITLE>
+
+
+<TEXT>
+
+Taiwan share prices <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> down 0.19 percent with a thicker traded volume on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>, <EVENT class="REPORTING" eid="e2">according</EVENT> to sources <EVENT class="OCCURRENCE" eid="e3">reaching</EVENT> here from Taipei.
+
+The weighted index, a key barometer of Taiwan Stock Exchange, <EVENT class="OCCURRENCE" eid="e4">went</EVENT> down 11.63 points to <EVENT class="OCCURRENCE" eid="e5">close</EVENT> at 6,111.89.
+
+The bourse <EVENT class="OCCURRENCE" eid="e6">opened</EVENT> at 6,122.97 and <EVENT class="OCCURRENCE" eid="e7">fluctuated</EVENT> between <TIMEX3 type="DATE" value="2005-11-24" tid="t2">6,143.87</TIMEX3> and <TIMEX3 type="DATE" value="2005-11-24" tid="t3">6,104.11</TIMEX3> during trading.
+
+A total of 3.19 billion shares <EVENT class="OCCURRENCE" eid="e9">changed</EVENT> hands on a market turnover of 77.84 billion new Taiwan dollars (2.33 billion US dollars), up from <TIMEX3 type="DATE" value="2005-11-23" tid="t4">Wednesday</TIMEX3>'s turnover of 77.48 billion new Taiwan dollars (2.31 billion US dollars).
+
+Three of the eight major stock categories <EVENT class="OCCURRENCE" eid="e10">gained</EVENT> ground, with textile stocks <EVENT class="OCCURRENCE" eid="e11">moving</EVENT> up at 1.5 percent and machinery and electronics shares and construction issues both gaining 0.1 percent.
+
+The other five major stock categories <EVENT class="OCCURRENCE" eid="e13">lost</EVENT> ground, with banking and financial shares <EVENT class="OCCURRENCE" eid="e14">moving</EVENT> down the most at 1.1 percent, followed by plastics and chemicals shares and paper and pulp issues both at 0.4 percent, and cement stocks and foodstuff issues both at 0.1 percent.
+
+Gainers <EVENT class="OCCURRENCE" eid="e16">outnumbered</EVENT> losers 509 to 444, with 236 stocks remaining unchanged.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei1000007" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1000007" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

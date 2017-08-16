@@ -1,0 +1,15 @@
+train:
+  - corpus_type: TIMEML
+    dir: timeml_debug
+test:
+  - corpus_type: TIMEML
+    dir: timeml_debug
+cv_folds: 10
+dataset_dir: data/
+output_dir: output/
+corrections_dir: corrections/
+model_dir: models/
+corrections_file: data/corrections.csv
+use_context: true
+gold_mentions: false
+use_dct_as_data: false

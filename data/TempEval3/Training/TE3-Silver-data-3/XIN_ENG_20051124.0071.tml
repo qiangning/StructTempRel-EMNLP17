@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0071</DOCID>
+
+<DCT>DAR ES SALAAM, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tanzanian electoral body removes 10,000 voters from register</TITLE>
+
+
+<TEXT>
+
+Tanzania's National Electoral Commission has <EVENT class="OCCURRENCE" eid="e1">removed</EVENT> more than 10,000 people from the country's permanent voters <EVENT class="OCCURRENCE" eid="e2">register</EVENT>.
+
+These people therefore will not be <EVENT class="STATE" eid="e3">eligible</EVENT> for the country's general <EVENT class="OCCURRENCE" eid="e4">elections</EVENT> <EVENT class="OCCURRENCE" eid="e5">slated</EVENT> for <TIMEX3 type="DATE" value="2005-11-24" tid="t1">December 14 this year</TIMEX3>.
+
+Sisti Cariah, IT manager of the electoral body, <EVENT class="REPORTING" eid="e6">told</EVENT> local media that some of these people were either under-age or not bona fide citizens while others had either <EVENT class="OCCURRENCE" eid="e7">passed</EVENT> away or were in prison.
+
+The National Electoral Commission <EVENT class="OCCURRENCE" eid="e8">removed</EVENT> these people after a general review and the electoral body <EVENT class="I_ACTION" eid="e10">promised</EVENT> to <EVENT class="OCCURRENCE" eid="e11">accept</EVENT> some 4, 000 of-age voters who were not <EVENT class="STATE" eid="e12">eligible</EVENT> for the general <EVENT class="OCCURRENCE" eid="e13">elections</EVENT> originally <EVENT class="OCCURRENCE" eid="e14">scheduled</EVENT> for <TIMEX3 type="DATE" value="2005-10-30" tid="t2">October 30</TIMEX3>.
+
+<TIMEX3 type="DATE" value="2005" tid="t3">This year</TIMEX3>'s general <EVENT class="OCCURRENCE" eid="e15">elections</EVENT>, the third multi-party polls in the country since <TIMEX3 type="DATE" value="1995" tid="t4">1995</TIMEX3>, will be <EVENT class="OCCURRENCE" eid="e16">held</EVENT> on <TIMEX3 type="DATE" value="2005-12-14" tid="t5">December 14</TIMEX3> which is already <EVENT class="OCCURRENCE" eid="e17">rendered</EVENT> a public holiday through a special presidential decree to <EVENT class="I_STATE" eid="e19">facilitate</EVENT> voting.
+
+The general <EVENT class="OCCURRENCE" eid="e21">elections</EVENT> had to be <EVENT class="OCCURRENCE" eid="e22">postponed</EVENT> in the wake of the <EVENT class="OCCURRENCE" eid="e23">death</EVENT> of a presidential running mate from the Chama Cha Demokrasia na Maendeleo (CHADEMA) party on <TIMEX3 type="DATE" value="2005-10-26" tid="t6">October 26</TIMEX3>.
+
+The CHADEMA presidential running mate, Jumbe Rajab Jumbe, <EVENT class="OCCURRENCE" eid="e24">died</EVENT> of heart <EVENT class="OCCURRENCE" eid="e25">attack</EVENT> on <TIMEX3 type="DATE" value="2005-10-26" tid="t7">October 26</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000015" eventID="e15" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei1000015" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1000015" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970427.0165</DOCID>
+
+<DCT>LOS ANGELES, <TIMEX3 tid="t0" type="TIME" value="1997-04-27" temporalFunction="false" functionInDocument="CREATION_TIME">April 27 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Second moderate quakes rattle Los Angeles area</TITLE>
+
+
+<TEXT>
+
+A moderate earthquake <EVENT class="OCCURRENCE" eid="e1">rattled</EVENT> Los Angeles <TIMEX3 type="DATE" value="1997-04-27" tid="t1">early Sunday</TIMEX3> for <TIMEX3 type="DATE" value="P02:00D" tid="t2">the second day</TIMEX3> in a row, <EVENT class="OCCURRENCE" eid="e2">spiking</EVENT> at 4.9 on the open-ended Richter scale, a spokeswoman with the US Geological Survey <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+There were no immediate reports of damage.
+
+Pat Jurgenson <EVENT class="REPORTING" eid="e4">said</EVENT> the quake <EVENT class="OCCURRENCE" eid="e5">hit</EVENT> at <TIMEX3 type="TIME" value="1997-04-27" tid="t3">4:09 a.m.</TIMEX3> (1109 GMT) with the center at Val Verde about 48 kilometers (30 miles) northwest of Los Angeles.
+
+She <EVENT class="REPORTING" eid="e6">said</EVENT> it was yet another in a series of aftershocks from the <TIMEX3 type="DATE" value="1994-01" tid="t5">January 1994</TIMEX3> Northridge quake and that it would probably be <EVENT class="OCCURRENCE" eid="e7">followed</EVENT> by other minor ones through <TIMEX3 type="TIME" value="1997-04-27TMO" tid="t6">the morning</TIMEX3>.
+
+She <EVENT class="REPORTING" eid="e8">said</EVENT> they are all aftershocks of the 6.7 Northridge quake in <TIMEX3 type="DATE" value="1994-01" tid="t7">January 1994</TIMEX3> that <EVENT class="REPORTING" eid="e9">claimed</EVENT> 61 lives and <EVENT class="OCCURRENCE" eid="e10">devastated</EVENT> parts of Los Angeles.
+
+On <TIMEX3 type="DATE" value="1997-04-26" tid="t8">Saturday</TIMEX3>, the largest temblor that was <EVENT class="OCCURRENCE" eid="e11">centered</EVENT> in the same region <EVENT class="OCCURRENCE" eid="e12">hit</EVENT> 5.0 on the open-ended Richter scale. That initial quake was <EVENT class="OCCURRENCE" eid="e13">followed</EVENT> by another temblor measuring 4.0 and then several smaller ones.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1000007" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei1000007" relType="AFTER" />
+
+
+
+
+</TimeML>

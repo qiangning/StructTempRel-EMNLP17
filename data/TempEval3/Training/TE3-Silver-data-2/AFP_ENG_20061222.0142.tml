@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061222.0142</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-12-22" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 22 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Japan's Avex to invest in China's priciest film</TITLE>
+
+
+<TEXT>
+
+Japanese entertainment group Avex Group Holdings <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2006-12-22" tid="t1">Friday</TIMEX3> it will <EVENT class="OCCURRENCE" eid="e2">invest</EVENT> in John Woo's "Battle of Red Cliff," which is <EVENT class="OCCURRENCE" eid="e3">set</EVENT> to be China's most expensive ever film.
+
+Avex, a music <EVENT class="OCCURRENCE" eid="e4">label</EVENT> that has <EVENT class="OCCURRENCE" eid="e5">expanded</EVENT> its business to movies, <EVENT class="REPORTING" eid="e6">said</EVENT> it would <EVENT class="OCCURRENCE" eid="e7">invest</EVENT> 20 million dollars with China's Chengtian Entertainment International in the latest film by Woo, who <EVENT class="OCCURRENCE" eid="e8">directed</EVENT> the second "Mission Impossible" movie.
+
+"Battle of Red Cliff" will <EVENT class="OCCURRENCE" eid="e10">narrate</EVENT> the fiercest <EVENT class="OCCURRENCE" eid="e11">battle</EVENT> of the Three Kingdoms, the turbulent era in <TIMEX3 type="DATE" value="P3C" tid="t2">the third century</TIMEX3> AD that was <EVENT class="OCCURRENCE" eid="e12">turned</EVENT> into a classic of Chinese literature.
+
+At a total estimated cost of 50 million dollars, the film would be the most expensive ever <EVENT class="OCCURRENCE" eid="e13">made</EVENT> by the Chinese film industry, Avex <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+Avex, which will <EVENT class="OCCURRENCE" eid="e15">obtain</EVENT> exclusive distribution rights to the movie, <EVENT class="REPORTING" eid="e16">said</EVENT> in a statement it <EVENT class="I_STATE" eid="e17">expected</EVENT> the "Battle of Red Cliff" to be "the biggest masterpiece of Chinese film history".
+
+The state-run China Film Group would <EVENT class="OCCURRENCE" eid="e18">produce</EVENT> the <EVENT class="OCCURRENCE" eid="e19">movie</EVENT>, which would <EVENT class="ASPECTUAL" eid="e20">begin</EVENT> <EVENT class="OCCURRENCE" eid="e21">production</EVENT> in <TIMEX3 type="DATE" value="2006-SP" tid="t3">the spring</TIMEX3>, it <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+The film will <EVENT class="OCCURRENCE" eid="e23">star</EVENT> Hong Kong actors Chow Yun-Fat and Tony Leung, and South Korean actor Jeong U-Seong.
+
+Woo, 60, <EVENT class="STATE" eid="e24">became</EVENT> one of the first Asian directors to <EVENT class="OCCURRENCE" eid="e25">win</EVENT> success in Hollywood with his 1997 action film "Face/Off" <EVENT class="OCCURRENCE" eid="e26">starring</EVENT> John Travolta and Nicolas Cage.
+
+He also <EVENT class="OCCURRENCE" eid="e27">directed</EVENT> "M:I-2," the second <EVENT class="OCCURRENCE" eid="e28">film</EVENT> in the "Mission Impossible" series starring Tom Cruise.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+
+
+
+
+</TimeML>

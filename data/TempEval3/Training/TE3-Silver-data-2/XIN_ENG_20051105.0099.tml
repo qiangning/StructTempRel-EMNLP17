@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051105.0099</DOCID>
+
+<DCT>KUALA LUMPUR, <TIMEX3 tid="t0" type="TIME" value="2005-11-05" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 5 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Malaysian PM urges people to continue to help Pakistan quake victims</TITLE>
+
+
+<TEXT>
+
+Malaysian Prime Minister Abdullah Ahmad Badawi Saturday <EVENT class="I_ACTION" eid="e1">urged</EVENT> Malaysians to <EVENT class="ASPECTUAL" eid="e2">continue</EVENT> <EVENT class="OCCURRENCE" eid="e3">donating</EVENT> for the victims of the <TIMEX3 type="DATE" value="2005-10" tid="t2">October</TIMEX3> <EVENT class="OCCURRENCE" eid="e4">earthquake</EVENT> in Pakistan.
+
+The fund-raising organizers, including the media, who had <EVENT class="ASPECTUAL" eid="e5">stopped</EVENT> their collections, should <EVENT class="OCCURRENCE" eid="e6">reopen</EVENT> their funds to the public donations, he <EVENT class="REPORTING" eid="e7">told</EVENT> reporters at an "open house" <EVENT class="OCCURRENCE" eid="e8">activity</EVENT> in Kepala Batas, a town in the state of Penang.
+
+Badawi <EVENT class="OCCURRENCE" eid="e9">made</EVENT> these remarks in response to news reports that Pakistan President Pervez Musharaff was <EVENT class="OCCURRENCE" eid="e11">disappointed</EVENT> with the level of international aid to his country, where a strong earthquake <EVENT class="REPORTING" eid="e13">claimed</EVENT> lives of over 73,000 people.
+
+Musharaff had <EVENT class="REPORTING" eid="e14">said</EVENT> the aid his country <EVENT class="OCCURRENCE" eid="e15">received</EVENT> from the international community was far below that contributed to the victims of the Asian tsunami and Hurricane Katrina that <EVENT class="OCCURRENCE" eid="e17">devastated</EVENT> the gulf coast of the United States.
+
+Badawi <EVENT class="REPORTING" eid="e18">said</EVENT> Malaysia had <EVENT class="OCCURRENCE" eid="e19">offered</EVENT> significant aid to Pakistan, including medical goods, medical teams, and <EVENT class="OCCURRENCE" eid="e20">contributions</EVENT> of materials by Malaysian companies <EVENT class="OCCURRENCE" eid="e21">operating</EVENT> in Pakistan. He <EVENT class="REPORTING" eid="e22">said</EVENT> that the current international aid to Pakistan was still not enough due to the extent of the earthquake <EVENT class="OCCURRENCE" eid="e24">destruction</EVENT>.
+
+He <EVENT class="I_ACTION" eid="e25">urged</EVENT> the international community to <EVENT class="ASPECTUAL" eid="e26">continue</EVENT> <EVENT class="OCCURRENCE" eid="e27">giving</EVENT> <EVENT class="OCCURRENCE" eid="e28">assistance</EVENT> to Pakistani people to <EVENT class="OCCURRENCE" eid="e29">reduce</EVENT> their suffering.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+
+
+
+
+</TimeML>

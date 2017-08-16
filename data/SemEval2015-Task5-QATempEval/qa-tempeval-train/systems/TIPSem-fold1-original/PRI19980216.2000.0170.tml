@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>PRI19980216.2000.0170</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-02-16" temporalFunction="false" functionInDocument="CREATION_TIME">19980216</TIMEX3></DCT>
+
+<EXTRAINFO>
+PRI19980216.2000.0170 NEWS STORY
+</EXTRAINFO>
+
+
+
+<TEXT>
+The British government has formally <EVENT class="REPORTING" eid="e1">called</EVENT> for Sinn Fein, the IRA's political wing, to be <EVENT class="OCCURRENCE" eid="e2">expelled</EVENT> from the multiparty peace <EVENT class="OCCURRENCE" eid="e3">talks</EVENT> on northern Ireland. The <EVENT class="OCCURRENCE" eid="e4">move</EVENT> had been widely <EVENT class="I_STATE" eid="e5">expected</EVENT> after northern Ireland police <EVENT class="REPORTING" eid="e6">said</EVENT> they <EVENT class="I_STATE" eid="e7">believe</EVENT> the IRA was behind two <EVENT class="OCCURRENCE" eid="e9">killings</EVENT> in Belfast <TIMEX3 type="DATE" value="1998-W07" tid="t1">last week</TIMEX3>. Sinn Fein chairman Mitchell McLaughlin <EVENT class="REPORTING" eid="e10">says</EVENT> the party will <EVENT class="OCCURRENCE" eid="e11">challenge</EVENT> the <EVENT class="OCCURRENCE" eid="e12">move</EVENT> by legal means if they have to.
+
+We're going to <EVENT class="OCCURRENCE" eid="e13">fight</EVENT> it. And uh we've already <EVENT class="OCCURRENCE" eid="e14">challenged</EVENT>, very strongly, the uh the terms in which this has been <EVENT class="OCCURRENCE" eid="e15">presented</EVENT>. But we're <EVENT class="OCCURRENCE" eid="e16">challenging</EVENT> it on the ground that uh the RUC uh have <EVENT class="OCCURRENCE" eid="e17">offered</EVENT> an opinion, and this opinion is going to be <EVENT class="OCCURRENCE" eid="e18">used</EVENT> as a mechanism for <EVENT class="OCCURRENCE" eid="e19">ejecting</EVENT> us from the <EVENT class="OCCURRENCE" eid="e20">talks</EVENT>, and uh that's a very serious.
+
+Any <EVENT class="OCCURRENCE" eid="e21">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e22">expel</EVENT> Sinn Fein must be <EVENT class="I_ACTION" eid="e23">agreed</EVENT> jointly by the governments of both Britain and the Irish Republic.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t1" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei5" />
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei7" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei9" />
+<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l13" relType="SIMULTANEOUS" eventInstanceID="ei4" relatedToEventInstance="ei10" />
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei12" />
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei13" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToEventInstance="ei14" />
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l21" relType="INCLUDES" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei14" relatedToEventInstance="ei16" />
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei17" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei18" />
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei19" />
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei16" relatedToEventInstance="ei20" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l28" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei21" />
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei22" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei23" />
+</TimeML>
+

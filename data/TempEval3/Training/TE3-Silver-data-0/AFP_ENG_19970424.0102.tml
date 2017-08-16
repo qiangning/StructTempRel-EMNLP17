@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970424.0102</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="1997-04-24" temporalFunction="false" functionInDocument="CREATION_TIME">April 24 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Shanghainese develop taste for expensive imported fruits</TITLE>
+
+
+<TEXT>
+
+Shanghai's residents have <EVENT class="OCCURRENCE" eid="e1">developed</EVENT> a taste for expensive imported fruits, some as exotic as the thorny durian from Malaysia, a newspaper <EVENT class="REPORTING" eid="e2">reported</EVENT> <TIMEX3 type="DATE" value="1997-04-24" tid="t1">Thursday</TIMEX3>.
+
+The Shanghai Youth Daily <EVENT class="REPORTING" eid="e3">said</EVENT> that despite their high prices, imported fruits have <EVENT class="OCCURRENCE" eid="e4">made</EVENT> their way into the homes ordinary families, which buy them as gifts or just because they <EVENT class="I_STATE" eid="e5">like</EVENT> the taste of the exotic.
+
+Until <TIMEX3 type="DATE" value="PAST_REF" tid="t2">several years ago</TIMEX3>, Shanghai's market was <EVENT class="OCCURRENCE" eid="e6">closed</EVENT> to imported fruits but <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> shoppers can <EVENT class="OCCURRENCE" eid="e7">buy</EVENT> durians for 60 yuan (7.2 dollars) a kilogram (2.2 pounds), Thai lychees for 68 yuan a kilogram and Sunkist oranges for 12 yuan a kilogram.
+
+Some Shanghai parents <EVENT class="OCCURRENCE" eid="e8">buy</EVENT> only imported fruits for their only child while tourists from the provinces <EVENT class="I_STATE" eid="e9">consider</EVENT> imported fruits as something special to <EVENT class="OCCURRENCE" eid="e11">bring</EVENT> home from Shanghai, the report <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+Wholesalers can <EVENT class="I_ACTION" eid="e13">mark</EVENT> up the price of imported fruits 100 percent and retailers <EVENT class="OCCURRENCE" eid="e14">add</EVENT> another 20 to 50 percent, while the products <EVENT class="I_STATE" eid="e15">face</EVENT> duties of 50 percent and value added tax of 13 percent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

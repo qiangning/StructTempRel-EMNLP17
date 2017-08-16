@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0189</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-10" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 10 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Anniversary of late non-communist party leader marked</TITLE>
+
+
+<TEXT>
+
+A workshop was <EVENT class="OCCURRENCE" eid="e1">held</EVENT> at the Great Hall of the People, in central Beijing, on <TIMEX3 type="DATE" value="2006-11-10" tid="t1">Friday</TIMEX3>, to <EVENT class="OCCURRENCE" eid="e2">commemorate</EVENT> the 100th <EVENT class="OCCURRENCE" eid="e3">anniversary</EVENT> of the <EVENT class="OCCURRENCE" eid="e4">birth</EVENT> of late non-communist party leader Sun Xiaocun.
+
+Sun was vice chairman of the CPPCC National Committee and chairman of the Central Committee of the China National Democratic Construction Association, one of China's eight non-communist parties. He was also a renowned rural economist.
+
+Liu Yandong, vice chairperson of the National Committee of the Chinese People's Political Consultative Conference (CPPCC), <EVENT class="OCCURRENCE" eid="e5">called</EVENT> Sun an "outstanding patriot" and a "revolutionary intellectual who <EVENT class="OCCURRENCE" eid="e6">walked</EVENT> from the old society into New China."
+
+In her <EVENT class="OCCURRENCE" eid="e7">speech</EVENT>, Liu, who is also director of the United Front Department of the CPC Central Committee, <EVENT class="OCCURRENCE" eid="e8">praised</EVENT> Sun's <EVENT class="OCCURRENCE" eid="e9">contribution</EVENT> to the <EVENT class="OCCURRENCE" eid="e10">undertakings</EVENT> of the United Front and multiparty <EVENT class="OCCURRENCE" eid="e11">cooperation</EVENT> under CPC's leadership.
+
+Jia Qinglin, chairman of the National Committee of the Chinese People's Political Consultative Conference (CPPCC) and member of the Standing Committee of the Communist Party of China (CPC) Central Committee Political Bureau, <EVENT class="OCCURRENCE" eid="e12">attended</EVENT> the <EVENT class="OCCURRENCE" eid="e13">meeting</EVENT>.
+
+Other speakers were Zhang Rongming, Wan Guoquan, Cheng Shi'e as well as Sun's granddaughter Sun Yangsheng, and Sun Qimeng,. Also present were He Luli, Huang Mengfu, Wang Guangying, and Sun Fuling.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

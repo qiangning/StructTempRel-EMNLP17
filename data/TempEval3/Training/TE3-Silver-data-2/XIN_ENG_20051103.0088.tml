@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0088</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hong Kong shares close almost flat -- Nov. 3</TITLE>
+
+
+<TEXT>
+
+Hong Kong shares <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> almost steady <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Thursday</TIMEX3> with blue-chip Hang Seng Index <EVENT class="OCCURRENCE" eid="e2">edged</EVENT> up 4.11 points, or 0.03 percent, to 14601.59 after <EVENT class="OCCURRENCE" eid="e3">trading</EVENT> between 14546. 88 and 14649.86 during the <EVENT class="OCCURRENCE" eid="e4">session</EVENT>.
+
+Turnover <EVENT class="OCCURRENCE" eid="e5">totaled</EVENT> 14.94 billion HK dollars, little <EVENT class="OCCURRENCE" eid="e6">changed</EVENT> from 15.02 billion HK dollars <TIMEX3 type="DATE" value="2005-11-02" tid="t3">Wednesday</TIMEX3>.
+
+The HSI Property Index <EVENT class="OCCURRENCE" eid="e7">fell</EVENT> 0.4 percent <TIMEX3 type="DATE" value="2005-11-03" tid="t4">Thursday</TIMEX3> to 17,707.61. New World Development <EVENT class="OCCURRENCE" eid="e8">dropped</EVENT> 1 percent to 9.65 HK dollars, Cheung Kong <EVENT class="OCCURRENCE" eid="e9">fell</EVENT> 0.5 percent to 81.75 HK dollars and Sino Land <EVENT class="OCCURRENCE" eid="e10">slipped</EVENT> 1. 2 percent to 8.60 HK dollars.
+
+In contrast, HSBC <EVENT class="OCCURRENCE" eid="e11">gained</EVENT> 0.2 percent to 122.40 HK dollars and Hang Seng Bank <EVENT class="OCCURRENCE" eid="e12">rose</EVENT> 0.3 percent to 101.70 HK dollars,
+
+PC maker Lenovo was the day's biggest blue-chip decliner, <EVENT class="OCCURRENCE" eid="e13">slumping</EVENT> 4.9 percent to 3.40 HK dollars on profit-taking and disappointment after the company <EVENT class="REPORTING" eid="e14">said</EVENT> earlier <TIMEX3 type="DATE" value="2005-W44" tid="t5">this week</TIMEX3> its gross margins <EVENT class="OCCURRENCE" eid="e15">declined</EVENT> in its <TIMEX3 type="DATE" value="2005-11-03T02:00" tid="t6">fiscal second quarter</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

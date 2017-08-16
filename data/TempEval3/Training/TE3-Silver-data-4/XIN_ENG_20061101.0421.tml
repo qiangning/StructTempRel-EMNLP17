@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0421</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2006-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>3.6 pct of Vietnam population have diabetes</TITLE>
+
+
+<TEXT>
+
+More than three million Vietnamese people, or over 3.6 percent of the country's population, <EVENT class="OCCURRENCE" eid="e1">suffer</EVENT> from diabetes, according to local newspaper Pioneer on <TIMEX3 type="DATE" value="2006-11-09" tid="t1">Thursday</TIMEX3>.
+
+Millions of other local people <EVENT class="I_STATE" eid="e3">face</EVENT> the risk of <EVENT class="OCCURRENCE" eid="e4">contracting</EVENT> the disease, the paper <EVENT class="OCCURRENCE" eid="e6">quoted</EVENT> reports at a seminar <EVENT class="OCCURRENCE" eid="e7">held</EVENT> by the Vietnam Diabetes and Endocrine Association as <EVENT class="REPORTING" eid="e8">saying</EVENT> on <TIMEX3 type="DATE" value="2006-11-08" tid="t2">Wednesday</TIMEX3>.
+
+The situation <EVENT class="STATE" eid="e9">results</EVENT> from low awareness of local people on the disease, weak grassroots health networks, and <EVENT class="OCCURRENCE" eid="e11">changes</EVENT> in residents' lifestyle such as unhealthy diet, physical inactivity and obesity, <EVENT class="REPORTING" eid="e12">said</EVENT> the reports.
+
+Vietnam is <EVENT class="OCCURRENCE" eid="e13">focusing</EVENT> on <EVENT class="OCCURRENCE" eid="e14">raising</EVENT> public awareness about the danger of diabetes and ways of <EVENT class="I_ACTION" eid="e15">preventing</EVENT> it such as <EVENT class="OCCURRENCE" eid="e16">using</EVENT> appropriate diet, <EVENT class="OCCURRENCE" eid="e17">increasing</EVENT> physical activities and reducing weight, and improving diabetes diagnosis and treatment systems nationwide.
+
+The country <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">currently</TIMEX3> <EVENT class="STATE" eid="e20">has</EVENT> one hospital, five centers and five hospital faculties <EVENT class="OCCURRENCE" eid="e21">specializing</EVENT> in endocrinology, <EVENT class="REPORTING" eid="e22">said</EVENT> the report.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

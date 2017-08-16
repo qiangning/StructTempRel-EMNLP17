@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061221.0033</DOCID>
+
+<DCT>SYDNEY, <TIMEX3 tid="t0" type="TIME" value="2006-12-21" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 21 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Australian shares close down 0.43 percent on resource selling</TITLE>
+
+
+<TEXT>
+
+Australian share prices <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> down 0.43 percent <TIMEX3 type="DATE" value="2006-12-21" tid="t1">Thursday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">retreating</EVENT> from <TIMEX3 type="DATE" value="2006-12-27" tid="t2">Wednesday</TIMEX3>'s record highs as investors <EVENT class="OCCURRENCE" eid="e3">sold</EVENT> resource stocks after metal prices <EVENT class="OCCURRENCE" eid="e4">fell</EVENT> in overnight trading, dealers <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+They <EVENT class="REPORTING" eid="e6">said</EVENT> profit <EVENT class="OCCURRENCE" eid="e7">taking</EVENT> also <EVENT class="STATE" eid="e8">weighed</EVENT> on the local market while rises in banking stocks <EVENT class="OCCURRENCE" eid="e10">provided</EVENT> support.
+
+The benchmark SP/ASX 200 <EVENT class="OCCURRENCE" eid="e11">fell</EVENT> 24.3 points to 5,583.5 from <TIMEX3 type="DATE" value="2006-12-20" tid="t3">yesterday</TIMEX3>'s record high of 5,607.8, while the broader All Ordinaries Index <EVENT class="OCCURRENCE" eid="e12">shed</EVENT> 25.2 points to 5,561.7, from <TIMEX3 type="DATE" value="2006-12-20" tid="t4">Wednesday</TIMEX3>'s record high of 5,586.9.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

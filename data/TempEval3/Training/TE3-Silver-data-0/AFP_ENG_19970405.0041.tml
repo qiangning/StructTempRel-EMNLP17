@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970405.0041</DOCID>
+
+<DCT>SEOUL, <TIMEX3 tid="t0" type="TIME" value="1997-04-05" temporalFunction="false" functionInDocument="CREATION_TIME">April 5 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>SKorean stocks expected to fare well in week ahead</TITLE>
+
+
+<TEXT>
+
+South Korean stocks are <EVENT class="I_STATE" eid="e1">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e2">fare</EVENT> well in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t1">the near term</TIMEX3> after <EVENT class="OCCURRENCE" eid="e3">rising</EVENT> 3.0 percent over the past week amid expectations that an economic <EVENT class="OCCURRENCE" eid="e4">downturn</EVENT> has <EVENT class="OCCURRENCE" eid="e5">bottomed</EVENT> out, brokers <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+"We are likely to <EVENT class="PERCEPTION" eid="e7">see</EVENT> a strong market for <TIMEX3 type="DATE" value="1997-04" tid="t3">this month</TIMEX3>," <EVENT class="OCCURRENCE" eid="e8">providing</EVENT> there are no unexpected outside developments, <EVENT class="REPORTING" eid="e10">said</EVENT> a broker at Shinyoung Securities here on the last trading day <TIMEX3 type="DATE" value="1997-04-04" tid="t4">Friday</TIMEX3>.
+
+The Korea Stock Exchange's composite index <EVENT class="OCCURRENCE" eid="e11">rose</EVENT> 20.23 points to 687.42 points over the week before <EVENT class="OCCURRENCE" eid="e12">closing</EVENT> for a holiday <TIMEX3 type="DATE" value="1997-04-12" tid="t6">Saturday</TIMEX3>.
+
+Shares <EVENT class="OCCURRENCE" eid="e13">rallied</EVENT> 1.5 percent <TIMEX3 type="DATE" value="1997-03-31" tid="t7">Monday</TIMEX3> after the government <EVENT class="REPORTING" eid="e14">announced</EVENT> <EVENT class="I_STATE" eid="e15">plans</EVENT> to <EVENT class="OCCURRENCE" eid="e16">bolster</EVENT> the economy and <EVENT class="OCCURRENCE" eid="e17">stabilize</EVENT> financial markets,.
+
+Dismal trade figures <EVENT class="OCCURRENCE" eid="e18">led</EVENT> to a 0.6 percent <EVENT class="OCCURRENCE" eid="e19">decline</EVENT> <TIMEX3 type="DATE" value="1997-04-01" tid="t8">Tuesday</TIMEX3> but foreign investors <EVENT class="I_ACTION" eid="e20">helped</EVENT> the market index <EVENT class="OCCURRENCE" eid="e21">climb</EVENT> 0.9 percent the following day as they <EVENT class="OCCURRENCE" eid="e22">awaited</EVENT> an <EVENT class="OCCURRENCE" eid="e23">increase</EVENT> in the foreign shareholding limit on <TIMEX3 type="DATE" value="1996-05-01" tid="t10">May 1</TIMEX3>.
+
+The market <EVENT class="OCCURRENCE" eid="e24">eased</EVENT> marginally <TIMEX3 type="DATE" value="1997-04-03" tid="t11">Thursday</TIMEX3> amid <EVENT class="OCCURRENCE" eid="e25">rumours</EVENT> about a probe into price rigging of selected stocks but it <EVENT class="OCCURRENCE" eid="e27">rebounded</EVENT> 1.3 percent <TIMEX3 type="DATE" value="1997-04-04" tid="t12">Friday</TIMEX3> as investors <EVENT class="OCCURRENCE" eid="e28">hunted</EVENT> for bargains among petrochemical and steel shares, brokers <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+<TIMEX3 type="DURATION" value="1997-04-05" tid="t13">Over week</TIMEX3>, shares in Pohang Iron and Steel <EVENT class="OCCURRENCE" eid="e30">rallied</EVENT> 5,500 won (62 US cents) to 52,300 won (5.88 dollars) and Samsung Electronics <EVENT class="OCCURRENCE" eid="e31">rose</EVENT> 2,800 won to 62,000 won.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei18" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei30" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l47" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l49" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

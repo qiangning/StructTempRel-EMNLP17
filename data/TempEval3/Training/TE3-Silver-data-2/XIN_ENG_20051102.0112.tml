@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0112</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Britons warned possible attacks in coming months</TITLE>
+
+
+<TEXT>
+
+Metropolitan Police Commissioner Ian Blair is <EVENT class="I_ACTION" eid="e1">warning</EVENT> Britons of more <EVENT class="I_ACTION" eid="e2">attempts</EVENT> to <EVENT class="OCCURRENCE" eid="e3">attack</EVENT> the country in the <TIMEX3 type="DATE" value="FUTURE_REF" tid="t1">coming months</TIMEX3>.
+
+The police chief of Britain <EVENT class="REPORTING" eid="e4">said</EVENT> of the threat as he <EVENT class="OCCURRENCE" eid="e6">battled</EVENT> for more powers to <EVENT class="OCCURRENCE" eid="e7">deal</EVENT> with suspected terrorists while members of parliament <EVENT class="OCCURRENCE" eid="e8">debate</EVENT> the Terrorism Bill.
+
+Blair <EVENT class="REPORTING" eid="e9">said</EVENT> in <TIMEX3 type="DATE" value="PAST_REF" tid="t2">the last few weeks</TIMEX3> the security service and his force have <EVENT class="I_ACTION" eid="e10">prevented</EVENT> <EVENT class="OCCURRENCE" eid="e11">attacks</EVENT> on Britain.
+
+"The sky is dark. Intelligence exists to <EVENT class="REPORTING" eid="e13">suggest</EVENT> that other groups will <EVENT class="I_ACTION" eid="e14">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e15">attack</EVENT> Britain in the <TIMEX3 type="DATE" value="FUTURE_REF" tid="t3">coming months</TIMEX3>," he was <EVENT class="OCCURRENCE" eid="e16">quoted</EVENT> by Sky news on <TIMEX3 type="DATE" value="2005-11-02" tid="t4">Wednesday</TIMEX3>.
+
+Ian <EVENT class="REPORTING" eid="e17">said</EVENT> police chiefs are <EVENT class="OCCURRENCE" eid="e18">united</EVENT> in their support of the 90-day detention <EVENT class="OCCURRENCE" eid="e19">proposal</EVENT> which has been highly controversial in the new Terrorism Bill.
+
+Opponents are <EVENT class="OCCURRENCE" eid="e20">lobbying</EVENT> for ministers to <EVENT class="OCCURRENCE" eid="e21">drop</EVENT> plans to <EVENT class="OCCURRENCE" eid="e22">allow</EVENT> police to <EVENT class="OCCURRENCE" eid="e23">hold</EVENT> terror suspects for up to 90 days without charge, <EVENT class="REPORTING" eid="e24">saying</EVENT> the Bill contains "sweeping and vague provisions that <EVENT class="OCCURRENCE" eid="e26">undermine</EVENT> the rights to freedom and expression and association."
+
+Home Secretary Charles Clarke, a staunch supporter of the 90-day proposal, has been <EVENT class="OCCURRENCE" eid="e27">pressurized</EVENT> to <EVENT class="OCCURRENCE" eid="e28">compromise</EVENT>, <EVENT class="REPORTING" eid="e29">saying</EVENT> he is <EVENT class="I_STATE" eid="e30">prepared</EVENT> to be "flexible".
+
+However, he <EVENT class="I_ACTION" eid="e31">warns</EVENT> that the government cannot <EVENT class="OCCURRENCE" eid="e32">fight</EVENT> terrorism with "one legal hand <EVENT class="OCCURRENCE" eid="e33">tied</EVENT> behind our back."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

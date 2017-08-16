@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0228</DOCID>
+
+<DCT>LUANDA, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Portuguese-speaking countries discuss political tensions in Guinea-Bissau</TITLE>
+
+
+<TEXT>
+
+Presidents of five Portuguese- speaking countries have <EVENT class="OCCURRENCE" eid="e1">held</EVENT> <EVENT class="OCCURRENCE" eid="e2">discussions</EVENT> in the Angolan capital on the simmering political tensions in Guinea-Bissau.
+
+The <EVENT class="OCCURRENCE" eid="e4">meeting</EVENT> <EVENT class="OCCURRENCE" eid="e5">took</EVENT> place <TIMEX3 type="DATE" value="2005-11-10TNI" tid="t1">Thursday night</TIMEX3> on the sidelines of <EVENT class="OCCURRENCE" eid="e6">celebrations</EVENT> <EVENT class="OCCURRENCE" eid="e7">marking</EVENT> the 30th <EVENT class="OCCURRENCE" eid="e8">anniversary</EVENT> of Angola's independence from Portugal on <TIMEX3 type="DATE" value="2005-11-18" tid="t2">Friday</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e9">According</EVENT> to reports <EVENT class="OCCURRENCE" eid="e10">quoting</EVENT> diplomatic sources, the unscheduled gathering lasting more than one hour <EVENT class="OCCURRENCE" eid="e12">focused</EVENT> on issues related to the consolidation of democracy and economic <EVENT class="OCCURRENCE" eid="e13">development</EVENT> in Guinea-Bissau.
+
+Besides Guinea-Bissau's newly elected president, Joao Bernardo "Nino'' Vieira, other participants were Presidents Jorge Sampaio of Portugal, Jose Eduardo dos Santos of Angola, Pedro Pires of Cape Verde and Fradique de Menezes of Sao Tome and Principe.
+
+Representatives of the Brazilian, Mozambican and East Timorese presidents, who are not <EVENT class="OCCURRENCE" eid="e15">attending</EVENT> the Angolan festivities, also <EVENT class="OCCURRENCE" eid="e16">took</EVENT> part in the <EVENT class="OCCURRENCE" eid="e17">talks</EVENT> that <EVENT class="ASPECTUAL" eid="e18">ended</EVENT> without any public statement.
+
+The eight nations <EVENT class="OCCURRENCE" eid="e20">make</EVENT> up the Community of Portuguese-speaking Countries that is <EVENT class="OCCURRENCE" eid="e21">headquartered</EVENT> in Lisbon.
+
+Meanwhile in Bissau, the African Party for the Independence of Guinea and Cape Verde (PAIGC) which Vieira <EVENT class="OCCURRENCE" eid="e22">dismissed</EVENT> from government on <TIMEX3 type="DATE" value="2005-10-28" tid="t4">October 28</TIMEX3> <EVENT class="OCCURRENCE" eid="e23">reiterated</EVENT> its charges that the country's new government was "illegal" and "unconstitutional."
+
+The PAIGC party is loyal to former prime minister Carlos Gomes Junior, whom Vieira <EVENT class="OCCURRENCE" eid="e24">sacked</EVENT> also on <TIMEX3 type="DATE" value="2005-10-28" tid="t5">October 28</TIMEX3>.
+
+According to sources from Bissau, the PAIGC would <EVENT class="ASPECTUAL" eid="e26">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e27">challenge</EVENT> the legitimacy of the new government of Prime Minister Aristides Gomes, a PAIGC dissident who was <EVENT class="ASPECTUAL" eid="e28">suspended</EVENT> from party functions <TIMEX3 type="DATE" value="2005-05" tid="t6">last May</TIMEX3> for <EVENT class="OCCURRENCE" eid="e29">backing</EVENT> Vieira's successful presidential election <EVENT class="OCCURRENCE" eid="e30">bid</EVENT>, before the Supreme Court and in parliament.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061108.0309</DOCID>
+
+<DCT>KUWAIT CITY, <TIMEX3 tid="t0" type="TIME" value="2006-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Kuwait congratulates Margaret Chan nominated as next WHO chief</TITLE>
+
+
+<TEXT>
+
+A senior Kuwaiti official <EVENT class="OCCURRENCE" eid="e1">congratulated</EVENT> on <TIMEX3 type="DATE" value="2006-11-08" tid="t1">Wednesday</TIMEX3> the nomination of Dr. Margaret Chan, former health chief of China's Hong Kong Special Administrative Region, by the World Health Organization (WHO) as the next director-general.
+
+Dharar Abdul-Razzak Razzooqi, head of the Kuwait mission to the United Nations in Geneva, <EVENT class="REPORTING" eid="e3">told</EVENT> Kuwait News Agency (KUNA) that his country would <EVENT class="OCCURRENCE" eid="e4">support</EVENT> the <EVENT class="OCCURRENCE" eid="e5">work</EVENT> of Dr. Chan so that she could successfully <EVENT class="OCCURRENCE" eid="e6">fulfill</EVENT> her mandate.
+
+Kazem Behbehani, a senior WHO official from Kuwait, also <EVENT class="STATE" eid="e8">became</EVENT> one of the five finalists to <EVENT class="OCCURRENCE" eid="e9">run</EVENT> for the <EVENT class="OCCURRENCE" eid="e10">nomination</EVENT>, but he was <EVENT class="OCCURRENCE" eid="e11">eliminated</EVENT> in an earlier <EVENT class="OCCURRENCE" eid="e12">voting</EVENT> by the UN agency's decision-making body Executive Board.
+
+"Though Dr. Behbehani did not <EVENT class="OCCURRENCE" eid="e13">come</EVENT> out as a winner in the final race, he had <EVENT class="OCCURRENCE" eid="e15">solicited</EVENT> the support of 28 countries out of 34 when the short list was <EVENT class="I_ACTION" eid="e17">chosen</EVENT> on <TIMEX3 type="DATE" value="2006-11-06" tid="t2">Monday</TIMEX3>", Razzooqi was <EVENT class="OCCURRENCE" eid="e18">quoted</EVENT> as <EVENT class="REPORTING" eid="e19">saying</EVENT>.
+
+Margaret Chan's <EVENT class="OCCURRENCE" eid="e20">nomination</EVENT> on <TIMEX3 type="DATE" value="2006-11-08" tid="t4">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e21">came</EVENT> after four rounds of secret <EVENT class="OCCURRENCE" eid="e22">balloting</EVENT> by the UN agency's 34-nation Executive Board, during which four other heavyweight competitors were <EVENT class="OCCURRENCE" eid="e23">eliminated</EVENT>.
+
+Chan, 59, <EVENT class="OCCURRENCE" eid="e24">joined</EVENT> the WHO in <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3> and has since been the agency' s top official for pandemic influenza, as well as the assistant director-general for communicable diseases.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

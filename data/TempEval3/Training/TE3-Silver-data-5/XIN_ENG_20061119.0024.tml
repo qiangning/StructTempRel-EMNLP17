@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0024</DOCID>
+
+<DCT>MELBOURNE, Australia, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>CCTV 's advertising revenues hit new high as Olympics nears</TITLE>
+
+
+<TEXT>
+
+BEIJING, <TIMEX3 type="DATE" value="2007-11-19" tid="t1">Nov. 19</TIMEX3> (Xinhua)-- The bidding for <EVENT class="OCCURRENCE" eid="e1">advertising</EVENT> on China Central Television (CCTV) in 2007 <EVENT class="I_ACTION" eid="e2">concluded</EVENT> on <TIMEX3 type="DATE" value="2006-11-18" tid="t2">Saturday</TIMEX3> with the network's revenues <EVENT class="OCCURRENCE" eid="e3">hitting</EVENT> 6.79 billion yuan, up 16 percent over <TIMEX3 type="DATE" value="2005" tid="t3">last year</TIMEX3>.
+
+Procter &amp; Gamble, the world's consumer goods giant <EVENT class="OCCURRENCE" eid="e4">topped</EVENT> the bidding list for <TIMEX3 type="DATE" value="P4Y" tid="t4">the fourth year</TIMEX3> <EVENT class="OCCURRENCE" eid="e5">running</EVENT>, at 420 million yuan, CCTV <EVENT class="REPORTING" eid="e6">announced</EVENT>.
+
+The annual <EVENT class="OCCURRENCE" eid="e7">bidding</EVENT> has been <EVENT class="I_ACTION" eid="e8">hailed</EVENT> as the barometer of the country's economic performance.
+
+"Enterprises can <EVENT class="OCCURRENCE" eid="e9">foresee</EVENT> the economic trend in the <TIMEX3 type="DATE" value="P1Y" tid="t5">coming year</TIMEX3> from the participating brands," <EVENT class="REPORTING" eid="e11">said</EVENT> Yao Jingyuan, chief economist with the National Bureau of Statistics
+
+Olympic-related commercials <EVENT class="OCCURRENCE" eid="e12">notched</EVENT> up a combined value of 370 million yuan.
+
+"Since the Olympic Games will not <EVENT class="ASPECTUAL" eid="e13">open</EVENT> until <TIMEX3 type="DATE" value="2008" tid="t6">2008</TIMEX3>, it is imperative for enterprises to <EVENT class="OCCURRENCE" eid="e15">enhance</EVENT> their brand image in <TIMEX3 type="DATE" value="2007" tid="t8">2007</TIMEX3>," <EVENT class="REPORTING" eid="e16">said</EVENT> Zhang Weiying, professor with the Guanghua School of Management at Beijing University.
+
+Chinese banks and car manufacturers also <EVENT class="I_ACTION" eid="e17">featured</EVENT> high up on the bidding list in anticipation of fiercer competition from foreign companies <TIMEX3 type="DATE" value="2007" tid="t10">next year</TIMEX3> after the industries are <EVENT class="OCCURRENCE" eid="e18">opened</EVENT> up to overseas investors.
+
+"CCTV's advertising charges have been <EVENT class="OCCURRENCE" eid="e19">rising</EVENT> in recent <TIMEX3 tid="t11" type="DURATION" value="PXY">years as</TIMEX3> the Chinese economy <EVENT class="REPORTING" eid="e20">maintains</EVENT> robust growth, <EVENT class="REPORTING" eid="e21">said</EVENT> Sun Xianhong, vice chairman of Meng Niu Dairy, also a competitive bidder
+
+"Enterprises are <EVENT class="OCCURRENCE" eid="e22">devoting</EVENT> more attention to advertising, with long-term effects <EVENT class="I_ACTION" eid="e23">influencing</EVENT> their decision-making," he <EVENT class="OCCURRENCE" eid="e24">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei19" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei17" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei9" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

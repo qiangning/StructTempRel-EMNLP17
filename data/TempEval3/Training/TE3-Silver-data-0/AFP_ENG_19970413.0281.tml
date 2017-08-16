@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970413.0281</DOCID>
+
+<DCT>ISLAMABAD, <TIMEX3 tid="t0" type="TIME" value="1997-04-13" temporalFunction="false" functionInDocument="CREATION_TIME">April 13 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Pakistan dismisses Indian alarm over situation along Kashmir border (bon pour tous)</TITLE>
+
+
+<TEXT>
+
+Pakistan's defence ministry <TIMEX3 type="DATE" value="1997-04-20" tid="t1">Sunday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">dismissed</EVENT> Indian reports of an alarming <EVENT class="OCCURRENCE" eid="e2">increase</EVENT> in cross border firing in the disputed Kashmir state.
+
+"It is a ploy to <EVENT class="OCCURRENCE" eid="e5">divert</EVENT> attention" from the turbulence in Indian-held Kashmir, a ministry official <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+"There is no unusual situation" as skirmishes have routinely occurred along the Line of Control dividing Pakistani- and Indian-held sections of the disputed Himalayan state, the defence ministry sources <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+Pakistan controls the northern third of Kashmir while the rest is <EVENT class="OCCURRENCE" eid="e11">administered</EVENT> by New Delhi.
+
+Officials in Jammu, the winter capital of the Indian held part of the state, earlier <EVENT class="REPORTING" eid="e13">said</EVENT> Indian troops were <EVENT class="OCCURRENCE" eid="e14">placed</EVENT> on high alert along the Kashmir frontier as they <EVENT class="OCCURRENCE" eid="e15">traded</EVENT> <EVENT class="OCCURRENCE" eid="e16">fire</EVENT> with Pakistani forces for <TIMEX3 type="DATE" value="1997-04-13" tid="t2">the fourth successive day Sunday</TIMEX3>.
+
+One official <EVENT class="I_ACTION" eid="e17">alleged</EVENT> that Pakistani troops "<EVENT class="OCCURRENCE" eid="e18">using</EVENT> heavy artillery <EVENT class="OCCURRENCE" eid="e19">stepped</EVENT> up <EVENT class="OCCURRENCE" eid="e20">attacks</EVENT> on Indian villages near the Kargil sector."
+
+"We have <EVENT class="OCCURRENCE" eid="e21">retaliated</EVENT>. No one was <EVENT class="OCCURRENCE" eid="e22">injured</EVENT> (Sunday)," he <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+Two Indians, including a child, were <EVENT class="REPORTING" eid="e24">reported</EVENT> <EVENT class="OCCURRENCE" eid="e25">killed</EVENT> and eight others <EVENT class="OCCURRENCE" eid="e26">injured</EVENT> <TIMEX3 type="DATE" value="1997-04-12" tid="t4">Saturday</TIMEX3> in the <EVENT class="OCCURRENCE" eid="e27">shooting</EVENT> between the two sides.
+
+India and Pakistan <EVENT class="OCCURRENCE" eid="e28">dispute</EVENT> the ownership of the state. The two countries have <EVENT class="OCCURRENCE" eid="e29">fought</EVENT> two of their three wars over Kashmir.
+
+A Kashmiri separatist <EVENT class="OCCURRENCE" eid="e30">movement</EVENT> in Indian-held territory has <EVENT class="REPORTING" eid="e31">claimed</EVENT> some 20,000 lives since <TIMEX3 type="DATE" value="1989" tid="t5">1989</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei26" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="IAFTER" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+
+
+
+
+</TimeML>

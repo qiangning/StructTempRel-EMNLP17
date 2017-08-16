@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970430.0520</DOCID>
+
+<DCT>BUJUMBURA, <TIMEX3 tid="t0" type="TIME" value="1997-04-30" temporalFunction="false" functionInDocument="CREATION_TIME">April 30 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Burundian rebels 'killed seminarists': army</TITLE>
+
+
+<TEXT>
+
+Burundian Hutu rebels <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> more than 40 people during a <EVENT class="OCCURRENCE" eid="e2">raid</EVENT> on a seminary at Buta, in the south of the country, an army spokesman <EVENT class="REPORTING" eid="e3">said</EVENT> here <TIMEX3 type="DATE" value="1997-04-30" tid="t1">Wednesday</TIMEX3>.
+
+The rebels <EVENT class="OCCURRENCE" eid="e4">killed</EVENT> 34 pupils and seven lay members of the seminary in the <EVENT class="OCCURRENCE" eid="e6">attack</EVENT> <TIMEX3 type="DATE" value="1997-05-06" tid="t2">Tuesday</TIMEX3>, the spokesman <EVENT class="REPORTING" eid="e7">told</EVENT> independent Ijambo radio.
+
+Another 34 seminarists were seriously <EVENT class="OCCURRENCE" eid="e8">wounded</EVENT>, he <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The spokesman <EVENT class="REPORTING" eid="e10">said</EVENT> the Tutsi-dominated army had <EVENT class="OCCURRENCE" eid="e11">killed</EVENT> almost 300 Hutu rebels in Makamba province, in the far south, since the outbreak of <EVENT class="OCCURRENCE" eid="e12">fighting</EVENT> in the region on <TIMEX3 type="DATE" value="1997-04-04" tid="t3">April 4</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

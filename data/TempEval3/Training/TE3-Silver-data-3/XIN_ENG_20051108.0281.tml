@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0281</DOCID>
+
+<DCT>KAMPALA, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Profile: Ramsar Award for Science receiver Cai Shuming</TITLE>
+
+
+<TEXT>
+
+Cai Shuming from China <EVENT class="OCCURRENCE" eid="e1">received</EVENT> on <TIMEX3 type="DATE" value="2005-11-08" tid="t1">Tuesday</TIMEX3> the Ramsar Wetland Conservation Award for Science at the ninth <EVENT class="OCCURRENCE" eid="e2">meeting</EVENT> of the <EVENT class="OCCURRENCE" eid="e3">conference</EVENT> of the contracting parties on wetland (COP9) in Kampala, capital of Uganda.
+
+Cai, from the Chinese Academy of Science, is being <EVENT class="OCCURRENCE" eid="e4">recognized</EVENT> for his research studies on the Yangtze River, as well as for his in-depth <EVENT class="OCCURRENCE" eid="e5">research</EVENT> on the effects of the Three-Gorges dam project on the environment, and the assessment and mitigation of natural disasters (e.g. flood and water <EVENT class="OCCURRENCE" eid="e6">logging</EVENT> in the middle <EVENT class="I_STATE" eid="e7">reaches</EVENT> of the Yangtze River.)
+
+When <EVENT class="I_ACTION" eid="e8">asked</EVENT> about the importance of the Yangtze River, Cai <EVENT class="REPORTING" eid="e9">said</EVENT> that "the (Yangtze) River is the most important water resources of China and its runoff accounts for 35 percent of the whole water amount in China."
+
+Since <TIMEX3 type="DATE" value="196" tid="t2">the 1960s</TIMEX3>, Cai has been mainly <EVENT class="OCCURRENCE" eid="e10">engaged</EVENT> in the <EVENT class="OCCURRENCE" eid="e11">study</EVENT> of limnology in the Yangtze River valley, wetlands ecology, use and <EVENT class="OCCURRENCE" eid="e12">conservation</EVENT> of natural resources and the overall <EVENT class="OCCURRENCE" eid="e13">development</EVENT> of regional agriculture.
+
+A respected figure and twice a member of the Chinese People's Political Consultative Congress, Cai has <EVENT class="OCCURRENCE" eid="e15">used</EVENT> his scientific <EVENT class="OCCURRENCE" eid="e16">achievements</EVENT> to <EVENT class="OCCURRENCE" eid="e17">reach</EVENT> practical results for wetland conservation, <EVENT class="OCCURRENCE" eid="e18">defending</EVENT> the idea that "wetlands are closely <EVENT class="OCCURRENCE" eid="e19">linked</EVENT> to human survival and development."
+
+Cai also <EVENT class="OCCURRENCE" eid="e21">stressed</EVENT> the importance of wetlands for sustainable economic development and human well-being, especially in their function as the "kidneys of nature."
+
+With more than 120 publications, Cai's <EVENT class="OCCURRENCE" eid="e22">work</EVENT> has <EVENT class="OCCURRENCE" eid="e23">provided</EVENT> a basis for the formulation of laws, regulations and management policies in China, as well as contributing to international projects in cooperation with Japan, the United States and Britain.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0073</DOCID>
+
+<DCT>VLORE, Albania, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Italians dock at rebel held port in southern Albania</TITLE>
+
+
+<TEXT>
+
+Italian forces from the multinational protection force for lawless Albania <EVENT class="I_STATE" eid="e1">prepared</EVENT> to dock at the rebel-held port of Vlore early <TIMEX3 type="DATE" value="1997-04-21" tid="t1">Monday</TIMEX3>, witnesses <EVENT class="REPORTING" eid="e2">said</EVENT>.
+
+The boats <EVENT class="OCCURRENCE" eid="e3">arrived</EVENT> off-shore around dawn and were <EVENT class="OCCURRENCE" eid="e4">sitting</EVENT> several hundred meters (yards) from the quayside where the troops and their equipment will <EVENT class="OCCURRENCE" eid="e5">unload</EVENT>. There were two vessels, an amphibious craft, the San Giusto (eds: correct) and the Vitorio Veneto.
+
+When the troops <EVENT class="OCCURRENCE" eid="e7">unload</EVENT> they will be the first to <EVENT class="OCCURRENCE" eid="e8">deploy</EVENT> in a rebel- <EVENT class="OCCURRENCE" eid="e9">held</EVENT> area of the country which has been <EVENT class="OCCURRENCE" eid="e10">gripped</EVENT> by lawlessness and <EVENT class="OCCURRENCE" eid="e11">banditry</EVENT> for <TIMEX3 type="DURATION" value="P2M" tid="t2">nearly two months</TIMEX3>.
+
+Italy <EVENT class="I_ACTION" eid="e12">leads</EVENT> the 6,000-strong force, half of which has already been <EVENT class="OCCURRENCE" eid="e14">deployed</EVENT> in the country. Additional Italian troops and a Greek force of some 130 men and equipment are due to <EVENT class="OCCURRENCE" eid="e15">meet</EVENT> up with the soldiers aboard the ships later <TIMEX3 type="DATE" value="1997-04-28" tid="t3">Monday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="IAFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

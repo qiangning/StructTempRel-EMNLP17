@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061221.0341</DOCID>
+
+<DCT>KHARTOUM, <TIMEX3 tid="t0" type="TIME" value="2006-12-21" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 21 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>200 Darfur rebels killed in fresh attack: Sudan army</TITLE>
+
+
+<TEXT>
+
+The Sudanese army <EVENT class="REPORTING" eid="e1">said</EVENT> <TIMEX3 type="DATE" value="2006-12-21" tid="t1">Thursday</TIMEX3> it had <EVENT class="OCCURRENCE" eid="e2">killed</EVENT> 200 rebels and <EVENT class="OCCURRENCE" eid="e3">lost</EVENT> four of its own men while <EVENT class="OCCURRENCE" eid="e4">repelling</EVENT> an <EVENT class="OCCURRENCE" eid="e5">attack</EVENT> in the war-torn western region of Darfur.
+
+In a statement <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> by the state-run SUNA news agency, the army also <EVENT class="REPORTING" eid="e8">said</EVENT> that 20 of its troops were <EVENT class="OCCURRENCE" eid="e9">wounded</EVENT> during the <EVENT class="OCCURRENCE" eid="e10">fighting</EVENT>, which <EVENT class="OCCURRENCE" eid="e11">took</EVENT> place in northern Darfur on <TIMEX3 type="DATE" value="2006-12-20" tid="t2">Wednesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

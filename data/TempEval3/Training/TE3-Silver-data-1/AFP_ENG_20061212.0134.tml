@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061212.0134</DOCID>
+
+<DCT>DOHA, <TIMEX3 tid="t0" type="TIME" value="2006-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - REFILES to fix typo in headline ///</TITLE>
+
+
+<TEXT>
+
+China's Olympic diving champion Guo Jingjing was <EVENT class="OCCURRENCE" eid="e1">revelling</EVENT> <TIMEX3 type="DATE" value="2006-12-19" tid="t1">Tuesday</TIMEX3> in <EVENT class="OCCURRENCE" eid="e2">becoming</EVENT> the most successful female diver in Asian Games history.
+
+Guo, who has already <EVENT class="REPORTING" eid="e3">announced</EVENT> she will <EVENT class="OCCURRENCE" eid="e4">retire</EVENT> after the Beijing Olympics, <EVENT class="OCCURRENCE" eid="e5">took</EVENT> the women's 3-metre synchronized springboard title here with Li Ting to <EVENT class="OCCURRENCE" eid="e6">add</EVENT> to the three golds from previous Asian Games.
+
+"I have never <EVENT class="I_STATE" eid="e7">thought</EVENT> about <EVENT class="OCCURRENCE" eid="e8">beating</EVENT> any record," <EVENT class="REPORTING" eid="e9">said</EVENT> the 25-year-old, who is the <EVENT class="OCCURRENCE" eid="e10">reigning</EVENT> Olympic champion in the 3m springboard and 3m synchronised springboard and a multiple world champion.
+
+"The Asian Games means a lot to me."
+
+But Guo, whose private life has <EVENT class="OCCURRENCE" eid="e12">caused</EVENT> as much of a <EVENT class="OCCURRENCE" eid="e13">splash</EVENT> as her performances in the pool, will not <EVENT class="OCCURRENCE" eid="e14">defend</EVENT> her 3m springboard title here.
+
+"I don't <EVENT class="STATE" eid="e15">feel</EVENT> sorry for <EVENT class="OCCURRENCE" eid="e16">giving</EVENT> up a third consecutive title. I have <EVENT class="OCCURRENCE" eid="e17">competed</EVENT> a lot <TIMEX3 type="DATE" value="2006" tid="t2">this year</TIMEX3> and I <EVENT class="I_STATE" eid="e18">need</EVENT> a rest. I'd <EVENT class="I_STATE" eid="e19">like</EVENT> younger teammates to <EVENT class="STATE" eid="e20">have</EVENT> more chances," she <EVENT class="REPORTING" eid="e21">said</EVENT>.
+
+Her next goal is the world swimming championships in Melbourne in <TIMEX3 type="DATE" value="2006-03" tid="t3">March</TIMEX3>.
+
+"We have less than <TIMEX3 type="DURATION" value="P3M" tid="t4">three months</TIMEX3> to <EVENT class="OCCURRENCE" eid="e22">go</EVENT> for the worlds, I <EVENT class="I_STATE" eid="e23">hope</EVENT> to <EVENT class="OCCURRENCE" eid="e24">defend</EVENT> my titles there," she <EVENT class="REPORTING" eid="e25">said</EVENT>.
+
+The photogenic Guo <EVENT class="ASPECTUAL" eid="e26">started</EVENT> <EVENT class="OCCURRENCE" eid="e27">training</EVENT> in competitive diving at the age of seven, <EVENT class="OCCURRENCE" eid="e28">winning</EVENT> a place on the national team when she was 11, and has <EVENT class="OCCURRENCE" eid="e29">competed</EVENT> in three Olympic Games.
+
+She <EVENT class="OCCURRENCE" eid="e30">hit</EVENT> the headlines <TIMEX3 type="DATE" value="2005" tid="t5">last year</TIMEX3> when she was romantically <EVENT class="OCCURRENCE" eid="e32">linked</EVENT> with former diving team-mate Tian Liang. Tian was later <EVENT class="OCCURRENCE" eid="e33">thrown</EVENT> off the national team for <EVENT class="OCCURRENCE" eid="e34">pursuing</EVENT> too many commercial endorsements.
+
+China has <EVENT class="OCCURRENCE" eid="e35">dominated</EVENT> the diving competition in Doha, <EVENT class="OCCURRENCE" eid="e36">winning</EVENT> all four titles so far.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

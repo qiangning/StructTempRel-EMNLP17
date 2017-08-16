@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0002</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>500-km walk usher in peace in Nepal</TITLE>
+
+
+<TEXT>
+
+A total of 30 pilgrims <EVENT class="I_ACTION" eid="e1">embarked</EVENT> <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3> on a 500-km march for world peace from central to western Nepal, the leader of the pilgrims' team <EVENT class="REPORTING" eid="e2">said</EVENT> here.
+
+"The team <EVENT class="ASPECTUAL" eid="e3">began</EVENT> their <EVENT class="OCCURRENCE" eid="e4">journey</EVENT> from Namobuddha hill of Kavre district and will finally <EVENT class="I_ACTION" eid="e5">pray</EVENT> for world peace at the sacred garden of Lumbini, the birthplace of Lord Buddha, after <EVENT class="OCCURRENCE" eid="e6">walking</EVENT> for <TIMEX3 type="DURATION" value="P25D" tid="t3">25 days</TIMEX3>," Lam Ty Ni, leader of the pilgrims' team, <EVENT class="REPORTING" eid="e7">told</EVENT> reporters.
+
+The team included 15 Nepalese, 10 Vietnamese, three Indians, one Japanese and a Korean, <EVENT class="REPORTING" eid="e8">said</EVENT> Lam, who <EVENT class="OCCURRENCE" eid="e9">came</EVENT> to Lumbini in <TIMEX3 type="DATE" value="1969" tid="t4">1969</TIMEX3> in <EVENT class="OCCURRENCE" eid="e10">search</EVENT> of peace from war-torn Vietnam and <EVENT class="ASPECTUAL" eid="e11">started</EVENT> <EVENT class="OCCURRENCE" eid="e12">working</EVENT> for the <EVENT class="OCCURRENCE" eid="e13">development</EVENT> of the holy shrine.
+
+The <EVENT class="OCCURRENCE" eid="e14">pilgrimage</EVENT> has a spiritual as well as a symbolic meaning, Lam <EVENT class="REPORTING" eid="e15">noted</EVENT>, <EVENT class="OCCURRENCE" eid="e16">adding</EVENT>, "The prayer will <EVENT class="OCCURRENCE" eid="e17">lead</EVENT> to an atmosphere for peace and <EVENT class="I_STATE" eid="e18">hoped</EVENT> after <EVENT class="PERCEPTION" eid="e19">seeing</EVENT> young and old people <EVENT class="OCCURRENCE" eid="e20">walking</EVENT> for peace, the Nepali authorities will <EVENT class="STATE" eid="e21">feel</EVENT> the necessity to <EVENT class="OCCURRENCE" eid="e22">do</EVENT> something for the peace."
+
+The team includes the eldest member 62-year-old monk and the youngest 17-year-old nun, Lam <EVENT class="OCCURRENCE" eid="e23">revealed</EVENT>.
+
+"All the concerned including the political parties, the king and the anti-government guerrillas of Nepal should <EVENT class="OCCURRENCE" eid="e24">sit</EVENT> together for <EVENT class="I_ACTION" eid="e25">resolving</EVENT> the decade-long <EVENT class="OCCURRENCE" eid="e26">war</EVENT> and <EVENT class="I_ACTION" eid="e27">let</EVENT> people live in peace and happiness," he <EVENT class="OCCURRENCE" eid="e28">added</EVENT>.
+
+Over 12,000 Nepalese people have been <EVENT class="OCCURRENCE" eid="e29">killed</EVENT> since the anti- government insurgency <EVENT class="OCCURRENCE" eid="e30">took</EVENT> place in the Himalayan kingdom in <TIMEX3 type="DATE" value="1996-02" tid="t5">February 1996</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei30" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

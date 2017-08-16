@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051115.0313</DOCID>
+
+<DCT>MOSCOW, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Russia-India military ties help maintain global stability, says defense chief</TITLE>
+
+
+<TEXT>
+
+Russia-India military <EVENT class="OCCURRENCE" eid="e1">cooperation</EVENT> contributes to <EVENT class="OCCURRENCE" eid="e3">maintaining</EVENT> global stability, Russian Deputy Prime Minister and Defense Minister Sergei Ivanov <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3>.
+
+Russian-Indian military-technical cooperation "is one of the key factors in maintaining peace and stability not only in South Asia but also in the world as a whole," Ivanov <EVENT class="REPORTING" eid="e7">said</EVENT> at the <EVENT class="ASPECTUAL" eid="e8">start</EVENT> of a <EVENT class="OCCURRENCE" eid="e9">session</EVENT> of the two countries' intergovernmental commission for military-technical <EVENT class="OCCURRENCE" eid="e10">cooperation</EVENT> in Moscow.
+
+Russia is No. 1 supplier of arms to India, with about 40 percent of its arms exports <EVENT class="OCCURRENCE" eid="e11">going</EVENT> to the South Asian nation. India <EVENT class="REPORTING" eid="e12">says</EVENT> its weapons contracts with Russia have <EVENT class="OCCURRENCE" eid="e13">totaled</EVENT> 9 billion US dollars in value.
+
+In a separate <EVENT class="OCCURRENCE" eid="e14">meeting</EVENT> with Indian Defense Minister Pranab Mukerji, Ivanov <EVENT class="REPORTING" eid="e15">said</EVENT> similar stances on contemporary threats <EVENT class="OCCURRENCE" eid="e16">foster</EVENT> the <EVENT class="OCCURRENCE" eid="e17">development</EVENT> of military <EVENT class="OCCURRENCE" eid="e18">cooperation</EVENT> between the two countries.
+
+"The important thing is Russian and Indian stances on contemporary threats and challenges are similar. This is the reason behind the joint military <EVENT class="OCCURRENCE" eid="e19">maneuvers</EVENT> in <TIMEX3 type="DATE" value="2005-10" tid="t2">October</TIMEX3> on Indian territory," Ivanov <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+"The issue of terrorism is very acute <TIMEX3 type="DATE" value="2005-11-15" tid="t3">today</TIMEX3>, and many states <EVENT class="I_STATE" eid="e21">face</EVENT> the threat. Unfortunately, Russia and India are among these states," he <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+Ivanov <EVENT class="REPORTING" eid="e23">said</EVENT> earlier that India has <EVENT class="OCCURRENCE" eid="e24">voiced</EVENT> its <EVENT class="OCCURRENCE" eid="e25">intention</EVENT> to <EVENT class="OCCURRENCE" eid="e26">buy</EVENT> Tunguska rocket systems and Smerch salvo systems and <EVENT class="I_STATE" eid="e27">wanted</EVENT> its T- 72 tanks modernized.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+
+
+
+
+</TimeML>

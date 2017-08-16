@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061231.0071</DOCID>
+
+<DCT>BEIRUT, <TIMEX3 tid="t0" type="TIME" value="2006-12-31" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 31 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>France reaffirms support for Lebanon govt</TITLE>
+
+
+<TEXT>
+
+French Defence Minister Michele Alliot-Marie on <TIMEX3 type="DATE" value="2006-12-31" tid="t1">Sunday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">stressed</EVENT> Paris's support for the government of Lebanese Prime Minister Fuad Siniora during a <EVENT class="OCCURRENCE" eid="e2">visit</EVENT> to the crisis-wracked nation.
+
+"I have <EVENT class="OCCURRENCE" eid="e4">come</EVENT> to <EVENT class="OCCURRENCE" eid="e5">reaffirm</EVENT> France's support for the legitimate government of Lebanon," she <EVENT class="REPORTING" eid="e6">told</EVENT> reporters after <EVENT class="OCCURRENCE" eid="e7">meeting</EVENT> her Lebanese counterpart Elias Murr.
+
+Alliot-Marie also <EVENT class="OCCURRENCE" eid="e8">stressed</EVENT> Paris's backing for the Beirut government to "<EVENT class="OCCURRENCE" eid="e10">exercise</EVENT> its sovereignty completely", and that the Lebanese army <EVENT class="OCCURRENCE" eid="e11">play</EVENT> "a role across all its territory".
+
+Lebanon is <EVENT class="OCCURRENCE" eid="e12">undergoing</EVENT> a political <EVENT class="OCCURRENCE" eid="e13">crisis</EVENT> with opposition <EVENT class="OCCURRENCE" eid="e14">led</EVENT> by Shiite movement Hezbollah <EVENT class="I_ACTION" eid="e15">seeking</EVENT> to <EVENT class="OCCURRENCE" eid="e16">bring</EVENT> down Siniora's government and <EVENT class="OCCURRENCE" eid="e17">install</EVENT> a government of national unity.
+
+The French minister, who <EVENT class="OCCURRENCE" eid="e18">arrived</EVENT> in Beirut on <TIMEX3 type="DATE" value="2006-12-30" tid="t2">Saturday</TIMEX3> for a 48-hour <EVENT class="OCCURRENCE" eid="e19">visit</EVENT>, was also to <EVENT class="OCCURRENCE" eid="e20">meet</EVENT> Siniora before <EVENT class="OCCURRENCE" eid="e21">heading</EVENT> to south Lebanon for <TIMEX3 type="DATE" value="2006-12-31" tid="t4">New Year</TIMEX3>'s Eve with the French contingent of the United Nations Interim Force in Lebanon (UNIFIL).
+
+The French UNIFIL troops are <EVENT class="OCCURRENCE" eid="e22">stationed</EVENT> 20 kilometres (12 miles) east of the port city of Tyre, at Deir Kifa.
+
+With a 1,600-strong force of "blue helmets", France is the second largest contributor to UNIFIL, <EVENT class="OCCURRENCE" eid="e23">beefed</EVENT> up after the UN-brokered <EVENT class="STATE" eid="e24">truce</EVENT> between Lebanon and Hezbollah <EVENT class="OCCURRENCE" eid="e25">took</EVENT> effect on <TIMEX3 type="DATE" value="2006-08-14" tid="t5">August 14</TIMEX3>.
+
+France will <EVENT class="OCCURRENCE" eid="e26">transfer</EVENT> <EVENT class="OCCURRENCE" eid="e27">command</EVENT> of the 11,000-strong force to Italy, the main contributor with 2,300 soldiers, in <TIMEX3 type="SET" value="2006-12-31" tid="t6">the coming weeks</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei21" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0175</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891102-0015 = 891102 891102-0015.
+Marketing Brief -- Sony Corp.: @ Japanese Concern Completes @ Offer for Columbia Pictures 11/02/89 WALL STREET JOURNAL (J) SNE KPE GPEC WCI TL RECREATION, ENTERTAINMENT, TOYS, MOVIES, PHOTOGRAPHY, SPORTS (REC) TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED)
+</EXTRAINFO>
+
+
+
+<TEXT>
+Sony Corp. <EVENT class="ASPECTUAL" eid="e1">completed</EVENT> its tender <EVENT class="OCCURRENCE" eid="e2">offer</EVENT> for Columbia Pictures Entertainment Inc., with Columbia shareholders <EVENT class="OCCURRENCE" eid="e3">tendering</EVENT> 99.3% of all common shares outstanding by the <TIMEX3 type="DATE" value="1989-11-07" tid="t1">Tuesday</TIMEX3> deadline.
+
+Sony Columbia Acquisition Corp., <EVENT class="OCCURRENCE" eid="e4">formed</EVENT> for the Columbia deal, will formally <EVENT class="OCCURRENCE" eid="e6">take</EVENT> ownership of the movie studio <TIMEX3 type="DATE" value="1989-11-02" tid="t2">later this month</TIMEX3>, a spokesman <EVENT class="REPORTING" eid="e7">said</EVENT>. Sony is <EVENT class="OCCURRENCE" eid="e8">paying</EVENT> $27 a share, or $3.55 billion, cash and is <EVENT class="I_ACTION" eid="e9">assuming</EVENT> $1.4 billion of long-term debt.
+
+Still unresolved is Sony's <EVENT class="OCCURRENCE" eid="e11">effort</EVENT> to <EVENT class="OCCURRENCE" eid="e12">hire</EVENT> producers Jon Peters and Peter Guber to <EVENT class="OCCURRENCE" eid="e13">run</EVENT> the studio. Sony's planned <EVENT class="OCCURRENCE" eid="e15">acquisition</EVENT> of Guber/Peters Entertainment Co. for $200 million is <EVENT class="I_ACTION" eid="e16">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e17">close</EVENT> <TIMEX3 type="DATE" value="1989-10-30" tid="t3">Monday</TIMEX3>. Guber/Peters has been <EVENT class="OCCURRENCE" eid="e18">locked</EVENT> in litigation with Warner Communications Inc. in an <EVENT class="I_ACTION" eid="e20">attempt</EVENT> to <EVENT class="OCCURRENCE" eid="e21">get</EVENT> out of an exclusive production contract with Warner. Both sides are in <EVENT class="OCCURRENCE" eid="e22">talks</EVENT> to <EVENT class="OCCURRENCE" eid="e23">settle</EVENT> the <EVENT class="OCCURRENCE" eid="e24">dispute</EVENT>.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t1" />
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t2" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei7" />
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei7" />
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l10" relType="INCLUDES" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l11" relType="AFTER" eventInstanceID="ei7" relatedToEventInstance="ei8" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei8" relatedToEventInstance="ei9" />
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei8" relatedToEventInstance="ei11" />
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei12" />
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei11" relatedToEventInstance="ei13" />
+<TLINK lid="l17" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t3" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei15" />
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei16" />
+<TLINK lid="l21" relType="AFTER" eventInstanceID="ei15" relatedToEventInstance="ei17" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei15" relatedToEventInstance="ei18" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei18" relatedToEventInstance="ei20" />
+<TLINK lid="l25" relType="AFTER" eventInstanceID="ei18" relatedToEventInstance="ei21" />
+<TLINK lid="l26" relType="INCLUDES" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l27" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToEventInstance="ei22" />
+<TLINK lid="l28" relType="AFTER" eventInstanceID="ei22" relatedToEventInstance="ei23" />
+<TLINK lid="l29" relType="AFTER" eventInstanceID="ei22" relatedToEventInstance="ei24" />
+</TimeML>
+

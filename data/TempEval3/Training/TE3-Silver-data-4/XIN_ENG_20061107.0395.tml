@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0395</DOCID>
+
+<DCT>RIO DE JANEIRO, <TIMEX3 tid="t0" type="TIME" value="2006-10-07" temporalFunction="false" functionInDocument="CREATION_TIME">Oct. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>President</TITLE>
+
+
+<TEXT>
+
+<EVENT class="OCCURRENCE" eid="e1">Visiting</EVENT> Portugal's President Anibal Cavaco Silva <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2006-10-03" tid="t1">Tuesday</TIMEX3> that the excellent Portugal-Brazil relations will <EVENT class="ASPECTUAL" eid="e3">continue</EVENT> through the second administration of Brazil's President Luiz Inacio Lula da Silva.
+
+Cavoco Silva <EVENT class="REPORTING" eid="e4">said</EVENT> the two countries' entrepreneurs are in very close contact and mutual investments have been <EVENT class="OCCURRENCE" eid="e5">growing</EVENT>.
+
+"Entrepreneurs from Brazil <EVENT class="PERCEPTION" eid="e6">see</EVENT> Portugal not only as a 10-million-inhabitant country, but also a country that takes part in the European Union (EU), which has over 500 million consumers with high purchasing power," he <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+Cavaco Silva <EVENT class="OCCURRENCE" eid="e8">made</EVENT> the remarks in Brazilian city Sao Paulo after he <EVENT class="OCCURRENCE" eid="e10">attended</EVENT> the 16th Ibero-American Summit in the Uruguayan capital of Montevideo.
+
+He <EVENT class="REPORTING" eid="e11">noted</EVENT> that the relations between the EU and the South American Common Market (Mercosur) was one of the most frequently <EVENT class="OCCURRENCE" eid="e12">raised</EVENT> topics at the <EVENT class="OCCURRENCE" eid="e13">summit</EVENT>, and he had <EVENT class="I_ACTION" eid="e14">promised</EVENT> to <EVENT class="I_ACTION" eid="e15">try</EVENT> to <EVENT class="OCCURRENCE" eid="e16">unblock</EVENT> the free trade <EVENT class="I_STATE" eid="e17">agreement</EVENT> between the two groups when Portugal takes over EU Presidency in <TIMEX3 type="DATE" value="2007" tid="t2">the second half of 2007</TIMEX3>.
+
+"We <EVENT class="OCCURRENCE" eid="e18">count</EVENT> on Brazil because it can <EVENT class="I_ACTION" eid="e19">help</EVENT> <EVENT class="I_ACTION" eid="e20">overcome</EVENT> difficulties that exist in the relationship between Mercosur and Europe," Cavaco Silva <EVENT class="OCCURRENCE" eid="e21">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

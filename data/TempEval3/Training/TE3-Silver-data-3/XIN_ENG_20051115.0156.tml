@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051115.0156</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hang Seng China Enterprises Index higher -- Nov. 15</TITLE>
+
+
+<TEXT>
+
+Hong Kong's Hang Seng China Enterprises Index <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> 44.84 points, or 0.91 percent, to <EVENT class="OCCURRENCE" eid="e2">close</EVENT> at 4,979.88 on <TIMEX3 type="DATE" value="2005-11-15" tid="t1">Tuesday</TIMEX3>.
+
+The index, <EVENT class="OCCURRENCE" eid="e3">initiated</EVENT> in <TIMEX3 type="DATE" value="1995-08" tid="t2">August 1995</TIMEX3> and re-based on <TIMEX3 type="DATE" value="2004-09-06" tid="t3">Sept. 6, 2004</TIMEX3>, <EVENT class="OCCURRENCE" eid="e4">tracks</EVENT> the overall performance of 40 Chinese mainland state- owned enterprises listed on the Hong Kong Stock Exchange.
+
+Hang Seng China-Affiliated Corporations Index <EVENT class="OCCURRENCE" eid="e7">rose</EVENT> 8.92 points, or 0.48 percent, to <EVENT class="OCCURRENCE" eid="e8">close</EVENT> at 1,880.28.
+
+The index <EVENT class="OCCURRENCE" eid="e9">tracks</EVENT> the performance of 30 locally listed companies with a significant equity interest held by entities in the Chinese mainland.
+
+Hang Seng Mainland Composite Index <EVENT class="OCCURRENCE" eid="e12">rose</EVENT> 11.36 points, or 0.63 percent, to <EVENT class="OCCURRENCE" eid="e13">close</EVENT> at 1,819.47.
+
+Introduced on <TIMEX3 type="DATE" value="2001-10-03" tid="t4">Oct. 3, 2001</TIMEX3>, Hang Seng Mainland Composite Index <EVENT class="OCCURRENCE" eid="e15">gauges</EVENT> the performance of 95 Hong Kong-listed companies with principal places of business in Hong Kong and the mainland.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei1000003" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1000003" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

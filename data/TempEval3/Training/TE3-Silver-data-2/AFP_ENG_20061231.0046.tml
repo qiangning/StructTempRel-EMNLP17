@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061231.0046</DOCID>
+
+<DCT>ATHENS, <TIMEX3 tid="t0" type="TIME" value="2006-12-31" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 31 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Saddam-related bomb scare forces Greek plane landing</TITLE>
+
+
+<TEXT>
+
+A Greek aircraft bound for New York <EVENT class="OCCURRENCE" eid="e1">made</EVENT> a dawn emergency landing <TIMEX3 type="DATE" value="2006-12-31" tid="t1">Sunday</TIMEX3> in Ireland after a telephone caller <EVENT class="REPORTING" eid="e2">said</EVENT> there was a bomb on board "for Saddam (Hussein)", the dead Iraqi dictator.
+
+The plane, <EVENT class="STATE" eid="e3">belonging</EVENT> to Olympic Airlines, had <EVENT class="OCCURRENCE" eid="e4">left</EVENT> Athens for the United States with 183 passengers and 12 crew and <EVENT class="OCCURRENCE" eid="e5">landed</EVENT> at Shannon in the west of Ireland.
+
+Those aboard <EVENT class="OCCURRENCE" eid="e6">disembarked</EVENT> and were <EVENT class="OCCURRENCE" eid="e7">taken</EVENT> to a hotel while the aircraft, an Airbus 340, was <EVENT class="OCCURRENCE" eid="e8">searched</EVENT>.
+
+"Unknown individuals <EVENT class="OCCURRENCE" eid="e9">speaking</EVENT> English with an Arab accent <EVENT class="I_ACTION" eid="e10">warned</EVENT> of the presence of a bomb on the plane, <EVENT class="REPORTING" eid="e11">saying</EVENT> it was 'for Saddam'", an airline spokesman <EVENT class="REPORTING" eid="e12">said</EVENT>, <EVENT class="OCCURRENCE" eid="e13">adding</EVENT> two calls had been <EVENT class="OCCURRENCE" eid="e14">received</EVENT> at Athens airport <TIMEX3 type="DATE" value="2006-12-31TMO" tid="t2">early Suday morning</TIMEX3>.
+
+The airline <EVENT class="REPORTING" eid="e15">told</EVENT> the aircraft to <EVENT class="OCCURRENCE" eid="e16">land</EVENT> at the nearest airport and it <EVENT class="OCCURRENCE" eid="e17">touched</EVENT> down at Shannon at 4:20 am (0420GMT).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

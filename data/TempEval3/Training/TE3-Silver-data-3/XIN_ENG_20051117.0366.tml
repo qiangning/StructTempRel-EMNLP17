@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0366</DOCID>
+
+<DCT>BUDAPEST, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hungarian film wins Dutch grand prix</TITLE>
+
+
+<TEXT>
+
+A Hungarian film <EVENT class="OCCURRENCE" eid="e1">won</EVENT> the grand prix of the 27th Noordeljik Film Festival in the Netherlands, local media <EVENT class="REPORTING" eid="e2">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-17" tid="t1">Thursday</TIMEX3>.
+
+"Porcelain Doll," <EVENT class="OCCURRENCE" eid="e3">directed</EVENT> by Peter Gardos, is based on three short stories, <EVENT class="OCCURRENCE" eid="e4">focusing</EVENT> on death, resurrection and vulnerability in the history of the <TIMEX3 type="DATE" value="20" tid="t2">20th century</TIMEX3>.
+
+Adapted from Star Farm, a book of short stories by Hungarian writer Ervin Lazar, the three distinct fairy tales of "Porcelain Doll" concern the supernatural occurrences that <EVENT class="OCCURRENCE" eid="e6">arise</EVENT> when a community of Hungarian farmers is <EVENT class="OCCURRENCE" eid="e7">visited</EVENT> by the forces of state power.
+
+The film <EVENT class="STATE" eid="e8">had</EVENT> its world premiere at the Moscow Film Festival in <TIMEX3 type="DATE" value="2005-06" tid="t3">June</TIMEX3>, and was <EVENT class="OCCURRENCE" eid="e9">given</EVENT> the Russian film critics' <EVENT class="OCCURRENCE" eid="e10">award</EVENT>. It has also <EVENT class="OCCURRENCE" eid="e11">received</EVENT> the Gene Moskowitz Award of foreign critics.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

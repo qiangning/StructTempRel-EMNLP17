@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051127.0199</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chelsea to face Premier League probe</TITLE>
+
+
+<TEXT>
+
+Chelsea face a Premier League probe after their former striker Jimmy Floyd Hasselbaink <EVENT class="REPORTING" eid="e2">claimed</EVENT> that players <EVENT class="OCCURRENCE" eid="e3">received</EVENT> unauthorized cash bonuses, BBC <EVENT class="REPORTING" eid="e4">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-27" tid="t1">Sunday</TIMEX3>.
+
+Hasselbaink <EVENT class="REPORTING" eid="e5">says</EVENT> Blues players <EVENT class="OCCURRENCE" eid="e6">received</EVENT> 100,000 pound for <EVENT class="OCCURRENCE" eid="e7">reaching</EVENT> the Champions League last four in 2003/04 rather than the 50,000 pound <EVENT class="OCCURRENCE" eid="e8">written</EVENT> into their deals.
+
+Premier League rules <EVENT class="REPORTING" eid="e10">state</EVENT> bonuses cannot be <EVENT class="OCCURRENCE" eid="e11">changed</EVENT> during a season, and Chelsea have <EVENT class="OCCURRENCE" eid="e12">denied</EVENT> any wrong-doing.
+
+But the Premier League <EVENT class="I_ACTION" eid="e13">insists</EVENT> it is "duty bound" to <EVENT class="I_ACTION" eid="e14">investigate</EVENT> the claims.
+
+Hasselbaink, <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> at Middlesbrough, <EVENT class="REPORTING" eid="e15">said</EVENT> in his book: "At the <EVENT class="ASPECTUAL" eid="e16">beginning</EVENT> of the <TIMEX3 type="DATE" value="2005-11-27" tid="t4">season</TIMEX3> he (Roman Abramovich) had <EVENT class="I_ACTION" eid="e17">promised</EVENT> us 50,000 per player if we <EVENT class="OCCURRENCE" eid="e18">reached</EVENT> the semi-finals of the competition.
+
+"At <TIMEX3 type="DATE" value="2005-11-27" tid="t5">the end of the month</TIMEX3> instead of the promised 50,000 there was 100,000 in our accounts."
+
+A Premier League spokesman <EVENT class="REPORTING" eid="e20">said</EVENT>: "We've <EVENT class="OCCURRENCE" eid="e21">received</EVENT> assurances from Chelsea that there is no case to <EVENT class="OCCURRENCE" eid="e22">answer</EVENT> regarding alleged extra payments to players. We have no reason to <EVENT class="I_ACTION" eid="e24">doubt</EVENT> these assurances.
+
+"However, given recent comments by Jimmy Floyd Hasselbaink we are duty <EVENT class="OCCURRENCE" eid="e26">bound</EVENT> to <EVENT class="I_ACTION" eid="e27">investigate</EVENT> those comments and <EVENT class="OCCURRENCE" eid="e28">assess</EVENT> their factual basis."
+
+Chelsea have once again <EVENT class="OCCURRENCE" eid="e29">moved</EVENT> to <EVENT class="I_ACTION" eid="e30">insists</EVENT> they are innocent, and a spokesman <EVENT class="REPORTING" eid="e32">said</EVENT>: "Chelsea has already <EVENT class="OCCURRENCE" eid="e33">made</EVENT> it publicly clear on two occasions that is has not <EVENT class="OCCURRENCE" eid="e34">made</EVENT> any payments to players in breach of Football Association or Premiership regulations.
+
+"The club <EVENT class="I_STATE" eid="e35">stands</EVENT> by those statements totally.
+
+"Moreover, <TIMEX3 type="DATE" value="2005-W45" tid="t6">two weeks ago</TIMEX3>, Chelsea <EVENT class="OCCURRENCE" eid="e36">invited</EVENT> the Premier League to <EVENT class="OCCURRENCE" eid="e37">look</EVENT> at any relevant documentation on this issue before any <EVENT class="OCCURRENCE" eid="e38">investigation</EVENT> was <EVENT class="I_STATE" eid="e39">considered</EVENT>.
+
+"The Premier League has not <EVENT class="OCCURRENCE" eid="e40">taken</EVENT> up that <EVENT class="OCCURRENCE" eid="e41">invitation</EVENT>. Jimmy Floyd Hasselbaink has <EVENT class="OCCURRENCE" eid="e42">made</EVENT> false statements that potentially <EVENT class="OCCURRENCE" eid="e43">bring</EVENT> the game, and Chelsea, into disrepute. These should be <EVENT class="I_ACTION" eid="e44">investigated</EVENT> fully, not Chelsea."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei36" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei36" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei42" relatedToEventInstance="ei44" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l52" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l53" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="AFTER" />
+
+
+
+
+</TimeML>

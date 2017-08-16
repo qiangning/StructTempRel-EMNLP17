@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970421.0110</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="1997-04-21" temporalFunction="false" functionInDocument="CREATION_TIME">April 21 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Right will lose seats, but retain majority: new poll</TITLE>
+
+
+<TEXT>
+
+The French right would <EVENT class="OCCURRENCE" eid="e1">lose</EVENT> a substantial number of seats in the National Assembly, but <EVENT class="OCCURRENCE" eid="e2">retain</EVENT> a comfortable working majority, <EVENT class="REPORTING" eid="e3">according</EVENT> to a new poll on snap elections <EVENT class="I_STATE" eid="e5">expected</EVENT> to be <EVENT class="PERCEPTION" eid="e6">called</EVENT> <TIMEX3 type="DATE" value="1997-04-21" tid="t1">Monday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e7">ruling</EVENT> rightwing bloc, which <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">currently</TIMEX3> <EVENT class="STATE" eid="e8">holds</EVENT> 80 percent of the seats in the 577-seat National Assembly, would <EVENT class="OCCURRENCE" eid="e9">lose</EVENT> about 150 -- but still have some 40 seats more than an absolute majority, <EVENT class="REPORTING" eid="e10">said</EVENT> the poll in the daily Le Figaro.
+
+The bloc -- comprising the Gaullist Rally for the Republic (RPR) and centre-right Union for French Democracy (UDF) -- would <EVENT class="ASPECTUAL" eid="e12">end</EVENT> up with 318 seats, <EVENT class="REPORTING" eid="e13">said</EVENT> the survey by the SOFRES polling institute.
+
+Most previous polls have also <EVENT class="OCCURRENCE" eid="e14">put</EVENT> the right marginally in front if snap legislative <EVENT class="OCCURRENCE" eid="e15">elections</EVENT> are <EVENT class="OCCURRENCE" eid="e16">called</EVENT>, as <EVENT class="I_STATE" eid="e17">expected</EVENT> by President Jacques Chirac <TIMEX3 type="TIME" value="1997-04-14TEV" tid="t3">Monday evening</TIMEX3>. One poll <TIMEX3 type="DATE" value="1997-W16" tid="t4">last week</TIMEX3> <EVENT class="OCCURRENCE" eid="e18">suggested</EVENT> an alliance of the opposition Socialist Party (PS), communist and greens could <EVENT class="OCCURRENCE" eid="e19">edge</EVENT> ahead of the right.
+
+Chirac is <EVENT class="I_STATE" eid="e20">expected</EVENT> to <EVENT class="REPORTING" eid="e21">announce</EVENT> the dissolution of parliament in a TV <EVENT class="OCCURRENCE" eid="e23">address</EVENT> <TIMEX3 type="TIME" value="1997-04-14TEV" tid="t5">Monday evening</TIMEX3>, <EVENT class="STATE" eid="e24">justifying</EVENT> it by the need to <EVENT class="OCCURRENCE" eid="e25">clean</EVENT> the decks ahead of the deadline for a European single currency <TIMEX3 type="DATE" value="1998" tid="t6">next year</TIMEX3>.
+
+Critics <EVENT class="REPORTING" eid="e26">say</EVENT> he <EVENT class="I_STATE" eid="e27">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e28">get</EVENT> the election out of the way before <EVENT class="OCCURRENCE" eid="e30">implementing</EVENT> a new round of unpopular austerity measures <EVENT class="OCCURRENCE" eid="e31">required</EVENT> to <EVENT class="OCCURRENCE" eid="e32">prepare</EVENT> France for economic and monetary union (EMU).
+
+The Le Figaro poll also <EVENT class="REPORTING" eid="e33">confirmed</EVENT> that most French people <EVENT class="OCCURRENCE" eid="e34">back</EVENT> the idea of snap elections, a year ahead of schedule: 53 percent of those asked <EVENT class="OCCURRENCE" eid="e37">supported</EVENT> the dissolution of parliament, against 33 percent against.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei25" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei33" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+
+
+
+
+</TimeML>

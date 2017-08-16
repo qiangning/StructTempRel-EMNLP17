@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051105.0075</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2005-11-05" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 5 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Results from Hong Kong Open badminton</TITLE>
+
+
+<TEXT>
+
+Following are the <EVENT class="STATE" eid="e2">results</EVENT> from the 250,000 US dollar Hong Kong Open badminton championship here <TIMEX3 type="DATE" value="2005-11-12" tid="t1">Saturday</TIMEX3> (prefxi number denotes <EVENT class="OCCURRENCE" eid="e4">seeding</EVENT>):
+
+Men's singles
+
+Semi-finals
+
+1-Lin Dan, China, bt 4-Lee Chong-wei, Malaysia, 15-4, 15-6.
+
+Women's singles
+
+Semi-finals
+
+1-Zhang Ning, China, bt 4-Pi Hongyan, France, 11-3, <TIMEX3 type="DATE" value="2005-11-05" tid="t2">13-11</TIMEX3>
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

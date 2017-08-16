@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0267</DOCID>
+
+<DCT>LUANDA, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Sao Tome's lawmakers reject constitutional referendum</TITLE>
+
+
+<TEXT>
+
+Sao Tome and Principe's Parliament on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">voted</EVENT> against holding of a constitutional <EVENT class="OCCURRENCE" eid="e3">referendum</EVENT> on the country's system of power sharing, a national <EVENT class="OCCURRENCE" eid="e5">consultation</EVENT> <EVENT class="I_STATE" eid="e6">wanted</EVENT> by President Fradique de Menezes.
+
+According to reports <EVENT class="OCCURRENCE" eid="e8">reaching</EVENT> here, a motion to <EVENT class="OCCURRENCE" eid="e9">reject</EVENT> the <EVENT class="OCCURRENCE" eid="e10">referendum</EVENT>, originally <EVENT class="I_ACTION" eid="e11">agreed</EVENT> for <TIMEX3 type="DATE" value="2006" tid="t2">next year</TIMEX3> by parliament and the president in <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3>, was <EVENT class="OCCURRENCE" eid="e12">supported</EVENT> by 45 parliament members and <EVENT class="I_ACTION" eid="e13">opposed</EVENT> by only five members of the 55-seat legislature.
+
+The Movement for the Liberation of Sao Tome and Principe (MLSTP) , the archipelago's biggest party, publicly <EVENT class="OCCURRENCE" eid="e14">distanced</EVENT> itself <TIMEX3 type="DATE" value="2005-10" tid="t4">last month</TIMEX3> from the planned <EVENT class="OCCURRENCE" eid="e15">referendum</EVENT>, <EVENT class="I_STATE" eid="e16">aimed</EVENT> to <EVENT class="OCCURRENCE" eid="e17">formalize</EVENT> the respective weighting of sovereign bodies in the islands' semi- presidential system.
+
+MLSTP leader Guilherme Posser da Costa is widely <EVENT class="I_STATE" eid="e18">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e19">challenge</EVENT> President Menezes' <EVENT class="OCCURRENCE" eid="e20">bid</EVENT> for a second term in office <TIMEX3 type="DATE" value="2006" tid="t6">next year</TIMEX3>. Local and parliamentary <EVENT class="OCCURRENCE" eid="e21">elections</EVENT> are also <EVENT class="I_STATE" eid="e22">expected</EVENT> in <TIMEX3 type="DATE" value="2006" tid="t7">2006</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000011" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei1000011" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei1000011" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

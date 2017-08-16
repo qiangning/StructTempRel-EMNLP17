@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051105.0053</DOCID>
+
+<DCT>MACAO, <TIMEX3 tid="t0" type="TIME" value="2005-11-05" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 5 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Japan picks 3 golds in karatedo</TITLE>
+
+
+<TEXT>
+
+Japan <EVENT class="REPORTING" eid="e1">claimed</EVENT> three gold medals from its national <EVENT class="OCCURRENCE" eid="e2">sport</EVENT> of karatedo at the East Asian Games on <TIMEX3 type="DATE" value="2005-11-05" tid="t1">Saturday</TIMEX3>.
+
+Kasuga Wakabayashi <EVENT class="OCCURRENCE" eid="e3">won</EVENT> the women's individual kata title for her two straight wins in the three-people field. Macao's Cheung Pui Sui <EVENT class="OCCURRENCE" eid="e5">picked</EVENT> the silver with one <EVENT class="OCCURRENCE" eid="e6">win</EVENT> and Yip Ching Yee from Hong Kong <EVENT class="OCCURRENCE" eid="e7">got</EVENT> the bronze for her two losses.
+
+Takashi Katada <EVENT class="OCCURRENCE" eid="e8">triumphed</EVENT> in the men's individual kata and Vong Ka Seng of Macao <EVENT class="ASPECTUAL" eid="e9">finished</EVENT> runner-up. The only other participant - Mallada Vicent Patrick Pablo - <EVENT class="OCCURRENCE" eid="e10">fouled</EVENT> out, <EVENT class="OCCURRENCE" eid="e11">losing</EVENT> a sure bet medal.
+
+Natsuki Fujiwara <EVENT class="OCCURRENCE" eid="e12">walked</EVENT> away with a gold medal from the women's 53kg kumite and Macao's Kou Ma Ni <EVENT class="OCCURRENCE" eid="e13">grabbed</EVENT> the silver.
+
+DPR Korean Ha Ryon-bok and South Korean Kim Jin were joint third.
+
+Chinese Taipei <EVENT class="OCCURRENCE" eid="e14">landed</EVENT> two titles through Hsieh Cheng-kang in the men's 55kg-kumite and Huang Hsiang-chen in the men's 60kg kumite.
+
+The host <EVENT class="OCCURRENCE" eid="e15">struck</EVENT> gold too, with Pereiracarion Paulacristina <EVENT class="OCCURRENCE" eid="e16">winning</EVENT> the women's 60kg kumite.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

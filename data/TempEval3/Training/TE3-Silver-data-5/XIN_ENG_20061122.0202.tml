@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0202</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>China's cabinet tightens controls on social security funds</TITLE>
+
+
+<TEXT>
+
+China's cabinet <EVENT class="OCCURRENCE" eid="e1">moved</EVENT> to <EVENT class="OCCURRENCE" eid="e2">tighten</EVENT> controls on social security funds on <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> after <EVENT class="OCCURRENCE" eid="e3">hearing</EVENT> how parts of the country were <EVENT class="STATE" eid="e4">plagued</EVENT> by embezzlement.
+
+Misappropriated funds must be <EVENT class="OCCURRENCE" eid="e6">paid</EVENT> back in full within strict time limits and the officials involved should be <EVENT class="OCCURRENCE" eid="e7">punished</EVENT>, the State Council <EVENT class="I_ACTION" eid="e8">agreed</EVENT> at a <EVENT class="OCCURRENCE" eid="e9">meeting</EVENT> <EVENT class="OCCURRENCE" eid="e10">presided</EVENT> over by Premier Wen Jiabao.
+
+The <EVENT class="OCCURRENCE" eid="e11">misappropriation</EVENT> of social security funds was <EVENT class="OCCURRENCE" eid="e12">highlighted</EVENT> in <TIMEX3 type="DATE" value="2006-09" tid="t2">September</TIMEX3> by the Shanghai scandal, <EVENT class="OCCURRENCE" eid="e14">involving</EVENT> 3.2 billion yuan of city funds, which <EVENT class="OCCURRENCE" eid="e15">brought</EVENT> down Chen Liangyu, secretary of local committee of Communist Party of China (CPC).
+
+The National Audit Office <EVENT class="REPORTING" eid="e16">delivered</EVENT> a report to the council on the <EVENT class="STATE" eid="e18">results</EVENT> of a nationwide audit of social security funds in <TIMEX3 type="DURATION" value="P2M" tid="t3">the past two months</TIMEX3>.
+
+The funds were <EVENT class="OCCURRENCE" eid="e19">growing</EVENT> with the <EVENT class="OCCURRENCE" eid="e20">expansion</EVENT> of coverage <EVENT class="OCCURRENCE" eid="e21">expansion</EVENT>, but policies regarding management were not strictly <EVENT class="OCCURRENCE" eid="e22">implemented</EVENT> in some regions, the council <EVENT class="PERCEPTION" eid="e23">heard</EVENT>.
+
+It <EVENT class="OCCURRENCE" eid="e24">ordered</EVENT> the responsible departments to <EVENT class="OCCURRENCE" eid="e25">coordinate</EVENT> and <EVENT class="OCCURRENCE" eid="e26">ensure</EVENT> funds were <EVENT class="OCCURRENCE" eid="e27">kept</EVENT> in special accounts with separate management over collection and expenditure.
+
+The social security framework includes five main insurance programs: pensions, unemployment, medical, injuries at work, and pre-natal and post-natal <EVENT class="I_STATE" eid="e28">care</EVENT> for women workers.
+
+By <TIMEX3 type="DATE" value="2005" tid="t4">the end of 2005</TIMEX3>, China's social security funds <EVENT class="PERCEPTION" eid="e29">totaled</EVENT> 1.84 trillion yuan (233.35 billion US dollars).
+
+Councilors <EVENT class="REPORTING" eid="e30">called</EVENT> for enhanced transparency in fund management and public <EVENT class="OCCURRENCE" eid="e31">supervision</EVENT>.
+
+They <EVENT class="OCCURRENCE" eid="e32">ordered</EVENT> government bodies to <EVENT class="OCCURRENCE" eid="e33">draw</EVENT> up measures to <EVENT class="OCCURRENCE" eid="e34">improve</EVENT> fund investment <EVENT class="OCCURRENCE" eid="e35">returns</EVENT>.
+
+State councilors also <EVENT class="OCCURRENCE" eid="e36">discussed</EVENT> and <EVENT class="OCCURRENCE" eid="e37">approved</EVENT> in principle the draft of the law on urban and rural <EVENT class="OCCURRENCE" eid="e38">planning</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei29" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

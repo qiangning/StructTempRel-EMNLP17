@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061229.0367</DOCID>
+
+<DCT>MILWAUKEE, Wisconsin, <TIMEX3 tid="t0" type="TIME" value="2006-12-29" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 29 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Brewers, Suppan ink four-year deal</TITLE>
+
+
+<TEXT>
+
+The Milwaukee Brewers <EVENT class="OCCURRENCE" eid="e1">signed</EVENT> veteran righthander Jeff Suppan to a four-year contract on <TIMEX3 type="DATE" value="2006-12-29" tid="t2">Friday</TIMEX3>, a deal worth a <EVENT class="REPORTING" eid="e3">reported</EVENT> 42 million dollars.
+
+Suppan, who will <EVENT class="OCCURRENCE" eid="e4">turn</EVENT> 32 next <TIMEX3 type="DATE" value="2007-01-02" tid="t3">Tuesday</TIMEX3>, <EVENT class="STATE" eid="e5">became</EVENT> the latest pitcher to <EVENT class="OCCURRENCE" eid="e6">cash</EVENT> in during what has been a lucrative offseason for free agents.
+
+He <EVENT class="OCCURRENCE" eid="e7">raised</EVENT> his stock over <TIMEX3 type="DURATION" value="P2M" tid="t4">the last two months</TIMEX3> after <EVENT class="OCCURRENCE" eid="e8">going</EVENT> 1-1 with a <TIMEX3 type="DATE" value="2006-12-29" tid="t5">2.49 ERA</TIMEX3> in four postseason <EVENT class="OCCURRENCE" eid="e9">starts</EVENT> with the World Series champion St. Louis Cardinals.
+
+The signing of Suppan <EVENT class="OCCURRENCE" eid="e11">came</EVENT> one day after the San Francisco Giants <EVENT class="OCCURRENCE" eid="e12">signed</EVENT> Barry Zito to a multi-year deal worth a <EVENT class="REPORTING" eid="e13">reported</EVENT> 126 million dollars - the largest contract for a pitcher in major-league history.
+
+The Most Valuable Player of the NL championship series, Suppan <EVENT class="OCCURRENCE" eid="e14">went</EVENT> 12-7 with a 4.12 ERA in 32 starts last season for the Cardinals.
+
+The righthander is 44-26 with a 3.95 ERA over <TIMEX3 type="DURATION" value="P3Y" tid="t8">the past three years</TIMEX3>, <EVENT class="I_ACTION" eid="e15">posting</EVENT> consecutive 16-win <EVENT class="OCCURRENCE" eid="e16">campaigns</EVENT> in <TIMEX3 type="DATE" value="2004" tid="t9">2004</TIMEX3> and <TIMEX3 type="DATE" value="2005" tid="t10">2005</TIMEX3>.
+
+"With 44 wins in <TIMEX3 type="DATE" value="PXX" tid="t11">the last three seasons</TIMEX3>, Jeff is not only a proven winner, he is also one of the most durable pitchers in baseball," Brewers general manager Doug Melvin <EVENT class="REPORTING" eid="e18">said</EVENT>. "This agreement <EVENT class="OCCURRENCE" eid="e19">makes</EVENT> us <EVENT class="STATE" eid="e20">feel</EVENT> very good about the depth of our rotation. Jeff's experience and durability should have a positive influence on our entire pitching staff."
+
+Suppan will <EVENT class="OCCURRENCE" eid="e24">join</EVENT> a Brewers' rotation which includes lefthander Chris Capuano and righthanders Ben Sheets, Dave Bush and Claudio Vargas, who was <EVENT class="OCCURRENCE" eid="e26">acquired</EVENT> for starter Doug Davis in a trade with the Arizona Diamondbacks on <TIMEX3 type="DATE" value="2006-11-25" tid="t12">November 25</TIMEX3>.
+
+In <TIMEX3 type="DATE" value="2006-12-29" tid="t13">12 seasons</TIMEX3> with the Boston Red Sox, Kansas City Royals, Arizona, Pittsburgh and St. Louis, Suppan is 106-101 with a 4.60 ERA in <TIMEX3 type="DATE" value="317" tid="t14">317</TIMEX3> career games. He has <EVENT class="OCCURRENCE" eid="e27">made</EVENT> at least 31 starts in each of the <TIMEX3 type="DURATION" value="P8Y" tid="t15">last eight years</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000016" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei26" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei27" relatedToTime="t15" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToEventInstance="ei1000016" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei1000016" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

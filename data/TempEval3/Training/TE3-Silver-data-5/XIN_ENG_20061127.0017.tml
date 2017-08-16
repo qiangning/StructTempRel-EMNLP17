@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0017</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Philippine stocks close flat</TITLE>
+
+
+<TEXT>
+
+Philippine stock prices <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> flat on <TIMEX3 type="DATE" value="2006-11-27" tid="t1">Monday</TIMEX3> with a sluggish session in absence of strong leads, dealers <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+The 30-company composite index was <EVENT class="STATE" eid="e4">down</EVENT> only 0.28 point at <TIMEX3 type="DATE" value="2006-11-27" tid="t2">2, 817.56</TIMEX3>.
+
+The broader all-shares index <EVENT class="OCCURRENCE" eid="e5">rose</EVENT> 0.39 point to 1,759.88.
+
+Losers <EVENT class="OCCURRENCE" eid="e6">beat</EVENT> gainers 55 to 46, while 61 stocks <EVENT class="ASPECTUAL" eid="e7">ended</EVENT> unchanged.
+
+Trade volume was 4.09 billion shares valued at 2.25 billion pesos (45.3 million U.S. dollars).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

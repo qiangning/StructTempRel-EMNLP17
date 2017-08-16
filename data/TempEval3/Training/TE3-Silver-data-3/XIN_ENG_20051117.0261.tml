@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0261</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Trans-national drug trafficking ring uncovered in Vietnam</TITLE>
+
+
+<TEXT>
+
+Vietnamese police have <EVENT class="OCCURRENCE" eid="e1">uncovered</EVENT> a trans-national drug trafficking ring <EVENT class="I_ACTION" eid="e2">alleged</EVENT> to have <EVENT class="OCCURRENCE" eid="e3">trafficked</EVENT> 1, 000 heroin cakes, each weighing 0.35 kilograms, into the country from neighboring Cambodia since <TIMEX3 type="DATE" value="2002" tid="t1">2002</TIMEX3>, Vietnam News Agency <EVENT class="REPORTING" eid="e4">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-17" tid="t2">Thursday</TIMEX3>.
+
+Heroin was <EVENT class="OCCURRENCE" eid="e5">brought</EVENT> into Vietnam's Ho Chi Minh City via southern Kien Giang province's Ha Tien town, which borders Cambodia, before <EVENT class="OCCURRENCE" eid="e6">heading</EVENT> to Quang Ninh province and other northern localities, the report <EVENT class="OCCURRENCE" eid="e7">quoted</EVENT> the police as <EVENT class="REPORTING" eid="e8">saying</EVENT>.
+
+<TIMEX3 type="DATE" value="2005-11-17" tid="t3">Late last month</TIMEX3>, local police <EVENT class="OCCURRENCE" eid="e9">arrested</EVENT> Kong Hung, a Cambodian, in Ha Tien town, with five heroin cakes. The man, who was a member of the ring, <EVENT class="OCCURRENCE" eid="e11">admitted</EVENT> that he has so far <TIMEX3 type="DATE" value="2005" tid="t4">this year</TIMEX3> <EVENT class="OCCURRENCE" eid="e12">transported</EVENT> 194 heroin <EVENT class="OCCURRENCE" eid="e13">cakes</EVENT> across the border.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000004" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1000004" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1000004" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei1000004" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

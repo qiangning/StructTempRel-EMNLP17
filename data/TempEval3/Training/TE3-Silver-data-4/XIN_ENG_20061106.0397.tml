@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0397</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Japan, S. Korea to enhance cooperation on Korean Peninsula nuclear issue</TITLE>
+
+
+<TEXT>
+
+Japanese Prime Minister Shinzo Abe and <EVENT class="OCCURRENCE" eid="e1">visiting</EVENT> South Korean foreign minister <EVENT class="OCCURRENCE" eid="e2">Ban</EVENT> Ki Moon <EVENT class="I_ACTION" eid="e3">agreed</EVENT> on <TIMEX3 type="DATE" value="2006-11-06" tid="t1">Monday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e4">enhance</EVENT> cooperation in having the Democratic People's Republic of Korea (DPRK) <EVENT class="ASPECTUAL" eid="e6">stop</EVENT> its nuclear plan.
+
+Abe and Ban <EVENT class="OCCURRENCE" eid="e7">exchanged</EVENT> ideas over the <EVENT class="OCCURRENCE" eid="e8">resumption</EVENT> of six-party <EVENT class="OCCURRENCE" eid="e9">talks</EVENT> on Korean Peninsula nuclear issue. The premier <EVENT class="REPORTING" eid="e10">said</EVENT> that dialogues under the six-party talks framework and pressure <EVENT class="OCCURRENCE" eid="e12">sent</EVENT> through the implementation of the UN Security Council resolution are equally important.
+
+During their <EVENT class="OCCURRENCE" eid="e14">meeting</EVENT>, the two also <EVENT class="OCCURRENCE" eid="e15">touched</EVENT> on the reforms of the United Nations. Ban, who is to <EVENT class="OCCURRENCE" eid="e16">assume</EVENT> the post of UN secretary general in <TIMEX3 type="DATE" value="2006-01" tid="t2">January</TIMEX3>, <EVENT class="REPORTING" eid="e17">said</EVENT> that he is <EVENT class="I_STATE" eid="e18">willing</EVENT> to <EVENT class="OCCURRENCE" eid="e19">discuss</EVENT> issues in the United Nations with the Japanese government.
+
+Ban <EVENT class="OCCURRENCE" eid="e20">arrived</EVENT> in Japan on <TIMEX3 type="DATE" value="2006-11-05" tid="t3">Sunday</TIMEX3> and <EVENT class="OCCURRENCE" eid="e21">held</EVENT> <EVENT class="OCCURRENCE" eid="e22">talks</EVENT> with his Japanese counterpart Taro Aso later in <TIMEX3 type="DATE" value="2006-11-06" tid="t4">the day</TIMEX3>. Their <EVENT class="OCCURRENCE" eid="e23">talks</EVENT> also <EVENT class="OCCURRENCE" eid="e24">centered</EVENT> around the Korean Peninsula nuclear issue.
+
+The six-party <EVENT class="OCCURRENCE" eid="e25">talks</EVENT> on the Korean Peninsular nuclear issue, which <EVENT class="OCCURRENCE" eid="e26">involves</EVENT> the DPRK, China, Japan, Russia, South Korea and the United States, were last <EVENT class="OCCURRENCE" eid="e27">held</EVENT> in <TIMEX3 type="DATE" value="2005-11" tid="t5">November, 2005</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei27" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

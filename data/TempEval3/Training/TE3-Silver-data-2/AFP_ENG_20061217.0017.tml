@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061217.0017</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2006-12-17" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 17 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Three US servicemen killed in Iraq</TITLE>
+
+
+<TEXT>
+
+Three US soldiers have been <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> in Iraq by a roadside bomb while on a routine patrol, the US military <EVENT class="REPORTING" eid="e2">announced</EVENT> <TIMEX3 type="DATE" value="2006-12-17" tid="t1">Sunday</TIMEX3>.
+
+The three soldiers <EVENT class="OCCURRENCE" eid="e3">died</EVENT> and a fourth was <EVENT class="OCCURRENCE" eid="e4">wounded</EVENT> when the bomb <EVENT class="OCCURRENCE" eid="e5">exploded</EVENT> near one of their vehicles north of Baghdad on <TIMEX3 type="DATE" value="2006-12-16" tid="t2">Saturday</TIMEX3>, the army <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+The latest deaths <EVENT class="OCCURRENCE" eid="e7">bring</EVENT> the number of US <EVENT class="OCCURRENCE" eid="e8">fatalities</EVENT> in Iraq since the <TIMEX3 type="DATE" value="2003-03" tid="t3">March 2003</TIMEX3> <EVENT class="OCCURRENCE" eid="e9">invasion</EVENT> to 2,944 <EVENT class="REPORTING" eid="e10">according</EVENT> to an AFP count based on Pentagon figures. In <TIMEX3 type="DATE" value="2005-12" tid="t4">December</TIMEX3> alone, at least 61 have <EVENT class="OCCURRENCE" eid="e11">died</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

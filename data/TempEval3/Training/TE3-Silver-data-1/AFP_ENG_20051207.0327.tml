@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051207.0327</DOCID>
+
+<DCT>TALLINN, <TIMEX3 tid="t0" type="TIME" value="2005-12-07" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 7 , 2005</TIMEX3></DCT>
+
+<TITLE>Estonia protests further alleged air space violation by Russia</TITLE>
+
+
+<TEXT>
+
+Estonia has <EVENT class="OCCURRENCE" eid="e1">protested</EVENT> to the Russian authorities after a Russian military plane <EVENT class="I_STATE" eid="e2">breached</EVENT> the Baltic state's air space in the fifth such <EVENT class="OCCURRENCE" eid="e3">violation</EVENT> <TIMEX3 type="DATE" value="2005" tid="t1">this year</TIMEX3>, officials <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-12-07" tid="t2">Wednesday</TIMEX3>.
+
+"A Russian military transport An-26 <EVENT class="OCCURRENCE" eid="e6">entered</EVENT> Estonian airspace without permission <TIMEX3 type="DATE" value="2005-12-06" tid="t3">Tuesday</TIMEX3>," the Estonian defence forces <EVENT class="REPORTING" eid="e7">said</EVENT> in a statement.
+
+"The plane, <EVENT class="OCCURRENCE" eid="e8">flying</EVENT> towards Kaliningrad, <EVENT class="OCCURRENCE" eid="e9">entered</EVENT> Estonian airspace near the island of Vaindloo in the Gulf of Finland."
+
+The Russian plane, which <EVENT class="STATE" eid="e10">posed</EVENT> no threat to civilian air traffic, was <EVENT class="OCCURRENCE" eid="e12">picked</EVENT> up on the radar of the Estonian Air Sovereignty Centre and <EVENT class="OCCURRENCE" eid="e13">left</EVENT> the Baltic state's air space after it was <EVENT class="OCCURRENCE" eid="e14">contacted</EVENT> by Estonian officials.
+
+Kaliningrad is a heavily militarised Russian enclave which lies to the south of the three Baltic states of Estonia, Latvia and Lithuania, which <EVENT class="OCCURRENCE" eid="e16">joined</EVENT> NATO <TIMEX3 type="DATE" value="2004" tid="t5">last year</TIMEX3>.
+
+NATO member countries <EVENT class="OCCURRENCE" eid="e17">take</EVENT> turns <EVENT class="OCCURRENCE" eid="e18">patrolling</EVENT> the skies of the Baltic states, which were <EVENT class="OCCURRENCE" eid="e19">incorporated</EVENT> into the Soviet Union after World <EVENT class="OCCURRENCE" eid="e20">War</EVENT> II and regained independence in <TIMEX3 type="DATE" value="1991" tid="t6">1991</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0337</DOCID>
+
+<DCT>SOFIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Sofia seeks long-term settlement with Russian gas</TITLE>
+
+
+<TEXT>
+
+Bulgaria is <EVENT class="OCCURRENCE" eid="e1">negotiating</EVENT> with the Russian natural gas <EVENT class="OCCURRENCE" eid="e2">monopoly</EVENT> Gazprom for a long-term <EVENT class="I_STATE" eid="e3">agreement</EVENT> on gas supply and transit, the country's Economy and Energy Minister Rumen Ovcharov <EVENT class="REPORTING" eid="e4">told</EVENT> the parliament's Energy Committee on <TIMEX3 type="DATE" value="2006-11-15" tid="t1">Wednesday</TIMEX3>, <EVENT class="REPORTING" eid="e5">reported</EVENT> BTA.
+
+He <EVENT class="OCCURRENCE" eid="e6">stressed</EVENT> that Sofia <EVENT class="I_STATE" eid="e7">seeks</EVENT> strategic partnership with Gazprom in order to <EVENT class="OCCURRENCE" eid="e8">ensure</EVENT> sufficient amounts of natural gas for Bulgaria. If the effective agreements, which will <EVENT class="OCCURRENCE" eid="e9">expire</EVENT> in <TIMEX3 type="DATE" value="2010" tid="t2">2010</TIMEX3>, are not <EVENT class="OCCURRENCE" eid="e10">renegotiated</EVENT>, gas prices will <EVENT class="OCCURRENCE" eid="e11">increase</EVENT> at least 40 percent after <TIMEX3 type="DATE" value="2006-11-15" tid="t3">that year</TIMEX3> and gas transit via Bulgaria will be <EVENT class="OCCURRENCE" eid="e12">reduced</EVENT>, he <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+He <EVENT class="OCCURRENCE" eid="e14">refuted</EVENT> media predictions about a remarkable price <EVENT class="OCCURRENCE" eid="e15">raise</EVENT> of Russian natural <EVENT class="OCCURRENCE" eid="e16">gas</EVENT> at <TIMEX3 type="DATE" value="2007" tid="t4">the beginning of 2007</TIMEX3>.
+
+Ovcharov <EVENT class="REPORTING" eid="e17">noted</EVENT> that his country does not have many opportunities to <EVENT class="OCCURRENCE" eid="e19">diversify</EVENT> its gas supply sources.
+
+At <TIMEX3 type="DATE" value="2006-11-15" tid="t5">the end of the month</TIMEX3>, the minister will <EVENT class="REPORTING" eid="e20">report</EVENT> to the leadership of Bulgaria's <EVENT class="OCCURRENCE" eid="e21">ruling</EVENT> coalition on the outcome of the <EVENT class="OCCURRENCE" eid="e22">talks</EVENT>. A <EVENT class="OCCURRENCE" eid="e23">decision</EVENT> will then be <EVENT class="OCCURRENCE" eid="e24">made</EVENT> whether to <EVENT class="OCCURRENCE" eid="e25">sign</EVENT> new long-term agreements or to <EVENT class="OCCURRENCE" eid="e27">go</EVENT> by the current agreements.
+
+Under the contract for gas supply from Russia to Bulgaria <EVENT class="OCCURRENCE" eid="e28">signed</EVENT> in <TIMEX3 type="DATE" value="1998" tid="t6">1998</TIMEX3>, the Balkan country <EVENT class="OCCURRENCE" eid="e29">pays</EVENT> some 257 U.S. dollars per 1,000 cube meters of gas and <EVENT class="OCCURRENCE" eid="e30">receives</EVENT> 83 dollars for transit. Though the agreement has a term until <TIMEX3 type="DATE" value="2010" tid="t7">2010</TIMEX3>, the two countries are <EVENT class="I_STATE" eid="e31">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e32">start</EVENT> <EVENT class="OCCURRENCE" eid="e33">talks</EVENT> to <EVENT class="OCCURRENCE" eid="e34">review</EVENT> the terms of supply.
+
+More than 97 percent of gas <EVENT class="OCCURRENCE" eid="e35">consumed</EVENT> in Bulgaria <EVENT class="OCCURRENCE" eid="e36">comes</EVENT> from Russia.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei31" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei31" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+
+
+
+
+</TimeML>

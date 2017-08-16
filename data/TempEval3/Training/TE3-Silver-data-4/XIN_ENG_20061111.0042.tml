@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061111.0042</DOCID>
+
+<DCT>OSAKA, Japan, <TIMEX3 tid="t0" type="TIME" value="2006-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Brazil sweep Germany 3-0 in women's volleyball championship</TITLE>
+
+
+<TEXT>
+
+Brazil <EVENT class="OCCURRENCE" eid="e1">rocked</EVENT> Germany in three straight sets here on <TIMEX3 type="DATE" value="2006-11-11" tid="t1">Saturday</TIMEX3> in 2006 women's volleyball World Championship.
+
+It <EVENT class="OCCURRENCE" eid="e2">took</EVENT> Brazil 70 minutes to <EVENT class="OCCURRENCE" eid="e3">gain</EVENT> their eighth victory in the tournament with 25-16, <TIMEX3 type="DATE" value="2006-11-11" tid="t3">25-22</TIMEX3> and <TIMEX3 type="DATE" value="2006-11-11" tid="t4">25-15</TIMEX3>.
+
+Sheila Castro <EVENT class="OCCURRENCE" eid="e4">scored</EVENT> 11 points for Brazil while Welissa Gonzaga <EVENT class="STATE" eid="e5">had</EVENT> 13 and Fabiana Claudino 10.
+
+Captain Angelina Grun <EVENT class="OCCURRENCE" eid="e6">scored</EVENT> nine points to <EVENT class="OCCURRENCE" eid="e7">lead</EVENT> the Germany team, Birgit Thumm and Corina Ssuschke each <EVENT class="OCCURRENCE" eid="e8">contributed</EVENT> five points.
+
+Brazil will <EVENT class="I_ACTION" eid="e9">face</EVENT> Russia on <TIMEX3 type="DATE" value="2006-11-12" tid="t5">Sunday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e10">decide</EVENT> the top team of the group. Both teams, who <EVENT class="OCCURRENCE" eid="e11">kept</EVENT> an unbeaten record in the <EVENT class="OCCURRENCE" eid="e12">tournament</EVENT> until <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">now</TIMEX3>, had <EVENT class="OCCURRENCE" eid="e13">gained</EVENT> the <EVENT class="OCCURRENCE" eid="e14">berth</EVENT> for the semifinal.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToEventInstance="ei1000003" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1000003" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0062</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Foreign-funded Banks(4)</TITLE>
+
+
+<TEXT>
+
+Article 13 A foreign bank that has already <EVENT class="OCCURRENCE" eid="e1">established</EVENT> an operational foreign-funded bank within the territory of the People's Republic of China shall not <EVENT class="I_ACTION" eid="e2">establish</EVENT> a new representative office if it has already <EVENT class="OCCURRENCE" eid="e3">maintained</EVENT> a representative office, with the exception of establishment of a representative office in the areas covered by the regional development strategy or other related policies of the State.
+
+If a representative office is <EVENT class="OCCURRENCE" eid="e4">changed</EVENT> with <EVENT class="OCCURRENCE" eid="e5">approval</EVENT> into an operational foreign-funded bank, the foreign bank shall <EVENT class="OCCURRENCE" eid="e6">go</EVENT> through the procedures for cancellation of registration of the original representative office in accordance with law.
+
+Article 14 Where <EVENT class="STATE" eid="e7">applying</EVENT> for <EVENT class="OCCURRENCE" eid="e8">establishing</EVENT> an operational foreign-funded bank, the applicant shall first <EVENT class="OCCURRENCE" eid="e9">apply</EVENT> for the <EVENT class="OCCURRENCE" eid="e10">preparation</EVENT> of the bank and <EVENT class="OCCURRENCE" eid="e11">submit</EVENT> the following application documents to the banking regulatory agency in the place where the proposed bank is to be <EVENT class="OCCURRENCE" eid="e12">established</EVENT>:
+
+(1) an application letter, including the name, location, registered capital or operating capital, the business scope of the proposed bank;
+
+(2) a feasibility study <EVENT class="REPORTING" eid="e13">report</EVENT>;
+
+(3) the draft articles of association of the proposed wholly foreign-funded bank or Chinese-foreign joint venture bank;
+
+(4) the business contract <EVENT class="OCCURRENCE" eid="e14">signed</EVENT> by all shareholders of the proposed wholly foreign-funded bank or Chinese-foreign joint venture bank;
+
+(5) articles of association of the shareholder of the proposed wholly foreign-funded bank or Chinese-foreign joint venture bank or of the foreign bank <EVENT class="STATE" eid="e15">applying</EVENT> to <EVENT class="I_ACTION" eid="e16">establish</EVENT> a branch;
+
+(6) the organizational chart, name-list of major shareholders, overseas establishments and associated enterprises of the shareholder of the proposed wholly foreign-funded bank or Chinese-foreign joint venture bank or of the foreign bank <EVENT class="STATE" eid="e17">applying</EVENT> to <EVENT class="I_ACTION" eid="e18">establish</EVENT> a branch and its parent group;
+
+(7) annual reports for the most <TIMEX3 type="DURATION" value="2006-11-17T03:00" tid="t1">recent three years</TIMEX3> of the shareholder of the proposed wholly foreign-funded bank or Chinese-foreign joint venture bank, or of the foreign bank <EVENT class="STATE" eid="e19">applying</EVENT> to <EVENT class="I_ACTION" eid="e20">establish</EVENT> a branch;
+
+(8) anti-money laundering systems <EVENT class="OCCURRENCE" eid="e21">adopted</EVENT> by the shareholder of the proposed wholly foreign-funded bank or Chinese-foreign joint venture bank, or by the foreign bank <EVENT class="STATE" eid="e22">applying</EVENT> to <EVENT class="I_ACTION" eid="e23">establish</EVENT> a branch;
+
+(9) photocopies of the business licence or the financial services <EVENT class="I_ACTION" eid="e24">permit</EVENT>, and the written opinions on the application <EVENT class="OCCURRENCE" eid="e25">issued</EVENT> by the financial regulatory authority of the home country or region of the shareholder of the proposed wholly foreign-funded bank, or of the foreign shareholder of the proposed Chinese-foreign joint venture bank, or of the foreign bank <EVENT class="STATE" eid="e26">applying</EVENT> to <EVENT class="I_ACTION" eid="e27">establish</EVENT> a branch; and
+
+(10) other documents <EVENT class="OCCURRENCE" eid="e28">specified</EVENT> by the banking regulatory agency of the State Council.
+
+The banking regulatory agency in the place where the proposed bank is to be <EVENT class="OCCURRENCE" eid="e29">established</EVENT> shall <EVENT class="OCCURRENCE" eid="e30">submit</EVENT> the application documents together with its examination opinion to the banking regulatory agency of the State Council in due time. (more)
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei30" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+
+
+
+
+</TimeML>

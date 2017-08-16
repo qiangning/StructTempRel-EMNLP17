@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0052</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Beijing youth are heavier, suffer poorer eyesight: survey</TITLE>
+
+
+<TEXT>
+
+The eyesight of young students in Beijing <EVENT class="OCCURRENCE" eid="e1">gets</EVENT> worse as their school careers <EVENT class="OCCURRENCE" eid="e2">advance</EVENT> <EVENT class="REPORTING" eid="e3">according</EVENT> to a recent survey, which <EVENT class="OCCURRENCE" eid="e5">shows</EVENT> that 86 percent of students in colleges and 31 percent in primary schools have poor eyesight.
+
+Tong Zhiyan, an official with the Beijing sports administration, <EVENT class="REPORTING" eid="e6">said</EVENT> the city's rate of young with poor eyesight and who are overweight <EVENT class="ASPECTUAL" eid="e7">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e8">grow</EVENT> and is the worst in the country.
+
+Tong <EVENT class="REPORTING" eid="e9">said</EVENT> governments and schools should <EVENT class="OCCURRENCE" eid="e10">take</EVENT> measures to <EVENT class="OCCURRENCE" eid="e11">curb</EVENT> the deterioration of eyesight and the weight of students.
+
+A total of 32,879 people between the ages of three and 69 were <EVENT class="OCCURRENCE" eid="e12">surveyed</EVENT> in <TIMEX3 type="DATE" value="2005" tid="t1">2005</TIMEX3>.
+
+The 2005 survey <EVENT class="OCCURRENCE" eid="e13">found</EVENT> 22.1 percent of Beijingers were "very" physically fit, up 4.2 percentage points from <TIMEX3 type="DATE" value="2000" tid="t3">2000</TIMEX3>, and 27.2 percent were <EVENT class="OCCURRENCE" eid="e14">classified</EVENT> as "good," a drop of 0.3 percentage points since <TIMEX3 type="DATE" value="2000" tid="t4">2000</TIMEX3>.
+
+A nationwide <EVENT class="OCCURRENCE" eid="e16">survey</EVENT> on student health conducted by the Ministry of Education in <TIMEX3 type="DATE" value="2004" tid="t5">2004</TIMEX3> <EVENT class="OCCURRENCE" eid="e18">found</EVENT> that 80 percent of Chinese college students <EVENT class="OCCURRENCE" eid="e19">suffered</EVENT> from poor eyesight and that the older the students, the poorer their sight.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000014" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1000014" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei1000014" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+
+
+
+
+</TimeML>

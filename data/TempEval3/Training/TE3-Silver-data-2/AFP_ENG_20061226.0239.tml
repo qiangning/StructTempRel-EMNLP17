@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061226.0239</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2006-12-26" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 26 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>English Premiership results</TITLE>
+
+
+<TEXT>
+
+English Premiership <EVENT class="STATE" eid="e1">results</EVENT> on <TIMEX3 type="DATE" value="2006-12-26" tid="t1">Tuesday:</TIMEX3>
+
+<TIMEX3 type="DATE" value="2006-12-26T02:00" tid="t2">Chelsea 2 (Drogba 38, 72</TIMEX3>) Reading 2 (Lita 67, Essien 85-og)
+
+Tottenham 2 (Defoe 58, 77) Aston Villa 1 (Barry 81)
+
+West Ham 1 (Sheringham 81) Portsmouth 2 (Primus 16, 38)
+
+<EVENT class="OCCURRENCE" eid="e3">Playing</EVENT> later (1500 GMT unless stated)
+
+Manchester United v Wigan Athletic
+
+Everton v Middlesbrough
+
+Blackburn v Liverpool
+
+Bolton v Newcastle
+
+Sheffield United v Manchester City
+
+Watford v Arsenal (1730)
+
+Wednesday
+
+Charlton v Fulham
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

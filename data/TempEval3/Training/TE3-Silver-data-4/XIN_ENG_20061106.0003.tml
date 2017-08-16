@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061106.0003</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-06" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 6 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Central SOEs' officials meet to discuss IPR protection</TITLE>
+
+
+<TEXT>
+
+A seminar on intellectual property rights (IPR) protection <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> here on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3>, which <EVENT class="OCCURRENCE" eid="e2">aims</EVENT> at <EVENT class="OCCURRENCE" eid="e3">strengthening</EVENT> IPR protection <EVENT class="OCCURRENCE" eid="e4">effort</EVENT> in China's State-owned enterprises (SOEs).
+
+The seminar was <EVENT class="OCCURRENCE" eid="e5">attended</EVENT> by 80 participants from SOEs under direct administration of the central government, the State Administration of Supervision and Inspection of State-owned Enterprises, China Banking Regulatory Commission, China Securities Regulatory Commission and China Insurance Regulatory Commission.
+
+The participants will <EVENT class="OCCURRENCE" eid="e6">discuss</EVENT> IPR cases and ways to <EVENT class="OCCURRENCE" eid="e7">strengthen</EVENT> and <EVENT class="OCCURRENCE" eid="e8">improve</EVENT> IPR protection in Chinese enterprises.
+
+The 10-day event was jointly <EVENT class="OCCURRENCE" eid="e9">sponsored</EVENT> by the Organization Department of the Communist Party of China central committee, the State Office of Intellectual Property Protection and the National School of Administration.
+
+China <EVENT class="OCCURRENCE" eid="e10">launched</EVENT> a 100-day nationwide intensive anti-piracy <EVENT class="OCCURRENCE" eid="e11">campaign</EVENT>, <EVENT class="OCCURRENCE" eid="e12">focusing</EVENT> on pirated audio and video products and computer software on <TIMEX3 type="DATE" value="2006-07-15" tid="t4">July 15</TIMEX3>.
+
+An average of 19.46 million illegal publications were <EVENT class="OCCURRENCE" eid="e13">seized</EVENT> <TIMEX3 type="DATE" value="2006-11-06" tid="t5">each month from July to September</TIMEX3>, more than double the monthly average for the January-June period, <EVENT class="REPORTING" eid="e15">according</EVENT> to an official of the State Office of Intellectual Property Protection.
+
+The Chinese government had <EVENT class="OCCURRENCE" eid="e16">set</EVENT> up a task force on IPR protection and <EVENT class="OCCURRENCE" eid="e17">opened</EVENT> 50 centers to <EVENT class="I_ACTION" eid="e18">handle</EVENT> complaints of IPR <EVENT class="OCCURRENCE" eid="e20">violations</EVENT> across the country.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

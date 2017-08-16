@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061111.0037</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Emergency broadcasts to help public during disasters</TITLE>
+
+
+<TEXT>
+
+The public <EVENT class="I_STATE" eid="e1">needs</EVENT> to be <EVENT class="I_ACTION" eid="e2">warned</EVENT> about extreme weather and dangerous conditions and be <EVENT class="OCCURRENCE" eid="e3">advised</EVENT> of how to <EVENT class="OCCURRENCE" eid="e4">reduce</EVENT> damage <EVENT class="OCCURRENCE" eid="e5">caused</EVENT> by <EVENT class="OCCURRENCE" eid="e6">disasters</EVENT>, <EVENT class="REPORTING" eid="e7">according</EVENT> to the health ministry.
+
+The Ministry of Health (MOH) and China Meteorological Administration (CMA) <EVENT class="I_STATE" eid="e8">plan</EVENT> to jointly <EVENT class="OCCURRENCE" eid="e9">make</EVENT> special broadcast reports <EVENT class="OCCURRENCE" eid="e11">providing</EVENT> information about extreme heat, carbon monoxide levels and epidemics, <EVENT class="REPORTING" eid="e12">according</EVENT> to an agreement <EVENT class="OCCURRENCE" eid="e13">signed</EVENT> recently by the two agencies.
+
+The expert advisory information will <EVENT class="OCCURRENCE" eid="e14">focus</EVENT> on <EVENT class="I_ACTION" eid="e15">helping</EVENT> people <EVENT class="I_ACTION" eid="e16">cope</EVENT> and <EVENT class="OCCURRENCE" eid="e17">protect</EVENT> themselves during bad weather and public health emergencies, <EVENT class="REPORTING" eid="e18">according</EVENT> to the MOH.
+
+The MOH and the CMA will jointly <EVENT class="OCCURRENCE" eid="e19">conduct</EVENT> research on how the weather influences people's health and will <EVENT class="OCCURRENCE" eid="e20">set</EVENT> up a mechanism for monitoring, forecasting and emergency warning.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0007</DOCID>
+
+<DCT>ISLAMABAD, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>House roof collapse kills 1, injures 5 in Pakistan</TITLE>
+
+
+<TEXT>
+
+A house roof <EVENT class="OCCURRENCE" eid="e1">collapsed</EVENT> in Pakistan's largest port city Karachi, <EVENT class="OCCURRENCE" eid="e2">killing</EVENT> a baby and <EVENT class="OCCURRENCE" eid="e3">injuring</EVENT> five persons of the family that <EVENT class="OCCURRENCE" eid="e4">included</EVENT> her parents and two sisters, local private Geo TV <EVENT class="REPORTING" eid="e5">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t1">Wednesday</TIMEX3>.
+
+Police <EVENT class="REPORTING" eid="e6">said</EVENT> that the roof and walls of the dilapidated house of a junk dealer at Gharibabad of Liaquatabad area in Karachi <EVENT class="OCCURRENCE" eid="e7">came</EVENT> <EVENT class="OCCURRENCE" eid="e8">crashing</EVENT> with a <EVENT class="OCCURRENCE" eid="e9">bang</EVENT> to <EVENT class="OCCURRENCE" eid="e10">bury</EVENT> the whole family <EVENT class="OCCURRENCE" eid="e11">sleeping</EVENT> therein under the debris.
+
+The neighbors <EVENT class="OCCURRENCE" eid="e12">hearing</EVENT> the <EVENT class="OCCURRENCE" eid="e13">thud</EVENT> of the collapsing roof <EVENT class="OCCURRENCE" eid="e14">came</EVENT> out <EVENT class="OCCURRENCE" eid="e15">rescuing</EVENT> six persons and <EVENT class="OCCURRENCE" eid="e16">shifted</EVENT> them to local hospital, where the doctors <EVENT class="I_ACTION" eid="e17">pronounced</EVENT> the five-month-old baby dead, <EVENT class="REPORTING" eid="e18">according</EVENT> to the report.
+
+Two girls were in serious conditions, the report <EVENT class="REPORTING" eid="e20">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

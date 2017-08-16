@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970401.0534</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="1997-04-02" temporalFunction="false" functionInDocument="CREATION_TIME">April 2 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Shanghai police raid home of another underground priest</TITLE>
+
+
+<TEXT>
+
+Shanghai police have <EVENT class="OCCURRENCE" eid="e1">raided</EVENT> the home of a second underground Catholic priest <EVENT class="OCCURRENCE" eid="e2">carting</EVENT> away money and religious items, a US-based pressure group <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-02" tid="t1">Wednesday</TIMEX3>.
+
+The Cardinal Kung Foundation <EVENT class="REPORTING" eid="e4">said</EVENT> in a statement <EVENT class="OCCURRENCE" eid="e5">faxed</EVENT> here that six public security officials <EVENT class="OCCURRENCE" eid="e6">searched</EVENT> the home of Father Zen Caijun on <TIMEX3 type="DATE" value="1997-03-29" tid="t2">March 29</TIMEX3> for <TIMEX3 type="DURATION" value="PT5H" tid="t3">five hours</TIMEX3> and <EVENT class="OCCURRENCE" eid="e7">took</EVENT> away cash, a video casette recorder, religious videos and other electrical goods.
+
+"The raid consisting of six policemen <EVENT class="ASPECTUAL" eid="e8">started</EVENT> in the late evening <TIMEX3 type="DATE" value="1997-03-29" tid="t4">March 29</TIMEX3> until <TIMEX3 type="DATE" value="1997-04-02" tid="t5">early morning of March 30</TIMEX3>, <EVENT class="OCCURRENCE" eid="e9">lasting</EVENT> about <TIMEX3 type="DURATION" value="PT5H" tid="t6">five hours</TIMEX3>," the statement <EVENT class="REPORTING" eid="e10">said</EVENT>, <EVENT class="OCCURRENCE" eid="e11">adding</EVENT> that no reason was <EVENT class="OCCURRENCE" eid="e12">given</EVENT> for the <EVENT class="OCCURRENCE" eid="e13">search</EVENT> and no <EVENT class="OCCURRENCE" eid="e14">receipt</EVENT> <EVENT class="OCCURRENCE" eid="e15">issued</EVENT> for the goods <EVENT class="OCCURRENCE" eid="e16">seized</EVENT>.
+
+An official of the municipal religious affairs bureau <EVENT class="REPORTING" eid="e17">said</EVENT> that they <EVENT class="I_STATE" eid="e18">knew</EVENT> of the <EVENT class="OCCURRENCE" eid="e19">incident</EVENT>.
+
+"This is a secretive matter. We <EVENT class="OCCURRENCE" eid="e20">cannot</EVENT> <EVENT class="REPORTING" eid="e21">talk</EVENT> about this to the public because it <EVENT class="OCCURRENCE" eid="e22">involves</EVENT> many different opinions," she <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+A public security bureau official <EVENT class="REPORTING" eid="e24">said</EVENT> the police were <EVENT class="STATE" eid="e25">unable</EVENT> to <EVENT class="OCCURRENCE" eid="e26">comment</EVENT> on the statement.
+
+But Shanghai police did <EVENT class="REPORTING" eid="e27">say</EVENT> that on <TIMEX3 type="DATE" value="1997-03-24" tid="t7">March 24</TIMEX3> they had <EVENT class="OCCURRENCE" eid="e28">taken</EVENT> similar <EVENT class="OCCURRENCE" eid="e29">action</EVENT> against Bishop Joseph Fan Zhongliang, coadjutor of the underground Roman Catholic Church. They <EVENT class="OCCURRENCE" eid="e30">declined</EVENT> to <EVENT class="OCCURRENCE" eid="e31">provide</EVENT> details.
+
+The Stamford, Conneticut-based Cardinal Kung Foundation <EVENT class="REPORTING" eid="e32">said</EVENT> police <EVENT class="OCCURRENCE" eid="e33">took</EVENT> away 20,000 yuan (2,500 dollars), bibles, rosaries, religious medals and books.
+
+Fan, 79, is coadjutor bishop in the absence of the Vatican-appointed Bishop of Shanghai, Cardinal Ignatius Kung, who <EVENT class="OCCURRENCE" eid="e34">left</EVENT> Shanghai in <TIMEX3 type="DATE" value="1988" tid="t8">1988</TIMEX3> to <EVENT class="I_ACTION" eid="e35">seek</EVENT> medical treatment in the United States where he <EVENT class="STATE" eid="e37">remains</EVENT> today.
+
+The Roman Catholic Church was <EVENT class="OCCURRENCE" eid="e38">driven</EVENT> underground after the Chinese government <EVENT class="OCCURRENCE" eid="e39">formed</EVENT> its own Chinese Catholic Patriotic Association in <TIMEX3 type="DATE" value="1957" tid="t10">1957</TIMEX3>. The official church is still <EVENT class="I_ACTION" eid="e40">seeking</EVENT> Vatican recognition.
+
+On <TIMEX3 type="DATE" value="1997-03-30" tid="t11">Sunday</TIMEX3>, US House of Representatives Speaker Newt Gringrich and Australian Prime Minister John Howard <EVENT class="OCCURRENCE" eid="e41">attended</EVENT> <TIMEX3 type="DATE" value="1997-04-02" tid="t12">Easter</TIMEX3> service at an official protestant church in Shanghai.
+
+Gringrich <EVENT class="REPORTING" eid="e42">said</EVENT> it was a "wonderful thing to be <EVENT class="I_STATE" eid="e43">able</EVENT> in Shanghai to be <EVENT class="OCCURRENCE" eid="e44">celebrating</EVENT> the resurrection of Christ and to <EVENT class="OCCURRENCE" eid="e46">worship</EVENT> with Chinese, Australian and with others."
+
+"And I <EVENT class="I_STATE" eid="e47">think</EVENT> it is a good sign, we <EVENT class="I_STATE" eid="e48">want</EVENT> to <EVENT class="OCCURRENCE" eid="e49">encourage</EVENT> that kind of openess," he <EVENT class="REPORTING" eid="e50">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000041" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50" eventID="e50" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei40" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei50" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei41" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei39" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei41" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei34" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei35" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei42" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei27" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="INCLUDES" />
+<TLINK lid="l43" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei47" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l45" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l57" eventInstanceID="ei42" relatedToEventInstance="ei50" relType="SIMULTANEOUS" />
+<TLINK lid="l58" eventInstanceID="ei48" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l59" eventInstanceID="ei49" relatedToEventInstance="ei50" relType="BEFORE" />
+<TLINK lid="l60" eventInstanceID="ei42" relatedToEventInstance="ei46" relType="AFTER" />
+<TLINK lid="l61" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l62" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l63" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l64" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l65" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l66" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l67" eventInstanceID="ei41" relatedToEventInstance="ei1000041" relType="AFTER" />
+<TLINK lid="l68" eventInstanceID="ei1000041" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l69" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l70" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l71" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l72" eventInstanceID="ei28" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

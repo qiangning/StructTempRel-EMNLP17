@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051212.0028</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2005-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2005</TIMEX3></DCT>
+
+<TITLE>by US</TITLE>
+
+
+<TEXT>
+
+Jose Maria Sison, the exiled founder of the Philippines' decades-old communist insurgency, <EVENT class="REPORTING" eid="e2">said</EVENT> <TIMEX3 type="DATE" value="2005-12-12" tid="t1">Monday</TIMEX3> he <EVENT class="I_STATE" eid="e3">fears</EVENT> he could be <EVENT class="OCCURRENCE" eid="e4">abducted</EVENT> by the United States in its <EVENT class="OCCURRENCE" eid="e5">fight</EVENT> against international terrorism.
+
+The US State Department and western allies have <EVENT class="OCCURRENCE" eid="e6">designated</EVENT> the Communist Party of the Philippines (CPP), which Sison <EVENT class="OCCURRENCE" eid="e7">established</EVENT> in <TIMEX3 type="DATE" value="1968" tid="t2">1968</TIMEX3>, and its armed wing the New People's Army (NPA), as "foreign terrorist organizations".
+
+Sison, who <EVENT class="OCCURRENCE" eid="e8">lives</EVENT> in exile in the Netherlands where he is <EVENT class="I_ACTION" eid="e9">seeking</EVENT> political asylum, <EVENT class="I_ACTION" eid="e10">accused</EVENT> President Gloria Arroyo's government of <EVENT class="OCCURRENCE" eid="e11">implicating</EVENT> the CPP-NPA in terrorism to <EVENT class="STATE" eid="e12">justify</EVENT> his <EVENT class="OCCURRENCE" eid="e13">arrest</EVENT> by Washington, Manila's top military ally.
+
+Arroyo has <EVENT class="ASPECTUAL" eid="e14">suspended</EVENT> peace <EVENT class="OCCURRENCE" eid="e15">talks</EVENT> with the CPP-NPA after the rebels <EVENT class="OCCURRENCE" eid="e16">refused</EVENT> a government demand for a nationwide ceasefire. The insurgent leadership also <EVENT class="I_STATE" eid="e18">wants</EVENT> Manila to <EVENT class="OCCURRENCE" eid="e19">get</EVENT> the group off the West's terrorist watchlist.
+
+"My Philippine, European and American lawyers are <EVENT class="I_ACTION" eid="e20">looking</EVENT> into the possibility that the US and Arroyo governments are <EVENT class="OCCURRENCE" eid="e21">fabricating</EVENT> stories and intelligence dossiers against me in order to <EVENT class="OCCURRENCE" eid="e22">lay</EVENT> the ground for my 'rendition' by the CIA and other operatives of the US," Sison <EVENT class="REPORTING" eid="e23">said</EVENT> in a statement.
+
+Sison <EVENT class="OCCURRENCE" eid="e24">equated</EVENT> the term "rendition" with "<EVENT class="OCCURRENCE" eid="e25">kidnapping</EVENT>".
+
+The term "rendition" <EVENT class="OCCURRENCE" eid="e26">refers</EVENT> to allegations that the US government is <EVENT class="OCCURRENCE" eid="e27">flying</EVENT> terrorist suspects to secret bases and third countries for interrogation.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+
+
+
+
+</TimeML>

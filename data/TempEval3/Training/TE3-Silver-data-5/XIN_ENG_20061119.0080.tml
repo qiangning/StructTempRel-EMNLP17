@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0080</DOCID>
+
+<DCT>LAGOS, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Five airlines grounded in Nigeria</TITLE>
+
+
+<TEXT>
+
+The Nigerian Civil Aviation Authority (NCAA) has <EVENT class="ASPECTUAL" eid="e1">suspended</EVENT> airline operating certificates of five domestic carriers to <EVENT class="OCCURRENCE" eid="e2">sanitize</EVENT> the ailing aviation industry, local media <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-19" tid="t1">Sunday</TIMEX3>.
+
+The affected airlines are Sosoliso, IRS, Space World, Fresh Air and Dasab. The NCAA <EVENT class="OCCURRENCE" eid="e4">revoked</EVENT> ADC's certificate on <TIMEX3 type="DATE" value="2006-10-30" tid="t2">October 30</TIMEX3> after its B737-200 aircraft <EVENT class="OCCURRENCE" eid="e5">crashed</EVENT> in <TIMEX3 type="DATE" value="2006-11-19T01:00" tid="t3">Abuja one day earlier</TIMEX3>, <EVENT class="OCCURRENCE" eid="e6">killing</EVENT> 98 people.
+
+The NCAA at <TIMEX3 type="DATE" value="2006-W45-WE" tid="t4">the weekend</TIMEX3> <EVENT class="OCCURRENCE" eid="e7">withdrew</EVENT> the certificates for what it <EVENT class="REPORTING" eid="e8">described</EVENT> as their "<EVENT class="OCCURRENCE" eid="e9">flouting</EVENT> safety rules, (and) <EVENT class="OCCURRENCE" eid="e10">operation</EVENT> of one airplane."
+
+Sosoliso was specifically <EVENT class="I_ACTION" eid="e11">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e12">using</EVENT> bad tires in the fleet of its aircraft which <EVENT class="I_ACTION" eid="e13">recorded</EVENT> an air <EVENT class="OCCURRENCE" eid="e14">crash</EVENT> on <TIMEX3 type="DATE" value="2005-12-10" tid="t5">Dec. 10, 2005</TIMEX3> which <EVENT class="OCCURRENCE" eid="e15">killed</EVENT> 108 people, including more than 60 teenage students.
+
+Managing Director of Sosoliso Airlines Oscar Ikwuemesi <EVENT class="REPORTING" eid="e16">confirmed</EVENT> the suspension, but <EVENT class="REPORTING" eid="e17">explaining</EVENT> that the airline's management was <EVENT class="OCCURRENCE" eid="e18">meeting</EVENT> with the NCAA to <EVENT class="ASPECTUAL" eid="e19">resolve</EVENT> the problem.
+
+The affected airlines' billboards had been <EVENT class="OCCURRENCE" eid="e20">removed</EVENT> from their counters at the domestic wing of the Murtala Muhammed Airport, Lagos.
+
+Aviation Minister Femi Fani-Kayode <EVENT class="REPORTING" eid="e21">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-17" tid="t7">Friday</TIMEX3> at his maiden interactive forum with journalists that he was going to be <EVENT class="STATE" eid="e22">firm</EVENT> in the area of aviation safety, <EVENT class="OCCURRENCE" eid="e23">adding</EVENT> that he would <EVENT class="OCCURRENCE" eid="e24">give</EVENT> the aviation regulatory body "all the necessary backing to <EVENT class="OCCURRENCE" eid="e25">sanitize</EVENT> the industry."
+
+Fani-Kayode <EVENT class="REPORTING" eid="e26">said</EVENT> he was <EVENT class="STATE" eid="e27">happy</EVENT> that the NCAA autonomy bill had been <EVENT class="OCCURRENCE" eid="e28">signed</EVENT> into law by President Olusegun Obasanjo on <TIMEX3 type="DATE" value="2006-11-15" tid="t8">Wednesday</TIMEX3>. He, however, <EVENT class="OCCURRENCE" eid="e29">reiterated</EVENT> that more domestic carriers would be <EVENT class="OCCURRENCE" eid="e30">giving</EVENT> internationally lucrative routes, <EVENT class="OCCURRENCE" eid="e31">noting</EVENT> that the airlines would only <EVENT class="OCCURRENCE" eid="e32">grow</EVENT> if they were <EVENT class="OCCURRENCE" eid="e33">given</EVENT> choice routes.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei28" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l49" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+
+
+
+
+</TimeML>

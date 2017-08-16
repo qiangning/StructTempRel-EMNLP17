@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0150</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>No landmark to be built for Expo 2010 Shanghai China</TITLE>
+
+
+<TEXT>
+
+Shanghai will not <EVENT class="OCCURRENCE" eid="e1">build</EVENT> a landmark architecture for the 2010 World Expo but will <EVENT class="OCCURRENCE" eid="e2">bequeath</EVENT> a huge spiritual legacy to later generations, <EVENT class="REPORTING" eid="e3">said</EVENT> Zhou Hanmin, deputy director of the expo's coordination committee.
+
+He <EVENT class="REPORTING" eid="e4">said</EVENT> the expo will <EVENT class="OCCURRENCE" eid="e5">perform</EVENT> three major functions of <EVENT class="OCCURRENCE" eid="e6">reshaping</EVENT> of cities and countries, <EVENT class="OCCURRENCE" eid="e7">displaying</EVENT> of world cultural diversity and innovation in science and technology, and the enlightenment of future generations.
+
+Zhou <EVENT class="OCCURRENCE" eid="e8">made</EVENT> the remarks on <TIMEX3 type="DATE" value="2005-11-26" tid="t2">Saturday</TIMEX3> at an international symposium <EVENT class="OCCURRENCE" eid="e10">held</EVENT> by the Japanese Research Center of Shanghai-based Fudan University.
+
+He <EVENT class="REPORTING" eid="e11">emphasized</EVENT> that the city will not <EVENT class="OCCURRENCE" eid="e12">construct</EVENT> any buildings with the intention of <EVENT class="OCCURRENCE" eid="e13">creating</EVENT> a landmark for the expo, <EVENT class="OCCURRENCE" eid="e14">sharing</EVENT> the same opinion with Fukui Shohei, the chief designer of Expo 2005 Aichi Japan.
+
+"In <EVENT class="OCCURRENCE" eid="e15">departure</EVENT> from previous expos, the coming expo will <EVENT class="OCCURRENCE" eid="e16">highlight</EVENT> man's attitudes towards the nature, society and <TIMEX3 type="DATE" value="FUTURE_REF" tid="t4">the future</TIMEX3>," <EVENT class="REPORTING" eid="e17">said</EVENT> the deputy director.
+
+With the theme of "Better City, Better Life," the expo will be <EVENT class="OCCURRENCE" eid="e18">held</EVENT> from <TIMEX3 type="DATE" value="2010" tid="t5">May 1 to October 31, 2010</TIMEX3>, in east China's Shanghai Municipality. It will be <EVENT class="OCCURRENCE" eid="e19">located</EVENT> on the banks of the Huangpu River, the "Mother River of Shanghai," between the Lupu Bridge and the Nanpu Bridge.
+
+The predicted number of participant countries and international organizations is 200 and more than 70 million visitors are <EVENT class="I_STATE" eid="e21">expected</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei21" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+
+
+
+
+</TimeML>

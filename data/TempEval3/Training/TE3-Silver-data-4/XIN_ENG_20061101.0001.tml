@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0001</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesia hires Russian planes to douse forest fires</TITLE>
+
+
+<TEXT>
+
+Two amphibious Russian aircraft have <EVENT class="OCCURRENCE" eid="e1">arrived</EVENT> in Indonesia's South Sumatra province to <EVENT class="I_ACTION" eid="e2">help</EVENT> <EVENT class="OCCURRENCE" eid="e3">fight</EVENT> haze-causing fires in the west of the country, a report <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2006-11-01" tid="t1">Wednesday</TIMEX3>.
+
+The two BE-200 aircraft, which will be <EVENT class="OCCURRENCE" eid="e5">used</EVENT> to <EVENT class="OCCURRENCE" eid="e6">douse</EVENT> the land- clearing fires <EVENT class="OCCURRENCE" eid="e7">lit</EVENT> on Kalimantan and Sumatra islands, will <EVENT class="OCCURRENCE" eid="e8">strengthen</EVENT> the nation's fire-fighting air fleet, which consists of five BO-105 helicopters owned by the Indonesian Air Force, Navy and police, <EVENT class="REPORTING" eid="e10">reported</EVENT> major national newspaper The Jakarta Post.
+
+The Indonesian House of Representatives has <EVENT class="OCCURRENCE" eid="e11">approved</EVENT> 100 billion rupiah (10.52 million U.S. dollars) to <EVENT class="OCCURRENCE" eid="e12">fight</EVENT> the fires, which have <EVENT class="OCCURRENCE" eid="e13">caused</EVENT> choking <EVENT class="OCCURRENCE" eid="e14">haze</EVENT> to blanket the west of the country, along with Singapore, Malaysia and parts of southern Thailand.
+
+The lease for the aircraft was <EVENT class="OCCURRENCE" eid="e16">signed</EVENT> on <TIMEX3 type="DATE" value="2006-10-23" tid="t2">Oct. 23</TIMEX3> by officials from the Russian Emergencies Ministry and the Indonesian National Disasters Coordination Agency (Bakornas).
+
+Kirill Barsky, Russia's deputy chief of mission here, <EVENT class="REPORTING" eid="e17">said</EVENT> the country was happy to <EVENT class="I_ACTION" eid="e18">help</EVENT> Indonesia <EVENT class="OCCURRENCE" eid="e19">fight</EVENT> the haze.
+
+Barsky <EVENT class="OCCURRENCE" eid="e20">expressed</EVENT> confidence the two aircraft <EVENT class="OCCURRENCE" eid="e21">supported</EVENT> by 29 crew would be <EVENT class="STATE" eid="e22">capable</EVENT> of extinguishing forest <EVENT class="OCCURRENCE" eid="e23">fires</EVENT> over large areas.
+
+"We're <EVENT class="STATE" eid="e24">optimistic</EVENT> about <EVENT class="OCCURRENCE" eid="e25">getting</EVENT> the best results because of the experienced crew members," he <EVENT class="REPORTING" eid="e26">said</EVENT>.
+
+The planes' crew had <EVENT class="OCCURRENCE" eid="e27">fought</EVENT> similar <EVENT class="OCCURRENCE" eid="e28">fires</EVENT> in Africa <TIMEX3 type="DATE" value="PAST_REF" tid="t3">several years ago</TIMEX3> and had just <EVENT class="ASPECTUAL" eid="e29">finished</EVENT> <EVENT class="OCCURRENCE" eid="e30">dealing</EVENT> with blazes in Portugal, he <EVENT class="REPORTING" eid="e31">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="ADJECTIVE" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei28" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+
+
+
+
+</TimeML>

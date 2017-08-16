@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0168</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese company signs deal for a hydropower project in Laos</TITLE>
+
+
+<TEXT>
+
+China International Water &amp; Electric Corp. (CWE) <EVENT class="OCCURRENCE" eid="e1">signed</EVENT> a deal with the Lao government on <TIMEX3 type="DATE" value="2006-11-19" tid="t1">Sunday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e3">build</EVENT> a hydropower station near Vientiane, capital of Laos.
+
+The hydropower station would <EVENT class="STATE" eid="e4">have</EVENT> an installed generating capacity of 100,000 kilowatts, and be <EVENT class="OCCURRENCE" eid="e5">operated</EVENT> under the model of BOT (Build-Operate-Transfer), <EVENT class="REPORTING" eid="e6">said</EVENT> Lu Guojun, general manger of CWE here <TIMEX3 type="DATE" value="2006-11-19" tid="t2">Sunday</TIMEX3>.
+
+"With an <EVENT class="OCCURRENCE" eid="e8">investment</EVENT> of 142 million U.S. dollars, the deal <EVENT class="OCCURRENCE" eid="e10">marks</EVENT> the first hydropower project under BOT model by Chinese companies in Laos, he <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+CWE has <EVENT class="OCCURRENCE" eid="e12">participated</EVENT> in three hydropower projects in Laos since it <EVENT class="OCCURRENCE" eid="e13">entered</EVENT> the country in <TIMEX3 type="DATE" value="1996" tid="t3">1996</TIMEX3>, <EVENT class="OCCURRENCE" eid="e14">involving</EVENT> the contract value and <EVENT class="OCCURRENCE" eid="e15">investment</EVENT> of nearly 178 million U.S. dollars.
+
+"As China and the Association of Southeast Asian Nations (ASEAN) <EVENT class="OCCURRENCE" eid="e16">push</EVENT> for the <EVENT class="OCCURRENCE" eid="e17">establishment</EVENT> of a free trade area, ASEAN countries have <EVENT class="STATE" eid="e18">become</EVENT> popular destinations for Chinese companies <EVENT class="OCCURRENCE" eid="e19">eyeing</EVENT> abroad," <EVENT class="REPORTING" eid="e20">said</EVENT> Lu.
+
+<EVENT class="REPORTING" eid="e21">According</EVENT> to the deal, the concession period of the project will be 30 years, including the estimated four and a half years for project construction. Then CWE will <EVENT class="OCCURRENCE" eid="e23">transfer</EVENT> the project to the Lao government.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei23" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+
+
+
+
+</TimeML>

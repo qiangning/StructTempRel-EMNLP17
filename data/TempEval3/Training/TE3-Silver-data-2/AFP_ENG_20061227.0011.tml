@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061227.0011</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2006-12-27" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 27 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS another quake ///</TITLE>
+
+
+<TEXT>
+
+Two moderate earthquakes <EVENT class="OCCURRENCE" eid="e1">struck</EVENT> the Indonesian island of Sulawesi <TIMEX3 type="DATE" value="2006-12-27" tid="t1">Wednesday</TIMEX3> but there were no immediate reports of damage or casualties, geologists <EVENT class="REPORTING" eid="e2">said</EVENT>.
+
+An earthquake measuring 5.2 on the Richter scale <EVENT class="OCCURRENCE" eid="e4">hit</EVENT> at 10:54 am (0254 GMT). It was <EVENT class="OCCURRENCE" eid="e5">centred</EVENT> 130 kilometres (80 miles) west of Kendari, the capital of Southeast Sulawesi province, and some 33 kilometres underground, the meteorological office <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e7">tremor</EVENT> was <EVENT class="OCCURRENCE" eid="e8">felt</EVENT> in the town of Kolaka, 36 kilometres southeast of the epicentre.
+
+An earlier <EVENT class="OCCURRENCE" eid="e9">earthquake</EVENT> of 5.6 on the Richter scale <EVENT class="OCCURRENCE" eid="e10">hit</EVENT> at 6:56 am and was <EVENT class="OCCURRENCE" eid="e11">centred</EVENT> 210 kilometres north-northeast of Manado, the capital of North Sulawesi province.
+
+The <EVENT class="OCCURRENCE" eid="e12">tremor</EVENT> was <EVENT class="OCCURRENCE" eid="e13">felt</EVENT> in Manado and on the nearby Sangihe islands. It <EVENT class="OCCURRENCE" eid="e14">came</EVENT> after another undersea earthquake <TIMEX3 type="DATE" value="2006-12-26" tid="t2">Tuesday</TIMEX3> off the coast of Taiwan <EVENT class="OCCURRENCE" eid="e16">set</EVENT> off a brief tsunami alert. The quake <EVENT class="OCCURRENCE" eid="e17">left</EVENT> two people dead in Taiwan.
+
+The Indonesian archipelago <EVENT class="OCCURRENCE" eid="e18">sits</EVENT> on the Pacific Ring of Fire where continental plates <EVENT class="OCCURRENCE" eid="e19">meet</EVENT>, <EVENT class="OCCURRENCE" eid="e20">causing</EVENT> frequent seismic and volcanic <EVENT class="OCCURRENCE" eid="e21">activity</EVENT>.
+
+Indonesia was the nation worst <EVENT class="OCCURRENCE" eid="e22">hit</EVENT> by the earthquake-triggered Asian <EVENT class="OCCURRENCE" eid="e23">tsunami</EVENT> in <TIMEX3 type="DATE" value="2004-12" tid="t3">December 2004</TIMEX3>, which <EVENT class="OCCURRENCE" eid="e24">killed</EVENT> some 168,000 people in Aceh province.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

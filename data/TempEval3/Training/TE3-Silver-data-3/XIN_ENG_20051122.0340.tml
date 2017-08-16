@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051122.0340</DOCID>
+
+<DCT>WARSAW, <TIMEX3 tid="t0" type="TIME" value="2005-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Poland to set timetable to join euro zone in two or three years: PM</TITLE>
+
+
+<TEXT>
+
+Polish Prime Minister Kazimierz Marcinkiewicz <EVENT class="REPORTING" eid="e1">said</EVENT> here <TIMEX3 type="DATE" value="2005-11-22" tid="t1">Tuesday</TIMEX3> his country would <EVENT class="OCCURRENCE" eid="e2">decide</EVENT> on its schedule to <EVENT class="OCCURRENCE" eid="e3">join</EVENT> the euro zone in <TIMEX3 type="DURATION" value="2005-11-22" tid="t2">two or three years</TIMEX3>.
+
+To <EVENT class="OCCURRENCE" eid="e4">set</EVENT> the date <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">now</TIMEX3> is "unrealistic" and could <EVENT class="OCCURRENCE" eid="e5">bring</EVENT> about much negative impact, <EVENT class="REPORTING" eid="e6">said</EVENT> the leader at a symposium on Poland's investment environment, <EVENT class="OCCURRENCE" eid="e7">adding</EVENT> this could be "bravely" done in <TIMEX3 type="DURATION" value="2005-11-22" tid="t4">two or three years</TIMEX3>' time.
+
+Marcinkiewicz <EVENT class="REPORTING" eid="e8">said</EVENT> his government would primarily <EVENT class="OCCURRENCE" eid="e9">ensure</EVENT> the stability of public <EVENT class="OCCURRENCE" eid="e10">finance</EVENT>, be more dedicated to <EVENT class="OCCURRENCE" eid="e12">reducing</EVENT> budgetary deficit and <EVENT class="OCCURRENCE" eid="e13">strive</EVENT> to <EVENT class="OCCURRENCE" eid="e14">meet</EVENT>, in <TIMEX3 type="DURATION" value="P4Y" tid="t5">four years</TIMEX3>' time, the criteria <EVENT class="OCCURRENCE" eid="e15">set</EVENT> by the Maastricht Treaty for the <EVENT class="OCCURRENCE" eid="e16">adoption</EVENT> of the European Union's common currency, the euro.
+
+The so-called Maastricht convergence criteria <EVENT class="OCCURRENCE" eid="e17">require</EVENT> euro candidates to <EVENT class="OCCURRENCE" eid="e18">meet</EVENT> strict macroeconomic targets including low inflation and interest rates and a public spending deficit limit of lower than 3 percent of GDP.
+
+Poland is the only country among the 10 new EU members that has not <EVENT class="OCCURRENCE" eid="e19">set</EVENT> the schedule for <EVENT class="OCCURRENCE" eid="e20">joining</EVENT> the euro zone.
+
+<TIMEX3 type="DATE" value="2005-11" tid="t6">Earlier this month</TIMEX3>, the European Commission, the executive arm of the EU, <EVENT class="OCCURRENCE" eid="e21">expressed</EVENT> unease over Poland's uncertainty on the single currency and <EVENT class="I_ACTION" eid="e22">urged</EVENT> it to <EVENT class="OCCURRENCE" eid="e23">set</EVENT> a deadline for <EVENT class="OCCURRENCE" eid="e24">adopting</EVENT> the euro.
+
+Marcinkiewicz <EVENT class="OCCURRENCE" eid="e25">responded</EVENT> that it would be unnecessary for Poland to <EVENT class="OCCURRENCE" eid="e26">join</EVENT> in the euro zone within <TIMEX3 type="DURATION" value="P4Y" tid="t7">four years</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei8" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

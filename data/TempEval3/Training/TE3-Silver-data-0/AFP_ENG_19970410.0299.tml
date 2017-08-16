@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970410.0299</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="1997-04-10" temporalFunction="false" functionInDocument="CREATION_TIME">April 10 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>India's tottering government given more breathing time</TITLE>
+
+
+<TEXT>
+
+India's Congress (I) party <TIMEX3 type="DATE" value="1997-04-10" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">gave</EVENT> the ruling coalition government until <TIMEX3 type="DATE" value="1997-04-04" tid="t2">Friday</TIMEX3> to sack Prime Minister H.D. Deve in <EVENT class="OCCURRENCE" eid="e2">return</EVENT> for its support in a <EVENT class="OCCURRENCE" eid="e3">vote</EVENT> of confidence.
+
+Congress spokesman Ved Prakash <EVENT class="REPORTING" eid="e4">said</EVENT>: "We have <EVENT class="REPORTING" eid="e5">told</EVENT> the United Front (government) that if it does not <EVENT class="OCCURRENCE" eid="e6">come</EVENT> to a viable solution before <TIMEX3 type="DATE" value="1997-04-10" tid="t3">11 a.m.</TIMEX3> (0530 GMT) tomorrow the Congress will <EVENT class="OCCURRENCE" eid="e7">vote</EVENT> against it.
+
+"Then the government will <EVENT class="OCCURRENCE" eid="e8">fall</EVENT>."
+
+Prakash's comments <EVENT class="OCCURRENCE" eid="e9">came</EVENT> after final peace <EVENT class="OCCURRENCE" eid="e10">talks</EVENT> between the two sides <EVENT class="OCCURRENCE" eid="e11">failed</EVENT> <TIMEX3 type="DATE" value="1997-04-10" tid="t4">Thursday</TIMEX3>.
+
+Prakash, however, <EVENT class="REPORTING" eid="e12">said</EVENT> a <EVENT class="OCCURRENCE" eid="e13">rapprochement</EVENT> could not be <EVENT class="OCCURRENCE" eid="e14">ruled</EVENT> out until <TIMEX3 type="DATE" value="1997-04-09T23:59" tid="t5">the last minute</TIMEX3>.
+
+The Congress <TIMEX3 type="DATE" value="1997-03" tid="t6">last month</TIMEX3> <EVENT class="OCCURRENCE" eid="e15">withdrew</EVENT> its parliamentary backing to the minority centre-left alliance, <EVENT class="I_ACTION" eid="e16">accusing</EVENT> the government of misrule.
+
+It <EVENT class="REPORTING" eid="e17">said</EVENT> Deve Gowda should be <EVENT class="OCCURRENCE" eid="e18">sacked</EVENT> and <EVENT class="REPORTING" eid="e19">announced</EVENT> it <EVENT class="I_STATE" eid="e20">wanted</EVENT> to <EVENT class="OCCURRENCE" eid="e21">form</EVENT> its own coalition. Neither group, however, is strong enough to <EVENT class="OCCURRENCE" eid="e22">govern</EVENT> without outside backing.
+
+Prakash <EVENT class="OCCURRENCE" eid="e23">added</EVENT>: "In politics, you cannot <EVENT class="REPORTING" eid="e24">say</EVENT> anything has <EVENT class="I_ACTION" eid="e25">failed</EVENT> until the very end. There are still lots of possibilities and scope for compromise."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei23" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei1" relatedToEventInstance="ei1000001" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

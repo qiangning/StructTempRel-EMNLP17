@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0294</DOCID>
+
+<DCT>LOS ANGELES, <TIMEX3 tid="t0" type="TIME" value="2006-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. busiest ports to get mobile radiation detectors</TITLE>
+
+
+<TEXT>
+
+Los Angeles and Long Beach ports will <EVENT class="OCCURRENCE" eid="e1">use</EVENT> mobile radiation detectors to <EVENT class="OCCURRENCE" eid="e2">check</EVENT> containers for nuclear materials as trucks <EVENT class="OCCURRENCE" eid="e3">leave</EVENT> the harbor, authorities <EVENT class="REPORTING" eid="e4">confirmed</EVENT> on <TIMEX3 type="DATE" value="2006-11-03" tid="t1">Friday</TIMEX3>.
+
+The federal government will <EVENT class="OCCURRENCE" eid="e5">provide</EVENT> the radiation detectors to the ports so as to <EVENT class="I_STATE" eid="e6">enable</EVENT> them to <EVENT class="I_ACTION" eid="e7">prevent</EVENT> terrorist <EVENT class="OCCURRENCE" eid="e8">attacks</EVENT>, law enforcement officials <EVENT class="REPORTING" eid="e9">said</EVENT>.
+
+The devices, which will <EVENT class="OCCURRENCE" eid="e10">check</EVENT> cargo containers on ships, trucks and trains, are part of a group of 24 portable scanners that will be <EVENT class="OCCURRENCE" eid="e11">delivered</EVENT> by <TIMEX3 type="DATE" value="2007-01" tid="t2">January</TIMEX3>.
+
+The monitors will <EVENT class="OCCURRENCE" eid="e12">supplement</EVENT> 85 stationary radiation detectors that have been <EVENT class="OCCURRENCE" eid="e13">used</EVENT> at 14 port terminals since <TIMEX3 type="DATE" value="2005-06" tid="t3">June 2005</TIMEX3>. The devices <EVENT class="OCCURRENCE" eid="e14">scan</EVENT> <EVENT class="OCCURRENCE" eid="e15">shipping</EVENT> containers for nuclear materials as trucks <EVENT class="OCCURRENCE" eid="e16">leave</EVENT> the harbor.
+
+In addition, customs officers <EVENT class="OCCURRENCE" eid="e17">use</EVENT> small hand-held detectors on the docks and wharves to <EVENT class="OCCURRENCE" eid="e18">check</EVENT> cargo as it is <EVENT class="OCCURRENCE" eid="e19">unloaded</EVENT> from ships.
+
+By <TIMEX3 type="DATE" value="2007" tid="t4">early next year</TIMEX3>, the additional scanners will <EVENT class="OCCURRENCE" eid="e20">allow</EVENT> customs to <EVENT class="OCCURRENCE" eid="e21">scan</EVENT> 100 percent of containers that leave the ports by truck and train. The devices also can be <EVENT class="OCCURRENCE" eid="e23">moved</EVENT> outside the harbor to <EVENT class="I_ACTION" eid="e24">help</EVENT> other law enforcement agencies.
+
+"The technology we have <EVENT class="OCCURRENCE" eid="e25">deployed</EVENT> <EVENT class="OCCURRENCE" eid="e26">enhances</EVENT> our critical mission of <EVENT class="I_ACTION" eid="e27">preventing</EVENT> terrorists or others from <EVENT class="I_ACTION" eid="e28">attempting</EVENT> to <EVENT class="OCCURRENCE" eid="e29">smuggle</EVENT> weapons of mass destruction through U.S. borders," Customs and Border Protection Commissioner W. Ralph Basham <EVENT class="REPORTING" eid="e31">told</EVENT> the Los Angeles Times.
+
+But critics <EVENT class="REPORTING" eid="e32">say</EVENT> the devices have <EVENT class="STATE" eid="e33">difficulty</EVENT> <EVENT class="OCCURRENCE" eid="e34">reading</EVENT> the low levels of radioactivity <EVENT class="OCCURRENCE" eid="e35">emitted</EVENT> by nuclear weapons; and they cannot <EVENT class="OCCURRENCE" eid="e36">detect</EVENT> radioactive materials if they are well <EVENT class="OCCURRENCE" eid="e37">shielded</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei32" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei23" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+
+
+
+
+</TimeML>

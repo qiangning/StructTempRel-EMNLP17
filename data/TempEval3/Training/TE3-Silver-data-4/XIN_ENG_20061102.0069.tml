@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061102.0069</DOCID>
+
+<DCT>CANBERRA, <TIMEX3 tid="t0" type="TIME" value="2006-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Australian stock market closes lower</TITLE>
+
+
+<TEXT>
+
+The Australian stock exchange market <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> lower <TIMEX3 type="DATE" value="2006-11-02" tid="t1">Thursday</TIMEX3> as the benchmark S&amp;P/ASX200 <EVENT class="OCCURRENCE" eid="e2">lost</EVENT> 7.0 points to 5,409.4, while the all ordinaries <EVENT class="OCCURRENCE" eid="e3">dipped</EVENT> 6.5 points to 5, 377.1.
+
+Market turnover was 1.4 billion shares worth 5.47 billion Australian dollars (4.22 billion U.S. dollars), with 584 stocks down, 578 up and 315 unchanged.
+
+Among the resources stocks, BHP Billiton <EVENT class="OCCURRENCE" eid="e4">advanced</EVENT> 8 cents to 27. 60 dollars, Rio Tinto <EVENT class="OCCURRENCE" eid="e5">improved</EVENT> 9 cents to 79.20 dollars.
+
+Among the banking stocks, the National Australia Bank <EVENT class="OCCURRENCE" eid="e6">softened</EVENT> 24 cents to 38.20 dollars, the Commonwealth Bank <EVENT class="OCCURRENCE" eid="e7">rose</EVENT> 12 cents to 47.81 dollars, and the ANZ <EVENT class="OCCURRENCE" eid="e8">lifted</EVENT> 5 cents to 29.59 dollars.
+
+In the media sector, News Corp <EVENT class="OCCURRENCE" eid="e9">slid</EVENT> 53 cents to 27.67 dollars.
+
+Telecommunications giant Telstra <EVENT class="OCCURRENCE" eid="e10">slumped</EVENT> 4 cents to 3.88 dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

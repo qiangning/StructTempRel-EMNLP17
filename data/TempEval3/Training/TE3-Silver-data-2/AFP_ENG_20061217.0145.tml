@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061217.0145</DOCID>
+
+<DCT>KANDAHAR, Afghanistan, <TIMEX3 tid="t0" type="TIME" value="2006-12-17" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 17 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>30 Taliban rebels killed in NATO Afghan raid</TITLE>
+
+
+<TEXT>
+
+A NATO-led airstrike in southern Afghanistan <TIMEX3 type="DATE" value="2006-W50" tid="t1">this week</TIMEX3> <EVENT class="OCCURRENCE" eid="e2">killed</EVENT> up to 30 Taliban fighters including two commanders, the governor of the troubled Kandahar province <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2006-12-17" tid="t2">Sunday</TIMEX3>.
+
+Warplanes from the NATO-led International Security Assistance Force (ISAF) <EVENT class="OCCURRENCE" eid="e5">bombed</EVENT> a compound <EVENT class="STATE" eid="e6">serving</EVENT> as a Taliban command post in the Panjwayi district of the volatile Kandahar province on <TIMEX3 type="DATE" value="2006-12-13" tid="t3">Wednesday</TIMEX3>.
+
+The alliance at the time did not <EVENT class="OCCURRENCE" eid="e7">provide</EVENT> information on casualties, <EVENT class="REPORTING" eid="e8">saying</EVENT> that toll was being <EVENT class="OCCURRENCE" eid="e9">assessed</EVENT>.
+
+"<EVENT class="REPORTING" eid="e10">According</EVENT> to intelligence reports, we've <EVENT class="OCCURRENCE" eid="e11">killed</EVENT> 30 Taliban including some of their commanders," Kandahar governor Asadullah Khalid <EVENT class="REPORTING" eid="e12">told</EVENT> a news <EVENT class="OCCURRENCE" eid="e13">conference</EVENT> on <TIMEX3 type="DATE" value="2006-12-10T04:00" tid="t4">Sunday, four days</TIMEX3> after the <EVENT class="OCCURRENCE" eid="e14">raid</EVENT>.
+
+He <EVENT class="REPORTING" eid="e15">said</EVENT> Taliban regional commanders Mullah Abdul Wali and Mullah Sher Jan, and low-ranking rebel commander Mullah Abdul Nafi, were among those <EVENT class="OCCURRENCE" eid="e16">killed</EVENT> in the air <EVENT class="OCCURRENCE" eid="e17">raid</EVENT>.
+
+Hundreds of ISAF troops <EVENT class="OCCURRENCE" eid="e18">backed</EVENT> by Afghan security forces <TIMEX3 type="DATE" value="2006-W50" tid="t6">this week</TIMEX3> <EVENT class="OCCURRENCE" eid="e19">launched</EVENT> a major <EVENT class="OCCURRENCE" eid="e20">operation</EVENT> in Panjwayi, a known Taliban stronghold where in mid-September troops <EVENT class="OCCURRENCE" eid="e21">fought</EVENT> a major <EVENT class="OCCURRENCE" eid="e22">battle</EVENT> with insurgents.
+
+More than 1,000 militants were <EVENT class="OCCURRENCE" eid="e23">killed</EVENT> in the earlier operation named "Medusa".
+
+ISAF on <TIMEX3 type="DATE" value="2006-12-15" tid="t8">Friday</TIMEX3> <EVENT class="OCCURRENCE" eid="e24">dropped</EVENT> leaflets on insurgent positions <EVENT class="I_ACTION" eid="e25">warning</EVENT> them to <EVENT class="OCCURRENCE" eid="e26">leave</EVENT> the area before troops <EVENT class="OCCURRENCE" eid="e27">force</EVENT> them to <EVENT class="OCCURRENCE" eid="e28">quit</EVENT>.
+
+The governor, <EVENT class="REPORTING" eid="e29">citing</EVENT> security reasons, did not <EVENT class="OCCURRENCE" eid="e30">provide</EVENT> details on the latest <EVENT class="OCCURRENCE" eid="e31">operation</EVENT>, named "Baaz Tsuka".
+
+Despite being <EVENT class="OCCURRENCE" eid="e32">forced</EVENT> out from power <TIMEX3 type="DATE" value="2001" tid="t9">five years ago</TIMEX3>, remnants of the Taliban are still active and have been <EVENT class="OCCURRENCE" eid="e33">carrying</EVENT> out fierce <EVENT class="OCCURRENCE" eid="e34">attacks</EVENT>.
+
+Some 4,000 people, including 1,000 civilians, have <EVENT class="OCCURRENCE" eid="e35">died</EVENT> in Taliban-led violence <TIMEX3 type="DATE" value="2006" tid="t10">this year</TIMEX3>, the bloodiest since the toppling of their regime in <TIMEX3 type="DATE" value="2001" tid="t11">late 2001</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000035" eventID="e35" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei35" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei32" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei24" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei35" relatedToEventInstance="ei1000035" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei1000035" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l52" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l53" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

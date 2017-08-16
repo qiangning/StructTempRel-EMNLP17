@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061221.0099</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-12-21" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 21 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>European shares fall at open: London FTSE down 0.16 percent</TITLE>
+
+
+<TEXT>
+
+European stock markets <EVENT class="OCCURRENCE" eid="e1">declined</EVENT> in early <EVENT class="OCCURRENCE" eid="e2">trading</EVENT> on <TIMEX3 type="DATE" value="2006-12-21" tid="t1">Thursday</TIMEX3>, with London's FTSE 100 index of leading shares losing 0.16 percent to <EVENT class="OCCURRENCE" eid="e4">reach</EVENT> 6,188.70 points.
+
+In Frankfurt the DAX 30 index <EVENT class="OCCURRENCE" eid="e5">shed</EVENT> 0.21 percent to 6,573.37 points and in Paris the CAC 40 <EVENT class="OCCURRENCE" eid="e6">lost</EVENT> 0.27 percent in value to 5,499.43.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

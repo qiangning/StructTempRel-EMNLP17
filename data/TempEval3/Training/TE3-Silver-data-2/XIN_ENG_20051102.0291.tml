@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0291</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>US acknowledges key al Qaeda member's escape from Afghani prison</TITLE>
+
+
+<TEXT>
+
+The US military on <TIMEX3 type="DATE" value="2005-11-02" tid="t1">Wednesday</TIMEX3> <EVENT class="REPORTING" eid="e1">acknowledged</EVENT> that a top al Qaeda member <EVENT class="OCCURRENCE" eid="e2">escaped</EVENT> from a US detention facility in Afghanistan in <TIMEX3 type="DATE" value="2005-11-02" tid="t2">the late summer</TIMEX3>.
+
+Omar al-Faruq, one of the top aides of al Qaeda leader Osama bin Laden, were among four captives <EVENT class="OCCURRENCE" eid="e3">ran</EVENT> away from the US prison in Bagram Air Base in Afghanistan in <TIMEX3 type="DATE" value="2005-07" tid="t3">July</TIMEX3>, Jean Offutt, a US military spokeswoman at Fort Bliss, Texas, <EVENT class="REPORTING" eid="e4">confirmed</EVENT>.
+
+His <EVENT class="OCCURRENCE" eid="e5">escape</EVENT> has been <EVENT class="OCCURRENCE" eid="e6">kept</EVENT> in secret by the US military until <TIMEX3 type="DATE" value="2005-11-01" tid="t4">Tuesday</TIMEX3> when military prosecutors <EVENT class="REPORTING" eid="e7">said</EVENT> they were <EVENT class="STATE" eid="e8">unable</EVENT> to <EVENT class="OCCURRENCE" eid="e9">bring</EVENT> al-Farouq to a <EVENT class="OCCURRENCE" eid="e10">trial</EVENT> of a prisoner abuse case in Afghanistan at Fort Bliss as a witness.
+
+Offutt <EVENT class="REPORTING" eid="e11">said</EVENT> the US military have <EVENT class="OCCURRENCE" eid="e12">beefed</EVENT> up security at Bagram since the <EVENT class="OCCURRENCE" eid="e13">escape</EVENT>, but <EVENT class="OCCURRENCE" eid="e14">gave</EVENT> no explanation for why the US military had been <EVENT class="STATE" eid="e15">hiding</EVENT> the information for so long.
+
+Omar al-Farouq, a Kuwaiti national, was <EVENT class="I_STATE" eid="e16">believed</EVENT> to be a senior lieutenant of Osama bin Laden and a top global operative for al Qaeda.
+
+In <TIMEX3 type="DATE" value="1998" tid="t5">1998</TIMEX3>, he was <EVENT class="OCCURRENCE" eid="e17">sent</EVENT> to Southeast Asia by Osama bin Laden to <EVENT class="OCCURRENCE" eid="e18">expand</EVENT> al Qaeda's operations in the region and has been <EVENT class="OCCURRENCE" eid="e20">implicated</EVENT> in several bomb <EVENT class="OCCURRENCE" eid="e21">attacks</EVENT> in Indonesia.
+
+He was <EVENT class="OCCURRENCE" eid="e22">captured</EVENT> in Indonesia in <TIMEX3 type="DATE" value="2002" tid="t6">2002</TIMEX3> and <EVENT class="OCCURRENCE" eid="e23">turned</EVENT> over to US authorities.
+
+The Bagram prison <EVENT class="OCCURRENCE" eid="e24">detains</EVENT> hundreds of terror suspects since US <EVENT class="OCCURRENCE" eid="e25">forces</EVENT> <EVENT class="OCCURRENCE" eid="e26">overthrew</EVENT> the Taliban regime in <TIMEX3 type="DATE" value="2001" tid="t7">late 2001</TIMEX3>, including several senior al Qaeda members.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei26" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei23" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061209.0206</DOCID>
+
+<DCT>LEEDS, England, <TIMEX3 tid="t0" type="TIME" value="2006-12-09" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 9 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Leeds admit breaking Football League law</TITLE>
+
+
+<TEXT>
+
+English Championship <EVENT class="OCCURRENCE" eid="e1">strugglers</EVENT> Leeds on <TIMEX3 type="DATE" value="2006-12-09" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e2">admitted</EVENT> they <EVENT class="OCCURRENCE" eid="e3">broke</EVENT> Football League regulations by <EVENT class="OCCURRENCE" eid="e4">fielding</EVENT> six loan players in <TIMEX3 type="DATE" value="2006-11" tid="t2">last month</TIMEX3>'s <EVENT class="OCCURRENCE" eid="e5">defeat</EVENT> at Burnley.
+
+Leeds boss Dennis Wise <EVENT class="OCCURRENCE" eid="e6">selected</EVENT> Graham Stack, Matt Heath, Ugo Ehiogu, Tresor Kandol and Geoff Horsfield for the 2-1 <EVENT class="OCCURRENCE" eid="e7">defeat</EVENT> at Turf Moor on <TIMEX3 type="DATE" value="2006-11-28" tid="t3">November 28</TIMEX3>, while Tony Warner was an unused substitute.
+
+The Football League rulebook <EVENT class="REPORTING" eid="e8">says</EVENT> that only five players on loan from other clubs can be <EVENT class="OCCURRENCE" eid="e9">named</EVENT> in a team's squad for any match.
+
+A statement on Leeds's website <EVENT class="REPORTING" eid="e11">said</EVENT>: "We can <EVENT class="REPORTING" eid="e12">confirm</EVENT> that the club <EVENT class="OCCURRENCE" eid="e13">broke</EVENT> Football League regulations at Burnley.
+
+"We will <EVENT class="OCCURRENCE" eid="e14">co-operate</EVENT> fully with the Football League on this matter and <EVENT class="I_ACTION" eid="e15">explain</EVENT> the extenuating circumstances."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+
+
+
+
+</TimeML>

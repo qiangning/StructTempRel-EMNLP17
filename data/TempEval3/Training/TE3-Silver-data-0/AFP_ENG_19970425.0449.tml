@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970425.0449</DOCID>
+
+<DCT>BONN, <TIMEX3 tid="t0" type="TIME" value="1997-04-25" temporalFunction="false" functionInDocument="CREATION_TIME">April 25 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Germans put magnetic train project back on rails</TITLE>
+
+
+<TEXT>
+
+A costly and controversial project to <EVENT class="OCCURRENCE" eid="e1">link</EVENT> Hamburg and Berlin with a magnetically-suspended high-speed train has been <EVENT class="OCCURRENCE" eid="e2">put</EVENT> back on the rails under revised plans <EVENT class="OCCURRENCE" eid="e3">presented</EVENT> <TIMEX3 type="DATE" value="1997-04-25" tid="t1">Friday</TIMEX3>.
+
+Transport Minister Matthias Wissmann <EVENT class="REPORTING" eid="e4">said</EVENT> a revamped consortium would be in charge of <EVENT class="OCCURRENCE" eid="e5">realising</EVENT> the "Transrapid" link by <TIMEX3 type="DATE" value="2005" tid="t2">2005</TIMEX3> and that the plans had <EVENT class="OCCURRENCE" eid="e6">received</EVENT> the <EVENT class="OCCURRENCE" eid="e7">blessing</EVENT> of Chancellor Helmut Kohl and Finance Minister Theo Waigel. Parliament <EVENT class="OCCURRENCE" eid="e8">approved</EVENT> the original project <TIMEX3 type="DATE" value="1996" tid="t3">last year</TIMEX3>.
+
+Adtranz, a specialist subsidiary of Germany's Daimler-Benz and the Swiss-Swedish group Asea Brown Boveri (ABB), will <EVENT class="OCCURRENCE" eid="e9">join</EVENT> with Germany's Thyssen and Siemens, and a fourth member who <EVENT class="OCCURRENCE" eid="e10">entered</EVENT> <EVENT class="OCCURRENCE" eid="e11">following</EVENT> the <EVENT class="OCCURRENCE" eid="e12">pullout</EVENT> of construction firms Philipp Holzmann, Hochtief and Bilfinger + Berger.
+
+Siemens boss Heinrich von Pierer <EVENT class="REPORTING" eid="e13">said</EVENT> initial talks were <EVENT class="OCCURRENCE" eid="e15">taking</EVENT> place with the Anglo-French group GEC Alsthom. In Paris, the constructors of the French TGV (High Speed Train) <EVENT class="REPORTING" eid="e16">said</EVENT> they were ready to <EVENT class="I_STATE" eid="e17">consider</EVENT> any interesting <EVENT class="OCCURRENCE" eid="e18">proposal</EVENT>.
+
+The German rail corporation Deutsche Bahn will <EVENT class="OCCURRENCE" eid="e19">play</EVENT> a central role in <EVENT class="OCCURRENCE" eid="e20">running</EVENT> the link, on which work is <EVENT class="I_STATE" eid="e21">planned</EVENT> to <EVENT class="ASPECTUAL" eid="e22">start</EVENT> <TIMEX3 type="DATE" value="1998" tid="t4">next year</TIMEX3>.
+
+The train is <EVENT class="I_STATE" eid="e23">supposed</EVENT> to <EVENT class="OCCURRENCE" eid="e24">'float</EVENT>' at up to 450 kilometres (280 miles) an hour on a T-shaped mono-rail, <EVENT class="OCCURRENCE" eid="e25">cutting</EVENT> <EVENT class="OCCURRENCE" eid="e26">travelling</EVENT> time between the two north German cities to about an hour for a <EVENT class="OCCURRENCE" eid="e27">journey</EVENT> of 292 kilometres (180 miles).
+
+The cost of the project is 10 percent up on original plans.
+
+Total investment is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3> <EVENT class="OCCURRENCE" eid="e28">put</EVENT> at 9.8 billion (5.7 billion dollars), comprising 6.1 billion marks for the track and 3.7 billion marks for the operating system. In <TIMEX3 type="DATE" value="1993" tid="t6">1993</TIMEX3> the cost was <EVENT class="OCCURRENCE" eid="e30">put</EVENT> at 8.9 billion marks -- with 5.6 billion marks of this coming from the federal state.
+
+Meanwhile, the expected returns have been <EVENT class="OCCURRENCE" eid="e32">revised</EVENT> downward. <EVENT class="REPORTING" eid="e33">According</EVENT> to German railways boss Heinz Duerr, the new estimates <EVENT class="I_ACTION" eid="e34">indicated</EVENT> a "modest but reasonable" economic viability. Opposition to the project is based both on the high cost to the public purse and environmental considerations.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei28" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei30" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

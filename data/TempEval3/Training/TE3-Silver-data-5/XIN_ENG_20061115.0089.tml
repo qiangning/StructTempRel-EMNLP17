@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0089</DOCID>
+
+<DCT>TAIYUAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Death toll in north China colliery gas blast rises to 41</TITLE>
+
+
+<TEXT>
+
+The death toll from a colliery <EVENT class="OCCURRENCE" eid="e1">blast</EVENT> in north China <TIMEX3 type="DATE" value="2006-W45" tid="t1">last week</TIMEX3> has <EVENT class="OCCURRENCE" eid="e2">risen</EVENT> to 41 with six others still <EVENT class="OCCURRENCE" eid="e3">missing</EVENT>, local government sources <EVENT class="REPORTING" eid="e4">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-15" tid="t2">Wednesday</TIMEX3>.
+
+Rescuers <EVENT class="OCCURRENCE" eid="e5">found</EVENT> another body <TIMEX3 type="DATE" value="2006-11-08TMO" tid="t3">Wednesday morning</TIMEX3> in the Jiaojiazhai Colliery in Xinzhou, a city in the central northern area of Shanxi Province, <EVENT class="REPORTING" eid="e6">according</EVENT> to a provincial coal mine work safety <EVENT class="OCCURRENCE" eid="e7">conference</EVENT> <EVENT class="OCCURRENCE" eid="e8">held</EVENT> on <TIMEX3 type="DATE" value="2006-11-15" tid="t4">Wednesday</TIMEX3>.
+
+A gas <EVENT class="OCCURRENCE" eid="e9">explosion</EVENT> <EVENT class="OCCURRENCE" eid="e10">occurred</EVENT> at <TIMEX3 type="DATE" value="2006-11-15" tid="t5">11:45 a.m.</TIMEX3> on <TIMEX3 type="DATE" value="2006-11-15T05:00" tid="t6">Nov. 5.</TIMEX3> at the Jiaojiazhai Colliery, when 393 miners were <EVENT class="OCCURRENCE" eid="e11">working</EVENT> in the pit. Three hundred and forty-six <EVENT class="OCCURRENCE" eid="e12">escaped</EVENT> after the <EVENT class="OCCURRENCE" eid="e13">blast</EVENT>.
+
+Search and rescue efforts are <EVENT class="ASPECTUAL" eid="e14">continuing</EVENT> though rescuers <EVENT class="I_STATE" eid="e15">believe</EVENT> the six missing miners have little chance of survival, given the high density of toxic gas and serious <EVENT class="OCCURRENCE" eid="e16">cave-ins</EVENT> following the <EVENT class="OCCURRENCE" eid="e17">blast</EVENT>.
+
+Also on <TIMEX3 type="DATE" value="2006-11-15" tid="t7">Wednesday</TIMEX3>, one miner was <EVENT class="REPORTING" eid="e18">confirmed</EVENT> dead following a colliery flood that <EVENT class="STATE" eid="e19">trapped</EVENT> eight in northeast China's Liaoning Province.
+
+The <EVENT class="OCCURRENCE" eid="e20">accident</EVENT>, in which one miner is still <EVENT class="OCCURRENCE" eid="e21">missing</EVENT> and six were <EVENT class="OCCURRENCE" eid="e22">injured</EVENT>, <EVENT class="OCCURRENCE" eid="e23">occurred</EVENT> <TIMEX3 type="DATE" value="2006-11-14" tid="t8">Tuesday</TIMEX3> at the privately-owned Dahenan Colliery in Huazi Township in Dengta, a city about 50 kilometers south of provincial capital Shenyang.
+
+Surging demand for winter coal has <EVENT class="OCCURRENCE" eid="e24">spurred</EVENT> production but also <EVENT class="OCCURRENCE" eid="e25">caused</EVENT> a string of deadly <EVENT class="OCCURRENCE" eid="e26">accidents</EVENT>.
+
+In the coal-rich Shanxi Province, two recent colliery accidents, including the Jiaojiazhai Colliery <EVENT class="OCCURRENCE" eid="e27">blast</EVENT>, have <EVENT class="OCCURRENCE" eid="e28">killed</EVENT> at least 67 people.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000010" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="IBEFORE" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei1000010" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei1000010" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei10" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

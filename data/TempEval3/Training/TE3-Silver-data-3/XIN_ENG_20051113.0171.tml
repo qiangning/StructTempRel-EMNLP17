@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051113.0171</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Singapore recruits students as crime prevention ambassadors</TITLE>
+
+
+<TEXT>
+
+The Singapore police are <EVENT class="OCCURRENCE" eid="e1">recruiting</EVENT> students as young crime prevention ambassadors as part of <EVENT class="OCCURRENCE" eid="e2">efforts</EVENT> to <EVENT class="OCCURRENCE" eid="e3">reduce</EVENT> crime involving the youth.
+
+"To <EVENT class="OCCURRENCE" eid="e5">reduce</EVENT> youth crime, particularly <EVENT class="OCCURRENCE" eid="e6">shop</EVENT> theft and rioting, the National Crime Prevention Council (NCPC) has been <EVENT class="I_ACTION" eid="e8">engaging</EVENT> students to <EVENT class="OCCURRENCE" eid="e9">act</EVENT> as Student Crime Prevention Ambassadors (CPAs)," Senior Minister of State for Law and Home Affairs Ho Peng Kee <EVENT class="REPORTING" eid="e10">said</EVENT> at the launch of the annual Festive Season Crime Prevention campaign on <TIMEX3 type="DATE" value="2005-11-13" tid="t1">Sunday</TIMEX3>.
+
+He <EVENT class="REPORTING" eid="e13">said</EVENT> that the aim is to <EVENT class="OCCURRENCE" eid="e14">teach</EVENT> students crime prevention strategies and they in turn can <EVENT class="OCCURRENCE" eid="e15">become</EVENT> mentors for fellow students.
+
+NCPC <EVENT class="I_STATE" eid="e16">believes</EVENT> that peer influence <EVENT class="OCCURRENCE" eid="e17">exerts</EVENT> a strong influence on youths, <EVENT class="OCCURRENCE" eid="e18">guiding</EVENT> them to <EVENT class="OCCURRENCE" eid="e19">make</EVENT> sound choices in life, he <EVENT class="OCCURRENCE" eid="e20">added</EVENT>.
+
+<EVENT class="ASPECTUAL" eid="e21">Starting</EVENT> <TIMEX3 type="DATE" value="2006" tid="t3">next year</TIMEX3>, a new program will be <EVENT class="OCCURRENCE" eid="e22">rolled</EVENT> out at 32 schools, <EVENT class="OCCURRENCE" eid="e23">teaching</EVENT> National Police Cadet Corps (NPCC) trainees to <EVENT class="ASPECTUAL" eid="e24">stop</EVENT> crime.
+
+"It <EVENT class="OCCURRENCE" eid="e25">consists</EVENT> of a 3-year program where NPCC Cadets would <EVENT class="OCCURRENCE" eid="e26">acquire</EVENT> crime prevention skills and knowledge and <EVENT class="I_ACTION" eid="e27">embark</EVENT> on school and community projects under the supervision of both the school officers and the police liaison officers from the NPCs," he <EVENT class="REPORTING" eid="e29">said</EVENT>, <EVENT class="OCCURRENCE" eid="e30">adding</EVENT> that "this program <EVENT class="OCCURRENCE" eid="e31">serves</EVENT> to <EVENT class="OCCURRENCE" eid="e32">strengthen</EVENT> the link between the police and the schools, <EVENT class="OCCURRENCE" eid="e33">establishing</EVENT> NPCC as a platform for its youths to <EVENT class="OCCURRENCE" eid="e34">become</EVENT> efficient crime prevention police youth ambassadors."
+
+<EVENT class="I_ACTION" eid="e35">Pointing</EVENT> out that over <TIMEX3 type="DURATION" value="P9M" tid="t5">the first nine months</TIMEX3> of <TIMEX3 type="DATE" value="2005" tid="t6">this year</TIMEX3>, there have been <EVENT class="OCCURRENCE" eid="e36">increases</EVENT> in incidents of housebreaking, robbery, <EVENT class="OCCURRENCE" eid="e39">snatch</EVENT> theft and handphone <EVENT class="OCCURRENCE" eid="e40">theft</EVENT>, he <EVENT class="OCCURRENCE" eid="e41">stressed</EVENT> that crime prevention is everybody's business.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei36" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei41" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei35" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei29" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei39" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei36" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei36" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

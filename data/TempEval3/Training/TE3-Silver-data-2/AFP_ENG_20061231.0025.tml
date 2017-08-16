@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061231.0025</DOCID>
+
+<DCT>DUBAI, <TIMEX3 tid="t0" type="TIME" value="2006-12-31" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 31 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Al-Qaeda leader urges Palestinians to turn against Abbas</TITLE>
+
+
+<TEXT>
+
+Osama bin Laden's top deputy <EVENT class="I_ACTION" eid="e1">urged</EVENT> Palestinians to <EVENT class="OCCURRENCE" eid="e2">turn</EVENT> against Palestinian president Mahmud Abbas and his secular Fatah party, in a audio message <EVENT class="OCCURRENCE" eid="e3">posted</EVENT> on the Internet on <TIMEX3 type="DATE" value="2006-12-31" tid="t1">Sunday</TIMEX3>.
+
+The recording, whose authenticity could not be independently <EVENT class="REPORTING" eid="e5">confirmed</EVENT>, <EVENT class="OCCURRENCE" eid="e6">congratulated</EVENT> Muslims on the <EVENT class="OCCURRENCE" eid="e7">start</EVENT> of the Eid al-Adha feast of sacrifice. In it Ayman al-Zawahiri also implicitly <EVENT class="OCCURRENCE" eid="e8">criticised</EVENT> the Palestinian <EVENT class="OCCURRENCE" eid="e9">ruling</EVENT> Islamic movement Hamas for <EVENT class="OCCURRENCE" eid="e10">taking</EVENT> part in the political process.
+
+"The Palestine-selling secularist traitors cannot possibly be your brothers, so neither <EVENT class="OCCURRENCE" eid="e11">confer</EVENT> on them legitimacy... nor <EVENT class="OCCURRENCE" eid="e12">participate</EVENT> with them in their Sharia-rejecting assemblies, nor <EVENT class="OCCURRENCE" eid="e13">sign</EVENT> with them the documents which <EVENT class="OCCURRENCE" eid="e14">throw</EVENT> away Palestine," <EVENT class="REPORTING" eid="e15">said</EVENT> the Al-Qaeda second-in-command.
+
+"How is it possible for Mahmud Abbas to be a brother of ours?" Zawahiri <EVENT class="OCCURRENCE" eid="e16">questioned</EVENT>, <EVENT class="I_ACTION" eid="e17">accusing</EVENT> him of complicity with the Israelis and Americans.
+
+On <TIMEX3 type="DATE" value="2006-12-20" tid="t2">December 20</TIMEX3> Zawahiri <EVENT class="OCCURRENCE" eid="e18">slammed</EVENT> Hamas for <EVENT class="OCCURRENCE" eid="e19">recognising</EVENT> Abbas and running in elections <TIMEX3 type="DATE" value="2006-01" tid="t3">last January</TIMEX3>. Hamas <EVENT class="OCCURRENCE" eid="e21">scored</EVENT> a shock <EVENT class="OCCURRENCE" eid="e22">victory</EVENT> over Fatah and <EVENT class="OCCURRENCE" eid="e23">took</EVENT> power in <TIMEX3 type="DATE" value="2006-03" tid="t4">March</TIMEX3>, but its government has since been <EVENT class="OCCURRENCE" eid="e24">boycotted</EVENT> by Israel and the West.
+
+In <TIMEX3 type="DATE" value="2007-01-07" tid="t5">Sunday</TIMEX3>'s audio message, which does not specifically <EVENT class="OCCURRENCE" eid="e25">mention</EVENT> Hamas, Zawahiri <EVENT class="REPORTING" eid="e26">said</EVENT> that victory in Iraq and Afghanistan was "not <EVENT class="OCCURRENCE" eid="e27">achieved</EVENT> by parliamentary elections... Rather, it was <EVENT class="OCCURRENCE" eid="e28">achieved</EVENT> with blood, martyrdom-seeking..."
+
+The Egypt-born Zawahiri is <EVENT class="REPORTING" eid="e30">regarded</EVENT> as the ideological powerhouse behind Al-Qaeda, and <EVENT class="OCCURRENCE" eid="e31">carries</EVENT> a 25-million-dollar US bounty for information <EVENT class="I_ACTION" eid="e32">leading</EVENT> to his <EVENT class="OCCURRENCE" eid="e33">arrest</EVENT> or <EVENT class="OCCURRENCE" eid="e34">death</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei23" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei25" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

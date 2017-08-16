@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051215.0705</DOCID>
+
+<DCT>PERTH, Australia, <TIMEX3 tid="t0" type="TIME" value="2005-12-16" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 16 , 2005</TIMEX3></DCT>
+
+<TITLE>Australia win toss and elect to bat in first Test</TITLE>
+
+
+<TEXT>
+
+Australia <EVENT class="OCCURRENCE" eid="e1">won</EVENT> the <EVENT class="OCCURRENCE" eid="e2">toss</EVENT> and <EVENT class="OCCURRENCE" eid="e3">elected</EVENT> to bat in the first Test against South Africa at the Western Australian Cricket Association Ground here <TIMEX3 type="DATE" value="2005-12-16" tid="t1">Friday</TIMEX3>.
+
+For South Africa, star allrounder Jacques Kallis was <EVENT class="OCCURRENCE" eid="e4">left</EVENT> out of the side after <EVENT class="I_ACTION" eid="e5">failing</EVENT> a last-minute fitness test on his injured left elbow. It is the first time in <TIMEX3 type="DURATION" value="P2Y" tid="t2">two years</TIMEX3> that Kallis has <EVENT class="OCCURRENCE" eid="e6">missed</EVENT> a Test match.
+
+"Though Jacques <EVENT class="OCCURRENCE" eid="e8">made</EVENT> significant progress, it was not enough to <EVENT class="OCCURRENCE" eid="e9">make</EVENT> him eligible for <EVENT class="OCCURRENCE" eid="e10">selection</EVENT> in the Test <EVENT class="OCCURRENCE" eid="e11">match</EVENT>," team physiotherapist Shane Jabbar <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+Captain Graeme Smith <EVENT class="REPORTING" eid="e13">said</EVENT> the team was upbeat, despite Kallis' <EVENT class="OCCURRENCE" eid="e14">loss</EVENT>.
+
+"The team is pretty confident, it hasn't <EVENT class="OCCURRENCE" eid="e15">unsettled</EVENT> us much," he <EVENT class="REPORTING" eid="e16">said</EVENT>.
+
+Jacques Rudolph was <EVENT class="OCCURRENCE" eid="e17">brought</EVENT> in as the number three batsman with captain Graeme Smith and AB de Villiers to <EVENT class="ASPECTUAL" eid="e18">open</EVENT> the <EVENT class="OCCURRENCE" eid="e19">batting</EVENT> for the Proteas.
+
+Australia have <EVENT class="OCCURRENCE" eid="e20">named</EVENT> seamer Nathan Bracken in their bowling <EVENT class="OCCURRENCE" eid="e21">attack</EVENT>.
+
+Light drizzle was <EVENT class="OCCURRENCE" eid="e22">falling</EVENT> at the ground but was <EVENT class="I_STATE" eid="e23">forecast</EVENT> to <EVENT class="OCCURRENCE" eid="e24">clear</EVENT> later in <TIMEX3 type="DATE" value="2005-12-16" tid="t3">the day</TIMEX3>.
+
+The wicket, known for its pace, <EVENT class="STATE" eid="e25">had</EVENT> a light cover of grass and the overcast conditions were <EVENT class="I_STATE" eid="e26">expected</EVENT> to be good for <EVENT class="OCCURRENCE" eid="e28">bowling</EVENT>.
+
+Teams:
+
+South Africa: Graeme Smith (c), AB de Villiers, Jacques Rudolph, Herschelle Gibbs, Ashwell Prince, Justin Kemp, Mark Boucher, Shaun Pollock, Charl Langeveldt, Makhaya Ntini, Andre Nel, Garnett Kruger (12th man).
+
+Australia: Ricky Ponting (c), Matthew Hayden, Justin Langer, Brad Hodge, Mike Hussey, Andrew Symonds, Adam Gilchrist, Shane Warne, Brett Lee, Nathan Bracken, Glenn McGrath, Stuart Clark (12th man).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

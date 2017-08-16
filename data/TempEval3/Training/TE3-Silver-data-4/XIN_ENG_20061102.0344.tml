@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061102.0344</DOCID>
+
+<DCT>RIO DE JANEIRO, <TIMEX3 tid="t0" type="TIME" value="2006-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Portugal beats Uruguay 5-4 in beach soccer World Cup</TITLE>
+
+
+<TEXT>
+
+Portugal <EVENT class="OCCURRENCE" eid="e1">beat</EVENT> Uruguay 5-4 on <TIMEX3 type="DATE" value="2006-11-02" tid="t1">Thursday</TIMEX3> in the Group C opener of the second World Cup for beach soccer, which <EVENT class="OCCURRENCE" eid="e2">runs</EVENT> until <TIMEX3 type="DATE" value="2006-11-12" tid="t2">Nov. 12</TIMEX3> on Copacabana Beach, in Brazil's Rio de Janeiro.
+
+"The Uruguay team <EVENT class="OCCURRENCE" eid="e3">played</EVENT> a typically South American game and knows how to <EVENT class="OCCURRENCE" eid="e5">neutralize</EVENT> our <EVENT class="OCCURRENCE" eid="e6">moves</EVENT> efficiently. But my men <EVENT class="OCCURRENCE" eid="e7">showed</EVENT> their patience and <EVENT class="OCCURRENCE" eid="e8">waited</EVENT> for the best moments to <EVENT class="ASPECTUAL" eid="e9">launch</EVENT> decisive <EVENT class="OCCURRENCE" eid="e10">attacks</EVENT>," Ze Miguel, Portugal's manager <EVENT class="REPORTING" eid="e11">told</EVENT> media after the <EVENT class="OCCURRENCE" eid="e12">game</EVENT>.
+
+Portugal had to <EVENT class="OCCURRENCE" eid="e13">fight</EVENT> hard for the three championship points: opening <EVENT class="OCCURRENCE" eid="e15">scoring</EVENT> with an Alan goal in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t3">the second minute</TIMEX3>, only to <EVENT class="PERCEPTION" eid="e16">see</EVENT> their advantage <EVENT class="OCCURRENCE" eid="e17">evaporate</EVENT> as Uruguay's Ortiz <EVENT class="OCCURRENCE" eid="e18">struck</EVENT> back.
+
+Alan <EVENT class="OCCURRENCE" eid="e19">scored</EVENT> again, but Matais and Oli <EVENT class="OCCURRENCE" eid="e20">scored</EVENT> one each to <EVENT class="OCCURRENCE" eid="e21">put</EVENT> Uruguay ahead. Madjer <EVENT class="OCCURRENCE" eid="e22">equalized</EVENT> for Portugal just before the first half <EVENT class="OCCURRENCE" eid="e23">whistle</EVENT>, but Uruguay <EVENT class="OCCURRENCE" eid="e24">opened</EVENT> the second half with Saranasi Sobral's scorpion kick to goal.
+
+Hernani and Madjer <EVENT class="OCCURRENCE" eid="e25">fought</EVENT> back with a goal each to <EVENT class="OCCURRENCE" eid="e26">secure</EVENT> a 5-4 victory for the Portuguese.
+
+The next Group C games are Portugal versus Cameroon and Uruguay versus the Solomon Islands, both on <TIMEX3 type="DATE" value="2006-11-04" tid="t4">Saturday</TIMEX3>.
+
+Portugal <EVENT class="ASPECTUAL" eid="e27">finished</EVENT> second at the 2006 World Cup in Germany, and the last European Cup.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

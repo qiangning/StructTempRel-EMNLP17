@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061229.0487</DOCID>
+
+<DCT>CHARLOTTE,  North Carolina, <TIMEX3 tid="t0" type="TIME" value="2006-12-30" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 30 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Bryant's 58 not enough to lift Lakers over Bobcats</TITLE>
+
+
+<TEXT>
+
+Kobe Bryant <EVENT class="OCCURRENCE" eid="e1">poured</EVENT> in a season-high 58 points, but it wasn't enough to <EVENT class="ASPECTUAL" eid="e2">stop</EVENT> the Charlotte Bobcats from <EVENT class="OCCURRENCE" eid="e3">pouncing</EVENT> for a triple-overtime <EVENT class="OCCURRENCE" eid="e4">victory</EVENT> over his Lakers on <TIMEX3 type="DATE" value="2007-01-05" tid="t1">Friday</TIMEX3>.
+
+Charlotte's Emeka Okafor was able to <EVENT class="OCCURRENCE" eid="e5">dominate</EVENT> the paint, and Matt Carroll <EVENT class="OCCURRENCE" eid="e6">scored</EVENT> a career-high 27 points off the bench as Charlotte ultimatedly <EVENT class="OCCURRENCE" eid="e7">downed</EVENT> the Lakers 133-124 in a National Basketball Association contest.
+
+Okafor <EVENT class="STATE" eid="e8">had</EVENT> 22 points and a franchise-record 25 rebounds for the Bobcats, who <EVENT class="OCCURRENCE" eid="e9">picked</EVENT> up a victory in the first triple-overtime <EVENT class="OCCURRENCE" eid="e10">game</EVENT> in club history in front of the largest crowd ever to <EVENT class="PERCEPTION" eid="e11">see</EVENT> a <EVENT class="OCCURRENCE" eid="e12">game</EVENT> in Charlotte.
+
+Bryant <EVENT class="OCCURRENCE" eid="e13">shot</EVENT> 22-of-45 from the field and 10-of-12 from the line to <EVENT class="OCCURRENCE" eid="e14">record</EVENT> the second-highest <EVENT class="OCCURRENCE" eid="e15">scoring</EVENT> performance in the NBA this season. Washington guard Gilbert Arenas <EVENT class="OCCURRENCE" eid="e16">scored</EVENT> 60 points against the Lakers on <TIMEX3 type="DATE" value="2006-12-17" tid="t2">December 17</TIMEX3>.
+
+However, in <TIMEX3 type="DATE" value="2006-12-30" tid="t3">the third extra session</TIMEX3>, Bryant <EVENT class="I_STATE" eid="e18">committed</EVENT> one of the cardinal sins of defense.
+
+With his team trailing by two points with 1:14 left, he <EVENT class="OCCURRENCE" eid="e21">fouled</EVENT> reserve Derek Anderson, who was <EVENT class="I_ACTION" eid="e22">attempting</EVENT> a 3-pointer.
+
+Anderson <EVENT class="OCCURRENCE" eid="e23">nailed</EVENT> all three foul shots to <EVENT class="OCCURRENCE" eid="e24">make</EVENT> it 129-124, and Los Angeles was unable to <EVENT class="OCCURRENCE" eid="e25">get</EVENT> any closer.
+
+On the ensuing possession, Bryant <EVENT class="OCCURRENCE" eid="e26">fouled</EVENT> out of the game, <EVENT class="OCCURRENCE" eid="e27">committing</EVENT> a <EVENT class="OCCURRENCE" eid="e28">charge</EVENT> on a wild <EVENT class="OCCURRENCE" eid="e29">drive</EVENT> to the basket but <EVENT class="OCCURRENCE" eid="e30">leaving</EVENT> with the third-highest scoring <EVENT class="OCCURRENCE" eid="e32">game</EVENT> of his career.
+
+<TIMEX3 type="DATE" value="2006-12-30" tid="t4">Last season</TIMEX3>, Bryant <EVENT class="OCCURRENCE" eid="e33">scored</EVENT> a franchise-record 81 points against Toronto and 62 points in a <EVENT class="OCCURRENCE" eid="e34">game</EVENT> against Dallas.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei26" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei33" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei18" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

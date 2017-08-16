@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970417.0185</DOCID>
+
+<DCT>JERUSALEM, <TIMEX3 tid="t0" type="TIME" value="1997-04-17" temporalFunction="false" functionInDocument="CREATION_TIME">April 17 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Israeli army demolishes Palestinian homes, two shot in clashes</TITLE>
+
+
+<TEXT>
+
+Israeli troops on <TIMEX3 type="DATE" value="1997-04-17" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">demolished</EVENT> a second home in the Palestinian village of Surif on the West Bank where a curfew is in force in connection with <TIMEX3 type="DATE" value="1997-03" tid="t2">last month</TIMEX3>'s Tel Aviv suicide <EVENT class="OCCURRENCE" eid="e2">bombing</EVENT>, the army <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+A first home was <EVENT class="OCCURRENCE" eid="e4">destroyed</EVENT> on <TIMEX3 type="DATE" value="1997-04-16TNI" tid="t3">Wednesday night</TIMEX3> <EVENT class="STATE" eid="e5">belonging</EVENT> to Ibrahim Ghanimat, a member of a cell of the Islamic <EVENT class="OCCURRENCE" eid="e6">Resistance</EVENT> Movement (HAMAS) <EVENT class="I_ACTION" eid="e7">accused</EVENT> of <EVENT class="OCCURRENCE" eid="e8">causing</EVENT> the <EVENT class="OCCURRENCE" eid="e9">deaths</EVENT> of 11 Israelis in a series of <EVENT class="OCCURRENCE" eid="e10">attacks</EVENT>.
+
+The demolition <EVENT class="OCCURRENCE" eid="e11">sparked</EVENT> clashes with troops during which two villagers were <EVENT class="OCCURRENCE" eid="e12">shot</EVENT> and <EVENT class="OCCURRENCE" eid="e13">wounded</EVENT> as protesters <EVENT class="OCCURRENCE" eid="e14">took</EVENT> to the streets in violation of the curfew, hospital sources <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+The army <EVENT class="OCCURRENCE" eid="e16">sent</EVENT> in the bulldozers again on <TIMEX3 type="DATE" value="1997-04-24" tid="t4">Thursday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e17">tear</EVENT> down the home of Abdel Rahman Ghanimat, who like his namesake has been <EVENT class="OCCURRENCE" eid="e19">linked</EVENT> to the Islamic suicide bomber who <EVENT class="OCCURRENCE" eid="e20">killed</EVENT> three Israeli women in Tel Aviv on <TIMEX3 type="DATE" value="1997-03-21" tid="t5">March 21</TIMEX3>.
+
+The curfew on Surif, a town of 15,000 inhabitants, was <EVENT class="OCCURRENCE" eid="e21">imposed</EVENT> after the army <EVENT class="OCCURRENCE" eid="e22">discovered</EVENT> the body of a kidnapped Israeli soldier, Sergeant Sharon Edry, in the village <TIMEX3 type="DATE" value="1997-04-10" tid="t6">last Thursday</TIMEX3>.
+
+The HAMAS radicals were <EVENT class="OCCURRENCE" eid="e24">arrested</EVENT> on suspicion of involvement in Edry's murder and the 10 other deaths.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei4" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

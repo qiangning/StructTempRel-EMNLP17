@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0036</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Shanghai stock index down -- Nov. 3</TITLE>
+
+
+<TEXT>
+
+The Composite Stock Index on the Shanghai Stock Exchange <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> at 1,095.27 points on <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Thursday</TIMEX3>, down 9.52 points from the previous close.
+
+A Share Index: 1,151.42 points, down 10.06 points;
+
+B Share Index: 60.13 points, down 0.22 points;
+
+Total Turnover: 7,510,890,000 yuan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

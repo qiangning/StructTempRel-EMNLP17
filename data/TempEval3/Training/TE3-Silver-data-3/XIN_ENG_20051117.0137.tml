@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0137</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>in Singapore</TITLE>
+
+
+<TEXT>
+
+Singapore has <EVENT class="OCCURRENCE" eid="e1">doubled</EVENT> the avian flu tests on local and migratory birds from <TIMEX3 type="DATE" value="2005-11-17" tid="t1">once every two weeks to once a week</TIMEX3>, Channel NewsAsia <EVENT class="REPORTING" eid="e2">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-17" tid="t3">Thursday</TIMEX3>.
+
+The measure is to <EVENT class="OCCURRENCE" eid="e3">monitor</EVENT> possible bird flu virus among some 20, 000 migratory birds <EVENT class="OCCURRENCE" eid="e4">flying</EVENT> into the city state during <TIMEX3 type="DURATION" value="2005-11-17" tid="t4">the winter months</TIMEX3> and to <EVENT class="I_ACTION" eid="e5">prevent</EVENT> local birds and poultry <EVENT class="OCCURRENCE" eid="e6">raised</EVENT> on farms from getting <EVENT class="OCCURRENCE" eid="e7">infected</EVENT>.
+
+A <EVENT class="OCCURRENCE" eid="e8">collaboration</EVENT> between the Agri-Food and Veterinary Authority (AVA) and the National Parks Board (NParks) which <EVENT class="ASPECTUAL" eid="e9">started</EVENT> <TIMEX3 type="DATE" value="2003" tid="t5">two years ago</TIMEX3>, such tests have been <EVENT class="OCCURRENCE" eid="e10">applied</EVENT> to over 400 randomly- captured birds.
+
+All the samples collected were <EVENT class="STATE" eid="e12">negative</EVENT> for the virus, the report <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The AVA was <EVENT class="OCCURRENCE" eid="e14">quoted</EVENT> as <EVENT class="REPORTING" eid="e15">saying</EVENT> that local farms have been <EVENT class="I_ACTION" eid="e16">asked</EVENT> to <EVENT class="OCCURRENCE" eid="e17">take</EVENT> biological security measures against the bird flu virus and the weekly tests will <EVENT class="ASPECTUAL" eid="e18">continue</EVENT> as long as countries in the region are <EVENT class="OCCURRENCE" eid="e19">affected</EVENT> by the disease.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei9" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

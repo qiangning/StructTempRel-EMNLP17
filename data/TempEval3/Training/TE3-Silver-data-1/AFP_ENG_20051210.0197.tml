@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051210.0197</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-12-10" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 10 , 2005</TIMEX3></DCT>
+
+<TITLE>Germany delighted by World Cup draw</TITLE>
+
+
+<TEXT>
+
+The German media all <EVENT class="I_ACTION" eid="e1">agreed</EVENT> <TIMEX3 type="DATE" value="2005-12-10" tid="t1">Saturday</TIMEX3> that the 2006 World Cup hosts could not have <EVENT class="I_ACTION" eid="e2">asked</EVENT> for a kinder finals <EVENT class="OCCURRENCE" eid="e3">draw</EVENT> after being <EVENT class="OCCURRENCE" eid="e4">paired</EVENT> with Costa Rica, Ecuador and Poland in Group A.
+
+Germany host minnows Costa Rica in the opening World Cup match on <TIMEX3 type="DATE" value="2005-06-09" tid="t3">June 9</TIMEX3> in Munich and manager Jurgen Klinsmann was <EVENT class="OCCURRENCE" eid="e7">pictured</EVENT> with a broad grin in the press.
+
+"Klinsmann is right to smile after that draw," <EVENT class="REPORTING" eid="e11">said</EVENT> the Kolner Express. "There is no real major obstacle to the last sixteen."
+
+Bild daily, the country's biggest selling newspaper, <EVENT class="OCCURRENCE" eid="e12">concurred</EVENT>: "Klinsmann you are certainly lucky!"
+
+Klinsmann, who <EVENT class="OCCURRENCE" eid="e13">won</EVENT> the 1990 World Cup with West Germany, <EVENT class="OCCURRENCE" eid="e14">admitted</EVENT> the draw could have <EVENT class="STATE" eid="e16">been</EVENT> much worse but <EVENT class="I_ACTION" eid="e17">insisted</EVENT> his team would not <EVENT class="OCCURRENCE" eid="e18">underestimate</EVENT> anyone.
+
+"Of course we could have a had a much more difficult group," <EVENT class="REPORTING" eid="e19">explained</EVENT> Klinsmann. "But every opponent will <EVENT class="OCCURRENCE" eid="e20">provide</EVENT> a challenge for us and the onus will be on us to <EVENT class="OCCURRENCE" eid="e21">attack</EVENT> as hosts."
+
+Klinsmann has <EVENT class="OCCURRENCE" eid="e22">set</EVENT> the target of <EVENT class="OCCURRENCE" eid="e23">lifting</EVENT> the World Cup on <TIMEX3 type="DATE" value="2005-07-09" tid="t6">July 9</TIMEX3> in Berlin despite not <EVENT class="OCCURRENCE" eid="e24">defeating</EVENT> a recognised top nation since a 1-0 <EVENT class="OCCURRENCE" eid="e25">win</EVENT> over England in <TIMEX3 type="DATE" value="2000" tid="t7">2000</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="OTHER" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei23" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+
+
+
+
+</TimeML>

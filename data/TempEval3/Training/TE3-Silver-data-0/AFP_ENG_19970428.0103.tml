@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970428.0103</DOCID>
+
+<DCT>KIGALI, <TIMEX3 tid="t0" type="TIME" value="1997-04-28" temporalFunction="false" functionInDocument="CREATION_TIME">April 28 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>More than 70 arrested in northern Rwanda: Radio Rwanda</TITLE>
+
+
+<TEXT>
+
+More than 70 people have been <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> and a number of guns <EVENT class="OCCURRENCE" eid="e2">found</EVENT> by the Rwandan security forces in the Ruhengeri region of northern Rwanda, Radio Rwanda <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Thirty-seven people were <EVENT class="OCCURRENCE" eid="e4">arrested</EVENT> in the district of Ndusu, where two guns and 10 grenades were <EVENT class="OCCURRENCE" eid="e5">found</EVENT>, the radio <EVENT class="REPORTING" eid="e6">said</EVENT> <TIMEX3 type="DATE" value="1997-04-28" tid="t1">late Sunday</TIMEX3>. It did not <EVENT class="REPORTING" eid="e7">say</EVENT> when the <EVENT class="OCCURRENCE" eid="e8">arrests</EVENT> <EVENT class="OCCURRENCE" eid="e9">took</EVENT> place.
+
+Thirty-nine people were <EVENT class="OCCURRENCE" eid="e10">arrested</EVENT> in the neighbouring district of Nyamureta, where security forces <EVENT class="OCCURRENCE" eid="e11">found</EVENT> four guns, the radio <EVENT class="REPORTING" eid="e12">said</EVENT>. It <EVENT class="REPORTING" eid="e13">said</EVENT> that the local population had <EVENT class="OCCURRENCE" eid="e14">assisted</EVENT> the security forces.
+
+The security forces <EVENT class="OCCURRENCE" eid="e15">appeared</EVENT> to be <EVENT class="OCCURRENCE" eid="e16">treating</EVENT> the men as members of the former Rwandan Hutu, or Interhamwe, and former Rwandan army (FAR).
+
+Accused of <EVENT class="OCCURRENCE" eid="e17">taking</EVENT> part in the worst massacres in the <TIMEX3 type="DATE" value="1994" tid="t2">1994</TIMEX3> Rwandan genocide, which <EVENT class="OCCURRENCE" eid="e19">killed</EVENT> at least 500,000 people, mostly minority Tutsis, the former militia and army soldiers are <EVENT class="I_STATE" eid="e20">believed</EVENT> by authorities to be <EVENT class="OCCURRENCE" eid="e21">carrying</EVENT> out <EVENT class="OCCURRENCE" eid="e22">attacks</EVENT> in northern and western Rwanda.
+
+A large number of former militia members and ex-FAR soldiers <EVENT class="OCCURRENCE" eid="e23">returned</EVENT> to Rwanda at <TIMEX3 type="DATE" value="1996" tid="t3">the end of last year</TIMEX3> from Zaire, among hundreds of thousands of <EVENT class="OCCURRENCE" eid="e24">returning</EVENT> refugees.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

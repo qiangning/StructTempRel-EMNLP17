@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061223.0022</DOCID>
+
+<DCT>GAZA CITY, <TIMEX3 tid="t0" type="TIME" value="2006-12-23" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 23 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Pro-Abbas officer wounded in Gaza Strip ambush</TITLE>
+
+
+<TEXT>
+
+A colonel in the Preventive Security force loyal to president Mahmud Abbas was <EVENT class="OCCURRENCE" eid="e1">wounded</EVENT> in a shooting ambush in the southern Gaza Strip <TIMEX3 type="DATE" value="2006-12-23" tid="t1">early Saturday</TIMEX3>, witnesses and emergency services <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Colonel Hassan Gardua was <EVENT class="OCCURRENCE" eid="e4">driving</EVENT> to <EVENT class="OCCURRENCE" eid="e5">work</EVENT> in the town of Rafah hard by the Egyptian border when the gunman or gunmen <EVENT class="ASPECTUAL" eid="e6">opened</EVENT> <EVENT class="OCCURRENCE" eid="e7">fire</EVENT> on his vehicle.
+
+The <EVENT class="OCCURRENCE" eid="e8">attack</EVENT> <EVENT class="OCCURRENCE" eid="e9">came</EVENT> on <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">the fourth day</TIMEX3> of a fragile ceasefire between Abbas's secular Fatah faction and the Islamist movement Hamas which <EVENT class="I_ACTION" eid="e10">leads</EVENT> the government.
+
+The truce, which <EVENT class="OCCURRENCE" eid="e11">came</EVENT> after <TIMEX3 type="DURATION" value="P4D" tid="t3">four days</TIMEX3> of streetfighting in Gaza <EVENT class="OCCURRENCE" eid="e12">killed</EVENT> 14 people and wounded dozens, had already <EVENT class="OCCURRENCE" eid="e13">suffered</EVENT> minor <EVENT class="OCCURRENCE" eid="e14">breaches</EVENT>.
+
+A civilian <EVENT class="OCCURRENCE" eid="e15">died</EVENT> on <TIMEX3 type="DATE" value="2006-12-21TNI" tid="t4">Thursday night</TIMEX3> in eastern Gaza City in <EVENT class="OCCURRENCE" eid="e16">clashes</EVENT> between Hamas and a powerful local clan.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

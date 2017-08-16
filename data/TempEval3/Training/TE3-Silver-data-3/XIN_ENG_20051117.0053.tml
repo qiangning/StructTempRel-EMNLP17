@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0053</DOCID>
+
+<DCT>CAIRO, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>elections</TITLE>
+
+
+<TEXT>
+
+Egypt's Electoral Commission has <EVENT class="REPORTING" eid="e1">announced</EVENT> the final results of the first phase of the three-stage parliamentary <EVENT class="OCCURRENCE" eid="e2">elections</EVENT>, the Egyptian Gazette daily <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-17" tid="t1">Thursday</TIMEX3>.
+
+Thirty-one seats were <EVENT class="OCCURRENCE" eid="e4">decided</EVENT> by the ballot <EVENT class="OCCURRENCE" eid="e5">held</EVENT> on <TIMEX3 type="DATE" value="2005-11-09" tid="t2">Nov. 9</TIMEX3> with the ruling National Democratic Party (NDP) <EVENT class="OCCURRENCE" eid="e7">garnering</EVENT> 26 seats, the Muslim Brotherhood four seats, and another <EVENT class="OCCURRENCE" eid="e8">going</EVENT> to an independent, <EVENT class="REPORTING" eid="e9">according</EVENT> to the commission.
+
+The <EVENT class="OCCURRENCE" eid="e10">run-off</EVENT> for 133 seats was <EVENT class="OCCURRENCE" eid="e11">held</EVENT> on <TIMEX3 type="DATE" value="2005-11-15" tid="t3">Tuesday</TIMEX3> and the NDP, <EVENT class="OCCURRENCE" eid="e12">led</EVENT> by President Hosni Mubarak, <EVENT class="OCCURRENCE" eid="e13">won</EVENT> 42 seats, the commission <EVENT class="REPORTING" eid="e14">announced</EVENT> <TIMEX3 type="DATE" value="2005-11-17" tid="t4">late Wednesday</TIMEX3>.
+
+The Muslim Brotherhood, Egypt's de facto largest opposition group, <EVENT class="OCCURRENCE" eid="e15">won</EVENT> 30 seats, the independents <EVENT class="OCCURRENCE" eid="e16">won</EVENT> 54 and opposition parties <EVENT class="OCCURRENCE" eid="e17">won</EVENT> eight, it <EVENT class="OCCURRENCE" eid="e18">added</EVENT>.
+
+The first phase of Egypt's three-stage parliamentary <EVENT class="OCCURRENCE" eid="e19">election</EVENT> was <EVENT class="OCCURRENCE" eid="e20">held</EVENT> in 82 constituencies across eight governorates, including the capital Cairo.
+
+The second and third stages will be <EVENT class="OCCURRENCE" eid="e21">held</EVENT> on <TIMEX3 type="DATE" value="2005-11-20" tid="t5">Nov. 20</TIMEX3> and <TIMEX3 type="DATE" value="2005-11-17T01:00" tid="t6">Dec. 1 respectively</TIMEX3>. Any run-offs, if necessary, will be <EVENT class="OCCURRENCE" eid="e22">held</EVENT> <TIMEX3 type="DURATION" value="P6D" tid="t7">six days</TIMEX3> after each round of voting.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000021" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei21" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei4" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei1000021" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei1000021" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0314</DOCID>
+
+<DCT>WELLINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-25" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 25 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Aircraft lift NZ imports</TITLE>
+
+
+<TEXT>
+
+New Zealand's imports of merchandise goods for <TIMEX3 type="DATE" value="2005-10" tid="t1">October 2005</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">increased</EVENT> 316 million NZ dollars (221 million US dollars), up 10.4 percent compared with <TIMEX3 type="DATE" value="2004-10" tid="t2">October 2004</TIMEX3>, and are provisionally <EVENT class="I_STATE" eid="e2">valued</EVENT> at 3,341 million NZ dollars (2339 million US dollars), Statistics New Zealand <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-11-25" tid="t4">Friday</TIMEX3>.
+
+It <EVENT class="REPORTING" eid="e4">said</EVENT> <EVENT class="OCCURRENCE" eid="e5">driving</EVENT> the <EVENT class="OCCURRENCE" eid="e6">increase</EVENT> were higher values for aircraft and parts, valued at 330 million NZ dollars (232 million US dollars). This value is due primarily to the import of two aircraft.
+
+Exports of merchandise goods for <TIMEX3 type="DATE" value="2005-10" tid="t5">October 2005</TIMEX3> are provisionally <EVENT class="I_STATE" eid="e7">valued</EVENT> at 2,459 million NZ dollars (1721 million US dollars), which is 30 million NA dollars (21 million US dollars) lower than for <TIMEX3 type="DATE" value="2004-10" tid="t7">October 2004</TIMEX3>. The main contributors to the reduced exports value were wood and wood articles; aircraft; and ships and boats. Partly offsetting these was a higher value for meat.
+
+The trade balance for the <TIMEX3 type="DATE" value="2005-11-25" tid="t8">October 2005 month</TIMEX3> is a deficit of 882 million (617 million US dollars), or 35.9 percent of exports. The size of the deficit has <EVENT class="OCCURRENCE" eid="e10">decreased</EVENT> for <TIMEX3 type="DURATION" value="2005-11-25" tid="t9">two consecutive months</TIMEX3>.
+
+The average trade balance for an <TIMEX3 type="DATE" value="2005-11-25" tid="t10">October month</TIMEX3> for <TIMEX3 type="DURATION" value="P10Y" tid="t11">the past 10 years</TIMEX3> is a deficit of 462 million NZ dollars (323 million US dollars), 20.2 percent of exports, <EVENT class="REPORTING" eid="e11">said</EVENT> the Statistics New Zealand.
+
+Exports to China in <TIMEX3 type="DATE" value="2005-10" tid="t12">October 2005</TIMEX3> <EVENT class="I_STATE" eid="e12">valued</EVENT> 140 million NZ dollars (98 million US dollars), and are provisionally <EVENT class="I_STATE" eid="e13">valued</EVENT> at 1,559 million NZ dollars (1091 million US dollars), and imports from China <EVENT class="REPORTING" eid="e14">valued</EVENT> in <TIMEX3 type="DATE" value="2005-10" tid="t14">October 2005</TIMEX3> at 388 million NZ dollars (271 million US dollars), and are provisionally <EVENT class="I_STATE" eid="e15">valued</EVENT> at 3,945 million NZ dollars (2761 million US dollars), up 21.9 percent compared with <TIMEX3 type="DATE" value="2004" tid="t16">last year</TIMEX3>, thus <EVENT class="OCCURRENCE" eid="e16">put</EVENT> China the number two country of New Zealand imports from the third <TIMEX3 type="DATE" value="2004" tid="t17">last year</TIMEX3>, <EVENT class="REPORTING" eid="e17">said</EVENT> Statistics New Zealand.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToTime="t17" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei1000007" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1000007" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t16" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToTime="t14" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

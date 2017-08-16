@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0342</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="2005-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Thai oil traders cut gasoline prices</TITLE>
+
+
+<TEXT>
+
+All local oil traders have <EVENT class="OCCURRENCE" eid="e1">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e2">reduce</EVENT> gasoline and gasohol prices by 0.40 baht (1 cent) per liter upon a continued <EVENT class="OCCURRENCE" eid="e3">decline</EVENT> in global fuel prices, but <EVENT class="STATE" eid="e4">remain</EVENT> the diesel price unchanged, Thai News Agency <EVENT class="REPORTING" eid="e5">reported</EVENT> <TIMEX3 type="DATE" value="2005-11-30" tid="t1">Wednesday</TIMEX3>.
+
+Effective at 5:00 am on <TIMEX3 type="DATE" value="2006-11-30" tid="t2">Nov. 30</TIMEX3>, the prices of premium and regular gasoline, as well as gasohol in Greater Bangkok drop to 24. 84, <TIMEX3 type="DATE" value="2005-11-30T04:00" tid="t3">24.04</TIMEX3> and 23.34 baht (62 cents, 60 cents and 58 cents) per liter, while the diesel price <EVENT class="STATE" eid="e7">remains</EVENT> unchanged at 22.72 baht (57 cents) per liter.
+
+Chaivat Churitti, senior executive vice president of PTT's Oil Business Group, <EVENT class="REPORTING" eid="e8">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-29" tid="t4">Tuesday</TIMEX3> that the fuel prices were <EVENT class="OCCURRENCE" eid="e9">set</EVENT> to <EVENT class="OCCURRENCE" eid="e10">reduce</EVENT> at 5:00 am on <TIMEX3 type="DATE" value="2005-12-07" tid="t5">Wednesday</TIMEX3> because the Internal Trade Department <EVENT class="OCCURRENCE" eid="e11">made</EVENT> a written <EVENT class="OCCURRENCE" eid="e12">request</EVENT> for oil traders to <EVENT class="OCCURRENCE" eid="e13">announce</EVENT> the price <EVENT class="OCCURRENCE" eid="e14">change</EVENT> 12 hours in advance to <EVENT class="I_STATE" eid="e15">facilitate</EVENT> an official check of selling prices at service stations.
+
+He <EVENT class="REPORTING" eid="e16">said</EVENT> the latest price cut <EVENT class="OCCURRENCE" eid="e18">stemmed</EVENT> from the <EVENT class="OCCURRENCE" eid="e19">weakening</EVENT> of crude prices on the world market, <EVENT class="OCCURRENCE" eid="e20">resulting</EVENT> in gasoline prices in Singapore <EVENT class="OCCURRENCE" eid="e21">declining</EVENT> to 57.64 US dollars per barrel.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei1000007" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1000007" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+
+
+
+
+</TimeML>

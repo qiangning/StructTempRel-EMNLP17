@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0031</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Farmers in Shanghai enjoy two-digit rise in income</TITLE>
+
+
+<TEXT>
+
+The per-capita disposable income of farmers in Shanghai <EVENT class="OCCURRENCE" eid="e1">increased</EVENT> by 10 percent in <TIMEX3 type="DATE" value="2005-11-17T03:00" tid="t1">the first three quarters of this year</TIMEX3>, thanks largely to accruement in housing rents, proceedings from land transfers and various forms of social welfare.
+
+Farmers' income in Shanghai, the economic hub of the country, <EVENT class="OCCURRENCE" eid="e2">went</EVENT> up 10.3 percent year-on-year to 6,998 yuan (863 US dollars) in <TIMEX3 type="DATE" value="2005-11-17" tid="t4">the January-September period</TIMEX3>, <EVENT class="REPORTING" eid="e3">according</EVENT> to the municipal rural work commission.
+
+The growth rate was 0.7 percentage points higher than the year-earlier level, the source <EVENT class="REPORTING" eid="e5">said</EVENT>, <EVENT class="OCCURRENCE" eid="e6">adding</EVENT> that Shanghai <EVENT class="ASPECTUAL" eid="e7">continued</EVENT> to <EVENT class="OCCURRENCE" eid="e8">rank</EVENT> first among China's provincial regions in terms of farmers' income over <TIMEX3 type="DURATION" value="P10Y" tid="t5">the past 10 years or so</TIMEX3>, the source <EVENT class="OCCURRENCE" eid="e9">added</EVENT>.
+
+Officials with the commission <EVENT class="STATE" eid="e10">owed</EVENT> the fast <EVENT class="OCCURRENCE" eid="e11">growth</EVENT> in farmers' income to the fact that more farmers <EVENT class="ASPECTUAL" eid="e12">began</EVENT> to <EVENT class="OCCURRENCE" eid="e13">work</EVENT> in enterprises which <EVENT class="OCCURRENCE" eid="e14">offer</EVENT> the farmers higher pay, in addition to the <EVENT class="OCCURRENCE" eid="e15">rise</EVENT> in housing rents and <EVENT class="OCCURRENCE" eid="e16">proceedings</EVENT> from land transfers.
+
+The income <EVENT class="OCCURRENCE" eid="e17">growth</EVENT> was also <EVENT class="I_ACTION" eid="e18">attributed</EVENT> to <EVENT class="OCCURRENCE" eid="e19">increasing</EVENT> social welfare, including pension and funds for education and poverty relief as well as that for the handicapped and the low-income earners.
+
+Suburbs, <EVENT class="OCCURRENCE" eid="e20">covering</EVENT> more than 90 percent of Shanghai's total land area, have <EVENT class="STATE" eid="e21">become</EVENT> a major propeller of the local economy, the commission <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+The rural areas <EVENT class="OCCURRENCE" eid="e23">realized</EVENT> 200 billion yuan (24.6 billion US dollars) in value-added output in <TIMEX3 type="DURATION" value="P3Q" tid="t6">the first three quarters</TIMEX3>, up 19.4 percent from the same period of <TIMEX3 type="DATE" value="2004" tid="t7">last year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+
+
+
+
+</TimeML>

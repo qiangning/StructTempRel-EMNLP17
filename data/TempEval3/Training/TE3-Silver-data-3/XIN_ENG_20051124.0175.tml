@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0175</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>19 members of outlawed Kurdish rebel group arrested in Istanbul</TITLE>
+
+
+<TEXT>
+
+Turkish security forces <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> 19 members of the outlawed Kurdish Workers' Party (PKK), including one woman, in four separate operations in Istanbul, the largest city of Turkey, an official press release <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+The press release <EVENT class="OCCURRENCE" eid="e5">issued</EVENT> by the Istanbul Police's Anti-Terror Department <EVENT class="REPORTING" eid="e6">said</EVENT> an operation was <EVENT class="OCCURRENCE" eid="e8">carried</EVENT> out in Istanbul after the police <EVENT class="OCCURRENCE" eid="e9">received</EVENT> information on illegal weapon possession and <EVENT class="OCCURRENCE" eid="e10">selling</EVENT>.
+
+In cooperation with the Intelligence Department, Anti-Terror units <EVENT class="OCCURRENCE" eid="e11">arrested</EVENT> two PKK members <EVENT class="OCCURRENCE" eid="e12">charged</EVENT> with illegal marketing of hand guns.
+
+Police officers <EVENT class="OCCURRENCE" eid="e13">seized</EVENT> 34 hand guns, 53 cartridges and 150 bullets in homes and offices of the two PKK members.
+
+In a separate <EVENT class="OCCURRENCE" eid="e14">operation</EVENT> on <TIMEX3 type="DATE" value="2005-11-14" tid="t2">Nov. 14</TIMEX3>, Istanbul police <EVENT class="OCCURRENCE" eid="e15">arrested</EVENT> one PKK member with five electrical fuses.
+
+In another <EVENT class="OCCURRENCE" eid="e16">operation</EVENT> on <TIMEX3 type="DATE" value="2005-11-16" tid="t3">Nov. 16</TIMEX3>, Istanbul police <EVENT class="OCCURRENCE" eid="e17">arrested</EVENT> four PKK Members and <EVENT class="OCCURRENCE" eid="e18">found</EVENT> two Iraqi made hand guns.
+
+In addition, in an illegal <EVENT class="OCCURRENCE" eid="e19">demonstration</EVENT> at Istanbul's Kucukcekmece district, police forces <EVENT class="OCCURRENCE" eid="e20">arrested</EVENT> 12 PKK members who <EVENT class="OCCURRENCE" eid="e21">carried</EVENT> five Molotov cocktails.
+
+Turkey has been <EVENT class="OCCURRENCE" eid="e22">fighting</EVENT> against a resurging <EVENT class="OCCURRENCE" eid="e23">violence</EVENT> as the PKK <EVENT class="I_ACTION" eid="e24">intensified</EVENT> landmine and remote-controlled bombing <EVENT class="OCCURRENCE" eid="e26">attacks</EVENT> in the country over <TIMEX3 type="DURATION" value="PXM" tid="t4">the past few months</TIMEX3>.
+
+At least 200 Turkish soldiers have been reportedly <EVENT class="OCCURRENCE" eid="e27">killed</EVENT> in <EVENT class="OCCURRENCE" eid="e28">clashes</EVENT> with PKK members <TIMEX3 type="DATE" value="2005" tid="t5">this year</TIMEX3>.
+
+More than 37,000 people have been <EVENT class="OCCURRENCE" eid="e29">killed</EVENT> since the rebel group <EVENT class="OCCURRENCE" eid="e30">took</EVENT> up arms against the government for an independent Kurdish state in Kurdish-dominated southeastern Turkey in <TIMEX3 type="DATE" value="1984" tid="t6">1984</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei30" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei26" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="IS_INCLUDED" />
+<TLINK lid="l39" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="IAFTER" />
+<TLINK lid="l40" eventInstanceID="ei28" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

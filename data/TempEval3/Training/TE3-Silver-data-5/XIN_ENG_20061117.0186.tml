@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0186</DOCID>
+
+<DCT>KABUL, <TIMEX3 tid="t0" type="TIME" value="2006-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Flood kills 47, leaves 50 missing in W. Afghanistan</TITLE>
+
+
+<TEXT>
+
+A flash flood <EVENT class="OCCURRENCE" eid="e1">killed</EVENT> at least 47 residents and <EVENT class="OCCURRENCE" eid="e2">left</EVENT> 50 others <EVENT class="OCCURRENCE" eid="e3">missing</EVENT> in Badghis province of western Afghanistan, Health Minister Mohammad Amin Fatimi <EVENT class="REPORTING" eid="e4">told</EVENT> Xinhua on <TIMEX3 type="DATE" value="2006-11-17" tid="t1">Friday</TIMEX3>.
+
+The flood <EVENT class="OCCURRENCE" eid="e5">caused</EVENT> the casualties in Balamurghab district on <TIMEX3 type="DATE" value="2006-11-16TNI" tid="t2">Thursday night</TIMEX3>, he <EVENT class="OCCURRENCE" eid="e6">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0421</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2005-11-17" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 17 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nepal begins using Boeing for mountain flight</TITLE>
+
+
+<TEXT>
+
+After <EVENT class="OCCURRENCE" eid="e1">introducing</EVENT> jet aircraft service on domestic routes, Cosmic Air, the leading private Nepali airline is <EVENT class="OCCURRENCE" eid="e3">gearing</EVENT> up to <EVENT class="OCCURRENCE" eid="e4">use</EVENT> its Fokker-100 jet aircraft for mountain flights from <TIMEX3 type="DATE" value="2005-11-13" tid="t1">Sunday</TIMEX3>, a statement <EVENT class="OCCURRENCE" eid="e5">released</EVENT> by the airline <EVENT class="I_ACTION" eid="e6">stated</EVENT> on <TIMEX3 type="DATE" value="2005-11-17" tid="t2">Thursday</TIMEX3>.
+
+The airline's inaugural mountain flight with its Fokker-100 jet has <EVENT class="OCCURRENCE" eid="e7">provided</EVENT> passengers a "spectacular" view of the world's highest peak Mt. Qomolangma and Annapurna mountain <EVENT class="OCCURRENCE" eid="e8">ranges</EVENT> on <TIMEX3 type="DATE" value="2005-11-23" tid="t3">Wednesday</TIMEX3>.
+
+"We are the first airline in Nepal to <EVENT class="OCCURRENCE" eid="e9">use</EVENT> a Boeing for mountain flights covering both the Himalayan ranges," deputy director of sales and marketing division of Cosmic Air Simrik Shrestha <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+The airline is <EVENT class="I_STATE" eid="e12">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e13">begin</EVENT> its scheduled mountain flights with its Fokker from <TIMEX3 type="DATE" value="2004-11-20" tid="t4">Nov. 20</TIMEX3>.
+
+There were 72 passengers, including journalists and crew members, on board the 108 seater aircraft, <EVENT class="REPORTING" eid="e14">according</EVENT> to Shrestha.
+
+Mountains of Ganesh Himal, Langtang, Gauri Shankar, Cho Oyu, Pumori, Qomolangma, Kanchenjunga, Manaslu, Annapurna, Machhapuchhre are some of the peaks that can be <EVENT class="PERCEPTION" eid="e15">seen</EVENT> during the mountain flight, he <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+The airline <EVENT class="I_STATE" eid="e18">intends</EVENT> to <EVENT class="OCCURRENCE" eid="e19">sell</EVENT> only 84 out of 108 air seats per flight so as to <EVENT class="OCCURRENCE" eid="e20">provide</EVENT> a better view of the mountains to the passengers.
+
+"The mountain flight today <EVENT class="OCCURRENCE" eid="e21">made</EVENT> me <EVENT class="STATE" eid="e22">feel</EVENT> as if I were in heaven. I <EVENT class="OCCURRENCE" eid="e23">felt</EVENT> like I was on top of the mountains," 41-year-old Spanish tourist, Maria Carmen Sane, <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+"It was <EVENT class="STATE" eid="e25">amazing</EVENT> to <EVENT class="PERCEPTION" eid="e26">see</EVENT> the mountains, I <EVENT class="OCCURRENCE" eid="e27">found</EVENT> Mt. Pumori the prettiest of all the mountains," another Spanish tourist, Pablo Uriarte Masio, <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+
+
+
+
+</TimeML>

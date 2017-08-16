@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0143</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Power blackout enters fourth night in western Germany</TITLE>
+
+
+<TEXT>
+
+Thousands of people in western Germany <EVENT class="OCCURRENCE" eid="e1">spent</EVENT> their fourth night without electricity after <TIMEX3 type="DATE" value="2005-W48" tid="t1">this week</TIMEX3>'s record snowfall <EVENT class="OCCURRENCE" eid="e2">damaged</EVENT> power lines throughout the region, authorities <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-29" tid="t2">Tuesday</TIMEX3>.
+
+As many as 35,000 people in the towns of Steinfurt and Borghorst <EVENT class="STATE" eid="e4">had</EVENT> their power <EVENT class="OCCURRENCE" eid="e5">cut</EVENT> again after a pylon <EVENT class="OCCURRENCE" eid="e6">toppled</EVENT>, <EVENT class="OCCURRENCE" eid="e7">bringing</EVENT> others down with it. The region is <EVENT class="I_STATE" eid="e8">expected</EVENT> to have its electricity supply <EVENT class="OCCURRENCE" eid="e10">switched</EVENT> back on <TIMEX3 type="DATE" value="2005-12-06" tid="t3">next Tuesday</TIMEX3>.
+
+Some 20,000 residents of Ochtrup will <EVENT class="OCCURRENCE" eid="e11">receive</EVENT> power from portable generators. Most farms in the area are being <EVENT class="OCCURRENCE" eid="e12">powered</EVENT> in this way. The blackout in the town has <EVENT class="OCCURRENCE" eid="e13">lasted</EVENT> <TIMEX3 type="DURATION" value="P4D" tid="t4">four days</TIMEX3>, since the pylons along a three km stretch <EVENT class="OCCURRENCE" eid="e14">fell</EVENT> down under the weight of ice on <TIMEX3 type="DATE" value="2005-11-25" tid="t5">Friday</TIMEX3>, German news agency DPA <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+Power had been <EVENT class="OCCURRENCE" eid="e16">restored</EVENT> to 200,000 people over <TIMEX3 type="DATE" value="2005-W47-WE" tid="t6">the weekend</TIMEX3> in North Rhine-Westphalia, <EVENT class="REPORTING" eid="e17">said</EVENT> the most populous state's Interior Ministry.
+
+The weight of thick ice and snow, rarely <EVENT class="PERCEPTION" eid="e18">seen</EVENT> in <TIMEX3 type="DURATION" value="P100Y" tid="t7">more than 100 years</TIMEX3>, <EVENT class="OCCURRENCE" eid="e19">damaged</EVENT> about 50 electric poles on <TIMEX3 type="DATE" value="2005-11-25" tid="t8">Friday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e20">throwing</EVENT> much of the region around the city of Muenster into darkness.
+
+Police <EVENT class="REPORTING" eid="e21">said</EVENT> that treacherous road conditions had <EVENT class="OCCURRENCE" eid="e22">caused</EVENT> 2,000 <EVENT class="OCCURRENCE" eid="e23">accidents</EVENT> <EVENT class="OCCURRENCE" eid="e24">leaving</EVENT> some 140 people <EVENT class="OCCURRENCE" eid="e25">injured</EVENT> and a damage bill which is <EVENT class="I_STATE" eid="e26">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e27">cost</EVENT> millions.
+
+Power companies <EVENT class="I_ACTION" eid="e28">blamed</EVENT> the extreme weather conditions for the blackouts, <EVENT class="OCCURRENCE" eid="e29">rejecting</EVENT> any responsibility for the <EVENT class="OCCURRENCE" eid="e30">damage</EVENT>.
+
+The government is likely to <EVENT class="OCCURRENCE" eid="e31">summon</EVENT> executives of electricity companies and civil-defense experts to <EVENT class="I_ACTION" eid="e32">explain</EVENT> the matter.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei21" relatedToEventInstance="ei28" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei21" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei31" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei20" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei18" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0321</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891101-0043 = 891101 891101-0043.
+Business Brief -- StatesWest Airlines: @ Offer for Mesa Withdrawn; @ Firm to Continue Pursuit 11/01/89 WALL STREET JOURNAL (J) SWAL MESA TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+</EXTRAINFO>
+
+
+
+<TEXT>
+StatesWest Airlines, Phoenix, Ariz., <EVENT class="REPORTING" eid="e1">said</EVENT> it <EVENT class="OCCURRENCE" eid="e2">withdrew</EVENT> its <EVENT class="OCCURRENCE" eid="e3">offer</EVENT> to <EVENT class="OCCURRENCE" eid="e4">acquire</EVENT> Mesa Airlines because the Farmington, N.M., carrier didn't <EVENT class="OCCURRENCE" eid="e5">respond</EVENT> to its <EVENT class="OCCURRENCE" eid="e6">offer</EVENT> by the <EVENT class="OCCURRENCE" eid="e7">close</EVENT> of business <TIMEX3 type="DATE" value="1989-10-31" tid="t1">yesterday</TIMEX3>, a deadline StatesWest had <EVENT class="OCCURRENCE" eid="e8">set</EVENT> for a <EVENT class="OCCURRENCE" eid="e9">response</EVENT>.
+
+However, StatesWest isn't <EVENT class="OCCURRENCE" eid="e10">abandoning</EVENT> its <EVENT class="OCCURRENCE" eid="e11">pursuit</EVENT> of the much-larger Mesa. StatesWest, which <EVENT class="STATE" eid="e12">has</EVENT> a 7.25% stake in Mesa, <EVENT class="REPORTING" eid="e13">said</EVENT> it may <EVENT class="OCCURRENCE" eid="e14">purchase</EVENT> more Mesa stock or <EVENT class="OCCURRENCE" eid="e15">make</EVENT> a tender <EVENT class="OCCURRENCE" eid="e16">offer</EVENT> directly to Mesa shareholders.
+
+StatesWest had <EVENT class="OCCURRENCE" eid="e17">proposed</EVENT> <EVENT class="OCCURRENCE" eid="e18">acquiring</EVENT> Mesa for $7 a share and one share of a new series of StatesWest 6% convertible preferred stock it <EVENT class="OCCURRENCE" eid="e19">values</EVENT> at $3 a share. Earlier, Mesa had <EVENT class="OCCURRENCE" eid="e20">rejected</EVENT> a general <EVENT class="OCCURRENCE" eid="e21">proposal</EVENT> from StatesWest to <EVENT class="OCCURRENCE" eid="e22">combine</EVENT> the two carriers in some way.
+
+StatesWest serves 10 cities in California, Arizona and Nevada. Mesa <EVENT class="OCCURRENCE" eid="e24">flies</EVENT> to 42 cities in New Mexico, Arizona, Wyoming, Colorado and Texas.
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t1" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l10" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei6" />
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToEventInstance="ei7" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei8" />
+<TLINK lid="l13" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei9" />
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei10" />
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l18" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei13" />
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei12" relatedToEventInstance="ei13" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei14" />
+<TLINK lid="l21" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToEventInstance="ei15" />
+<TLINK lid="l22" relType="AFTER" eventInstanceID="ei13" relatedToEventInstance="ei16" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei13" relatedToEventInstance="ei17" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei18" />
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei19" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei20" />
+<TLINK lid="l29" relType="AFTER" eventInstanceID="ei20" relatedToEventInstance="ei21" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei22" />
+<TLINK lid="l31" relType="INCLUDES" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei24" />
+
+</TimeML>
+
+

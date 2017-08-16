@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0308</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Postal charge increases approved by Chinese government</TITLE>
+
+
+<TEXT>
+
+The Chinese government has <EVENT class="OCCURRENCE" eid="e1">approved</EVENT> price <EVENT class="OCCURRENCE" eid="e2">rises</EVENT> by the State Post Bureau for mail and postcard deliveries.
+
+The State Development and Reform Commission (SDRC) and the State Post Bureau <EVENT class="REPORTING" eid="e3">announced</EVENT> the price <EVENT class="OCCURRENCE" eid="e4">hikes</EVENT> from <TIMEX3 type="DATE" value="2006-11-15" tid="t1">Nov. 15</TIMEX3>.
+
+China's law on pricing <EVENT class="OCCURRENCE" eid="e5">requires</EVENT> government departments to <EVENT class="OCCURRENCE" eid="e6">hold</EVENT> hearings on price hikes for any public <EVENT class="OCCURRENCE" eid="e8">services</EVENT>, but the postal prices would not be <EVENT class="I_STATE" eid="e9">subject</EVENT> to a <EVENT class="OCCURRENCE" eid="e10">hearing</EVENT>, <EVENT class="REPORTING" eid="e11">said</EVENT> an SDRC official.
+
+The cost of <EVENT class="I_ACTION" eid="e12">posting</EVENT> a postcard <EVENT class="OCCURRENCE" eid="e13">rose</EVENT> from 0.6 yuan (0.08 U.S. dollars) to 0.8 yuan, while the local rate for a letter <EVENT class="OCCURRENCE" eid="e14">rose</EVENT> from 0.6 yuan to 0.8 yuan per 20 grams for the first 100 grams and 1.2 yuan for each additional 100 grams.
+
+For ordinary domestic letters, the price <EVENT class="OCCURRENCE" eid="e15">rose</EVENT> from 0.8 yuan to 1.2 yuan per 20 grams for the first 100 grams. Charges for each additional 100 grams <EVENT class="STATE" eid="e16">remain</EVENT> two yuan.
+
+Figures provided by the SDRC <EVENT class="OCCURRENCE" eid="e17">show</EVENT> the per capita cost of the <EVENT class="OCCURRENCE" eid="e18">increase</EVENT> is 0.33 yuan per year, so a <EVENT class="OCCURRENCE" eid="e19">hearing</EVENT> would have <EVENT class="STATE" eid="e20">been</EVENT> unreasonable, the official <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e23">increase</EVENT> is <EVENT class="I_STATE" eid="e24">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e25">alleviating</EVENT> the service's financial problems and <EVENT class="OCCURRENCE" eid="e26">paving</EVENT> the way for its transformation into a state-owned enterprise, an SDRC spokesperson had <EVENT class="REPORTING" eid="e27">said</EVENT> earlier.
+
+Postal charges were last <EVENT class="OCCURRENCE" eid="e29">raised</EVENT> in <TIMEX3 type="DATE" value="1998" tid="t2">1998</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="OTHER" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="ADJECTIVE" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="NEG" modality="would" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei29" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

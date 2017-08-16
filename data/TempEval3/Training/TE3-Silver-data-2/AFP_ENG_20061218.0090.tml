@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061218.0090</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-12-18" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 18 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>ATTENTION - ADDS background, quotes ///</TITLE>
+
+
+<TEXT>
+
+North Korea <EVENT class="I_ACTION" eid="e1">insisted</EVENT> <TIMEX3 type="DATE" value="2006-12-18" tid="t1">Monday</TIMEX3> that UN sanctions <EVENT class="OCCURRENCE" eid="e3">imposed</EVENT> after its nuclear test must be <EVENT class="OCCURRENCE" eid="e4">lifted</EVENT> before it would <EVENT class="OCCURRENCE" eid="e5">discuss</EVENT> <EVENT class="OCCURRENCE" eid="e6">dismantling</EVENT> its nuclear programs, <EVENT class="REPORTING" eid="e7">according</EVENT> to a source present at the six-nation <EVENT class="OCCURRENCE" eid="e8">talks</EVENT> with Pyongyang.
+
+North Korea's chief delegate to the <EVENT class="OCCURRENCE" eid="e9">talks</EVENT>, Kim Kye-Gwan, also <EVENT class="REPORTING" eid="e10">said</EVENT> in his keynote address that US financial sanctions <EVENT class="OCCURRENCE" eid="e12">imposed</EVENT> <TIMEX3 type="DATE" value="2005" tid="t2">last year</TIMEX3> on the Stalinist state on allegations of money laundering must also be <EVENT class="OCCURRENCE" eid="e13">removed</EVENT> before <EVENT class="OCCURRENCE" eid="e14">talks</EVENT> on <EVENT class="OCCURRENCE" eid="e15">disarmament</EVENT> could <EVENT class="ASPECTUAL" eid="e16">begin</EVENT>.
+
+"The North Koreans <EVENT class="REPORTING" eid="e17">said</EVENT> they would <EVENT class="OCCURRENCE" eid="e18">take</EVENT> measures to <EVENT class="OCCURRENCE" eid="e19">keep</EVENT> <EVENT class="OCCURRENCE" eid="e20">strengthening</EVENT> their nuclear deterrent as long as sanctions and pressure <EVENT class="ASPECTUAL" eid="e21">continues</EVENT> to <EVENT class="OCCURRENCE" eid="e22">exist</EVENT>," the source <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+The six-nation <EVENT class="OCCURRENCE" eid="e24">talks</EVENT> <EVENT class="ASPECTUAL" eid="e25">resumed</EVENT> after a <TIMEX3 type="DURATION" value="P13M" tid="t3">13 month</TIMEX3> <EVENT class="OCCURRENCE" eid="e26">break</EVENT> with Kim <EVENT class="OCCURRENCE" eid="e27">repeating</EVENT> a list of his nation's long-standing demands and <EVENT class="REPORTING" eid="e28">said</EVENT> Pyongyang was "satisfied" with having nuclear weapons, a South Korean official <EVENT class="REPORTING" eid="e30">told</EVENT> reporters earlier.
+
+North Korea <EVENT class="OCCURRENCE" eid="e31">pulled</EVENT> out of the <EVENT class="OCCURRENCE" eid="e32">talks</EVENT> in <TIMEX3 type="DATE" value="2005-11" tid="t4">November last year</TIMEX3> in protest at US financial sanctions and then <EVENT class="OCCURRENCE" eid="e34">stunned</EVENT> the world with its first ever nuclear test on <TIMEX3 type="DATE" value="2006-10-09" tid="t5">October 9</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e35">talks</EVENT> <EVENT class="OCCURRENCE" eid="e36">bring</EVENT> together China, the two Koreas, the United States, Japan and Russia.
+
+The <EVENT class="OCCURRENCE" eid="e37">speech</EVENT> by Kim, North Korea's vice foreign minister, <EVENT class="I_STATE" eid="e38">represented</EVENT> a shopping list of long-standing North Korean demands with no new offers, the South Korean official <EVENT class="REPORTING" eid="e40">said</EVENT>.
+
+"They (North Koreans) <EVENT class="OCCURRENCE" eid="e41">presented</EVENT> a maximum list of their demands. It was like a summary of all of their previous demands," the official <EVENT class="REPORTING" eid="e44">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei32" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei36" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei34" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei41" relatedToEventInstance="ei44" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei37" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei25" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei10" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei23" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei25" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei26" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l48" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+
+
+
+
+</TimeML>

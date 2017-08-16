@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051128.0138</DOCID>
+
+<DCT>NEW DELHI, <TIMEX3 tid="t0" type="TIME" value="2005-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>India seeks higher coal imports for power generation</TITLE>
+
+
+<TEXT>
+
+India is <EVENT class="OCCURRENCE" eid="e1">set</EVENT> to significantly <EVENT class="OCCURRENCE" eid="e2">increase</EVENT> its coal imports to <EVENT class="OCCURRENCE" eid="e3">match</EVENT> its growing domestic requirement for power generation, a top official <EVENT class="REPORTING" eid="e4">said</EVENT> here <TIMEX3 type="DATE" value="2005-11-28" tid="t1">Monday</TIMEX3>.
+
+"We <EVENT class="ASPECTUAL" eid="e5">started</EVENT> coal imports <TIMEX3 type="DATE" value="2004" tid="t2">last year</TIMEX3> to <EVENT class="OCCURRENCE" eid="e6">meet</EVENT> the requirement for power generation. So far <TIMEX3 type="DATE" value="2005" tid="t3">this year</TIMEX3> we have <EVENT class="OCCURRENCE" eid="e7">imported</EVENT> around seven million tons of coal, which is <EVENT class="OCCURRENCE" eid="e8">set</EVENT> to <EVENT class="OCCURRENCE" eid="e9">reach</EVENT> about 14 million tons by <TIMEX3 type="DATE" value="2005-03" tid="t4">March</TIMEX3>," Indo-Asian News Service <EVENT class="REPORTING" eid="e10">quoted</EVENT> Power Secretary R.V. Shahi at the ongoing India Economic Summit 2005 as <EVENT class="REPORTING" eid="e11">saying</EVENT>.
+
+"We are <EVENT class="OCCURRENCE" eid="e12">preparing</EVENT> to <EVENT class="OCCURRENCE" eid="e13">import</EVENT> 20 million tons of high calorific value coal in <TIMEX3 type="DATE" value="2006" tid="t6">2006-07</TIMEX3>, when we are <EVENT class="I_STATE" eid="e14">expecting</EVENT> about 30 million tons shortage," Shahi <EVENT class="REPORTING" eid="e15">told</EVENT> the annual summit <EVENT class="OCCURRENCE" eid="e16">organized</EVENT> jointly by the World Economic Forum (WEF) and the Confederation of Indian Industry (CII).
+
+Though one of the world's largest coal producers, India's coal has a high ash content <EVENT class="OCCURRENCE" eid="e17">leading</EVENT> to a growing shortfall in production as against the demand, particularly by the power industry.
+
+The current requirement of coal for power sector is about 365- 370 million tons.
+
+The import option is being <EVENT class="OCCURRENCE" eid="e19">pushed</EVENT> in addition to the captive coal <EVENT class="OCCURRENCE" eid="e20">mining</EVENT> to <EVENT class="OCCURRENCE" eid="e21">ensure</EVENT> that shortage does not <EVENT class="OCCURRENCE" eid="e22">lead</EVENT> to unutilized power generation capacity, which was <EVENT class="PERCEPTION" eid="e23">witnessed</EVENT> <TIMEX3 type="DATE" value="2004" tid="t7">last year</TIMEX3>.
+
+"This year with 14 million tons of coal imports, as of <TIMEX3 type="DATE" value="PRESENT_REF" tid="t8">now</TIMEX3> we will not be <EVENT class="OCCURRENCE" eid="e24">losing</EVENT> generation due to coal shortage," the official <EVENT class="REPORTING" eid="e25">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei23" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei19" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061119.0021</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2006-11-19" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 19 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>URGENT: Russia, US sign agreement on WTO deal in Vietnam</TITLE>
+
+
+<TEXT>
+
+Russia and the United States <TIMEX3 type="DATE" value="2006-11-19" tid="t1">Sunday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">signed</EVENT> a bilateral <EVENT class="OCCURRENCE" eid="e2">agreement</EVENT> on Russia's <EVENT class="OCCURRENCE" eid="e3">accession</EVENT> to the World Trade Organization (WTO) on the sidelines of the ongoing Asia- Pacific Economic Cooperaiton Economic Leaders' Meeting in Hanoi.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

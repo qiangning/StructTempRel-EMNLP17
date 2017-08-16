@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061209.0030</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-12-09" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 9 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>US Congress passes bill to normalize trade with Vietnam</TITLE>
+
+
+<TEXT>
+
+The US Congress early <TIMEX3 type="DATE" value="2006-12-09" tid="t1">Saturday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">gave</EVENT> its final approval to a bill to <EVENT class="OCCURRENCE" eid="e3">restore</EVENT> normal trade ties with Vietnam.
+
+The bill granting "permanent normal trade relations" (PNTR) status to Vietnam was part of a large omnibus measure <EVENT class="OCCURRENCE" eid="e5">approved</EVENT> by the Senate 79-9 during an all-night session.
+
+The US House of Representatives <EVENT class="OCCURRENCE" eid="e6">voted</EVENT> for it <TIMEX3 type="DATE" value="2006-12-09" tid="t3">212-184 late Friday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

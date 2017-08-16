@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0116</DOCID>
+
+<DCT>WARSAW, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Poland announces national mourning for mine blast victims</TITLE>
+
+
+<TEXT>
+
+Polish President Lech Kaczynski <EVENT class="REPORTING" eid="e1">announced</EVENT> <TIMEX3 type="DURATION" value="P3D" tid="t1">three days</TIMEX3> of national <EVENT class="OCCURRENCE" eid="e2">mourning</EVENT> for the victims in a mine <EVENT class="OCCURRENCE" eid="e3">blast</EVENT> in southern Poland, the official PAP news agency <EVENT class="REPORTING" eid="e4">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-23" tid="t2">Thursday</TIMEX3>.
+
+The mourning period, <EVENT class="ASPECTUAL" eid="e6">starting</EVENT> on <TIMEX3 type="DATE" value="2006-11-23" tid="t3">Thursday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e7">came</EVENT> after all 23 miners <EVENT class="STATE" eid="e8">trapped</EVENT> in the Halemba coal mine in the southern Polish city of Ruda Slaskain were <EVENT class="REPORTING" eid="e9">confirmed</EVENT> dead, the report <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+The <EVENT class="OCCURRENCE" eid="e11">accident</EVENT> <EVENT class="OCCURRENCE" eid="e12">occurred</EVENT> on <TIMEX3 type="DATE" value="2006-11-21TNI" tid="t4">Tuesday night</TIMEX3> when a methane gas explosion 1,030 meters underground <EVENT class="OCCURRENCE" eid="e14">shook</EVENT> the Halemba coal mine. There were 31 miners <EVENT class="OCCURRENCE" eid="e15">working</EVENT> in the area at that time, and eight of them <EVENT class="OCCURRENCE" eid="e16">managed</EVENT> to <EVENT class="OCCURRENCE" eid="e17">escape</EVENT>.
+
+The mine <EVENT class="OCCURRENCE" eid="e18">accident</EVENT> is the country's deadliest so far <TIMEX3 type="DATE" value="2006" tid="t5">this year</TIMEX3>, <EVENT class="OCCURRENCE" eid="e19">bringing</EVENT> the number of miners <EVENT class="OCCURRENCE" eid="e20">killed</EVENT> in <TIMEX3 type="DATE" value="2006" tid="t6">2006</TIMEX3> in Poland to 43.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

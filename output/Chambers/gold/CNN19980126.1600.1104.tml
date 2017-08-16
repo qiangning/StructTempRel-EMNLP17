@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>CNN19980126.1600.1104</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-01-26" temporalFunction="false" functionInDocument="CREATION_TIME">19980126</TIMEX3></DCT>
+<TEXT>
+Major job cuts at AT and T. The long distance giant <EVENT class="OCCURRENCE" eid="e1">slashing</EVENT> up to eighteen thousand jobs, freezing executive salaries and <EVENT class="OCCURRENCE" eid="e3">shaking</EVENT> up management. The <EVENT class="ASPECTUAL" eid="e39">changes</EVENT> are part of a one point six billion dollar cost cutting initiative to <EVENT class="OCCURRENCE" eid="e4">revitalize</EVENT> its position in the telecommunications business. Earlier AT and T also <EVENT class="REPORTING" eid="e7">announced</EVENT> an eighteen percent <EVENT class="OCCURRENCE" eid="e42">drop</EVENT> in profits for <TIMEX3 tid="t32" type="DURATION" value="1997-Q4">the fourth quarter</TIMEX3>. The company's sales force <EVENT class="I_ACTION" eid="e9">applauded</EVENT> the shake up.
+
+It's not something we're not <EVENT class="STATE" eid="e206">used</EVENT> to in the industry. But I <EVENT class="I_STATE" eid="e14">think</EVENT> right <TIMEX3 tid="t34" type="DATE" value="PRESENT_REF">now</TIMEX3>, for AT and T and the people here, it's fairly <EVENT class="STATE" eid="e46">intense</EVENT> as you might w- well imagine.
+
+I mean look at the stock. You know, since he's been here the stock <EVENT class="OCCURRENCE" eid="e22">skyrocketed</EVENT> so, Yeah I <EVENT class="I_STATE" eid="e48">think</EVENT> he's <EVENT class="OCCURRENCE" eid="e24">doing</EVENT> the right thing.
+
+I <EVENT class="I_STATE" eid="e25">think</EVENT> it's a good thing that they're finally going to be <EVENT class="OCCURRENCE" eid="e27">downsizing</EVENT> you know some management because there is a whole lot of waste.
+
+Good news for AT and T <TIMEX3 tid="t33" type="DATE" value="1998-01-26">today</TIMEX3>. I <EVENT class="I_STATE" eid="e29">think</EVENT> it's <EVENT class="STATE" eid="e204">excellent</EVENT> for the company.
+
+But investors are <EVENT class="I_ACTION" eid="e30">approaching</EVENT> the <EVENT class="OCCURRENCE" eid="e52">changes</EVENT> with caution shares of AT and T down nearly four at sixty-one and a half.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei255" eventID="e1" polarity="POS" pos="VERB" tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei257" eventID="e3" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei258" eventID="e39" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei261" eventID="e4" polarity="POS" pos="VERB" tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei262" eventID="e7" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei263" eventID="e42" polarity="POS" pos="NOUN" tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei265" eventID="e9" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei288" eventID="e206" polarity="NEG" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei268" eventID="e14" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei269" eventID="e46" polarity="POS" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei274" eventID="e22" polarity="POS" pos="VERB" tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei275" eventID="e48" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei276" eventID="e24" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei277" eventID="e25" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei279" eventID="e27" polarity="POS" pos="VERB" tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei282" eventID="e29" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei283" eventID="e204" polarity="POS" pos="ADJECTIVE" tense="PRESENT" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei284" eventID="e30" polarity="POS" pos="VERB" tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei285" eventID="e52" polarity="POS" pos="NOUN" tense="NONE" />
+<TLINK eventInstanceID="ei261" lid="l0" relType="AFTER" relatedToTime="t0" />
+<TLINK eventInstanceID="ei261" lid="l1" relType="AFTER" relatedToEventInstance="ei262" />
+<TLINK eventInstanceID="ei261" lid="l2" relType="AFTER" relatedToEventInstance="ei263" />
+<TLINK eventInstanceID="ei261" lid="l3" relType="AFTER" relatedToTime="t32" />
+<TLINK eventInstanceID="ei262" lid="l4" relType="AFTER" relatedToEventInstance="ei263" />
+<TLINK eventInstanceID="ei262" lid="l5" relType="AFTER" relatedToTime="t32" />
+<TLINK eventInstanceID="ei263" lid="l6" relType="BEFORE" relatedToTime="t0" />
+<TLINK timeID="t32" lid="l7" relType="BEFORE" relatedToTime="t0" />
+<TLINK eventInstanceID="ei265" lid="l8" relType="IS_INCLUDED" relatedToEventInstance="ei288" />
+<TLINK eventInstanceID="ei288" lid="l9" relType="INCLUDES" relatedToTime="t0" />
+<TLINK eventInstanceID="ei288" lid="l10" relType="INCLUDES" relatedToEventInstance="ei268" />
+<TLINK eventInstanceID="ei288" lid="l11" relType="INCLUDES" relatedToTime="t34" />
+<TLINK eventInstanceID="ei288" lid="l12" relType="INCLUDES" relatedToEventInstance="ei269" />
+<TLINK eventInstanceID="ei268" lid="l13" relType="IS_INCLUDED" relatedToTime="t0" />
+<TLINK eventInstanceID="ei268" lid="l14" relType="IS_INCLUDED" relatedToEventInstance="ei269" />
+<TLINK eventInstanceID="ei274" lid="l15" relType="BEFORE" relatedToTime="t0" />
+<TLINK eventInstanceID="ei274" lid="l16" relType="BEFORE" relatedToEventInstance="ei275" />
+<TLINK eventInstanceID="ei274" lid="l17" relType="BEFORE" relatedToEventInstance="ei277" />
+<TLINK eventInstanceID="ei274" lid="l18" relType="BEFORE" relatedToEventInstance="ei279" />
+<TLINK eventInstanceID="ei275" lid="l19" relType="SIMULTANEOUS" relatedToEventInstance="ei277" />
+<TLINK eventInstanceID="ei276" lid="l20" relType="INCLUDES" relatedToTime="t0" />
+<TLINK eventInstanceID="ei279" lid="l21" relType="AFTER" relatedToTime="t0" />
+<TLINK eventInstanceID="ei279" lid="l22" relType="AFTER" relatedToTime="t33" />
+<TLINK timeID="t33" lid="l23" relType="SIMULTANEOUS" relatedToTime="t0" />
+<TLINK eventInstanceID="ei283" lid="l24" relType="SIMULTANEOUS" relatedToEventInstance="ei285" />
+
+</TimeML>

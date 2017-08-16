@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051129.0175</DOCID>
+
+<DCT>ZHANGJIAKOU, North China, <TIMEX3 tid="t0" type="TIME" value="2005-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Japan wins men's title of FIS Alpine ski competition in China</TITLE>
+
+
+<TEXT>
+
+Japan <EVENT class="OCCURRENCE" eid="e1">won</EVENT> the first gold medal <EVENT class="OCCURRENCE" eid="e2">awarded</EVENT> in the 2005 International Ski Federation (FIS) Alpine Ski Competition in China which <EVENT class="OCCURRENCE" eid="e3">opened</EVENT> here on <TIMEX3 type="DATE" value="2005-11-29" tid="t2">Tuesday</TIMEX3>.
+
+Takeda Ryu <EVENT class="OCCURRENCE" eid="e4">clocked</EVENT> a total of <TIMEX3 type="DURATION" value="2005-11-29" tid="t3">two minutes 26.85 seconds</TIMEX3> in the two runs of the men's giant slalom event to <EVENT class="OCCURRENCE" eid="e5">win</EVENT> the gold, <EVENT class="OCCURRENCE" eid="e6">followed</EVENT>
+
+by Kim Min-Sung of South Korea with <TIMEX3 type="DATE" value="2005-11-29T13:00" tid="t4">2:27.13</TIMEX3>.
+
+The bronze medal <EVENT class="OCCURRENCE" eid="e7">went</EVENT> to Hur Seung-Wook of South Korea at <TIMEX3 type="DATE" value="2005-11-29T14:00" tid="t5">2:27. 14</TIMEX3>.
+
+In the women's event, South Korean Oh Jae-Eun <EVENT class="REPORTING" eid="e8">claimed</EVENT> the title
+
+with 2:34.77 and Yamazaki Yurie of Japan <EVENT class="OCCURRENCE" eid="e9">won</EVENT> the silver with 2:36. 50.
+
+China's Dong Jinzhi <EVENT class="OCCURRENCE" eid="e10">won</EVENT> the bronze medal with 2:38.35.
+
+"This is the best result of Chinese skiiers in the international competitions." <EVENT class="REPORTING" eid="e11">said</EVENT> Tian Younian, vice-president of the China Ski Association, "It is very encouraging for all Chinese skiers."
+
+The competition, <EVENT class="OCCURRENCE" eid="e13">runs</EVENT> from <TIMEX3 type="DATE" value="2006-11-29" tid="t6">November 29</TIMEX3> to <TIMEX3 type="DATE" value="2005-12-02" tid="t7">December 2</TIMEX3>, <EVENT class="I_ACTION" eid="e14">featured</EVENT> 120 skiers from seven countries and regions including Japan, South
+
+Korea, Chinese Taipei and France.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

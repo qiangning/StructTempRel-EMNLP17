@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0300</DOCID>
+
+<DCT>LUSAKA, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Zambian president highly speaks of China-Africa summit</TITLE>
+
+
+<TEXT>
+
+Zambian President Levy Mwanawasa <EVENT class="REPORTING" eid="e1">said</EVENT> the just ended Beijing Summit of the Forum on China-Africa Cooperation <EVENT class="OCCURRENCE" eid="e2">held</EVENT> on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Nov. 4-5</TIMEX3> is highly beneficial to the economic success and <EVENT class="OCCURRENCE" eid="e3">development</EVENT> of Zambia.
+
+Mwanawasa <EVENT class="REPORTING" eid="e4">told</EVENT> a news <EVENT class="OCCURRENCE" eid="e5">briefing</EVENT> <TIMEX3 type="DATE" value="2006-11-07" tid="t2">Tuesday</TIMEX3> at Beijing Hotel that his country will <EVENT class="OCCURRENCE" eid="e6">benefit</EVENT> from the <EVENT class="OCCURRENCE" eid="e7">summit</EVENT> through the financial resources China has <EVENT class="I_ACTION" eid="e8">pledged</EVENT> to <EVENT class="OCCURRENCE" eid="e9">pour</EVENT> into Africa, Zambia National Broadcasting Corporation <EVENT class="REPORTING" eid="e10">reported</EVENT>.
+
+Mwanawasa <EVENT class="I_ACTION" eid="e11">hailed</EVENT> the government of China for <EVENT class="OCCURRENCE" eid="e12">initiating</EVENT> an aid package to <EVENT class="OCCURRENCE" eid="e13">enhance</EVENT> Africa's economic <EVENT class="OCCURRENCE" eid="e14">development</EVENT>. Under the package, china has <EVENT class="OCCURRENCE" eid="e15">written</EVENT> off a substantial amount of Zambia's debt.
+
+Mwanawasa <EVENT class="REPORTING" eid="e16">said</EVENT> the Tanzania-Zambia railway debt to china has automatically <EVENT class="OCCURRENCE" eid="e17">fallen</EVENT> off as a result of the Chinese <EVENT class="OCCURRENCE" eid="e18">gesture</EVENT>.
+
+He <EVENT class="REPORTING" eid="e19">said</EVENT> Zambia as a highly indebted poor country is also <EVENT class="STATE" eid="e20">eligible</EVENT> to <EVENT class="OCCURRENCE" eid="e21">benefit</EVENT> from the 5 billion U.S. dollars in preferential loans and credits to Africa which china will <EVENT class="OCCURRENCE" eid="e22">provide</EVENT>.
+
+The president <EVENT class="REPORTING" eid="e23">said</EVENT> that China's continued support to Zambia is a true reflection of the warm existing relationship between the two countries.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

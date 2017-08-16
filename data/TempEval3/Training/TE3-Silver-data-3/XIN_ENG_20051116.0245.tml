@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0245</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>2nd Ld: China confirms first human cases of bird flu</TITLE>
+
+
+<TEXT>
+
+China's Ministry of Health on <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3> <EVENT class="REPORTING" eid="e1">confirmed</EVENT> two human cases and one suspected case of H5N1 bird flu.
+
+The two confirmed cases <EVENT class="I_STATE" eid="e3">involve</EVENT> a nine-year-old boy in Xiangtan County of Hunan Province, central China, and a 24-year-old woman farmer in Zongyang County of Anhui Province in the east.
+
+Earlier <TIMEX3 type="DATE" value="2005-11-16" tid="t2">Wednesday</TIMEX3>, the ministry <EVENT class="REPORTING" eid="e4">said</EVENT> three human cases had been <EVENT class="REPORTING" eid="e5">confirmed</EVENT>.
+
+The boy <EVENT class="OCCURRENCE" eid="e6">surnamed</EVENT> He <EVENT class="STATE" eid="e7">had</EVENT> fever and <EVENT class="OCCURRENCE" eid="e8">showed</EVENT> pneumonia-like symptoms on <TIMEX3 type="DATE" value="2005-10-10" tid="t3">Oct. 10</TIMEX3>. There was an outbreak of H5N1 bird flu <EVENT class="OCCURRENCE" eid="e10">occurred</EVENT> in his village.
+
+Lab tests on the boy's blood serum samples <EVENT class="OCCURRENCE" eid="e11">show</EVENT> his H5 antibodies <EVENT class="OCCURRENCE" eid="e12">rose</EVENT> by more than four times, which <EVENT class="I_ACTION" eid="e13">indicates</EVENT> that he was <EVENT class="OCCURRENCE" eid="e14">infected</EVENT> by the H5N1 bird flu virus.
+
+Based on clinical and lab tests, experts from the ministry and the World Health Organization (WHO) <EVENT class="REPORTING" eid="e15">confirmed</EVENT> the boy as a human case of H5N1 bird flu. He was <EVENT class="OCCURRENCE" eid="e16">discharged</EVENT> from hospital on <TIMEX3 type="DATE" value="2005-11-12" tid="t4">Nov. 12</TIMEX3> after recovery.
+
+The woman farmer in Anhui <EVENT class="OCCURRENCE" eid="e18">developed</EVENT> fever and pneumonia-like symptoms on <TIMEX3 type="DATE" value="2005-11-01" tid="t5">Nov. 1</TIMEX3> and <EVENT class="OCCURRENCE" eid="e19">died</EVENT> of prostration of <EVENT class="OCCURRENCE" eid="e20">breathing</EVENT> on <TIMEX3 type="DATE" value="2005-11-10" tid="t6">Nov. 10</TIMEX3>. Chickens and ducks at her home <EVENT class="OCCURRENCE" eid="e21">died</EVENT> one to <TIMEX3 type="DURATION" value="P2W" tid="t7">two weeks</TIMEX3> before she <EVENT class="OCCURRENCE" eid="e22">fell</EVENT> ill and she had contacts with sick and dead chickens and ducks, the ministry <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+Meanwhile, the boy's 12-year-old sister, who had similar symptoms as her brother and <EVENT class="OCCURRENCE" eid="e24">died</EVENT> on <TIMEX3 type="DATE" value="2005-10-17" tid="t8">Oct. 17</TIMEX3>, was <EVENT class="REPORTING" eid="e25">reported</EVENT> as a suspected human case <EVENT class="REPORTING" eid="e26">according</EVENT> to WHO standards, <EVENT class="REPORTING" eid="e27">said</EVENT> the ministry.
+
+The experts from the ministry <EVENT class="I_STATE" eid="e28">suspected</EVENT> the girl of being a human case of H5N1 bird flu, but cannot <EVENT class="REPORTING" eid="e29">confirm</EVENT> it by WHO standards due to insufficient evidence from laboratory tests, <EVENT class="REPORTING" eid="e30">according</EVENT> to the ministry.
+
+The ministry has <EVENT class="REPORTING" eid="e31">reported</EVENT> the cases to the WHO and related authorities in Hong Kong, Macao and Taiwan, as well as some countries.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei24" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei30" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l34" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei25" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l49" eventInstanceID="ei22" relatedToTime="t7" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

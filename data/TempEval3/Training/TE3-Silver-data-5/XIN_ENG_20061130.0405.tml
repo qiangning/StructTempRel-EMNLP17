@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061130.0405</DOCID>
+
+<DCT>MEXICO CITY, <TIMEX3 tid="t0" type="TIME" value="2006-11-30" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 30 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mexico's president-elect names last cabinet ministers</TITLE>
+
+
+<TEXT>
+
+Mexico's president-elect Felipe Calderon, of the ruling National Action Party (PAN), <EVENT class="OCCURRENCE" eid="e2">named</EVENT> on <TIMEX3 type="DATE" value="2006-11-30" tid="t1">Thursday</TIMEX3> the last four cabinet ministers who will <EVENT class="I_ACTION" eid="e3">assist</EVENT> him in his six-year term to <EVENT class="ASPECTUAL" eid="e4">start</EVENT> on <TIMEX3 type="DATE" value="2006-12-01" tid="t3">Dec. 1</TIMEX3>.
+
+Calderon <EVENT class="OCCURRENCE" eid="e5">named</EVENT> Eduardo Medina Mora as Attorney General, Genaro Garcia Luna as Public Security Minister, Guillermo Galvan Galvan as Minister of National Defense and Mariano Francisco Sainez Mendoza as Navy Minister.
+
+Twelve other cabinet ministers were <EVENT class="OCCURRENCE" eid="e6">appointed</EVENT> <TIMEX3 type="DATE" value="2006-W48" tid="t4">earlier this week</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e7">appointment</EVENT> of Francisco Javier Ramirez Acuna as Interior Minister <EVENT class="OCCURRENCE" eid="e8">sparked</EVENT> <EVENT class="OCCURRENCE" eid="e9">controversy</EVENT> as there have been allegations of heavy-handed <EVENT class="OCCURRENCE" eid="e11">policing</EVENT> during his previous term as governor of the western Mexican state of Jalisco.
+
+Human rights groups have <EVENT class="I_ACTION" eid="e12">accused</EVENT> Ramirez of <EVENT class="OCCURRENCE" eid="e13">turning</EVENT> a blind eye to allegations of abusive and aggressive tactics by Jalisco police.
+
+His most prominent <EVENT class="OCCURRENCE" eid="e14">appointment</EVENT>, Finance Minister Agustin Carstens, was former number three at the International Monetary Fund.
+
+Only one official was <EVENT class="OCCURRENCE" eid="e15">ratified</EVENT> in his post: Tourism Minister Rodolfo Elizondo.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

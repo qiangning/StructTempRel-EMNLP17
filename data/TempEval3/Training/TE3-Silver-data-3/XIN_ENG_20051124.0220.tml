@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0220</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>International conference to review rural development: FAO</TITLE>
+
+
+<TEXT>
+
+An international <EVENT class="OCCURRENCE" eid="e1">conference</EVENT> is being <EVENT class="OCCURRENCE" eid="e2">staged</EVENT> to <EVENT class="OCCURRENCE" eid="e3">review</EVENT> agrarian reform and rural <EVENT class="OCCURRENCE" eid="e4">development</EVENT> that could contribute to poverty alleviation, the UN Food and Agriculture Organization (FAO) <EVENT class="REPORTING" eid="e6">said</EVENT> on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+The International Conference on Agrarian Reform and Rural Development (ICARRD) will <EVENT class="OCCURRENCE" eid="e7">take</EVENT> place in Porto Alegre, Brazil, on <TIMEX3 type="DATE" value="2006" tid="t2">March 2-7, 2006</TIMEX3>.
+
+<EVENT class="REPORTING" eid="e8">According</EVENT> to the FAO, three out of four people <EVENT class="OCCURRENCE" eid="e9">suffering</EVENT> from hunger <EVENT class="OCCURRENCE" eid="e11">live</EVENT> in rural areas and depend on natural resources such as land and water for their survival.
+
+"If we <EVENT class="I_STATE" eid="e13">want</EVENT> to <EVENT class="OCCURRENCE" eid="e14">reduce</EVENT> hunger and poverty in the world, we must <EVENT class="OCCURRENCE" eid="e15">go</EVENT> to the root <EVENT class="OCCURRENCE" eid="e16">causes</EVENT> of the problem," <EVENT class="REPORTING" eid="e17">said</EVENT> Parviz Koohafkan, executive secretary of the <EVENT class="OCCURRENCE" eid="e18">conference</EVENT>.
+
+"In the poor rural zones, one of the main problems is the lack of secure access to factors of production, particularly land and water," he <EVENT class="OCCURRENCE" eid="e19">added</EVENT>.
+
+The main objective of the <EVENT class="OCCURRENCE" eid="e20">conference</EVENT> is to <EVENT class="I_ACTION" eid="e21">analyze</EVENT> agrarian reform and rural development experiences in different countries, and to <EVENT class="OCCURRENCE" eid="e22">identify</EVENT> policies, practices and lessons learnt that can <EVENT class="OCCURRENCE" eid="e24">bring</EVENT> about a new rural development paradigm based on social inclusion, environmental sustainability and livelihood security for the poor.
+
+Porto Alegre, the capital of Rio Grande do Sul, is <EVENT class="STATE" eid="e25">known</EVENT> for <EVENT class="OCCURRENCE" eid="e26">hosting</EVENT> the World Social Forum.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

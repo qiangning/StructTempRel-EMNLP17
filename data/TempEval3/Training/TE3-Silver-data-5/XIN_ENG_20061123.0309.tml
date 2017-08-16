@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0309</DOCID>
+
+<DCT>MONROVIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-23" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 23 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Liberia hosts UN military missions' conference</TITLE>
+
+
+<TEXT>
+
+The 11th inter-mission force commanders' <EVENT class="OCCURRENCE" eid="e1">conference</EVENT> of the United Nations Missions in West Africa <EVENT class="ASPECTUAL" eid="e2">continued</EVENT> here on <TIMEX3 type="TIME" value="2006-11-16TEV" tid="t1">Thursday evening</TIMEX3> with the objective of <EVENT class="OCCURRENCE" eid="e3">exchanging</EVENT> and updating information to <EVENT class="OCCURRENCE" eid="e4">enhance</EVENT> their military operations <EVENT class="I_ACTION" eid="e5">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e6">maintaining</EVENT> peace and stability within the region.
+
+The <EVENT class="OCCURRENCE" eid="e7">conference</EVENT> <EVENT class="OCCURRENCE" eid="e8">brought</EVENT> together UN military force commanders from Liberia, Sierra Leone, Cote d'Ivoire and the military consular of the UN West Africa's office in Dakar, Senegal.
+
+UN Force Commander in Liberia Lt/Gen. Chikardibia Obiakor <EVENT class="REPORTING" eid="e9">said</EVENT> the <EVENT class="OCCURRENCE" eid="e10">conference</EVENT> was <EVENT class="OCCURRENCE" eid="e11">progressing</EVENT> successfully and that by <TIMEX3 type="TIME" value="2007-11" tid="t2">the end of November</TIMEX3>, various military missions would <EVENT class="OCCURRENCE" eid="e12">collaborate</EVENT> in joint border patrols code named "Operation Siskin."
+
+Obiakor <EVENT class="REPORTING" eid="e14">disclosed</EVENT> that local security forces including those in Guinea would also <EVENT class="OCCURRENCE" eid="e15">participate</EVENT> in the <EVENT class="OCCURRENCE" eid="e16">operation</EVENT>.
+
+For Liberians, he <EVENT class="REPORTING" eid="e17">said</EVENT> "this would <EVENT class="OCCURRENCE" eid="e18">serve</EVENT> as a means of <EVENT class="OCCURRENCE" eid="e19">establishing</EVENT> a framework for them to <EVENT class="OCCURRENCE" eid="e20">take</EVENT> over security responsibilities when the UN mission <EVENT class="OCCURRENCE" eid="e21">leaves</EVENT> the country."
+
+Liberia and Sierra Leone are in their post-conflict period following more than <TIMEX3 type="DURATION" value="P10Y" tid="t3">ten years</TIMEX3> of <EVENT class="OCCURRENCE" eid="e22">war</EVENT> while Cote d'Ivoire is yet to <EVENT class="OCCURRENCE" eid="e23">restore</EVENT> peace.
+
+The coordination of military exercises involving various UN missions and their local counterparts is <EVENT class="PERCEPTION" eid="e26">seen</EVENT> as a confidence- building measure.
+
+The UN force commander in Sierra Leone Col. Seven-Olof Broman also <EVENT class="REPORTING" eid="e27">said</EVENT> condition in the country were calm and his mission was pre-occupied with post-conflict peace-building activities.
+
+"There can not be security without development and there can not be <EVENT class="OCCURRENCE" eid="e31">development</EVENT> without security," Broman <EVENT class="REPORTING" eid="e32">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei22" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

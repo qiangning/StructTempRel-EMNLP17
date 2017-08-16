@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051105.0085</DOCID>
+
+<DCT>SIEM REAP, Cambodia, <TIMEX3 tid="t0" type="TIME" value="2005-11-05" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 5 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Chinese CPC delegation visits Cambodia</TITLE>
+
+
+<TEXT>
+
+A delegation of the Communist Party of China (CPC) <EVENT class="OCCURRENCE" eid="e1">headed</EVENT> by Liu Yunshan, member of the Political Bureau of the CPC Central Committee, <EVENT class="OCCURRENCE" eid="e2">arrived</EVENT> here on <TIMEX3 type="DATE" value="2005-11-05" tid="t1">Saturday</TIMEX3> for a five-day official goodwill <EVENT class="OCCURRENCE" eid="e3">visit</EVENT> at the <EVENT class="OCCURRENCE" eid="e4">invitation</EVENT> of the Cambodian People's Party (CPP) and the royalist FUNCINPEC party.
+
+Liu and the delegation were <EVENT class="OCCURRENCE" eid="e5">greeted</EVENT> at the Siem <EVENT class="OCCURRENCE" eid="e6">Reap</EVENT> International Airport by senior leaders of the CPP and the FUNCINPEC, including CPP Secretary-General Say Chhum and Vice- Prime Minister and FUNCINPEC party Secretary-General Prince Norodom Sirivudh.
+
+During his <EVENT class="OCCURRENCE" eid="e8">stay</EVENT> in Cambodia, Liu is <EVENT class="I_STATE" eid="e9">scheduled</EVENT> to <EVENT class="OCCURRENCE" eid="e10">meet</EVENT> with King Norodom Sihamoni; Chea Sim, Senate president and the CPP's chairman; Prince Norodom Ranariddh, National Assembly president and president of the FUNCINPEC; and Hun Sen, prime minister and vice-chairman of the CPP, <EVENT class="REPORTING" eid="e11">according</EVENT> to officials of the Chinese Embassy here.
+
+Siem <EVENT class="OCCURRENCE" eid="e12">Reap</EVENT>, more than 300 km north of capital Phnom Penh, is home of the world famous Angkor Wat temples.
+
+The delegation <EVENT class="OCCURRENCE" eid="e13">arrived</EVENT> here from Thailand after <EVENT class="ASPECTUAL" eid="e14">ending</EVENT> a four- day <EVENT class="OCCURRENCE" eid="e15">visit</EVENT> there as guest of the ruling Thai Rak Thai Party.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0116</DOCID>
+
+<DCT>ABUJA, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nigeria to host food security summit</TITLE>
+
+
+<TEXT>
+
+Nigeria is to <EVENT class="OCCURRENCE" eid="e1">host</EVENT> a <EVENT class="OCCURRENCE" eid="e2">summit</EVENT> on food security in Africa from <TIMEX3 type="DATE" value="2005-12-04" tid="t1">Dec. 4</TIMEX3> to 7 to <EVENT class="OCCURRENCE" eid="e3">assess</EVENT> the implementation of resolutions on food security <EVENT class="OCCURRENCE" eid="e4">taken</EVENT> in <TIMEX3 type="DATE" value="PAST_REF" tid="t2">the past</TIMEX3>, the official News Agency of Nigeria <EVENT class="REPORTING" eid="e5">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-21" tid="t3">Tuesday</TIMEX3>.
+
+Agriculture and Rural Development Minister Malam Adamu Bello was <EVENT class="OCCURRENCE" eid="e6">quoted</EVENT> as <EVENT class="REPORTING" eid="e7">saying</EVENT> that forthcoming <EVENT class="OCCURRENCE" eid="e8">summit</EVENT> was "a follow-up <EVENT class="OCCURRENCE" eid="e9">action</EVENT> <EVENT class="I_STATE" eid="e10">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e11">assessing</EVENT> the level of implementation of such past resolutions."
+
+<EVENT class="REPORTING" eid="e12">According</EVENT> to him, all member countries will be <EVENT class="I_STATE" eid="e13">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e14">present</EVENT> an update on the implementations of the recommendations of the African Union 2003 Maputo Declaration on food security in Africa.
+
+Bello <EVENT class="REPORTING" eid="e17">said</EVENT> "issues about availability, accessibility and affordability of food would <EVENT class="OCCURRENCE" eid="e18">feature</EVENT> prominently at the <EVENT class="OCCURRENCE" eid="e19">summit</EVENT>."
+
+It will also <EVENT class="OCCURRENCE" eid="e20">review</EVENT> national programs and projects that are <EVENT class="OCCURRENCE" eid="e21">making</EVENT> significant progress in contributing to the <EVENT class="OCCURRENCE" eid="e23">attainment</EVENT> of national food and nutrition security, the minister <EVENT class="OCCURRENCE" eid="e24">added</EVENT>.
+
+In <TIMEX3 type="DATE" value="2003" tid="t5">2003</TIMEX3>, African heads of state and government <EVENT class="I_STATE" eid="e25">committed</EVENT> their governments in the Maputo Declaration to <EVENT class="OCCURRENCE" eid="e26">allocating</EVENT> at least 10 percent of their national budgets for agriculture and rural <EVENT class="OCCURRENCE" eid="e27">development</EVENT> within <TIMEX3 type="DURATION" value="P5Y" tid="t6">five years</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei25" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

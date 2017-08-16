@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061120.0062</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-20" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 20 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>delays</TITLE>
+
+
+<TEXT>
+
+Sections of five Beijing and eight Tianjin highways are currently <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> after thick fog <EVENT class="OCCURRENCE" eid="e2">smothered</EVENT> north China from <TIMEX3 type="DATE" value="2006-11-19TNI" tid="t2">Sunday night</TIMEX3>.
+
+The highway from Beijing to Shenyang, capital of China's northeastern Liaoning Province, didn't <EVENT class="OCCURRENCE" eid="e3">reopen</EVENT> until 9:33 a.m on <TIMEX3 type="DATE" value="2006-11-20" tid="t3">Monday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e4">closure</EVENT> of highways <EVENT class="OCCURRENCE" eid="e5">caused</EVENT> congestion and a slow <EVENT class="OCCURRENCE" eid="e6">crawl</EVENT> of vehicles on National Route 107, <EVENT class="REPORTING" eid="e7">said</EVENT> an official from the Dujiakan toll station.
+
+Passengers for Baoding and Shijiazhuang, the two largest cities in northern Hebei province, were <EVENT class="OCCURRENCE" eid="e8">waiting</EVENT> in Liuliqiao bus station on <TIMEX3 type="DATE" value="2006-11-13TMO" tid="t4">Monday morning</TIMEX3> for their buses -- <EVENT class="I_ACTION" eid="e9">delayed</EVENT> by the <EVENT class="OCCURRENCE" eid="e10">closure</EVENT> of the highway -- to <EVENT class="OCCURRENCE" eid="e11">leave</EVENT>.
+
+The Beijing Municipal Observatory and neighbouring Tianjin Municipal Observatory <EVENT class="OCCURRENCE" eid="e13">issued</EVENT> yellow fog warnings on <TIMEX3 type="DATE" value="2006-11-20" tid="t5">Monday</TIMEX3>.
+
+City roads were also <EVENT class="OCCURRENCE" eid="e14">affected</EVENT> by fog, with police <EVENT class="I_ACTION" eid="e15">called</EVENT> out repeatedly to <EVENT class="OCCURRENCE" eid="e16">deal</EVENT> with congestion and accidents.
+
+Visibility was <EVENT class="REPORTING" eid="e18">reported</EVENT> to be as <EVENT class="STATE" eid="e19">low</EVENT> as 500 meters in Beijing.
+
+Visibility is between 300 meters and 600 meters on average and as low as 10 meters on some road sections, <EVENT class="REPORTING" eid="e20">said</EVENT> Zhao Jinghong, a weather forecaster with Tianjin Municipal Observatory.
+
+Visibility at Beijing Capital International Airport <EVENT class="OCCURRENCE" eid="e21">fell</EVENT> to 600 meters, <EVENT class="OCCURRENCE" eid="e22">resulting</EVENT> in some flight delays, especially flights for eastern Shandong Province, <EVENT class="REPORTING" eid="e24">according</EVENT> to the Beijing Municipal Observatory.
+
+The airport has <EVENT class="OCCURRENCE" eid="e25">launched</EVENT> an emergency fog plan to <EVENT class="I_ACTION" eid="e26">avoid</EVENT> mass congestion at the airport. It <EVENT class="OCCURRENCE" eid="e28">increases</EVENT> intervals between flights and <EVENT class="OCCURRENCE" eid="e29">reminds</EVENT> travelers to <EVENT class="OCCURRENCE" eid="e30">check</EVENT> times before <EVENT class="OCCURRENCE" eid="e31">going</EVENT> to the airport, <EVENT class="REPORTING" eid="e32">said</EVENT> an airport official.
+
+There was some air pollution on <TIMEX3 type="DATE" value="2006-11-20" tid="t6">Monday</TIMEX3>. People should <EVENT class="OCCURRENCE" eid="e33">scale</EVENT> back outdoor activities and <EVENT class="OCCURRENCE" eid="e34">go</EVENT> out with a respirator, <EVENT class="REPORTING" eid="e35">said</EVENT> the local environmental bureau.
+
+The price of tomatoes <EVENT class="OCCURRENCE" eid="e36">rose</EVENT> from 1 yuan to 1.8 yuan per kilo as vegetables from Shandong and Henan provinces, two major sources for Beijing's dinner tables, were <EVENT class="OCCURRENCE" eid="e37">kept</EVENT> out of the city by the fog.
+
+There were 30 percent more faucitis, rhinitis and respiratory infection patients than usual at major Tianjin hospitals.
+
+High humidity and little wind over <TIMEX3 type="DATE" value="2006-W46" tid="t7">the past week</TIMEX3> has <EVENT class="OCCURRENCE" eid="e38">caused</EVENT> the fog, <EVENT class="REPORTING" eid="e39">said</EVENT> He Lifu, a meteorologist with the National Meteorology Center.
+
+Cold air late on <TIMEX3 type="DATE" value="2006-11-27TNI" tid="t8">Monday night</TIMEX3> will <EVENT class="OCCURRENCE" eid="e40">bring</EVENT> fairly strong winds to north China and <EVENT class="OCCURRENCE" eid="e41">disperse</EVENT> the fog, the Beijing Municipal Observatory <EVENT class="REPORTING" eid="e42">said</EVENT>.
+
+Visibility in parts of east China's Shandong and Jiangsu provinces, north China's Beijing and Tianjin municipalities and northeastern China's Liaoning Province was a mere 200 meters.
+
+More than 40 flights from Taoxian airport in Shenyang, capital of Liaoning, were <EVENT class="I_ACTION" eid="e43">delayed</EVENT> <TIMEX3 type="DATE" value="2006-11-19" tid="t9">Sunday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei39" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei38" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei24" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei39" relatedToEventInstance="ei42" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei40" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei43" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l41" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei25" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="IS_INCLUDED" />
+<TLINK lid="l56" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l57" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l58" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="SIMULTANEOUS" />
+<TLINK lid="l59" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l60" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="BEFORE" />
+
+
+
+
+</TimeML>

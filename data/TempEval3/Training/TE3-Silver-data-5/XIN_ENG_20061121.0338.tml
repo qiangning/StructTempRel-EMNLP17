@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0338</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Turkey condemns killing of Lebanese industry minister</TITLE>
+
+
+<TEXT>
+
+Turkish Foreign Ministry on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> strongly <EVENT class="OCCURRENCE" eid="e1">condemned</EVENT> <EVENT class="OCCURRENCE" eid="e2">killing</EVENT> of Lebanese Industry Minister Pierre Gemayel.
+
+"We strongly <EVENT class="OCCURRENCE" eid="e3">condemn</EVENT> this <EVENT class="OCCURRENCE" eid="e4">attack</EVENT> which <EVENT class="OCCURRENCE" eid="e5">aims</EVENT> to <EVENT class="OCCURRENCE" eid="e6">deteriorate</EVENT> peace and stability in Lebanon. We <EVENT class="I_STATE" eid="e7">believe</EVENT> Lebanese government and people will not <EVENT class="OCCURRENCE" eid="e8">allow</EVENT> such <EVENT class="OCCURRENCE" eid="e9">attacks</EVENT> to <EVENT class="OCCURRENCE" eid="e10">deteriorate</EVENT> the <EVENT class="OCCURRENCE" eid="e11">efforts</EVENT> of national consensus in the country," the ministry <EVENT class="REPORTING" eid="e12">said</EVENT> in a statement.
+
+The ministry also <EVENT class="OCCURRENCE" eid="e13">offered</EVENT> condolences to the family of Gemayel as well as Lebanese people.
+
+"We <EVENT class="I_STATE" eid="e14">hope</EVENT> perpetrators of this <EVENT class="OCCURRENCE" eid="e15">attack</EVENT> will be <EVENT class="OCCURRENCE" eid="e16">found</EVENT> soon. Turkey is ready to <EVENT class="OCCURRENCE" eid="e17">provide</EVENT> every type of support for settlement of peace and stability in Lebanon," the ministry <EVENT class="OCCURRENCE" eid="e18">added</EVENT>.
+
+Gemayel was <EVENT class="OCCURRENCE" eid="e19">killed</EVENT> by a <EVENT class="OCCURRENCE" eid="e20">gunshot</EVENT> on his head <TIMEX3 type="TIME" value="2006-11-14TAF" tid="t2">Tuesday afternoon</TIMEX3> when his <EVENT class="OCCURRENCE" eid="e21">convoy</EVENT> was <EVENT class="OCCURRENCE" eid="e22">attacked</EVENT> by unknown gunmen in Jedeide, about 15 km northeast from Lebanese capital of Beirut.
+
+The 34-year-old Gemayel was also a Christian leader in Lebanon and son of former president Amin Gemayel.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="IAFTER" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="IAFTER" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+
+
+
+
+</TimeML>

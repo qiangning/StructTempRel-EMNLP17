@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051104.0179</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="2005-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>GlaxoSmithKline to set up new R&amp;D plant in Singapore</TITLE>
+
+
+<TEXT>
+
+GlaxoSmithKline (GSK), a world famous pharmaceutical company, is <EVENT class="OCCURRENCE" eid="e1">building</EVENT> a new research and development (R&amp;D) plant in Singapore with an <EVENT class="OCCURRENCE" eid="e3">investment</EVENT> of 115 million Singapore dollars (about 68 million US dollars).
+
+<EVENT class="REPORTING" eid="e4">According</EVENT> to Channel NewsAsia report on <TIMEX3 type="DATE" value="2005-11-11" tid="t1">Friday</TIMEX3>, the plant, which is <EVENT class="I_STATE" eid="e6">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e7">begin</EVENT> <EVENT class="OCCURRENCE" eid="e8">operation</EVENT> in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">the third quarter of 2007</TIMEX3>, will <EVENT class="OCCURRENCE" eid="e9">develop</EVENT> techniques for drug production and <EVENT class="OCCURRENCE" eid="e10">produce</EVENT> drugs for clinical trials.
+
+<EVENT class="I_STATE" eid="e12">Planning</EVENT> to <EVENT class="OCCURRENCE" eid="e13">employ</EVENT> some 40 scientists, the plant is <EVENT class="REPORTING" eid="e14">said</EVENT> to be "GSK's first <EVENT class="OCCURRENCE" eid="e15">investment</EVENT> in upstream manufacturing process <EVENT class="OCCURRENCE" eid="e16">development</EVENT> in Singapore."
+
+As one of the largest pharmaceutical investors in Singapore, GSK has <EVENT class="OCCURRENCE" eid="e17">put</EVENT> more than one billion Singapore dollars (about 589 million US dollars) in fixed assets in the city state and <EVENT class="I_STATE" eid="e18">plans</EVENT> to further <EVENT class="OCCURRENCE" eid="e19">expand</EVENT> its operations here, including <EVENT class="OCCURRENCE" eid="e20">establishing</EVENT> more drug discovery centers.
+
+<EVENT class="OCCURRENCE" eid="e21">Headquartered</EVENT> in Britain and with operations based in the United States, GSK <EVENT class="OCCURRENCE" eid="e22">runs</EVENT> seven such drug discovery centers in the world with one located in Singapore.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+
+
+
+
+</TimeML>

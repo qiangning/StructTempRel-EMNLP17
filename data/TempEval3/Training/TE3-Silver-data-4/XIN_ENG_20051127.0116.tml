@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051127.0116</DOCID>
+
+<DCT>BANGKOK, <TIMEX3 tid="t0" type="TIME" value="2005-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Thai, Laotian PMs break ground at Nam Thuen II site</TITLE>
+
+
+<TEXT>
+
+Thai Prime Minister Thaksin Shinawatra and his Lao counterpart Bounnhang Vorachit Sunday jointly <EVENT class="OCCURRENCE" eid="e1">laid</EVENT> a founding stone to <EVENT class="ASPECTUAL" eid="e2">start</EVENT> <EVENT class="OCCURRENCE" eid="e3">construction</EVENT> of a controversial Nam Thuen II hydropower project, <EVENT class="REPORTING" eid="e4">according</EVENT> to local media The Nation.
+
+The <EVENT class="OCCURRENCE" eid="e5">ceremony</EVENT> <EVENT class="OCCURRENCE" eid="e6">took</EVENT> place at the construction site of the powerhouse at Gnoumalat district of Laos's central Khammouane Province. Some 300 officials from both countries and international financiers and investors <EVENT class="OCCURRENCE" eid="e7">attended</EVENT> the <EVENT class="OCCURRENCE" eid="e8">event</EVENT>.
+
+During his <TIMEX3 type="SET" value="P1W" tid="t2">weekly</TIMEX3> radio address on <TIMEX3 type="DATE" value="2005-11-26" tid="t3">Saturday</TIMEX3>, Thaksin <EVENT class="REPORTING" eid="e9">said</EVENT> that Thailand would <EVENT class="OCCURRENCE" eid="e10">buy</EVENT> electricity totaling 924 megawatts <EVENT class="OCCURRENCE" eid="e12">generated</EVENT> from this dam project annually upon its <EVENT class="ASPECTUAL" eid="e13">completion</EVENT>.
+
+He <EVENT class="REPORTING" eid="e14">said</EVENT> that Thailand <EVENT class="I_STATE" eid="e15">needs</EVENT> to <EVENT class="OCCURRENCE" eid="e16">depend</EVENT> more on hydropower and coal and less on natural gas in generating electricity, he <EVENT class="REPORTING" eid="e17">said</EVENT>.
+
+Natural gas will be <EVENT class="OCCURRENCE" eid="e18">used</EVENT> in domestic transportation system, and, if possible, the country will <EVENT class="ASPECTUAL" eid="e19">stop</EVENT> <EVENT class="OCCURRENCE" eid="e20">using</EVENT> oil in power generation in <TIMEX3 type="DATE" value="FUTURE_REF" tid="t4">the future</TIMEX3>.
+
+The Nam Theun II hydropower project site is <EVENT class="OCCURRENCE" eid="e21">located</EVENT> in Khammouane and Bolikhamxay provinces in central Laos, about 250 kilometers southeast of the country's capital -- Vientiane.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei19" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei17" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+
+
+
+
+</TimeML>

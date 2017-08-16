@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0327</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. stocks end higher</TITLE>
+
+
+<TEXT>
+
+U.S. stocks <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> higher on <TIMEX3 type="DATE" value="2006-11-13" tid="t1">Monday</TIMEX3>, as crude oil prices <EVENT class="OCCURRENCE" eid="e2">dived</EVENT> to near 59 dollars.
+
+In the closing <EVENT class="OCCURRENCE" eid="e3">trading</EVENT>, the Dow Jones Industrial Average was up 23.45, or 0.19 percent, to 12,131.88. The Standard &amp; Poor's 500 index <EVENT class="OCCURRENCE" eid="e4">gained</EVENT> 3.52, or 0.25 percent, at 1,384.42, and the Nasdaq composite index <EVENT class="OCCURRENCE" eid="e5">rose</EVENT> 16.66, or 0.70 percent, at 2,406.38..
+
+Crude oil prices <EVENT class="OCCURRENCE" eid="e6">fell</EVENT> to near 59 dollars on <TIMEX3 type="DATE" value="2006-11-13" tid="t2">Monday</TIMEX3> amid warm winter concern, after the International Energy Agency <EVENT class="OCCURRENCE" eid="e7">cut</EVENT> its oil product demand growth forecast for 2006.
+
+Crude futures have <EVENT class="OCCURRENCE" eid="e10">fallen</EVENT> more than 25 percent from its record 78.40 dollars per barrel in mid-July. Low energy prices would <EVENT class="OCCURRENCE" eid="e11">boost</EVENT> corporate profits and consumer spending, which accounts for about two-thirds of the U.S. economic <EVENT class="OCCURRENCE" eid="e12">activity</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,25 @@
+package edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.et;
+
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.LearningObj;
+import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.ParamLBJ;
+
+discrete% AllFeatures(LearningObj obj) <-
+{
+	String[] feats = obj.getAllFeatures();
+	for (int i=0; i<feats.length; i++) {
+		sense feats[i];
+	}
+}
+
+discrete Label(LearningObj obj) <-
+{
+	return obj.getRelation();
+}
+
+discrete et_perceptron(LearningObj obj) <-
+learn Label
+using
+	AllFeatures
+	with new SparseNetworkLearner(new SparseAveragedPerceptron(ParamLBJ.etLearningRate, 0, ParamLBJ.etThickness))
+ 	//with new SupportVectorMachine(ParamLBJ.svmC, ParamLBJ.svmE, ParamLBJ.svmB)
+end

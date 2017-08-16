@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970418.0150</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-18" temporalFunction="false" functionInDocument="CREATION_TIME">April 18 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Matsuzakaya profit soars 62.9 percent</TITLE>
+
+
+<TEXT>
+
+Japanese department store operator Matsuzakaya Co. Ltd. <TIMEX3 type="DATE" value="1997-04-18" tid="t1">Friday</TIMEX3> <EVENT class="REPORTING" eid="e1">said</EVENT> its parent company pre-tax earnings <EVENT class="OCCURRENCE" eid="e2">leapt</EVENT> 62.9 percent from <TIMEX3 type="DATE" value="1996" tid="t2">a year earlier</TIMEX3> to 5.5 billion yen (45 million dollars) in <TIMEX3 type="DATE" value="1997-04-18" tid="t3">the year to February</TIMEX3>.
+
+The Nagoya-based company <EVENT class="REPORTING" eid="e3">said</EVENT> consolidated sales <EVENT class="OCCURRENCE" eid="e4">climbed</EVENT> 1.7 percent to 435.6 billion yen in <TIMEX3 type="DATE" value="1997-04-18" tid="t4">the same period</TIMEX3>, <EVENT class="I_STATE" eid="e5">forecasting</EVENT> an even higher profit of 5.8 billion yen for <TIMEX3 type="DATE" value="1997" tid="t5">the current year</TIMEX3> on increased <EVENT class="OCCURRENCE" eid="e6">sales</EVENT> of 444 billion yen.
+
+"Although <EVENT class="OCCURRENCE" eid="e7">demand</EVENT> from corporate clients was sluggish, sales of women's clothing and personal effects <EVENT class="OCCURRENCE" eid="e8">showed</EVENT> steady gains," a statement <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+"We can <EVENT class="I_STATE" eid="e11">expect</EVENT> new demand as a result of deregulation and administrative <EVENT class="OCCURRENCE" eid="e13">reforms</EVENT> in <TIMEX3 type="DATE" value="1997" tid="t6">the current year</TIMEX3>. But concerns <EVENT class="STATE" eid="e14">remains</EVENT> over stagnant personal spending following the <TIMEX3 type="DATE" value="1997-04-01" tid="t7">April 1</TIMEX3> consumption tax <EVENT class="OCCURRENCE" eid="e15">hike</EVENT>."
+
+Sales of clothing <EVENT class="OCCURRENCE" eid="e17">rose</EVENT> 1.8 percent to 180.3 billion yen and sales of personal effects <EVENT class="OCCURRENCE" eid="e18">edged</EVENT> up 0.6 percent to 37.3 billion yen. Sales of household utensils <EVENT class="OCCURRENCE" eid="e20">fell</EVENT> 4.2 percent to 45.3 billion yen.
+
+Sales of foodstuffs <EVENT class="OCCURRENCE" eid="e22">rose</EVENT> 1.7 percent to to 89.1 billion yen and sales of sundry goods were up 2.7 percent at 65.3 billion yen. Revenue from restaurant and coffee shop businesses <EVENT class="OCCURRENCE" eid="e23">rose</EVENT> 1.6 percent to 10.0 billion yen with other sales up 47.1 percent at 8.1 billion yen.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1000002" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

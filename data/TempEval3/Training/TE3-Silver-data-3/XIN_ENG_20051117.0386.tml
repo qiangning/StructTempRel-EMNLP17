@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051117.0386</DOCID>
+
+<DCT>KOMPONG SPEU, Cambodia, <TIMEX3 tid="t0" type="TIME" value="2005-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Cambodia destroys more surface-to-air missiles</TITLE>
+
+
+<TEXT>
+
+Cambodia <EVENT class="OCCURRENCE" eid="e1">destroyed</EVENT> two C-125M (SA-3) surface-to-air missiles on <TIMEX3 type="DATE" value="2005-11-18" tid="t1">Friday</TIMEX3> <EVENT class="I_STATE" eid="e2">aimed</EVENT> to <EVENT class="I_ACTION" eid="e3">prevent</EVENT> them from <EVENT class="OCCURRENCE" eid="e4">falling</EVENT> into the hands of terrorists.
+
+Meas Sophea, deputy commander-in-chief of the Royal Cambodian Armed Forces (RCAF) and commander of the army, <EVENT class="OCCURRENCE" eid="e5">presided</EVENT> over the destruction <EVENT class="OCCURRENCE" eid="e6">ceremony</EVENT>. Some diplomats also <EVENT class="OCCURRENCE" eid="e7">attended</EVENT> the <EVENT class="OCCURRENCE" eid="e8">ceremony</EVENT>.
+
+Meas Sophea <EVENT class="REPORTING" eid="e9">said</EVENT> the destruction was <EVENT class="OCCURRENCE" eid="e11">ordered</EVENT> by Prime Minister Hun Sen in order to <EVENT class="I_ACTION" eid="e12">prevent</EVENT> them from <EVENT class="OCCURRENCE" eid="e13">falling</EVENT> into the hands of international terrorists
+
+The 36 surface-to-air missiles were <EVENT class="OCCURRENCE" eid="e14">discovered</EVENT> recently at a military base. The Defense Ministry <EVENT class="ASPECTUAL" eid="e15">started</EVENT> <EVENT class="OCCURRENCE" eid="e16">destroying</EVENT> them at the RCAF Armor Center in Kompong Speu province on <TIMEX3 type="DATE" value="2005-10-25" tid="t3">Oct. 25</TIMEX3>, and all have been <EVENT class="OCCURRENCE" eid="e17">destroyed</EVENT> by <TIMEX3 type="DATE" value="2005-11-18" tid="t4">Friday</TIMEX3>.
+
+The surface-to-air missiles <EVENT class="OCCURRENCE" eid="e18">developed</EVENT> by the former Soviet Union are <EVENT class="OCCURRENCE" eid="e19">fired</EVENT> from fixed-position launchers to <EVENT class="OCCURRENCE" eid="e20">destroy</EVENT> aircraft, cruise missiles and assault helicopters <EVENT class="OCCURRENCE" eid="e21">flying</EVENT> at low and medium altitude. Cambodia <EVENT class="OCCURRENCE" eid="e22">imported</EVENT> the missiles in <TIMEX3 type="DATE" value="1980" tid="t5">1980</TIMEX3>.
+
+"We don't <EVENT class="I_STATE" eid="e23">need</EVENT> to <EVENT class="OCCURRENCE" eid="e24">keep</EVENT> them because we are <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">now</TIMEX3> at peace," Chao Pirun, director of the ministry's technical and materials department, <EVENT class="REPORTING" eid="e25">said</EVENT> earlier.
+
+<TIMEX3 type="DATE" value="2004" tid="t8">Last year</TIMEX3>, RCAF <EVENT class="OCCURRENCE" eid="e26">destroyed</EVENT> all 233 of its shoulder-fired surface- to-air missiles with assistance from the US government.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei26" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei18" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei1000017" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei25" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei15" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061104.0014</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-04" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 4 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Market value of China's securities market over 786 bln U.S.dollar</TITLE>
+
+
+<TEXT>
+
+The market value of companies listed on China's securities market <EVENT class="OCCURRENCE" eid="e1">exceeded</EVENT> 6.29 trillion yuan (786 billion U.S. dollars) by <TIMEX3 type="DATE" value="2006-11-04" tid="t1">the last trading day of this week</TIMEX3>.
+
+Shanghai Stock Exchange figures <EVENT class="OCCURRENCE" eid="e2">show</EVENT> the market value of the Shanghai securities market, including yuan-denominated A shares and foreign-currency B shares, was 4.9 trillion yuan by <TIMEX3 type="DATE" value="2006-11-03" tid="t2">Friday</TIMEX3>.
+
+The Shanghai bourse <EVENT class="OCCURRENCE" eid="e3">carries</EVENT> 844 stocks with more than one trillion shares. The market value of <EVENT class="OCCURRENCE" eid="e4">circulating</EVENT> stocks on the Shanghai securities market is 1.25 trillion yuan.
+
+The market value of the Shenzhen Stock Exchange <EVENT class="OCCURRENCE" eid="e5">rose</EVENT> by 2.06 percent in <TIMEX3 type="DATE" value="2006-W43" tid="t3">the past week</TIMEX3> to 1.39 trillion yuan by the last trading day on <TIMEX3 type="DATE" value="2006-11-03" tid="t5">Friday</TIMEX3>.
+
+The total market value of <EVENT class="OCCURRENCE" eid="e6">circulating</EVENT> stocks on the Shenzhen securities market is 664 billion yuan, 2.43 percent up from <TIMEX3 type="DATE" value="2006-W43" tid="t6">a week ago</TIMEX3>.
+
+The Composite Stock Index on the Shanghai Stock Exchange <EVENT class="OCCURRENCE" eid="e7">opened</EVENT> at 1804.37 <TIMEX3 type="DATE" value="2006-W43" tid="t7">last week</TIMEX3> and <EVENT class="OCCURRENCE" eid="e8">closed</EVENT> at 1866.36 on <TIMEX3 type="DATE" value="2006-11-03" tid="t8">Friday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e9">peaking</EVENT> at 1873.66 on <TIMEX3 type="DATE" value="2006-11-10" tid="t9">Friday</TIMEX3>.
+
+The Composite Stock Index on the Shenzhen Stock Exchange <EVENT class="OCCURRENCE" eid="e10">closed</EVENT> at 4690.43 on <TIMEX3 type="DATE" value="2006-11-03" tid="t10">Friday</TIMEX3>, with a weekly <EVENT class="OCCURRENCE" eid="e11">rise</EVENT> of 2.9 percent. The total turnover <TIMEX3 type="DATE" value="2006-W44" tid="t11">this week</TIMEX3> of the Shenzhen securities market was almost 65.7 billion yuan, 5.06 percent down from the week before.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000009" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei1000005" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei1000009" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei1000009" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei1000005" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+
+
+
+
+</TimeML>

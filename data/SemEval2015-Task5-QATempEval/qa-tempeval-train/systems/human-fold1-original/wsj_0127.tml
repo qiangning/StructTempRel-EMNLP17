@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0127</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891102-0064 = 891102 891102-0064.
+International Brief -- Reed International PLC: @ Net Income for 6 Months @ Fell 5% to $141.9 Million 11/02/89 WALL STREET JOURNAL (J) U.REE EARNINGS (ERN)
+</EXTRAINFO>
+
+<TEXT>
+Reed International PLC <EVENT eid="e1" class="REPORTING">said</EVENT> that net <EVENT eid="e2" class="OCCURRENCE">income</EVENT> for <TIMEX3 tid="t1" type="DURATION" value="P6M" temporalFunction="true" functionInDocument="NONE" endPoint="t2">the six months</TIMEX3> <EVENT eid="e3" class="ASPECTUAL">ended</EVENT> <TIMEX3 tid="t2" type="DATE" value="1989-10-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">Oct. 1</TIMEX3> <EVENT eid="e4" class="OCCURRENCE">slipped</EVENT> 5% to #89.7 million ($141.9 million), or 16 pence a share, from #94.8 million ($149.9 million), or 17.3 pence a share.
+
+The British paper, packaging and publishing concern, <EVENT eid="e6" class="REPORTING">said</EVENT> profit from continuing lines <EVENT eid="e7" class="I_ACTION">fell</EVENT> 10% to #118 million from #130.6 million.
+
+While there were no one-time <EVENT eid="e8" class="OCCURRENCE">gains</EVENT> or <EVENT eid="e9" class="OCCURRENCE">losses</EVENT> in <TIMEX3 tid="t3" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">the latest period</TIMEX3>, there was a one-time <EVENT eid="e10" class="OCCURRENCE">gain</EVENT> of #18 million in the <TIMEX3 tid="t4" type="DATE" value="1998" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3> period. And while there was no profit <TIMEX3 tid="t5" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">this year</TIMEX3> from discontinued <EVENT eid="e11" class="OCCURRENCE">operations</EVENT>, <TIMEX3 tid="t6" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">last year</TIMEX3> they <EVENT eid="e12" class="OCCURRENCE">contributed</EVENT> #34 million, before tax.
+
+Pretax profit <EVENT eid="e13" class="I_ACTION">fell</EVENT> 3.7% to #128 million from #133 million and was below analysts' expectations of #130 million to #135 million, but shares <EVENT eid="e14" class="OCCURRENCE">rose</EVENT> 6 pence to 388 pence in early <EVENT eid="e15" class="OCCURRENCE">trading</EVENT> <TIMEX3 tid="t7" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">yesterday</TIMEX3> in London.
+
+Reed is <EVENT eid="e16" class="OCCURRENCE">paying</EVENT> an interim dividend of 4.6 pence, up 15% from 4 pence <TIMEX3 tid="t8" type="DATE" value="1988-11-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">a year earlier</TIMEX3>.
+
+Sales <EVENT eid="e17" class="OCCURRENCE">fell</EVENT> 20% to #722 million.
+
+Earnings were <EVENT eid="e18" class="OCCURRENCE">hurt</EVENT> by <EVENT eid="e19" class="OCCURRENCE">disposal</EVENT> of operations in its <EVENT eid="e20" class="OCCURRENCE">restructuring</EVENT>, Reed <EVENT eid="e21" class="REPORTING">said</EVENT>.
+</TEXT>
+
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="NEG" pos="NOUN" />
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="NEG" pos="NOUN" />
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+
+
+
+
+
+<TLINK lid="l1" relType="INCLUDES" timeID="t6" relatedToTime="t8" />
+<TLINK lid="l2" relType="BEFORE" timeID="t6" relatedToTime="t5" />
+<TLINK lid="l3" relType="INCLUDES" timeID="t5" relatedToTime="t2" />
+<TLINK lid="l4" relType="INCLUDES" timeID="t5" relatedToTime="t7" />
+<TLINK lid="l5" relType="BEFORE" timeID="t2" relatedToTime="t7" />
+<TLINK lid="l6" relType="INCLUDES" timeID="t5" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEFORE" timeID="t7" relatedToTime="t0" />
+<TLINK lid="l8" relType="BEFORE" timeID="t5" relatedToTime="t4" />
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei21" />
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToEventInstance="ei20" />
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei18" relatedToEventInstance="ei19" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t7" />
+<TLINK lid="l20" relType="IS_INCLUDED" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l22" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToTime="t1" />
+<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToTime="t2" />
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t3" />
+<TLINK lid="l25" relType="ENDS" eventInstanceID="ei3" relatedToTime="t1" />
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t6" />
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t5" />
+<TLINK lid="l30" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t4" />
+
+</TimeML>
+

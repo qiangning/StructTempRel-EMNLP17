@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051102.0105</DOCID>
+
+<DCT>GENEVA, <TIMEX3 tid="t0" type="TIME" value="2005-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 2 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Credit Suisse reports good third-quarter results</TITLE>
+
+
+<TEXT>
+
+Switzerland's second largest bank, Credit Suisse, <EVENT class="REPORTING" eid="e1">reported</EVENT> on <TIMEX3 type="DATE" value="2005-11-02" tid="t1">Wednesday</TIMEX3> a better-than-expected <EVENT class="OCCURRENCE" eid="e2">rise</EVENT> in its <TIMEX3 type="DATE" value="2005-Q3" tid="t2">third-quarter</TIMEX3> figures, with net profit up 42 percent to 1.9 billion Swiss francs (1.48 billion US dollars).
+
+Business for both its investment and its private bank sectors had <EVENT class="OCCURRENCE" eid="e3">boomed</EVENT> due to continued strong <EVENT class="OCCURRENCE" eid="e5">growth</EVENT> and confidence in global financial <EVENT class="OCCURRENCE" eid="e6">markets</EVENT>, <EVENT class="REPORTING" eid="e7">according</EVENT> to Credit Suisse.
+
+The surprisingly good result <EVENT class="OCCURRENCE" eid="e8">follows</EVENT> a <EVENT class="OCCURRENCE" eid="e9">drop</EVENT> in net profits in <TIMEX3 type="DATE" value="P2Q" tid="t3">the second quarter</TIMEX3> to 919 million Swiss francs (716 million dollars).
+
+"Our group <EVENT class="OCCURRENCE" eid="e10">benefited</EVENT> from increased levels of client activity and the active market environment," <EVENT class="REPORTING" eid="e11">said</EVENT> Credit Suisse CEO, Oswald Grubel, <EVENT class="I_ACTION" eid="e12">commenting</EVENT> on <TIMEX3 type="DATE" value="2005-Q3" tid="t4">the third quarter</TIMEX3> results.
+
+Like its larger rival, UBS, Credit Suisse has large private banks and substantial investment banking operations, with retail banking <EVENT class="OCCURRENCE" eid="e13">limited</EVENT> to Switzerland.
+
+Credit Suisse, which is based in Zurich, Switzerland, and <EVENT class="STATE" eid="e14">has</EVENT> total assets under management of 1.405 trillion Swiss francs (1.1 trillion dollars), is <EVENT class="STATE" eid="e15">active</EVENT> in about 50 countries and <EVENT class="OCCURRENCE" eid="e16">employs</EVENT> more than 60,000 people, with 26,000 of them in Switzerland.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="AFTER" />
+
+
+
+
+</TimeML>

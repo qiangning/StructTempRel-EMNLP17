@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061115.0408</DOCID>
+
+<DCT>AMMAN, <TIMEX3 tid="t0" type="TIME" value="2006-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Late Jordan blitz sinks Oman in AFC Asian Cup qualifier</TITLE>
+
+
+<TEXT>
+
+Jordan <EVENT class="OCCURRENCE" eid="e1">drubbed</EVENT> Oman 3-0 and <EVENT class="OCCURRENCE" eid="e2">gained</EVENT> a measure of revenge in the AFC Asian Cup 2007 final Group C qualifier here <TIMEX3 type="DATE" value="2006-11-15" tid="t2">late Wednesday</TIMEX3>.
+
+In the previous round, Oman had <EVENT class="OCCURRENCE" eid="e3">sneaked</EVENT> into the finals with a 2-1 win over the already-qualified United Arab Emirates, <EVENT class="OCCURRENCE" eid="e5">rendering</EVENT> inconsequential Jordan's rousing 3-0 defeat of Pakistan.
+
+All the three Jordanian goals were <EVENT class="OCCURRENCE" eid="e7">scored</EVENT> in <TIMEX3 type="DURATION" value="PT10M" tid="t3">the last 10 minutes</TIMEX3>. Amer Deeb was the first to <EVENT class="OCCURRENCE" eid="e8">hit</EVENT> the net in <TIMEX3 type="DURATION" value="PT80M" tid="t4">the 80th minute</TIMEX3>, <EVENT class="OCCURRENCE" eid="e9">followed</EVENT> in quick succession by Rafat Ali (84) and Hassona Al Shaikh (90).
+
+Jordan <EVENT class="ASPECTUAL" eid="e10">finished</EVENT> third with 10 points while Oman could not <EVENT class="OCCURRENCE" eid="e11">improve</EVENT> on the 12 points they had before <TIMEX3 type="DATE" value="2006-11-15" tid="t5">today</TIMEX3>'s match.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

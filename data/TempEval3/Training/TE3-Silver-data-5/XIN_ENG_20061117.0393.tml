@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061117.0393</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2006-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesia's missing aircraft found but no survivals</TITLE>
+
+
+<TEXT>
+
+A Twin Otter aircraft which had been <EVENT class="OCCURRENCE" eid="e1">missing</EVENT> since <TIMEX3 type="DATE" value="2006-11-17TMO" tid="t1">Friday morning</TIMEX3> in Papua province of Indonesia, have been <EVENT class="OCCURRENCE" eid="e2">found</EVENT> on <TIMEX3 type="DATE" value="2006-11-11TMO" tid="t2">Saturday morning</TIMEX3> with 12 passengers and crew <EVENT class="I_STATE" eid="e3">seems</EVENT> to have <EVENT class="OCCURRENCE" eid="e4">died</EVENT>, a police officer <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+The plane was <EVENT class="OCCURRENCE" eid="e6">found</EVENT> <EVENT class="OCCURRENCE" eid="e7">broken</EVENT> to pieces in a deep ravine by a group of missionaries while <EVENT class="OCCURRENCE" eid="e8">traveling</EVENT> from Wamena regency to Mulia regency, all people on board <EVENT class="I_ACTION" eid="e9">predicted</EVENT> to have <EVENT class="OCCURRENCE" eid="e10">died</EVENT>, <EVENT class="REPORTING" eid="e11">said</EVENT> provincial police spokesman Kartono Wangsa Disastro.
+
+"The plane has been <EVENT class="OCCURRENCE" eid="e12">found</EVENT>, the missionaries <EVENT class="REPORTING" eid="e13">said</EVENT> logically no one safe from the <EVENT class="OCCURRENCE" eid="e14">accident</EVENT>," Disastro <EVENT class="REPORTING" eid="e15">told</EVENT> Xinhua by telephone from the province.
+
+Bad weather and mountainous field were the <EVENT class="OCCURRENCE" eid="e16">cause</EVENT> of the <EVENT class="OCCURRENCE" eid="e17">accident</EVENT>, he <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+"After the plane <EVENT class="OCCURRENCE" eid="e19">lower</EVENT> its height <EVENT class="OCCURRENCE" eid="e20">preparing</EVENT> for landing, the weather <EVENT class="OCCURRENCE" eid="e21">changed</EVENT> to dark, afterwards, the plane <EVENT class="OCCURRENCE" eid="e22">crashed</EVENT> to a mountain," he <EVENT class="REPORTING" eid="e23">said</EVENT>.
+
+Disasto <EVENT class="REPORTING" eid="e24">said</EVENT> that evacuation still can not be <EVENT class="OCCURRENCE" eid="e25">done</EVENT>, due to a poor weather condition.
+
+"We <EVENT class="OCCURRENCE" eid="e26">wait</EVENT> for favorable weather for <EVENT class="OCCURRENCE" eid="e27">moving</EVENT> to the site," he <EVENT class="REPORTING" eid="e28">said</EVENT>.
+
+The plane belonging to Trigana Air Service <EVENT class="OCCURRENCE" eid="e30">lost</EVENT> contact with the airport <TIMEX3 type="DURATION" value="PT15M" tid="t3">15 minutes</TIMEX3> after it <EVENT class="OCCURRENCE" eid="e32">departed</EVENT> from Mulia, the capital of Puncak Jaya regency on its way to Ilaga district on <TIMEX3 type="DATE" value="2006-11-17" tid="t4">Friday</TIMEX3>, he <EVENT class="REPORTING" eid="e33">said</EVENT>.
+
+Mountainous terrain has been a serious threat for flight in the province, which has frequently <EVENT class="OCCURRENCE" eid="e35">caused</EVENT> accidents, the type of Twin Otter aircraft for instance has been four times <EVENT class="OCCURRENCE" eid="e37">smashed</EVENT> to the mountains.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei33" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei18" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei28" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei33" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei32" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l46" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+
+
+
+
+</TimeML>

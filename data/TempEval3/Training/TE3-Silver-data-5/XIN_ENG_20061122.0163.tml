@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0163</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>system after duck egg contamination scandal</TITLE>
+
+
+<TEXT>
+
+The Chinese government should <EVENT class="OCCURRENCE" eid="e1">encourage</EVENT> food processing and logistics firms to <EVENT class="OCCURRENCE" eid="e2">set</EVENT> up systems for the recall and traceability of problem food, <EVENT class="REPORTING" eid="e3">said</EVENT> a senior National Development and Reform Commission (NDRC) official on <TIMEX3 type="DATE" value="2006-11-22" tid="t1">Wednesday</TIMEX3>.
+
+NDRC deputy director Zhang Guobao <EVENT class="REPORTING" eid="e4">said</EVENT> China should <EVENT class="ASPECTUAL" eid="e5">continue</EVENT> the food safety market access system to <EVENT class="OCCURRENCE" eid="e6">build</EVENT> consumer confidence in food safety.
+
+The 11th Five-Year plan on the national food industry <EVENT class="OCCURRENCE" eid="e7">highlighted</EVENT> an urgent need to <EVENT class="OCCURRENCE" eid="e8">improve</EVENT> the country's food safety.
+
+"The fact that some food processing enterprises <EVENT class="OCCURRENCE" eid="e9">use</EVENT> illegal additives and raw materials cannot be <EVENT class="OCCURRENCE" eid="e10">neglected</EVENT> and <EVENT class="OCCURRENCE" eid="e11">downplayed</EVENT>. Food chains from farm fields to table are polluted from time to time and environmental pollution has a bad <EVENT class="OCCURRENCE" eid="e13">impact</EVENT> on food sources, " <EVENT class="REPORTING" eid="e14">according</EVENT> to the plan.
+
+His <EVENT class="OCCURRENCE" eid="e15">call</EVENT> <EVENT class="OCCURRENCE" eid="e16">follows</EVENT> a <EVENT class="OCCURRENCE" eid="e17">scandal</EVENT> <TIMEX3 type="DATE" value="2006-11" tid="t2">this month</TIMEX3> in which red-yolk <EVENT class="OCCURRENCE" eid="e18">salted</EVENT> duck eggs were <EVENT class="OCCURRENCE" eid="e19">found</EVENT> <EVENT class="OCCURRENCE" eid="e20">containing</EVENT> the carcinogenic industrial dye, Sudan-IV, <EVENT class="OCCURRENCE" eid="e21">raising</EVENT> nationwide concern over food safety. The country's food watchdog <EVENT class="OCCURRENCE" eid="e22">traced</EVENT> to the source of the contaminated eggs, <EVENT class="OCCURRENCE" eid="e23">destroyed</EVENT> the contaminated eggs and ducks, and <EVENT class="OCCURRENCE" eid="e24">tightened</EVENT> food safety <EVENT class="OCCURRENCE" eid="e25">supervision</EVENT>.
+
+China has yet to <EVENT class="I_ACTION" eid="e26">establish</EVENT> a clearly defined food recall system, but some big cities are <EVENT class="I_STATE" eid="e27">considering</EVENT> their <EVENT class="OCCURRENCE" eid="e28">establishment</EVENT>.
+
+Shanghai <EVENT class="ASPECTUAL" eid="e29">started</EVENT> a food recall system on <TIMEX3 type="DATE" value="2006-08-01" tid="t3">Aug. 1</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei22" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei29" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

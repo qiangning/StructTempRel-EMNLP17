@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061202.0429</DOCID>
+
+<DCT>THE HAGUE, <TIMEX3 tid="t0" type="TIME" value="2006-12-02" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 2 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Original Venus singer dies</TITLE>
+
+
+<TEXT>
+
+Mariska Veres, singer for the Dutch group Shocking Blue who <EVENT class="STATE" eid="e1">had</EVENT> a worldwide <EVENT class="OCCURRENCE" eid="e2">hit</EVENT> with their song "Venus" in <TIMEX3 type="DATE" value="1970" tid="t1">1970</TIMEX3>, <EVENT class="OCCURRENCE" eid="e3">died</EVENT> Saturday <EVENT class="OCCURRENCE" eid="e4">aged</EVENT> 59, Dutch media <EVENT class="REPORTING" eid="e5">reported</EVENT>.
+
+Veres <EVENT class="OCCURRENCE" eid="e6">died</EVENT> from cancer. In <TIMEX3 type="DATE" value="1970" tid="t3">1970</TIMEX3> "Venus" <EVENT class="OCCURRENCE" eid="e8">reached</EVENT> the top of the American music charts but Shocking Blue did not have any other <EVENT class="OCCURRENCE" eid="e9">success</EVENT> that <EVENT class="OCCURRENCE" eid="e10">matched</EVENT> their big <EVENT class="OCCURRENCE" eid="e11">hit</EVENT>. The group <EVENT class="OCCURRENCE" eid="e12">split</EVENT> up in <TIMEX3 type="DATE" value="1974" tid="t4">1974</TIMEX3>.
+
+Their song "Venus" would <EVENT class="OCCURRENCE" eid="e13">go</EVENT> on to <EVENT class="OCCURRENCE" eid="e14">make</EVENT> it to number one in the American Billboard <EVENT class="OCCURRENCE" eid="e15">chart</EVENT> two more times: in <TIMEX3 type="DATE" value="1981" tid="t5">1981</TIMEX3> by cover band <EVENT class="OCCURRENCE" eid="e16">Stars</EVENT> on <TIMEX3 type="DATE" value="1945" tid="t6">45</TIMEX3> and in <TIMEX3 type="DATE" value="1986" tid="t7">1986</TIMEX3> in a version by girlband Bananarama.
+
+In <TIMEX3 type="DATE" value="1980" tid="t8">the late</TIMEX3> 1980s Shocking Blue also <EVENT class="OCCURRENCE" eid="e17">served</EVENT> as an inspiration for grunge band Nirvana who <EVENT class="OCCURRENCE" eid="e18">covered</EVENT> the band's song "Love Buzz" on their 1989 debut album Bleach.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000016" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei1000016" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1000016" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei16" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei17" relatedToTime="t8" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

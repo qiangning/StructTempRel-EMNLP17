@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051114.0420</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="2005-11-15" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 15 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Typhoon Pepeng to enter Philippines</TITLE>
+
+
+<TEXT>
+
+The Philippine state weather bureau PAGASA Tuesday <EVENT class="REPORTING" eid="e1">said</EVENT> typhoon Pepeng has <EVENT class="OCCURRENCE" eid="e2">entered</EVENT> the Philippine area and is <EVENT class="I_ACTION" eid="e3">threatening</EVENT> to <EVENT class="OCCURRENCE" eid="e4">bring</EVENT> <EVENT class="OCCURRENCE" eid="e5">rains</EVENT> over Surigao del Norte in Mindanao.
+
+At 2:00 a.m. local time <TIMEX3 type="DATE" value="2005-11-15" tid="t3">Tuesday</TIMEX3>, the typhoon was <EVENT class="OCCURRENCE" eid="e6">located</EVENT> by surface and satellite data at 330 kilometers east and northeast of Surigao City in Surigao del Norte province with maximum sustained winds of 55 kilometers per hour near the center. It is <EVENT class="I_STATE" eid="e7">forecast</EVENT> to <EVENT class="OCCURRENCE" eid="e8">move</EVENT> north at 15 kilometers per hour.
+
+Pepeng <EVENT class="STATE" eid="e9">is</EVENT> the 16th typhoon to <EVENT class="OCCURRENCE" eid="e10">hit</EVENT> the country <TIMEX3 type="DATE" value="2005" tid="t4">this year</TIMEX3>. Typhoons <EVENT class="OCCURRENCE" eid="e11">gather</EVENT> strength from warm sea water and <EVENT class="OCCURRENCE" eid="e12">tend</EVENT> to <EVENT class="OCCURRENCE" eid="e13">dissipate</EVENT> after making landfall.
+
+PAGASA <EVENT class="REPORTING" eid="e14">said</EVENT> the central and southern Luzon, Visayas and Mindanao regions will <EVENT class="OCCURRENCE" eid="e15">experience</EVENT> cloudy skies with scattered showers and thunderstorms <EVENT class="OCCURRENCE" eid="e16">becoming</EVENT> widespread over the eastern part of the country. The rest of Luzon will <EVENT class="STATE" eid="e17">have</EVENT> mostly cloudy skies with showers and thunderstorms.
+
+Meanwhile, moderate to occasionally strong winds <EVENT class="OCCURRENCE" eid="e18">blowing</EVENT> from the northeast will <EVENT class="OCCURRENCE" eid="e19">prevail</EVENT> over northern and eastern Luzon and eastern Visayas. Coastal waters of these areas will be moderate to occasionally rough and <EVENT class="OCCURRENCE" eid="e21">becoming</EVENT> light to <EVENT class="OCCURRENCE" eid="e22">moderate</EVENT> over the rest of the country.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="SIMULTANEOUS" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

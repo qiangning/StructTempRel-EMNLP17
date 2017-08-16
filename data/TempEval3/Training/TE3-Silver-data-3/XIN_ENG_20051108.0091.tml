@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051108.0091</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Press center for six-party talks ready for reporters</TITLE>
+
+
+<TEXT>
+
+The press center for the fifth round of the six-party <EVENT class="OCCURRENCE" eid="e1">talks</EVENT> on the Korean Peninsula nuclear issue will be open to reporters from <TIMEX3 type="DATE" value="2005-11-08" tid="t1">8:00 a.m.</TIMEX3> <TIMEX3 type="DATE" value="2005-11-09TMO" tid="t2">Wednesday morning</TIMEX3>.
+
+The new round of <EVENT class="OCCURRENCE" eid="e3">talks</EVENT>, <EVENT class="OCCURRENCE" eid="e4">involving</EVENT> China, the Democratic People's Republic of Korea, the United States, Republic of Korea, Russia and Japan, is to <EVENT class="ASPECTUAL" eid="e5">start</EVENT> on <TIMEX3 type="DATE" value="2005-11-09TMO" tid="t3">Wednesday morning</TIMEX3> at the Diaoyutai State Guesthouse, the venue of previous rounds of talks.
+
+The press center, <EVENT class="OCCURRENCE" eid="e6">located</EVENT> at the Diaoyutai Hotel, will be available to reporters from home and abroad from <TIMEX3 type="DATE" value="2005-11-08" tid="t4">8:00 to 21:00 everyday</TIMEX3>. It is <EVENT class="OCCURRENCE" eid="e8">equipped</EVENT> with ten desktop computers and four wires for broadband Internet, as well as facilities such as telephones, printers, <EVENT class="OCCURRENCE" eid="e9">duplicating</EVENT> machines and fax machines.
+
+More than 100 overseas correspondents have <EVENT class="OCCURRENCE" eid="e10">registered</EVENT> to <EVENT class="REPORTING" eid="e11">report</EVENT> the <EVENT class="OCCURRENCE" eid="e12">talks</EVENT>, sources <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei5" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToTime="t4" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

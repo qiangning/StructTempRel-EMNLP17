@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051212.0224</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-12-12" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 12 , 2005</TIMEX3></DCT>
+
+<TITLE>quotes ///</TITLE>
+
+
+<TEXT>
+
+Oil prices <EVENT class="OCCURRENCE" eid="e1">climbed</EVENT> on <TIMEX3 type="DATE" value="2005-12-12" tid="t1">Monday</TIMEX3> as forecasts for further cold weather in the US northeast <EVENT class="OCCURRENCE" eid="e2">offset</EVENT> a <EVENT class="OCCURRENCE" eid="e3">decision</EVENT> by OPEC to <EVENT class="OCCURRENCE" eid="e4">maintain</EVENT> its output quota, analysts <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+Traders were meanwhile <EVENT class="OCCURRENCE" eid="e6">keeping</EVENT> an eye on the enormous <EVENT class="OCCURRENCE" eid="e7">fire</EVENT> at a fuel depot north of London, which holds some five percent of Britain's fuel stocks.
+
+New York's main contract, light sweet crude for delivery in <TIMEX3 type="DATE" value="2005-01" tid="t2">January</TIMEX3>, <EVENT class="OCCURRENCE" eid="e8">rose</EVENT> 47 cents to 59.86 dollars per barrel in electronic trading.
+
+In London, the price of Brent North Sea crude for <TIMEX3 type="DATE" value="2005-01" tid="t3">January</TIMEX3> delivery <EVENT class="OCCURRENCE" eid="e9">gained</EVENT> 48 cents to 57.79 dollars per barrel.
+
+"Crude futures were higher on forecasts for colder weather in the US northeast, the world's largest heating oil market, <TIMEX3 type="DATE" value="2005-W50" tid="t4">this week</TIMEX3>," analysts at the Sucden brokerage firm <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+"However gains were <EVENT class="OCCURRENCE" eid="e12">limited</EVENT> by the OPEC <EVENT class="OCCURRENCE" eid="e13">decision</EVENT> to <EVENT class="OCCURRENCE" eid="e14">keep</EVENT> oil output unchanged at a 25 year-high."
+
+The Organisation of Petroleum Exporting Countries, <EVENT class="OCCURRENCE" eid="e15">meeting</EVENT> in Kuwait, <EVENT class="OCCURRENCE" eid="e16">maintained</EVENT> its production quota at 28.0 million barrels per day (bpd) and <EVENT class="OCCURRENCE" eid="e17">decided</EVENT> not to <EVENT class="ASPECTUAL" eid="e18">renew</EVENT> its <EVENT class="OCCURRENCE" eid="e19">offer</EVENT> for emergency extra output of 2.0 million bpd.
+
+However the cartel was ready to <EVENT class="OCCURRENCE" eid="e20">cut</EVENT> production at a new <EVENT class="OCCURRENCE" eid="e22">meeting</EVENT> at the end of <TIMEX3 type="DATE" value="2005-01" tid="t5">January</TIMEX3> if demand <EVENT class="OCCURRENCE" eid="e23">falls</EVENT> too much, Libya's Energy Secretary Fathi Hamed bin Shatwan and his Qatari counterpart <EVENT class="REPORTING" eid="e24">said</EVENT>.
+
+"Now the market is <EVENT class="OCCURRENCE" eid="e25">focused</EVENT> on the likely outcome of the next <EVENT class="OCCURRENCE" eid="e26">meeting</EVENT> <TIMEX3 type="DATE" value="2006" tid="t6">early next year</TIMEX3> where many have already <EVENT class="OCCURRENCE" eid="e27">suggested</EVENT> that OPEC will <EVENT class="OCCURRENCE" eid="e28">cut</EVENT> production to <EVENT class="I_ACTION" eid="e30">cope</EVENT> with swelling supplies as the weather <EVENT class="OCCURRENCE" eid="e31">warms</EVENT> up again," Sucden analysts <EVENT class="REPORTING" eid="e32">said</EVENT>.
+
+World oil prices <EVENT class="OCCURRENCE" eid="e33">rose</EVENT> to the highest levels for more than a month <TIMEX3 type="DATE" value="2005-W49" tid="t7">last week</TIMEX3> as cold weather <EVENT class="OCCURRENCE" eid="e34">descended</EVENT> on the US northeast, <EVENT class="OCCURRENCE" eid="e35">increasing</EVENT> the likelihood of higher fuel demand for the energy-hungry region.
+
+Crude futures on <TIMEX3 type="DATE" value="2005-12-09" tid="t8">Friday</TIMEX3> <EVENT class="I_STATE" eid="e36">breached</EVENT> 61 dollars per barrel in New York and almost 60 dollars in London, levels not <EVENT class="OCCURRENCE" eid="e37">reached</EVENT> since <TIMEX3 type="DATE" value="2005-11-04" tid="t9">November 4</TIMEX3>.
+
+With weather conditions continuing cold in the US northeast, crude prices would <EVENT class="STATE" eid="e39">remain</EVENT> firm over <TIMEX3 type="DURATION" value="PXD" tid="t10">the coming days</TIMEX3>, analysts <EVENT class="REPORTING" eid="e40">said</EVENT>.
+
+"They are <EVENT class="I_STATE" eid="e41">expecting</EVENT> cold weather for the rest of <TIMEX3 type="DATE" value="2005-12-12" tid="t11">the week</TIMEX3> so prices aren't likely to <EVENT class="OCCURRENCE" eid="e42">fall</EVENT> in the short-term," <EVENT class="REPORTING" eid="e43">said</EVENT> Mark Pervan, a commodities analyst with Daiwa Securities in Melbourne, Australia.
+
+The price of oil <EVENT class="OCCURRENCE" eid="e44">hit</EVENT> an all-time high of 70.85 dollars per barrel in New York on <TIMEX3 type="DATE" value="2005-08-30" tid="t12">August 30</TIMEX3> following Hurricane Katrina, which <EVENT class="OCCURRENCE" eid="e45">devastated</EVENT> refining and crude production facilities along the Gulf Coast of the United States.
+
+Mild weather in the northern hemisphere during <TIMEX3 type="DATE" value="2005-10" tid="t13">October</TIMEX3> and November <EVENT class="PERCEPTION" eid="e46">saw</EVENT> prices <EVENT class="OCCURRENCE" eid="e47">fall</EVENT> heavily.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei33" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei36" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei37" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei46" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei44" relatedToEventInstance="ei46" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei46" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei6" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei44" relatedToEventInstance="ei45" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l36" eventInstanceID="ei39" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei41" relatedToEventInstance="ei43" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei25" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l39" eventInstanceID="ei34" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei39" relatedToEventInstance="ei40" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei41" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei20" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei27" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l50" eventInstanceID="ei24" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l51" eventInstanceID="ei28" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l52" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="INCLUDES" />
+<TLINK lid="l53" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l54" eventInstanceID="ei15" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l57" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l59" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l60" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l61" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l62" eventInstanceID="ei40" relatedToEventInstance="ei43" relType="SIMULTANEOUS" />
+<TLINK lid="l63" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="AFTER" />
+<TLINK lid="l64" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l65" eventInstanceID="ei44" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l66" eventInstanceID="ei27" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l67" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l68" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l69" eventInstanceID="ei46" relatedToTime="t13" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

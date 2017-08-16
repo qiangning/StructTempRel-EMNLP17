@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0050</DOCID>
+
+<DCT>KUNMING, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>flowers</TITLE>
+
+
+<TEXT>
+
+Southwest China's Yunnan Province, <EVENT class="OCCURRENCE" eid="e1">praised</EVENT> as a flora paradise, <EVENT class="OCCURRENCE" eid="e2">sold</EVENT> abroad 9.16 million U.S. dollars worth of fresh cut flowers in <TIMEX3 type="DURATION" value="P10M" tid="t1">the first 10 months</TIMEX3> of <TIMEX3 type="DATE" value="2006" tid="t2">this year</TIMEX3>, a year-on-year increment of 2.66 million U.S. dollars, or 88.1 percent.
+
+<EVENT class="REPORTING" eid="e3">According</EVENT> to local customs sources, the exports quantity <EVENT class="OCCURRENCE" eid="e4">went</EVENT> up 8.7 percent to 3,858 tons, with average price per kilogram up 73 percent to <EVENT class="OCCURRENCE" eid="e5">reach</EVENT> 2.37 U.S. dollars.
+
+Most of the exports were carnations, roses and lilies, the sources <EVENT class="REPORTING" eid="e6">said</EVENT>.
+
+Between <TIMEX3 type="DATE" value="2006-01" tid="t4">January</TIMEX3> and <TIMEX3 type="DATE" value="2006-10" tid="t5">October</TIMEX3>, Hong Kong <EVENT class="OCCURRENCE" eid="e7">surpassed</EVENT> Japan to <EVENT class="OCCURRENCE" eid="e8">become</EVENT> the top target market of Yunnan flowers with an import volume of 2.51 million U.S. dollars, up 400 percent. Japan <EVENT class="OCCURRENCE" eid="e9">ranked</EVENT> second with the import value at 2.5 million U.S. dollars, up 23.8 percent.
+
+The two were <EVENT class="OCCURRENCE" eid="e10">followed</EVENT> by Singapore, Thailand, Australia, Malaysia and the Republic of Korea, the local customs sources <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+Over <TIMEX3 type="DURATION" value="P10M" tid="t6">the 10 months</TIMEX3>, foreign-funded businesses <EVENT class="OCCURRENCE" eid="e12">accounted</EVENT> for 54.6 percent of Yunnan's total fresh cut flower exports, up from 26.1 percent <TIMEX3 type="DATE" value="2005" tid="t7">a year earlier</TIMEX3>. They <EVENT class="OCCURRENCE" eid="e13">exported</EVENT> five million U.S. dollars worth of fresh cut flowers, up 290 percent, the sources <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000007" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei12" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1000007" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei7" relatedToEventInstance="ei1000007" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

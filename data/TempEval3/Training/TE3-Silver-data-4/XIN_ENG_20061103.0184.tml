@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0184</DOCID>
+
+<DCT>ANKARA, <TIMEX3 tid="t0" type="TIME" value="2006-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Turkish police seize 160 kg of heroin in Istanbul</TITLE>
+
+
+<TEXT>
+
+Turkish police <EVENT class="OCCURRENCE" eid="e1">confiscated</EVENT> 160 kg of heroin <EVENT class="OCCURRENCE" eid="e2">stashed</EVENT> in two trucks in an <EVENT class="OCCURRENCE" eid="e3">operation</EVENT> in Turkey's largest city of Istanbul on <TIMEX3 type="DATE" value="2006-11-03" tid="t1">Friday</TIMEX3>, the semi-official Anatolia news agency <EVENT class="REPORTING" eid="e4">reported</EVENT>.
+
+Four suspects were <EVENT class="OCCURRENCE" eid="e5">arrested</EVENT> in the <EVENT class="OCCURRENCE" eid="e6">operation</EVENT> in Avcilar district of Istanbul, <EVENT class="I_ACTION" eid="e7">facing</EVENT> charges of <EVENT class="OCCURRENCE" eid="e8">dealing</EVENT> illicit drugs.
+
+In another <EVENT class="OCCURRENCE" eid="e9">operation</EVENT> on the same day, gendarmerie officers, <EVENT class="OCCURRENCE" eid="e10">acting</EVENT> on a tip-off, <EVENT class="OCCURRENCE" eid="e11">found</EVENT> 30 kg of heroin <EVENT class="OCCURRENCE" eid="e12">hidden</EVENT> in a car in Baskale town of Van province in eastern Turkey, Anatolia <EVENT class="REPORTING" eid="e13">said</EVENT>.
+
+The report <EVENT class="REPORTING" eid="e14">said</EVENT> that the gendarmerie forces <EVENT class="OCCURRENCE" eid="e15">received</EVENT> <EVENT class="I_ACTION" eid="e16">help</EVENT> from a sniffer dog in <EVENT class="OCCURRENCE" eid="e17">finding</EVENT> the heroin in Baskale, <EVENT class="OCCURRENCE" eid="e18">adding</EVENT> that a full- scale manhunt is underway to <EVENT class="OCCURRENCE" eid="e20">arrest</EVENT> the owner of the car.
+
+Turkey is on a key transit route for gangs smuggling drugs from Asia and the Middle East to markets in western Europe.
+
+In <TIMEX3 type="DATE" value="2005" tid="t2">2005</TIMEX3>, Turkish security forces <EVENT class="OCCURRENCE" eid="e21">seized</EVENT> 6,663 kg of heroin, 140 kg of morphine, 34 kg of opium, 6,002 kg of hashish, 40 kg of cocaine, some 1.23 million captagon pills and 5.76 million ecstasy pills, official figures <EVENT class="OCCURRENCE" eid="e22">showed</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei14" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

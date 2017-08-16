@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051114.0158</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2005-11-14" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 14 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Passengers via Xiamen-Jinmen line to top 500,000 in 2005</TITLE>
+
+
+<TEXT>
+
+BEIJING, <TIMEX3 type="DATE" value="2006-11-14" tid="t1">Nov.</TIMEX3> 14(Xinhua)-- Passengers via the shipping line from Xiamen, a coastal city of Fujian Province that sees Taiwan across the sea, to Jinmen, will <EVENT class="OCCURRENCE" eid="e2">top</EVENT> 500,000 in <TIMEX3 type="DATE" value="2005" tid="t2">2005</TIMEX3>.
+
+According to statistics of the Port of Xiamen, in <TIMEX3 type="DATE" value="2005" tid="t3">the first ten months of 2005</TIMEX3>, passengers via this line <EVENT class="OCCURRENCE" eid="e4">reached</EVENT> 438,113 person-times, up 32.4 percent year-on-year.
+
+On <TIMEX3 type="DATE" value="2001-01-02" tid="t6">Jan. 2, 2001</TIMEX3>, the passenger shipping line between Xiamen and Jinmen <EVENT class="OCCURRENCE" eid="e5">opened</EVENT> to <EVENT class="I_ACTION" eid="e6">direct</EVENT> passenger traffic between the two sides of Taiwan strait.
+
+During <TIMEX3 type="DURATION" value="PRESENT_REF" tid="t8">these years</TIMEX3>, this line has <EVENT class="STATE" eid="e7">become</EVENT> a golden traffic line, which facilitates people <EVENT class="OCCURRENCE" eid="e9">going</EVENT> across the strait, <EVENT class="REPORTING" eid="e10">according</EVENT> to Zhou Qinghai, chief of the Administration Department of the Xiamen Municipal Port Authorities.
+
+Statistics <EVENT class="OCCURRENCE" eid="e11">show</EVENT> that passenger throughput <EVENT class="OCCURRENCE" eid="e12">grew</EVENT> from 20,835 in <TIMEX3 type="DATE" value="2001" tid="t9">2001</TIMEX3> to 406,883 person-times in <TIMEX3 type="DATE" value="2004" tid="t10">2004</TIMEX3>, a <EVENT class="OCCURRENCE" eid="e13">jump</EVENT> of almost twenty times.
+
+Zhou <EVENT class="REPORTING" eid="e14">said</EVENT> this line <EVENT class="STATE" eid="e15">became</EVENT> more popular when the annual cross-Strait mechanical and electronic products trade <EVENT class="STATE" eid="e16">fair</EVENT> <EVENT class="OCCURRENCE" eid="e17">held</EVENT> in <TIMEX3 type="DATE" value="2005-04" tid="t11">April</TIMEX3> and when Lien Chan, then chairman of Taiwan's Kuomintang party and James Soong, chairman of the People First Party <EVENT class="OCCURRENCE" eid="e18">visited</EVENT> the mainland in the first half of <TIMEX3 type="DATE" value="2005" tid="t12">this year</TIMEX3>.
+
+<TIMEX3 type="DATE" value="2005-07" tid="t13">July</TIMEX3> <EVENT class="PERCEPTION" eid="e19">witnessed</EVENT> a record-breaking passenger throughput of 50,813 person-times for <TIMEX3 type="DATE" value="2005-11-14" tid="t14">a single month</TIMEX3>.
+
+At present there are 12 voyages a day on the line, and the Port of Xiamen <EVENT class="STATE" eid="e21">has</EVENT> an annual capacity of <EVENT class="OCCURRENCE" eid="e22">transporting</EVENT> one million people.
+
+Ever since <TIMEX3 type="DATE" value="1997-04" tid="t15">April 1997</TIMEX3>, experimental direct <EVENT class="OCCURRENCE" eid="e23">sailing</EVENT> between the two sides of the Taiwan strait has <EVENT class="OCCURRENCE" eid="e24">made</EVENT> Port of Xiamen one of most important ports to <EVENT class="OCCURRENCE" eid="e25">undertake</EVENT> mainland-Taiwan <EVENT class="OCCURRENCE" eid="e26">shipping</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000019" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei12" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei23" relatedToTime="t15" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei1000019" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1000019" relatedToTime="t14" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei17" relatedToTime="t11" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

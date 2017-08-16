@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051124.0219</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Agency says 170,000 World Cup tickets still available</TITLE>
+
+
+<TEXT>
+
+About 170,000 hospitality tickets from an original contingent of 346,950 are available, the International Sports and Entertainment AG (iSe) <EVENT class="REPORTING" eid="e1">announced</EVENT> on <TIMEX3 type="DATE" value="2005-11-24" tid="t1">Thursday</TIMEX3>.
+
+The prices of the tickets for the games <TIMEX3 type="DATE" value="2006" tid="t2">next year</TIMEX3> in Germany are between <TIMEX3 type="DATE" value="633" tid="t3">633</TIMEX3> and 15,000 euros.
+
+"We are <EVENT class="I_STATE" eid="e2">confident</EVENT> to be <EVENT class="OCCURRENCE" eid="e3">sold</EVENT> out at the World Cup," iSe Managing Director George Tayler <EVENT class="REPORTING" eid="e5">told</EVENT> a press <EVENT class="OCCURRENCE" eid="e6">conference</EVENT> in the southern German city of Munich.
+
+The company <EVENT class="I_STATE" eid="e7">expects</EVENT> huge demand for tickets once the World Cup draw has <EVENT class="OCCURRENCE" eid="e8">taken</EVENT> place in Leipzig on <TIMEX3 type="DATE" value="2005-12-09" tid="t4">December 9</TIMEX3>, Tayler was <EVENT class="OCCURRENCE" eid="e9">quoted</EVENT> by the German news agency DPA.
+
+Regular tickets <EVENT class="OCCURRENCE" eid="e10">cost</EVENT> between <TIMEX3 type="DATE" value="1935" tid="t5">35</TIMEX3> for the cheapest group and 600 euros for the most expensive final game. However, hospitality tickets <EVENT class="ASPECTUAL" eid="e11">start</EVENT> at 633.
+
+Those who <EVENT class="I_STATE" eid="e12">want</EVENT> to <EVENT class="PERCEPTION" eid="e13">see</EVENT> the final in Berlin must <EVENT class="OCCURRENCE" eid="e14">buy</EVENT> a package including games in other cities.
+
+"Our price is below that of France in <TIMEX3 type="DATE" value="1998" tid="t6">1998</TIMEX3>," Tayler <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+The iSe <EVENT class="OCCURRENCE" eid="e16">paid</EVENT> the world soccer body FIFA 180 million euros for the hospitality tickets license and may <EVENT class="OCCURRENCE" eid="e17">gain</EVENT> an estimated 700 million euros if all the tickets were <EVENT class="OCCURRENCE" eid="e18">sold</EVENT> out.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei8" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<Title>112265.female.23.indUnk.Taurus.xml</Title>
+<DCT><TIMEX3 tid="t0" type="TIME" value="2004-03-10" temporalFunction="false" functionInDocument="CREATION_TIME">10,March,2004</TIMEX3></DCT>
+<TEXT>
+Well. I <EVENT class="ASPECTUAL" eid="e1">started</EVENT> this blog <TIMEX3 type="DURATION" value="PXY" tid="t1">years ago</TIMEX3> and never <EVENT class="OCCURRENCE" eid="e2">kept</EVENT> up with it. In fact, I sort of <EVENT class="OCCURRENCE" eid="e3">forgot</EVENT> about it. Now, I am done with school and <EVENT class="OCCURRENCE" eid="e4">married</EVENT> and I actually <EVENT class="STATE" eid="e5">have</EVENT> *time* on my hands! (Gasp! <EVENT class="OCCURRENCE" eid="e6">Imagine</EVENT> that!) And, I really <EVENT class="I_STATE" eid="e7">want</EVENT> to <EVENT class="OCCURRENCE" eid="e8">get</EVENT> back into the swing of writing, so I <EVENT class="I_STATE" eid="e9">thought</EVENT> blogging might be a good way to <EVENT class="ASPECTUAL" eid="e10">start</EVENT>. I feel like an <EVENT class="OCCURRENCE" eid="e11">introduction</EVENT> is in order, so here's a bit about me. My name is Kathleen. I am 22 years old, and I <EVENT class="OCCURRENCE" eid="e12">live</EVENT> in Portland, Maine with my husband Brett. We are originally from Portland, Oregon but <EVENT class="OCCURRENCE" eid="e13">lived</EVENT> in Seattle for <TIMEX3 type="DURATION" value="P4Y" tid="t2">4 years</TIMEX3> during college. I <EVENT class="OCCURRENCE" eid="e14">work</EVENT> as an office manager in a small software company, so I tend to have a bit of time on my hands. Hence, the blogging. I'll probably <EVENT class="REPORTING" eid="e15">talk</EVENT> a lot about all of the <EVENT class="OCCURRENCE" eid="e16">changes</EVENT> that have <EVENT class="OCCURRENCE" eid="e17">happened</EVENT> in my life in <TIMEX3 type="DATE" value="2003" tid="t3">the past year</TIMEX3>, since that's what is on my mind right <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3>: getting <EVENT class="OCCURRENCE" eid="e18">married</EVENT> in <TIMEX3 type="DATE" value="2003-07" tid="t5">July</TIMEX3>, <EVENT class="OCCURRENCE" eid="e19">moving</EVENT> to Maine in <TIMEX3 type="DATE" value="2004-11" tid="t6">November</TIMEX3>, <EVENT class="OCCURRENCE" eid="e20">changing</EVENT> jobs several times, etc. So I will <EVENT class="OCCURRENCE" eid="e21">get</EVENT> right down to it. I am pretty freaking grumpy today. Well, to be honest, I've been really <EVENT class="STATE" eid="e22">grumpy</EVENT> for <TIMEX3 type="DURATION" value="P1W" tid="t7">a few weeks</TIMEX3> and I can't <EVENT class="PERCEPTION" eid="e23">seem</EVENT> to <EVENT class="OCCURRENCE" eid="e24">get</EVENT> un -grumpy, which I hate. Feeling out of control, especially of myself, is not something I like. I <EVENT class="OCCURRENCE" eid="e25">guess</EVENT> I'm <EVENT class="OCCURRENCE" eid="e26">coming</EVENT> to <EVENT class="OCCURRENCE" eid="e27">realize</EVENT> that life, and especially marriage, is NOT easy. Maybe I <EVENT class="OCCURRENCE" eid="e28">assumed</EVENT> that since we <EVENT class="OCCURRENCE" eid="e29">dated</EVENT> for <TIMEX3 type="DURATION" value="P4Y" tid="t8">over 4 years</TIMEX3> before we <EVENT class="OCCURRENCE" eid="e30">got</EVENT> <EVENT class="OCCURRENCE" eid="e31">married</EVENT>, that things would be easy. Everyone <EVENT class="REPORTING" eid="e32">says</EVENT> that the first year of marriage is the hardest, and for <TIMEX3 type="DURATION" value="P6M" tid="t9">the first six months</TIMEX3> I <EVENT class="OCCURRENCE" eid="e33">laughed</EVENT> that off. "Hard?" I would <EVENT class="OCCURRENCE" eid="e34">scoff</EVENT>. "No way! I <EVENT class="OCCURRENCE" eid="e35">love</EVENT> being <EVENT class="OCCURRENCE" eid="e36">married</EVENT>. It's wonderful! It's amazing! blah, blah, blah." Now it's like the crap has <EVENT class="OCCURRENCE" eid="e37">hit</EVENT> the fan and I am <EVENT class="OCCURRENCE" eid="e38">transformed</EVENT> into a grumpy, nagging, mean, <EVENT class="OCCURRENCE" eid="e39">yelling</EVENT> wife. Ugh. I don't <EVENT class="I_STATE" eid="e40">want</EVENT> to be like this but every time I <EVENT class="ASPECTUAL" eid="e41">resolve</EVENT> to be different I <EVENT class="OCCURRENCE" eid="e42">fall</EVENT> right back into it. <EVENT class="I_ACTION" eid="e43">Choosing</EVENT> your battles is a lot harder than it <EVENT class="I_STATE" eid="e44">seems</EVENT>. I <EVENT class="I_STATE" eid="e45">think</EVENT> that's a lot of what I'm <EVENT class="OCCURRENCE" eid="e46">learning</EVENT>; that I really do have to <EVENT class="I_ACTION" eid="e47">choose</EVENT> my <EVENT class="OCCURRENCE" eid="e48">battles</EVENT>, because if I <EVENT class="OCCURRENCE" eid="e49">pick</EVENT> on every little thing, he won't <EVENT class="PERCEPTION" eid="e50">listen</EVENT> at all when the big things <EVENT class="OCCURRENCE" eid="e51">come</EVENT> along and I really <EVENT class="I_STATE" eid="e52">need</EVENT> him to <EVENT class="PERCEPTION" eid="e53">listen</EVENT>. Heh. That's my psychological epiphany for <TIMEX3 type="DATE" value="2004-03-10" tid="t10">the day</TIMEX3>. 
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1"  eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2"  eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei3"  eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4"  eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5"  eventID="e5" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6"  eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7"  eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8"  eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9"  eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10"  eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11"  eventID="e11" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12"  eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13"  eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14"  eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15"  eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16"  eventID="e16" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17"  eventID="e17" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18"  eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19"  eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20"  eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21"  eventID="e21" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22"  eventID="e22" pos="ADJECTIVE" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23"  eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24"  eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25"  eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26"  eventID="e26" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27"  eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28"  eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29"  eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30"  eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31"  eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32"  eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33"  eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34"  eventID="e34" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei35"  eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36"  eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37"  eventID="e37" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38"  eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei39"  eventID="e39" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40"  eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei41"  eventID="e41" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42"  eventID="e42" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43"  eventID="e43" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44"  eventID="e44" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45"  eventID="e45" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46"  eventID="e46" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47"  eventID="e47" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48"  eventID="e48" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49"  eventID="e49" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei50"  eventID="e50" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei51"  eventID="e51" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei52"  eventID="e52" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei53"  eventID="e53" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei5" relatedToEventInstance="ei4" />
+<TLINK lid="l9" relType="INCLUDES" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei6" />
+<TLINK lid="l11" relType="INCLUDES" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei8" relatedToEventInstance="ei7" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei7" />
+<TLINK lid="l15" relType="INCLUDES" eventInstanceID="ei10" relatedToEventInstance="ei7" />
+<TLINK lid="l16" relType="INCLUDES" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei11" />
+<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei12" />
+<TLINK lid="l20" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToTime="t2" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei13" />
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei13" relatedToEventInstance="ei14" />
+<TLINK lid="l25" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t3" />
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t4" />
+<TLINK lid="l27" relType="IS_INCLUDED" eventInstanceID="ei18" relatedToTime="t5" />
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t6" />
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l30" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei15" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei17" relatedToEventInstance="ei15" />
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei15" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei19" relatedToEventInstance="ei15" />
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei15" />
+<TLINK lid="l36" relType="AFTER" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei15" relatedToEventInstance="ei21" />
+<TLINK lid="l38" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t7" />
+<TLINK lid="l39" relType="IS_INCLUDED" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei23" />
+<TLINK lid="l41" relType="SIMULTANEOUS" eventInstanceID="ei22" relatedToEventInstance="ei23" />
+<TLINK lid="l42" relType="SIMULTANEOUS" eventInstanceID="ei24" relatedToEventInstance="ei23" />
+<TLINK lid="l43" relType="INCLUDES" eventInstanceID="ei25" relatedToTime="t0" />
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei23" relatedToEventInstance="ei25" />
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei26" relatedToEventInstance="ei25" />
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei25" />
+<TLINK lid="l47" relType="IS_INCLUDED" eventInstanceID="ei30" relatedToTime="t8" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei28" relatedToTime="t0" />
+<TLINK lid="l49" relType="SIMULTANEOUS" eventInstanceID="ei25" relatedToEventInstance="ei28" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei29" relatedToEventInstance="ei28" />
+<TLINK lid="l51" relType="BEFORE" eventInstanceID="ei30" relatedToEventInstance="ei28" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei31" relatedToEventInstance="ei28" />
+<TLINK lid="l53" relType="IS_INCLUDED" eventInstanceID="ei33" relatedToTime="t9" />
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei32" relatedToTime="t0" />
+<TLINK lid="l55" relType="SIMULTANEOUS" eventInstanceID="ei28" relatedToEventInstance="ei32" />
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei33" relatedToEventInstance="ei32" />
+<TLINK lid="l57" relType="AFTER" eventInstanceID="ei34" relatedToTime="t0" />
+<TLINK lid="l58" relType="SIMULTANEOUS" eventInstanceID="ei32" relatedToEventInstance="ei34" />
+<TLINK lid="l59" relType="INCLUDES" eventInstanceID="ei35" relatedToTime="t0" />
+<TLINK lid="l60" relType="BEFORE" eventInstanceID="ei34" relatedToEventInstance="ei35" />
+<TLINK lid="l61" relType="BEFORE" eventInstanceID="ei36" relatedToEventInstance="ei35" />
+<TLINK lid="l62" relType="BEFORE" eventInstanceID="ei37" relatedToTime="t0" />
+<TLINK lid="l63" relType="AFTER" eventInstanceID="ei35" relatedToEventInstance="ei37" />
+<TLINK lid="l64" relType="BEFORE" eventInstanceID="ei38" relatedToEventInstance="ei37" />
+<TLINK lid="l65" relType="BEFORE" eventInstanceID="ei39" relatedToEventInstance="ei37" />
+<TLINK lid="l66" relType="AFTER" eventInstanceID="ei41" relatedToTime="t0" />
+<TLINK lid="l67" relType="BEFORE" eventInstanceID="ei37" relatedToEventInstance="ei41" />
+<TLINK lid="l68" relType="BEFORE" eventInstanceID="ei40" relatedToEventInstance="ei41" />
+<TLINK lid="l69" relType="BEFORE" eventInstanceID="ei42" relatedToEventInstance="ei41" />
+<TLINK lid="l70" relType="INCLUDES" eventInstanceID="ei43" relatedToTime="t0" />
+<TLINK lid="l71" relType="BEFORE" eventInstanceID="ei41" relatedToEventInstance="ei43" />
+<TLINK lid="l72" relType="BEFORE" eventInstanceID="ei44" relatedToEventInstance="ei43" />
+<TLINK lid="l73" relType="INCLUDES" eventInstanceID="ei45" relatedToTime="t0" />
+<TLINK lid="l74" relType="SIMULTANEOUS" eventInstanceID="ei43" relatedToEventInstance="ei45" />
+<TLINK lid="l75" relType="BEFORE" eventInstanceID="ei46" relatedToEventInstance="ei45" />
+<TLINK lid="l76" relType="BEFORE" eventInstanceID="ei47" relatedToEventInstance="ei45" />
+<TLINK lid="l77" relType="INCLUDES" eventInstanceID="ei48" relatedToEventInstance="ei45" />
+<TLINK lid="l78" relType="BEFORE" eventInstanceID="ei49" relatedToEventInstance="ei45" />
+<TLINK lid="l79" relType="SIMULTANEOUS" eventInstanceID="ei50" relatedToEventInstance="ei45" />
+<TLINK lid="l80" relType="BEFORE" eventInstanceID="ei51" relatedToEventInstance="ei45" />
+<TLINK lid="l81" relType="BEFORE" eventInstanceID="ei52" relatedToEventInstance="ei45" />
+<TLINK lid="l82" relType="SIMULTANEOUS" eventInstanceID="ei53" relatedToEventInstance="ei45" />
+</TimeML>

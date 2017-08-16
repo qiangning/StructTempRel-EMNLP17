@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061121.0308</DOCID>
+
+<DCT>KHARTOUM, <TIMEX3 tid="t0" type="TIME" value="2006-11-21" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 21 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Sudanese government disregards Washington's warning on Darfur</TITLE>
+
+
+<TEXT>
+
+The Sudanese government on <TIMEX3 type="DATE" value="2006-11-21" tid="t1">Tuesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">brushed</EVENT> aside a U.S. <EVENT class="OCCURRENCE" eid="e2">warning</EVENT> on its Darfur issues by <EVENT class="REPORTING" eid="e3">saying</EVENT> that they did not <EVENT class="I_STATE" eid="e4">know</EVENT> the plan <EVENT class="OCCURRENCE" eid="e5">referred</EVENT> in the <EVENT class="OCCURRENCE" eid="e6">warning</EVENT>.
+
+Ali al-Sadig, the spokesman of the Sudanese Foreign Ministry, <EVENT class="REPORTING" eid="e7">told</EVENT> reporters that his government <EVENT class="I_STATE" eid="e8">knew</EVENT> neither <EVENT class="OCCURRENCE" eid="e9">Plan</EVENT> A nor Plan B, which were <EVENT class="REPORTING" eid="e10">talked</EVENT> about by Andrew Natsios, the U.S. Special Envoy to Sudan.
+
+On <TIMEX3 type="DATE" value="2006-11-20" tid="t2">Monday</TIMEX3>, Natsios <EVENT class="I_ACTION" eid="e11">warned</EVENT> that the United States and other countries would <EVENT class="OCCURRENCE" eid="e12">resort</EVENT> to what he <EVENT class="I_ACTION" eid="e13">called</EVENT> "Plan B" if Khartoum <EVENT class="OCCURRENCE" eid="e14">refused</EVENT> to <EVENT class="OCCURRENCE" eid="e15">change</EVENT> its position on the peacekeeping issue in Darfur by <TIMEX3 type="DATE" value="2006-01-01" tid="t3">Jan. 1</TIMEX3>.
+
+"On <TIMEX3 type="DATE" value="2006-01-01" tid="t4">Jan. 1</TIMEX3>, either we <EVENT class="PERCEPTION" eid="e16">see</EVENT> <EVENT class="OCCURRENCE" eid="e17">change</EVENT> or we <EVENT class="OCCURRENCE" eid="e18">go</EVENT> to Plan B," Natsios <EVENT class="REPORTING" eid="e19">told</EVENT> reporters at the State Department, without <EVENT class="REPORTING" eid="e20">elaborating</EVENT> the details.
+
+<EVENT class="REPORTING" eid="e21">Describing</EVENT> Natsios' statement as "inappropriate and not helpful for <EVENT class="I_ACTION" eid="e23">resolving</EVENT> the problem in Darfur," the spokesman <EVENT class="REPORTING" eid="e24">said</EVENT> that "The U.S. envoy <EVENT class="OCCURRENCE" eid="e25">ignored</EVENT> the fact that agreements had been <EVENT class="OCCURRENCE" eid="e26">reached</EVENT> at the joint <EVENT class="OCCURRENCE" eid="e27">meeting</EVENT> of the UN, the AU, the Arab League and the Sudanese government in Addis Ababa on <TIMEX3 type="DATE" value="2006-11-16" tid="t5">Thursday</TIMEX3> on most of the questions it <EVENT class="OCCURRENCE" eid="e29">discussed</EVENT>."
+
+He <EVENT class="OCCURRENCE" eid="e30">reiterated</EVENT> that the Sudanese government would only <EVENT class="OCCURRENCE" eid="e31">accept</EVENT> a UN presence within the AU Mission in Darfur in the form of experts and technicians as well as the technical assistance that the AU force <EVENT class="I_STATE" eid="e32">needs</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei16" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei27" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei21" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l42" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+
+
+
+
+</TimeML>

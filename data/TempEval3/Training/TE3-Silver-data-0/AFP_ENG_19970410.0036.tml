@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970410.0036</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-10" temporalFunction="false" functionInDocument="CREATION_TIME">April 10 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Japan's machinery orders up 9.9 percent in February</TITLE>
+
+
+<TEXT>
+
+Japan's private sector machinery orders in <TIMEX3 type="DATE" value="1997-02" tid="t1">February</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> 9.9 percent from <TIMEX3 type="DATE" value="1996" tid="t2">a year earlier</TIMEX3>, after <EVENT class="OCCURRENCE" eid="e2">growing</EVENT> 14.8 percent in <TIMEX3 type="DATE" value="1997-02" tid="t3">the previous month</TIMEX3>, the Economic Planning Agency <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-10" tid="t4">Thursday</TIMEX3>.
+
+Compared with <TIMEX3 type="DATE" value="1997-02" tid="t5">the previous month</TIMEX3>, the February orders <EVENT class="OCCURRENCE" eid="e4">dropped</EVENT> 1.6 percent, the agency <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+The data, excluding shipbuilding and power generation orders which tend to <EVENT class="OCCURRENCE" eid="e6">fluctuate</EVENT> widely, are <EVENT class="I_STATE" eid="e7">considered</EVENT> leading indicators of corporate capital <EVENT class="OCCURRENCE" eid="e9">spending</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000001" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1000001" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei1000001" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei1000003" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+
+
+
+
+</TimeML>

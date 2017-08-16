@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061227.0363</DOCID>
+
+<DCT>VIENNA, <TIMEX3 tid="t0" type="TIME" value="2006-12-27" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 27 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Mozart piano score discovered in Salzburg</TITLE>
+
+
+<TEXT>
+
+A hitherto unknown piano score extremely likely to be by the young Wolfgang Amadeus Mozart has been <EVENT class="OCCURRENCE" eid="e1">discovered</EVENT> in the composer's birthplace Salzburg, Austrian broadcaster ORF <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2006-12-27" tid="t1">Wednesday</TIMEX3>.
+
+The score's facsimile will be officially <EVENT class="OCCURRENCE" eid="e3">presented</EVENT> and <EVENT class="OCCURRENCE" eid="e4">played</EVENT> by clavichordist Florian Birsak on <TIMEX3 type="DATE" value="2006-12-22" tid="t2">Friday</TIMEX3>, it <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+<TIMEX3 type="DATE" value="2006-12-27" tid="t3">Some time ago</TIMEX3>, the archives of the city's episcopal office were <EVENT class="OCCURRENCE" eid="e6">offered</EVENT> unsigned keyboard works, including an "Allegro di Wolfgango Mozart". Detailed tests <EVENT class="OCCURRENCE" eid="e7">led</EVENT> experts to <EVENT class="OCCURRENCE" eid="e8">conclude</EVENT> that the piece was indeed <EVENT class="OCCURRENCE" eid="e9">written</EVENT> by the master, when he was between <TIMEX3 type="DATE" value="2006-12-27T10:00" tid="t4">six and 10 years old</TIMEX3>.
+
+A second score in the collection could also be by Mozart.
+
+Mozart was <EVENT class="OCCURRENCE" eid="e11">born</EVENT> <TIMEX3 type="DATE" value="1756" tid="t5">250 years ago</TIMEX3>, and Austria has been abuzz with events <EVENT class="OCCURRENCE" eid="e12">marking</EVENT> the <EVENT class="OCCURRENCE" eid="e13">occasion</EVENT> <TIMEX3 type="DATE" value="2006-12-27" tid="t6">all year long</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

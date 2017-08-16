@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061101.0264</DOCID>
+
+<DCT>SOFIA, <TIMEX3 tid="t0" type="TIME" value="2006-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 1 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>plant shutdown</TITLE>
+
+
+<TEXT>
+
+Bulgaria would <EVENT class="REPORTING" eid="e1">inform</EVENT> the European Union of an electricity shortage in the Balkan region due to its nuclear power plant shutdown, the BTA newa agency <EVENT class="REPORTING" eid="e3">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-01" tid="t1">Wednesday</TIMEX3>.
+
+Bulgarian Energy Minister Rumen Ovcharovis <EVENT class="REPORTING" eid="e4">told</EVENT> the Southeast Europe Economic Forum that Bulgaria was <EVENT class="I_STATE" eid="e5">expected</EVENT> to <EVENT class="REPORTING" eid="e6">inform</EVENT> the European Energy Commissioner Andris Piebalgs of the decommissioning of units 3 and 4 of the Kozloduy Nuclear Power Plant.
+
+Bulgaria <EVENT class="I_ACTION" eid="e8">asked</EVENT> the European Commission (EC) to <EVENT class="OCCURRENCE" eid="e9">take</EVENT> <EVENT class="OCCURRENCE" eid="e10">actions</EVENT> to <EVENT class="OCCURRENCE" eid="e11">guarantee</EVENT> electricity supply in the region, "as we will not be able to <EVENT class="OCCURRENCE" eid="e13">do</EVENT> it any more," the minister <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+The Kozloduy plant the biggest plant on the Balkan Peninsula, is <EVENT class="OCCURRENCE" eid="e15">used</EVENT> to <EVENT class="OCCURRENCE" eid="e16">generate</EVENT> power for the region. However, the EC had <EVENT class="OCCURRENCE" eid="e17">showed</EVENT> concerns about the security of the facility, since part of the units in Kozloduy were of the same type of those in Ukraine's Chernobyl plant, which <EVENT class="PERCEPTION" eid="e18">witnessed</EVENT> the world's worst nuclear disaster in <TIMEX3 type="DATE" value="1986" tid="t2">1986</TIMEX3>.
+
+As part of the criteria for Bulgaria's bid for <EVENT class="OCCURRENCE" eid="e20">entering</EVENT> the European Union, Bulgaria has already <EVENT class="OCCURRENCE" eid="e22">shut</EVENT> down units 1 and 2 in Kozloduy in <TIMEX3 type="DATE" value="2003" tid="t3">2003</TIMEX3>, and is to <EVENT class="OCCURRENCE" eid="e23">shut</EVENT> the other two units by <TIMEX3 type="DATE" value="2006-11-01" tid="t4">the end of the year</TIMEX3>.
+
+Also due to delayed <EVENT class="OCCURRENCE" eid="e24">deliveries</EVENT> of coal for some thermal plants, Bulgaria's electricity exports for the Balkan Peninsula would be <EVENT class="OCCURRENCE" eid="e25">ceased</EVENT> to <EVENT class="OCCURRENCE" eid="e26">secure</EVENT> the local electricity supply, the minister <EVENT class="REPORTING" eid="e27">said</EVENT>, <EVENT class="OCCURRENCE" eid="e28">adding</EVENT> that the EC had <EVENT class="I_ACTION" eid="e29">promised</EVENT> to <EVENT class="OCCURRENCE" eid="e30">do</EVENT> its best to <EVENT class="OCCURRENCE" eid="e31">plug</EVENT> the power shortfall in the region.
+
+Currently, Bulgaria's National Electricity Company has <EVENT class="OCCURRENCE" eid="e32">received</EVENT> <EVENT class="OCCURRENCE" eid="e33">requests</EVENT> for electricity supply from Kosovo, a Serbian province which is currently under international administration, Greece and Macedonia, but tenders for electricity exports to Greece and Kosovo in <TIMEX3 type="DATE" value="2007" tid="t6">2007</TIMEX3> had been <EVENT class="OCCURRENCE" eid="e34">turned</EVENT> down, the minister <EVENT class="REPORTING" eid="e35">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000023" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei34" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1000023" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei25" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei15" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei27" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei1000023" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei4" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l36" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei9" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="BEFORE" />
+
+
+
+
+</TimeML>

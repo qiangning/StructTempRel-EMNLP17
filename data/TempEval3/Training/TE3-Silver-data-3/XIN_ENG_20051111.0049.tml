@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051111.0049</DOCID>
+
+<DCT>GUANGZHOU, South China, <TIMEX3 tid="t0" type="TIME" value="2005-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>World's top mixed doubles pair ousted from China Open badminton</TITLE>
+
+
+<TEXT>
+
+Non-seeded Zheng Bo/Zhao Tingting from China <EVENT class="OCCURRENCE" eid="e1">upset</EVENT> world No.1 Widianto Nova/Natsir Liyana of Indonesia 15-9, 17-15 for the semi-finals at the China Open badminton here on <TIMEX3 type="DATE" value="2005-11-11" tid="t2">Friday</TIMEX3>.
+
+"It's very normal for us to <EVENT class="OCCURRENCE" eid="e2">win</EVENT> or <EVENT class="OCCURRENCE" eid="e3">lose</EVENT>," <EVENT class="REPORTING" eid="e4">said</EVENT> Zhao Tingting, "The key point is the actual pefermance and luck on court."
+
+Zhao Tingting <EVENT class="OCCURRENCE" eid="e5">used</EVENT> to <EVENT class="OCCURRENCE" eid="e6">pair</EVENT> with veteran Chen Jiqiu, and it's first time for Zhao and Zheng to be partners after Chen <EVENT class="OCCURRENCE" eid="e7">retired</EVENT> from national team.
+
+The winning Chinese duo will next <EVENT class="OCCURRENCE" eid="e9">meet</EVENT> England's fifth-seeded Nathan Robertson/Gail Emms, who <EVENT class="OCCURRENCE" eid="e10">beat</EVENT> Anthony Clark/Kenneth Kellogg of Denmark in the third round.
+
+Second-seeded Lee Jae Jin/Lee Hyo Jung of South Korea <EVENT class="OCCURRENCE" eid="e11">beat</EVENT> Daniel Shirley/Runesten-Petersen of New Zealand 13-15, 15-4 and 15-4.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

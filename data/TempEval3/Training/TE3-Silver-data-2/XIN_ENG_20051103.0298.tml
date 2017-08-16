@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0298</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Bush's job approval rating hits new low</TITLE>
+
+
+<TEXT>
+
+US President George W. Bush's job approval rating <EVENT class="OCCURRENCE" eid="e1">hit</EVENT> a new low of 35 percent, <EVENT class="REPORTING" eid="e2">according</EVENT> to a CBS News poll <EVENT class="OCCURRENCE" eid="e3">released</EVENT> <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Thursday</TIMEX3>.
+
+It is the lowest level since he <EVENT class="OCCURRENCE" eid="e4">took</EVENT> office in <TIMEX3 type="DATE" value="2001" tid="t2">2001</TIMEX3> and one of the worst for any president.
+
+The <EVENT class="OCCURRENCE" eid="e5">survey</EVENT> <EVENT class="OCCURRENCE" eid="e6">found</EVENT> that only 35 percent of Americans <EVENT class="I_STATE" eid="e7">thought</EVENT> Bush was <EVENT class="OCCURRENCE" eid="e8">doing</EVENT> a good job compared with 37 percent in a previous CBS poll in <TIMEX3 type="DATE" value="2005-10" tid="t3">October</TIMEX3>.
+
+Pollsters <EVENT class="I_ACTION" eid="e9">attributed</EVENT> the <EVENT class="OCCURRENCE" eid="e10">decline</EVENT> partially to a five-count indictment of US Vice President Dick Cheney's former top aide Lewis "Scooter" Libby <TIMEX3 type="DATE" value="2005-10-28" tid="t4">last Friday</TIMEX3>.
+
+The CBS poll <EVENT class="OCCURRENCE" eid="e12">compared</EVENT> Bush's job approval rating with some other presidents at about the same point in their <TIMEX3 type="DATE" value="2005-11-03" tid="t5">second term</TIMEX3>.
+
+In <TIMEX3 type="DATE" value="1997-11" tid="t6">November 1997</TIMEX3>, in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t7">the first year</TIMEX3> of his second term, 57 percent of Americans <EVENT class="OCCURRENCE" eid="e13">approved</EVENT> of Bill Clinton.
+
+The job approval rating of Ronald Reagan in <TIMEX3 type="DATE" value="1985-11" tid="t8">November 1985</TIMEX3> was 65 percent.
+
+A Gallup poll in <TIMEX3 type="DATE" value="1957-11" tid="t9">November 1957</TIMEX3> <EVENT class="OCCURRENCE" eid="e14">found</EVENT> 58 percent <EVENT class="OCCURRENCE" eid="e15">approval</EVENT> for Dwight Eisenhower.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l23" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+
+
+
+
+</TimeML>

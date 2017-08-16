@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061125.0004</DOCID>
+
+<DCT>MADRID, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Mexican defender Marquez becomes Spanish citizen</TITLE>
+
+
+<TEXT>
+
+Mexican defender Rafael Marquez, who <EVENT class="OCCURRENCE" eid="e1">plays</EVENT> for Spanish league soccer team Barcelona, <EVENT class="STATE" eid="e2">became</EVENT> a Spanish citizen on <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3>, with a public <EVENT class="OCCURRENCE" eid="e3">ceremony</EVENT> where he <EVENT class="OCCURRENCE" eid="e4">swore</EVENT> an oath to Spain's constitution, and <EVENT class="OCCURRENCE" eid="e5">freed</EVENT> a place on his team for another player from outside the European Union.
+
+Marquez <EVENT class="OCCURRENCE" eid="e6">joined</EVENT> Barcelona in <TIMEX3 type="DATE" value="2003" tid="t2">2003</TIMEX3>, <EVENT class="OCCURRENCE" eid="e7">leaving</EVENT> French league team Monaco. He <EVENT class="OCCURRENCE" eid="e8">took</EVENT> the oath, which is the last part of the Spanish nationalization process, first thing in <TIMEX3 type="TIME" value="2006-11-24TMO" tid="t3">the morning</TIMEX3> in Gava, the Barcelona neighborhood where he <EVENT class="OCCURRENCE" eid="e9">lives</EVENT>.
+
+With Marquez's <EVENT class="OCCURRENCE" eid="e10">nationalization</EVENT> Barcelona <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">now</TIMEX3> <EVENT class="STATE" eid="e11">has</EVENT> only two officially foreign players - Cameroon's Samuel Eto'o and Brazil's Ronaldo de Assis, better known as Ronaldinho.
+
+If the club <EVENT class="OCCURRENCE" eid="e12">decided</EVENT> to <EVENT class="OCCURRENCE" eid="e13">make</EVENT> <EVENT class="OCCURRENCE" eid="e14">use</EVENT> of the winter transfer market, it will <TIMEX3 type="DATE" value="PRESENT_REF" tid="t5">now</TIMEX3> have a much larger choice of players.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei2" relatedToEventInstance="ei6" relType="INCLUDES" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei14" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+
+
+
+
+</TimeML>

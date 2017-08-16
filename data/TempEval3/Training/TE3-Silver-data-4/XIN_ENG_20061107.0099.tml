@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0099</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Hong Kong shares close fresh high -- Nov. 7</TITLE>
+
+
+<TEXT>
+
+Hong Kong share prices <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> fresh high on <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> but the speed is <EVENT class="OCCURRENCE" eid="e2">slowing</EVENT> down, with the benchmark Hang Seng Index <EVENT class="OCCURRENCE" eid="e3">going</EVENT> up only 7.03 points, or 0.04 percent to 18943.58, <EVENT class="OCCURRENCE" eid="e4">breaking</EVENT> the previous record of 18,936.69 on <TIMEX3 type="DATE" value="2006-11-13" tid="t2">Monday</TIMEX3>.
+
+The Index <EVENT class="OCCURRENCE" eid="e5">opened</EVENT> 166.33 points higher to 19102.88 and <EVENT class="OCCURRENCE" eid="e6">reached</EVENT> an all-time high at 19,161.38 during the <EVENT class="OCCURRENCE" eid="e7">trading</EVENT>, but can not <EVENT class="OCCURRENCE" eid="e8">keep</EVENT> the momentum and <EVENT class="OCCURRENCE" eid="e9">fell</EVENT> back at <EVENT class="OCCURRENCE" eid="e10">closing</EVENT> with a turnover of 51.72 billion HK dollars (6.56 billion U.S. dollars).
+
+Market heavyweights China Mobile <EVENT class="OCCURRENCE" eid="e11">fell</EVENT> 2.47 percent to 67.05 HK dollars, while HSBC <EVENT class="OCCURRENCE" eid="e12">went</EVENT> up 0.53 percent to 151.20 HK dollars.
+
+Hong Kong property companies <EVENT class="OCCURRENCE" eid="e13">performed</EVENT> well on the news of bank interests <EVENT class="OCCURRENCE" eid="e14">cut</EVENT> <TIMEX3 type="TIME" value="2006-11-07TMO" tid="t3">this morning</TIMEX3>, with Cheung Kong up 2.07 percent to 88.75 HK dollars, Henderson Land up 3.81 percent to 46.3 HK dollars and SHK <EVENT class="OCCURRENCE" eid="e15">PPT</EVENT> up 3.34 percent to 91.3 HK dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

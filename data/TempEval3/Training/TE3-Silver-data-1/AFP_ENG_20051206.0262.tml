@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051206.0262</DOCID>
+
+<DCT>PRAGUE, <TIMEX3 tid="t0" type="TIME" value="2005-12-06" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 6 , 2005</TIMEX3></DCT>
+
+<TITLE>Czech President Klaus criticises British EU budget proposal</TITLE>
+
+
+<TEXT>
+
+Czech President Vaclav Klaus <EVENT class="OCCURRENCE" eid="e1">lined</EVENT> up <TIMEX3 type="DATE" value="2005-12-06" tid="t1">Tuesday</TIMEX3> with opponents of the British <EVENT class="OCCURRENCE" eid="e2">proposal</EVENT> for a European Union budget, <EVENT class="REPORTING" eid="e3">saying</EVENT> that it had been <EVENT class="OCCURRENCE" eid="e4">drawn</EVENT> up "to the detriment of new countries" of the EU.
+
+"The main thing is not that Tony Blair has <EVENT class="OCCURRENCE" eid="e6">put</EVENT> forward a <EVENT class="OCCURRENCE" eid="e8">proposal</EVENT> to <EVENT class="OCCURRENCE" eid="e9">cut</EVENT> the budget. The main thing is to what extent this share out of the budget ... is just," Klaus <EVENT class="OCCURRENCE" eid="e10">commented</EVENT> on a <EVENT class="OCCURRENCE" eid="e11">visit</EVENT> to Pardubice, 100 kilometers east of Prague.
+
+"I <EVENT class="I_STATE" eid="e12">think</EVENT> this has been rather been <EVENT class="OCCURRENCE" eid="e13">done</EVENT> to the <EVENT class="OCCURRENCE" eid="e14">detriment</EVENT> of new countries [of the EU] and this is not fair," he <EVENT class="OCCURRENCE" eid="e16">added</EVENT>.
+
+Klaus's comments are much more critical of the British budget <EVENT class="OCCURRENCE" eid="e17">proposal</EVENT> than those of social democrat prime minister Jiri Paroubek. Paroubek <EVENT class="REPORTING" eid="e18">said</EVENT> on <TIMEX3 type="DATE" value="2005-12-05" tid="t2">Monday</TIMEX3> that the British proposal "was at least worth very good consideration."
+
+The British proposal includes a <EVENT class="OCCURRENCE" eid="e21">reduced</EVENT> EU budget for the <TIMEX3 type="DATE" value="2007" tid="t3">2007-2013</TIMEX3> period with a cut in the British rebate <EVENT class="OCCURRENCE" eid="e23">accompanied</EVENT> by a <EVENT class="OCCURRENCE" eid="e24">reduction</EVENT> in regional aid <EVENT class="OCCURRENCE" eid="e25">targeted</EVENT> at new member states.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

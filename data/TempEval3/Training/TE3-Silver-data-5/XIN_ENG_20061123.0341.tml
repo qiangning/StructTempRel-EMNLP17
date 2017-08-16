@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061123.0341</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-11-24" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 24 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Tokyo stocks open lower</TITLE>
+
+
+<TEXT>
+
+Tokyo stocks <EVENT class="OCCURRENCE" eid="e1">opened</EVENT> lower <TIMEX3 type="DATE" value="2006-11-24" tid="t1">Friday</TIMEX3> as exporters <EVENT class="OCCURRENCE" eid="e3">lost</EVENT> ground on a stronger yen.
+
+In <TIMEX3 type="DURATION" value="PT15M" tid="t2">the first 15 minutes</TIMEX3> of trading, the 225-issue Nikkei Stock Average <EVENT class="OCCURRENCE" eid="e4">lost</EVENT> 152.68 points, or 0.96 percent, to 15,761.55.
+
+The broader Tokyo Stock Price Index of all First Section issues on the Tokyo Stock Exchange was down 13.22 points, or 0.85 percent, to 1,539.65. The Second Section <EVENT class="OCCURRENCE" eid="e5">fell</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

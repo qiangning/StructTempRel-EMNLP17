@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051214.0426</DOCID>
+
+<DCT>BERLIN, <TIMEX3 tid="t0" type="TIME" value="2005-12-14" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 14 , 2005</TIMEX3></DCT>
+
+<TITLE>untenable'</TITLE>
+
+
+<TEXT>
+
+The new British <EVENT class="OCCURRENCE" eid="e1">proposal</EVENT> on the EU budget is "still untenable", a German government source <EVENT class="REPORTING" eid="e2">said</EVENT> on <TIMEX3 type="DATE" value="2005-12-14" tid="t1">Wednesday</TIMEX3> on the eve of a crucial EU <EVENT class="OCCURRENCE" eid="e3">summit</EVENT> in Brussels.
+
+For agreement to be <EVENT class="OCCURRENCE" eid="e4">reached</EVENT>, there would have to be a "lasting solution to the British rebate issue", the source <EVENT class="REPORTING" eid="e5">said</EVENT>.
+
+However the German government <EVENT class="REPORTING" eid="e6">noted</EVENT> that the atmosphere "had clearly <EVENT class="OCCURRENCE" eid="e7">improved</EVENT>" compared with the fractious <EVENT class="OCCURRENCE" eid="e9">summit</EVENT> in <TIMEX3 type="DATE" value="2005-06" tid="t2">June</TIMEX3> when no agreement could be <EVENT class="OCCURRENCE" eid="e10">found</EVENT> on the issue.
+
+While the 25 EU member states are still not on the same page on the budget, Germany is <EVENT class="I_STATE" eid="e11">hoping</EVENT> the better mood will <EVENT class="OCCURRENCE" eid="e12">translate</EVENT> into an agreement, the source <EVENT class="REPORTING" eid="e14">said</EVENT>.
+
+"There is an urgent need for success," the source <EVENT class="OCCURRENCE" eid="e16">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

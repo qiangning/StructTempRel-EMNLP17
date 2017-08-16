@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051112.0046</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2005-11-12" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 12 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Urgent: Annan pays surprise visit to Iraq</TITLE>
+
+
+<TEXT>
+
+Urgent: Annan <EVENT class="OCCURRENCE" eid="e1">pays</EVENT> surprise <EVENT class="OCCURRENCE" eid="e2">visit</EVENT> to Iraq
+
+BAGHDAD, <TIMEX3 type="DATE" value="2004-11-12" tid="t1">Nov. 12</TIMEX3> (Xinhua) -- UN Secretary General Kofi Annan <EVENT class="OCCURRENCE" eid="e3">paid</EVENT> a surprise <EVENT class="OCCURRENCE" eid="e4">visit</EVENT> to Iraq on <TIMEX3 type="DATE" value="2005-11-12" tid="t2">Saturday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061205.0422</DOCID>
+
+<DCT>PARIS, <TIMEX3 tid="t0" type="TIME" value="2006-12-05" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 5 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>IMF to lower growth forecast for 2007: chief economist</TITLE>
+
+
+<TEXT>
+
+The International Monetary Fund is to <EVENT class="OCCURRENCE" eid="e1">lower</EVENT> its growth estimate for 2007 from its <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">current</TIMEX3> prediction of 4.9 percent, IMF chief economist John Lipsky <EVENT class="REPORTING" eid="e3">said</EVENT> here <TIMEX3 type="DATE" value="2006-12-05" tid="t3">Tuesday</TIMEX3>.
+
+"We will be <EVENT class="OCCURRENCE" eid="e4">reducing</EVENT> that somewhat," Lipsky <EVENT class="REPORTING" eid="e5">told</EVENT> reporters, <EVENT class="OCCURRENCE" eid="e6">adding</EVENT> that the IMF nonetheless <EVENT class="ASPECTUAL" eid="e7">continued</EVENT> "to <EVENT class="I_STATE" eid="e8">anticipate</EVENT> a favorable environment for growth."
+
+He <EVENT class="REPORTING" eid="e10">said</EVENT> he <EVENT class="PERCEPTION" eid="e11">saw</EVENT> "no obvious reason to be <EVENT class="OCCURRENCE" eid="e12">concerned</EVENT>" by the recent <EVENT class="OCCURRENCE" eid="e13">plunge</EVENT> in the dollar against the euro, a trend that has <EVENT class="OCCURRENCE" eid="e14">prompted</EVENT> fears that the euro's appreciation could <EVENT class="OCCURRENCE" eid="e15">cut</EVENT> into eurozone exports and <EVENT class="OCCURRENCE" eid="e16">dampen</EVENT> <EVENT class="OCCURRENCE" eid="e17">growth</EVENT>.
+
+<EVENT class="I_ACTION" eid="e18">Asked</EVENT> about the European Central Bank's interest rate policy, he <EVENT class="REPORTING" eid="e19">replied</EVENT>: "We <EVENT class="I_STATE" eid="e20">think</EVENT> a policy of moderate tightening remains appropriate."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei10" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+
+
+
+
+</TimeML>

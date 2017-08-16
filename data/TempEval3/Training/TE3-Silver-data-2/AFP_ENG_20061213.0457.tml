@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061213.0457</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-12-13" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 13 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>New study suggests prostate cancer treatment helps elderly</TITLE>
+
+
+<TEXT>
+
+Elderly men with early prostate cancer live significantly longer if they <EVENT class="OCCURRENCE" eid="e1">receive</EVENT> <EVENT class="STATE" eid="e2">treatment</EVENT> than those who <EVENT class="OCCURRENCE" eid="e3">adopt</EVENT> a wait-and-see approach, as commonly <EVENT class="I_ACTION" eid="e4">recommended</EVENT>, <EVENT class="REPORTING" eid="e5">according</EVENT> to a new study <EVENT class="OCCURRENCE" eid="e6">released</EVENT> <TIMEX3 type="DATE" value="2006-12-13" tid="t1">Wednesday</TIMEX3>.
+
+The <EVENT class="OCCURRENCE" eid="e7">study</EVENT> of 44,630 men age 65 to 80 years <EVENT class="OCCURRENCE" eid="e8">found</EVENT> that those who <EVENT class="STATE" eid="e9">sought</EVENT> treatment for their prostate cancer with radiation or surgery had a 31 percent lower risk of death than those who <EVENT class="OCCURRENCE" eid="e12">waited</EVENT>.
+
+Even the oldest men between the ages of 75 and <TIMEX3 type="DATE" value="1980" tid="t2">80</TIMEX3> <EVENT class="OCCURRENCE" eid="e13">benefitted</EVENT> from treatment, the study <EVENT class="OCCURRENCE" eid="e15">found</EVENT>.
+
+"Even though prostate cancer commonly is <EVENT class="I_STATE" eid="e16">considered</EVENT> an indolent (slow to <EVENT class="OCCURRENCE" eid="e17">develop</EVENT> and painless) disease, this observational study suggests a reduced risk of mortality associated with active treatment for low- and intermediate-risk prostate cancer in the elderly (...) population <EVENT class="OCCURRENCE" eid="e20">examined</EVENT>," the authors of the study <EVENT class="OCCURRENCE" eid="e21">published</EVENT> in the Journal of the American Medical Association <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+Dr Yu-Ning Wong of the Fox Chase Cancer Center in Philidelphia, who <EVENT class="OCCURRENCE" eid="e23">led</EVENT> the study, <EVENT class="REPORTING" eid="e24">told</EVENT> AFP that the findings <EVENT class="OCCURRENCE" eid="e25">challenge</EVENT> the commonly held notion that early prostate cancer in elderly patients <EVENT class="OCCURRENCE" eid="e26">evolves</EVENT> so slowly that there is no need to <EVENT class="OCCURRENCE" eid="e28">treat</EVENT> them as they will probably <EVENT class="OCCURRENCE" eid="e29">die</EVENT> of something else first.
+
+"The treatment of prostate cancer in older men (...) has been controversial because the concern about side effects is an important one," Wong <EVENT class="REPORTING" eid="e32">said</EVENT>. "I <EVENT class="I_STATE" eid="e33">think</EVENT> our study <EVENT class="I_ACTION" eid="e34">suggests</EVENT> there may be a benefit to treatment in this patient population but that of course needs to be <EVENT class="STATE" eid="e36">weighed</EVENT> against other concerns."
+
+Wong also <EVENT class="REPORTING" eid="e37">acknowledged</EVENT> that the study's <EVENT class="OCCURRENCE" eid="e38">design</EVENT> had limitations and would <EVENT class="I_STATE" eid="e39">need</EVENT> to be <EVENT class="REPORTING" eid="e40">confirmed</EVENT> by further <EVENT class="OCCURRENCE" eid="e41">research</EVENT>.
+
+Postate cancer is the most common cancer <EVENT class="OCCURRENCE" eid="e43">found</EVENT> in American men, along with skin cancer, <EVENT class="REPORTING" eid="e44">according</EVENT> to the American Cancer Society (ACS).
+
+ACS <EVENT class="I_STATE" eid="e45">estimates</EVENT> that 234,460 men will be <EVENT class="OCCURRENCE" eid="e46">diagnosed</EVENT> with prostate cancer in <TIMEX3 type="DATE" value="2006" tid="t3">2006</TIMEX3> and some 27,350 will <EVENT class="OCCURRENCE" eid="e47">die</EVENT> of the disease.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei32" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei46" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei45" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei33" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei44" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei8" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei37" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei16" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei43" relatedToEventInstance="ei45" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei24" relatedToEventInstance="ei32" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei15" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l41" eventInstanceID="ei37" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei45" relatedToEventInstance="ei47" relType="SIMULTANEOUS" />
+<TLINK lid="l43" eventInstanceID="ei45" relatedToEventInstance="ei46" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+
+
+
+
+</TimeML>

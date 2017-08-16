@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051205.0336</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2005-12-05" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 5 , 2005</TIMEX3></DCT>
+
+<TITLE>ATTENTION -  RECASTS with reshuffle ///</TITLE>
+
+
+<TEXT>
+
+Indonesian President Susilo Bambang Yudhoyono <TIMEX3 type="DATE" value="2005-12-12" tid="t1">Monday</TIMEX3> <EVENT class="REPORTING" eid="e1">announced</EVENT> a cabinet <EVENT class="OCCURRENCE" eid="e2">reshuffle</EVENT>, <EVENT class="OCCURRENCE" eid="e3">dismissing</EVENT> three ministers, <EVENT class="OCCURRENCE" eid="e4">shifting</EVENT> three others including his top economy minister and <EVENT class="OCCURRENCE" eid="e5">bringing</EVENT> in three new faces.
+
+Former finance minister Budiono was <EVENT class="OCCURRENCE" eid="e6">installed</EVENT> as <EVENT class="OCCURRENCE" eid="e7">coordinating</EVENT> minister for the economy, <EVENT class="OCCURRENCE" eid="e8">replacing</EVENT> Aburizal Bakrie, who has <EVENT class="OCCURRENCE" eid="e9">shifted</EVENT> to be <EVENT class="OCCURRENCE" eid="e10">coordinating</EVENT> minister for people's welfare, Yudhoyono <EVENT class="REPORTING" eid="e11">said</EVENT> in Yogyakarta, Central Java.
+
+The president <EVENT class="STATE" eid="e12">had</EVENT> <TIMEX3 type="DATE" value="2005-W48" tid="t2">last week</TIMEX3> <EVENT class="REPORTING" eid="e13">announced</EVENT> the inclusion of Budiono, who <EVENT class="OCCURRENCE" eid="e15">served</EVENT> as finance minister under former president Megawati Sukarnoputri, in his new cabinet -- a move <EVENT class="OCCURRENCE" eid="e18">welcomed</EVENT> by financial markets.
+
+Yudhoyono <EVENT class="REPORTING" eid="e19">said</EVENT> <TIMEX3 type="DATE" value="2005-12-02" tid="t3">Friday</TIMEX3> he had <EVENT class="I_ACTION" eid="e20">asked</EVENT> Budiono, 62, to <EVENT class="I_ACTION" eid="e21">help</EVENT> him "<EVENT class="OCCURRENCE" eid="e22">rearrange</EVENT>" his economic team, whose performance has been heavily <EVENT class="OCCURRENCE" eid="e24">criticised</EVENT> by analysts since his government <EVENT class="OCCURRENCE" eid="e25">came</EVENT> to power in <TIMEX3 type="DATE" value="2004-10" tid="t4">October 2004</TIMEX3>.
+
+Indonesia's economy has <EVENT class="OCCURRENCE" eid="e26">taken</EVENT> a beating <TIMEX3 type="DATE" value="2005" tid="t5">this year</TIMEX3>, with <EVENT class="OCCURRENCE" eid="e27">soaring</EVENT> global fuel prices <EVENT class="OCCURRENCE" eid="e28">putting</EVENT> a major dent in public coffers and <EVENT class="OCCURRENCE" eid="e30">pushing</EVENT> down the rupiah as the government <EVENT class="OCCURRENCE" eid="e31">scrambled</EVENT> to <EVENT class="OCCURRENCE" eid="e32">keep</EVENT> <EVENT class="OCCURRENCE" eid="e33">paying</EVENT> out expensive domestic fuel subsidies.
+
+In other <EVENT class="OCCURRENCE" eid="e34">changes</EVENT>, national development planning minister Sri Mulyani Indrawati <EVENT class="OCCURRENCE" eid="e36">replaced</EVENT> finance minister Yusuf Anwar, while Indrawati's place was <EVENT class="OCCURRENCE" eid="e37">taken</EVENT> by Paskah Suzetta.
+
+Suzetta is a Golkar party MP who <EVENT class="OCCURRENCE" eid="e38">heads</EVENT> the parliamentary commission <EVENT class="OCCURRENCE" eid="e39">dealing</EVENT> with finance, development planning, banking and non-banking financial institutions.
+
+Industry minister Andung Nitimihardja was <EVENT class="OCCURRENCE" eid="e41">replaced</EVENT> by manpower minister Fahmi Idris, while Idris was <EVENT class="OCCURRENCE" eid="e42">replaced</EVENT> by Erman Suparno, another MP who is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">currently</TIMEX3> deputy chair of the parliamentary commission <EVENT class="OCCURRENCE" eid="e43">dealing</EVENT> with transportation, telecommunications, civil work and housing.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei26" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei26" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei38" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei26" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei26" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei26" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei26" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei19" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei41" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei25" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei34" relatedToEventInstance="ei36" relType="INCLUDES" />
+<TLINK lid="l38" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei1" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei26" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l48" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei43" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l50" eventInstanceID="ei19" relatedToEventInstance="ei25" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061118.0057</DOCID>
+
+<DCT>CANBERRA, <TIMEX3 tid="t0" type="TIME" value="2006-11-18" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 18 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Gronholm leads New Zealand rally</TITLE>
+
+
+<TEXT>
+
+Finland's Marcus Gronholm <EVENT class="OCCURRENCE" eid="e1">established</EVENT> a big lead after <TIMEX3 type="DATE" value="P02:00D" tid="t1">the second day</TIMEX3> of the Rally of New Zealand in Hamilton on <TIMEX3 type="DATE" value="2006-11-18" tid="t2">Saturday</TIMEX3>.
+
+Gronholm <EVENT class="OCCURRENCE" eid="e2">won</EVENT> three of <TIMEX3 type="DATE" value="2006-11-25" tid="t3">Saturday</TIMEX3>'s six stages around Waikato to <EVENT class="OCCURRENCE" eid="e3">head</EVENT> into <TIMEX3 type="DATE" value="2006-11-12" tid="t4">Sunday</TIMEX3>'s final leg with a commanding 50.3 second lead over his Finnish team mate Mikko Hirvonen.
+
+Austria's Manfred Stohl, <EVENT class="OCCURRENCE" eid="e4">driving</EVENT> a Peugeot, <EVENT class="ASPECTUAL" eid="e5">finished</EVENT> the day in third place with Spain's Dani Sordo fourth in a Citroen. Both were more than two minutes behind Gronholm.
+
+Italian MotoGP ace Valentino Rossi <EVENT class="OCCURRENCE" eid="e6">climbed</EVENT> 10 places to <EVENT class="ASPECTUAL" eid="e7">finish</EVENT> <TIMEX3 type="DATE" value="PRESENT_REF" tid="t6">the day 13th</TIMEX3>, but is almost <TIMEX3 type="DURATION" value="PT17M" tid="t7">17 minutes</TIMEX3> off the pace.
+
+The 27-year-old Yamaha rider <EVENT class="OCCURRENCE" eid="e8">failed</EVENT> to <EVENT class="OCCURRENCE" eid="e9">progress</EVENT> beyond the first day at his only previous appearance in the British round of the 2002 world rally championship but has been <EVENT class="OCCURRENCE" eid="e10">driving</EVENT> more cautiously this time.
+
+Gronholm, who is <EVENT class="I_STATE" eid="e12">assured</EVENT> of <EVENT class="ASPECTUAL" eid="e13">finishing</EVENT> second behind Senastien Loeb in <TIMEX3 type="DATE" value="2006" tid="t10">this year</TIMEX3>'s driver's championship, is <EVENT class="OCCURRENCE" eid="e14">bidding</EVENT> to <EVENT class="OCCURRENCE" eid="e15">join</EVENT> Frenchman Carlos Sainz as the only four-time winners of the New Zealand Rally.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei7" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei8" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToTime="t6" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

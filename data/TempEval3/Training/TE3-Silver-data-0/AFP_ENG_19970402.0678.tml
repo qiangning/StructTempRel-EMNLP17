@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970402.0678</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="1997-04-03" temporalFunction="false" functionInDocument="CREATION_TIME">April 3 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Xinhua denies dead journmalist wanted to defect</TITLE>
+
+
+<TEXT>
+
+China's official Xinhua news agency on <TIMEX3 type="DATE" value="1997-04-03" tid="t1">Thursday</TIMEX3> <EVENT class="OCCURRENCE" eid="e1">denied</EVENT> that its former Washington bureau chief had <EVENT class="OCCURRENCE" eid="e2">killed</EVENT> himself after plans to <EVENT class="OCCURRENCE" eid="e4">defect</EVENT> were <EVENT class="OCCURRENCE" eid="e5">found</EVENT> out.
+
+"I <EVENT class="OCCURRENCE" eid="e6">read</EVENT> the New York Times article about the <EVENT class="OCCURRENCE" eid="e7">death</EVENT> of Wei Guoqiang. Their story is ridiculous and baseless," Chen Boliang the head of the agency's foreign affairs department <EVENT class="REPORTING" eid="e8">said</EVENT>.
+
+"It could even be <EVENT class="REPORTING" eid="e9">said</EVENT> that it is totally <EVENT class="OCCURRENCE" eid="e10">made</EVENT> up," he <EVENT class="OCCURRENCE" eid="e11">added</EVENT>.
+
+The US newspaper <EVENT class="REPORTING" eid="e12">said</EVENT> <TIMEX3 type="DATE" value="1997-04-02" tid="t2">Wednesday</TIMEX3> that Wei, 47, had been <EVENT class="REPORTING" eid="e13">recalled</EVENT> to Beijing in <TIMEX3 type="DATE" value="1997-04-03" tid="t3">late March</TIMEX3> after a colleagues in Washington <EVENT class="OCCURRENCE" eid="e14">discovered</EVENT> that he was <EVENT class="OCCURRENCE" eid="e15">preparing</EVENT> to <EVENT class="OCCURRENCE" eid="e16">ask</EVENT> for political asylum for himself, his wife and his 17-year-old daughter.
+
+Chinese journalists and diplomats are not <EVENT class="I_STATE" eid="e17">allowed</EVENT> to <EVENT class="OCCURRENCE" eid="e18">leave</EVENT> the country with their children, although sources here <EVENT class="REPORTING" eid="e19">say</EVENT> that rule may soon be <EVENT class="OCCURRENCE" eid="e20">changed</EVENT>.
+
+Chen <EVENT class="I_ACTION" eid="e21">conceded</EVENT> that Wei had <EVENT class="OCCURRENCE" eid="e22">commited</EVENT> <EVENT class="OCCURRENCE" eid="e23">suicide</EVENT> but <EVENT class="I_ACTION" eid="e24">insisted</EVENT> the <EVENT class="OCCURRENCE" eid="e25">death</EVENT> had "nothing to do with poltics."
+
+"He had <EVENT class="OCCURRENCE" eid="e26">come</EVENT> back to Beijing before <EVENT class="OCCURRENCE" eid="e27">going</EVENT> on to a new post in Singapore," he <EVENT class="REPORTING" eid="e28">said</EVENT>. "He was <EVENT class="OCCURRENCE" eid="e29">preparing</EVENT> the <EVENT class="OCCURRENCE" eid="e30">paperwork</EVENT> for the <EVENT class="OCCURRENCE" eid="e31">move</EVENT>, <EVENT class="OCCURRENCE" eid="e32">following</EVENT> the <EVENT class="OCCURRENCE" eid="e33">course</EVENT> of an absolutely standard <EVENT class="OCCURRENCE" eid="e34">transfer</EVENT>.
+
+"Sadly he <EVENT class="OCCURRENCE" eid="e35">killed</EVENT> himself at home in the meantime."
+
+The New York Times <EVENT class="REPORTING" eid="e36">said</EVENT> Wei had been under close watch at home, but was <EVENT class="OCCURRENCE" eid="e37">left</EVENT> briefly alone over <TIMEX3 type="DATE" value="1997-W13-WE" tid="t4">the weekend</TIMEX3>. He then <EVENT class="I_ACTION" eid="e38">chose</EVENT> that moment to <EVENT class="OCCURRENCE" eid="e39">hang</EVENT> himself in the bathroom of his apartment, a colleague was <EVENT class="OCCURRENCE" eid="e40">quoted</EVENT> as <EVENT class="REPORTING" eid="e41">saying</EVENT>.
+
+Wei <EVENT class="OCCURRENCE" eid="e42">held</EVENT> degrees from Beijing's Foreign Languages University and the Chinese Academy of Social Sciences.
+
+A specialist in US affairs, he was <EVENT class="OCCURRENCE" eid="e43">appointed</EVENT> Washington bureau chief in <TIMEX3 type="DATE" value="1996" tid="t5">early 1996</TIMEX3>, during an especially stormy period in Sino-American relations.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="NOUN" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei38" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei37" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei17" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei29" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l29" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei38" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToEventInstance="ei32" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l39" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei11" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei38" relatedToEventInstance="ei41" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei29" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei29" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="IS_INCLUDED" />
+<TLINK lid="l50" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei21" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l53" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l54" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l56" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+
+
+
+
+</TimeML>

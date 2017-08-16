@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970430.0284</DOCID>
+
+<DCT>MANILA, <TIMEX3 tid="t0" type="TIME" value="1997-04-30" temporalFunction="false" functionInDocument="CREATION_TIME">April 30 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Philippines lodges formal protest over Chinese vessels</TITLE>
+
+
+<TEXT>
+
+The Philippine foreign ministry <EVENT class="OCCURRENCE" eid="e1">summoned</EVENT> Beijing's ambassador to Manila on <TIMEX3 type="DATE" value="1997-04-30" tid="t1">Wednesday</TIMEX3> to <EVENT class="OCCURRENCE" eid="e2">protest</EVENT> at the presence of armed Chinese vessels in the disputed Spratlys, an official <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+"I formally <EVENT class="OCCURRENCE" eid="e5">gave</EVENT> him the details of the reported sightings," <EVENT class="REPORTING" eid="e8">said</EVENT> Delia Rosal, executive director of the department's Asia and Pacific Affairs, after <EVENT class="OCCURRENCE" eid="e9">meeting</EVENT> China's envoy, Guan Dengming.
+
+"I (<EVENT class="OCCURRENCE" eid="e10">conveyed</EVENT> to) him the Philippine concern about this <EVENT class="OCCURRENCE" eid="e11">incident</EVENT>," she <EVENT class="OCCURRENCE" eid="e12">added</EVENT>.
+
+The Philippine military <EVENT class="REPORTING" eid="e13">reported</EVENT> to Ramos on <TIMEX3 type="DATE" value="1997-04-29" tid="t2">Tuesday</TIMEX3> that three armed "frigate-type" Chinese vessels were <EVENT class="PERCEPTION" eid="e14">spotted</EVENT> by Air Force reconnaisance aircraft <TIMEX3 type="DATE" value="1997-04-25" tid="t3">Friday</TIMEX3> off Philippine-garrisoned Kota and Panata islands in the disputed South China Sea chain.
+
+The Philippines and China are among six countries which claim the supposedly oil-rich South China Sea chain in whole or part, the others being Brunei, Malaysia, Taiwan and Vietnam.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei13" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+
+
+
+
+</TimeML>

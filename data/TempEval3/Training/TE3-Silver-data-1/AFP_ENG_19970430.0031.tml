@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970430.0031</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="1997-04-30" temporalFunction="false" functionInDocument="CREATION_TIME">April 30 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Dollar moves narrowly in mid-afternnon Tokyo trade</TITLE>
+
+
+<TEXT>
+
+The dollar <EVENT class="OCCURRENCE" eid="e1">moved</EVENT> in a narrow range against the yen in <TIMEX3 type="DATE" value="1997-04-30TAF" tid="t1">mid-afternoon trading here Wednesday</TIMEX3>, as activity <EVENT class="OCCURRENCE" eid="e2">slowed</EVENT> ahead of a long weekend in Japan.
+
+At 2 p.m. (0500 GMT), the dollar was <EVENT class="OCCURRENCE" eid="e3">quoted</EVENT> at 126.97 yen, slightly up from 126.84 yen earlier in the day and 126.88 yen in New York <TIMEX3 type="TIME" value="1997-04-29TAF" tid="t3">Tuesday afternoon</TIMEX3>.
+
+The dollar also <EVENT class="OCCURRENCE" eid="e4">traded</EVENT> at 1.7238, down from 1.7245 earlier and 1.7259 in New York Tuesday.
+
+The US unit was <EVENT class="STATE" eid="e5">lower</EVENT> against the mark on stop-loss dollar <EVENT class="OCCURRENCE" eid="e6">selling</EVENT> <EVENT class="OCCURRENCE" eid="e7">activated</EVENT> at the 1.7220-25 mark level, but with the <EVENT class="OCCURRENCE" eid="e8">declines</EVENT> likely to be <EVENT class="OCCURRENCE" eid="e9">recouped</EVENT> in European trading, dealers <EVENT class="REPORTING" eid="e10">said</EVENT>.
+
+The dollar's <EVENT class="OCCURRENCE" eid="e11">falls</EVENT> against the mark was also due to <EVENT class="OCCURRENCE" eid="e12">buying</EVENT> of the German unit against the yen as investors covered positions <EVENT class="OCCURRENCE" eid="e13">following</EVENT> the mark's recent <EVENT class="OCCURRENCE" eid="e14">falls</EVENT> against the yen, dealers <EVENT class="REPORTING" eid="e15">said</EVENT>.
+
+Activity was <EVENT class="OCCURRENCE" eid="e16">focused</EVENT> on the mark-yen cross with investors reluctant to <EVENT class="OCCURRENCE" eid="e17">take</EVENT> fresh positions in dollar-yen <EVENT class="OCCURRENCE" eid="e18">trading</EVENT> ahead of the long weekend through <TIMEX3 type="DATE" value="1997-05-05" tid="t5">Monday</TIMEX3> in Japan, they <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+"Investors were <EVENT class="OCCURRENCE" eid="e20">encouraged</EVENT> to <EVENT class="OCCURRENCE" eid="e21">accelerate</EVENT> buying of the mark against the yen after the <EVENT class="I_ACTION" eid="e22">mark</EVENT> <EVENT class="OCCURRENCE" eid="e23">broke</EVENT> through technical upside <EVENT class="I_ACTION" eid="e24">resistance</EVENT> at the 73.60 yen level," <EVENT class="REPORTING" eid="e25">said</EVENT> Tokai Bank dealer Masahiro Yamaguchi.
+
+The mark <EVENT class="OCCURRENCE" eid="e26">traded</EVENT> at 73.66 yen mid-afternnon here.
+
+"I <EVENT class="I_STATE" eid="e27">think</EVENT> the mark will <EVENT class="ASPECTUAL" eid="e28">continue</EVENT> <EVENT class="OCCURRENCE" eid="e29">rising</EVENT> close to the 74 yen level and the dollar, in turn, is <EVENT class="I_STATE" eid="e31">expected</EVENT> to <EVENT class="ASPECTUAL" eid="e32">continue</EVENT> <EVENT class="OCCURRENCE" eid="e33">falling</EVENT> against the mark," Yamaguchi <EVENT class="REPORTING" eid="e34">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei34" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei26" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l14" eventInstanceID="ei20" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei27" relatedToEventInstance="ei34" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei20" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="INCLUDES" />
+<TLINK lid="l33" eventInstanceID="ei19" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei33" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei29" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei32" relatedToEventInstance="ei34" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei28" relatedToEventInstance="ei34" relType="IS_INCLUDED" />
+<TLINK lid="l43" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l44" eventInstanceID="ei3" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

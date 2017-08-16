@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Wed Jun 24 2015 13:18:47 GMT+0200 (CEST) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="Document">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="token" maxOccurs="unbounded" type="xs:string">
+                                 <xs:complexType>
+                                       <xs:attribute name="number" type="xs:int"></xs:attribute>
+                                       <xs:attribute name="sentence" type="xs:int" use="required"></xs:attribute>
+                                       <xs:attribute name="t_id" type="xs:int" use="required"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Markables">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="ENTITY_MENTION" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="token_anchor" maxOccurs="unbounded" minOccurs="0">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="t_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="head" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                         <xs:attribute name="syntactic_type" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="EVENT_MENTION" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="token_anchor" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="t_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="aspect" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="certainty" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                         <xs:attribute name="modality" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="polarity" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="pos" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="pred" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="special_cases" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="tense" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="time" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="SIGNAL">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="token_anchor" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="t_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="TIMEX3" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="token_anchor" maxOccurs="unbounded" minOccurs="0">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="t_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="anchorTimeID" type="xs:int"></xs:attribute>
+                                                         <xs:attribute name="beginPoint" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="endPoint" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="functionInDocument" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                         <xs:attribute name="type" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="value" type="xs:date" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="VALUE" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="token_anchor" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="t_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                         <xs:attribute name="type" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="ENTITY" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="TAG_DESCRIPTOR" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="ent_class" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="ent_type" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="external_ref" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="instance_id" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="EVENT" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="TAG_DESCRIPTOR" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="class" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="external_ref" type="xs:string"></xs:attribute>
+							 <xs:attribute name="instance_id" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Relations">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="REFERS_TO" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="source" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="target">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="r_id" type="xs:int" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="SLINK" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="source">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="target">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="r_id" type="xs:int" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="HAS_PARTICIPANT" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="source">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="target">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="r_id" type="xs:int" use="required"></xs:attribute>
+                                                         <xs:attribute name="sem_role" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="sem_role_framework" type="xs:string" use="required"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="TLINK" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="source">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="target">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="m_id" type="xs:int" use="required"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="lang" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="r_id" type="xs:int" use="required"></xs:attribute>
+                                                         <xs:attribute name="reltype" type="xs:string" use="required"></xs:attribute>
+                                                         <xs:attribute name="signalID" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="doc_name" type="xs:string" use="required"></xs:attribute>
+                     <xs:attribute name="doc_id" type="xs:int" use="required"></xs:attribute>
+                     <xs:attribute name="lang" type="xs:string" use="required"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 

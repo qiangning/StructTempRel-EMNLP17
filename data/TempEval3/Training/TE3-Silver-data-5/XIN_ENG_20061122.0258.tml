@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061122.0258</DOCID>
+
+<DCT>BELGRADE, <TIMEX3 tid="t0" type="TIME" value="2006-11-22" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 22 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Serbian president released from hospital after operation</TITLE>
+
+
+<TEXT>
+
+Serbian President Boris Tadic <EVENT class="OCCURRENCE" eid="e1">went</EVENT> home from a hospital on <TIMEX3 type="DATE" value="2006-11-22" tid="t1">Wednesday</TIMEX3> following a gall bladder <EVENT class="OCCURRENCE" eid="e2">operation</EVENT>, his office <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+Tadic, 48-year-old, was <EVENT class="OCCURRENCE" eid="e4">feeling</EVENT> well after <EVENT class="OCCURRENCE" eid="e5">undergoing</EVENT> surgery at Belgrade's Military Academy Hospital on <TIMEX3 type="DATE" value="2006-11-20" tid="t2">Monday</TIMEX3>, <EVENT class="REPORTING" eid="e6">said</EVENT> the office, <EVENT class="OCCURRENCE" eid="e7">adding</EVENT> that Tadic would <EVENT class="STATE" eid="e8">remain</EVENT> at home for several days.
+
+Elected as president in <TIMEX3 type="DATE" value="2004" tid="t4">2004</TIMEX3>, Tadic will <EVENT class="I_ACTION" eid="e10">face</EVENT> a crucial <EVENT class="STATE" eid="e11">test</EVENT> as he is <EVENT class="OCCURRENCE" eid="e12">leading</EVENT> the pro-Western Democratic Party to <EVENT class="OCCURRENCE" eid="e13">contest</EVENT> the parliamentary elections <EVENT class="OCCURRENCE" eid="e15">scheduled</EVENT> for <TIMEX3 type="DATE" value="2006-11-22T21:00" tid="t5">Jan. 21 next year</TIMEX3>.
+
+In <TIMEX3 type="DATE" value="2004" tid="t7">2004</TIMEX3>, Tadic was <EVENT class="OCCURRENCE" eid="e16">hospitalized</EVENT> for <TIMEX3 type="DURATION" value="P2W" tid="t8">more than two weeks</TIMEX3> with a lung infection.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei16" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei16" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

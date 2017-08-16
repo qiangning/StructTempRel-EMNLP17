@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970410.0536</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="1997-04-10" temporalFunction="false" functionInDocument="CREATION_TIME">April 10 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>JP Morgan net drops in first quarter</TITLE>
+
+
+<TEXT>
+
+JP Morgan net profits <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> 3.4 percent to 424 million dollars in <TIMEX3 type="DATE" value="PRESENT_REF" tid="t1">the first quarter</TIMEX3> from 439 million dollars in <TIMEX3 type="DATE" value="1997-04-10" tid="t2">the same period last year</TIMEX3>, the bank <EVENT class="REPORTING" eid="e2">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-10" tid="t3">Thursday</TIMEX3>.
+
+Net profit per share was 2.04 dollars against <TIMEX3 type="DATE" value="1997-04-10T13:00" tid="t4">2.13 last year</TIMEX3>.
+
+Sales <EVENT class="OCCURRENCE" eid="e3">rose</EVENT> to 1.83 billion dollars, from 1.74 billion.
+
+JP Morgan Chairman Douglas Warner <EVENT class="REPORTING" eid="e4">said</EVENT> the company's "good" first quarter result was based on higher revenues and <EVENT class="OCCURRENCE" eid="e5">increasing</EVENT> global diversification, <EVENT class="OCCURRENCE" eid="e7">noting</EVENT> that client activity "remains strong" into <TIMEX3 type="DATE" value="P2Q" tid="t6">the second quarter</TIMEX3>.
+
+The company's Finance and Advisory unit's revenues <EVENT class="OCCURRENCE" eid="e9">increased</EVENT> eight percent to 451 million dollars, mainly as a result of higher debt and equity underwriting revenues.
+
+Market making revenues <EVENT class="OCCURRENCE" eid="e10">fell</EVENT> 38 million dollars 733 million with revenues in emerging markets, equities, and foreign exchange up strongly, while fixed income revenues in developed markets <EVENT class="OCCURRENCE" eid="e11">fell</EVENT> from the "high" levels of <TIMEX3 type="DATE" value="1996" tid="t7">1996</TIMEX3>, Warner <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+Asset Management and Servicing revenues <EVENT class="OCCURRENCE" eid="e13">increased</EVENT> nine percent to 375 million dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei7" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1000002" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1000002" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei2" relatedToEventInstance="ei1000002" relType="AFTER" />
+
+
+
+
+</TimeML>

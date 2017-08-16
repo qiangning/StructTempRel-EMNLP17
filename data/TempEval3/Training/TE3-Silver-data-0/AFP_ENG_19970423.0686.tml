@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970423.0686</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="1997-04-24" temporalFunction="false" functionInDocument="CREATION_TIME">April 24 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Indonesian military promises reward to locate rebel leader</TITLE>
+
+
+<TEXT>
+
+The Indonesian military has <EVENT class="I_ACTION" eid="e1">promised</EVENT> a reward to anyone who <EVENT class="OCCURRENCE" eid="e2">providing</EVENT> information about a notorious rebel leader in the easternmost Irian Jaya province, a report <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="1997-04-24" tid="t1">Thursday</TIMEX3>.
+
+Major General Johny Lumintang, responsible for security in the province, <EVENT class="REPORTING" eid="e4">said</EVENT> in the province's capital of Jayapura <TIMEX3 type="DATE" value="1997-04-30" tid="t2">Wednesday</TIMEX3> that the military will <EVENT class="OCCURRENCE" eid="e5">provide</EVENT> "an attractive reward" for information on the whereabouts of Kelly Kwalik, one of the leaders of the Free Papua Organisation (OPM).
+
+"If anyone <EVENT class="I_STATE" eid="e6">knows</EVENT> anything, please <EVENT class="I_ACTION" eid="e7">let</EVENT> me <EVENT class="I_STATE" eid="e8">know</EVENT> so that he could be <EVENT class="OCCURRENCE" eid="e9">captured</EVENT> immediately," Lumintang <EVENT class="REPORTING" eid="e10">said</EVENT> without <EVENT class="REPORTING" eid="e11">elaborating</EVENT> as <EVENT class="OCCURRENCE" eid="e12">quoted</EVENT> by the state Antara news agency.
+
+The OPM has been <EVENT class="I_ACTION" eid="e13">seeking</EVENT> an independent state in Irian Jaya, which <EVENT class="OCCURRENCE" eid="e14">shares</EVENT> a border with Papua New Guinea, since <TIMEX3 type="DATE" value="196" tid="t3">the late 1960s</TIMEX3>.
+
+Kwalik's group in <TIMEX3 type="DATE" value="1996-01" tid="t4">January last year</TIMEX3> <EVENT class="OCCURRENCE" eid="e15">kidnapped</EVENT> 26 people, including seven European scientists, in the mountainous jungle area in central Irian Jaya.
+
+They gradually <EVENT class="OCCURRENCE" eid="e16">released</EVENT> most of the hostages until the remaining nine, including seven foreigners, were <EVENT class="OCCURRENCE" eid="e17">freed</EVENT> <TIMEX3 type="DURATION" value="P4M" tid="t5">four months</TIMEX3> later <EVENT class="OCCURRENCE" eid="e18">following</EVENT> a military <EVENT class="OCCURRENCE" eid="e19">operation</EVENT> in <TIMEX3 type="DATE" value="1997-05" tid="t6">May</TIMEX3>. Two Indonesian hostages were <EVENT class="OCCURRENCE" eid="e20">killed</EVENT> in the <EVENT class="OCCURRENCE" eid="e21">operation</EVENT>.
+
+Central Irian Jaya is mostly <EVENT class="OCCURRENCE" eid="e22">covered</EVENT> by mountainous jungles and <EVENT class="OCCURRENCE" eid="e23">experiences</EVENT> heavy rainfall and temperatures as low as ten degrees Celcius (minus 12 degrees Fahrenheit).
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei13" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei15" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="IAFTER" />
+<TLINK lid="l19" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei19" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l25" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

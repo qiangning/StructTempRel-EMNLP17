@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061112.0170</DOCID>
+
+<DCT>ROME, <TIMEX3 tid="t0" type="TIME" value="2006-11-12" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 12 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Italian first division league top scorers</TITLE>
+
+
+<TEXT>
+
+Following are the top scorers of the Italian first division league after the soccer <EVENT class="OCCURRENCE" eid="e2">matches</EVENT> <EVENT class="OCCURRENCE" eid="e3">played</EVENT> on <TIMEX3 type="DATE" value="2006-11-12" tid="t1">Sunday</TIMEX3>:
+
+8 Christian Rigano (Messina)
+
+6 Eugenio Corini (Palermo)
+
+Amauri (Palermo)
+
+Rolando Bianchi (Reggina)
+
+5 Mario Frick (Siena)
+
+Giorgio Corona (Catania)
+
+Adrian Mutu (Fiorentina)
+
+Cristiano Doni (Atalanta Bergamo)
+
+Igor Budan (Parma)
+
+Fabio Quagliarella (Sampdoria)
+
+Tommaso Rocchi (Lazio)
+
+David Di Michele (Palermo)
+
+Gionatha Spinesi (Catania)
+
+4 Nicola Ventola (Atalanta Bergamo)
+
+Francesco Totti (AS Roma)
+
+Hernan Crespo (Inter Milan)
+
+Dejan Stankovic (Inter Milan)
+
+Massimo Oddo (Lazio)
+
+Luca Toni (Fiorentina)
+
+Vincenzo Iaquinta (Udinese)
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l2" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="INCLUDES" />
+
+
+
+
+</TimeML>

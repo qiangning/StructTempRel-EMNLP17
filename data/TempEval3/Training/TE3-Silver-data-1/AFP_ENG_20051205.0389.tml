@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051205.0389</DOCID>
+
+<DCT>BAGHDAD, <TIMEX3 tid="t0" type="TIME" value="2005-12-05" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 5 , 2005</TIMEX3></DCT>
+
+<TITLE>URGENT Saddam trial adjourned until Wednesday</TITLE>
+
+
+<TEXT>
+
+The <EVENT class="OCCURRENCE" eid="e1">trial</EVENT> of ousted Iraqi dictator Saddam Hussein was <EVENT class="OCCURRENCE" eid="e2">adjourned</EVENT> <TIMEX3 type="DATE" value="2005-12-05" tid="t1">Monday</TIMEX3> until <TIMEX3 type="DATE" value="2005-11-30" tid="t2">Wednesday</TIMEX3>, an AFP correspondent <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1000002" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

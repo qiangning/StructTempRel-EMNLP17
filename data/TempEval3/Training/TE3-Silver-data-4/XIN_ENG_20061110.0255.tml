@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061110.0255</DOCID>
+
+<DCT>SHANGHAI, <TIMEX3 tid="t0" type="TIME" value="2006-11-11" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 11 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Shanghai posts big-margin growth in trade with Africa</TITLE>
+
+
+<TEXT>
+
+Shanghai <EVENT class="I_ACTION" eid="e1">recorded</EVENT> 7.48 billion U.S. dollars in trade with Africa in <TIMEX3 type="DURATION" value="P10M" tid="t1">the first 10 months</TIMEX3> of <TIMEX3 type="DATE" value="2006" tid="t2">this year</TIMEX3>, a <EVENT class="OCCURRENCE" eid="e2">growth</EVENT> of 35.1 percent from the same period <TIMEX3 type="DATE" value="2005" tid="t3">last year</TIMEX3>, local customs sources <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+The total included 1.33 billion U.S. dollars in exports, up 19.8 percent, and 6.15 billion U.S. dollars, up 38.9 percent.
+
+From <TIMEX3 type="DATE" value="2006-01" tid="t4">January</TIMEX3> to <TIMEX3 type="DATE" value="2006-10" tid="t5">October</TIMEX3>, Shanghai's external trade <EVENT class="OCCURRENCE" eid="e5">amounted</EVENT> to 350.27 billion U.S. dollars, up 22.4 percent over <TIMEX3 type="DURATION" value="P1Y" tid="t6">the same period of last year</TIMEX3>.
+
+Over <TIMEX3 type="DURATION" value="P10M" tid="t7">the 10 months</TIMEX3>, Shanghai's imports of primary products <EVENT class="OCCURRENCE" eid="e6">declined</EVENT> due largely to price <EVENT class="OCCURRENCE" eid="e7">hikes</EVENT> for raw materials on international markets.
+
+The city <EVENT class="OCCURRENCE" eid="e8">imported</EVENT> 2.94 million tons of plastic in primary form, down 2.3 percent from <TIMEX3 type="DATE" value="2006-11-11" tid="t8">a year earlier, 2.44</TIMEX3> million tons of rolled steel, down 22.3 percent, and 485,000 tons of unprocessed copper and copper products, down 43.6 percent.
+
+<EVENT class="REPORTING" eid="e9">According</EVENT> to the local customs sources, foreign-funded businesses <EVENT class="OCCURRENCE" eid="e10">made</EVENT> up 223.83 billion U.S. dollars, or 63.9 percent, of Shanghai's total foreign trade.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000005" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000002" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei5" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei1000005" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei1000002" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei1000002" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei5" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei1000005" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

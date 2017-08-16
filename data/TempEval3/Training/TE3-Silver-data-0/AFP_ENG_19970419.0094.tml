@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970419.0094</DOCID>
+
+<DCT>MECCA, Saudi Arabia, <TIMEX3 tid="t0" type="TIME" value="1997-04-19" temporalFunction="false" functionInDocument="CREATION_TIME">April 19 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Hajj draws to close, as relatives await news of fire victims</TITLE>
+
+
+<TEXT>
+
+The annual <EVENT class="OCCURRENCE" eid="e1">pilgrimage</EVENT> to Mecca <EVENT class="OCCURRENCE" eid="e2">drew</EVENT> to a close on Saturday as frantic relatives <EVENT class="OCCURRENCE" eid="e4">awaited</EVENT> news of the 343 pilgrims <EVENT class="OCCURRENCE" eid="e5">killed</EVENT> in a huge blaze <TIMEX3 type="DATE" value="1997-04-15" tid="t2">four days earlier</TIMEX3>.
+
+Some two million pilgrims who <EVENT class="OCCURRENCE" eid="e6">spent</EVENT> a <TIMEX3 type="DATE" value="1997-04-19" tid="t3">week</TIMEX3> <EVENT class="I_ACTION" eid="e7">praying</EVENT> at Islam's holiest sites <EVENT class="ASPECTUAL" eid="e8">began</EVENT> to <EVENT class="OCCURRENCE" eid="e9">leave</EVENT> Mecca, birthplace of the Prophet Mohammad, for the western city of Jeddah to <EVENT class="OCCURRENCE" eid="e10">catch</EVENT> planes, buses and boats home.
+
+They <EVENT class="OCCURRENCE" eid="e11">spent</EVENT> their <TIMEX3 type="DATE" value="1997-04-18" tid="t4">last day</TIMEX3> here walking round the Kaaba from dawn. The Kabaa is a square building <EVENT class="OCCURRENCE" eid="e12">constructed</EVENT> around a black stone, traditionally <EVENT class="OCCURRENCE" eid="e13">brought</EVENT> to earth from paradise by the Archangel Gabriel.
+
+Saudi officials <EVENT class="REPORTING" eid="e14">said</EVENT> 343 pilgrims were <EVENT class="OCCURRENCE" eid="e15">killed</EVENT> in an enormous <EVENT class="OCCURRENCE" eid="e16">fire</EVENT> <TIMEX3 type="DATE" value="1997-04-15" tid="t5">Tuesday</TIMEX3> which <EVENT class="OCCURRENCE" eid="e17">swept</EVENT> through their camp at Mina, just south of Mecca.
+
+Most were from India and other Asian countries, Indian officials <EVENT class="REPORTING" eid="e18">said</EVENT>.
+
+The Saudi authorities <EVENT class="REPORTING" eid="e19">announced</EVENT> <TIMEX3 type="DATE" value="1997-04-19" tid="t6">Saturday</TIMEX3> that another 1,537 pilgrims were <EVENT class="OCCURRENCE" eid="e20">injured</EVENT> in the inferno which <EVENT class="OCCURRENCE" eid="e21">incinerated</EVENT> 70,000 tents, with 25 of them still in hospital and some in a coma.
+
+However, they were yet to <EVENT class="OCCURRENCE" eid="e23">announce</EVENT> the identities of the victims.
+
+An advisor to the Saudi interior ministry, Saed al-Arabi al-Harshi, <EVENT class="REPORTING" eid="e24">said</EVENT> <TIMEX3 type="DATE" value="1997-04-19" tid="t7">Saturday</TIMEX3> that "the fire <EVENT class="OCCURRENCE" eid="e25">destroyed</EVENT> everything" in the pilgrims' camp.
+
+"Identification is difficult and will <EVENT class="OCCURRENCE" eid="e26">take</EVENT> time because some bodies are badly <EVENT class="OCCURRENCE" eid="e27">charred</EVENT>," he <EVENT class="REPORTING" eid="e28">said</EVENT>, <EVENT class="REPORTING" eid="e29">quoted</EVENT> by the official Qatari News Agency.
+
+The victims' plastic identity badges, which they are <EVENT class="OCCURRENCE" eid="e30">given</EVENT> in exchange for their passports during the week-long <EVENT class="OCCURRENCE" eid="e31">pilgrimage</EVENT> in Saudi Arabia, were <EVENT class="OCCURRENCE" eid="e32">destroyed</EVENT> in the inferno, the official <EVENT class="REPORTING" eid="e33">said</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei33" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei24" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei19" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei14" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei19" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l31" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei30" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei2" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei28" relatedToEventInstance="ei33" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei32" relatedToEventInstance="ei33" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l50" eventInstanceID="ei16" relatedToTime="t5" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

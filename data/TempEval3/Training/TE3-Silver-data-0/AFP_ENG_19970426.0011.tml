@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970426.0011</DOCID>
+
+<DCT>SINGAPORE, <TIMEX3 tid="t0" type="TIME" value="1997-04-26" temporalFunction="false" functionInDocument="CREATION_TIME">April 26 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Singapore fines man 6.6 million dollars for smuggling cigarettes</TITLE>
+
+
+<TEXT>
+
+A Singapore court <EVENT class="OCCURRENCE" eid="e1">imposed</EVENT> a record fine of 9.25 million Singapore dollars (6.6 million US) on a man who <EVENT class="I_ACTION" eid="e2">pleaded</EVENT> guilty to <EVENT class="OCCURRENCE" eid="e3">smuggling</EVENT> two tonnes of cigarettes from Indonesia, a report <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="1997-04-26" tid="t1">Saturday</TIMEX3>.
+
+Fong Weng Liong, 42, who was also <EVENT class="OCCURRENCE" eid="e5">jailed</EVENT> for <TIMEX3 type="DURATION" value="P2Y" tid="t2">two years</TIMEX3>, will have to <EVENT class="OCCURRENCE" eid="e6">serve</EVENT> an additional <TIMEX3 type="DURATION" value="P5Y" tid="t3">five years</TIMEX3> in jail if he cannot <EVENT class="OCCURRENCE" eid="e7">pay</EVENT> the fine, the Straits Times <EVENT class="REPORTING" eid="e8">reported</EVENT>.
+
+Fong, who is unemployed, <EVENT class="OCCURRENCE" eid="e9">smuggled</EVENT> eight consignments, <EVENT class="OCCURRENCE" eid="e10">totalling</EVENT> 10,100 cartons, this year before he was <EVENT class="OCCURRENCE" eid="e11">nabbed</EVENT> by undercover Customs officers, the court was <EVENT class="REPORTING" eid="e12">told</EVENT>.
+
+He had <EVENT class="OCCURRENCE" eid="e13">evaded</EVENT> <EVENT class="OCCURRENCE" eid="e14">paying</EVENT> duty and tax amounting to 245,329 dollars on the smuggled cigarettes worth 434,300 dollars.
+
+Four other men who <EVENT class="OCCURRENCE" eid="e15">assisted</EVENT> the 42-year-old Fong in the elaborate smuggling <EVENT class="OCCURRENCE" eid="e16">operation</EVENT> were <EVENT class="OCCURRENCE" eid="e17">fined</EVENT> between 3.74 million dollars and 4.9 million dollars each.
+
+Cigarettes are <EVENT class="OCCURRENCE" eid="e18">smuggled</EVENT> into Singapore largely because of the disparity in prices of cigarettes <EVENT class="OCCURRENCE" eid="e19">sold</EVENT> here and in neighbouring countries, where tobacco taxes are much lower.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei8" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei4" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei18" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l29" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+
+
+
+
+</TimeML>

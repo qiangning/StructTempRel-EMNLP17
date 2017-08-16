@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0103</DOCID>
+
+<DCT>CAIRO, <TIMEX3 tid="t0" type="TIME" value="2006-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Xinhua Middle East news advisory -- Nov. 3</TITLE>
+
+
+<TEXT>
+
+The following are some of major Mideast news stories due to be <EVENT class="OCCURRENCE" eid="e1">covered</EVENT> or <EVENT class="OCCURRENCE" eid="e2">pursued</EVENT> by Xinhua News Agency on <TIMEX3 type="DATE" value="2006-11-03" tid="t1">Friday</TIMEX3>.
+
+-- <EVENT class="OCCURRENCE" eid="e3">Monitoring</EVENT> the situation in the Palestinian territories as the Israeli army <EVENT class="OCCURRENCE" eid="e4">launched</EVENT> a large-scale <EVENT class="OCCURRENCE" eid="e5">operation</EVENT> in the Gaza Strip.
+
+-- <EVENT class="OCCURRENCE" eid="e6">Monitoring</EVENT> the security situation in Iraq amid <EVENT class="OCCURRENCE" eid="e7">mounting</EVENT> <EVENT class="OCCURRENCE" eid="e8">violence</EVENT> in the country.
+
+-- <EVENT class="OCCURRENCE" eid="e9">Monitoring</EVENT> the course of formation of a Palestinian national unity government.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

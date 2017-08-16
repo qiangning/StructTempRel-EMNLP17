@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051209.0133</DOCID>
+
+<DCT>MADRID, <TIMEX3 tid="t0" type="TIME" value="2005-12-10" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 10 , 2005</TIMEX3></DCT>
+
+<TITLE>Put faith in me or we could sink, says new Real coach</TITLE>
+
+
+<TEXT>
+
+New Real Madrid coach Juan Ramon Lopez Caro <EVENT class="REPORTING" eid="e1">told</EVENT> his star-studded squad <TIMEX3 type="DATE" value="2005-12-09" tid="t1">Friday</TIMEX3> they must <EVENT class="OCCURRENCE" eid="e2">put</EVENT> their trust in him as he <EVENT class="OCCURRENCE" eid="e3">takes</EVENT> the helm for the first time in La Liga since succeeding <EVENT class="OCCURRENCE" eid="e5">sacked</EVENT> Wanderley Lucemburgo in Malaga on <TIMEX3 type="DATE" value="2005-12-04" tid="t2">Sunday</TIMEX3>.
+
+"If the players do not have confidence in me the ship could <EVENT class="OCCURRENCE" eid="e6">sink</EVENT>," <EVENT class="REPORTING" eid="e7">said</EVENT> Caro as he <EVENT class="OCCURRENCE" eid="e8">looked</EVENT> forward to his first test since <EVENT class="OCCURRENCE" eid="e9">taking</EVENT> the reins as Real's fifth coach in the last two and a half years.
+
+The Champions League <EVENT class="OCCURRENCE" eid="e10">loss</EVENT> to Olympiakos in midweek was academic for his first match of any description in charge with qualification for the last 16 assured but Caro <EVENT class="REPORTING" eid="e13">said</EVENT> that with six points to <EVENT class="OCCURRENCE" eid="e14">make</EVENT> up on leaders Barcelona everyone has to <EVENT class="OCCURRENCE" eid="e15">pull</EVENT> hard in the same direction.
+
+"I am <EVENT class="OCCURRENCE" eid="e16">surprised</EVENT>, happy and proud as the players are <EVENT class="OCCURRENCE" eid="e17">working</EVENT> exceptionally well," Caro <EVENT class="REPORTING" eid="e18">said</EVENT> of his players, <EVENT class="OCCURRENCE" eid="e19">adding</EVENT> that "hard <EVENT class="OCCURRENCE" eid="e20">work</EVENT> on a <TIMEX3 type="SET" value="P1D" tid="t5">daily</TIMEX3> basis is the recipe for success.
+
+"I have <EVENT class="REPORTING" eid="e21">told</EVENT> them there is no doubt they are the best team in the world and that, given time, work and unity we will be a great team."
+
+Caro had <TIMEX3 type="DATE" value="2005-12-08" tid="t6">Thursday</TIMEX3> <EVENT class="I_ACTION" eid="e22">called</EVENT> on Real's fans to <EVENT class="OCCURRENCE" eid="e23">get</EVENT> behind the team is they <EVENT class="I_ACTION" eid="e24">seek</EVENT> to <EVENT class="OCCURRENCE" eid="e25">shrug</EVENT> off the mediocre form which <EVENT class="PERCEPTION" eid="e26">saw</EVENT> Luxemburgo <EVENT class="REPORTING" eid="e27">shown</EVENT> the door after <TIMEX3 type="DURATION" value="P12M" tid="t7">less than 12 months</TIMEX3> in one of the hottest seats in the <EVENT class="OCCURRENCE" eid="e28">game</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei5" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei22" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei27" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei7" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l32" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei22" relatedToEventInstance="ei28" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

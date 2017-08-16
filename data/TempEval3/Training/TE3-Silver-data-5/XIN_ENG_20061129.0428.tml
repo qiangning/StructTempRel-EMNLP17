@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061129.0428</DOCID>
+
+<DCT>NEW YORK, <TIMEX3 tid="t0" type="TIME" value="2006-11-29" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 29 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>U.S. stocks rise as economy grows faster than expected</TITLE>
+
+
+<TEXT>
+
+U.S. stocks <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> <TIMEX3 type="DATE" value="2006-11-29" tid="t1">Wednesday</TIMEX3> as the economy <EVENT class="OCCURRENCE" eid="e2">grew</EVENT> by 2.2 percent in <TIMEX3 type="DATE" value="2006-Q3" tid="t2">third quarter</TIMEX3>, a better performance than <EVENT class="I_STATE" eid="e3">expected</EVENT>.
+
+In midday <EVENT class="OCCURRENCE" eid="e4">trading</EVENT>, Dow Jones Industrial Average <EVENT class="OCCURRENCE" eid="e5">went</EVENT> up 84.12, to 12,220.57. The Standard and Poor's 500 index <EVENT class="OCCURRENCE" eid="e6">gained</EVENT> 11.22 to 1, 397.94, and the Nasdaq composite index <EVENT class="OCCURRENCE" eid="e7">increased</EVENT> 19.56 to 2,432.17.
+
+The U.S. economy <EVENT class="OCCURRENCE" eid="e8">grew</EVENT> 2.2 percent in <TIMEX3 type="DATE" value="2006-11-29" tid="t3">the July-September period</TIMEX3>, a better performance than the estimated 1.6 percent rate, the Commerce Department <EVENT class="REPORTING" eid="e10">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-29" tid="t4">Wednesday</TIMEX3>.
+
+The growth rate in Gross Domestic Product (GDP) was considerably stronger than the 1.8 percent rate that economists had <EVENT class="OCCURRENCE" eid="e13">forecast</EVENT>, and less than half the blistering 5.6 percent rate <EVENT class="I_ACTION" eid="e15">recorded</EVENT> in <TIMEX3 type="DATE" value="P1Q" tid="t5">the first quarter</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei8" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei15" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

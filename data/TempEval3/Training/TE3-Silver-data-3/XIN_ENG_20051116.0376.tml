@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0376</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>World Cup lineup complete</TITLE>
+
+
+<TEXT>
+
+All the 32 teams for <TIMEX3 type="DATE" value="2006" tid="t1">next year</TIMEX3>'s World Cup finals in Germany have been <EVENT class="STATE" eid="e1">known</EVENT> after the qualifying campaign finally <EVENT class="OCCURRENCE" eid="e2">came</EVENT> to the end on <TIMEX3 type="DATE" value="2005-11-16" tid="t2">Wednesday</TIMEX3>.
+
+Australia, Spain, Trinidad &amp; Tobago, Switzerland, and the Czech Republic <EVENT class="ASPECTUAL" eid="e3">completed</EVENT> the 32-team lineup for the World Cup finals.
+
+Australia <EVENT class="OCCURRENCE" eid="e5">reached</EVENT> the World Cup for the first time in <TIMEX3 type="DURATION" value="P32Y" tid="t3">32 years</TIMEX3> by <EVENT class="OCCURRENCE" eid="e6">beating</EVENT> Uruguay 4-2 from the spot after a 1-0 extra time win <EVENT class="PERCEPTION" eid="e8">saw</EVENT> the playoff end 1-1 on aggregate.
+
+It was also a historic day for the Czechs, who <EVENT class="I_ACTION" eid="e9">beat</EVENT> Norway 1-0 in Prague for a 2-0 aggregate to <EVENT class="I_STATE" eid="e10">qualify</EVENT> for their first ever World Cup finals.
+
+Trinidad &amp; Tobago will also <EVENT class="OCCURRENCE" eid="e11">make</EVENT> their debut in the premier soccer tournament after <EVENT class="OCCURRENCE" eid="e12">pulling</EVENT> off a spectacular <EVENT class="OCCURRENCE" eid="e13">comeback</EVENT> in the qualifying campaign with a 1-0 <EVENT class="OCCURRENCE" eid="e14">win</EVENT> over Bahrain in Manama for a 2-1 aggregate <EVENT class="OCCURRENCE" eid="e15">victory</EVENT>.
+
+Switzerland, who had <EVENT class="OCCURRENCE" eid="e16">won</EVENT> 2-0 in the first leg in Bern, <EVENT class="OCCURRENCE" eid="e17">lost</EVENT> 4-2 in Istanbul to Turkey to level the tie at 4-all on aggregate, but still <EVENT class="I_STATE" eid="e19">qualified</EVENT> for the World Cup on away goals, <EVENT class="ASPECTUAL" eid="e20">ending</EVENT> a 12-year absence from the <EVENT class="OCCURRENCE" eid="e22">finals</EVENT>.
+
+Spain <EVENT class="OCCURRENCE" eid="e23">reached</EVENT> their eighth successive World Cup since <TIMEX3 type="DATE" value="1978" tid="t5">1978</TIMEX3> with a 1-1 <EVENT class="OCCURRENCE" eid="e24">draw</EVENT> in Slovakia for a 6-2 aggregate win.
+
+The 2006 World Cup will <EVENT class="OCCURRENCE" eid="e26">kick</EVENT> off on <TIMEX3 type="DATE" value="2006-06-09" tid="t7">June 9</TIMEX3> in Munich and <EVENT class="ASPECTUAL" eid="e27">ends</EVENT> on <TIMEX3 type="DATE" value="2005-07-09" tid="t8">July 9</TIMEX3> in Berlin. The draw <EVENT class="OCCURRENCE" eid="e29">takes</EVENT> place in Leipzig on <TIMEX3 type="DATE" value="2005-12-09" tid="t9">December 9</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei23" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei11" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei2" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei26" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei27" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei23" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei29" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei26" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei17" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei17" relatedToEventInstance="ei22" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+
+
+
+
+</TimeML>

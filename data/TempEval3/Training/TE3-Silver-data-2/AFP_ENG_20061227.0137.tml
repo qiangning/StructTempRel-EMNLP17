@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20061227.0137</DOCID>
+
+<DCT>TOKYO, <TIMEX3 tid="t0" type="TIME" value="2006-12-27" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 27 , 2006</TIMEX3>, 2006</DCT>
+
+<TITLE>Japanese share prices extend gains</TITLE>
+
+
+<TEXT>
+
+Japanese share prices <EVENT class="OCCURRENCE" eid="e1">closed</EVENT> up 0.31 percent <TIMEX3 type="DATE" value="2006-12-27" tid="t1">Wednesday</TIMEX3>, <EVENT class="OCCURRENCE" eid="e2">extending</EVENT> gains after Wall Street's overnight post-Christmas rebound, dealers <EVENT class="REPORTING" eid="e4">said</EVENT>.
+
+They <EVENT class="REPORTING" eid="e5">said</EVENT> share prices <EVENT class="ASPECTUAL" eid="e6">continued</EVENT> to be <EVENT class="OCCURRENCE" eid="e7">supported</EVENT> by the strong dollar, which <EVENT class="OCCURRENCE" eid="e8">boosts</EVENT> Japanese exporters, and by <EVENT class="OCCURRENCE" eid="e9">growing</EVENT> expectations that the central bank will not <EVENT class="OCCURRENCE" eid="e10">hike</EVENT> interest rates soon.
+
+The Tokyo Stock Exchange's benchmark Nikkei-225 <EVENT class="OCCURRENCE" eid="e11">gained</EVENT> 53.96 points at 17,223.15. The broader TOPIX index of all first-section companies <EVENT class="OCCURRENCE" eid="e12">rose</EVENT> 4.50 points or 0.27 percent to 1,676.95.
+
+Gaining shares <EVENT class="OCCURRENCE" eid="e13">beat</EVENT> decliners 983 to 598, with 130 stocks flat.
+
+Volume <EVENT class="OCCURRENCE" eid="e14">rose</EVENT> to 1.66 billion shares from 1.72 billion shares <TIMEX3 type="DATE" value="2006-12-26" tid="t3">Tuesday</TIMEX3>.
+
+US stocks <EVENT class="OCCURRENCE" eid="e15">rebounded</EVENT> overnight on a sharp <EVENT class="OCCURRENCE" eid="e16">drop</EVENT> in oil prices, <EVENT class="OCCURRENCE" eid="e17">bringing</EVENT> more holiday cheer to the Tokyo market.
+
+Hideyuki Suzuki, strategist at SBI Securities, <EVENT class="REPORTING" eid="e18">said</EVENT> that the market tone <EVENT class="STATE" eid="e19">remained</EVENT> bullish despite the thin <EVENT class="OCCURRENCE" eid="e20">trade</EVENT> at the end of the year with many foreign investors absent.
+
+"<EVENT class="OCCURRENCE" eid="e21">Looking</EVENT> at the details, shares which have <EVENT class="OCCURRENCE" eid="e22">increased</EVENT> too rapidly were <EVENT class="STATE" eid="e23">weighed</EVENT> down as investors <EVENT class="OCCURRENCE" eid="e24">locked</EVENT> in profits," Suzuki <EVENT class="REPORTING" eid="e25">said</EVENT>. "But the blue-chip shares were <EVENT class="STATE" eid="e26">bullish</EVENT>, <EVENT class="OCCURRENCE" eid="e27">leading</EVENT> overall share prices higher."
+
+Hiroaki Hiwada, a strategist at Toyo Securities, <EVENT class="REPORTING" eid="e28">said</EVENT> the <EVENT class="OCCURRENCE" eid="e29">weakening</EVENT> of the yen against the dollar had <EVENT class="OCCURRENCE" eid="e30">supported</EVENT> market expectations about the earnings of exporters.
+
+He <EVENT class="REPORTING" eid="e31">said</EVENT> automakers <EVENT class="I_ACTION" eid="e32">helped</EVENT> <EVENT class="OCCURRENCE" eid="e33">drive</EVENT> the market, while steelmakers, a key factor in gains <TIMEX3 type="DATE" value="2006-12-26" tid="t5">Tuesday</TIMEX3>, were <EVENT class="OCCURRENCE" eid="e34">hit</EVENT> by profit-taking.
+
+Toyota Motor was up 150 yen or 1.9 percent at <TIMEX3 type="DATE" value="2006-12-27" tid="t6">7,920</TIMEX3> after it <EVENT class="REPORTING" eid="e36">confirmed</EVENT> its chief had <EVENT class="OCCURRENCE" eid="e37">held</EVENT> <EVENT class="OCCURRENCE" eid="e38">talks</EVENT> with <EVENT class="OCCURRENCE" eid="e39">struggling</EVENT> US giant Ford amid speculation of a tie-up.
+
+Other auto shares were also higher. Isuzu <EVENT class="OCCURRENCE" eid="e42">rose</EVENT> 23 yen or 4.3 percent to 557, Mazda <EVENT class="OCCURRENCE" eid="e43">climbed</EVENT> 21 yen or 2.6 percent to 818, Honda Motor <EVENT class="OCCURRENCE" eid="e44">advanced</EVENT> 50 yen or 1.1 percent to 4,630 and Yamaha Motor was up 50 yen or 1.4 percent at <TIMEX3 type="DATE" value="2006-12-27" tid="t7">3,720</TIMEX3>.
+
+Steel makers <EVENT class="OCCURRENCE" eid="e45">shed</EVENT> on profit-taking. JFE Holdings <EVENT class="OCCURRENCE" eid="e47">lost</EVENT> 140 yen or 2.3 percent at 6,090, Sumitomo Metal Industries <EVENT class="OCCURRENCE" eid="e48">fell</EVENT> 13 yen or 2.5 percent to 510 and Kobe Steel <EVENT class="OCCURRENCE" eid="e49">shed</EVENT> 11 yen or 2.7 percent to 399.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="NOUN" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="ADJECTIVE" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei49" eventID="e49" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei48" eventID="e48" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei47" eventID="e47" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei14" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei47" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei34" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei36" relatedToEventInstance="ei42" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei36" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei31" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei36" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei36" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei31" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei31" relatedToEventInstance="ei34" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei31" relatedToEventInstance="ei33" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei28" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l33" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l34" eventInstanceID="ei14" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l35" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei5" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l38" eventInstanceID="ei42" relatedToEventInstance="ei45" relType="SIMULTANEOUS" />
+<TLINK lid="l39" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l40" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei21" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei45" relatedToEventInstance="ei47" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei47" relatedToEventInstance="ei49" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei42" relatedToEventInstance="ei44" relType="SIMULTANEOUS" />
+<TLINK lid="l45" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l46" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="AFTER" />
+<TLINK lid="l47" eventInstanceID="ei18" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei24" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei26" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l53" eventInstanceID="ei5" relatedToEventInstance="ei8" relType="AFTER" />
+<TLINK lid="l54" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l55" eventInstanceID="ei5" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l57" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei47" relatedToEventInstance="ei48" relType="SIMULTANEOUS" />
+<TLINK lid="l59" eventInstanceID="ei44" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l60" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

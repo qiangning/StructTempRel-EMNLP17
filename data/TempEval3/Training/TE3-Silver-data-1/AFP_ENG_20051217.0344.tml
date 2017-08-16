@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051217.0344</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2005-12-17" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 17 , 2005</TIMEX3></DCT>
+
+<TITLE>Vaccine for uterine cancer more active in pre-teens: study</TITLE>
+
+
+<TEXT>
+
+An experimental vaccine <EVENT class="OCCURRENCE" eid="e1">developed</EVENT> by GlaxoSmithKline that <EVENT class="OCCURRENCE" eid="e2">targets</EVENT> two viruses responsible for 70 percent of uterine cancer cases <EVENT class="ASPECTUAL" eid="e3">triggers</EVENT> twice the immune response in girls aged 10 to 14 than in those aged 15 to 24, the British pharmaceutical firm <EVENT class="REPORTING" eid="e5">said</EVENT> <TIMEX3 type="DATE" value="2005-12-17" tid="t1">Saturday</TIMEX3>.
+
+The results of phase 3 clinical <EVENT class="OCCURRENCE" eid="e6">trials</EVENT> were <EVENT class="OCCURRENCE" eid="e7">presented</EVENT> at an annual <EVENT class="OCCURRENCE" eid="e8">conference</EVENT> on infectious diseases under way <TIMEX3 type="DATE" value="2005-W49-WE" tid="t2">this weekend</TIMEX3> in Washington.
+
+They <EVENT class="I_ACTION" eid="e9">indicate</EVENT> that the vaccine Cervarix could <EVENT class="OCCURRENCE" eid="e10">offer</EVENT> more durable and efficient protection, if it is <EVENT class="OCCURRENCE" eid="e11">given</EVENT> to the young, well ahead of their <EVENT class="OCCURRENCE" eid="e12">becoming</EVENT> sexually active.
+
+"Vaccination of pre-teen/adolescent girls against cancer-causing HPV (Human Papillomavirus) before onset of sexual activity will be an important part of the overall strategy for cervical cancer prevention," <EVENT class="REPORTING" eid="e13">said</EVENT> Anna-Barbara Moscicki, a pediatrics professor from the University of California.
+
+The two viruses are <EVENT class="STATE" eid="e14">responsible</EVENT> for 70 percent of cases of uterine cancer. More than 500,000 cases of this disease are <EVENT class="OCCURRENCE" eid="e16">diagnosed</EVENT> in the world <TIMEX3 type="SET" value="P1Y" tid="t3">each year</TIMEX3>.
+
+The clinical trials conducted by Glaxo in Europe and Russia <EVENT class="OCCURRENCE" eid="e18">involved</EVENT> 158 girls <EVENT class="OCCURRENCE" eid="e19">aged</EVENT> between <TIMEX3 type="TIME" value="2005-12-17" tid="t4">10</TIMEX3> and <TIMEX3 type="DATE" value="1914" tid="t5">14</TIMEX3> and 458 women aged between <TIMEX3 type="DATE" value="1915" tid="t6">15</TIMEX3> and <TIMEX3 type="DATE" value="2005-12-17" tid="t7">25</TIMEX3>. Each of them <EVENT class="OCCURRENCE" eid="e21">received</EVENT> three doses of the vaccine over <TIMEX3 type="DURATION" value="P6M" tid="t8">a period of six months</TIMEX3>.
+
+Cervarix, which has not been <EVENT class="OCCURRENCE" eid="e22">introduced</EVENT> to the market yet, is one of the company's most important new drugs.
+
+GlaxoSmithKline's American competitor Merck is <EVENT class="OCCURRENCE" eid="e23">waiting</EVENT> for the green light to <EVENT class="ASPECTUAL" eid="e24">start</EVENT> <EVENT class="OCCURRENCE" eid="e25">marketing</EVENT> its own vaccine called Gardasil.
+
+The <EVENT class="OCCURRENCE" eid="e27">conference</EVENT> <EVENT class="OCCURRENCE" eid="e28">organized</EVENT> by American Society for Microbiology has <EVENT class="OCCURRENCE" eid="e29">brought</EVENT> together some 9,000 researchers from about 80 countries of the world.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei1000019" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000021" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei23" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l2" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei14" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l5" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei9" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="INCLUDES" />
+<TLINK lid="l17" eventInstanceID="ei23" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l18" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l21" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l22" eventInstanceID="ei1000019" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei1" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei23" relatedToEventInstance="ei25" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei18" relatedToEventInstance="ei1000021" relType="AFTER" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei18" relatedToEventInstance="ei1000019" relType="AFTER" />
+<TLINK lid="l33" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l35" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="INCLUDES" />
+<TLINK lid="l36" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="IS_INCLUDED" />
+<TLINK lid="l37" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei2" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei8" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei1000021" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+
+
+
+
+</TimeML>

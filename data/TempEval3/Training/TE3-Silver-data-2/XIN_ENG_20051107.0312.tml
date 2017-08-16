@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051107.0312</DOCID>
+
+<DCT>CANBERRA, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Australian police arrest 17 terror suspects</TITLE>
+
+
+<TEXT>
+
+Seventeen people have been <EVENT class="OCCURRENCE" eid="e1">arrested</EVENT> in Sydney and Melbourne, Australia's largest and second largest cities, as a result of a counter-terrorism operation.
+
+The joint operation <EVENT class="OCCURRENCE" eid="e3">involved</EVENT> the Australian Federal Police (AFP) ,Australian Security Intelligence Organization and police from the states of New South Wales (NSW) and Victoria, and the NSW Crime Commission.
+
+"The men have been <EVENT class="OCCURRENCE" eid="e4">charged</EVENT> with a range of offenses including sections of Commonwealth legislation that have not been previously <EVENT class="OCCURRENCE" eid="e5">used</EVENT>, <EVENT class="STATE" eid="e6">relating</EVENT> to being a member of a terrorist group, <EVENT class="OCCURRENCE" eid="e7">conspiring</EVENT> to <EVENT class="OCCURRENCE" eid="e8">commit</EVENT> a terrorist act and <EVENT class="OCCURRENCE" eid="e9">directing</EVENT> a terrorist organization," <EVENT class="REPORTING" eid="e10">said</EVENT> the AFP in a statement <TIMEX3 type="DATE" value="2005-11-08" tid="t1">Tuesday</TIMEX3>.
+
+While <EVENT class="OCCURRENCE" eid="e11">executing</EVENT> 22 search warrants across Sydney and Melbourne <TIMEX3 type="DATE" value="2005-11-15TMO" tid="t3">Tuesday morning</TIMEX3>, police officers also <EVENT class="OCCURRENCE" eid="e13">seized</EVENT> a range of material including unidentified substances, firearms, travel documents, computers and backpacks.
+
+"By <EVENT class="OCCURRENCE" eid="e14">working</EVENT> collaboratively Australia's law enforcement and intelligence agencies have <EVENT class="OCCURRENCE" eid="e15">managed</EVENT> to <EVENT class="OCCURRENCE" eid="e16">disrupt</EVENT> the alleged activities of this group and therefore <EVENT class="OCCURRENCE" eid="e17">protect</EVENT> the Australian community from a potential terrorist threat," AFP Deputy Commissioner John <EVENT class="OCCURRENCE" eid="e18">Lawler</EVENT> <EVENT class="REPORTING" eid="e19">said</EVENT>.
+
+All have been <EVENT class="OCCURRENCE" eid="e20">charged</EVENT> under the Criminal Code <TIMEX3 type="DATE" value="1995" tid="t4">Act 1995</TIMEX3>. The charges include Acts in Preparation of a Terrorist Act, being a member of a Terrorist Group, Conspiracy to <EVENT class="OCCURRENCE" eid="e21">Commit</EVENT> a Terrorist Act and one man has been <EVENT class="STATE" eid="e22">charged</EVENT> with <EVENT class="I_ACTION" eid="e23">Directing</EVENT> a Terrorist Organization.
+
+"Today's <EVENT class="OCCURRENCE" eid="e24">arrests</EVENT> <EVENT class="OCCURRENCE" eid="e25">follow</EVENT> a lengthy <EVENT class="OCCURRENCE" eid="e26">operation</EVENT> where law enforcement and intelligence agencies have been <EVENT class="OCCURRENCE" eid="e27">monitoring</EVENT> and <EVENT class="I_ACTION" eid="e28">investigating</EVENT> the activities of a group allegedly intent on <EVENT class="OCCURRENCE" eid="e29">carrying</EVENT> out what we <EVENT class="OCCURRENCE" eid="e30">assess</EVENT> as some sort of terrorist act in Australia," <EVENT class="REPORTING" eid="e31">said</EVENT> NSW Police Commissioner Ken Moroney.
+
+"It will be <EVENT class="I_ACTION" eid="e32">alleged</EVENT> in court that following months of discussion individuals had <EVENT class="OCCURRENCE" eid="e33">moved</EVENT> to the point of planning some sort of activity including the <EVENT class="OCCURRENCE" eid="e35">purchase</EVENT> of potentially dangerous materials," he <EVENT class="REPORTING" eid="e36">said</EVENT>.
+
+Those <EVENT class="OCCURRENCE" eid="e37">charged</EVENT> are <EVENT class="I_STATE" eid="e38">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e39">appear</EVENT> in Sydney and Melbourne courts later on <TIMEX3 type="DATE" value="2005-11-08" tid="t5">Tuesday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei31" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei13" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei4" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei39" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei32" relatedToEventInstance="ei36" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei32" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei28" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei26" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei27" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei31" relatedToEventInstance="ei36" relType="SIMULTANEOUS" />
+<TLINK lid="l23" eventInstanceID="ei22" relatedToEventInstance="ei31" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei25" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei35" relatedToEventInstance="ei36" relType="INCLUDES" />
+<TLINK lid="l28" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei33" relatedToEventInstance="ei36" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei37" relatedToEventInstance="ei39" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei18" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei20" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l40" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+<TLINK lid="l41" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l42" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei6" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei3" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei7" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+
+
+
+
+</TimeML>

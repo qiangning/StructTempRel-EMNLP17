@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061109.0227</DOCID>
+
+<DCT>LONDON, <TIMEX3 tid="t0" type="TIME" value="2006-11-09" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 9 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>British troops to continue to stay in Iraq: FM</TITLE>
+
+
+<TEXT>
+
+British Foreign Secretary Margaret Beckett <EVENT class="REPORTING" eid="e1">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-09" tid="t1">Thursday</TIMEX3> that British troops would <EVENT class="ASPECTUAL" eid="e2">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e3">stay</EVENT> in Iraq as long as they are <EVENT class="OCCURRENCE" eid="e4">required</EVENT>.
+
+<EVENT class="OCCURRENCE" eid="e5">Speaking</EVENT> at the Royal United Services Institute, a defense think tank in London, Beckett <EVENT class="REPORTING" eid="e7">said</EVENT> "the situation in Iraq is one which is dangerous and volatile."
+
+"We are at a critical <EVENT class="OCCURRENCE" eid="e8">juncture</EVENT> which the fate of that country <EVENT class="OCCURRENCE" eid="e9">hangs</EVENT> in the balance. There is the very real risk of even greater instability and <EVENT class="OCCURRENCE" eid="e10">bloodshed</EVENT> than we have already <EVENT class="PERCEPTION" eid="e11">seen</EVENT>," she <EVENT class="REPORTING" eid="e12">said</EVENT>.
+
+British troops would "<EVENT class="OCCURRENCE" eid="e13">stay</EVENT> as long as that government <EVENT class="OCCURRENCE" eid="e14">asks</EVENT> us to <EVENT class="OCCURRENCE" eid="e15">do</EVENT> so." she <EVENT class="REPORTING" eid="e16">said</EVENT>, <EVENT class="OCCURRENCE" eid="e17">adding</EVENT> that "we will <EVENT class="OCCURRENCE" eid="e18">leave</EVENT> when they are <EVENT class="I_STATE" eid="e19">confident</EVENT> that they can <EVENT class="OCCURRENCE" eid="e20">take</EVENT> the role of security in the country on their own shoulders."
+
+Beckett <EVENT class="I_ACTION" eid="e21">warned</EVENT> against any "precipitate" <EVENT class="OCCURRENCE" eid="e22">moves</EVENT> to <EVENT class="OCCURRENCE" eid="e23">withdraw</EVENT> British troops from Iraq.
+
+"I <EVENT class="OCCURRENCE" eid="e24">ask</EVENT> those who are <EVENT class="OCCURRENCE" eid="e25">calling</EVENT> for more precipitate action to <EVENT class="I_STATE" eid="e27">consider</EVENT> the consequences of such action," she <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+"We would be <EVENT class="OCCURRENCE" eid="e30">leaving</EVENT> the Iraqi government without the means to <EVENT class="I_ACTION" eid="e31">prevent</EVENT> a further <EVENT class="OCCURRENCE" eid="e32">escalation</EVENT> in the <EVENT class="OCCURRENCE" eid="e33">violence</EVENT>, without the tools to <EVENT class="OCCURRENCE" eid="e34">enforce</EVENT> the rule of law and without the authority to <EVENT class="I_ACTION" eid="e35">prevent</EVENT> their country from <EVENT class="OCCURRENCE" eid="e36">turning</EVENT> into a base for terrorism," she <EVENT class="REPORTING" eid="e37">said</EVENT>. "We must not <EVENT class="I_ACTION" eid="e38">let</EVENT> that <EVENT class="OCCURRENCE" eid="e39">happen</EVENT>."
+
+Currently, Britain has some 7,200 troops <EVENT class="OCCURRENCE" eid="e40">deployed</EVENT> in southern Iraq, most in the southern Basra area and about 800 in Maysan province. Since <TIMEX3 type="DATE" value="2003" tid="t2">2003</TIMEX3>, the number of British troops <EVENT class="OCCURRENCE" eid="e41">killed</EVENT> in Iraq has <EVENT class="OCCURRENCE" eid="e42">increased</EVENT> to 121.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="FUTURE" aspect="PROGRESSIVE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="ADJECTIVE" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei37" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei40" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei41" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l10" eventInstanceID="ei16" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei16" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei16" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei16" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei16" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei30" relatedToEventInstance="ei37" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei41" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei38" relatedToEventInstance="ei40" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei37" relatedToEventInstance="ei38" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei38" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l29" eventInstanceID="ei41" relatedToEventInstance="ei42" relType="SIMULTANEOUS" />
+<TLINK lid="l30" eventInstanceID="ei9" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l31" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l32" eventInstanceID="ei35" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei29" relatedToEventInstance="ei37" relType="SIMULTANEOUS" />
+<TLINK lid="l34" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei32" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l36" eventInstanceID="ei33" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei31" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l38" eventInstanceID="ei34" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l39" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l40" eventInstanceID="ei27" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei21" relatedToEventInstance="ei29" relType="SIMULTANEOUS" />
+<TLINK lid="l42" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l44" eventInstanceID="ei13" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="SIMULTANEOUS" />
+<TLINK lid="l46" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l47" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l49" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l50" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei38" relatedToEventInstance="ei39" relType="AFTER" />
+
+
+
+
+</TimeML>

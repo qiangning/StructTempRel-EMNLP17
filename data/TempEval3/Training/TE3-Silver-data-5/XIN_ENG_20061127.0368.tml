@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061127.0368</DOCID>
+
+<DCT>ABUJA, <TIMEX3 tid="t0" type="TIME" value="2006-11-27" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 27 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Abuja carnival ends with colorful parade</TITLE>
+
+
+<TEXT>
+
+The four-day Abuja <EVENT class="OCCURRENCE" eid="e1">carnival</EVENT> has <EVENT class="ASPECTUAL" eid="e2">ended</EVENT> in pomp and <EVENT class="OCCURRENCE" eid="e3">ceremony</EVENT> with colorful parade, fireworks and musical display, News Agency of Nigeria <EVENT class="REPORTING" eid="e4">reported</EVENT> on <TIMEX3 type="DATE" value="2006-11-27" tid="t2">Monday</TIMEX3>.
+
+On behalf of Nigerian President Olusegun Obasanjo, the Federal Capital Territory (FCT) Minister Malam Nasiru el-Rufai <EVENT class="REPORTING" eid="e5">declared</EVENT> the <EVENT class="OCCURRENCE" eid="e6">closing</EVENT> of the <EVENT class="OCCURRENCE" eid="e7">carnival</EVENT> at <TIMEX3 type="DATE" value="2006-W47-WE" tid="t3">the weekend</TIMEX3> in Abuja.
+
+Describing the <EVENT class="OCCURRENCE" eid="e8">carnival</EVENT> as a huge success, the chairman of the organizing committee Olusegun Runsewe <EVENT class="I_STATE" eid="e10">hoped</EVENT> that next year's carnival would be bigger and would <EVENT class="OCCURRENCE" eid="e11">afford</EVENT> Nigeria another opportunity to <EVENT class="OCCURRENCE" eid="e12">present</EVENT> its culture and tradition to the world.
+
+Awards were <EVENT class="OCCURRENCE" eid="e13">given</EVENT> to all states that <EVENT class="OCCURRENCE" eid="e14">participated</EVENT> at the <EVENT class="OCCURRENCE" eid="e15">carnival</EVENT> while Kaduna State with the largest contingent of 500 <EVENT class="OCCURRENCE" eid="e16">got</EVENT> a special award as well as the best durbar <EVENT class="OCCURRENCE" eid="e17">award</EVENT>.
+
+Some of the participants <EVENT class="OCCURRENCE" eid="e18">called</EVENT> on the government to <EVENT class="OCCURRENCE" eid="e19">work</EVENT> in collaboration with the private sector for a better carnival <TIMEX3 type="DATE" value="2007" tid="t5">next year</TIMEX3>.
+
+<TIMEX3 type="DATE" value="2006" tid="t6">This year</TIMEX3>'s carnival, <EVENT class="ASPECTUAL" eid="e20">started</EVENT> from <TIMEX3 type="DURATION" value="2006-11-27" tid="t7">Nov. 23-26</TIMEX3>, was <EVENT class="I_STATE" eid="e21">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e22">repositioning</EVENT> the country in the world tourism map.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei19" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei10" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei18" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei20" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l20" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei20" relatedToEventInstance="ei21" relType="BEFORE" />
+<TLINK lid="l28" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei13" relatedToEventInstance="ei17" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="INCLUDES" />
+
+
+
+
+</TimeML>

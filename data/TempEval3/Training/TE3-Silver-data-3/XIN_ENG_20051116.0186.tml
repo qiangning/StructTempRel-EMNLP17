@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051116.0186</DOCID>
+
+<DCT>HONG KONG, <TIMEX3 tid="t0" type="TIME" value="2005-11-16" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 16 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Gold price higher in Hong Kong -- Nov. 16</TITLE>
+
+
+<TEXT>
+
+The gold price in Hong Kong <EVENT class="OCCURRENCE" eid="e1">rose</EVENT> 35 HK dollars at 4,351 HK dollars a tael <TIMEX3 type="DATE" value="2005-11-16" tid="t1">Wednesday</TIMEX3>, <EVENT class="REPORTING" eid="e2">according</EVENT> to the Bank of China (Hong Kong).
+
+The gold price is equivalent to 471.33 US dollars a troy ounce, up 3.79 US dollars at <TIMEX3 type="DATE" value="2005-11-23" tid="t2">Wednesday</TIMEX3>'s exchange rate of one US dollar against 7.7490 HK dollars.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="SIMULTANEOUS" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

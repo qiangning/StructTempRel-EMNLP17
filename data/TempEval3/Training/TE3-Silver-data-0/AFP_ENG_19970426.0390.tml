@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970426.0390</DOCID>
+
+<DCT>SEOUL, <TIMEX3 tid="t0" type="TIME" value="1997-04-27" temporalFunction="false" functionInDocument="CREATION_TIME">April 27 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>North Korean defector walks into South Korea across DMZ</TITLE>
+
+
+<TEXT>
+
+A North Korean defector <EVENT class="OCCURRENCE" eid="e1">walked</EVENT> into South Korea <TIMEX3 type="DATE" value="1997-04-27" tid="t1">early Sunday</TIMEX3> across the heavily armed demilitarized zone (DMZ) <EVENT class="OCCURRENCE" eid="e2">dividing</EVENT> the two Koreas, the Defense Ministry <EVENT class="REPORTING" eid="e3">said</EVENT>.
+
+The ministry <EVENT class="OCCURRENCE" eid="e4">identified</EVENT> the defector as Jang Yong-Kwan, 38, a civilian who was <EVENT class="OCCURRENCE" eid="e5">found</EVENT> <EVENT class="I_ACTION" eid="e6">seeking</EVENT> asylum in the eastern section of the DMZ by South Korean border guards at <TIMEX3 type="DATE" value="1997-04-27" tid="t2">4:00 a.m.</TIMEX3> <TIMEX3 type="DATE" value="1900" tid="t3">Sunday (1900 GMT Saturday</TIMEX3>).
+
+"The defector was <EVENT class="OCCURRENCE" eid="e7">guided</EVENT> safe into our region and <EVENT class="OCCURRENCE" eid="e8">put</EVENT> under protective custody," a ministry spokesman <EVENT class="REPORTING" eid="e9">told</EVENT> AFP.
+
+He was the first defector since North Korea's top ideologue Hwang Jang-Yop <EVENT class="OCCURRENCE" eid="e11">arrived</EVENT> in Seoul on <TIMEX3 type="DATE" value="1997-04-20" tid="t6">April 20</TIMEX3>, <TIMEX3 type="DURATION" value="P67D" tid="t7">67 days</TIMEX3> after he <EVENT class="STATE" eid="e12">sought</EVENT> asylum in Beijing.
+
+The defense ministry <EVENT class="REPORTING" eid="e13">said</EVENT> details on the latest defector would be <EVENT class="OCCURRENCE" eid="e14">withheld</EVENT> pending an <EVENT class="OCCURRENCE" eid="e16">investigation</EVENT> into the motive for his defection and background in the North.
+
+On <TIMEX3 type="DATE" value="1997-02-27" tid="t8">February 27</TIMEX3>, a barefoot 25-year-old North Korean woman <EVENT class="OCCURRENCE" eid="e18">crossed</EVENT> the DMZ into South Korea in a daylight defection bid.
+
+The woman from the Yongbyon district of Pyongbuk province, north of Pyongyang, <EVENT class="REPORTING" eid="e19">told</EVENT> investigators she <EVENT class="OCCURRENCE" eid="e20">crossed</EVENT> the border because of hunger and discontent.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei18" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei11" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061107.0113</DOCID>
+
+<DCT>JAKARTA, <TIMEX3 tid="t0" type="TIME" value="2006-11-07" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 7 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Indonesian shares extend gain</TITLE>
+
+
+<TEXT>
+
+Share prices on the Jakarta Stock Exchange <EVENT class="ASPECTUAL" eid="e1">ended</EVENT> higher <TIMEX3 type="DATE" value="2006-11-07" tid="t1">Tuesday</TIMEX3> after the central bank <EVENT class="REPORTING" eid="e2">announced</EVENT> further <EVENT class="OCCURRENCE" eid="e3">cut</EVENT> of the benchmark rate to <EVENT class="ASPECTUAL" eid="e4">continue</EVENT> making record.
+
+The index <EVENT class="OCCURRENCE" eid="e6">rose</EVENT> by 13.3 points to <EVENT class="OCCURRENCE" eid="e7">close</EVENT> at 1,654.15 points.
+
+Turnovers <EVENT class="PERCEPTION" eid="e8">totaled</EVENT> 2.3 billion shares worth 2.5 trillion rupiah (274.6 million U.S. dollars).
+
+Losers <EVENT class="OCCURRENCE" eid="e9">led</EVENT> gainers 69 to 55, with 91 other issues left unchanged.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei2" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei1" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l6" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l8" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051107.0353</DOCID>
+
+<DCT>HANOI, <TIMEX3 tid="t0" type="TIME" value="2005-11-08" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 8 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Half of Vietnam's urban population face water shortage</TITLE>
+
+
+<TEXT>
+
+Nearly half of Vietnam's urban population currently have no or little access to water supply, <EVENT class="REPORTING" eid="e1">according</EVENT> to the Water Resources Management Department under the country's Ministry of Natural Resources and Environment.
+
+Total capacity of water plants in urban areas can <EVENT class="OCCURRENCE" eid="e2">supply</EVENT> urban residents with nearly 150 liters per head a day, but they only <EVENT class="OCCURRENCE" eid="e3">receive</EVENT> around 50 liters, partly due to scarcity of water input and losses of water supply, the department <EVENT class="REPORTING" eid="e4">said</EVENT> <TIMEX3 type="DATE" value="2005-11-08" tid="t2">Tuesday</TIMEX3>.
+
+The fact that waterfalls and river flow <EVENT class="OCCURRENCE" eid="e5">distribute</EVENT> unequally in Vietnam, and that two-thirds of the country's water flows in from outside its territory are major <EVENT class="OCCURRENCE" eid="e7">causes</EVENT> for droughts.
+
+Water shortage in dry seasons is also a <EVENT class="OCCURRENCE" eid="e8">factor</EVENT>. The country <EVENT class="STATE" eid="e9">has</EVENT> average annual rainfall of 1,690 millimeters, a high level in the world, but only 10-30 percent is in the dry season lasting 7-8 months, the department <EVENT class="REPORTING" eid="e10">noted</EVENT>.
+
+Water supply losses of 240 water plants with combined daily design capacity of more than 3.2 million cubic meters <EVENT class="STATE" eid="e12">stood</EVENT> at 35 percent in <TIMEX3 type="DATE" value="2004" tid="t4">late 2004</TIMEX3>, down from 40 percent in <TIMEX3 type="DATE" value="2002" tid="t5">2002</TIMEX3>. Over 75 percent of populations of major cities <EVENT class="OCCURRENCE" eid="e13">accessed</EVENT> <EVENT class="OCCURRENCE" eid="e14">running</EVENT> water at that time.
+
+Vietnam has <EVENT class="I_STATE" eid="e15">aimed</EVENT> to <EVENT class="I_ACTION" eid="e16">establish</EVENT> water supply systems in all cities and towns nationwide by <TIMEX3 type="DATE" value="2010" tid="t7">2010</TIMEX3>. The country has also <EVENT class="I_STATE" eid="e17">planned</EVENT> to <EVENT class="OCCURRENCE" eid="e18">supply</EVENT> safe water to 85 percent of its rural population by <TIMEX3 type="DATE" value="2005-11-08" tid="t8">that year</TIMEX3>.
+
+As of <TIMEX3 type="DATE" value="2005" tid="t9">early this year</TIMEX3>, Vietnam had a population of some 82.1 million, with 26 percent <EVENT class="OCCURRENCE" eid="e20">residing</EVENT> in urban areas.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="OTHER" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei4" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei1" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei18" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei13" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="SIMULTANEOUS" />
+<TLINK lid="l13" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei4" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l15" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l20" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei12" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei17" relatedToEventInstance="ei20" relType="BEFORE" />
+<TLINK lid="l26" eventInstanceID="ei20" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+
+
+
+
+</TimeML>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061103.0011</DOCID>
+
+<DCT>KATHMANDU, <TIMEX3 tid="t0" type="TIME" value="2006-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Nepal to host regional psychiatrists meeting</TITLE>
+
+
+<TEXT>
+
+Psychiatrists of South Asian countries will <EVENT class="OCCURRENCE" eid="e1">meet</EVENT> in Nepal on <TIMEX3 type="DATE" value="2006-11-03" tid="t1">Nov. 17-19</TIMEX3> to <EVENT class="STATE" eid="e2">share</EVENT> knowledge and information about mental health problems in South Asian region.
+
+Kapil Dev Upadhyaya, chairman of the Psychiatrists Association of Nepal, <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-03" tid="t2">Friday</TIMEX3> that participants of the 2nd international <EVENT class="OCCURRENCE" eid="e4">conference</EVENT> of the South Asian Association for Regional Cooperation (SAARC) Psychiatrists Federation will <EVENT class="OCCURRENCE" eid="e5">get</EVENT> to <EVENT class="OCCURRENCE" eid="e6">learn</EVENT> more about ways to <EVENT class="I_ACTION" eid="e7">cope</EVENT> with challenges.
+
+"Thousands of people have been <EVENT class="OCCURRENCE" eid="e8">affected</EVENT> due to the <EVENT class="OCCURRENCE" eid="e9">conflict</EVENT> and many more are <EVENT class="OCCURRENCE" eid="e10">suffering</EVENT> from mental health problems. The <EVENT class="OCCURRENCE" eid="e11">conference</EVENT> will <EVENT class="I_ACTION" eid="e12">help</EVENT> us <EVENT class="I_STATE" eid="e13">understand</EVENT> the problems and will <EVENT class="OCCURRENCE" eid="e14">find</EVENT> ways to <EVENT class="OCCURRENCE" eid="e15">solve</EVENT> them," Upadhyaya was <EVENT class="OCCURRENCE" eid="e16">quoted</EVENT> as <EVENT class="REPORTING" eid="e17">saying</EVENT> by Nepal's leading news media group's website, thehimalayantimes.com.
+
+The <EVENT class="OCCURRENCE" eid="e19">meeting</EVENT>, with the theme of "Social, Conflict and mental health challenges to Psychiatrists", is <EVENT class="OCCURRENCE" eid="e20">organized</EVENT> by the World Psychiatrists Association, the Nepali Department of Psychiatrists and Mental Health, and Psychiatrists Association of Nepal
+
+<EVENT class="REPORTING" eid="e21">According</EVENT> to Upadhyaya, around 300 participants from Pakistan, India, Nepal and other SAARC countries will <EVENT class="OCCURRENCE" eid="e22">take</EVENT> part in the <EVENT class="OCCURRENCE" eid="e23">conference</EVENT>.
+
+<EVENT class="REPORTING" eid="e24">According</EVENT> to a survey, 2-3 percent of the world populations <EVENT class="OCCURRENCE" eid="e26">suffer</EVENT> from severe mental disorder.
+
+The first SAARC psychiatrists <EVENT class="OCCURRENCE" eid="e28">meeting</EVENT> was <EVENT class="OCCURRENCE" eid="e29">held</EVENT> in Agra, India <TIMEX3 type="DATE" value="2005" tid="t3">last year</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei28" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei19" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l14" eventInstanceID="ei10" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l15" eventInstanceID="ei24" relatedToEventInstance="ei26" relType="SIMULTANEOUS" />
+<TLINK lid="l16" eventInstanceID="ei24" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="INCLUDES" />
+<TLINK lid="l18" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei12" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei3" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="INCLUDES" />
+<TLINK lid="l24" eventInstanceID="ei11" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei11" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei11" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="INCLUDES" />
+<TLINK lid="l30" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="SIMULTANEOUS" />
+<TLINK lid="l31" eventInstanceID="ei21" relatedToEventInstance="ei23" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>

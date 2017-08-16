@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20051103.0212</DOCID>
+
+<DCT>COLOMBO, <TIMEX3 tid="t0" type="TIME" value="2005-11-03" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 3 , 2005</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>EU upgrades diplomatic level in Sri Lanka</TITLE>
+
+
+<TEXT>
+
+The European Union (EU) has <EVENT class="OCCURRENCE" eid="e1">upgraded</EVENT> its representation level in Sri Lanka to <EVENT class="OCCURRENCE" eid="e2">maintain</EVENT> good relations between EU and the Indian Ocean island country, Sri Lanka's Ministry of Foreign Affairs <EVENT class="REPORTING" eid="e3">said</EVENT> <TIMEX3 type="DATE" value="2005-11-03" tid="t1">Thursday</TIMEX3> in a press <EVENT class="OCCURRENCE" eid="e4">release</EVENT>.
+
+EU's delegation is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">now</TIMEX3> a fully-fledged diplomatic mission with an accredited Head of Delegation of ambassadorial rank based in Colombo, <EVENT class="REPORTING" eid="e6">said</EVENT> the press <EVENT class="OCCURRENCE" eid="e7">release</EVENT>.
+
+With the upgrading, the staff of the EU delegation will be <EVENT class="OCCURRENCE" eid="e9">doubled</EVENT> and all operational decisions will be <EVENT class="OCCURRENCE" eid="e10">managed</EVENT> locally in Colombo by the expanded team.
+
+EU is a major development partner of Sri Lanka with over 150 million euros in aid to tsunami relief and reconstruction, and over 70 million euros in conventional development expenditure.
+
+EU <EVENT class="I_ACTION" eid="e11">offers</EVENT> Sri Lanka its most concessional trading status, which <EVENT class="I_STATE" eid="e12">assures</EVENT> the country of maximum access for its exports to EU and had <EVENT class="OCCURRENCE" eid="e14">made</EVENT> EU one of Sri Lanka's most important trading partners.
+
+EU's new Head of Delegation, Julian Wilson, <EVENT class="OCCURRENCE" eid="e15">presented</EVENT> credentials to Sri Lankan President Chandrika Kumaratunga on <TIMEX3 type="DATE" value="2005-10-31" tid="t3">Monday</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei9" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei15" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei6" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei11" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l12" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei3" relatedToEventInstance="ei6" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="BEFORE" />
+
+
+
+
+</TimeML>

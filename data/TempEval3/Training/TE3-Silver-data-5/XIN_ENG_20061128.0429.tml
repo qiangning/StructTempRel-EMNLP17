@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061128.0429</DOCID>
+
+<DCT>WASHINGTON, <TIMEX3 tid="t0" type="TIME" value="2006-11-28" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 28 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>Paulson, Bernanke to lead U.S. team to Beijing next month</TITLE>
+
+
+<TEXT>
+
+Treasury Secretary Henry Paulson and Federal Reserve Chairman Ben Bernanke will <EVENT class="OCCURRENCE" eid="e1">lead</EVENT> a high- level U.S. team <TIMEX3 type="DATE" value="2006-12" tid="t1">next month</TIMEX3> for the first <EVENT class="OCCURRENCE" eid="e2">meeting</EVENT> of the Strategic Economic Dialogue, the Treasury Department <EVENT class="REPORTING" eid="e3">said</EVENT> on <TIMEX3 type="DATE" value="2006-11-28" tid="t2">Tuesday</TIMEX3>.
+
+Commerce Secretary Carlos Gutierrez, U.S. Trade Representative Susan Schwab, Labor Secretary Elaine Chao, Heath and Human Services Secretary Mike Leavitt, Energy Secretary Sam Bodman and Stephen Johnson, head of the Environmental Protection Agency, will also <EVENT class="OCCURRENCE" eid="e4">join</EVENT> in the delegation, <EVENT class="REPORTING" eid="e5">said</EVENT> the department in a statement.
+
+The <EVENT class="OCCURRENCE" eid="e6">discussions</EVENT>, which will <EVENT class="OCCURRENCE" eid="e7">take</EVENT> place <TIMEX3 type="DATE" value="2006-11-28" tid="t3">Dec. 14-15</TIMEX3> in Beijing, would <EVENT class="OCCURRENCE" eid="e8">cover</EVENT> a range of issues including global <EVENT class="OCCURRENCE" eid="e9">growth</EVENT>, China's <EVENT class="OCCURRENCE" eid="e10">integration</EVENT> into the world trading system, stable energy markets and <EVENT class="OCCURRENCE" eid="e11">cooperation</EVENT> between the two countries on environmental issues, <EVENT class="REPORTING" eid="e12">said</EVENT> the statement.
+
+The U.S. delegation will also <EVENT class="OCCURRENCE" eid="e13">meet</EVENT> with Chinese President Hu Jintao, Premier Wen Jiabao and Vice Premier Wu Yi, it <EVENT class="OCCURRENCE" eid="e14">added</EVENT>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" modality="would" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei5" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l5" eventInstanceID="ei3" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l6" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l8" eventInstanceID="ei7" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l9" eventInstanceID="ei13" relatedToEventInstance="ei14" relType="AFTER" />
+<TLINK lid="l10" eventInstanceID="ei7" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l11" eventInstanceID="ei1" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei13" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei8" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="SIMULTANEOUS" />
+<TLINK lid="l17" eventInstanceID="ei6" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l20" eventInstanceID="ei3" relatedToEventInstance="ei5" relType="SIMULTANEOUS" />
+<TLINK lid="l21" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="INCLUDES" />
+
+
+
+
+</TimeML>

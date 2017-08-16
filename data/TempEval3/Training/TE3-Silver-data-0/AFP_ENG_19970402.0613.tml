@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970402.0613</DOCID>
+
+<DCT>SYDNEY, <TIMEX3 tid="t0" type="TIME" value="1997-04-03" temporalFunction="false" functionInDocument="CREATION_TIME">April 3 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>Drama at sea on US aircraft carrier Independence</TITLE>
+
+
+<TEXT>
+
+A crew member of the US aircraft carrier Independence had to be <EVENT class="OCCURRENCE" eid="e1">airlifted</EVENT> to a Sydney hospital after he was <EVENT class="OCCURRENCE" eid="e2">hit</EVENT> by a fighter plane <EVENT class="I_ACTION" eid="e3">attempting</EVENT> a night landing on the ship.
+
+The <EVENT class="OCCURRENCE" eid="e5">incident</EVENT> late <TIMEX3 type="DATE" value="1997-04-02" tid="t1">Wednesday</TIMEX3> <EVENT class="OCCURRENCE" eid="e6">left</EVENT> the man with fractured legs and arms, an ambulance spokesman here <EVENT class="REPORTING" eid="e7">said</EVENT>.
+
+"He <EVENT class="OCCURRENCE" eid="e8">sustained</EVENT> fractured legs and arms and was <EVENT class="OCCURRENCE" eid="e10">airlifted</EVENT> to Sydney airport by an Independence helicopter," the spokesman <EVENT class="REPORTING" eid="e11">said</EVENT>.
+
+The spokesman <EVENT class="REPORTING" eid="e12">said</EVENT> few details were available but he <EVENT class="STATE" eid="e13">understood</EVENT> an FA-18 Hornet aircraft <EVENT class="OCCURRENCE" eid="e14">approaching</EVENT> the Independence's landing deck <EVENT class="OCCURRENCE" eid="e15">overshot</EVENT> the runway and <EVENT class="OCCURRENCE" eid="e16">hit</EVENT> the man.
+
+The aircraft carrier <EVENT class="OCCURRENCE" eid="e17">left</EVENT> Sydney Harbour <TIMEX3 type="DATE" value="1997-04-01" tid="t2">Tuesday</TIMEX3> after a six-day rest and recreation <EVENT class="OCCURRENCE" eid="e18">visit</EVENT>.
+
+It was in Australia to <EVENT class="OCCURRENCE" eid="e19">participate</EVENT> in Operation Tandem Thrust, a joint Australian/US military exercise <EVENT class="OCCURRENCE" eid="e21">involving</EVENT> 28,000 troops in far north Queensland state which <EVENT class="ASPECTUAL" eid="e22">ended</EVENT> <TIMEX3 type="DATE" value="1997-W13" tid="t4">last week</TIMEX3>.
+
+After <EVENT class="OCCURRENCE" eid="e23">hitting</EVENT> the man the damaged aircraft was <EVENT class="OCCURRENCE" eid="e24">forced</EVENT> to <EVENT class="OCCURRENCE" eid="e25">fly</EVENT> 120 nautical miles on one engine, <EVENT class="OCCURRENCE" eid="e26">escorted</EVENT> by another FA-18 and a Viking tanker plane, to <EVENT class="OCCURRENCE" eid="e28">make</EVENT> an emergency landing at the Williamtown RAAF Base near Newcastle, about 150 kilometres (93 miles) north of Sydney, an official there <EVENT class="REPORTING" eid="e29">said</EVENT>.
+
+Wing Commander Lou Lapuma <EVENT class="REPORTING" eid="e30">said</EVENT> the Hornet's undercarriage <EVENT class="OCCURRENCE" eid="e31">collapsed</EVENT> as it <EVENT class="OCCURRENCE" eid="e32">made</EVENT> an emergency landing but the pilot was unhurt.
+
+"He was off the coast relatively near an F-18 base when he <EVENT class="OCCURRENCE" eid="e36">lost</EVENT> his engine and undercarriege; we were also <EVENT class="OCCURRENCE" eid="e37">preparing</EVENT> for night manoeuvres, so all the emergency crews were here (in Williamtown) anyway.
+
+"We're in contact with the Independence and <EVENT class="I_ACTION" eid="e38">trying</EVENT> to <EVENT class="OCCURRENCE" eid="e39">figure</EVENT> out what they <EVENT class="I_STATE" eid="e40">want</EVENT> to do with their plane and their pilot," Lapuma <EVENT class="REPORTING" eid="e42">said</EVENT>.
+
+The Independence, <EVENT class="OCCURRENCE" eid="e43">commissioned</EVENT> in <TIMEX3 type="DATE" value="1959" tid="t5">1959</TIMEX3>, is the US Navy's oldest active ship.
+
+It <EVENT class="OCCURRENCE" eid="e44">served</EVENT> in the 1962 Cuban missile <EVENT class="OCCURRENCE" eid="e45">crisis</EVENT>, the <EVENT class="OCCURRENCE" eid="e46">liberation</EVENT> of Grenada in <TIMEX3 type="DATE" value="1983" tid="t7">1983</TIMEX3>, the Gulf War in <TIMEX3 type="DATE" value="1990" tid="t8">1990</TIMEX3> and <TIMEX3 type="DATE" value="1996" tid="t9">last year</TIMEX3>'s tensions between Taiwan and China.
+
+More than 5,000 sailors and marines live aboard.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei39" eventID="e39" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei37" eventID="e37" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei36" eventID="e36" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000046" eventID="e46" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei43" eventID="e43" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei42" eventID="e42" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000047" eventID="e46" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei43" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei42" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei7" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei12" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei30" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei17" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei11" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei17" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l11" eventInstanceID="ei46" relatedToTime="t7" relType="IS_INCLUDED" />
+<TLINK lid="l12" eventInstanceID="ei22" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l13" eventInstanceID="ei12" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei12" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei12" relatedToEventInstance="ei15" relType="AFTER" />
+<TLINK lid="l16" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei17" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l18" eventInstanceID="ei17" relatedToEventInstance="ei18" relType="AFTER" />
+<TLINK lid="l19" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei19" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei44" relatedToEventInstance="ei1000047" relType="AFTER" />
+<TLINK lid="l22" eventInstanceID="ei44" relatedToEventInstance="ei1000046" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei44" relatedToEventInstance="ei46" relType="AFTER" />
+<TLINK lid="l24" eventInstanceID="ei43" relatedToEventInstance="ei44" relType="BEFORE" />
+<TLINK lid="l25" eventInstanceID="ei1000046" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l27" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l28" eventInstanceID="ei1000047" relatedToTime="t9" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei43" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei36" relatedToEventInstance="ei37" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei30" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei8" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei6" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei23" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l35" eventInstanceID="ei38" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l36" eventInstanceID="ei36" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l37" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l38" eventInstanceID="ei37" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l39" eventInstanceID="ei30" relatedToEventInstance="ei32" relType="AFTER" />
+<TLINK lid="l40" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l41" eventInstanceID="ei19" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l42" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="BEFORE" />
+<TLINK lid="l43" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="SIMULTANEOUS" />
+<TLINK lid="l44" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l45" eventInstanceID="ei26" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l46" eventInstanceID="ei28" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l47" eventInstanceID="ei24" relatedToEventInstance="ei29" relType="BEFORE" />
+<TLINK lid="l48" eventInstanceID="ei39" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei40" relatedToEventInstance="ei42" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei42" relatedToEventInstance="ei43" relType="AFTER" />
+<TLINK lid="l51" eventInstanceID="ei1" relatedToEventInstance="ei7" relType="SIMULTANEOUS" />
+<TLINK lid="l52" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei7" relatedToEventInstance="ei11" relType="SIMULTANEOUS" />
+<TLINK lid="l54" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="BEFORE" />
+<TLINK lid="l55" eventInstanceID="ei11" relatedToEventInstance="ei12" relType="SIMULTANEOUS" />
+<TLINK lid="l56" eventInstanceID="ei5" relatedToTime="t1" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

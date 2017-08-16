@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>XIN_ENG_20061113.0148</DOCID>
+
+<DCT>BEIJING, <TIMEX3 tid="t0" type="TIME" value="2006-11-13" temporalFunction="false" functionInDocument="CREATION_TIME">Nov. 13 , 2006</TIMEX3> (Xinhua)</DCT>
+
+<TITLE>report</TITLE>
+
+
+<TEXT>
+
+China's economy will <EVENT class="ASPECTUAL" eid="e1">continue</EVENT> to <EVENT class="OCCURRENCE" eid="e2">grow</EVENT> at around 9.5 percent in <TIMEX3 type="DATE" value="2007" tid="t1">2007</TIMEX3>, with fixed asset <EVENT class="OCCURRENCE" eid="e3">investment</EVENT> up 20 percent on <TIMEX3 type="DATE" value="2006" tid="t2">2006</TIMEX3>, <EVENT class="REPORTING" eid="e4">according</EVENT> to the latest report from the State Information Center (SIC).
+
+<EVENT class="REPORTING" eid="e6">According</EVENT> to the SIC, a think tank under the National Development and Reform Commission, the three main engines driving Chinese economic <EVENT class="OCCURRENCE" eid="e8">growth</EVENT> -- exports, consumption and investment -- will all <EVENT class="OCCURRENCE" eid="e9">slow</EVENT> down a little.
+
+Fixed asset investment is <EVENT class="I_STATE" eid="e10">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e11">hit</EVENT> 13.45 trillion yuan (1.68 trillion U.S. dollars) in <TIMEX3 type="DATE" value="2007" tid="t3">2007</TIMEX3>, up 20 percent, but 6.5 percentage points lower than the figure <EVENT class="I_ACTION" eid="e12">predicted</EVENT> for <TIMEX3 type="DATE" value="2006" tid="t4">2006</TIMEX3>.
+
+China's fixed asset investment <EVENT class="OCCURRENCE" eid="e13">rose</EVENT> to 7.19 trillion yuan in <TIMEX3 type="DURATION" value="P9M" tid="t5">the first nine months</TIMEX3> of <TIMEX3 type="DATE" value="2006" tid="t6">this year</TIMEX3>, up 27.3 percent from <TIMEX3 type="DATE" value="2005" tid="t7">the same period of 2005</TIMEX3>, <EVENT class="REPORTING" eid="e14">according</EVENT> to the National Bureau of Statistics.
+
+Meanwhile, the volume of retail sales will <EVENT class="OCCURRENCE" eid="e15">reach</EVENT> 8.59 trillion yuan in <TIMEX3 type="DATE" value="2007" tid="t8">2007</TIMEX3>, a nominal <EVENT class="OCCURRENCE" eid="e16">growth</EVENT> of 12.5 percent, but again 1.1 percentage points lower than the predicted whole-year growth rate for <TIMEX3 type="DATE" value="2006" tid="t10">2006</TIMEX3>.
+
+Exports will <EVENT class="OCCURRENCE" eid="e17">jump</EVENT> 15 percent in <TIMEX3 type="DATE" value="2007" tid="t11">2007</TIMEX3>, which is 9.5 percentage points slower than in <TIMEX3 type="DATE" value="2006" tid="t12">2006</TIMEX3>. The trade surplus is <EVENT class="I_STATE" eid="e18">expected</EVENT> to <EVENT class="OCCURRENCE" eid="e19">reach</EVENT> 177 billion U.S. dollars, 30 billion U.S. dollars more than in <TIMEX3 type="DATE" value="2006" tid="t13">2006</TIMEX3>.
+
+To <EVENT class="OCCURRENCE" eid="e20">achieve</EVENT> a balance in international payments, the think tank <EVENT class="I_ACTION" eid="e22">suggested</EVENT> <EVENT class="OCCURRENCE" eid="e23">adjusting</EVENT> the tax system and <EVENT class="OCCURRENCE" eid="e24">speeding</EVENT> up the standardization of corporate income tax for domestic and overseas-funded companies.
+
+It <EVENT class="REPORTING" eid="e25">said</EVENT> that China could <EVENT class="OCCURRENCE" eid="e26">use</EVENT> its ample foreign reserves to <EVENT class="OCCURRENCE" eid="e27">buy</EVENT> in reserves of strategic resources like crude oil and major metal products when prices on the international market are low.
+
+The SIC also <EVENT class="OCCURRENCE" eid="e29">suggested</EVENT> the government <EVENT class="OCCURRENCE" eid="e30">institute</EVENT> heavier taxes on fossil energy such as coal, oil and natural gas, in order to <EVENT class="OCCURRENCE" eid="e31">improve</EVENT> energy efficiency.
+
+China should <EVENT class="OCCURRENCE" eid="e32">follow</EVENT> a slightly more stringent monetary policy in <TIMEX3 type="DATE" value="2007" tid="t14">2007</TIMEX3>, <EVENT class="OCCURRENCE" eid="e33">restricting</EVENT> newly <EVENT class="OCCURRENCE" eid="e34">increased</EVENT> loans to three trillion yuan, <EVENT class="REPORTING" eid="e35">said</EVENT> the report.
+
+Sizzling fixed asset investment needed to be <EVENT class="OCCURRENCE" eid="e38">curbed</EVENT>, but more work should also be done to <EVENT class="OCCURRENCE" eid="e40">regulate</EVENT> investment structure, and government should <EVENT class="OCCURRENCE" eid="e41">put</EVENT> more money into public service sectors like education, public sanitation, resource conservation and environmental protection.
+
+China's 11th five-year plan (2006-2010) projects <EVENT class="ASPECTUAL" eid="e43">continued</EVENT> high economic <EVENT class="OCCURRENCE" eid="e44">growth</EVENT> based on higher domestic consumption.
+
+<EVENT class="REPORTING" eid="e45">According</EVENT> to the latest statistics, China's consumer price index, the key inflation indicator, <EVENT class="OCCURRENCE" eid="e46">rose</EVENT> by 1.4 percent year-on-year in <TIMEX3 type="DATE" value="2006-10" tid="t18">October</TIMEX3>, 0.2 percentage points higher than <TIMEX3 type="DATE" value="2005" tid="t19">a year ago</TIMEX3>.
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei38" eventID="e38" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei32" eventID="e32" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei31" eventID="e31" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000012" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei35" eventID="e35" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei34" eventID="e34" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei33" eventID="e33" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000017" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000016" eventID="e16" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei29" eventID="e29" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei26" eventID="e26" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000046" eventID="e46" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei41" eventID="e41" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei40" eventID="e40" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei45" eventID="e45" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei44" eventID="e44" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei46" eventID="e46" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei1000003" eventID="e3" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei17" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l2" eventInstanceID="ei25" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei15" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l4" eventInstanceID="ei35" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei29" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei19" relatedToTime="t13" relType="IS_INCLUDED" />
+<TLINK lid="l7" eventInstanceID="ei18" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l8" eventInstanceID="ei10" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l9" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="BEFORE" />
+<TLINK lid="l10" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei45" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l12" eventInstanceID="ei44" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei4" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei13" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l15" eventInstanceID="ei6" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei14" relatedToTime="t0" relType="IS_INCLUDED" />
+<TLINK lid="l17" eventInstanceID="ei13" relatedToTime="t6" relType="IS_INCLUDED" />
+<TLINK lid="l18" eventInstanceID="ei13" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l19" eventInstanceID="ei15" relatedToEventInstance="ei1000016" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei16" relatedToTime="t8" relType="IS_INCLUDED" />
+<TLINK lid="l22" eventInstanceID="ei6" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei6" relatedToEventInstance="ei8" relType="SIMULTANEOUS" />
+<TLINK lid="l24" eventInstanceID="ei45" relatedToEventInstance="ei1000046" relType="SIMULTANEOUS" />
+<TLINK lid="l25" eventInstanceID="ei44" relatedToEventInstance="ei45" relType="SIMULTANEOUS" />
+<TLINK lid="l26" eventInstanceID="ei45" relatedToEventInstance="ei46" relType="SIMULTANEOUS" />
+<TLINK lid="l27" eventInstanceID="ei1000046" relatedToTime="t19" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToEventInstance="ei1000017" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei17" relatedToTime="t11" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei1000017" relatedToTime="t12" relType="IS_INCLUDED" />
+<TLINK lid="l32" eventInstanceID="ei1000016" relatedToTime="t10" relType="IS_INCLUDED" />
+<TLINK lid="l33" eventInstanceID="ei46" relatedToTime="t18" relType="IS_INCLUDED" />
+<TLINK lid="l34" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei25" relatedToEventInstance="ei29" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei29" relatedToEventInstance="ei31" relType="AFTER" />
+<TLINK lid="l37" eventInstanceID="ei33" relatedToTime="t14" relType="IS_INCLUDED" />
+<TLINK lid="l38" eventInstanceID="ei32" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l39" eventInstanceID="ei20" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l40" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l41" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l42" eventInstanceID="ei32" relatedToEventInstance="ei35" relType="AFTER" />
+<TLINK lid="l43" eventInstanceID="ei2" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l44" eventInstanceID="ei1" relatedToEventInstance="ei1000003" relType="AFTER" />
+<TLINK lid="l45" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="AFTER" />
+<TLINK lid="l46" eventInstanceID="ei1000003" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l47" eventInstanceID="ei41" relatedToEventInstance="ei44" relType="SIMULTANEOUS" />
+<TLINK lid="l48" eventInstanceID="ei40" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l49" eventInstanceID="ei38" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l50" eventInstanceID="ei35" relatedToEventInstance="ei41" relType="BEFORE" />
+<TLINK lid="l51" eventInstanceID="ei34" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l52" eventInstanceID="ei33" relatedToEventInstance="ei35" relType="BEFORE" />
+<TLINK lid="l53" eventInstanceID="ei29" relatedToEventInstance="ei35" relType="SIMULTANEOUS" />
+<TLINK lid="l54" eventInstanceID="ei29" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l55" eventInstanceID="ei22" relatedToEventInstance="ei23" relType="AFTER" />
+<TLINK lid="l56" eventInstanceID="ei22" relatedToEventInstance="ei25" relType="SIMULTANEOUS" />
+<TLINK lid="l57" eventInstanceID="ei22" relatedToEventInstance="ei24" relType="AFTER" />
+<TLINK lid="l58" eventInstanceID="ei25" relatedToEventInstance="ei26" relType="BEFORE" />
+<TLINK lid="l59" eventInstanceID="ei10" relatedToEventInstance="ei1000012" relType="AFTER" />
+<TLINK lid="l60" eventInstanceID="ei10" relatedToEventInstance="ei12" relType="AFTER" />
+<TLINK lid="l61" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l62" eventInstanceID="ei1000012" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l63" eventInstanceID="ei3" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l64" eventInstanceID="ei12" relatedToTime="t3" relType="IS_INCLUDED" />
+
+
+
+
+</TimeML>

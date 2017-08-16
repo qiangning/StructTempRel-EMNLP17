@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_20051213.0266</DOCID>
+
+<DCT>FRANKFURT, <TIMEX3 tid="t0" type="TIME" value="2005-12-13" temporalFunction="false" functionInDocument="CREATION_TIME">Dec 13 , 2005</TIMEX3>, 2005</DCT>
+
+<TITLE>RAG wants all or nothing of Degussa, chairman says</TITLE>
+
+
+<TEXT>
+
+RAG, the German energy and mining group, <EVENT class="I_STATE" eid="e1">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e2">increase</EVENT> its stake in specialty chemicals maker Degussa to 100 percent or it will <EVENT class="OCCURRENCE" eid="e3">sell</EVENT> its current majority, RAG chairman Werner Mueller <EVENT class="REPORTING" eid="e4">said</EVENT> in a newspaper <EVENT class="OCCURRENCE" eid="e5">interview</EVENT> <EVENT class="OCCURRENCE" eid="e6">released</EVENT> on <TIMEX3 type="DATE" value="2005-12-13" tid="t1">Tuesday</TIMEX3>.
+
+"Either we <EVENT class="OCCURRENCE" eid="e7">take</EVENT> it over fully or we'll <EVENT class="OCCURRENCE" eid="e8">sell</EVENT> our stake completely," Mueller <EVENT class="REPORTING" eid="e9">told</EVENT> the daily Die Welt in a pre-release of an <EVENT class="OCCURRENCE" eid="e10">interview</EVENT> to be <EVENT class="OCCURRENCE" eid="e11">published</EVENT> on <TIMEX3 type="DATE" value="2005-12-07" tid="t2">Wednesday</TIMEX3>.
+
+RAG <TIMEX3 type="DATE" value="PRESENT_REF" tid="t4">currently</TIMEX3> <EVENT class="STATE" eid="e12">holds</EVENT> a stake of 50.1 percent in Degussa, with further 43 percent <EVENT class="STATE" eid="e13">owned</EVENT> by energy giant E.ON.
+
+But E.ON <EVENT class="I_STATE" eid="e14">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e15">sell</EVENT> its stake and is currently <EVENT class="OCCURRENCE" eid="e16">negotiating</EVENT> with RAG over a billion-euro (dollar) deal.
+
+"The only thing that is certain is that E.ON <EVENT class="I_STATE" eid="e18">wants</EVENT> to <EVENT class="OCCURRENCE" eid="e19">sell</EVENT>. How they will <EVENT class="OCCURRENCE" eid="e20">do</EVENT> so or whether we're the buyer has not yet been <EVENT class="OCCURRENCE" eid="e21">decided</EVENT>," Mueller <EVENT class="REPORTING" eid="e22">said</EVENT>.
+
+<EVENT class="I_ACTION" eid="e23">Asked</EVENT> whether RAG <EVENT class="STATE" eid="e24">was</EVENT> in a position to <EVENT class="OCCURRENCE" eid="e25">finance</EVENT> such a deal, Mueller <EVENT class="REPORTING" eid="e27">replied</EVENT>: "We're not going to <EVENT class="OCCURRENCE" eid="e28">commit</EVENT> some sort of financial 'harakiri'. We can <EVENT class="OCCURRENCE" eid="e29">do</EVENT> this deal if we <EVENT class="I_STATE" eid="e30">want</EVENT> to."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei30" eventID="e30" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="OTHER" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="OTHER" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei25" eventID="e25" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei23" eventID="e23" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="VERB" tense="FUTURE" aspect="NONE" polarity="NEG" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="NOUN" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei12" eventID="e12" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei13" eventID="e13" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei14" eventID="e14" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei9" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei12" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l3" eventInstanceID="ei22" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei27" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l5" eventInstanceID="ei4" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l6" eventInstanceID="ei14" relatedToEventInstance="ei16" relType="AFTER" />
+<TLINK lid="l7" eventInstanceID="ei14" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei12" relatedToEventInstance="ei14" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei14" relatedToEventInstance="ei15" relType="SIMULTANEOUS" />
+<TLINK lid="l10" eventInstanceID="ei18" relatedToEventInstance="ei19" relType="SIMULTANEOUS" />
+<TLINK lid="l11" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei1" relatedToEventInstance="ei4" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei6" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l14" eventInstanceID="ei11" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l15" eventInstanceID="ei23" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei7" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l17" eventInstanceID="ei4" relatedToEventInstance="ei5" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="SIMULTANEOUS" />
+<TLINK lid="l19" eventInstanceID="ei4" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei2" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l21" eventInstanceID="ei4" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="BEFORE" />
+<TLINK lid="l23" eventInstanceID="ei9" relatedToEventInstance="ei12" relType="BEFORE" />
+<TLINK lid="l24" eventInstanceID="ei9" relatedToEventInstance="ei10" relType="AFTER" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l26" eventInstanceID="ei12" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei22" relatedToEventInstance="ei27" relType="SIMULTANEOUS" />
+<TLINK lid="l28" eventInstanceID="ei27" relatedToEventInstance="ei30" relType="AFTER" />
+<TLINK lid="l29" eventInstanceID="ei25" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l30" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l31" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="AFTER" />
+<TLINK lid="l32" eventInstanceID="ei20" relatedToEventInstance="ei22" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+
+
+
+
+</TimeML>

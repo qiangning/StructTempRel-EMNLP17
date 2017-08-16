@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>AFP_ENG_19970419.0145</DOCID>
+
+<DCT>DURRES, Albania, <TIMEX3 tid="t0" type="TIME" value="1997-04-19" temporalFunction="false" functionInDocument="CREATION_TIME">April 19 , 1997</TIMEX3> (AFP)</DCT>
+
+<TITLE>First distribution of aid by UN World Food Programme</TITLE>
+
+
+<TEXT>
+
+Flour, beans and vegetable oil from the UN World Food Programme were <EVENT class="OCCURRENCE" eid="e1">handed</EVENT> out for the first time <TIMEX3 type="DATE" value="1997-04-19" tid="t1">Saturday</TIMEX3> to over 20 institutions <EVENT class="OCCURRENCE" eid="e2">caring</EVENT> for hungry Albanians across the lawless republic.
+
+Trucks and vans from hospitals, orphanages and homes for the handicapped <EVENT class="OCCURRENCE" eid="e3">drove</EVENT> to Albania's main port from around the country to <EVENT class="OCCURRENCE" eid="e4">collect</EVENT> their quota.
+
+However, they will <EVENT class="OCCURRENCE" eid="e5">make</EVENT> the <EVENT class="OCCURRENCE" eid="e6">journey</EVENT> back to their institutions without escorts from the eight-nation protection force which is <TIMEX3 type="DATE" value="PRESENT_REF" tid="t2">currently</TIMEX3> being <EVENT class="OCCURRENCE" eid="e7">deployed</EVENT> in Albania.
+
+The UN agency has <EVENT class="OCCURRENCE" eid="e8">stockpiled</EVENT> more than 400 tonnes of wheat flour, beans and vegetable oil in warehouses at the delapidated port, enough to <EVENT class="OCCURRENCE" eid="e9">feed</EVENT> 7,500 people for <TIMEX3 type="DURATION" value="P3M" tid="t3">three months</TIMEX3>.
+
+Europe's poorest state has been <EVENT class="OCCURRENCE" eid="e10">gripped</EVENT> by unrest and banditry for over <TIMEX3 type="DURATION" value="P1M" tid="t4">a month</TIMEX3> following street <EVENT class="OCCURRENCE" eid="e11">protests</EVENT> over the collapse of bogus investment schemes <EVENT class="OCCURRENCE" eid="e13">snowballed</EVENT> into armed insurrection.
+
+The aid is part of a package of measures <EVENT class="I_STATE" eid="e15">aimed</EVENT> at <EVENT class="OCCURRENCE" eid="e16">restoring</EVENT> stablity to the country which must <EVENT class="OCCURRENCE" eid="e17">prepare</EVENT> for <EVENT class="OCCURRENCE" eid="e18">elections</EVENT> at <TIMEX3 type="DATE" value="1997-06" tid="t5">the end of June</TIMEX3>. The protection force is in Albania to <EVENT class="I_ACTION" eid="e19">help</EVENT> <EVENT class="OCCURRENCE" eid="e20">safeguard</EVENT> the aid. French troops have <EVENT class="OCCURRENCE" eid="e21">secured</EVENT> Durres port and are <EVENT class="I_ACTION" eid="e22">guarding</EVENT> the WFP shipment.
+
+WFP's Laura Boldini <EVENT class="REPORTING" eid="e24">said</EVENT>: "This is not an operation where you could have a military escort. It's to <EVENT class="OCCURRENCE" eid="e27">meet</EVENT> the needs of the institutions which are without food. It's a low profile <EVENT class="OCCURRENCE" eid="e28">operation</EVENT>."
+
+</TEXT>
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei3" eventID="e3" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei2" eventID="e2" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei20" eventID="e20" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei21" eventID="e21" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei10" eventID="e10" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei11" eventID="e11" pos="NOUN" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei24" eventID="e24" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei22" eventID="e22" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei15" eventID="e15" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei4" eventID="e4" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei28" eventID="e28" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei16" eventID="e16" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei5" eventID="e5" pos="VERB" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei6" eventID="e6" pos="NOUN" tense="FUTURE" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei17" eventID="e17" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei7" eventID="e7" pos="VERB" tense="PAST" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei27" eventID="e27" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei18" eventID="e18" pos="NOUN" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei8" eventID="e8" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" />
+<MAKEINSTANCE eiid="ei19" eventID="e19" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+<MAKEINSTANCE eiid="ei9" eventID="e9" pos="VERB" tense="PRESENT" aspect="NONE" polarity="POS" />
+
+
+<TLINK lid="l1" eventInstanceID="ei1" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l2" eventInstanceID="ei15" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l3" eventInstanceID="ei24" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l4" eventInstanceID="ei5" relatedToTime="t0" relType="AFTER" />
+<TLINK lid="l5" eventInstanceID="ei19" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l6" eventInstanceID="ei3" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l7" eventInstanceID="ei21" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l8" eventInstanceID="ei1" relatedToEventInstance="ei3" relType="BEFORE" />
+<TLINK lid="l9" eventInstanceID="ei27" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l10" eventInstanceID="ei10" relatedToTime="t0" relType="BEFORE" />
+<TLINK lid="l11" eventInstanceID="ei8" relatedToEventInstance="ei9" relType="AFTER" />
+<TLINK lid="l12" eventInstanceID="ei8" relatedToEventInstance="ei10" relType="BEFORE" />
+<TLINK lid="l13" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="AFTER" />
+<TLINK lid="l14" eventInstanceID="ei3" relatedToEventInstance="ei4" relType="AFTER" />
+<TLINK lid="l15" eventInstanceID="ei15" relatedToEventInstance="ei19" relType="BEFORE" />
+<TLINK lid="l16" eventInstanceID="ei19" relatedToEventInstance="ei21" relType="AFTER" />
+<TLINK lid="l17" eventInstanceID="ei19" relatedToEventInstance="ei20" relType="AFTER" />
+<TLINK lid="l18" eventInstanceID="ei21" relatedToEventInstance="ei24" relType="BEFORE" />
+<TLINK lid="l19" eventInstanceID="ei21" relatedToEventInstance="ei22" relType="AFTER" />
+<TLINK lid="l20" eventInstanceID="ei24" relatedToEventInstance="ei27" relType="BEFORE" />
+<TLINK lid="l21" eventInstanceID="ei15" relatedToEventInstance="ei16" relType="BEFORE" />
+<TLINK lid="l22" eventInstanceID="ei1" relatedToEventInstance="ei2" relType="AFTER" />
+<TLINK lid="l23" eventInstanceID="ei2" relatedToTime="t1" relType="IS_INCLUDED" />
+<TLINK lid="l24" eventInstanceID="ei7" relatedToTime="t2" relType="IS_INCLUDED" />
+<TLINK lid="l25" eventInstanceID="ei9" relatedToTime="t3" relType="IS_INCLUDED" />
+<TLINK lid="l26" eventInstanceID="ei18" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l27" eventInstanceID="ei11" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l28" eventInstanceID="ei17" relatedToTime="t5" relType="IS_INCLUDED" />
+<TLINK lid="l29" eventInstanceID="ei10" relatedToTime="t4" relType="IS_INCLUDED" />
+<TLINK lid="l30" eventInstanceID="ei15" relatedToEventInstance="ei17" relType="AFTER" />
+<TLINK lid="l31" eventInstanceID="ei28" relatedToTime="t0" relType="INCLUDES" />
+<TLINK lid="l32" eventInstanceID="ei15" relatedToEventInstance="ei18" relType="BEFORE" />
+<TLINK lid="l33" eventInstanceID="ei10" relatedToEventInstance="ei15" relType="BEFORE" />
+<TLINK lid="l34" eventInstanceID="ei10" relatedToEventInstance="ei11" relType="AFTER" />
+<TLINK lid="l35" eventInstanceID="ei5" relatedToEventInstance="ei6" relType="AFTER" />
+<TLINK lid="l36" eventInstanceID="ei27" relatedToEventInstance="ei28" relType="SIMULTANEOUS" />
+
+
+
+
+</TimeML>
