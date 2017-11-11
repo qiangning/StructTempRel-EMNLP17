@@ -1,6 +1,6 @@
 # Prerequisites
 - Have [maven](https://maven.apache.org/install.html) installed in your system
-- Have [Gurobi6.5.2](http://www.gurobi.com/downloads/gurobi-optimizer) installed in your system and have env var `GUROBI_HOME` setup in your path
+- Have [Gurobi6.5.2](http://www.gurobi.com/downloads/gurobi-optimizer) installed in your system and have env var `GUROBI_HOME` setup in your path. Please contact the author (qning2@illinois.edu) if you cannot find the package for version 6.5.2
 - Run `sh scripts/mvn_install.sh` in your terminal to install the jar dependencies
 
 # Reproduce EMNLP Results
