@@ -184,8 +184,8 @@ public class CoDL {
         exp.CAVEO_output = CAVEO_output;
 
         List<TemporalDocument> predPlatinum = exp.solve();
-        List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000");
-        //List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000_newfeat");
+        //List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000");
+        List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000_newfeat");
         PrecisionRecallManager evaluator = new PrecisionRecallManager();
         PrecisionRecallManager evaluator_kbcom = new PrecisionRecallManager();
         for(TemporalDocument doc:predPlatinum) {
@@ -211,8 +211,8 @@ public class CoDL {
                 newtlinks.add(tt);
             }
             doc2.setBodyTlinks(newtlinks);
-            doc2.temporalDocumentToText(dir+"_kbcom" + File.separator + doc2.getDocID() + ".tml");
-            //doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
+            //doc2.temporalDocumentToText(dir+"_kbcom" + File.separator + doc2.getDocID() + ".tml");
+            doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
             for(TemporalDocument golddoc:Platinum){
                 for(TLINK tt:golddoc.getBodyTlinks()){
                     if(!tt.getSourceType().equals(TempEval3Reader.Type_Event)
@@ -305,8 +305,8 @@ public class CoDL {
                     String.valueOf(kl_th) + "_"  +
                     String.valueOf(maxIter);
         IOUtils.mkdir(dir);
-        IOUtils.mkdir(dir+"_kbcom");
-        //IOUtils.mkdir(dir+"_kbcom_newfeat");
+        //IOUtils.mkdir(dir+"_kbcom");
+        IOUtils.mkdir(dir+"_kbcom_newfeat");
         exp.loadPlatinum();
         exp.testModelOnP(dir);
 
@@ -327,16 +327,16 @@ public class CoDL {
                     String.valueOf(maxIter);
         Process pr = rt.exec(cmd);
 
-        cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom" + " "+
+        /*cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom" + " "+
                 "chambers_codl_tdtest_"+
                 String.valueOf(lambda) + "_" +
                 String.valueOf(kl_th) + "_"  +
-                String.valueOf(maxIter)+"_kbcom";
-        /*cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom_newfeat" + " "+
+                String.valueOf(maxIter)+"_kbcom";*/
+        cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom_newfeat" + " "+
                 "chambers_codl_tdtest_"+
                 String.valueOf(lambda) + "_" +
                 String.valueOf(kl_th) + "_"  +
-                String.valueOf(maxIter)+"_kbcom_newfeat";*/
+                String.valueOf(maxIter)+"_kbcom_newfeat";
         Process pr2 = rt.exec(cmd);
 
     }

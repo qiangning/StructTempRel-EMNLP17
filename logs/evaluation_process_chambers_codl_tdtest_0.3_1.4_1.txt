@@ -367,7 +367,7 @@ ei17 ei19 SIMULTANEOUS false
 precision 6 28
 recall 8 25
 0.214285714286 0.32
-0.0216710567474 , 29 , 44 , 45
+0.0250670909882 , 29 , 44 , 45
 ./output/Chambers/gold-normalized/NYT19980402.0453.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/NYT19980402.0453.tml
 
 
@@ -2464,7 +2464,7 @@ True
 precision 96 160
 recall 86 125
 0.6 0.688
-0.23579621315 , 203 , 100 , 225
+0.241534233093 , 203 , 100 , 225
 ./output/Chambers/gold-normalized/APW19980227.0489.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/APW19980227.0489.tml
 
 
@@ -4067,7 +4067,7 @@ ei8 ei9 SIMULTANEOUS false
 precision 60 100
 recall 66 100
 0.6 0.66
-0.15293598175 , 153 , 70 , 129
+0.169200897217 , 153 , 70 , 129
 ./output/Chambers/gold-normalized/PRI19980115.2000.0186.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/PRI19980115.2000.0186.tml
 
 
@@ -5163,7 +5163,7 @@ ei25 ei27 BEFORE false
 precision 35 77
 recall 18 57
 0.454545454545 0.315789473684
-0.0875689983368 , 103 , 62 , 103
+0.0879249572754 , 103 , 62 , 103
 ./output/Chambers/gold-normalized/CNN19980213.2130.0155.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/CNN19980213.2130.0155.tml
 
 
@@ -8253,7 +8253,7 @@ ei58 t8 AFTER false
 precision 70 222
 recall 92 168
 0.315315315315 0.547619047619
-0.615566968918 , 352 , 134 , 279
+0.546210050583 , 352 , 134 , 279
 ./output/Chambers/gold-normalized/APW19980308.0201.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/APW19980308.0201.tml
 
 
@@ -9160,7 +9160,7 @@ True
 precision 23 61
 recall 26 73
 0.377049180328 0.356164383562
-0.0729489326477 , 70 , 54 , 81
+0.0706491470337 , 70 , 54 , 81
 ./output/Chambers/gold-normalized/APW19980418.0210.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/APW19980418.0210.tml
 
 
@@ -9922,7 +9922,7 @@ ei19 t0 BEFORE UNKNOWN
 precision 30 36
 recall 34 75
 0.833333333333 0.453333333333
-0.0792379379272 , 54 , 52 , 49
+0.064423084259 , 54 , 52 , 49
 ./output/Chambers/gold-normalized/APW19980227.0494.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/APW19980227.0494.tml
 
 
@@ -13309,7 +13309,7 @@ ei69 ei70 INCLUDES false
 precision 107 219
 recall 102 201
 0.488584474886 0.507462686567
-0.778004169464 , 320 , 162 , 282
+0.558207035065 , 320 , 162 , 282
 ./output/Chambers/gold-normalized/PRI19980306.2000.1675.tml ./output/Chambers/codl/TD-Test/0.3_1.4_1-normalized/PRI19980306.2000.1675.tml
 
 
@@ -14239,7 +14239,7 @@ ei20 ei21 IS_INCLUDED false
 precision 15 67
 recall 20 47
 0.223880597015 0.425531914894
-0.156502008438 , 97 , 48 , 89
+0.0849618911743 , 97 , 48 , 89
 === Temporal Awareness Score ===
 
 Temporal Score	F1	P	R

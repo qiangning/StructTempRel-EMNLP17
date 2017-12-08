@@ -34,22 +34,22 @@ In <TIMEX3 tid="t30" type="DATE" value="1991">nineteen ninety-one</TIMEX3> Charl
 <MAKEINSTANCE aspect="NONE" eiid="ei2298" eventID="e24" polarity="POS" pos="VERB" tense="INFINITIVE" />
 <MAKEINSTANCE aspect="NONE" eiid="ei2299" eventID="e2010" polarity="POS" pos="NOUN" tense="NONE" />
 <MAKEINSTANCE aspect="NONE" eiid="ei2300" eventID="e2011" polarity="POS" pos="NOUN" tense="NONE" />
-<TLINK eventInstanceID="ei2274" lid="l0" relType="BEFORE" relatedToEventInstance="ei2275" />
-<TLINK eventInstanceID="ei2275" lid="l1" relType="AFTER" relatedToEventInstance="ei2274" />
+<TLINK eventInstanceID="ei2274" lid="l0" relType="AFTER" relatedToEventInstance="ei2275" />
+<TLINK eventInstanceID="ei2275" lid="l1" relType="BEFORE" relatedToEventInstance="ei2274" />
 <TLINK eventInstanceID="ei2274" lid="l2" relType="BEFORE" relatedToEventInstance="ei2276" />
 <TLINK eventInstanceID="ei2276" lid="l3" relType="AFTER" relatedToEventInstance="ei2274" />
-<TLINK eventInstanceID="ei2274" lid="l4" relType="BEFORE" relatedToEventInstance="ei2277" />
-<TLINK eventInstanceID="ei2277" lid="l5" relType="AFTER" relatedToEventInstance="ei2274" />
-<TLINK eventInstanceID="ei2274" lid="l6" relType="BEFORE" relatedToEventInstance="ei2278" />
-<TLINK eventInstanceID="ei2278" lid="l7" relType="AFTER" relatedToEventInstance="ei2274" />
+<TLINK eventInstanceID="ei2274" lid="l4" relType="AFTER" relatedToEventInstance="ei2277" />
+<TLINK eventInstanceID="ei2277" lid="l5" relType="BEFORE" relatedToEventInstance="ei2274" />
+<TLINK eventInstanceID="ei2274" lid="l6" relType="AFTER" relatedToEventInstance="ei2278" />
+<TLINK eventInstanceID="ei2278" lid="l7" relType="BEFORE" relatedToEventInstance="ei2274" />
 <TLINK eventInstanceID="ei2274" lid="l8" relType="BEFORE" relatedToEventInstance="ei2279" />
 <TLINK eventInstanceID="ei2279" lid="l9" relType="AFTER" relatedToEventInstance="ei2274" />
-<TLINK eventInstanceID="ei2274" lid="l10" relType="BEFORE" relatedToEventInstance="ei2282" />
-<TLINK eventInstanceID="ei2282" lid="l11" relType="AFTER" relatedToEventInstance="ei2274" />
-<TLINK eventInstanceID="ei2275" lid="l12" relType="BEFORE" relatedToEventInstance="ei2276" />
-<TLINK eventInstanceID="ei2276" lid="l13" relType="AFTER" relatedToEventInstance="ei2275" />
-<TLINK eventInstanceID="ei2277" lid="l14" relType="AFTER" relatedToEventInstance="ei2278" />
-<TLINK eventInstanceID="ei2278" lid="l15" relType="BEFORE" relatedToEventInstance="ei2277" />
+<TLINK eventInstanceID="ei2275" lid="l10" relType="BEFORE" relatedToEventInstance="ei2276" />
+<TLINK eventInstanceID="ei2276" lid="l11" relType="AFTER" relatedToEventInstance="ei2275" />
+<TLINK eventInstanceID="ei2277" lid="l12" relType="AFTER" relatedToEventInstance="ei2278" />
+<TLINK eventInstanceID="ei2278" lid="l13" relType="BEFORE" relatedToEventInstance="ei2277" />
+<TLINK eventInstanceID="ei2277" lid="l14" relType="BEFORE" relatedToEventInstance="ei2279" />
+<TLINK eventInstanceID="ei2279" lid="l15" relType="AFTER" relatedToEventInstance="ei2277" />
 <TLINK eventInstanceID="ei2278" lid="l16" relType="BEFORE" relatedToEventInstance="ei2279" />
 <TLINK eventInstanceID="ei2279" lid="l17" relType="AFTER" relatedToEventInstance="ei2278" />
 <TLINK eventInstanceID="ei2279" lid="l18" relType="AFTER" relatedToEventInstance="ei2282" />
@@ -84,12 +84,12 @@ In <TIMEX3 tid="t30" type="DATE" value="1991">nineteen ninety-one</TIMEX3> Charl
 <TLINK eventInstanceID="ei2299" lid="l47" relType="AFTER" relatedToEventInstance="ei2291" />
 <TLINK eventInstanceID="ei2293" lid="l48" relType="BEFORE" relatedToEventInstance="ei2294" />
 <TLINK eventInstanceID="ei2294" lid="l49" relType="AFTER" relatedToEventInstance="ei2293" />
-<TLINK eventInstanceID="ei2293" lid="l50" relType="BEFORE" relatedToEventInstance="ei2298" />
-<TLINK eventInstanceID="ei2298" lid="l51" relType="AFTER" relatedToEventInstance="ei2293" />
-<TLINK eventInstanceID="ei2293" lid="l52" relType="BEFORE" relatedToEventInstance="ei2299" />
-<TLINK eventInstanceID="ei2299" lid="l53" relType="AFTER" relatedToEventInstance="ei2293" />
-<TLINK eventInstanceID="ei2298" lid="l54" relType="BEFORE" relatedToEventInstance="ei2299" />
-<TLINK eventInstanceID="ei2299" lid="l55" relType="AFTER" relatedToEventInstance="ei2298" />
+<TLINK eventInstanceID="ei2293" lid="l50" relType="BEFORE" relatedToEventInstance="ei2296" />
+<TLINK eventInstanceID="ei2296" lid="l51" relType="AFTER" relatedToEventInstance="ei2293" />
+<TLINK eventInstanceID="ei2293" lid="l52" relType="BEFORE" relatedToEventInstance="ei2298" />
+<TLINK eventInstanceID="ei2298" lid="l53" relType="AFTER" relatedToEventInstance="ei2293" />
+<TLINK eventInstanceID="ei2293" lid="l54" relType="BEFORE" relatedToEventInstance="ei2299" />
+<TLINK eventInstanceID="ei2299" lid="l55" relType="AFTER" relatedToEventInstance="ei2293" />
 <TLINK eventInstanceID="ei2268" lid="l56" relType="INCLUDES" relatedToEventInstance="ei2270" />
 <TLINK eventInstanceID="ei2270" lid="l57" relType="IS_INCLUDED" relatedToEventInstance="ei2271" />
 <TLINK eventInstanceID="ei2270" lid="l58" relType="BEFORE" relatedToEventInstance="ei2272" />

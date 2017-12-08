@@ -28,12 +28,12 @@ There were more accounts of people <EVENT class="OCCURRENCE" eid="e3">fleeing</E
 <MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei215" eventID="e16" polarity="POS" pos="VERB" tense="PRESENT" />
 <MAKEINSTANCE aspect="NONE" eiid="ei216" eventID="e36" polarity="POS" pos="NOUN" tense="NONE" />
 <MAKEINSTANCE aspect="NONE" eiid="ei217" eventID="e37" polarity="POS" pos="NOUN" tense="NONE" />
-<TLINK eventInstanceID="ei203" lid="l0" relType="AFTER" relatedToEventInstance="ei209" />
-<TLINK eventInstanceID="ei209" lid="l1" relType="BEFORE" relatedToEventInstance="ei203" />
-<TLINK eventInstanceID="ei204" lid="l2" relType="AFTER" relatedToEventInstance="ei212" />
-<TLINK eventInstanceID="ei212" lid="l3" relType="BEFORE" relatedToEventInstance="ei204" />
-<TLINK eventInstanceID="ei206" lid="l4" relType="AFTER" relatedToEventInstance="ei209" />
-<TLINK eventInstanceID="ei209" lid="l5" relType="BEFORE" relatedToEventInstance="ei206" />
+<TLINK eventInstanceID="ei204" lid="l0" relType="AFTER" relatedToEventInstance="ei212" />
+<TLINK eventInstanceID="ei212" lid="l1" relType="BEFORE" relatedToEventInstance="ei204" />
+<TLINK eventInstanceID="ei206" lid="l2" relType="AFTER" relatedToEventInstance="ei212" />
+<TLINK eventInstanceID="ei212" lid="l3" relType="BEFORE" relatedToEventInstance="ei206" />
+<TLINK eventInstanceID="ei209" lid="l4" relType="AFTER" relatedToEventInstance="ei212" />
+<TLINK eventInstanceID="ei212" lid="l5" relType="BEFORE" relatedToEventInstance="ei209" />
 <TLINK eventInstanceID="ei211" lid="l6" relType="AFTER" relatedToEventInstance="ei212" />
 <TLINK eventInstanceID="ei212" lid="l7" relType="BEFORE" relatedToEventInstance="ei211" />
 <TLINK eventInstanceID="ei212" lid="l8" relType="BEFORE" relatedToEventInstance="ei215" />
