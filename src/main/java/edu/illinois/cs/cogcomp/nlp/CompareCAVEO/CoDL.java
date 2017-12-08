@@ -1,5 +1,6 @@
 package edu.illinois.cs.cogcomp.nlp.CompareCAVEO;
 
+import edu.illinois.cs.cogcomp.core.datastructures.textannotation.TextAnnotation;
 import edu.illinois.cs.cogcomp.core.io.IOUtils;
 import edu.illinois.cs.cogcomp.core.utilities.configuration.ResourceManager;
 import edu.illinois.cs.cogcomp.nlp.classifier.lbj.perceptron.ClassifierConfigurator;
@@ -11,6 +12,8 @@ import edu.illinois.cs.cogcomp.nlp.corpusreaders.TempEval3Reader;
 import edu.illinois.cs.cogcomp.nlp.timeline.LocalEEClassifierExp;
 import edu.illinois.cs.cogcomp.nlp.timeline.LocalETClassifierExp;
 import edu.illinois.cs.cogcomp.nlp.timeline.test.sieve_output;
+import edu.illinois.cs.cogcomp.nlp.util.PrecisionRecallManager;
+import edu.uw.cs.lil.uwtime.chunking.chunks.EventChunk;
 import edu.uw.cs.lil.uwtime.data.TemporalDocument;
 import jdk.nashorn.internal.objects.Global;
 
@@ -169,7 +172,7 @@ public class CoDL {
         else
             exp.cacheDir = "serialized_data/Chambers/CoDL/Platinum/"+"lambda"+String.valueOf(lambda)+"_"+
                     "kl"+String.valueOf(kl_threshold)+"/";
-        exp.force_update = true;
+        exp.force_update = false;
         exp.kl_threshold = kl_threshold;
         exp.sentDistFilter = true;
 
@@ -181,9 +184,60 @@ public class CoDL {
         exp.CAVEO_output = CAVEO_output;
 
         List<TemporalDocument> predPlatinum = exp.solve();
+        List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000");
+        //List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000_newfeat");
+        PrecisionRecallManager evaluator = new PrecisionRecallManager();
+        PrecisionRecallManager evaluator_kbcom = new PrecisionRecallManager();
         for(TemporalDocument doc:predPlatinum) {
             doc.temporalDocumentToText(dir + File.separator + doc.getDocID() + ".tml");
+            TemporalDocument doc2 = new TemporalDocument(doc);
+            TemporalDocument tmp=null;
+            for(TemporalDocument kbcom_doc:kbcom){
+                if(kbcom_doc.getDocID().equals(doc2.getDocID())){
+                    tmp = kbcom_doc;
+                    break;
+                }
+            }
+            if(tmp==null)
+                continue;
+            List<TLINK> newtlinks = new ArrayList<>();
+            for(TLINK tt:tmp.getBodyTlinks()){
+                newtlinks.add(tt);
+                newtlinks.add(tt.converse());
+            }
+            for(TLINK tt:doc2.getBodyTlinks()){
+                if(tmp.checkTlinkExistence(tt))
+                    continue;
+                newtlinks.add(tt);
+            }
+            doc2.setBodyTlinks(newtlinks);
+            doc2.temporalDocumentToText(dir+"_kbcom" + File.separator + doc2.getDocID() + ".tml");
+            //doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
+            for(TemporalDocument golddoc:Platinum){
+                for(TLINK tt:golddoc.getBodyTlinks()){
+                    if(!tt.getSourceType().equals(TempEval3Reader.Type_Event)
+                            ||!tt.getTargetType().equals(TempEval3Reader.Type_Event))
+                        continue;
+                    TextAnnotation ta = golddoc.getTextAnnotation();
+                    EventChunk ec1 = golddoc.getEventMentionFromEIID(tt.getSourceId());
+                    EventChunk ec2 = golddoc.getEventMentionFromEIID(tt.getTargetId());
+                    int sentid1 = ta.getSentenceId(ta.getTokenIdFromCharacterOffset(ec1.getCharStart()));
+                    int sentid2 = ta.getSentenceId(ta.getTokenIdFromCharacterOffset(ec2.getCharStart()));
+                    if(Math.abs(sentid1-sentid2)>1)
+                        continue;
+
+                    String gold = tt.getReducedRelType().toStringfull();
+                    TLINK.TlinkType predtt = doc.getTlinkType_general(doc.getEventMentionFromEIID(tt.getSourceId()),doc.getEventMentionFromEIID(tt.getTargetId()));
+                    String pred = predtt==null? TLINK.TlinkType.UNDEF.toStringfull():predtt.toStringfull();
+                    TLINK.TlinkType predtt_kbcom = doc2.getTlinkType_general(doc2.getEventMentionFromEIID(tt.getSourceId()),doc2.getEventMentionFromEIID(tt.getTargetId()));
+                    String pred_kbcom = predtt_kbcom==null? TLINK.TlinkType.UNDEF.toStringfull():predtt_kbcom.toStringfull();
+                    evaluator.addPredGoldLabels(pred,gold);
+                    evaluator_kbcom.addPredGoldLabels(pred_kbcom,gold);
+                }
+            }
         }
+        evaluator.printPrecisionRecall(new String[]{TLINK.TlinkType.UNDEF.toStringfull()});
+        evaluator_kbcom.printPrecisionRecall(new String[]{TLINK.TlinkType.UNDEF.toStringfull()});
     }
 
     public static void main(String[] args) throws Exception{
@@ -251,6 +305,8 @@ public class CoDL {
                     String.valueOf(kl_th) + "_"  +
                     String.valueOf(maxIter);
         IOUtils.mkdir(dir);
+        IOUtils.mkdir(dir+"_kbcom");
+        //IOUtils.mkdir(dir+"_kbcom_newfeat");
         exp.loadPlatinum();
         exp.testModelOnP(dir);
 
@@ -270,5 +326,18 @@ public class CoDL {
                     String.valueOf(kl_th) + "_"  +
                     String.valueOf(maxIter);
         Process pr = rt.exec(cmd);
+
+        cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom" + " "+
+                "chambers_codl_tdtest_"+
+                String.valueOf(lambda) + "_" +
+                String.valueOf(kl_th) + "_"  +
+                String.valueOf(maxIter)+"_kbcom";
+        /*cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom_newfeat" + " "+
+                "chambers_codl_tdtest_"+
+                String.valueOf(lambda) + "_" +
+                String.valueOf(kl_th) + "_"  +
+                String.valueOf(maxIter)+"_kbcom_newfeat";*/
+        Process pr2 = rt.exec(cmd);
+
     }
 }

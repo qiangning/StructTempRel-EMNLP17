@@ -618,6 +618,15 @@ public class TemporalDocument implements Serializable, IDataCollection<TemporalS
         TLINK tlink = getTlink(o1,o2);
         return tlink!=null?tlink.getReducedRelType():null;
     }
+    public TlinkType getTlinkType_general(Object o1, Object o2){
+        TLINK tlink = getTlink(o1,o2);
+        if(tlink!=null)
+            return tlink.getReducedRelType();
+        TLINK tlink_r = getTlink(o2,o1);
+        if(tlink_r!=null)
+            return tlink_r.converse().getReducedRelType();
+        return null;
+    }
     public boolean checkTlinkExistence(TLINK tlink){
         boolean ext = false;
         for(TLINK t:bodyTlinks){
