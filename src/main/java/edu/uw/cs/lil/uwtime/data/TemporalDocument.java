@@ -1154,4 +1154,39 @@ public class TemporalDocument implements Serializable, IDataCollection<TemporalS
             System.err.println("Unable to open file");
         }
     }
+    public void printAllTlinks_TBDenseFormat(String outputFilename){
+        try {
+            PrintStream ps = new PrintStream(outputFilename);
+            for(TLINK tt:getBodyTlinks()){
+                String content = docID;
+                content+="\t";
+                if(tt.getSourceType().equals(TempEval3Reader.Type_Event)){
+                    int eiid = tt.getSourceId();
+                    int eid = getEventMentionFromEIID(eiid).getEid();
+                    content+=String.format("e%d#e%d",eiid,eid);
+                }
+                else{
+                    int tid = tt.getSourceId();
+                    content+="t"+tid;
+                }
+                content+="\t";
+                if(tt.getTargetType().equals(TempEval3Reader.Type_Event)){
+                    int eiid = tt.getTargetId();
+                    int eid = getEventMentionFromEIID(eiid).getEid();
+                    content+=String.format("e%d#e%d",eiid,eid);
+                }
+                else{
+                    int tid = tt.getTargetId();
+                    content+="t"+tid;
+                }
+                content+="\t";
+                content+=tt.getReducedRelType().toStringfull();
+                content+="\n";
+                ps.print(content);
+            }
+            ps.close();
+        } catch (FileNotFoundException e) {
+            System.err.println("Unable to open file");
+        }
+    }
 }

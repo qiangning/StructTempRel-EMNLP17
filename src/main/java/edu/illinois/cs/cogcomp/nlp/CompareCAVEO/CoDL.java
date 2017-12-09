@@ -205,6 +205,7 @@ public class CoDL {
                 newtlinks.add(tt);
                 newtlinks.add(tt.converse());
             }
+            tmp.printAllTlinks_TBDenseFormat("output/Chambers/codl/TD-Test/TBDenseFormat_kbcom_newfeat/"+tmp.getDocID()+".txt");
             for(TLINK tt:doc2.getBodyTlinks()){
                 if(tmp.checkTlinkExistence(tt))
                     continue;
@@ -212,7 +213,7 @@ public class CoDL {
             }
             doc2.setBodyTlinks(newtlinks);
             //doc2.temporalDocumentToText(dir+"_kbcom" + File.separator + doc2.getDocID() + ".tml");
-            doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
+            //doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
             for(TemporalDocument golddoc:Platinum){
                 for(TLINK tt:golddoc.getBodyTlinks()){
                     if(!tt.getSourceType().equals(TempEval3Reader.Type_Event)
@@ -325,7 +326,7 @@ public class CoDL {
                     String.valueOf(lambda) + "_" +
                     String.valueOf(kl_th) + "_"  +
                     String.valueOf(maxIter);
-        Process pr = rt.exec(cmd);
+        //Process pr = rt.exec(cmd);
 
         /*cmd = "sh scripts/evaluate_general.sh ./output/Chambers/gold " + dir+"_kbcom" + " "+
                 "chambers_codl_tdtest_"+
@@ -337,7 +338,7 @@ public class CoDL {
                 String.valueOf(lambda) + "_" +
                 String.valueOf(kl_th) + "_"  +
                 String.valueOf(maxIter)+"_kbcom_newfeat";
-        Process pr2 = rt.exec(cmd);
+        //Process pr2 = rt.exec(cmd);
 
     }
 }
