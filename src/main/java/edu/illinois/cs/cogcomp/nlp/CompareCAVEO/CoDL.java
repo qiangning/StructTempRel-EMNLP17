@@ -185,7 +185,10 @@ public class CoDL {
 
         List<TemporalDocument> predPlatinum = exp.solve();
         //List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000");
-        List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000_newfeat");
+        //List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_regGloVe42BK1000_newfeat");
+        //List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_newfeat");
+        List<TemporalDocument> kbcom = TempEval3Reader.deserialize("/home/qning2/Research/KBconstruction/serialized_data/TBDense-SRLEvent/best/noClustering_allLabels_vagueCorr2_newfeat_101goldprop");
+
         PrecisionRecallManager evaluator = new PrecisionRecallManager();
         PrecisionRecallManager evaluator_kbcom = new PrecisionRecallManager();
         for(TemporalDocument doc:predPlatinum) {
@@ -213,7 +216,7 @@ public class CoDL {
             }
             doc2.setBodyTlinks(newtlinks);
             //doc2.temporalDocumentToText(dir+"_kbcom" + File.separator + doc2.getDocID() + ".tml");
-            //doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
+            doc2.temporalDocumentToText(dir+"_kbcom_newfeat" + File.separator + doc2.getDocID() + ".tml");
             for(TemporalDocument golddoc:Platinum){
                 for(TLINK tt:golddoc.getBodyTlinks()){
                     if(!tt.getSourceType().equals(TempEval3Reader.Type_Event)
@@ -338,7 +341,7 @@ public class CoDL {
                 String.valueOf(lambda) + "_" +
                 String.valueOf(kl_th) + "_"  +
                 String.valueOf(maxIter)+"_kbcom_newfeat";
-        //Process pr2 = rt.exec(cmd);
+        Process pr2 = rt.exec(cmd);
 
     }
 }
