@@ -37,8 +37,8 @@ import java.util.Random;
 public class SL_EE_Exp {
     private static int MAX_EVENTS_Train = 60;//60 will ignore 2/20 in platinum
     private static int MAX_EVENTS_Test = 80;
-    private static final boolean usePriorInTrain = false;
-    private static final boolean usePriorInTest = false;
+    private static final boolean usePriorInTrain = true;
+    private static final boolean usePriorInTest = true;
     private static int none_edge = Integer.MAX_VALUE;
     private static int ignore_edge = 2;
     private static int include_edge = 1;
@@ -207,7 +207,7 @@ public class SL_EE_Exp {
     public static void test(SLProblem sp, String modelPath, String outdir, boolean gold_et_or_not, double kl_th)
             throws Exception {
         boolean force_update = true;
-        String cacheDir = "serialized_data/McNemar-known/sl";
+        String cacheDir = "serialized_data/Platinum_SL_UsePrior";
 
         SLModel model = SLModel.loadModel(modelPath);
         PrecisionRecallManager evaluator = new PrecisionRecallManager();
@@ -222,13 +222,21 @@ public class SL_EE_Exp {
         }
         else{
             if(usePriorInTest){
-
+                ResourceManager rm = new ClassifierConfigurator().getDefaultConfig();
+                LocalETClassifierExp tester = new LocalETClassifierExp(null, null, rm.getString("etModelDirPath"), rm.getString("etModelName"));
+                LocalETClassifierExp.filter_on = !usePriorInTest;
+                LocalETClassifierExp.addVagueTlinks = false;
+                LocalETClassifierExp.knownNONEs = usePriorInTest;
+                for(int i=0;i<sp.instanceList.size();i++){
+                    temporalInstance docInst = (temporalInstance) sp.instanceList.get(i);
+                    TemporalDocument doc_localet = tester.testOnDoc(docInst.doc,TLINK.ignore_tlink);
+                    localets.add(doc_localet);
+                }
             }
             else {
                 localets = TempEval3Reader.deserialize("./serialized_data/ClearTK_Output");
             }
         }
-        List<TemporalDocument> distantpairs = TempEval3Reader.deserialize("./serialized_data/LpI_farpairs");
         for (int i = 0; i < sp.instanceList.size(); i++) {
             temporalInstance docInst = (temporalInstance) sp.instanceList.get(i);
             System.out.printf("Solving: [" + (i + 1) + "/" + sp.instanceList.size() + "]:" + docInst.doc.getDocID() + "...");
@@ -283,57 +291,62 @@ public class SL_EE_Exp {
                 }
             }
             docPred = docInst.tempstruct2tempinst(prediction);
-            /*Filter out distant event pairs*/
-            int dist_filter = 1;
-            List<TLINK> filtered = new ArrayList<>();
-            for(TLINK tlink:docPred.getBodyTlinks()){
-                if(!tlink.getSourceType().equals(TempEval3Reader.Type_Event)
-                        ||!tlink.getTargetType().equals(TempEval3Reader.Type_Event)){
+            if(!usePriorInTrain||!usePriorInTest) {
+                /*Filter out distant event pairs*/
+                int dist_filter = 1;
+                List<TLINK> filtered = new ArrayList<>();
+                for (TLINK tlink : docPred.getBodyTlinks()) {
+                    if (!tlink.getSourceType().equals(TempEval3Reader.Type_Event)
+                            || !tlink.getTargetType().equals(TempEval3Reader.Type_Event)) {
+                        filtered.add(tlink);
+                        continue;
+                    }
+                    EventChunk ec1 = docPred.getEventMentionFromEIID(tlink.getSourceId());
+                    EventChunk ec2 = docPred.getEventMentionFromEIID(tlink.getTargetId());
+                    int sentId1 = docPred.getSentId(ec1);
+                    int sentId2 = docPred.getSentId(ec2);
+                    if (!usePriorInTest) {
+                        if (Math.abs(sentId1 - sentId2) >= dist_filter)
+                            continue;
+                        double[] p = localScores[docPred.getBodyEventMentions().indexOf(ec1)][docPred.getBodyEventMentions().indexOf(ec2)];
+                        double[] q = new double[]{1.0 / 6, 1.0 / 6, 1.0 / 6, 1.0 / 6, 1.0 / 6, 1.0 / 6};
+                        double kl = KLDiv.kldivergence(p, q);
+                        if (kl < kl_th)
+                            continue;
+                    }
                     filtered.add(tlink);
-                    continue;
                 }
-                EventChunk ec1 = docPred.getEventMentionFromEIID(tlink.getSourceId());
-                EventChunk ec2 = docPred.getEventMentionFromEIID(tlink.getTargetId());
-                int sentId1 = docPred.getSentId(ec1);
-                int sentId2 = docPred.getSentId(ec2);
-                if(!usePriorInTest) {
-                    if (Math.abs(sentId1 - sentId2) >= dist_filter)
-                        continue;
-                    double[] p = localScores[docPred.getBodyEventMentions().indexOf(ec1)][docPred.getBodyEventMentions().indexOf(ec2)];
-                    double[] q = new double[]{1.0/6,1.0/6,1.0/6,1.0/6,1.0/6,1.0/6};
-                    double kl = KLDiv.kldivergence(p,q);
-                    if(kl<kl_th)
-                        continue;
-                }
-                filtered.add(tlink);
-            }
-            /*Add distant EE predictions from L+I*/
-            for(TemporalDocument doc:distantpairs){
-                if(doc.getDocID().equals(docPred.getDocID())){
-                    List<TLINK> distant_et = doc.getEElinks();
-                    for(TLINK tl:distant_et) {
-                        EventChunk ec1 = doc.getEventMentionFromEIID(tl.getSourceId());
-                        EventChunk ec2 = doc.getEventMentionFromEIID(tl.getTargetId());
-                        int sentId1 = doc.getSentId(ec1);
-                        int sentId2 = doc.getSentId(ec2);
-                        if(!usePriorInTest){
-                            if (Math.abs(sentId1 - sentId2) >= dist_filter){
-                                filtered.add(tl);
+                /*Add distant EE predictions from L+I*/
+                List<TemporalDocument> distantpairs = TempEval3Reader.deserialize("./serialized_data/LpI_farpairs");
+                for (TemporalDocument doc : distantpairs) {
+                    if (doc.getDocID().equals(docPred.getDocID())) {
+                        List<TLINK> distant_et = doc.getEElinks();
+                        for (TLINK tl : distant_et) {
+                            EventChunk ec1 = doc.getEventMentionFromEIID(tl.getSourceId());
+                            EventChunk ec2 = doc.getEventMentionFromEIID(tl.getTargetId());
+                            int sentId1 = doc.getSentId(ec1);
+                            int sentId2 = doc.getSentId(ec2);
+                            if (!usePriorInTest) {
+                                if (Math.abs(sentId1 - sentId2) >= dist_filter) {
+                                    filtered.add(tl);
+                                }
                             }
                         }
+                        break;
                     }
-                    break;
                 }
+                docPred.setBodyTlinks(filtered);
             }
-            /*Add cleartk ET*/
+            /*Add local/cleartk ET*/
+            List<TLINK> newtlinks = docPred.getBodyTlinks();
             for(TemporalDocument doc:localets){
                 if(doc.getDocID().equals(docInst.doc.getDocID())){
-                    filtered.addAll(doc.getETlinks());
-                    System.out.println("Replacing with ET from cleartk.");
+                    newtlinks.addAll(doc.getETlinks());
+                    System.out.println("Replacing with ET from cleartk or my own classifier (please read paper).");
                     break;
                 }
             }
-            docPred.setBodyTlinks(filtered);
+            docPred.setBodyTlinks(newtlinks);
 
             /*write to disk for evaluation*/
             docPred.serialize(cacheDir,docPred.getDocID(),true);
